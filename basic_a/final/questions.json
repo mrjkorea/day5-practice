@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Final Exam",
+    "kind": "final",
+    "units_covered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 25,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_final_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_final_aud_word_one",
+      "image_ids": [
+        "pic_number_20",
+        "pic_type_id",
+        "pic_number_6",
+        "pic_number_1"
+      ],
+      "choices": [
+        "pic_number_20",
+        "pic_type_id",
+        "pic_number_6",
+        "pic_number_1"
+      ],
+      "correct": "pic_number_1",
+      "why_wrong": {
+        "pic_number_20": "Not this one. Try again!",
+        "pic_type_id": "Not this one. Try again!",
+        "pic_number_6": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_final_aud_word_two",
+      "image_ids": [
+        "pic_number_2",
+        "pic_help_me",
+        "pic_headset",
+        "pic_number_9"
+      ],
+      "choices": [
+        "pic_number_2",
+        "pic_help_me",
+        "pic_headset",
+        "pic_number_9"
+      ],
+      "correct": "pic_number_2",
+      "why_wrong": {
+        "pic_help_me": "Not this one. Try again!",
+        "pic_headset": "Not this one. Try again!",
+        "pic_number_9": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_final_aud_word_three",
+      "image_ids": [
+        "pic_restart",
+        "pic_number_33",
+        "pic_number_3",
+        "pic_sorry"
+      ],
+      "choices": [
+        "pic_restart",
+        "pic_number_33",
+        "pic_number_3",
+        "pic_sorry"
+      ],
+      "correct": "pic_number_3",
+      "why_wrong": {
+        "pic_restart": "Not this one. Try again!",
+        "pic_number_33": "Not this one. Try again!",
+        "pic_sorry": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_final_aud_listen_one",
+      "image_ids": [
+        "pic_number_1"
+      ],
+      "choices": [
+        "twelve",
+        "restart",
+        "run fast",
+        "one"
+      ],
+      "correct": "one",
+      "why_wrong": {
+        "twelve": "Not this one. Try again!",
+        "restart": "Not this one. Try again!",
+        "run fast": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_final_aud_listen_two",
+      "image_ids": [
+        "pic_number_2"
+      ],
+      "choices": [
+        "fifty-five",
+        "X",
+        "left click",
+        "two"
+      ],
+      "correct": "two",
+      "why_wrong": {
+        "fifty-five": "Not this one. Try again!",
+        "X": "Not this one. Try again!",
+        "left click": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_final_aud_listen_three",
+      "image_ids": [
+        "pic_number_3"
+      ],
+      "choices": [
+        "right click",
+        "one",
+        "book",
+        "three"
+      ],
+      "correct": "three",
+      "why_wrong": {
+        "right click": "Not this one. Try again!",
+        "one": "Not this one. Try again!",
+        "book": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_33"
+      ],
+      "choices": [
+        "two",
+        "three",
+        "one",
+        "thirty-three"
+      ],
+      "correct": "thirty-three",
+      "why_wrong": {
+        "two": "Not this one. Try again!",
+        "three": "Not this one. Try again!",
+        "one": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_55"
+      ],
+      "choices": [
+        "three",
+        "fifty-five",
+        "one",
+        "two"
+      ],
+      "correct": "fifty-five",
+      "why_wrong": {
+        "three": "Not this one. Try again!",
+        "one": "Not this one. Try again!",
+        "two": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_100"
+      ],
+      "choices": [
+        "three",
+        "two",
+        "one",
+        "one hundred"
+      ],
+      "correct": "one hundred",
+      "why_wrong": {
+        "three": "Not this one. Try again!",
+        "two": "Not this one. Try again!",
+        "one": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q10",
+      "type": 4,
+      "prompt_text": "Student says: “One”  What does Mr Jay say?",
+      "audio_id": "ba_final_aud_stu_10",
+      "image_ids": [
+        "pic_cat"
+      ],
+      "choices": [
+        "I have one mother",
+        "four is spelled f.o.u.r.",
+        "two is spelled t.w.o.",
+        "three is spelled t.h.r.e.e."
+      ],
+      "correct": "I have one mother",
+      "why_wrong": {
+        "four is spelled f.o.u.r.": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!",
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q11",
+      "type": 4,
+      "prompt_text": "Student says: “Two”  What does Mr Jay say?",
+      "audio_id": "ba_final_aud_stu_11",
+      "image_ids": [
+        "pic_dog"
+      ],
+      "choices": [
+        "two is spelled t.w.o.",
+        "four is spelled f.o.u.r.",
+        "three is spelled t.h.r.e.e.",
+        "I have one mother"
+      ],
+      "correct": "two is spelled t.w.o.",
+      "why_wrong": {
+        "four is spelled f.o.u.r.": "Not this one. Try again!",
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "I have one mother": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Three”  What does Mr Jay say?",
+      "audio_id": "ba_final_aud_stu_12",
+      "image_ids": [
+        "pic_cow"
+      ],
+      "choices": [
+        "four is spelled f.o.u.r.",
+        "three is spelled t.h.r.e.e.",
+        "I have one mother",
+        "two is spelled t.w.o."
+      ],
+      "correct": "three is spelled t.h.r.e.e.",
+      "why_wrong": {
+        "four is spelled f.o.u.r.": "Not this one. Try again!",
+        "I have one mother": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q13",
+      "type": 5,
+      "prompt_text": "Cue: 1 / 일  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_1"
+      ],
+      "choices": [
+        "one",
+        "two",
+        "four",
+        "three"
+      ],
+      "correct": "one",
+      "why_wrong": {
+        "two": "Not this one. Try again!",
+        "four": "Not this one. Try again!",
+        "three": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q14",
+      "type": 5,
+      "prompt_text": "Cue: 2 / 이  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_2"
+      ],
+      "choices": [
+        "one",
+        "two",
+        "four",
+        "three"
+      ],
+      "correct": "two",
+      "why_wrong": {
+        "one": "Not this one. Try again!",
+        "four": "Not this one. Try again!",
+        "three": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q15",
+      "type": 6,
+      "prompt_text": "Spell “two”. Click the correct spelling.",
+      "audio_id": "ba_final_aud_spell_two",
+      "image_ids": [
+        "pic_number_2"
+      ],
+      "choices": [
+        "s.e.v.e.n",
+        "t.h.r.e.e.",
+        "f.o.u.r.",
+        "t.w.o."
+      ],
+      "correct": "t.w.o.",
+      "why_wrong": {
+        "s.e.v.e.n": "Not this one. Try again!",
+        "t.h.r.e.e.": "Not this one. Try again!",
+        "f.o.u.r.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q16",
+      "type": 6,
+      "prompt_text": "Spell “three”. Click the correct spelling.",
+      "audio_id": "ba_final_aud_spell_three",
+      "image_ids": [
+        "pic_number_3"
+      ],
+      "choices": [
+        "t.w.o.",
+        "t.h.r.e.e.",
+        "s.e.v.e.n",
+        "f.o.u.r."
+      ],
+      "correct": "t.h.r.e.e.",
+      "why_wrong": {
+        "t.w.o.": "Not this one. Try again!",
+        "s.e.v.e.n": "Not this one. Try again!",
+        "f.o.u.r.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q17",
+      "type": 6,
+      "prompt_text": "Spell “four”. Click the correct spelling.",
+      "audio_id": "ba_final_aud_spell_four",
+      "image_ids": [
+        "pic_number_4"
+      ],
+      "choices": [
+        "t.h.r.e.e.",
+        "t.w.o.",
+        "s.e.v.e.n",
+        "f.o.u.r."
+      ],
+      "correct": "f.o.u.r.",
+      "why_wrong": {
+        "t.h.r.e.e.": "Not this one. Try again!",
+        "t.w.o.": "Not this one. Try again!",
+        "s.e.v.e.n": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_final_aud_sent_18",
+      "image_ids": [
+        "pic_duck"
+      ],
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "correct": "One",
+      "why_wrong": {
+        "Two": "Not this one. Try again!",
+        "Three": "Not this one. Try again!",
+        "Four": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_final_aud_sent_19",
+      "image_ids": [
+        "pic_spider"
+      ],
+      "choices": [
+        "Two",
+        "Four",
+        "Three",
+        "One"
+      ],
+      "correct": "Two",
+      "why_wrong": {
+        "Four": "Not this one. Try again!",
+        "Three": "Not this one. Try again!",
+        "One": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_final_aud_sent_20",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "Four",
+        "Three",
+        "One",
+        "Two"
+      ],
+      "correct": "Three",
+      "why_wrong": {
+        "Four": "Not this one. Try again!",
+        "One": "Not this one. Try again!",
+        "Two": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q21",
+      "type": 4,
+      "prompt_text": "Review: Student says “Scroll down”. What does Mr Jay say?",
+      "audio_id": "ba_final_aud_rev_21",
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "Okay",
+        "three is spelled t.h.r.e.e.",
+        "two is spelled t.w.o.",
+        "I have one mother"
+      ],
+      "correct": "Okay",
+      "why_wrong": {
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!",
+        "I have one mother": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q22",
+      "type": 4,
+      "prompt_text": "Review: Student says “type your ID”. What does Mr Jay say?",
+      "audio_id": "ba_final_aud_rev_22",
+      "image_ids": [
+        "pic_type_id"
+      ],
+      "choices": [
+        "No problem",
+        "three is spelled t.h.r.e.e.",
+        "I have one mother",
+        "two is spelled t.w.o."
+      ],
+      "correct": "No problem",
+      "why_wrong": {
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "I have one mother": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q23",
+      "type": 4,
+      "prompt_text": "Review: Student says “Make a new tab”. What does Mr Jay say?",
+      "audio_id": "ba_final_aud_rev_23",
+      "image_ids": [
+        "pic_new_tab"
+      ],
+      "choices": [
+        "I have one mother",
+        "three is spelled t.h.r.e.e.",
+        "two is spelled t.w.o.",
+        "Okay"
+      ],
+      "correct": "Okay",
+      "why_wrong": {
+        "I have one mother": "Not this one. Try again!",
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q24",
+      "type": 4,
+      "prompt_text": "Review: Student says “Left click”. What does Mr Jay say?",
+      "audio_id": "ba_final_aud_rev_24",
+      "image_ids": [
+        "pic_left_click"
+      ],
+      "choices": [
+        "No problem",
+        "three is spelled t.h.r.e.e.",
+        "I have one mother",
+        "two is spelled t.w.o."
+      ],
+      "correct": "No problem",
+      "why_wrong": {
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "I have one mother": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_final_q25",
+      "type": 4,
+      "prompt_text": "Review: Student says “Right click”. What does Mr Jay say?",
+      "audio_id": "ba_final_aud_rev_25",
+      "image_ids": [
+        "pic_right_click"
+      ],
+      "choices": [
+        "I have one mother",
+        "three is spelled t.h.r.e.e.",
+        "Okay",
+        "two is spelled t.w.o."
+      ],
+      "correct": "Okay",
+      "why_wrong": {
+        "I have one mother": "Not this one. Try again!",
+        "three is spelled t.h.r.e.e.": "Not this one. Try again!",
+        "two is spelled t.w.o.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    }
+  ]
+}

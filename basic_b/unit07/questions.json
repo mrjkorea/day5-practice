@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 7: What color is that?",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u07_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u07_aud_word_white",
+      "image_ids": [
+        "pic_color_white",
+        "pic_color_purple",
+        "pic_color_brown",
+        "pic_rainbow"
+      ],
+      "choices": [
+        "pic_color_white",
+        "pic_color_purple",
+        "pic_color_brown",
+        "pic_rainbow"
+      ],
+      "correct": "pic_color_white",
+      "why_wrong": {
+        "pic_color_purple": "Not this one. Try again!",
+        "pic_color_brown": "Not this one. Try again!",
+        "pic_rainbow": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u07_aud_word_black",
+      "image_ids": [
+        "pic_color_yellow",
+        "pic_color_green",
+        "pic_color_black",
+        "pic_color_white"
+      ],
+      "choices": [
+        "pic_color_yellow",
+        "pic_color_green",
+        "pic_color_black",
+        "pic_color_white"
+      ],
+      "correct": "pic_color_black",
+      "why_wrong": {
+        "pic_color_yellow": "Not this one. Try again!",
+        "pic_color_green": "Not this one. Try again!",
+        "pic_color_white": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u07_aud_word_brown",
+      "image_ids": [
+        "pic_color_blue",
+        "pic_color_black",
+        "pic_color_brown",
+        "pic_rainbow"
+      ],
+      "choices": [
+        "pic_color_blue",
+        "pic_color_black",
+        "pic_color_brown",
+        "pic_rainbow"
+      ],
+      "correct": "pic_color_brown",
+      "why_wrong": {
+        "pic_color_blue": "Not this one. Try again!",
+        "pic_color_black": "Not this one. Try again!",
+        "pic_rainbow": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u07_aud_listen_white",
+      "image_ids": [
+        "pic_color_white"
+      ],
+      "choices": [
+        "blue",
+        "yellow",
+        "brown",
+        "white"
+      ],
+      "correct": "white",
+      "why_wrong": {
+        "blue": "Not this one. Try again!",
+        "yellow": "Not this one. Try again!",
+        "brown": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u07_aud_listen_black",
+      "image_ids": [
+        "pic_color_black"
+      ],
+      "choices": [
+        "orange",
+        "black",
+        "red",
+        "rainbow"
+      ],
+      "correct": "black",
+      "why_wrong": {
+        "orange": "Not this one. Try again!",
+        "red": "Not this one. Try again!",
+        "rainbow": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u07_aud_listen_brown",
+      "image_ids": [
+        "pic_color_brown"
+      ],
+      "choices": [
+        "blue",
+        "yellow",
+        "brown",
+        "red"
+      ],
+      "correct": "brown",
+      "why_wrong": {
+        "blue": "Not this one. Try again!",
+        "yellow": "Not this one. Try again!",
+        "red": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_color_blue"
+      ],
+      "choices": [
+        "blue",
+        "brown",
+        "white",
+        "black"
+      ],
+      "correct": "blue",
+      "why_wrong": {
+        "brown": "Not this one. Try again!",
+        "white": "Not this one. Try again!",
+        "black": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_color_purple"
+      ],
+      "choices": [
+        "purple",
+        "brown",
+        "white",
+        "black"
+      ],
+      "correct": "purple",
+      "why_wrong": {
+        "brown": "Not this one. Try again!",
+        "white": "Not this one. Try again!",
+        "black": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_rainbow"
+      ],
+      "choices": [
+        "rainbow",
+        "white",
+        "brown",
+        "black"
+      ],
+      "correct": "rainbow",
+      "why_wrong": {
+        "white": "Not this one. Try again!",
+        "brown": "Not this one. Try again!",
+        "black": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q10",
+      "type": 4,
+      "prompt_text": "Student says: “It is white.”  What does Mr Jay say?",
+      "audio_id": "bb_u07_aud_stu_10",
+      "image_ids": [
+        "pic_color_white"
+      ],
+      "choices": [
+        "brown is spelled B R O W N",
+        "black is spelled B L A C K",
+        "white is spelled W H I T E",
+        "apples are red"
+      ],
+      "correct": "white is spelled W H I T E",
+      "why_wrong": {
+        "brown is spelled B R O W N": "Not this one. Try again!",
+        "black is spelled B L A C K": "Not this one. Try again!",
+        "apples are red": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q11",
+      "type": 4,
+      "prompt_text": "Student says: “It is black”  What does Mr Jay say?",
+      "audio_id": "bb_u07_aud_stu_11",
+      "image_ids": [
+        "pic_color_black"
+      ],
+      "choices": [
+        "apples are red",
+        "white is spelled W H I T E",
+        "black is spelled B L A C K",
+        "brown is spelled B R O W N"
+      ],
+      "correct": "black is spelled B L A C K",
+      "why_wrong": {
+        "apples are red": "Not this one. Try again!",
+        "white is spelled W H I T E": "Not this one. Try again!",
+        "brown is spelled B R O W N": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q12",
+      "type": 4,
+      "prompt_text": "Student says: “It is brown.”  What does Mr Jay say?",
+      "audio_id": "bb_u07_aud_stu_12",
+      "image_ids": [
+        "pic_color_brown"
+      ],
+      "choices": [
+        "apples are red",
+        "brown is spelled B R O W N",
+        "white is spelled W H I T E",
+        "black is spelled B L A C K"
+      ],
+      "correct": "brown is spelled B R O W N",
+      "why_wrong": {
+        "apples are red": "Not this one. Try again!",
+        "white is spelled W H I T E": "Not this one. Try again!",
+        "black is spelled B L A C K": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q13",
+      "type": 5,
+      "prompt_text": "Cue: 하얀색  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_color_white"
+      ],
+      "choices": [
+        "red",
+        "white",
+        "brown",
+        "black"
+      ],
+      "correct": "white",
+      "why_wrong": {
+        "red": "Not this one. Try again!",
+        "brown": "Not this one. Try again!",
+        "black": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q14",
+      "type": 5,
+      "prompt_text": "Cue: 검은색  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_color_black"
+      ],
+      "choices": [
+        "red",
+        "brown",
+        "white",
+        "black"
+      ],
+      "correct": "black",
+      "why_wrong": {
+        "red": "Not this one. Try again!",
+        "brown": "Not this one. Try again!",
+        "white": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q15",
+      "type": 6,
+      "prompt_text": "Spell “white”. Click the correct spelling.",
+      "audio_id": "bb_u07_aud_spell_white",
+      "image_ids": [
+        "pic_color_white"
+      ],
+      "choices": [
+        "B L A C K",
+        "P U R P L E",
+        "W H I T E",
+        "B R O W N"
+      ],
+      "correct": "W H I T E",
+      "why_wrong": {
+        "B L A C K": "Not this one. Try again!",
+        "P U R P L E": "Not this one. Try again!",
+        "B R O W N": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q16",
+      "type": 6,
+      "prompt_text": "Spell “black”. Click the correct spelling.",
+      "audio_id": "bb_u07_aud_spell_black",
+      "image_ids": [
+        "pic_color_black"
+      ],
+      "choices": [
+        "P U R P L E",
+        "W H I T E",
+        "B L A C K",
+        "B R O W N"
+      ],
+      "correct": "B L A C K",
+      "why_wrong": {
+        "P U R P L E": "Not this one. Try again!",
+        "W H I T E": "Not this one. Try again!",
+        "B R O W N": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q17",
+      "type": 6,
+      "prompt_text": "Spell “brown”. Click the correct spelling.",
+      "audio_id": "bb_u07_aud_spell_brown",
+      "image_ids": [
+        "pic_color_brown"
+      ],
+      "choices": [
+        "B R O W N",
+        "B L A C K",
+        "P U R P L E",
+        "W H I T E"
+      ],
+      "correct": "B R O W N",
+      "why_wrong": {
+        "B L A C K": "Not this one. Try again!",
+        "P U R P L E": "Not this one. Try again!",
+        "W H I T E": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u07_aud_sent_18",
+      "image_ids": [
+        "pic_color_purple"
+      ],
+      "choices": [
+        "It is white.",
+        "It is red.",
+        "It is black",
+        "It is brown."
+      ],
+      "correct": "It is white.",
+      "why_wrong": {
+        "It is red.": "Not this one. Try again!",
+        "It is black": "Not this one. Try again!",
+        "It is brown.": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u07_aud_sent_19",
+      "image_ids": [
+        "pic_rainbow"
+      ],
+      "choices": [
+        "It is brown.",
+        "It is white.",
+        "It is black",
+        "It is red."
+      ],
+      "correct": "It is black",
+      "why_wrong": {
+        "It is brown.": "Not this one. Try again!",
+        "It is white.": "Not this one. Try again!",
+        "It is red.": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u07_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u07_aud_sent_20",
+      "image_ids": [
+        "pic_color_white"
+      ],
+      "choices": [
+        "It is black",
+        "It is red.",
+        "It is brown.",
+        "It is white."
+      ],
+      "correct": "It is brown.",
+      "why_wrong": {
+        "It is black": "Not this one. Try again!",
+        "It is red.": "Not this one. Try again!",
+        "It is white.": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    }
+  ]
+}

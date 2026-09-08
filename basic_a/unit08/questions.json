@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 8: Numbers 11–100",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u08_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u08_aud_word_eleven",
+      "image_ids": [
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_13",
+        "pic_number_33"
+      ],
+      "choices": [
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_13",
+        "pic_number_33"
+      ],
+      "correct": "pic_number_11",
+      "why_wrong": {
+        "pic_number_12": "Not this one. Try again!",
+        "pic_number_13": "Not this one. Try again!",
+        "pic_number_33": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u08_aud_word_twelve",
+      "image_ids": [
+        "pic_number_15",
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_20"
+      ],
+      "choices": [
+        "pic_number_15",
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_20"
+      ],
+      "correct": "pic_number_12",
+      "why_wrong": {
+        "pic_number_15": "Not this one. Try again!",
+        "pic_number_11": "Not this one. Try again!",
+        "pic_number_20": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u08_aud_word_thirteen",
+      "image_ids": [
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_13",
+        "pic_number_33"
+      ],
+      "choices": [
+        "pic_number_11",
+        "pic_number_12",
+        "pic_number_13",
+        "pic_number_33"
+      ],
+      "correct": "pic_number_13",
+      "why_wrong": {
+        "pic_number_11": "Not this one. Try again!",
+        "pic_number_12": "Not this one. Try again!",
+        "pic_number_33": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u08_aud_listen_eleven",
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "fifteen",
+        "one hundred",
+        "thirty-three",
+        "eleven"
+      ],
+      "correct": "eleven",
+      "why_wrong": {
+        "fifteen": "Not this one. Try again!",
+        "one hundred": "Not this one. Try again!",
+        "thirty-three": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u08_aud_listen_twelve",
+      "image_ids": [
+        "pic_number_12"
+      ],
+      "choices": [
+        "fifteen",
+        "twelve",
+        "twenty-two",
+        "thirteen"
+      ],
+      "correct": "twelve",
+      "why_wrong": {
+        "fifteen": "Not this one. Try again!",
+        "twenty-two": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u08_aud_listen_thirteen",
+      "image_ids": [
+        "pic_number_13"
+      ],
+      "choices": [
+        "twenty-two",
+        "twelve",
+        "fourteen",
+        "thirteen"
+      ],
+      "correct": "thirteen",
+      "why_wrong": {
+        "twenty-two": "Not this one. Try again!",
+        "twelve": "Not this one. Try again!",
+        "fourteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_33"
+      ],
+      "choices": [
+        "twelve",
+        "thirteen",
+        "thirty-three",
+        "eleven"
+      ],
+      "correct": "thirty-three",
+      "why_wrong": {
+        "twelve": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!",
+        "eleven": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_55"
+      ],
+      "choices": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fifty-five"
+      ],
+      "correct": "fifty-five",
+      "why_wrong": {
+        "eleven": "Not this one. Try again!",
+        "twelve": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_100"
+      ],
+      "choices": [
+        "eleven",
+        "one hundred",
+        "twelve",
+        "thirteen"
+      ],
+      "correct": "one hundred",
+      "why_wrong": {
+        "eleven": "Not this one. Try again!",
+        "twelve": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q10",
+      "type": 4,
+      "prompt_text": "Student says: “OH my God”  What does Mr Jay say?",
+      "audio_id": "ba_u08_aud_stu_10",
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "Relax",
+        "Are you okay?",
+        "Please wait",
+        "I have 100 cousins"
+      ],
+      "correct": "Relax",
+      "why_wrong": {
+        "Are you okay?": "Not this one. Try again!",
+        "Please wait": "Not this one. Try again!",
+        "I have 100 cousins": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q11",
+      "type": 4,
+      "prompt_text": "Student says: “Hurry”  What does Mr Jay say?",
+      "audio_id": "ba_u08_aud_stu_11",
+      "image_ids": [
+        "pic_number_12"
+      ],
+      "choices": [
+        "Please wait",
+        "Relax",
+        "I have 100 cousins",
+        "Are you okay?"
+      ],
+      "correct": "Please wait",
+      "why_wrong": {
+        "Relax": "Not this one. Try again!",
+        "I have 100 cousins": "Not this one. Try again!",
+        "Are you okay?": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Phew!”  What does Mr Jay say?",
+      "audio_id": "ba_u08_aud_stu_12",
+      "image_ids": [
+        "pic_number_13"
+      ],
+      "choices": [
+        "Relax",
+        "Are you okay?",
+        "I have 100 cousins",
+        "Please wait"
+      ],
+      "correct": "Are you okay?",
+      "why_wrong": {
+        "Relax": "Not this one. Try again!",
+        "I have 100 cousins": "Not this one. Try again!",
+        "Please wait": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q13",
+      "type": 5,
+      "prompt_text": "Cue: 11  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "eleven"
+      ],
+      "correct": "eleven",
+      "why_wrong": {
+        "twelve": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!",
+        "fourteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q14",
+      "type": 5,
+      "prompt_text": "Cue: 12  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_12"
+      ],
+      "choices": [
+        "eleven",
+        "twelve",
+        "fourteen",
+        "thirteen"
+      ],
+      "correct": "twelve",
+      "why_wrong": {
+        "eleven": "Not this one. Try again!",
+        "fourteen": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q15",
+      "type": 6,
+      "prompt_text": "Spell “eleven”. Click the correct spelling.",
+      "audio_id": "ba_u08_aud_spell_eleven",
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "ELE …",
+        "H U N D R E D",
+        "E L E V E N",
+        "T W E N T Y"
+      ],
+      "correct": "E L E V E N",
+      "why_wrong": {
+        "ELE …": "Not this one. Try again!",
+        "H U N D R E D": "Not this one. Try again!",
+        "T W E N T Y": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q16",
+      "type": 6,
+      "prompt_text": "Spell “twenty”. Click the correct spelling.",
+      "audio_id": "ba_u08_aud_spell_twenty",
+      "image_ids": [
+        "pic_number_20"
+      ],
+      "choices": [
+        "E L E V E N",
+        "H U N D R E D",
+        "TWE …",
+        "T W E N T Y"
+      ],
+      "correct": "T W E N T Y",
+      "why_wrong": {
+        "E L E V E N": "Not this one. Try again!",
+        "H U N D R E D": "Not this one. Try again!",
+        "TWE …": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q17",
+      "type": 6,
+      "prompt_text": "Spell “hundred”. Click the correct spelling.",
+      "audio_id": "ba_u08_aud_spell_hundred",
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "H U N D R E D",
+        "T W E N T Y",
+        "E L E V E N",
+        "HUN …"
+      ],
+      "correct": "H U N D R E D",
+      "why_wrong": {
+        "T W E N T Y": "Not this one. Try again!",
+        "E L E V E N": "Not this one. Try again!",
+        "HUN …": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u08_aud_sent_18",
+      "image_ids": [
+        "pic_number_55"
+      ],
+      "choices": [
+        "Hurry",
+        "100",
+        "OH my God",
+        "Phew!"
+      ],
+      "correct": "OH my God",
+      "why_wrong": {
+        "Hurry": "Not this one. Try again!",
+        "100": "Not this one. Try again!",
+        "Phew!": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u08_aud_sent_19",
+      "image_ids": [
+        "pic_number_100"
+      ],
+      "choices": [
+        "Hurry",
+        "OH my God",
+        "100",
+        "Phew!"
+      ],
+      "correct": "Hurry",
+      "why_wrong": {
+        "OH my God": "Not this one. Try again!",
+        "100": "Not this one. Try again!",
+        "Phew!": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u08_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u08_aud_sent_20",
+      "image_ids": [
+        "pic_number_11"
+      ],
+      "choices": [
+        "OH my God",
+        "Hurry",
+        "Phew!",
+        "100"
+      ],
+      "correct": "Phew!",
+      "why_wrong": {
+        "OH my God": "Not this one. Try again!",
+        "Hurry": "Not this one. Try again!",
+        "100": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_a"
+    }
+  ]
+}

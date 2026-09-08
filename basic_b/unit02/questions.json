@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 2: I like Mr. Jay",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u02_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u02_aud_word_noodles",
+      "image_ids": [
+        "pic_games",
+        "pic_noodles",
+        "pic_music",
+        "pic_fruit"
+      ],
+      "choices": [
+        "pic_games",
+        "pic_noodles",
+        "pic_music",
+        "pic_fruit"
+      ],
+      "correct": "pic_noodles",
+      "why_wrong": {
+        "pic_games": "Not this one. Try again!",
+        "pic_music": "Not this one. Try again!",
+        "pic_fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u02_aud_word_meat",
+      "image_ids": [
+        "pic_noodles",
+        "pic_exercise",
+        "pic_fruit",
+        "pic_meat"
+      ],
+      "choices": [
+        "pic_noodles",
+        "pic_exercise",
+        "pic_fruit",
+        "pic_meat"
+      ],
+      "correct": "pic_meat",
+      "why_wrong": {
+        "pic_noodles": "Not this one. Try again!",
+        "pic_exercise": "Not this one. Try again!",
+        "pic_fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u02_aud_word_fruit",
+      "image_ids": [
+        "pic_fruit",
+        "pic_games",
+        "pic_exercise",
+        "pic_noodles"
+      ],
+      "choices": [
+        "pic_fruit",
+        "pic_games",
+        "pic_exercise",
+        "pic_noodles"
+      ],
+      "correct": "pic_fruit",
+      "why_wrong": {
+        "pic_games": "Not this one. Try again!",
+        "pic_exercise": "Not this one. Try again!",
+        "pic_noodles": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u02_aud_listen_noodles",
+      "image_ids": [
+        "pic_noodles"
+      ],
+      "choices": [
+        "exercise",
+        "music",
+        "noodles",
+        "meat"
+      ],
+      "correct": "noodles",
+      "why_wrong": {
+        "exercise": "Not this one. Try again!",
+        "music": "Not this one. Try again!",
+        "meat": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u02_aud_listen_meat",
+      "image_ids": [
+        "pic_meat"
+      ],
+      "choices": [
+        "music",
+        "movies",
+        "exercise",
+        "meat"
+      ],
+      "correct": "meat",
+      "why_wrong": {
+        "music": "Not this one. Try again!",
+        "movies": "Not this one. Try again!",
+        "exercise": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u02_aud_listen_fruit",
+      "image_ids": [
+        "pic_fruit"
+      ],
+      "choices": [
+        "games",
+        "noodles",
+        "fruit",
+        "movies"
+      ],
+      "correct": "fruit",
+      "why_wrong": {
+        "games": "Not this one. Try again!",
+        "noodles": "Not this one. Try again!",
+        "movies": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_exercise"
+      ],
+      "choices": [
+        "exercise",
+        "noodles",
+        "meat",
+        "fruit"
+      ],
+      "correct": "exercise",
+      "why_wrong": {
+        "noodles": "Not this one. Try again!",
+        "meat": "Not this one. Try again!",
+        "fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_movies"
+      ],
+      "choices": [
+        "movies",
+        "meat",
+        "noodles",
+        "fruit"
+      ],
+      "correct": "movies",
+      "why_wrong": {
+        "meat": "Not this one. Try again!",
+        "noodles": "Not this one. Try again!",
+        "fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_music"
+      ],
+      "choices": [
+        "meat",
+        "noodles",
+        "fruit",
+        "music"
+      ],
+      "correct": "music",
+      "why_wrong": {
+        "meat": "Not this one. Try again!",
+        "noodles": "Not this one. Try again!",
+        "fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q10",
+      "type": 4,
+      "prompt_text": "Student says: “I like noodles.”  What does Mr Jay say?",
+      "audio_id": "bb_u02_aud_stu_10",
+      "image_ids": [
+        "pic_fruit"
+      ],
+      "choices": [
+        "I am a vegetarian. I do not eat meat",
+        "Me too! I like grapes",
+        "Me too! I love noodles.",
+        "Me too! I love playing Kart Rider"
+      ],
+      "correct": "Me too! I love noodles.",
+      "why_wrong": {
+        "I am a vegetarian. I do not eat meat": "Not this one. Try again!",
+        "Me too! I like grapes": "Not this one. Try again!",
+        "Me too! I love playing Kart Rider": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q11",
+      "type": 4,
+      "prompt_text": "Student says: “I like meat.”  What does Mr Jay say?",
+      "audio_id": "bb_u02_aud_stu_11",
+      "image_ids": [
+        "pic_games"
+      ],
+      "choices": [
+        "Me too! I love noodles.",
+        "Me too! I love playing Kart Rider",
+        "I am a vegetarian. I do not eat meat",
+        "Me too! I like grapes"
+      ],
+      "correct": "I am a vegetarian. I do not eat meat",
+      "why_wrong": {
+        "Me too! I love noodles.": "Not this one. Try again!",
+        "Me too! I love playing Kart Rider": "Not this one. Try again!",
+        "Me too! I like grapes": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I like fruit.”  What does Mr Jay say?",
+      "audio_id": "bb_u02_aud_stu_12",
+      "image_ids": [
+        "pic_school"
+      ],
+      "choices": [
+        "Me too! I like grapes",
+        "Me too! I love playing Kart Rider",
+        "Me too! I love noodles.",
+        "I am a vegetarian. I do not eat meat"
+      ],
+      "correct": "Me too! I like grapes",
+      "why_wrong": {
+        "Me too! I love playing Kart Rider": "Not this one. Try again!",
+        "Me too! I love noodles.": "Not this one. Try again!",
+        "I am a vegetarian. I do not eat meat": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q13",
+      "type": 5,
+      "prompt_text": "Cue: 국수  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_noodles"
+      ],
+      "choices": [
+        "meat",
+        "noodles",
+        "games",
+        "fruit"
+      ],
+      "correct": "noodles",
+      "why_wrong": {
+        "meat": "Not this one. Try again!",
+        "games": "Not this one. Try again!",
+        "fruit": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q14",
+      "type": 5,
+      "prompt_text": "Cue: 고기  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_meat"
+      ],
+      "choices": [
+        "fruit",
+        "games",
+        "noodles",
+        "meat"
+      ],
+      "correct": "meat",
+      "why_wrong": {
+        "fruit": "Not this one. Try again!",
+        "games": "Not this one. Try again!",
+        "noodles": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q15",
+      "type": 6,
+      "prompt_text": "Spell “noodles”. Click the correct spelling.",
+      "audio_id": "bb_u02_aud_spell_noodles",
+      "image_ids": [
+        "pic_noodles"
+      ],
+      "choices": [
+        "N O O D L E S",
+        "F R U I T",
+        "S C H O O L",
+        "M U S I C"
+      ],
+      "correct": "N O O D L E S",
+      "why_wrong": {
+        "F R U I T": "Not this one. Try again!",
+        "S C H O O L": "Not this one. Try again!",
+        "M U S I C": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q16",
+      "type": 6,
+      "prompt_text": "Spell “fruit”. Click the correct spelling.",
+      "audio_id": "bb_u02_aud_spell_fruit",
+      "image_ids": [
+        "pic_fruit"
+      ],
+      "choices": [
+        "M U S I C",
+        "F R U I T",
+        "N O O D L E S",
+        "S C H O O L"
+      ],
+      "correct": "F R U I T",
+      "why_wrong": {
+        "M U S I C": "Not this one. Try again!",
+        "N O O D L E S": "Not this one. Try again!",
+        "S C H O O L": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q17",
+      "type": 6,
+      "prompt_text": "Spell “music”. Click the correct spelling.",
+      "audio_id": "bb_u02_aud_spell_music",
+      "image_ids": [
+        "pic_music"
+      ],
+      "choices": [
+        "N O O D L E S",
+        "F R U I T",
+        "M U S I C",
+        "S C H O O L"
+      ],
+      "correct": "M U S I C",
+      "why_wrong": {
+        "N O O D L E S": "Not this one. Try again!",
+        "F R U I T": "Not this one. Try again!",
+        "S C H O O L": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u02_aud_sent_18",
+      "image_ids": [
+        "pic_fruit"
+      ],
+      "choices": [
+        "I like noodles.",
+        "I like meat.",
+        "I like games.",
+        "I like fruit."
+      ],
+      "correct": "I like noodles.",
+      "why_wrong": {
+        "I like meat.": "Not this one. Try again!",
+        "I like games.": "Not this one. Try again!",
+        "I like fruit.": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u02_aud_sent_19",
+      "image_ids": [
+        "pic_games"
+      ],
+      "choices": [
+        "I like games.",
+        "I like fruit.",
+        "I like noodles.",
+        "I like meat."
+      ],
+      "correct": "I like meat.",
+      "why_wrong": {
+        "I like games.": "Not this one. Try again!",
+        "I like fruit.": "Not this one. Try again!",
+        "I like noodles.": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u02_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u02_aud_sent_20",
+      "image_ids": [
+        "pic_school"
+      ],
+      "choices": [
+        "I like noodles.",
+        "I like fruit.",
+        "I like games.",
+        "I like meat."
+      ],
+      "correct": "I like fruit.",
+      "why_wrong": {
+        "I like noodles.": "Not this one. Try again!",
+        "I like games.": "Not this one. Try again!",
+        "I like meat.": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_b"
+    }
+  ]
+}

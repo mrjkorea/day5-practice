@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 3: Classroom English Two",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u03_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u03_aud_word_Again!",
+      "image_ids": [
+        "pic_excuse_me",
+        "pic_not_know",
+        "pic_again",
+        "pic_not_understand"
+      ],
+      "choices": [
+        "pic_excuse_me",
+        "pic_not_know",
+        "pic_again",
+        "pic_not_understand"
+      ],
+      "correct": "pic_again",
+      "why_wrong": {
+        "pic_excuse_me": "Not this one. Try again!",
+        "pic_not_know": "Not this one. Try again!",
+        "pic_not_understand": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u03_aud_word_Recycle_this!",
+      "image_ids": [
+        "pic_recycle",
+        "pic_dont_do_that",
+        "pic_trash",
+        "pic_thank_you"
+      ],
+      "choices": [
+        "pic_recycle",
+        "pic_dont_do_that",
+        "pic_trash",
+        "pic_thank_you"
+      ],
+      "correct": "pic_recycle",
+      "why_wrong": {
+        "pic_dont_do_that": "Not this one. Try again!",
+        "pic_trash": "Not this one. Try again!",
+        "pic_thank_you": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u03_aud_word_Trash_this!",
+      "image_ids": [
+        "pic_trash",
+        "pic_dont_do_that",
+        "pic_thank_you",
+        "pic_again"
+      ],
+      "choices": [
+        "pic_trash",
+        "pic_dont_do_that",
+        "pic_thank_you",
+        "pic_again"
+      ],
+      "correct": "pic_trash",
+      "why_wrong": {
+        "pic_dont_do_that": "Not this one. Try again!",
+        "pic_thank_you": "Not this one. Try again!",
+        "pic_again": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u03_aud_listen_Again!",
+      "image_ids": [
+        "pic_again"
+      ],
+      "choices": [
+        "Trash this!",
+        "Recycle this!",
+        "Again!",
+        "I do not understand."
+      ],
+      "correct": "Again!",
+      "why_wrong": {
+        "Trash this!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!",
+        "I do not understand.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u03_aud_listen_Recycle_this!",
+      "image_ids": [
+        "pic_recycle"
+      ],
+      "choices": [
+        "I do not know",
+        "Excuse me",
+        "Trash this!",
+        "Recycle this!"
+      ],
+      "correct": "Recycle this!",
+      "why_wrong": {
+        "I do not know": "Not this one. Try again!",
+        "Excuse me": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u03_aud_listen_Trash_this!",
+      "image_ids": [
+        "pic_trash"
+      ],
+      "choices": [
+        "Again!",
+        "Thank you",
+        "Trash this!",
+        "I do not know"
+      ],
+      "correct": "Trash this!",
+      "why_wrong": {
+        "Again!": "Not this one. Try again!",
+        "Thank you": "Not this one. Try again!",
+        "I do not know": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_excuse_me"
+      ],
+      "choices": [
+        "Trash this!",
+        "Excuse me",
+        "Recycle this!",
+        "Again!"
+      ],
+      "correct": "Excuse me",
+      "why_wrong": {
+        "Trash this!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_not_understand"
+      ],
+      "choices": [
+        "Again!",
+        "Trash this!",
+        "Recycle this!",
+        "I do not understand."
+      ],
+      "correct": "I do not understand.",
+      "why_wrong": {
+        "Again!": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_not_know"
+      ],
+      "choices": [
+        "Recycle this!",
+        "Trash this!",
+        "I do not know",
+        "Again!"
+      ],
+      "correct": "I do not know",
+      "why_wrong": {
+        "Recycle this!": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Again!”  What does Mr Jay say?",
+      "audio_id": "bb_u03_aud_stu_10",
+      "image_ids": [
+        "pic_trash"
+      ],
+      "choices": [
+        "Sorry. I will not do that again.",
+        "Pardon? Do what again?",
+        "Good Idea. Let's all recycle",
+        "Sorry. I cannot see the trash can."
+      ],
+      "correct": "Pardon? Do what again?",
+      "why_wrong": {
+        "Sorry. I will not do that again.": "Not this one. Try again!",
+        "Good Idea. Let's all recycle": "Not this one. Try again!",
+        "Sorry. I cannot see the trash can.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q11",
+      "type": 4,
+      "prompt_text": "Student says: “Recycle this!”  What does Mr Jay say?",
+      "audio_id": "bb_u03_aud_stu_11",
+      "image_ids": [
+        "pic_dont_do_that"
+      ],
+      "choices": [
+        "Pardon? Do what again?",
+        "Good Idea. Let's all recycle",
+        "Sorry. I cannot see the trash can.",
+        "Sorry. I will not do that again."
+      ],
+      "correct": "Good Idea. Let's all recycle",
+      "why_wrong": {
+        "Pardon? Do what again?": "Not this one. Try again!",
+        "Sorry. I cannot see the trash can.": "Not this one. Try again!",
+        "Sorry. I will not do that again.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Trash this!”  What does Mr Jay say?",
+      "audio_id": "bb_u03_aud_stu_12",
+      "image_ids": [
+        "pic_thank_you"
+      ],
+      "choices": [
+        "Sorry. I cannot see the trash can.",
+        "Pardon? Do what again?",
+        "Good Idea. Let's all recycle",
+        "Sorry. I will not do that again."
+      ],
+      "correct": "Sorry. I cannot see the trash can.",
+      "why_wrong": {
+        "Pardon? Do what again?": "Not this one. Try again!",
+        "Good Idea. Let's all recycle": "Not this one. Try again!",
+        "Sorry. I will not do that again.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q13",
+      "type": 5,
+      "prompt_text": "Cue: 다시!  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_again"
+      ],
+      "choices": [
+        "Recycle this!",
+        "Don't do that!",
+        "Trash this!",
+        "Again!"
+      ],
+      "correct": "Again!",
+      "why_wrong": {
+        "Recycle this!": "Not this one. Try again!",
+        "Don't do that!": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q14",
+      "type": 5,
+      "prompt_text": "Cue: 재활용  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_recycle"
+      ],
+      "choices": [
+        "Recycle this!",
+        "Don't do that!",
+        "Trash this!",
+        "Again!"
+      ],
+      "correct": "Recycle this!",
+      "why_wrong": {
+        "Don't do that!": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q15",
+      "type": 6,
+      "prompt_text": "Spell “Thank you”. Click the correct spelling.",
+      "audio_id": "bb_u03_aud_spell_Thank_you",
+      "image_ids": [
+        "pic_thank_you"
+      ],
+      "choices": [
+        "T H A N K Y O U",
+        "E X C U S E",
+        "R E C Y C L E",
+        "THA …"
+      ],
+      "correct": "T H A N K Y O U",
+      "why_wrong": {
+        "E X C U S E": "Not this one. Try again!",
+        "R E C Y C L E": "Not this one. Try again!",
+        "THA …": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q16",
+      "type": 6,
+      "prompt_text": "Spell “Excuse”. Click the correct spelling.",
+      "audio_id": "bb_u03_aud_spell_Excuse",
+      "image_ids": [
+        "pic_again"
+      ],
+      "choices": [
+        "EXC …",
+        "T H A N K Y O U",
+        "E X C U S E",
+        "R E C Y C L E"
+      ],
+      "correct": "E X C U S E",
+      "why_wrong": {
+        "EXC …": "Not this one. Try again!",
+        "T H A N K Y O U": "Not this one. Try again!",
+        "R E C Y C L E": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q17",
+      "type": 6,
+      "prompt_text": "Spell “Recycle”. Click the correct spelling.",
+      "audio_id": "bb_u03_aud_spell_Recycle",
+      "image_ids": [
+        "pic_again"
+      ],
+      "choices": [
+        "R E C Y C L E",
+        "T H A N K Y O U",
+        "REC …",
+        "E X C U S E"
+      ],
+      "correct": "R E C Y C L E",
+      "why_wrong": {
+        "T H A N K Y O U": "Not this one. Try again!",
+        "REC …": "Not this one. Try again!",
+        "E X C U S E": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u03_aud_sent_18",
+      "image_ids": [
+        "pic_trash"
+      ],
+      "choices": [
+        "Again!",
+        "Recycle this!",
+        "Don't do that!",
+        "Trash this!"
+      ],
+      "correct": "Again!",
+      "why_wrong": {
+        "Recycle this!": "Not this one. Try again!",
+        "Don't do that!": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u03_aud_sent_19",
+      "image_ids": [
+        "pic_dont_do_that"
+      ],
+      "choices": [
+        "Trash this!",
+        "Don't do that!",
+        "Recycle this!",
+        "Again!"
+      ],
+      "correct": "Recycle this!",
+      "why_wrong": {
+        "Trash this!": "Not this one. Try again!",
+        "Don't do that!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u03_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u03_aud_sent_20",
+      "image_ids": [
+        "pic_thank_you"
+      ],
+      "choices": [
+        "Don't do that!",
+        "Again!",
+        "Trash this!",
+        "Recycle this!"
+      ],
+      "correct": "Trash this!",
+      "why_wrong": {
+        "Don't do that!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    }
+  ]
+}

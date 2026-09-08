@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "level": "basic_c",
+    "title": "Basic C Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 24,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bc_midterm_5_8_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_midterm_5_8_aud_word_pig",
+      "image_ids": [
+        "pic_cat",
+        "pic_doll",
+        "pic_earphones",
+        "pic_pig"
+      ],
+      "choices": [
+        "pic_cat",
+        "pic_doll",
+        "pic_earphones",
+        "pic_pig"
+      ],
+      "correct": "pic_pig",
+      "why_wrong": {
+        "pic_cat": "Not this one. Try again!",
+        "pic_doll": "Not this one. Try again!",
+        "pic_earphones": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_midterm_5_8_aud_word_dog",
+      "image_ids": [
+        "pic_back",
+        "pic_computer",
+        "pic_bike",
+        "pic_dog"
+      ],
+      "choices": [
+        "pic_back",
+        "pic_computer",
+        "pic_bike",
+        "pic_dog"
+      ],
+      "correct": "pic_dog",
+      "why_wrong": {
+        "pic_back": "Not this one. Try again!",
+        "pic_computer": "Not this one. Try again!",
+        "pic_bike": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_midterm_5_8_aud_word_cat",
+      "image_ids": [
+        "pic_swing",
+        "pic_bike",
+        "pic_cat",
+        "pic_pig"
+      ],
+      "choices": [
+        "pic_swing",
+        "pic_bike",
+        "pic_cat",
+        "pic_pig"
+      ],
+      "correct": "pic_cat",
+      "why_wrong": {
+        "pic_swing": "Not this one. Try again!",
+        "pic_bike": "Not this one. Try again!",
+        "pic_pig": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_midterm_5_8_aud_listen_pig",
+      "image_ids": [
+        "pic_pig"
+      ],
+      "choices": [
+        "stomach",
+        "pig",
+        "knee",
+        "Tongyeong"
+      ],
+      "correct": "pig",
+      "why_wrong": {
+        "stomach": "Not this one. Try again!",
+        "knee": "Not this one. Try again!",
+        "Tongyeong": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_midterm_5_8_aud_listen_dog",
+      "image_ids": [
+        "pic_dog"
+      ],
+      "choices": [
+        "phone",
+        "dog",
+        "slide",
+        "Tongyeong"
+      ],
+      "correct": "dog",
+      "why_wrong": {
+        "phone": "Not this one. Try again!",
+        "slide": "Not this one. Try again!",
+        "Tongyeong": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_midterm_5_8_aud_listen_cat",
+      "image_ids": [
+        "pic_cat"
+      ],
+      "choices": [
+        "cat",
+        "knee",
+        "face",
+        "playhouse"
+      ],
+      "correct": "cat",
+      "why_wrong": {
+        "knee": "Not this one. Try again!",
+        "face": "Not this one. Try again!",
+        "playhouse": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_bike"
+      ],
+      "choices": [
+        "pig",
+        "dog",
+        "bike",
+        "cat"
+      ],
+      "correct": "bike",
+      "why_wrong": {
+        "pig": "Not this one. Try again!",
+        "dog": "Not this one. Try again!",
+        "cat": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_computer"
+      ],
+      "choices": [
+        "cat",
+        "pig",
+        "computer",
+        "dog"
+      ],
+      "correct": "computer",
+      "why_wrong": {
+        "cat": "Not this one. Try again!",
+        "pig": "Not this one. Try again!",
+        "dog": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_brother"
+      ],
+      "choices": [
+        "pig",
+        "brother",
+        "cat",
+        "dog"
+      ],
+      "correct": "brother",
+      "why_wrong": {
+        "pig": "Not this one. Try again!",
+        "cat": "Not this one. Try again!",
+        "dog": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Hello students”  What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_stu_10",
+      "image_ids": [
+        "pic_stomach"
+      ],
+      "choices": [
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees.",
+        "P I G",
+        "D O G"
+      ],
+      "correct": "I am not a student. I am an English teacher!",
+      "why_wrong": {
+        "I love spelling bees.": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!",
+        "D O G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "Student says: “This is the MRJ SPELLING BEE!”  What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_stu_11",
+      "image_ids": [
+        "pic_seesaw"
+      ],
+      "choices": [
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees.",
+        "D O G",
+        "P I G"
+      ],
+      "correct": "I love spelling bees.",
+      "why_wrong": {
+        "I am not a student. I am an English teacher!": "Not this one. Try again!",
+        "D O G": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Spell pig!”  What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_stu_12",
+      "image_ids": [
+        "pic_slide"
+      ],
+      "choices": [
+        "D O G",
+        "P I G",
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees."
+      ],
+      "correct": "P I G",
+      "why_wrong": {
+        "D O G": "Not this one. Try again!",
+        "I am not a student. I am an English teacher!": "Not this one. Try again!",
+        "I love spelling bees.": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q13",
+      "type": 5,
+      "prompt_text": "Cue: 돼지  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_pig"
+      ],
+      "choices": [
+        "pig",
+        "cat",
+        "dog",
+        "Seoul"
+      ],
+      "correct": "pig",
+      "why_wrong": {
+        "cat": "Not this one. Try again!",
+        "dog": "Not this one. Try again!",
+        "Seoul": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q14",
+      "type": 5,
+      "prompt_text": "Cue: 개  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dog"
+      ],
+      "choices": [
+        "cat",
+        "dog",
+        "pig",
+        "Seoul"
+      ],
+      "correct": "dog",
+      "why_wrong": {
+        "cat": "Not this one. Try again!",
+        "pig": "Not this one. Try again!",
+        "Seoul": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q15",
+      "type": 6,
+      "prompt_text": "Spell “pig”. Click the correct spelling.",
+      "audio_id": "bc_midterm_5_8_aud_spell_pig",
+      "image_ids": [
+        "pic_pig"
+      ],
+      "choices": [
+        "C A T",
+        "P I G",
+        "S E O U L",
+        "D O G"
+      ],
+      "correct": "P I G",
+      "why_wrong": {
+        "C A T": "Not this one. Try again!",
+        "S E O U L": "Not this one. Try again!",
+        "D O G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q16",
+      "type": 6,
+      "prompt_text": "Spell “dog”. Click the correct spelling.",
+      "audio_id": "bc_midterm_5_8_aud_spell_dog",
+      "image_ids": [
+        "pic_dog"
+      ],
+      "choices": [
+        "C A T",
+        "S E O U L",
+        "D O G",
+        "P I G"
+      ],
+      "correct": "D O G",
+      "why_wrong": {
+        "C A T": "Not this one. Try again!",
+        "S E O U L": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q17",
+      "type": 6,
+      "prompt_text": "Spell “cat”. Click the correct spelling.",
+      "audio_id": "bc_midterm_5_8_aud_spell_cat",
+      "image_ids": [
+        "pic_cat"
+      ],
+      "choices": [
+        "S E O U L",
+        "D O G",
+        "C A T",
+        "P I G"
+      ],
+      "correct": "C A T",
+      "why_wrong": {
+        "S E O U L": "Not this one. Try again!",
+        "D O G": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_midterm_5_8_aud_sent_18",
+      "image_ids": [
+        "pic_doll"
+      ],
+      "choices": [
+        "Spell pig!",
+        "Hello students",
+        "Spell dog",
+        "This is the MRJ SPELLING BEE!"
+      ],
+      "correct": "Hello students",
+      "why_wrong": {
+        "Spell pig!": "Not this one. Try again!",
+        "Spell dog": "Not this one. Try again!",
+        "This is the MRJ SPELLING BEE!": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_midterm_5_8_aud_sent_19",
+      "image_ids": [
+        "pic_pencil_case"
+      ],
+      "choices": [
+        "This is the MRJ SPELLING BEE!",
+        "Spell pig!",
+        "Spell dog",
+        "Hello students"
+      ],
+      "correct": "This is the MRJ SPELLING BEE!",
+      "why_wrong": {
+        "Spell pig!": "Not this one. Try again!",
+        "Spell dog": "Not this one. Try again!",
+        "Hello students": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_midterm_5_8_aud_sent_20",
+      "image_ids": [
+        "pic_school_bag"
+      ],
+      "choices": [
+        "Spell dog",
+        "This is the MRJ SPELLING BEE!",
+        "Hello students",
+        "Spell pig!"
+      ],
+      "correct": "Spell pig!",
+      "why_wrong": {
+        "Spell dog": "Not this one. Try again!",
+        "This is the MRJ SPELLING BEE!": "Not this one. Try again!",
+        "Hello students": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Review: Student says “Where is the sandbox?”. What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_rev_21",
+      "image_ids": [
+        "pic_earphones"
+      ],
+      "choices": [
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees.",
+        "sandbox? it is near the playhouse.",
+        "P I G"
+      ],
+      "correct": "sandbox? it is near the playhouse.",
+      "why_wrong": {
+        "I am not a student. I am an English teacher!": "Not this one. Try again!",
+        "I love spelling bees.": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "Review: Student says “Where is the playhouse?”. What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_rev_22",
+      "image_ids": [
+        "pic_phone"
+      ],
+      "choices": [
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees.",
+        "playhouse? it is near the merry-go-round",
+        "P I G"
+      ],
+      "correct": "playhouse? it is near the merry-go-round",
+      "why_wrong": {
+        "I am not a student. I am an English teacher!": "Not this one. Try again!",
+        "I love spelling bees.": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q23",
+      "type": 4,
+      "prompt_text": "Review: Student says “Where is the merry-go-round?”. What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_rev_23",
+      "image_ids": [
+        "pic_clothes"
+      ],
+      "choices": [
+        "I am not a student. I am an English teacher!",
+        "I love spelling bees.",
+        "P I G",
+        "merry-go-round? it is near the swing."
+      ],
+      "correct": "merry-go-round? it is near the swing.",
+      "why_wrong": {
+        "I am not a student. I am an English teacher!": "Not this one. Try again!",
+        "I love spelling bees.": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_midterm_5_8_q24",
+      "type": 4,
+      "prompt_text": "Review: Student says “I want a new doll and…”. What does Mr Jay say?",
+      "audio_id": "bc_midterm_5_8_aud_rev_24",
+      "image_ids": [
+        "pic_bike"
+      ],
+      "choices": [
+        "P I G",
+        "I don't like dolls",
+        "I love spelling bees.",
+        "I am not a student. I am an English teacher!"
+      ],
+      "correct": "I don't like dolls",
+      "why_wrong": {
+        "P I G": "Not this one. Try again!",
+        "I love spelling bees.": "Not this one. Try again!",
+        "I am not a student. I am an English teacher!": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    }
+  ]
+}

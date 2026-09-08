@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 5: What is it?",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u05_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u05_aud_word_book",
+      "image_ids": [
+        "pic_toy",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_sock"
+      ],
+      "choices": [
+        "pic_toy",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_sock"
+      ],
+      "correct": "pic_book",
+      "why_wrong": {
+        "pic_toy": "Not this one. Try again!",
+        "pic_phone_charger": "Not this one. Try again!",
+        "pic_sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u05_aud_word_phone_charger",
+      "image_ids": [
+        "pic_toothbrush",
+        "pic_teddy_bear",
+        "pic_book",
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "pic_toothbrush",
+        "pic_teddy_bear",
+        "pic_book",
+        "pic_phone_charger"
+      ],
+      "correct": "pic_phone_charger",
+      "why_wrong": {
+        "pic_toothbrush": "Not this one. Try again!",
+        "pic_teddy_bear": "Not this one. Try again!",
+        "pic_book": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u05_aud_word_sock",
+      "image_ids": [
+        "pic_sock",
+        "pic_book",
+        "pic_underwear",
+        "pic_toy"
+      ],
+      "choices": [
+        "pic_sock",
+        "pic_book",
+        "pic_underwear",
+        "pic_toy"
+      ],
+      "correct": "pic_sock",
+      "why_wrong": {
+        "pic_book": "Not this one. Try again!",
+        "pic_underwear": "Not this one. Try again!",
+        "pic_toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u05_aud_listen_book",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "toy",
+        "toothbrush",
+        "book",
+        "teddy bear"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "toy": "Not this one. Try again!",
+        "toothbrush": "Not this one. Try again!",
+        "teddy bear": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u05_aud_listen_phone_charger",
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "night light",
+        "apple",
+        "book",
+        "phone charger"
+      ],
+      "correct": "phone charger",
+      "why_wrong": {
+        "night light": "Not this one. Try again!",
+        "apple": "Not this one. Try again!",
+        "book": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u05_aud_listen_sock",
+      "image_ids": [
+        "pic_sock"
+      ],
+      "choices": [
+        "sock",
+        "toy",
+        "toothbrush",
+        "phone charger"
+      ],
+      "correct": "sock",
+      "why_wrong": {
+        "toy": "Not this one. Try again!",
+        "toothbrush": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_night_light"
+      ],
+      "choices": [
+        "sock",
+        "book",
+        "phone charger",
+        "night light"
+      ],
+      "correct": "night light",
+      "why_wrong": {
+        "sock": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_teddy_bear"
+      ],
+      "choices": [
+        "book",
+        "teddy bear",
+        "sock",
+        "phone charger"
+      ],
+      "correct": "teddy bear",
+      "why_wrong": {
+        "book": "Not this one. Try again!",
+        "sock": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_apple"
+      ],
+      "choices": [
+        "phone charger",
+        "sock",
+        "apple",
+        "book"
+      ],
+      "correct": "apple",
+      "why_wrong": {
+        "phone charger": "Not this one. Try again!",
+        "sock": "Not this one. Try again!",
+        "book": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q10",
+      "type": 4,
+      "prompt_text": "Student says: “It is a book.”  What does Mr Jay say?",
+      "audio_id": "bb_u05_aud_stu_10",
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "book is spelled B O O K",
+        "I do not like socks",
+        "toy is spelled T O Y",
+        "I have a note 10 phone"
+      ],
+      "correct": "book is spelled B O O K",
+      "why_wrong": {
+        "I do not like socks": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q11",
+      "type": 4,
+      "prompt_text": "Student says: “It is a phone charger”  What does Mr Jay say?",
+      "audio_id": "bb_u05_aud_stu_11",
+      "image_ids": [
+        "pic_sock"
+      ],
+      "choices": [
+        "I have a note 10 phone",
+        "book is spelled B O O K",
+        "I do not like socks",
+        "toy is spelled T O Y"
+      ],
+      "correct": "I have a note 10 phone",
+      "why_wrong": {
+        "book is spelled B O O K": "Not this one. Try again!",
+        "I do not like socks": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q12",
+      "type": 4,
+      "prompt_text": "Student says: “It is a sock.”  What does Mr Jay say?",
+      "audio_id": "bb_u05_aud_stu_12",
+      "image_ids": [
+        "pic_toy"
+      ],
+      "choices": [
+        "toy is spelled T O Y",
+        "I have a note 10 phone",
+        "I do not like socks",
+        "book is spelled B O O K"
+      ],
+      "correct": "I do not like socks",
+      "why_wrong": {
+        "toy is spelled T O Y": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!",
+        "book is spelled B O O K": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q13",
+      "type": 5,
+      "prompt_text": "Cue: 책  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "book",
+        "phone charger",
+        "sock",
+        "toy"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "phone charger": "Not this one. Try again!",
+        "sock": "Not this one. Try again!",
+        "toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q14",
+      "type": 5,
+      "prompt_text": "Cue: 충전기  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "book",
+        "toy",
+        "sock",
+        "phone charger"
+      ],
+      "correct": "phone charger",
+      "why_wrong": {
+        "book": "Not this one. Try again!",
+        "toy": "Not this one. Try again!",
+        "sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q15",
+      "type": 6,
+      "prompt_text": "Spell “book”. Click the correct spelling.",
+      "audio_id": "bb_u05_aud_spell_book",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "T O Y",
+        "S O C K",
+        "T O O T H B R U S H",
+        "B O O K"
+      ],
+      "correct": "B O O K",
+      "why_wrong": {
+        "T O Y": "Not this one. Try again!",
+        "S O C K": "Not this one. Try again!",
+        "T O O T H B R U S H": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q16",
+      "type": 6,
+      "prompt_text": "Spell “toy”. Click the correct spelling.",
+      "audio_id": "bb_u05_aud_spell_toy",
+      "image_ids": [
+        "pic_toy"
+      ],
+      "choices": [
+        "T O O T H B R U S H",
+        "S O C K",
+        "T O Y",
+        "B O O K"
+      ],
+      "correct": "T O Y",
+      "why_wrong": {
+        "T O O T H B R U S H": "Not this one. Try again!",
+        "S O C K": "Not this one. Try again!",
+        "B O O K": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q17",
+      "type": 6,
+      "prompt_text": "Spell “toothbrush”. Click the correct spelling.",
+      "audio_id": "bb_u05_aud_spell_toothbrush",
+      "image_ids": [
+        "pic_toothbrush"
+      ],
+      "choices": [
+        "B O O K",
+        "T O Y",
+        "T O O T H B R U S H",
+        "S O C K"
+      ],
+      "correct": "T O O T H B R U S H",
+      "why_wrong": {
+        "B O O K": "Not this one. Try again!",
+        "T O Y": "Not this one. Try again!",
+        "S O C K": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u05_aud_sent_18",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "It is a sock.",
+        "It is a phone charger",
+        "It is a book.",
+        "It is a toy"
+      ],
+      "correct": "It is a book.",
+      "why_wrong": {
+        "It is a sock.": "Not this one. Try again!",
+        "It is a phone charger": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u05_aud_sent_19",
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "It is a sock.",
+        "It is a toy",
+        "It is a book.",
+        "It is a phone charger"
+      ],
+      "correct": "It is a phone charger",
+      "why_wrong": {
+        "It is a sock.": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!",
+        "It is a book.": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u05_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u05_aud_sent_20",
+      "image_ids": [
+        "pic_sock"
+      ],
+      "choices": [
+        "It is a phone charger",
+        "It is a sock.",
+        "It is a book.",
+        "It is a toy"
+      ],
+      "correct": "It is a sock.",
+      "why_wrong": {
+        "It is a phone charger": "Not this one. Try again!",
+        "It is a book.": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    }
+  ]
+}

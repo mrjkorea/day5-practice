@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 6: I like my body",
+    "kind": "unit",
+    "units_covered": [
+      6
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u06_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u06_aud_word_head",
+      "image_ids": [
+        "pic_nose",
+        "pic_head",
+        "pic_mouth",
+        "pic_body"
+      ],
+      "choices": [
+        "pic_nose",
+        "pic_head",
+        "pic_mouth",
+        "pic_body"
+      ],
+      "correct": "pic_head",
+      "why_wrong": {
+        "pic_nose": "Not this one. Try again!",
+        "pic_mouth": "Not this one. Try again!",
+        "pic_body": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u06_aud_word_nose",
+      "image_ids": [
+        "pic_ear",
+        "pic_nose",
+        "pic_eye",
+        "pic_neck"
+      ],
+      "choices": [
+        "pic_ear",
+        "pic_nose",
+        "pic_eye",
+        "pic_neck"
+      ],
+      "correct": "pic_nose",
+      "why_wrong": {
+        "pic_ear": "Not this one. Try again!",
+        "pic_eye": "Not this one. Try again!",
+        "pic_neck": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u06_aud_word_mouth",
+      "image_ids": [
+        "pic_nose",
+        "pic_mouth",
+        "pic_ear",
+        "pic_eye"
+      ],
+      "choices": [
+        "pic_nose",
+        "pic_mouth",
+        "pic_ear",
+        "pic_eye"
+      ],
+      "correct": "pic_mouth",
+      "why_wrong": {
+        "pic_nose": "Not this one. Try again!",
+        "pic_ear": "Not this one. Try again!",
+        "pic_eye": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u06_aud_listen_head",
+      "image_ids": [
+        "pic_head"
+      ],
+      "choices": [
+        "neck",
+        "head",
+        "nose",
+        "body"
+      ],
+      "correct": "head",
+      "why_wrong": {
+        "neck": "Not this one. Try again!",
+        "nose": "Not this one. Try again!",
+        "body": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u06_aud_listen_nose",
+      "image_ids": [
+        "pic_nose"
+      ],
+      "choices": [
+        "eye",
+        "head",
+        "ear",
+        "nose"
+      ],
+      "correct": "nose",
+      "why_wrong": {
+        "eye": "Not this one. Try again!",
+        "head": "Not this one. Try again!",
+        "ear": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u06_aud_listen_mouth",
+      "image_ids": [
+        "pic_mouth"
+      ],
+      "choices": [
+        "mouth",
+        "head",
+        "eye",
+        "ear"
+      ],
+      "correct": "mouth",
+      "why_wrong": {
+        "head": "Not this one. Try again!",
+        "eye": "Not this one. Try again!",
+        "ear": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_eye"
+      ],
+      "choices": [
+        "head",
+        "nose",
+        "eye",
+        "mouth"
+      ],
+      "correct": "eye",
+      "why_wrong": {
+        "head": "Not this one. Try again!",
+        "nose": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_neck"
+      ],
+      "choices": [
+        "nose",
+        "neck",
+        "head",
+        "mouth"
+      ],
+      "correct": "neck",
+      "why_wrong": {
+        "nose": "Not this one. Try again!",
+        "head": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_body"
+      ],
+      "choices": [
+        "head",
+        "mouth",
+        "body",
+        "nose"
+      ],
+      "correct": "body",
+      "why_wrong": {
+        "head": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!",
+        "nose": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q10",
+      "type": 4,
+      "prompt_text": "Student says: “This is my head.”  What does Mr Jay say?",
+      "audio_id": "bb_u06_aud_stu_10",
+      "image_ids": [
+        "pic_ear"
+      ],
+      "choices": [
+        "I have two ears",
+        "My nose is very long.",
+        "mouth is spelled M O U T H",
+        "head is spelled H E A D"
+      ],
+      "correct": "head is spelled H E A D",
+      "why_wrong": {
+        "I have two ears": "Not this one. Try again!",
+        "My nose is very long.": "Not this one. Try again!",
+        "mouth is spelled M O U T H": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q11",
+      "type": 4,
+      "prompt_text": "Student says: “This is my nose.”  What does Mr Jay say?",
+      "audio_id": "bb_u06_aud_stu_11",
+      "image_ids": [
+        "pic_eye"
+      ],
+      "choices": [
+        "head is spelled H E A D",
+        "mouth is spelled M O U T H",
+        "I have two ears",
+        "My nose is very long."
+      ],
+      "correct": "My nose is very long.",
+      "why_wrong": {
+        "head is spelled H E A D": "Not this one. Try again!",
+        "mouth is spelled M O U T H": "Not this one. Try again!",
+        "I have two ears": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q12",
+      "type": 4,
+      "prompt_text": "Student says: “This is MY mouth.”  What does Mr Jay say?",
+      "audio_id": "bb_u06_aud_stu_12",
+      "image_ids": [
+        "pic_neck"
+      ],
+      "choices": [
+        "head is spelled H E A D",
+        "My nose is very long.",
+        "I have two ears",
+        "mouth is spelled M O U T H"
+      ],
+      "correct": "mouth is spelled M O U T H",
+      "why_wrong": {
+        "head is spelled H E A D": "Not this one. Try again!",
+        "My nose is very long.": "Not this one. Try again!",
+        "I have two ears": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q13",
+      "type": 5,
+      "prompt_text": "Cue: 머리  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_head"
+      ],
+      "choices": [
+        "nose",
+        "head",
+        "mouth",
+        "ear"
+      ],
+      "correct": "head",
+      "why_wrong": {
+        "nose": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!",
+        "ear": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q14",
+      "type": 5,
+      "prompt_text": "Cue: 코  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_nose"
+      ],
+      "choices": [
+        "ear",
+        "nose",
+        "mouth",
+        "head"
+      ],
+      "correct": "nose",
+      "why_wrong": {
+        "ear": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!",
+        "head": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q15",
+      "type": 6,
+      "prompt_text": "Spell “head”. Click the correct spelling.",
+      "audio_id": "bb_u06_aud_spell_head",
+      "image_ids": [
+        "pic_head"
+      ],
+      "choices": [
+        "N E C K",
+        "H E A D",
+        "M O U T H",
+        "N O S E"
+      ],
+      "correct": "H E A D",
+      "why_wrong": {
+        "N E C K": "Not this one. Try again!",
+        "M O U T H": "Not this one. Try again!",
+        "N O S E": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q16",
+      "type": 6,
+      "prompt_text": "Spell “mouth”. Click the correct spelling.",
+      "audio_id": "bb_u06_aud_spell_mouth",
+      "image_ids": [
+        "pic_mouth"
+      ],
+      "choices": [
+        "N O S E",
+        "N E C K",
+        "M O U T H",
+        "H E A D"
+      ],
+      "correct": "M O U T H",
+      "why_wrong": {
+        "N O S E": "Not this one. Try again!",
+        "N E C K": "Not this one. Try again!",
+        "H E A D": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q17",
+      "type": 6,
+      "prompt_text": "Spell “neck”. Click the correct spelling.",
+      "audio_id": "bb_u06_aud_spell_neck",
+      "image_ids": [
+        "pic_neck"
+      ],
+      "choices": [
+        "N O S E",
+        "H E A D",
+        "N E C K",
+        "M O U T H"
+      ],
+      "correct": "N E C K",
+      "why_wrong": {
+        "N O S E": "Not this one. Try again!",
+        "H E A D": "Not this one. Try again!",
+        "M O U T H": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u06_aud_sent_18",
+      "image_ids": [
+        "pic_eye"
+      ],
+      "choices": [
+        "This is my ear.",
+        "This is my nose.",
+        "This is my head.",
+        "This is MY mouth."
+      ],
+      "correct": "This is my head.",
+      "why_wrong": {
+        "This is my ear.": "Not this one. Try again!",
+        "This is my nose.": "Not this one. Try again!",
+        "This is MY mouth.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u06_aud_sent_19",
+      "image_ids": [
+        "pic_neck"
+      ],
+      "choices": [
+        "This is my ear.",
+        "This is my nose.",
+        "This is MY mouth.",
+        "This is my head."
+      ],
+      "correct": "This is my nose.",
+      "why_wrong": {
+        "This is my ear.": "Not this one. Try again!",
+        "This is MY mouth.": "Not this one. Try again!",
+        "This is my head.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u06_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u06_aud_sent_20",
+      "image_ids": [
+        "pic_body"
+      ],
+      "choices": [
+        "This is MY mouth.",
+        "This is my nose.",
+        "This is my head.",
+        "This is my ear."
+      ],
+      "correct": "This is MY mouth.",
+      "why_wrong": {
+        "This is my nose.": "Not this one. Try again!",
+        "This is my head.": "Not this one. Try again!",
+        "This is my ear.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 24,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_midterm_5_8_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_midterm_5_8_aud_word_mom",
+      "image_ids": [
+        "pic_mom",
+        "pic_number_11",
+        "pic_number_15",
+        "pic_clipboard"
+      ],
+      "choices": [
+        "pic_mom",
+        "pic_number_11",
+        "pic_number_15",
+        "pic_clipboard"
+      ],
+      "correct": "pic_mom",
+      "why_wrong": {
+        "pic_number_11": "Not this one. Try again!",
+        "pic_number_15": "Not this one. Try again!",
+        "pic_clipboard": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_midterm_5_8_aud_word_dad",
+      "image_ids": [
+        "pic_number_12",
+        "pic_dad",
+        "pic_piano",
+        "pic_run_fast"
+      ],
+      "choices": [
+        "pic_number_12",
+        "pic_dad",
+        "pic_piano",
+        "pic_run_fast"
+      ],
+      "correct": "pic_dad",
+      "why_wrong": {
+        "pic_number_12": "Not this one. Try again!",
+        "pic_piano": "Not this one. Try again!",
+        "pic_run_fast": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_midterm_5_8_aud_word_sister",
+      "image_ids": [
+        "pic_mouse",
+        "pic_grandmother",
+        "pic_taekwondo",
+        "pic_sister"
+      ],
+      "choices": [
+        "pic_mouse",
+        "pic_grandmother",
+        "pic_taekwondo",
+        "pic_sister"
+      ],
+      "correct": "pic_sister",
+      "why_wrong": {
+        "pic_mouse": "Not this one. Try again!",
+        "pic_grandmother": "Not this one. Try again!",
+        "pic_taekwondo": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_midterm_5_8_aud_listen_mom",
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "draw",
+        "sister",
+        "pen",
+        "mom"
+      ],
+      "correct": "mom",
+      "why_wrong": {
+        "draw": "Not this one. Try again!",
+        "sister": "Not this one. Try again!",
+        "pen": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_midterm_5_8_aud_listen_dad",
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "dad",
+        "book",
+        "twenty-two",
+        "fourteen"
+      ],
+      "correct": "dad",
+      "why_wrong": {
+        "book": "Not this one. Try again!",
+        "twenty-two": "Not this one. Try again!",
+        "fourteen": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_midterm_5_8_aud_listen_sister",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "sister",
+        "desk",
+        "eleven",
+        "thirteen"
+      ],
+      "correct": "sister",
+      "why_wrong": {
+        "desk": "Not this one. Try again!",
+        "eleven": "Not this one. Try again!",
+        "thirteen": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_33"
+      ],
+      "choices": [
+        "sister",
+        "dad",
+        "mom",
+        "thirty-three"
+      ],
+      "correct": "thirty-three",
+      "why_wrong": {
+        "sister": "Not this one. Try again!",
+        "dad": "Not this one. Try again!",
+        "mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_55"
+      ],
+      "choices": [
+        "mom",
+        "sister",
+        "fifty-five",
+        "dad"
+      ],
+      "correct": "fifty-five",
+      "why_wrong": {
+        "mom": "Not this one. Try again!",
+        "sister": "Not this one. Try again!",
+        "dad": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_number_100"
+      ],
+      "choices": [
+        "one hundred",
+        "sister",
+        "dad",
+        "mom"
+      ],
+      "correct": "one hundred",
+      "why_wrong": {
+        "sister": "Not this one. Try again!",
+        "dad": "Not this one. Try again!",
+        "mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q10",
+      "type": 4,
+      "prompt_text": "Student says: “This is my mom”  What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_stu_10",
+      "image_ids": [
+        "pic_mouse"
+      ],
+      "choices": [
+        "I have six sisters",
+        "I have five brothers",
+        "She is beautiful",
+        "He is handsome"
+      ],
+      "correct": "She is beautiful",
+      "why_wrong": {
+        "I have six sisters": "Not this one. Try again!",
+        "I have five brothers": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "Student says: “This is my dad”  What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_stu_11",
+      "image_ids": [
+        "pic_keyboard"
+      ],
+      "choices": [
+        "I have five brothers",
+        "She is beautiful",
+        "He is handsome",
+        "I have six sisters"
+      ],
+      "correct": "He is handsome",
+      "why_wrong": {
+        "I have five brothers": "Not this one. Try again!",
+        "She is beautiful": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q12",
+      "type": 4,
+      "prompt_text": "Student says: “This is my sister”  What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_stu_12",
+      "image_ids": [
+        "pic_monitor"
+      ],
+      "choices": [
+        "He is handsome",
+        "I have six sisters",
+        "I have five brothers",
+        "She is beautiful"
+      ],
+      "correct": "I have six sisters",
+      "why_wrong": {
+        "He is handsome": "Not this one. Try again!",
+        "I have five brothers": "Not this one. Try again!",
+        "She is beautiful": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q13",
+      "type": 5,
+      "prompt_text": "Cue: 엄마  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "dad",
+        "brother",
+        "mom",
+        "sister"
+      ],
+      "correct": "mom",
+      "why_wrong": {
+        "dad": "Not this one. Try again!",
+        "brother": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q14",
+      "type": 5,
+      "prompt_text": "Cue: 아빠  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "dad",
+        "mom",
+        "brother",
+        "sister"
+      ],
+      "correct": "dad",
+      "why_wrong": {
+        "mom": "Not this one. Try again!",
+        "brother": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q15",
+      "type": 6,
+      "prompt_text": "Spell “mom”. Click the correct spelling.",
+      "audio_id": "ba_midterm_5_8_aud_spell_mom",
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "U N C L E",
+        "M O M",
+        "D A D",
+        "S I S T E R"
+      ],
+      "correct": "M O M",
+      "why_wrong": {
+        "U N C L E": "Not this one. Try again!",
+        "D A D": "Not this one. Try again!",
+        "S I S T E R": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q16",
+      "type": 6,
+      "prompt_text": "Spell “dad”. Click the correct spelling.",
+      "audio_id": "ba_midterm_5_8_aud_spell_dad",
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "S I S T E R",
+        "U N C L E",
+        "D A D",
+        "M O M"
+      ],
+      "correct": "D A D",
+      "why_wrong": {
+        "S I S T E R": "Not this one. Try again!",
+        "U N C L E": "Not this one. Try again!",
+        "M O M": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q17",
+      "type": 6,
+      "prompt_text": "Spell “sister”. Click the correct spelling.",
+      "audio_id": "ba_midterm_5_8_aud_spell_sister",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "M O M",
+        "D A D",
+        "U N C L E",
+        "S I S T E R"
+      ],
+      "correct": "S I S T E R",
+      "why_wrong": {
+        "M O M": "Not this one. Try again!",
+        "D A D": "Not this one. Try again!",
+        "U N C L E": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_midterm_5_8_aud_sent_18",
+      "image_ids": [
+        "pic_dance"
+      ],
+      "choices": [
+        "This is my dad",
+        "This is my brother",
+        "This is my sister",
+        "This is my mom"
+      ],
+      "correct": "This is my mom",
+      "why_wrong": {
+        "This is my dad": "Not this one. Try again!",
+        "This is my brother": "Not this one. Try again!",
+        "This is my sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_midterm_5_8_aud_sent_19",
+      "image_ids": [
+        "pic_run_fast"
+      ],
+      "choices": [
+        "This is my dad",
+        "This is my sister",
+        "This is my mom",
+        "This is my brother"
+      ],
+      "correct": "This is my dad",
+      "why_wrong": {
+        "This is my sister": "Not this one. Try again!",
+        "This is my mom": "Not this one. Try again!",
+        "This is my brother": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_midterm_5_8_aud_sent_20",
+      "image_ids": [
+        "pic_sing"
+      ],
+      "choices": [
+        "This is my brother",
+        "This is my mom",
+        "This is my sister",
+        "This is my dad"
+      ],
+      "correct": "This is my sister",
+      "why_wrong": {
+        "This is my brother": "Not this one. Try again!",
+        "This is my mom": "Not this one. Try again!",
+        "This is my dad": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Review: Student says “I can do taekwondo”. What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_rev_21",
+      "image_ids": [
+        "pic_taekwondo"
+      ],
+      "choices": [
+        "Wow!",
+        "She is beautiful",
+        "I have six sisters",
+        "He is handsome"
+      ],
+      "correct": "Wow!",
+      "why_wrong": {
+        "She is beautiful": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "Review: Student says “I can play the piano”. What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_rev_22",
+      "image_ids": [
+        "pic_piano"
+      ],
+      "choices": [
+        "She is beautiful",
+        "He is handsome",
+        "I have six sisters",
+        "I want to play piano too!"
+      ],
+      "correct": "I want to play piano too!",
+      "why_wrong": {
+        "She is beautiful": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q23",
+      "type": 4,
+      "prompt_text": "Review: Student says “I can draw”. What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_rev_23",
+      "image_ids": [
+        "pic_draw"
+      ],
+      "choices": [
+        "I have six sisters",
+        "I cannot draw well",
+        "He is handsome",
+        "She is beautiful"
+      ],
+      "correct": "I cannot draw well",
+      "why_wrong": {
+        "I have six sisters": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!",
+        "She is beautiful": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_midterm_5_8_q24",
+      "type": 4,
+      "prompt_text": "Review: Student says “I can speak Chinese”. What does Mr Jay say?",
+      "audio_id": "ba_midterm_5_8_aud_rev_24",
+      "image_ids": [
+        "pic_speak_chinese"
+      ],
+      "choices": [
+        "I have six sisters",
+        "He is handsome",
+        "She is beautiful",
+        "I can speak Chinese too"
+      ],
+      "correct": "I can speak Chinese too",
+      "why_wrong": {
+        "I have six sisters": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!",
+        "She is beautiful": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 24,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_midterm_5_8_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_5_8_aud_word_book",
+      "image_ids": [
+        "pic_book",
+        "pic_age_10",
+        "pic_color_red",
+        "pic_color_white"
+      ],
+      "choices": [
+        "pic_book",
+        "pic_age_10",
+        "pic_color_red",
+        "pic_color_white"
+      ],
+      "correct": "pic_book",
+      "why_wrong": {
+        "pic_age_10": "Not this one. Try again!",
+        "pic_color_red": "Not this one. Try again!",
+        "pic_color_white": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_5_8_aud_word_phone_charger",
+      "image_ids": [
+        "pic_color_purple",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_color_black"
+      ],
+      "choices": [
+        "pic_color_purple",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_color_black"
+      ],
+      "correct": "pic_phone_charger",
+      "why_wrong": {
+        "pic_color_purple": "Not this one. Try again!",
+        "pic_book": "Not this one. Try again!",
+        "pic_color_black": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_5_8_aud_word_sock",
+      "image_ids": [
+        "pic_sock",
+        "pic_age_17",
+        "pic_color_blue",
+        "pic_underwear"
+      ],
+      "choices": [
+        "pic_sock",
+        "pic_age_17",
+        "pic_color_blue",
+        "pic_underwear"
+      ],
+      "correct": "pic_sock",
+      "why_wrong": {
+        "pic_age_17": "Not this one. Try again!",
+        "pic_color_blue": "Not this one. Try again!",
+        "pic_underwear": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_5_8_aud_listen_book",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "eye",
+        "blue",
+        "book",
+        "10"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "eye": "Not this one. Try again!",
+        "blue": "Not this one. Try again!",
+        "10": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_5_8_aud_listen_phone_charger",
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "apple",
+        "underwear",
+        "phone charger",
+        "purple"
+      ],
+      "correct": "phone charger",
+      "why_wrong": {
+        "apple": "Not this one. Try again!",
+        "underwear": "Not this one. Try again!",
+        "purple": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_5_8_aud_listen_sock",
+      "image_ids": [
+        "pic_sock"
+      ],
+      "choices": [
+        "sock",
+        "blue",
+        "green",
+        "25"
+      ],
+      "correct": "sock",
+      "why_wrong": {
+        "blue": "Not this one. Try again!",
+        "green": "Not this one. Try again!",
+        "25": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_25"
+      ],
+      "choices": [
+        "sock",
+        "25",
+        "book",
+        "phone charger"
+      ],
+      "correct": "25",
+      "why_wrong": {
+        "sock": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_33"
+      ],
+      "choices": [
+        "phone charger",
+        "33",
+        "book",
+        "sock"
+      ],
+      "correct": "33",
+      "why_wrong": {
+        "phone charger": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_66"
+      ],
+      "choices": [
+        "phone charger",
+        "book",
+        "sock",
+        "66"
+      ],
+      "correct": "66",
+      "why_wrong": {
+        "phone charger": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q10",
+      "type": 4,
+      "prompt_text": "Student says: “It is a book.”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_stu_10",
+      "image_ids": [
+        "pic_nose"
+      ],
+      "choices": [
+        "I have a note 10 phone",
+        "I do not like socks",
+        "toy is spelled T O Y",
+        "book is spelled B O O K"
+      ],
+      "correct": "book is spelled B O O K",
+      "why_wrong": {
+        "I have a note 10 phone": "Not this one. Try again!",
+        "I do not like socks": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "Student says: “It is a phone charger”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_stu_11",
+      "image_ids": [
+        "pic_mouth"
+      ],
+      "choices": [
+        "I do not like socks",
+        "I have a note 10 phone",
+        "book is spelled B O O K",
+        "toy is spelled T O Y"
+      ],
+      "correct": "I have a note 10 phone",
+      "why_wrong": {
+        "I do not like socks": "Not this one. Try again!",
+        "book is spelled B O O K": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q12",
+      "type": 4,
+      "prompt_text": "Student says: “It is a sock.”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_stu_12",
+      "image_ids": [
+        "pic_ear"
+      ],
+      "choices": [
+        "book is spelled B O O K",
+        "I have a note 10 phone",
+        "I do not like socks",
+        "toy is spelled T O Y"
+      ],
+      "correct": "I do not like socks",
+      "why_wrong": {
+        "book is spelled B O O K": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q13",
+      "type": 5,
+      "prompt_text": "Cue: 책  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "toy",
+        "phone charger",
+        "book",
+        "sock"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "toy": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!",
+        "sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q14",
+      "type": 5,
+      "prompt_text": "Cue: 충전기  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "toy",
+        "book",
+        "sock",
+        "phone charger"
+      ],
+      "correct": "phone charger",
+      "why_wrong": {
+        "toy": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q15",
+      "type": 6,
+      "prompt_text": "Spell “book”. Click the correct spelling.",
+      "audio_id": "bb_midterm_5_8_aud_spell_book",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "S O C K",
+        "T O Y",
+        "B O O K",
+        "T O O T H B R U S H"
+      ],
+      "correct": "B O O K",
+      "why_wrong": {
+        "S O C K": "Not this one. Try again!",
+        "T O Y": "Not this one. Try again!",
+        "T O O T H B R U S H": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q16",
+      "type": 6,
+      "prompt_text": "Spell “toy”. Click the correct spelling.",
+      "audio_id": "bb_midterm_5_8_aud_spell_toy",
+      "image_ids": [
+        "pic_toy"
+      ],
+      "choices": [
+        "T O O T H B R U S H",
+        "S O C K",
+        "T O Y",
+        "B O O K"
+      ],
+      "correct": "T O Y",
+      "why_wrong": {
+        "T O O T H B R U S H": "Not this one. Try again!",
+        "S O C K": "Not this one. Try again!",
+        "B O O K": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q17",
+      "type": 6,
+      "prompt_text": "Spell “toothbrush”. Click the correct spelling.",
+      "audio_id": "bb_midterm_5_8_aud_spell_toothbrush",
+      "image_ids": [
+        "pic_toothbrush"
+      ],
+      "choices": [
+        "B O O K",
+        "T O O T H B R U S H",
+        "S O C K",
+        "T O Y"
+      ],
+      "correct": "T O O T H B R U S H",
+      "why_wrong": {
+        "B O O K": "Not this one. Try again!",
+        "S O C K": "Not this one. Try again!",
+        "T O Y": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_5_8_aud_sent_18",
+      "image_ids": [
+        "pic_color_brown"
+      ],
+      "choices": [
+        "It is a phone charger",
+        "It is a book.",
+        "It is a sock.",
+        "It is a toy"
+      ],
+      "correct": "It is a book.",
+      "why_wrong": {
+        "It is a phone charger": "Not this one. Try again!",
+        "It is a sock.": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_5_8_aud_sent_19",
+      "image_ids": [
+        "pic_color_red"
+      ],
+      "choices": [
+        "It is a book.",
+        "It is a sock.",
+        "It is a toy",
+        "It is a phone charger"
+      ],
+      "correct": "It is a phone charger",
+      "why_wrong": {
+        "It is a book.": "Not this one. Try again!",
+        "It is a sock.": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_5_8_aud_sent_20",
+      "image_ids": [
+        "pic_color_orange"
+      ],
+      "choices": [
+        "It is a book.",
+        "It is a phone charger",
+        "It is a sock.",
+        "It is a toy"
+      ],
+      "correct": "It is a sock.",
+      "why_wrong": {
+        "It is a book.": "Not this one. Try again!",
+        "It is a phone charger": "Not this one. Try again!",
+        "It is a toy": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Review: Student says “It is red.”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_rev_21",
+      "image_ids": [
+        "pic_color_yellow"
+      ],
+      "choices": [
+        "apples are red",
+        "I do not like socks",
+        "I have a note 10 phone",
+        "book is spelled B O O K"
+      ],
+      "correct": "apples are red",
+      "why_wrong": {
+        "I do not like socks": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!",
+        "book is spelled B O O K": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "Review: Student says “It is orange”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_rev_22",
+      "image_ids": [
+        "pic_color_green"
+      ],
+      "choices": [
+        "I have a note 10 phone",
+        "book is spelled B O O K",
+        "I do not like socks",
+        "oranges are orange"
+      ],
+      "correct": "oranges are orange",
+      "why_wrong": {
+        "I have a note 10 phone": "Not this one. Try again!",
+        "book is spelled B O O K": "Not this one. Try again!",
+        "I do not like socks": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q23",
+      "type": 4,
+      "prompt_text": "Review: Student says “It is yellow”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_rev_23",
+      "image_ids": [
+        "pic_color_blue"
+      ],
+      "choices": [
+        "I have a note 10 phone",
+        "I do not like socks",
+        "book is spelled B O O K",
+        "My dog zoey is yellow"
+      ],
+      "correct": "My dog zoey is yellow",
+      "why_wrong": {
+        "I have a note 10 phone": "Not this one. Try again!",
+        "I do not like socks": "Not this one. Try again!",
+        "book is spelled B O O K": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_5_8_q24",
+      "type": 4,
+      "prompt_text": "Review: Student says “It is green”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_5_8_aud_rev_24",
+      "image_ids": [
+        "pic_color_purple"
+      ],
+      "choices": [
+        "book is spelled B O O K",
+        "I have a note 10 phone",
+        "grass is green",
+        "I do not like socks"
+      ],
+      "correct": "grass is green",
+      "why_wrong": {
+        "book is spelled B O O K": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!",
+        "I do not like socks": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_b"
+    }
+  ]
+}

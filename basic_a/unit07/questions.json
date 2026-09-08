@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 7: I can",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u07_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u07_aud_word_dance",
+      "image_ids": [
+        "pic_piano",
+        "pic_dance",
+        "pic_taekwondo",
+        "pic_speak_chinese"
+      ],
+      "choices": [
+        "pic_piano",
+        "pic_dance",
+        "pic_taekwondo",
+        "pic_speak_chinese"
+      ],
+      "correct": "pic_dance",
+      "why_wrong": {
+        "pic_piano": "Not this one. Try again!",
+        "pic_taekwondo": "Not this one. Try again!",
+        "pic_speak_chinese": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u07_aud_word_run_fast",
+      "image_ids": [
+        "pic_dance",
+        "pic_magic",
+        "pic_speak_chinese",
+        "pic_run_fast"
+      ],
+      "choices": [
+        "pic_dance",
+        "pic_magic",
+        "pic_speak_chinese",
+        "pic_run_fast"
+      ],
+      "correct": "pic_run_fast",
+      "why_wrong": {
+        "pic_dance": "Not this one. Try again!",
+        "pic_magic": "Not this one. Try again!",
+        "pic_speak_chinese": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u07_aud_word_sing",
+      "image_ids": [
+        "pic_speak_chinese",
+        "pic_sing",
+        "pic_run_fast",
+        "pic_piano"
+      ],
+      "choices": [
+        "pic_speak_chinese",
+        "pic_sing",
+        "pic_run_fast",
+        "pic_piano"
+      ],
+      "correct": "pic_sing",
+      "why_wrong": {
+        "pic_speak_chinese": "Not this one. Try again!",
+        "pic_run_fast": "Not this one. Try again!",
+        "pic_piano": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u07_aud_listen_dance",
+      "image_ids": [
+        "pic_dance"
+      ],
+      "choices": [
+        "play the piano",
+        "do taekwondo",
+        "speak Chinese",
+        "dance"
+      ],
+      "correct": "dance",
+      "why_wrong": {
+        "play the piano": "Not this one. Try again!",
+        "do taekwondo": "Not this one. Try again!",
+        "speak Chinese": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u07_aud_listen_run_fast",
+      "image_ids": [
+        "pic_run_fast"
+      ],
+      "choices": [
+        "dance",
+        "sing",
+        "speak Chinese",
+        "run fast"
+      ],
+      "correct": "run fast",
+      "why_wrong": {
+        "dance": "Not this one. Try again!",
+        "sing": "Not this one. Try again!",
+        "speak Chinese": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u07_aud_listen_sing",
+      "image_ids": [
+        "pic_sing"
+      ],
+      "choices": [
+        "do magic",
+        "run fast",
+        "sing",
+        "draw"
+      ],
+      "correct": "sing",
+      "why_wrong": {
+        "do magic": "Not this one. Try again!",
+        "run fast": "Not this one. Try again!",
+        "draw": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_draw"
+      ],
+      "choices": [
+        "draw",
+        "run fast",
+        "dance",
+        "sing"
+      ],
+      "correct": "draw",
+      "why_wrong": {
+        "run fast": "Not this one. Try again!",
+        "dance": "Not this one. Try again!",
+        "sing": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_speak_chinese"
+      ],
+      "choices": [
+        "sing",
+        "speak Chinese",
+        "dance",
+        "run fast"
+      ],
+      "correct": "speak Chinese",
+      "why_wrong": {
+        "sing": "Not this one. Try again!",
+        "dance": "Not this one. Try again!",
+        "run fast": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_magic"
+      ],
+      "choices": [
+        "sing",
+        "run fast",
+        "dance",
+        "do magic"
+      ],
+      "correct": "do magic",
+      "why_wrong": {
+        "sing": "Not this one. Try again!",
+        "run fast": "Not this one. Try again!",
+        "dance": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q10",
+      "type": 4,
+      "prompt_text": "Student says: “I can dance.”  What does Mr Jay say?",
+      "audio_id": "ba_u07_aud_stu_10",
+      "image_ids": [
+        "pic_sing"
+      ],
+      "choices": [
+        "I love dancing",
+        "I cannot sing well",
+        "Wow!",
+        "I cannot run very fast"
+      ],
+      "correct": "I love dancing",
+      "why_wrong": {
+        "I cannot sing well": "Not this one. Try again!",
+        "Wow!": "Not this one. Try again!",
+        "I cannot run very fast": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q11",
+      "type": 4,
+      "prompt_text": "Student says: “I can run fast”  What does Mr Jay say?",
+      "audio_id": "ba_u07_aud_stu_11",
+      "image_ids": [
+        "pic_taekwondo"
+      ],
+      "choices": [
+        "Wow!",
+        "I love dancing",
+        "I cannot run very fast",
+        "I cannot sing well"
+      ],
+      "correct": "I cannot run very fast",
+      "why_wrong": {
+        "Wow!": "Not this one. Try again!",
+        "I love dancing": "Not this one. Try again!",
+        "I cannot sing well": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I can sing.”  What does Mr Jay say?",
+      "audio_id": "ba_u07_aud_stu_12",
+      "image_ids": [
+        "pic_piano"
+      ],
+      "choices": [
+        "Wow!",
+        "I love dancing",
+        "I cannot sing well",
+        "I cannot run very fast"
+      ],
+      "correct": "I cannot sing well",
+      "why_wrong": {
+        "Wow!": "Not this one. Try again!",
+        "I love dancing": "Not this one. Try again!",
+        "I cannot run very fast": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q13",
+      "type": 5,
+      "prompt_text": "Cue: 춤추기  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dance"
+      ],
+      "choices": [
+        "dance",
+        "sing",
+        "do taekwondo",
+        "run fast"
+      ],
+      "correct": "dance",
+      "why_wrong": {
+        "sing": "Not this one. Try again!",
+        "do taekwondo": "Not this one. Try again!",
+        "run fast": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q14",
+      "type": 5,
+      "prompt_text": "Cue: 빨리 달리기  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_run_fast"
+      ],
+      "choices": [
+        "run fast",
+        "do taekwondo",
+        "dance",
+        "sing"
+      ],
+      "correct": "run fast",
+      "why_wrong": {
+        "do taekwondo": "Not this one. Try again!",
+        "dance": "Not this one. Try again!",
+        "sing": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q15",
+      "type": 6,
+      "prompt_text": "Spell “dance”. Click the correct spelling.",
+      "audio_id": "ba_u07_aud_spell_dance",
+      "image_ids": [
+        "pic_dance"
+      ],
+      "choices": [
+        "S I N G",
+        "M A G I C",
+        "D R A W",
+        "D A N C E"
+      ],
+      "correct": "D A N C E",
+      "why_wrong": {
+        "S I N G": "Not this one. Try again!",
+        "M A G I C": "Not this one. Try again!",
+        "D R A W": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q16",
+      "type": 6,
+      "prompt_text": "Spell “sing”. Click the correct spelling.",
+      "audio_id": "ba_u07_aud_spell_sing",
+      "image_ids": [
+        "pic_sing"
+      ],
+      "choices": [
+        "D R A W",
+        "D A N C E",
+        "M A G I C",
+        "S I N G"
+      ],
+      "correct": "S I N G",
+      "why_wrong": {
+        "D R A W": "Not this one. Try again!",
+        "D A N C E": "Not this one. Try again!",
+        "M A G I C": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q17",
+      "type": 6,
+      "prompt_text": "Spell “draw”. Click the correct spelling.",
+      "audio_id": "ba_u07_aud_spell_draw",
+      "image_ids": [
+        "pic_draw"
+      ],
+      "choices": [
+        "D A N C E",
+        "D R A W",
+        "S I N G",
+        "M A G I C"
+      ],
+      "correct": "D R A W",
+      "why_wrong": {
+        "D A N C E": "Not this one. Try again!",
+        "S I N G": "Not this one. Try again!",
+        "M A G I C": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u07_aud_sent_18",
+      "image_ids": [
+        "pic_sing"
+      ],
+      "choices": [
+        "I can dance.",
+        "I can run fast",
+        "I can sing.",
+        "I can do taekwondo"
+      ],
+      "correct": "I can dance.",
+      "why_wrong": {
+        "I can run fast": "Not this one. Try again!",
+        "I can sing.": "Not this one. Try again!",
+        "I can do taekwondo": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u07_aud_sent_19",
+      "image_ids": [
+        "pic_taekwondo"
+      ],
+      "choices": [
+        "I can dance.",
+        "I can sing.",
+        "I can run fast",
+        "I can do taekwondo"
+      ],
+      "correct": "I can run fast",
+      "why_wrong": {
+        "I can dance.": "Not this one. Try again!",
+        "I can sing.": "Not this one. Try again!",
+        "I can do taekwondo": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u07_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u07_aud_sent_20",
+      "image_ids": [
+        "pic_piano"
+      ],
+      "choices": [
+        "I can do taekwondo",
+        "I can dance.",
+        "I can sing.",
+        "I can run fast"
+      ],
+      "correct": "I can sing.",
+      "why_wrong": {
+        "I can do taekwondo": "Not this one. Try again!",
+        "I can dance.": "Not this one. Try again!",
+        "I can run fast": "Not this one. Try again!"
+      },
+      "unit": 7,
+      "level": "basic_a"
+    }
+  ]
+}

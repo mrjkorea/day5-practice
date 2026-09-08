@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 4: Classroom English One",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u04_aud_word_Good_afternoon",
+      "image_ids": [
+        "pic_sorry",
+        "pic_help_me",
+        "pic_wait",
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "pic_sorry",
+        "pic_help_me",
+        "pic_wait",
+        "pic_good_afternoon"
+      ],
+      "correct": "pic_good_afternoon",
+      "why_wrong": {
+        "pic_sorry": "Not this one. Try again!",
+        "pic_help_me": "Not this one. Try again!",
+        "pic_wait": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u04_aud_word_See_you_tomorrow",
+      "image_ids": [
+        "pic_see_you_tomorrow",
+        "pic_help_me",
+        "pic_pardon",
+        "pic_wait"
+      ],
+      "choices": [
+        "pic_see_you_tomorrow",
+        "pic_help_me",
+        "pic_pardon",
+        "pic_wait"
+      ],
+      "correct": "pic_see_you_tomorrow",
+      "why_wrong": {
+        "pic_help_me": "Not this one. Try again!",
+        "pic_pardon": "Not this one. Try again!",
+        "pic_wait": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u04_aud_word_Sorry",
+      "image_ids": [
+        "pic_good_morning",
+        "pic_quiet",
+        "pic_good_afternoon",
+        "pic_sorry"
+      ],
+      "choices": [
+        "pic_good_morning",
+        "pic_quiet",
+        "pic_good_afternoon",
+        "pic_sorry"
+      ],
+      "correct": "pic_sorry",
+      "why_wrong": {
+        "pic_good_morning": "Not this one. Try again!",
+        "pic_quiet": "Not this one. Try again!",
+        "pic_good_afternoon": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u04_aud_listen_Good_afternoon",
+      "image_ids": [
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "Sorry",
+        "Wait!",
+        "Good afternoon",
+        "Help me please"
+      ],
+      "correct": "Good afternoon",
+      "why_wrong": {
+        "Sorry": "Not this one. Try again!",
+        "Wait!": "Not this one. Try again!",
+        "Help me please": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u04_aud_listen_See_you_tomorrow",
+      "image_ids": [
+        "pic_see_you_tomorrow"
+      ],
+      "choices": [
+        "Good morning",
+        "See you tomorrow",
+        "Pardon?",
+        "Sorry"
+      ],
+      "correct": "See you tomorrow",
+      "why_wrong": {
+        "Good morning": "Not this one. Try again!",
+        "Pardon?": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u04_aud_listen_Sorry",
+      "image_ids": [
+        "pic_sorry"
+      ],
+      "choices": [
+        "Help me please",
+        "Good afternoon",
+        "Wait!",
+        "Sorry"
+      ],
+      "correct": "Sorry",
+      "why_wrong": {
+        "Help me please": "Not this one. Try again!",
+        "Good afternoon": "Not this one. Try again!",
+        "Wait!": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_quiet"
+      ],
+      "choices": [
+        "See you tomorrow",
+        "Sorry",
+        "Good afternoon",
+        "Quiet!"
+      ],
+      "correct": "Quiet!",
+      "why_wrong": {
+        "See you tomorrow": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!",
+        "Good afternoon": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_wait"
+      ],
+      "choices": [
+        "Sorry",
+        "Wait!",
+        "See you tomorrow",
+        "Good afternoon"
+      ],
+      "correct": "Wait!",
+      "why_wrong": {
+        "Sorry": "Not this one. Try again!",
+        "See you tomorrow": "Not this one. Try again!",
+        "Good afternoon": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_good_morning"
+      ],
+      "choices": [
+        "Good morning",
+        "Good afternoon",
+        "Sorry",
+        "See you tomorrow"
+      ],
+      "correct": "Good morning",
+      "why_wrong": {
+        "Good afternoon": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!",
+        "See you tomorrow": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Good afternoon.”  What does Mr Jay say?",
+      "audio_id": "ba_u04_aud_stu_10",
+      "image_ids": [
+        "pic_sorry"
+      ],
+      "choices": [
+        "Pardon is spelled P A R D ON",
+        "That is okay",
+        "Thanks. You too",
+        "I hope so"
+      ],
+      "correct": "Thanks. You too",
+      "why_wrong": {
+        "Pardon is spelled P A R D ON": "Not this one. Try again!",
+        "That is okay": "Not this one. Try again!",
+        "I hope so": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q11",
+      "type": 4,
+      "prompt_text": "Student says: “See you tomorrow.”  What does Mr Jay say?",
+      "audio_id": "ba_u04_aud_stu_11",
+      "image_ids": [
+        "pic_pardon"
+      ],
+      "choices": [
+        "That is okay",
+        "I hope so",
+        "Pardon is spelled P A R D ON",
+        "Thanks. You too"
+      ],
+      "correct": "I hope so",
+      "why_wrong": {
+        "That is okay": "Not this one. Try again!",
+        "Pardon is spelled P A R D ON": "Not this one. Try again!",
+        "Thanks. You too": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Sorry”  What does Mr Jay say?",
+      "audio_id": "ba_u04_aud_stu_12",
+      "image_ids": [
+        "pic_help_me"
+      ],
+      "choices": [
+        "That is okay",
+        "Pardon is spelled P A R D ON",
+        "I hope so",
+        "Thanks. You too"
+      ],
+      "correct": "That is okay",
+      "why_wrong": {
+        "Pardon is spelled P A R D ON": "Not this one. Try again!",
+        "I hope so": "Not this one. Try again!",
+        "Thanks. You too": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q13",
+      "type": 5,
+      "prompt_text": "Cue: 좋은 오후  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "See you tomorrow",
+        "Good afternoon",
+        "Sorry",
+        "Pardon?"
+      ],
+      "correct": "Good afternoon",
+      "why_wrong": {
+        "See you tomorrow": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!",
+        "Pardon?": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q14",
+      "type": 5,
+      "prompt_text": "Cue: 내일 봐  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_see_you_tomorrow"
+      ],
+      "choices": [
+        "Good afternoon",
+        "Pardon?",
+        "See you tomorrow",
+        "Sorry"
+      ],
+      "correct": "See you tomorrow",
+      "why_wrong": {
+        "Good afternoon": "Not this one. Try again!",
+        "Pardon?": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q15",
+      "type": 6,
+      "prompt_text": "Spell “Pardon”. Click the correct spelling.",
+      "audio_id": "ba_u04_aud_spell_Pardon",
+      "image_ids": [
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "Q U I E T",
+        "S O R R Y",
+        "P A R D O N",
+        "PAR …"
+      ],
+      "correct": "P A R D O N",
+      "why_wrong": {
+        "Q U I E T": "Not this one. Try again!",
+        "S O R R Y": "Not this one. Try again!",
+        "PAR …": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q16",
+      "type": 6,
+      "prompt_text": "Spell “Sorry”. Click the correct spelling.",
+      "audio_id": "ba_u04_aud_spell_Sorry",
+      "image_ids": [
+        "pic_sorry"
+      ],
+      "choices": [
+        "Q U I E T",
+        "SOR …",
+        "S O R R Y",
+        "P A R D O N"
+      ],
+      "correct": "S O R R Y",
+      "why_wrong": {
+        "Q U I E T": "Not this one. Try again!",
+        "SOR …": "Not this one. Try again!",
+        "P A R D O N": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q17",
+      "type": 6,
+      "prompt_text": "Spell “Quiet”. Click the correct spelling.",
+      "audio_id": "ba_u04_aud_spell_Quiet",
+      "image_ids": [
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "QUI …",
+        "Q U I E T",
+        "P A R D O N",
+        "S O R R Y"
+      ],
+      "correct": "Q U I E T",
+      "why_wrong": {
+        "QUI …": "Not this one. Try again!",
+        "P A R D O N": "Not this one. Try again!",
+        "S O R R Y": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u04_aud_sent_18",
+      "image_ids": [
+        "pic_sorry"
+      ],
+      "choices": [
+        "Pardon?",
+        "Sorry",
+        "Good afternoon.",
+        "See you tomorrow."
+      ],
+      "correct": "Good afternoon.",
+      "why_wrong": {
+        "Pardon?": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!",
+        "See you tomorrow.": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u04_aud_sent_19",
+      "image_ids": [
+        "pic_pardon"
+      ],
+      "choices": [
+        "See you tomorrow.",
+        "Sorry",
+        "Good afternoon.",
+        "Pardon?"
+      ],
+      "correct": "See you tomorrow.",
+      "why_wrong": {
+        "Sorry": "Not this one. Try again!",
+        "Good afternoon.": "Not this one. Try again!",
+        "Pardon?": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u04_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u04_aud_sent_20",
+      "image_ids": [
+        "pic_help_me"
+      ],
+      "choices": [
+        "Pardon?",
+        "See you tomorrow.",
+        "Good afternoon.",
+        "Sorry"
+      ],
+      "correct": "Sorry",
+      "why_wrong": {
+        "Pardon?": "Not this one. Try again!",
+        "See you tomorrow.": "Not this one. Try again!",
+        "Good afternoon.": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a"
+    }
+  ]
+}

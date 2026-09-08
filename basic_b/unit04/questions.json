@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 4: Rock Paper Scissors!",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u04_aud_word_rock",
+      "image_ids": [
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors",
+        "pic_you_lose"
+      ],
+      "choices": [
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors",
+        "pic_you_lose"
+      ],
+      "correct": "pic_rock",
+      "why_wrong": {
+        "pic_paper": "Not this one. Try again!",
+        "pic_scissors": "Not this one. Try again!",
+        "pic_you_lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u04_aud_word_paper",
+      "image_ids": [
+        "pic_you_lose",
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors"
+      ],
+      "choices": [
+        "pic_you_lose",
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors"
+      ],
+      "correct": "pic_paper",
+      "why_wrong": {
+        "pic_you_lose": "Not this one. Try again!",
+        "pic_rock": "Not this one. Try again!",
+        "pic_scissors": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u04_aud_word_scissors",
+      "image_ids": [
+        "pic_paper",
+        "pic_i_win",
+        "pic_scissors",
+        "pic_rock"
+      ],
+      "choices": [
+        "pic_paper",
+        "pic_i_win",
+        "pic_scissors",
+        "pic_rock"
+      ],
+      "correct": "pic_scissors",
+      "why_wrong": {
+        "pic_paper": "Not this one. Try again!",
+        "pic_i_win": "Not this one. Try again!",
+        "pic_rock": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u04_aud_listen_rock",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "rock",
+        "lose",
+        "scissors",
+        "win"
+      ],
+      "correct": "rock",
+      "why_wrong": {
+        "lose": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!",
+        "win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u04_aud_listen_paper",
+      "image_ids": [
+        "pic_paper"
+      ],
+      "choices": [
+        "win",
+        "rock",
+        "paper",
+        "lose"
+      ],
+      "correct": "paper",
+      "why_wrong": {
+        "win": "Not this one. Try again!",
+        "rock": "Not this one. Try again!",
+        "lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u04_aud_listen_scissors",
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "rock",
+        "scissors",
+        "win",
+        "lose"
+      ],
+      "correct": "scissors",
+      "why_wrong": {
+        "rock": "Not this one. Try again!",
+        "win": "Not this one. Try again!",
+        "lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "paper",
+        "rock",
+        "win",
+        "scissors"
+      ],
+      "correct": "scissors",
+      "why_wrong": {
+        "paper": "Not this one. Try again!",
+        "rock": "Not this one. Try again!",
+        "win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_i_win"
+      ],
+      "choices": [
+        "win",
+        "rock",
+        "scissors",
+        "paper"
+      ],
+      "correct": "win",
+      "why_wrong": {
+        "rock": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!",
+        "paper": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_you_lose"
+      ],
+      "choices": [
+        "rock",
+        "scissors",
+        "paper",
+        "lose"
+      ],
+      "correct": "lose",
+      "why_wrong": {
+        "rock": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!",
+        "paper": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Show it or.. You lose”  What does Mr Jay say?",
+      "audio_id": "bb_u04_aud_stu_10",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "paper!",
+        "Okay",
+        "good job!",
+        "Okay! I will show it!"
+      ],
+      "correct": "Okay! I will show it!",
+      "why_wrong": {
+        "paper!": "Not this one. Try again!",
+        "Okay": "Not this one. Try again!",
+        "good job!": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q11",
+      "type": 4,
+      "prompt_text": "Student says: “ROCK PAPER SCISSORS”  What does Mr Jay say?",
+      "audio_id": "bb_u04_aud_stu_11",
+      "image_ids": [
+        "pic_paper"
+      ],
+      "choices": [
+        "paper!",
+        "Okay! I will show it!",
+        "good job!",
+        "Okay"
+      ],
+      "correct": "paper!",
+      "why_wrong": {
+        "Okay! I will show it!": "Not this one. Try again!",
+        "good job!": "Not this one. Try again!",
+        "Okay": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I win”  What does Mr Jay say?",
+      "audio_id": "bb_u04_aud_stu_12",
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "Okay! I will show it!",
+        "good job!",
+        "paper!",
+        "Okay"
+      ],
+      "correct": "good job!",
+      "why_wrong": {
+        "Okay! I will show it!": "Not this one. Try again!",
+        "paper!": "Not this one. Try again!",
+        "Okay": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q13",
+      "type": 5,
+      "prompt_text": "Cue: 바위  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "rock",
+        "win",
+        "paper",
+        "scissors"
+      ],
+      "correct": "rock",
+      "why_wrong": {
+        "win": "Not this one. Try again!",
+        "paper": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q14",
+      "type": 5,
+      "prompt_text": "Cue: 보  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_paper"
+      ],
+      "choices": [
+        "rock",
+        "scissors",
+        "win",
+        "paper"
+      ],
+      "correct": "paper",
+      "why_wrong": {
+        "rock": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!",
+        "win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q15",
+      "type": 6,
+      "prompt_text": "Spell “rock”. Click the correct spelling.",
+      "audio_id": "bb_u04_aud_spell_rock",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "S C I S S O R S",
+        "P A P E R",
+        "ROC …",
+        "R O C K"
+      ],
+      "correct": "R O C K",
+      "why_wrong": {
+        "S C I S S O R S": "Not this one. Try again!",
+        "P A P E R": "Not this one. Try again!",
+        "ROC …": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q16",
+      "type": 6,
+      "prompt_text": "Spell “paper”. Click the correct spelling.",
+      "audio_id": "bb_u04_aud_spell_paper",
+      "image_ids": [
+        "pic_paper"
+      ],
+      "choices": [
+        "S C I S S O R S",
+        "PAP …",
+        "P A P E R",
+        "R O C K"
+      ],
+      "correct": "P A P E R",
+      "why_wrong": {
+        "S C I S S O R S": "Not this one. Try again!",
+        "PAP …": "Not this one. Try again!",
+        "R O C K": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q17",
+      "type": 6,
+      "prompt_text": "Spell “scissors”. Click the correct spelling.",
+      "audio_id": "bb_u04_aud_spell_scissors",
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "P A P E R",
+        "R O C K",
+        "S C I S S O R S",
+        "SCI …"
+      ],
+      "correct": "S C I S S O R S",
+      "why_wrong": {
+        "P A P E R": "Not this one. Try again!",
+        "R O C K": "Not this one. Try again!",
+        "SCI …": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u04_aud_sent_18",
+      "image_ids": [
+        "pic_i_win"
+      ],
+      "choices": [
+        "ROCK PAPER SCISSORS",
+        "I win",
+        "Show it or.. You lose"
+      ],
+      "correct": "Show it or.. You lose",
+      "why_wrong": {
+        "ROCK PAPER SCISSORS": "Not this one. Try again!",
+        "I win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u04_aud_sent_19",
+      "image_ids": [
+        "pic_you_lose"
+      ],
+      "choices": [
+        "I win",
+        "ROCK PAPER SCISSORS",
+        "Show it or.. You lose"
+      ],
+      "correct": "ROCK PAPER SCISSORS",
+      "why_wrong": {
+        "I win": "Not this one. Try again!",
+        "Show it or.. You lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u04_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u04_aud_sent_20",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "I win",
+        "ROCK PAPER SCISSORS",
+        "Show it or.. You lose"
+      ],
+      "correct": "I win",
+      "why_wrong": {
+        "ROCK PAPER SCISSORS": "Not this one. Try again!",
+        "Show it or.. You lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b"
+    }
+  ]
+}

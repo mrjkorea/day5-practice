@@ -1,0 +1,286 @@
+{
+  "levels": [
+    {
+      "id": "basic_a",
+      "label": "Basic A",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "basic_a/unit01/questions.json",
+          "title": "Basic A Unit 1: Numbers 1 to 10",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "basic_a/unit02/questions.json",
+          "title": "Basic A Unit 2: Hello",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "basic_a/unit03/questions.json",
+          "title": "Basic A Unit 3: Computer Orders",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "basic_a/unit04/questions.json",
+          "title": "Basic A Unit 4: Classroom English One",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "basic_a/unit05/questions.json",
+          "title": "Basic A Unit 5: Family",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "basic_a/unit06/questions.json",
+          "title": "Basic A Unit 6: What is this?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "basic_a/unit07/questions.json",
+          "title": "Basic A Unit 7: I can",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "basic_a/unit08/questions.json",
+          "title": "Basic A Unit 8: Numbers 11–100",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "basic_a/midterm_1_4/questions.json",
+          "title": "Basic A Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "basic_a/midterm_5_8/questions.json",
+          "title": "Basic A Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "basic_a/final/questions.json",
+          "title": "Basic A Final Exam",
+          "kind": "final",
+          "count": 25,
+          "pass_percent": 80
+        }
+      ]
+    },
+    {
+      "id": "basic_b",
+      "label": "Basic B",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "basic_b/unit01/questions.json",
+          "title": "Basic B Unit 1: How are you?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "basic_b/unit02/questions.json",
+          "title": "Basic B Unit 2: I like Mr. Jay",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "basic_b/unit03/questions.json",
+          "title": "Basic B Unit 3: Classroom English Two",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "basic_b/unit04/questions.json",
+          "title": "Basic B Unit 4: Rock Paper Scissors!",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "basic_b/unit05/questions.json",
+          "title": "Basic B Unit 5: What is it?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "basic_b/unit06/questions.json",
+          "title": "Basic B Unit 6: I like my body",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "basic_b/unit07/questions.json",
+          "title": "Basic B Unit 7: What color is that?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "basic_b/unit08/questions.json",
+          "title": "Basic B Unit 8: How old are you?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "basic_b/midterm_1_4/questions.json",
+          "title": "Basic B Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "basic_b/midterm_5_8/questions.json",
+          "title": "Basic B Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "basic_b/final/questions.json",
+          "title": "Basic B Final Exam",
+          "kind": "final",
+          "count": 25,
+          "pass_percent": 80
+        }
+      ]
+    },
+    {
+      "id": "basic_c",
+      "label": "Basic C",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "basic_c/unit01/questions.json",
+          "title": "Basic C Unit 1: I Love My Dog Zoey",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "basic_c/unit02/questions.json",
+          "title": "Basic C Unit 2: Look at My New Hat",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "basic_c/unit03/questions.json",
+          "title": "Basic C Unit 3: Classroom English Three",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "basic_c/unit04/questions.json",
+          "title": "Basic C Unit 4: What Can We See near Tongyeong?",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "basic_c/unit05/questions.json",
+          "title": "Basic C Unit 5: Spelling Bee",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "basic_c/unit06/questions.json",
+          "title": "Basic C Unit 6: Don't Touch Your Arm",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "basic_c/unit07/questions.json",
+          "title": "Basic C Unit 7: Come Play With Us",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "basic_c/unit08/questions.json",
+          "title": "Basic C Unit 8: I Want a New Computer",
+          "kind": "unit",
+          "count": 20,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "basic_c/midterm_1_4/questions.json",
+          "title": "Basic C Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "basic_c/midterm_5_8/questions.json",
+          "title": "Basic C Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 24,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "basic_c/final/questions.json",
+          "title": "Basic C Final Exam",
+          "kind": "final",
+          "count": 25,
+          "pass_percent": 80
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 5: Family",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u05_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u05_aud_word_mom",
+      "image_ids": [
+        "pic_dad",
+        "pic_sister",
+        "pic_mom",
+        "pic_cousin"
+      ],
+      "choices": [
+        "pic_dad",
+        "pic_sister",
+        "pic_mom",
+        "pic_cousin"
+      ],
+      "correct": "pic_mom",
+      "why_wrong": {
+        "pic_dad": "Not this one. Try again!",
+        "pic_sister": "Not this one. Try again!",
+        "pic_cousin": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u05_aud_word_dad",
+      "image_ids": [
+        "pic_grandmother",
+        "pic_dad",
+        "pic_brother",
+        "pic_sister"
+      ],
+      "choices": [
+        "pic_grandmother",
+        "pic_dad",
+        "pic_brother",
+        "pic_sister"
+      ],
+      "correct": "pic_dad",
+      "why_wrong": {
+        "pic_grandmother": "Not this one. Try again!",
+        "pic_brother": "Not this one. Try again!",
+        "pic_sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u05_aud_word_sister",
+      "image_ids": [
+        "pic_cousin",
+        "pic_mom",
+        "pic_grandmother",
+        "pic_sister"
+      ],
+      "choices": [
+        "pic_cousin",
+        "pic_mom",
+        "pic_grandmother",
+        "pic_sister"
+      ],
+      "correct": "pic_sister",
+      "why_wrong": {
+        "pic_cousin": "Not this one. Try again!",
+        "pic_mom": "Not this one. Try again!",
+        "pic_grandmother": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u05_aud_listen_mom",
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "grandmother",
+        "aunt",
+        "sister",
+        "mom"
+      ],
+      "correct": "mom",
+      "why_wrong": {
+        "grandmother": "Not this one. Try again!",
+        "aunt": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u05_aud_listen_dad",
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "cousin",
+        "sister",
+        "dad",
+        "mom"
+      ],
+      "correct": "dad",
+      "why_wrong": {
+        "cousin": "Not this one. Try again!",
+        "sister": "Not this one. Try again!",
+        "mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u05_aud_listen_sister",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "aunt",
+        "sister",
+        "cousin",
+        "mom"
+      ],
+      "correct": "sister",
+      "why_wrong": {
+        "aunt": "Not this one. Try again!",
+        "cousin": "Not this one. Try again!",
+        "mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_aunt"
+      ],
+      "choices": [
+        "aunt",
+        "mom",
+        "dad",
+        "sister"
+      ],
+      "correct": "aunt",
+      "why_wrong": {
+        "mom": "Not this one. Try again!",
+        "dad": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_grandmother"
+      ],
+      "choices": [
+        "grandmother",
+        "dad",
+        "mom",
+        "sister"
+      ],
+      "correct": "grandmother",
+      "why_wrong": {
+        "dad": "Not this one. Try again!",
+        "mom": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_cousin"
+      ],
+      "choices": [
+        "cousin",
+        "sister",
+        "dad",
+        "mom"
+      ],
+      "correct": "cousin",
+      "why_wrong": {
+        "sister": "Not this one. Try again!",
+        "dad": "Not this one. Try again!",
+        "mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q10",
+      "type": 4,
+      "prompt_text": "Student says: “This is my mom”  What does Mr Jay say?",
+      "audio_id": "ba_u05_aud_stu_10",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "I have five brothers",
+        "She is beautiful",
+        "I have six sisters",
+        "He is handsome"
+      ],
+      "correct": "She is beautiful",
+      "why_wrong": {
+        "I have five brothers": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q11",
+      "type": 4,
+      "prompt_text": "Student says: “This is my dad”  What does Mr Jay say?",
+      "audio_id": "ba_u05_aud_stu_11",
+      "image_ids": [
+        "pic_brother"
+      ],
+      "choices": [
+        "He is handsome",
+        "She is beautiful",
+        "I have five brothers",
+        "I have six sisters"
+      ],
+      "correct": "He is handsome",
+      "why_wrong": {
+        "She is beautiful": "Not this one. Try again!",
+        "I have five brothers": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q12",
+      "type": 4,
+      "prompt_text": "Student says: “This is my sister”  What does Mr Jay say?",
+      "audio_id": "ba_u05_aud_stu_12",
+      "image_ids": [
+        "pic_uncle"
+      ],
+      "choices": [
+        "He is handsome",
+        "She is beautiful",
+        "I have five brothers",
+        "I have six sisters"
+      ],
+      "correct": "I have six sisters",
+      "why_wrong": {
+        "He is handsome": "Not this one. Try again!",
+        "She is beautiful": "Not this one. Try again!",
+        "I have five brothers": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q13",
+      "type": 5,
+      "prompt_text": "Cue: 엄마  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "brother",
+        "sister",
+        "mom",
+        "dad"
+      ],
+      "correct": "mom",
+      "why_wrong": {
+        "brother": "Not this one. Try again!",
+        "sister": "Not this one. Try again!",
+        "dad": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q14",
+      "type": 5,
+      "prompt_text": "Cue: 아빠  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "mom",
+        "sister",
+        "brother",
+        "dad"
+      ],
+      "correct": "dad",
+      "why_wrong": {
+        "mom": "Not this one. Try again!",
+        "sister": "Not this one. Try again!",
+        "brother": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q15",
+      "type": 6,
+      "prompt_text": "Spell “mom”. Click the correct spelling.",
+      "audio_id": "ba_u05_aud_spell_mom",
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "D A D",
+        "M O M",
+        "S I S T E R",
+        "U N C L E"
+      ],
+      "correct": "M O M",
+      "why_wrong": {
+        "D A D": "Not this one. Try again!",
+        "S I S T E R": "Not this one. Try again!",
+        "U N C L E": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q16",
+      "type": 6,
+      "prompt_text": "Spell “dad”. Click the correct spelling.",
+      "audio_id": "ba_u05_aud_spell_dad",
+      "image_ids": [
+        "pic_dad"
+      ],
+      "choices": [
+        "S I S T E R",
+        "D A D",
+        "M O M",
+        "U N C L E"
+      ],
+      "correct": "D A D",
+      "why_wrong": {
+        "S I S T E R": "Not this one. Try again!",
+        "M O M": "Not this one. Try again!",
+        "U N C L E": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q17",
+      "type": 6,
+      "prompt_text": "Spell “sister”. Click the correct spelling.",
+      "audio_id": "ba_u05_aud_spell_sister",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "S I S T E R",
+        "D A D",
+        "M O M",
+        "U N C L E"
+      ],
+      "correct": "S I S T E R",
+      "why_wrong": {
+        "D A D": "Not this one. Try again!",
+        "M O M": "Not this one. Try again!",
+        "U N C L E": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u05_aud_sent_18",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "This is my brother",
+        "This is my sister",
+        "This is my mom",
+        "This is my dad"
+      ],
+      "correct": "This is my mom",
+      "why_wrong": {
+        "This is my brother": "Not this one. Try again!",
+        "This is my sister": "Not this one. Try again!",
+        "This is my dad": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u05_aud_sent_19",
+      "image_ids": [
+        "pic_brother"
+      ],
+      "choices": [
+        "This is my sister",
+        "This is my brother",
+        "This is my mom",
+        "This is my dad"
+      ],
+      "correct": "This is my dad",
+      "why_wrong": {
+        "This is my sister": "Not this one. Try again!",
+        "This is my brother": "Not this one. Try again!",
+        "This is my mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u05_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u05_aud_sent_20",
+      "image_ids": [
+        "pic_uncle"
+      ],
+      "choices": [
+        "This is my sister",
+        "This is my brother",
+        "This is my dad",
+        "This is my mom"
+      ],
+      "correct": "This is my sister",
+      "why_wrong": {
+        "This is my brother": "Not this one. Try again!",
+        "This is my dad": "Not this one. Try again!",
+        "This is my mom": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a"
+    }
+  ]
+}

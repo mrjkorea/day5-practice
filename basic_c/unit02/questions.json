@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_c",
+    "title": "Basic C Unit 2: Look at My New Hat",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bc_u02_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u02_aud_word_hat",
+      "image_ids": [
+        "pic_watch",
+        "pic_coat",
+        "pic_shoes",
+        "pic_hat"
+      ],
+      "choices": [
+        "pic_watch",
+        "pic_coat",
+        "pic_shoes",
+        "pic_hat"
+      ],
+      "correct": "pic_hat",
+      "why_wrong": {
+        "pic_watch": "Not this one. Try again!",
+        "pic_coat": "Not this one. Try again!",
+        "pic_shoes": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u02_aud_word_earphones",
+      "image_ids": [
+        "pic_earphones",
+        "pic_watch",
+        "pic_phone",
+        "pic_bag"
+      ],
+      "choices": [
+        "pic_earphones",
+        "pic_watch",
+        "pic_phone",
+        "pic_bag"
+      ],
+      "correct": "pic_earphones",
+      "why_wrong": {
+        "pic_watch": "Not this one. Try again!",
+        "pic_phone": "Not this one. Try again!",
+        "pic_bag": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u02_aud_word_shoes",
+      "image_ids": [
+        "pic_phone",
+        "pic_watch",
+        "pic_shoes",
+        "pic_computer"
+      ],
+      "choices": [
+        "pic_phone",
+        "pic_watch",
+        "pic_shoes",
+        "pic_computer"
+      ],
+      "correct": "pic_shoes",
+      "why_wrong": {
+        "pic_phone": "Not this one. Try again!",
+        "pic_watch": "Not this one. Try again!",
+        "pic_computer": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u02_aud_listen_hat",
+      "image_ids": [
+        "pic_hat"
+      ],
+      "choices": [
+        "computer",
+        "hat",
+        "earphones",
+        "watch"
+      ],
+      "correct": "hat",
+      "why_wrong": {
+        "computer": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!",
+        "watch": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u02_aud_listen_earphones",
+      "image_ids": [
+        "pic_earphones"
+      ],
+      "choices": [
+        "bag",
+        "shoes",
+        "earphones",
+        "phone"
+      ],
+      "correct": "earphones",
+      "why_wrong": {
+        "bag": "Not this one. Try again!",
+        "shoes": "Not this one. Try again!",
+        "phone": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u02_aud_listen_shoes",
+      "image_ids": [
+        "pic_shoes"
+      ],
+      "choices": [
+        "earphones",
+        "bag",
+        "computer",
+        "shoes"
+      ],
+      "correct": "shoes",
+      "why_wrong": {
+        "earphones": "Not this one. Try again!",
+        "bag": "Not this one. Try again!",
+        "computer": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_watch"
+      ],
+      "choices": [
+        "shoes",
+        "hat",
+        "watch",
+        "earphones"
+      ],
+      "correct": "watch",
+      "why_wrong": {
+        "shoes": "Not this one. Try again!",
+        "hat": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_bag"
+      ],
+      "choices": [
+        "shoes",
+        "earphones",
+        "hat",
+        "bag"
+      ],
+      "correct": "bag",
+      "why_wrong": {
+        "shoes": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!",
+        "hat": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_computer"
+      ],
+      "choices": [
+        "computer",
+        "earphones",
+        "hat",
+        "shoes"
+      ],
+      "correct": "computer",
+      "why_wrong": {
+        "earphones": "Not this one. Try again!",
+        "hat": "Not this one. Try again!",
+        "shoes": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Look at my new hat”  What does Mr Jay say?",
+      "audio_id": "bc_u02_aud_stu_10",
+      "image_ids": [
+        "pic_shoes"
+      ],
+      "choices": [
+        "I have a samsung note 10",
+        "New earphones are very expensive",
+        "My feet are very big",
+        "I never wear hats."
+      ],
+      "correct": "I never wear hats.",
+      "why_wrong": {
+        "I have a samsung note 10": "Not this one. Try again!",
+        "New earphones are very expensive": "Not this one. Try again!",
+        "My feet are very big": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q11",
+      "type": 4,
+      "prompt_text": "Student says: “Look at my new earphones.”  What does Mr Jay say?",
+      "audio_id": "bc_u02_aud_stu_11",
+      "image_ids": [
+        "pic_phone"
+      ],
+      "choices": [
+        "New earphones are very expensive",
+        "My feet are very big",
+        "I have a samsung note 10",
+        "I never wear hats."
+      ],
+      "correct": "New earphones are very expensive",
+      "why_wrong": {
+        "My feet are very big": "Not this one. Try again!",
+        "I have a samsung note 10": "Not this one. Try again!",
+        "I never wear hats.": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q12",
+      "type": 4,
+      "prompt_text": "Student says: “Look at my new shoes.”  What does Mr Jay say?",
+      "audio_id": "bc_u02_aud_stu_12",
+      "image_ids": [
+        "pic_coat"
+      ],
+      "choices": [
+        "I have a samsung note 10",
+        "I never wear hats.",
+        "My feet are very big",
+        "New earphones are very expensive"
+      ],
+      "correct": "My feet are very big",
+      "why_wrong": {
+        "I have a samsung note 10": "Not this one. Try again!",
+        "I never wear hats.": "Not this one. Try again!",
+        "New earphones are very expensive": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q13",
+      "type": 5,
+      "prompt_text": "Cue: 모자  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_hat"
+      ],
+      "choices": [
+        "phone",
+        "shoes",
+        "earphones",
+        "hat"
+      ],
+      "correct": "hat",
+      "why_wrong": {
+        "phone": "Not this one. Try again!",
+        "shoes": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q14",
+      "type": 5,
+      "prompt_text": "Cue: 이어폰  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_earphones"
+      ],
+      "choices": [
+        "shoes",
+        "earphones",
+        "hat",
+        "phone"
+      ],
+      "correct": "earphones",
+      "why_wrong": {
+        "shoes": "Not this one. Try again!",
+        "hat": "Not this one. Try again!",
+        "phone": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q15",
+      "type": 6,
+      "prompt_text": "Spell “hat”. Click the correct spelling.",
+      "audio_id": "bc_u02_aud_spell_hat",
+      "image_ids": [
+        "pic_hat"
+      ],
+      "choices": [
+        "S H O E S",
+        "H A T",
+        "W A T C H",
+        "C O A T"
+      ],
+      "correct": "H A T",
+      "why_wrong": {
+        "S H O E S": "Not this one. Try again!",
+        "W A T C H": "Not this one. Try again!",
+        "C O A T": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q16",
+      "type": 6,
+      "prompt_text": "Spell “shoes”. Click the correct spelling.",
+      "audio_id": "bc_u02_aud_spell_shoes",
+      "image_ids": [
+        "pic_shoes"
+      ],
+      "choices": [
+        "W A T C H",
+        "S H O E S",
+        "C O A T",
+        "H A T"
+      ],
+      "correct": "S H O E S",
+      "why_wrong": {
+        "W A T C H": "Not this one. Try again!",
+        "C O A T": "Not this one. Try again!",
+        "H A T": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q17",
+      "type": 6,
+      "prompt_text": "Spell “coat”. Click the correct spelling.",
+      "audio_id": "bc_u02_aud_spell_coat",
+      "image_ids": [
+        "pic_coat"
+      ],
+      "choices": [
+        "W A T C H",
+        "H A T",
+        "S H O E S",
+        "C O A T"
+      ],
+      "correct": "C O A T",
+      "why_wrong": {
+        "W A T C H": "Not this one. Try again!",
+        "H A T": "Not this one. Try again!",
+        "S H O E S": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u02_aud_sent_18",
+      "image_ids": [
+        "pic_shoes"
+      ],
+      "choices": [
+        "Look at my new earphones.",
+        "Look at my new hat",
+        "Look at my new shoes.",
+        "Look at my new phone"
+      ],
+      "correct": "Look at my new hat",
+      "why_wrong": {
+        "Look at my new earphones.": "Not this one. Try again!",
+        "Look at my new shoes.": "Not this one. Try again!",
+        "Look at my new phone": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u02_aud_sent_19",
+      "image_ids": [
+        "pic_phone"
+      ],
+      "choices": [
+        "Look at my new phone",
+        "Look at my new shoes.",
+        "Look at my new hat",
+        "Look at my new earphones."
+      ],
+      "correct": "Look at my new earphones.",
+      "why_wrong": {
+        "Look at my new phone": "Not this one. Try again!",
+        "Look at my new shoes.": "Not this one. Try again!",
+        "Look at my new hat": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u02_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u02_aud_sent_20",
+      "image_ids": [
+        "pic_coat"
+      ],
+      "choices": [
+        "Look at my new hat",
+        "Look at my new shoes.",
+        "Look at my new earphones.",
+        "Look at my new phone"
+      ],
+      "correct": "Look at my new shoes.",
+      "why_wrong": {
+        "Look at my new hat": "Not this one. Try again!",
+        "Look at my new earphones.": "Not this one. Try again!",
+        "Look at my new phone": "Not this one. Try again!"
+      },
+      "unit": 2,
+      "level": "basic_c"
+    }
+  ]
+}

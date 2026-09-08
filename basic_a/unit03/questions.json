@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 3: Computer Orders",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u03_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u03_aud_word_headset",
+      "image_ids": [
+        "pic_headset",
+        "pic_double_click",
+        "pic_right_click",
+        "pic_restart"
+      ],
+      "choices": [
+        "pic_headset",
+        "pic_double_click",
+        "pic_right_click",
+        "pic_restart"
+      ],
+      "correct": "pic_headset",
+      "why_wrong": {
+        "pic_double_click": "Not this one. Try again!",
+        "pic_right_click": "Not this one. Try again!",
+        "pic_restart": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u03_aud_word_scroll",
+      "image_ids": [
+        "pic_double_click",
+        "pic_scroll_down",
+        "pic_right_click",
+        "pic_headset"
+      ],
+      "choices": [
+        "pic_double_click",
+        "pic_scroll_down",
+        "pic_right_click",
+        "pic_headset"
+      ],
+      "correct": "pic_scroll_down",
+      "why_wrong": {
+        "pic_double_click": "Not this one. Try again!",
+        "pic_right_click": "Not this one. Try again!",
+        "pic_headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u03_aud_word_ID",
+      "image_ids": [
+        "pic_type_id",
+        "pic_new_tab",
+        "pic_scroll_down",
+        "pic_left_click"
+      ],
+      "choices": [
+        "pic_type_id",
+        "pic_new_tab",
+        "pic_scroll_down",
+        "pic_left_click"
+      ],
+      "correct": "pic_type_id",
+      "why_wrong": {
+        "pic_new_tab": "Not this one. Try again!",
+        "pic_scroll_down": "Not this one. Try again!",
+        "pic_left_click": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u03_aud_listen_headset",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "headset",
+        "right click",
+        "tab",
+        "double click"
+      ],
+      "correct": "headset",
+      "why_wrong": {
+        "right click": "Not this one. Try again!",
+        "tab": "Not this one. Try again!",
+        "double click": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u03_aud_listen_scroll",
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "ID",
+        "headset",
+        "scroll",
+        "tab"
+      ],
+      "correct": "scroll",
+      "why_wrong": {
+        "ID": "Not this one. Try again!",
+        "headset": "Not this one. Try again!",
+        "tab": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u03_aud_listen_ID",
+      "image_ids": [
+        "pic_type_id"
+      ],
+      "choices": [
+        "X",
+        "scroll",
+        "ID",
+        "left click"
+      ],
+      "correct": "ID",
+      "why_wrong": {
+        "X": "Not this one. Try again!",
+        "scroll": "Not this one. Try again!",
+        "left click": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_double_click"
+      ],
+      "choices": [
+        "ID",
+        "scroll",
+        "double click",
+        "headset"
+      ],
+      "correct": "double click",
+      "why_wrong": {
+        "ID": "Not this one. Try again!",
+        "scroll": "Not this one. Try again!",
+        "headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dont_click_x"
+      ],
+      "choices": [
+        "scroll",
+        "X",
+        "ID",
+        "headset"
+      ],
+      "correct": "X",
+      "why_wrong": {
+        "scroll": "Not this one. Try again!",
+        "ID": "Not this one. Try again!",
+        "headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_restart"
+      ],
+      "choices": [
+        "ID",
+        "restart",
+        "scroll",
+        "headset"
+      ],
+      "correct": "restart",
+      "why_wrong": {
+        "ID": "Not this one. Try again!",
+        "scroll": "Not this one. Try again!",
+        "headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q10",
+      "type": 4,
+      "prompt_text": "Student says: “Unplug your headset”  What does Mr Jay say?",
+      "audio_id": "ba_u03_aud_stu_10",
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "Okay",
+        "I don't have a headset",
+        "No problem"
+      ],
+      "correct": "I don't have a headset",
+      "why_wrong": {
+        "Okay": "Not this one. Try again!",
+        "No problem": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q11",
+      "type": 4,
+      "prompt_text": "Student says: “Scroll down”  What does Mr Jay say?",
+      "audio_id": "ba_u03_aud_stu_11",
+      "image_ids": [
+        "pic_type_id"
+      ],
+      "choices": [
+        "Okay",
+        "No problem",
+        "I don't have a headset"
+      ],
+      "correct": "Okay",
+      "why_wrong": {
+        "No problem": "Not this one. Try again!",
+        "I don't have a headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q12",
+      "type": 4,
+      "prompt_text": "Student says: “type your ID”  What does Mr Jay say?",
+      "audio_id": "ba_u03_aud_stu_12",
+      "image_ids": [
+        "pic_new_tab"
+      ],
+      "choices": [
+        "Okay",
+        "No problem",
+        "I don't have a headset"
+      ],
+      "correct": "No problem",
+      "why_wrong": {
+        "Okay": "Not this one. Try again!",
+        "I don't have a headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q13",
+      "type": 5,
+      "prompt_text": "Cue: 헤드셋  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "tab",
+        "scroll",
+        "headset",
+        "ID"
+      ],
+      "correct": "headset",
+      "why_wrong": {
+        "tab": "Not this one. Try again!",
+        "scroll": "Not this one. Try again!",
+        "ID": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q14",
+      "type": 5,
+      "prompt_text": "Cue: 스크롤  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "ID",
+        "headset",
+        "scroll",
+        "tab"
+      ],
+      "correct": "scroll",
+      "why_wrong": {
+        "ID": "Not this one. Try again!",
+        "headset": "Not this one. Try again!",
+        "tab": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q15",
+      "type": 6,
+      "prompt_text": "Spell “headset”. Click the correct spelling.",
+      "audio_id": "ba_u03_aud_spell_headset",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "T A B",
+        "H E A D S E T",
+        "C L I C K",
+        "HEA …"
+      ],
+      "correct": "H E A D S E T",
+      "why_wrong": {
+        "T A B": "Not this one. Try again!",
+        "C L I C K": "Not this one. Try again!",
+        "HEA …": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q16",
+      "type": 6,
+      "prompt_text": "Spell “click”. Click the correct spelling.",
+      "audio_id": "ba_u03_aud_spell_click",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "T A B",
+        "CLI …",
+        "H E A D S E T",
+        "C L I C K"
+      ],
+      "correct": "C L I C K",
+      "why_wrong": {
+        "T A B": "Not this one. Try again!",
+        "CLI …": "Not this one. Try again!",
+        "H E A D S E T": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q17",
+      "type": 6,
+      "prompt_text": "Spell “tab”. Click the correct spelling.",
+      "audio_id": "ba_u03_aud_spell_tab",
+      "image_ids": [
+        "pic_new_tab"
+      ],
+      "choices": [
+        "H E A D S E T",
+        "TAB …",
+        "C L I C K",
+        "T A B"
+      ],
+      "correct": "T A B",
+      "why_wrong": {
+        "H E A D S E T": "Not this one. Try again!",
+        "TAB …": "Not this one. Try again!",
+        "C L I C K": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u03_aud_sent_18",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "Make a new tab",
+        "Scroll down",
+        "Unplug your headset",
+        "type your ID"
+      ],
+      "correct": "Unplug your headset",
+      "why_wrong": {
+        "Make a new tab": "Not this one. Try again!",
+        "Scroll down": "Not this one. Try again!",
+        "type your ID": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u03_aud_sent_19",
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "type your ID",
+        "Unplug your headset",
+        "Make a new tab",
+        "Scroll down"
+      ],
+      "correct": "Scroll down",
+      "why_wrong": {
+        "type your ID": "Not this one. Try again!",
+        "Unplug your headset": "Not this one. Try again!",
+        "Make a new tab": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u03_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u03_aud_sent_20",
+      "image_ids": [
+        "pic_type_id"
+      ],
+      "choices": [
+        "Make a new tab",
+        "Unplug your headset",
+        "type your ID",
+        "Scroll down"
+      ],
+      "correct": "type your ID",
+      "why_wrong": {
+        "Make a new tab": "Not this one. Try again!",
+        "Unplug your headset": "Not this one. Try again!",
+        "Scroll down": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a"
+    }
+  ]
+}

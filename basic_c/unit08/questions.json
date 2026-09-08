@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_c",
+    "title": "Basic C Unit 8: I Want a New Computer",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bc_u08_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u08_aud_word_doll",
+      "image_ids": [
+        "pic_school_bag",
+        "pic_doll",
+        "pic_clothes",
+        "pic_phone"
+      ],
+      "choices": [
+        "pic_school_bag",
+        "pic_doll",
+        "pic_clothes",
+        "pic_phone"
+      ],
+      "correct": "pic_doll",
+      "why_wrong": {
+        "pic_school_bag": "Not this one. Try again!",
+        "pic_clothes": "Not this one. Try again!",
+        "pic_phone": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u08_aud_word_pencil_case",
+      "image_ids": [
+        "pic_clothes",
+        "pic_pencil_case",
+        "pic_earphones",
+        "pic_doll"
+      ],
+      "choices": [
+        "pic_clothes",
+        "pic_pencil_case",
+        "pic_earphones",
+        "pic_doll"
+      ],
+      "correct": "pic_pencil_case",
+      "why_wrong": {
+        "pic_clothes": "Not this one. Try again!",
+        "pic_earphones": "Not this one. Try again!",
+        "pic_doll": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u08_aud_word_school_bag",
+      "image_ids": [
+        "pic_computer",
+        "pic_brother",
+        "pic_earphones",
+        "pic_school_bag"
+      ],
+      "choices": [
+        "pic_computer",
+        "pic_brother",
+        "pic_earphones",
+        "pic_school_bag"
+      ],
+      "correct": "pic_school_bag",
+      "why_wrong": {
+        "pic_computer": "Not this one. Try again!",
+        "pic_brother": "Not this one. Try again!",
+        "pic_earphones": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u08_aud_listen_doll",
+      "image_ids": [
+        "pic_doll"
+      ],
+      "choices": [
+        "clothes",
+        "brother",
+        "doll",
+        "bike"
+      ],
+      "correct": "doll",
+      "why_wrong": {
+        "clothes": "Not this one. Try again!",
+        "brother": "Not this one. Try again!",
+        "bike": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u08_aud_listen_pencil_case",
+      "image_ids": [
+        "pic_pencil_case"
+      ],
+      "choices": [
+        "school bag",
+        "bike",
+        "pencil case",
+        "earphones"
+      ],
+      "correct": "pencil case",
+      "why_wrong": {
+        "school bag": "Not this one. Try again!",
+        "bike": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u08_aud_listen_school_bag",
+      "image_ids": [
+        "pic_school_bag"
+      ],
+      "choices": [
+        "earphones",
+        "pencil case",
+        "clothes",
+        "school bag"
+      ],
+      "correct": "school bag",
+      "why_wrong": {
+        "earphones": "Not this one. Try again!",
+        "pencil case": "Not this one. Try again!",
+        "clothes": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_bike"
+      ],
+      "choices": [
+        "bike",
+        "school bag",
+        "pencil case",
+        "doll"
+      ],
+      "correct": "bike",
+      "why_wrong": {
+        "school bag": "Not this one. Try again!",
+        "pencil case": "Not this one. Try again!",
+        "doll": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_computer"
+      ],
+      "choices": [
+        "school bag",
+        "computer",
+        "doll",
+        "pencil case"
+      ],
+      "correct": "computer",
+      "why_wrong": {
+        "school bag": "Not this one. Try again!",
+        "doll": "Not this one. Try again!",
+        "pencil case": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_brother"
+      ],
+      "choices": [
+        "brother",
+        "pencil case",
+        "school bag",
+        "doll"
+      ],
+      "correct": "brother",
+      "why_wrong": {
+        "pencil case": "Not this one. Try again!",
+        "school bag": "Not this one. Try again!",
+        "doll": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q10",
+      "type": 4,
+      "prompt_text": "Student says: “I want a new doll and…”  What does Mr Jay say?",
+      "audio_id": "bc_u08_aud_stu_10",
+      "image_ids": [
+        "pic_pencil_case"
+      ],
+      "choices": [
+        "I don't like dolls",
+        "I have many pencil cases",
+        "I have many school bags",
+        "Earphone? they are very expensive"
+      ],
+      "correct": "I don't like dolls",
+      "why_wrong": {
+        "I have many pencil cases": "Not this one. Try again!",
+        "I have many school bags": "Not this one. Try again!",
+        "Earphone? they are very expensive": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q11",
+      "type": 4,
+      "prompt_text": "Student says: “I want a new pencil case and…”  What does Mr Jay say?",
+      "audio_id": "bc_u08_aud_stu_11",
+      "image_ids": [
+        "pic_school_bag"
+      ],
+      "choices": [
+        "I don't like dolls",
+        "I have many school bags",
+        "I have many pencil cases",
+        "Earphone? they are very expensive"
+      ],
+      "correct": "I have many pencil cases",
+      "why_wrong": {
+        "I don't like dolls": "Not this one. Try again!",
+        "I have many school bags": "Not this one. Try again!",
+        "Earphone? they are very expensive": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I want a new school bag and…”  What does Mr Jay say?",
+      "audio_id": "bc_u08_aud_stu_12",
+      "image_ids": [
+        "pic_earphones"
+      ],
+      "choices": [
+        "I have many pencil cases",
+        "Earphone? they are very expensive",
+        "I have many school bags",
+        "I don't like dolls"
+      ],
+      "correct": "I have many school bags",
+      "why_wrong": {
+        "I have many pencil cases": "Not this one. Try again!",
+        "Earphone? they are very expensive": "Not this one. Try again!",
+        "I don't like dolls": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q13",
+      "type": 5,
+      "prompt_text": "Cue: 인형  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_doll"
+      ],
+      "choices": [
+        "doll",
+        "pencil case",
+        "earphones",
+        "school bag"
+      ],
+      "correct": "doll",
+      "why_wrong": {
+        "pencil case": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!",
+        "school bag": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q14",
+      "type": 5,
+      "prompt_text": "Cue: 필통  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_pencil_case"
+      ],
+      "choices": [
+        "doll",
+        "pencil case",
+        "earphones",
+        "school bag"
+      ],
+      "correct": "pencil case",
+      "why_wrong": {
+        "doll": "Not this one. Try again!",
+        "earphones": "Not this one. Try again!",
+        "school bag": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q15",
+      "type": 6,
+      "prompt_text": "Spell “doll”. Click the correct spelling.",
+      "audio_id": "bc_u08_aud_spell_doll",
+      "image_ids": [
+        "pic_doll"
+      ],
+      "choices": [
+        "P H O N E",
+        "B I K E",
+        "C L O T H E S",
+        "D O L L"
+      ],
+      "correct": "D O L L",
+      "why_wrong": {
+        "P H O N E": "Not this one. Try again!",
+        "B I K E": "Not this one. Try again!",
+        "C L O T H E S": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q16",
+      "type": 6,
+      "prompt_text": "Spell “bike”. Click the correct spelling.",
+      "audio_id": "bc_u08_aud_spell_bike",
+      "image_ids": [
+        "pic_bike"
+      ],
+      "choices": [
+        "B I K E",
+        "C L O T H E S",
+        "P H O N E",
+        "D O L L"
+      ],
+      "correct": "B I K E",
+      "why_wrong": {
+        "C L O T H E S": "Not this one. Try again!",
+        "P H O N E": "Not this one. Try again!",
+        "D O L L": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q17",
+      "type": 6,
+      "prompt_text": "Spell “phone”. Click the correct spelling.",
+      "audio_id": "bc_u08_aud_spell_phone",
+      "image_ids": [
+        "pic_phone"
+      ],
+      "choices": [
+        "B I K E",
+        "C L O T H E S",
+        "D O L L",
+        "P H O N E"
+      ],
+      "correct": "P H O N E",
+      "why_wrong": {
+        "B I K E": "Not this one. Try again!",
+        "C L O T H E S": "Not this one. Try again!",
+        "D O L L": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u08_aud_sent_18",
+      "image_ids": [
+        "pic_doll"
+      ],
+      "choices": [
+        "I want a new school bag and…",
+        "I want new ear phones and...",
+        "I want a new doll and…",
+        "I want a new pencil case and…"
+      ],
+      "correct": "I want a new doll and…",
+      "why_wrong": {
+        "I want a new school bag and…": "Not this one. Try again!",
+        "I want new ear phones and...": "Not this one. Try again!",
+        "I want a new pencil case and…": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u08_aud_sent_19",
+      "image_ids": [
+        "pic_pencil_case"
+      ],
+      "choices": [
+        "I want a new school bag and…",
+        "I want a new pencil case and…",
+        "I want new ear phones and...",
+        "I want a new doll and…"
+      ],
+      "correct": "I want a new pencil case and…",
+      "why_wrong": {
+        "I want a new school bag and…": "Not this one. Try again!",
+        "I want new ear phones and...": "Not this one. Try again!",
+        "I want a new doll and…": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u08_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u08_aud_sent_20",
+      "image_ids": [
+        "pic_school_bag"
+      ],
+      "choices": [
+        "I want new ear phones and...",
+        "I want a new doll and…",
+        "I want a new school bag and…",
+        "I want a new pencil case and…"
+      ],
+      "correct": "I want a new school bag and…",
+      "why_wrong": {
+        "I want new ear phones and...": "Not this one. Try again!",
+        "I want a new doll and…": "Not this one. Try again!",
+        "I want a new pencil case and…": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_c"
+    }
+  ]
+}

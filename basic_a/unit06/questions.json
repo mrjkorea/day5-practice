@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_a",
+    "title": "Basic A Unit 6: What is this?",
+    "kind": "unit",
+    "units_covered": [
+      6
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "ba_u06_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u06_aud_word_desk",
+      "image_ids": [
+        "pic_desk",
+        "pic_cube",
+        "pic_keyboard",
+        "pic_headset"
+      ],
+      "choices": [
+        "pic_desk",
+        "pic_cube",
+        "pic_keyboard",
+        "pic_headset"
+      ],
+      "correct": "pic_desk",
+      "why_wrong": {
+        "pic_cube": "Not this one. Try again!",
+        "pic_keyboard": "Not this one. Try again!",
+        "pic_headset": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u06_aud_word_gym_ball",
+      "image_ids": [
+        "pic_gym_ball",
+        "pic_keyboard",
+        "pic_clipboard",
+        "pic_desk"
+      ],
+      "choices": [
+        "pic_gym_ball",
+        "pic_keyboard",
+        "pic_clipboard",
+        "pic_desk"
+      ],
+      "correct": "pic_gym_ball",
+      "why_wrong": {
+        "pic_keyboard": "Not this one. Try again!",
+        "pic_clipboard": "Not this one. Try again!",
+        "pic_desk": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u06_aud_word_mouse",
+      "image_ids": [
+        "pic_cube",
+        "pic_mouse",
+        "pic_clipboard",
+        "pic_pen"
+      ],
+      "choices": [
+        "pic_cube",
+        "pic_mouse",
+        "pic_clipboard",
+        "pic_pen"
+      ],
+      "correct": "pic_mouse",
+      "why_wrong": {
+        "pic_cube": "Not this one. Try again!",
+        "pic_clipboard": "Not this one. Try again!",
+        "pic_pen": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u06_aud_listen_desk",
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "desk",
+        "cube",
+        "pen",
+        "gym ball"
+      ],
+      "correct": "desk",
+      "why_wrong": {
+        "cube": "Not this one. Try again!",
+        "pen": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u06_aud_listen_gym_ball",
+      "image_ids": [
+        "pic_gym_ball"
+      ],
+      "choices": [
+        "book",
+        "headset",
+        "gym ball",
+        "keyboard"
+      ],
+      "correct": "gym ball",
+      "why_wrong": {
+        "book": "Not this one. Try again!",
+        "headset": "Not this one. Try again!",
+        "keyboard": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u06_aud_listen_mouse",
+      "image_ids": [
+        "pic_mouse"
+      ],
+      "choices": [
+        "mouse",
+        "cube",
+        "keyboard",
+        "desk"
+      ],
+      "correct": "mouse",
+      "why_wrong": {
+        "cube": "Not this one. Try again!",
+        "keyboard": "Not this one. Try again!",
+        "desk": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_clipboard"
+      ],
+      "choices": [
+        "mouse",
+        "gym ball",
+        "desk",
+        "clipboard"
+      ],
+      "correct": "clipboard",
+      "why_wrong": {
+        "mouse": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!",
+        "desk": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_pen"
+      ],
+      "choices": [
+        "desk",
+        "pen",
+        "gym ball",
+        "mouse"
+      ],
+      "correct": "pen",
+      "why_wrong": {
+        "desk": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!",
+        "mouse": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "desk",
+        "gym ball",
+        "book",
+        "mouse"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "desk": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!",
+        "mouse": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q10",
+      "type": 4,
+      "prompt_text": "Student says: “What is this?”  What does Mr Jay say?",
+      "audio_id": "ba_u06_aud_stu_10",
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "My desk is big",
+        "Sorry but I cannot see.",
+        "be careful",
+        "mouse is spelled M O U S E"
+      ],
+      "correct": "Sorry but I cannot see.",
+      "why_wrong": {
+        "My desk is big": "Not this one. Try again!",
+        "be careful": "Not this one. Try again!",
+        "mouse is spelled M O U S E": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q11",
+      "type": 4,
+      "prompt_text": "Student says: “It is a desk.”  What does Mr Jay say?",
+      "audio_id": "ba_u06_aud_stu_11",
+      "image_ids": [
+        "pic_gym_ball"
+      ],
+      "choices": [
+        "mouse is spelled M O U S E",
+        "Sorry but I cannot see.",
+        "be careful",
+        "My desk is big"
+      ],
+      "correct": "My desk is big",
+      "why_wrong": {
+        "mouse is spelled M O U S E": "Not this one. Try again!",
+        "Sorry but I cannot see.": "Not this one. Try again!",
+        "be careful": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q12",
+      "type": 4,
+      "prompt_text": "Student says: “It is a gym ball.”  What does Mr Jay say?",
+      "audio_id": "ba_u06_aud_stu_12",
+      "image_ids": [
+        "pic_mouse"
+      ],
+      "choices": [
+        "My desk is big",
+        "be careful",
+        "mouse is spelled M O U S E",
+        "Sorry but I cannot see."
+      ],
+      "correct": "be careful",
+      "why_wrong": {
+        "My desk is big": "Not this one. Try again!",
+        "mouse is spelled M O U S E": "Not this one. Try again!",
+        "Sorry but I cannot see.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q13",
+      "type": 5,
+      "prompt_text": "Cue: 책상  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "keyboard",
+        "mouse",
+        "gym ball",
+        "desk"
+      ],
+      "correct": "desk",
+      "why_wrong": {
+        "keyboard": "Not this one. Try again!",
+        "mouse": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q14",
+      "type": 5,
+      "prompt_text": "Cue: 짐볼  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_gym_ball"
+      ],
+      "choices": [
+        "keyboard",
+        "desk",
+        "gym ball",
+        "mouse"
+      ],
+      "correct": "gym ball",
+      "why_wrong": {
+        "keyboard": "Not this one. Try again!",
+        "desk": "Not this one. Try again!",
+        "mouse": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q15",
+      "type": 6,
+      "prompt_text": "Spell “mouse”. Click the correct spelling.",
+      "audio_id": "ba_u06_aud_spell_mouse",
+      "image_ids": [
+        "pic_mouse"
+      ],
+      "choices": [
+        "M O U S E",
+        "B O O K",
+        "K E Y B O A R D",
+        "M O N I T O R"
+      ],
+      "correct": "M O U S E",
+      "why_wrong": {
+        "B O O K": "Not this one. Try again!",
+        "K E Y B O A R D": "Not this one. Try again!",
+        "M O N I T O R": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q16",
+      "type": 6,
+      "prompt_text": "Spell “keyboard”. Click the correct spelling.",
+      "audio_id": "ba_u06_aud_spell_keyboard",
+      "image_ids": [
+        "pic_keyboard"
+      ],
+      "choices": [
+        "K E Y B O A R D",
+        "B O O K",
+        "M O U S E",
+        "M O N I T O R"
+      ],
+      "correct": "K E Y B O A R D",
+      "why_wrong": {
+        "B O O K": "Not this one. Try again!",
+        "M O U S E": "Not this one. Try again!",
+        "M O N I T O R": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q17",
+      "type": 6,
+      "prompt_text": "Spell “monitor”. Click the correct spelling.",
+      "audio_id": "ba_u06_aud_spell_monitor",
+      "image_ids": [
+        "pic_monitor"
+      ],
+      "choices": [
+        "K E Y B O A R D",
+        "B O O K",
+        "M O U S E",
+        "M O N I T O R"
+      ],
+      "correct": "M O N I T O R",
+      "why_wrong": {
+        "K E Y B O A R D": "Not this one. Try again!",
+        "B O O K": "Not this one. Try again!",
+        "M O U S E": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u06_aud_sent_18",
+      "image_ids": [
+        "pic_pen"
+      ],
+      "choices": [
+        "It is a gym ball.",
+        "It is a mouse.",
+        "It is a desk.",
+        "What is this?"
+      ],
+      "correct": "What is this?",
+      "why_wrong": {
+        "It is a gym ball.": "Not this one. Try again!",
+        "It is a mouse.": "Not this one. Try again!",
+        "It is a desk.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u06_aud_sent_19",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "What is this?",
+        "It is a mouse.",
+        "It is a gym ball.",
+        "It is a desk."
+      ],
+      "correct": "It is a desk.",
+      "why_wrong": {
+        "What is this?": "Not this one. Try again!",
+        "It is a mouse.": "Not this one. Try again!",
+        "It is a gym ball.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    },
+    {
+      "id": "ba_u06_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "ba_u06_aud_sent_20",
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "What is this?",
+        "It is a desk.",
+        "It is a mouse.",
+        "It is a gym ball."
+      ],
+      "correct": "It is a gym ball.",
+      "why_wrong": {
+        "What is this?": "Not this one. Try again!",
+        "It is a desk.": "Not this one. Try again!",
+        "It is a mouse.": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a"
+    }
+  ]
+}

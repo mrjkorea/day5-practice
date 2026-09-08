@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_c",
+    "title": "Basic C Unit 4: What Can We See near Tongyeong?",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bc_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u04_aud_word_palace",
+      "image_ids": [
+        "pic_dinosaur",
+        "pic_wetland",
+        "pic_palace",
+        "pic_volcano"
+      ],
+      "choices": [
+        "pic_dinosaur",
+        "pic_wetland",
+        "pic_palace",
+        "pic_volcano"
+      ],
+      "correct": "pic_palace",
+      "why_wrong": {
+        "pic_dinosaur": "Not this one. Try again!",
+        "pic_wetland": "Not this one. Try again!",
+        "pic_volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u04_aud_word_fish_market",
+      "image_ids": [
+        "pic_turtle_ship",
+        "pic_fish_market",
+        "pic_folk_village",
+        "pic_fortress"
+      ],
+      "choices": [
+        "pic_turtle_ship",
+        "pic_fish_market",
+        "pic_folk_village",
+        "pic_fortress"
+      ],
+      "correct": "pic_fish_market",
+      "why_wrong": {
+        "pic_turtle_ship": "Not this one. Try again!",
+        "pic_folk_village": "Not this one. Try again!",
+        "pic_fortress": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u04_aud_word_volcano",
+      "image_ids": [
+        "pic_palace",
+        "pic_fish_market",
+        "pic_wetland",
+        "pic_volcano"
+      ],
+      "choices": [
+        "pic_palace",
+        "pic_fish_market",
+        "pic_wetland",
+        "pic_volcano"
+      ],
+      "correct": "pic_volcano",
+      "why_wrong": {
+        "pic_palace": "Not this one. Try again!",
+        "pic_fish_market": "Not this one. Try again!",
+        "pic_wetland": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u04_aud_listen_palace",
+      "image_ids": [
+        "pic_palace"
+      ],
+      "choices": [
+        "wetland park",
+        "fish market",
+        "palace",
+        "turtle ship"
+      ],
+      "correct": "palace",
+      "why_wrong": {
+        "wetland park": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!",
+        "turtle ship": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u04_aud_listen_fish_market",
+      "image_ids": [
+        "pic_fish_market"
+      ],
+      "choices": [
+        "fortress",
+        "volcano",
+        "folk village",
+        "fish market"
+      ],
+      "correct": "fish market",
+      "why_wrong": {
+        "fortress": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!",
+        "folk village": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u04_aud_listen_volcano",
+      "image_ids": [
+        "pic_volcano"
+      ],
+      "choices": [
+        "palace",
+        "fortress",
+        "turtle ship",
+        "volcano"
+      ],
+      "correct": "volcano",
+      "why_wrong": {
+        "palace": "Not this one. Try again!",
+        "fortress": "Not this one. Try again!",
+        "turtle ship": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_folk_village"
+      ],
+      "choices": [
+        "palace",
+        "fish market",
+        "folk village",
+        "volcano"
+      ],
+      "correct": "folk village",
+      "why_wrong": {
+        "palace": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_wetland"
+      ],
+      "choices": [
+        "fish market",
+        "palace",
+        "volcano",
+        "wetland park"
+      ],
+      "correct": "wetland park",
+      "why_wrong": {
+        "fish market": "Not this one. Try again!",
+        "palace": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_dinosaur"
+      ],
+      "choices": [
+        "dinosaur",
+        "palace",
+        "volcano",
+        "fish market"
+      ],
+      "correct": "dinosaur",
+      "why_wrong": {
+        "palace": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q10",
+      "type": 4,
+      "prompt_text": "Student says: “What can we see near Seoul?”  What does Mr Jay say?",
+      "audio_id": "bc_u04_aud_stu_10",
+      "image_ids": [
+        "pic_volcano"
+      ],
+      "choices": [
+        "You can see a palace",
+        "You can see a fish market.",
+        "Canada does not have many palaces",
+        "You can see a volcano"
+      ],
+      "correct": "You can see a palace",
+      "why_wrong": {
+        "You can see a fish market.": "Not this one. Try again!",
+        "Canada does not have many palaces": "Not this one. Try again!",
+        "You can see a volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q11",
+      "type": 4,
+      "prompt_text": "Student says: “You can see a palace”  What does Mr Jay say?",
+      "audio_id": "bc_u04_aud_stu_11",
+      "image_ids": [
+        "pic_turtle_ship"
+      ],
+      "choices": [
+        "You can see a fish market.",
+        "Canada does not have many palaces",
+        "You can see a palace",
+        "You can see a volcano"
+      ],
+      "correct": "Canada does not have many palaces",
+      "why_wrong": {
+        "You can see a fish market.": "Not this one. Try again!",
+        "You can see a palace": "Not this one. Try again!",
+        "You can see a volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q12",
+      "type": 4,
+      "prompt_text": "Student says: “What can we see near Busan?”  What does Mr Jay say?",
+      "audio_id": "bc_u04_aud_stu_12",
+      "image_ids": [
+        "pic_fortress"
+      ],
+      "choices": [
+        "You can see a fish market.",
+        "Canada does not have many palaces",
+        "You can see a palace",
+        "You can see a volcano"
+      ],
+      "correct": "You can see a fish market.",
+      "why_wrong": {
+        "Canada does not have many palaces": "Not this one. Try again!",
+        "You can see a palace": "Not this one. Try again!",
+        "You can see a volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q13",
+      "type": 5,
+      "prompt_text": "Cue: 궁전 / Seoul  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_palace"
+      ],
+      "choices": [
+        "volcano",
+        "fish market",
+        "turtle ship",
+        "palace"
+      ],
+      "correct": "palace",
+      "why_wrong": {
+        "volcano": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!",
+        "turtle ship": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q14",
+      "type": 5,
+      "prompt_text": "Cue: 어시장 / Busan  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_fish_market"
+      ],
+      "choices": [
+        "turtle ship",
+        "fish market",
+        "palace",
+        "volcano"
+      ],
+      "correct": "fish market",
+      "why_wrong": {
+        "turtle ship": "Not this one. Try again!",
+        "palace": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q15",
+      "type": 6,
+      "prompt_text": "Spell “palace”. Click the correct spelling.",
+      "audio_id": "bc_u04_aud_spell_palace",
+      "image_ids": [
+        "pic_palace"
+      ],
+      "choices": [
+        "D I N O S A U R",
+        "V O L C A N O",
+        "P A L A C E",
+        "PAL …"
+      ],
+      "correct": "P A L A C E",
+      "why_wrong": {
+        "D I N O S A U R": "Not this one. Try again!",
+        "V O L C A N O": "Not this one. Try again!",
+        "PAL …": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q16",
+      "type": 6,
+      "prompt_text": "Spell “volcano”. Click the correct spelling.",
+      "audio_id": "bc_u04_aud_spell_volcano",
+      "image_ids": [
+        "pic_volcano"
+      ],
+      "choices": [
+        "V O L C A N O",
+        "P A L A C E",
+        "VOL …",
+        "D I N O S A U R"
+      ],
+      "correct": "V O L C A N O",
+      "why_wrong": {
+        "P A L A C E": "Not this one. Try again!",
+        "VOL …": "Not this one. Try again!",
+        "D I N O S A U R": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q17",
+      "type": 6,
+      "prompt_text": "Spell “dinosaur”. Click the correct spelling.",
+      "audio_id": "bc_u04_aud_spell_dinosaur",
+      "image_ids": [
+        "pic_dinosaur"
+      ],
+      "choices": [
+        "D I N O S A U R",
+        "DIN …",
+        "P A L A C E",
+        "V O L C A N O"
+      ],
+      "correct": "D I N O S A U R",
+      "why_wrong": {
+        "DIN …": "Not this one. Try again!",
+        "P A L A C E": "Not this one. Try again!",
+        "V O L C A N O": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u04_aud_sent_18",
+      "image_ids": [
+        "pic_volcano"
+      ],
+      "choices": [
+        "What can we see near Jeh joo?",
+        "What can we see near Busan?",
+        "What can we see near Seoul?",
+        "You can see a palace"
+      ],
+      "correct": "What can we see near Seoul?",
+      "why_wrong": {
+        "What can we see near Jeh joo?": "Not this one. Try again!",
+        "What can we see near Busan?": "Not this one. Try again!",
+        "You can see a palace": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u04_aud_sent_19",
+      "image_ids": [
+        "pic_turtle_ship"
+      ],
+      "choices": [
+        "What can we see near Jeh joo?",
+        "What can we see near Seoul?",
+        "What can we see near Busan?",
+        "You can see a palace"
+      ],
+      "correct": "You can see a palace",
+      "why_wrong": {
+        "What can we see near Jeh joo?": "Not this one. Try again!",
+        "What can we see near Seoul?": "Not this one. Try again!",
+        "What can we see near Busan?": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    },
+    {
+      "id": "bc_u04_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bc_u04_aud_sent_20",
+      "image_ids": [
+        "pic_fortress"
+      ],
+      "choices": [
+        "What can we see near Seoul?",
+        "What can we see near Busan?",
+        "What can we see near Jeh joo?",
+        "You can see a palace"
+      ],
+      "correct": "What can we see near Busan?",
+      "why_wrong": {
+        "What can we see near Seoul?": "Not this one. Try again!",
+        "What can we see near Jeh joo?": "Not this one. Try again!",
+        "You can see a palace": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c"
+    }
+  ]
+}

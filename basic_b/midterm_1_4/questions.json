@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Midterm Units 1–4",
+    "kind": "midterm_1_4",
+    "units_covered": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "count": 24,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_midterm_1_4_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_1_4_aud_word_happy",
+      "image_ids": [
+        "pic_happy",
+        "pic_paper",
+        "pic_not_understand",
+        "pic_noodles"
+      ],
+      "choices": [
+        "pic_happy",
+        "pic_paper",
+        "pic_not_understand",
+        "pic_noodles"
+      ],
+      "correct": "pic_happy",
+      "why_wrong": {
+        "pic_paper": "Not this one. Try again!",
+        "pic_not_understand": "Not this one. Try again!",
+        "pic_noodles": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_1_4_aud_word_sad",
+      "image_ids": [
+        "pic_music",
+        "pic_angry",
+        "pic_sad",
+        "pic_tired"
+      ],
+      "choices": [
+        "pic_music",
+        "pic_angry",
+        "pic_sad",
+        "pic_tired"
+      ],
+      "correct": "pic_sad",
+      "why_wrong": {
+        "pic_music": "Not this one. Try again!",
+        "pic_angry": "Not this one. Try again!",
+        "pic_tired": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_midterm_1_4_aud_word_angry",
+      "image_ids": [
+        "pic_angry",
+        "pic_school",
+        "pic_i_win",
+        "pic_not_understand"
+      ],
+      "choices": [
+        "pic_angry",
+        "pic_school",
+        "pic_i_win",
+        "pic_not_understand"
+      ],
+      "correct": "pic_angry",
+      "why_wrong": {
+        "pic_school": "Not this one. Try again!",
+        "pic_i_win": "Not this one. Try again!",
+        "pic_not_understand": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_1_4_aud_listen_happy",
+      "image_ids": [
+        "pic_happy"
+      ],
+      "choices": [
+        "fruit",
+        "happy",
+        "Trash this!",
+        "paper"
+      ],
+      "correct": "happy",
+      "why_wrong": {
+        "fruit": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!",
+        "paper": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_1_4_aud_listen_sad",
+      "image_ids": [
+        "pic_sad"
+      ],
+      "choices": [
+        "games",
+        "sad",
+        "Trash this!",
+        "Again!"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "games": "Not this one. Try again!",
+        "Trash this!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_midterm_1_4_aud_listen_angry",
+      "image_ids": [
+        "pic_angry"
+      ],
+      "choices": [
+        "movies",
+        "tired",
+        "angry",
+        "fruit"
+      ],
+      "correct": "angry",
+      "why_wrong": {
+        "movies": "Not this one. Try again!",
+        "tired": "Not this one. Try again!",
+        "fruit": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "scissors",
+        "sad",
+        "happy",
+        "angry"
+      ],
+      "correct": "scissors",
+      "why_wrong": {
+        "sad": "Not this one. Try again!",
+        "happy": "Not this one. Try again!",
+        "angry": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_i_win"
+      ],
+      "choices": [
+        "happy",
+        "sad",
+        "angry",
+        "win"
+      ],
+      "correct": "win",
+      "why_wrong": {
+        "happy": "Not this one. Try again!",
+        "sad": "Not this one. Try again!",
+        "angry": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_you_lose"
+      ],
+      "choices": [
+        "happy",
+        "angry",
+        "lose",
+        "sad"
+      ],
+      "correct": "lose",
+      "why_wrong": {
+        "happy": "Not this one. Try again!",
+        "angry": "Not this one. Try again!",
+        "sad": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q10",
+      "type": 4,
+      "prompt_text": "Student says: “I am happy”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_stu_10",
+      "image_ids": [
+        "pic_meat"
+      ],
+      "choices": [
+        "Good! I am happy too.",
+        "Oh no! don't be angry. Relax!",
+        "Oh no! don't be sad! Cheer up!",
+        "Me too! I am very hungry."
+      ],
+      "correct": "Good! I am happy too.",
+      "why_wrong": {
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!",
+        "Me too! I am very hungry.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q11",
+      "type": 4,
+      "prompt_text": "Student says: “I am sad.”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_stu_11",
+      "image_ids": [
+        "pic_fruit"
+      ],
+      "choices": [
+        "Good! I am happy too.",
+        "Oh no! don't be sad! Cheer up!",
+        "Oh no! don't be angry. Relax!",
+        "Me too! I am very hungry."
+      ],
+      "correct": "Oh no! don't be sad! Cheer up!",
+      "why_wrong": {
+        "Good! I am happy too.": "Not this one. Try again!",
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Me too! I am very hungry.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I am angry.”  What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_stu_12",
+      "image_ids": [
+        "pic_games"
+      ],
+      "choices": [
+        "Me too! I am very hungry.",
+        "Good! I am happy too.",
+        "Oh no! don't be angry. Relax!",
+        "Oh no! don't be sad! Cheer up!"
+      ],
+      "correct": "Oh no! don't be angry. Relax!",
+      "why_wrong": {
+        "Me too! I am very hungry.": "Not this one. Try again!",
+        "Good! I am happy too.": "Not this one. Try again!",
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q13",
+      "type": 5,
+      "prompt_text": "Cue: 행복해  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_happy"
+      ],
+      "choices": [
+        "hungry",
+        "angry",
+        "sad",
+        "happy"
+      ],
+      "correct": "happy",
+      "why_wrong": {
+        "hungry": "Not this one. Try again!",
+        "angry": "Not this one. Try again!",
+        "sad": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q14",
+      "type": 5,
+      "prompt_text": "Cue: 슬퍼  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_sad"
+      ],
+      "choices": [
+        "happy",
+        "angry",
+        "hungry",
+        "sad"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "happy": "Not this one. Try again!",
+        "angry": "Not this one. Try again!",
+        "hungry": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q15",
+      "type": 6,
+      "prompt_text": "Spell “happy”. Click the correct spelling.",
+      "audio_id": "bb_midterm_1_4_aud_spell_happy",
+      "image_ids": [
+        "pic_happy"
+      ],
+      "choices": [
+        "H A P P Y",
+        "T I R E D",
+        "S A D",
+        "A N G R Y"
+      ],
+      "correct": "H A P P Y",
+      "why_wrong": {
+        "T I R E D": "Not this one. Try again!",
+        "S A D": "Not this one. Try again!",
+        "A N G R Y": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q16",
+      "type": 6,
+      "prompt_text": "Spell “sad”. Click the correct spelling.",
+      "audio_id": "bb_midterm_1_4_aud_spell_sad",
+      "image_ids": [
+        "pic_sad"
+      ],
+      "choices": [
+        "A N G R Y",
+        "H A P P Y",
+        "S A D",
+        "T I R E D"
+      ],
+      "correct": "S A D",
+      "why_wrong": {
+        "A N G R Y": "Not this one. Try again!",
+        "H A P P Y": "Not this one. Try again!",
+        "T I R E D": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q17",
+      "type": 6,
+      "prompt_text": "Spell “angry”. Click the correct spelling.",
+      "audio_id": "bb_midterm_1_4_aud_spell_angry",
+      "image_ids": [
+        "pic_angry"
+      ],
+      "choices": [
+        "T I R E D",
+        "A N G R Y",
+        "H A P P Y",
+        "S A D"
+      ],
+      "correct": "A N G R Y",
+      "why_wrong": {
+        "T I R E D": "Not this one. Try again!",
+        "H A P P Y": "Not this one. Try again!",
+        "S A D": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_1_4_aud_sent_18",
+      "image_ids": [
+        "pic_recycle"
+      ],
+      "choices": [
+        "I am happy",
+        "I am sad.",
+        "I am angry.",
+        "I am hungry."
+      ],
+      "correct": "I am happy",
+      "why_wrong": {
+        "I am sad.": "Not this one. Try again!",
+        "I am angry.": "Not this one. Try again!",
+        "I am hungry.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_1_4_aud_sent_19",
+      "image_ids": [
+        "pic_trash"
+      ],
+      "choices": [
+        "I am hungry.",
+        "I am happy",
+        "I am sad.",
+        "I am angry."
+      ],
+      "correct": "I am sad.",
+      "why_wrong": {
+        "I am hungry.": "Not this one. Try again!",
+        "I am happy": "Not this one. Try again!",
+        "I am angry.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_midterm_1_4_aud_sent_20",
+      "image_ids": [
+        "pic_dont_do_that"
+      ],
+      "choices": [
+        "I am happy",
+        "I am hungry.",
+        "I am sad.",
+        "I am angry."
+      ],
+      "correct": "I am angry.",
+      "why_wrong": {
+        "I am happy": "Not this one. Try again!",
+        "I am hungry.": "Not this one. Try again!",
+        "I am sad.": "Not this one. Try again!"
+      },
+      "unit": 1,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q21",
+      "type": 4,
+      "prompt_text": "Review: Student says “Trash this!”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_rev_21",
+      "image_ids": [
+        "pic_thank_you"
+      ],
+      "choices": [
+        "Oh no! don't be sad! Cheer up!",
+        "Oh no! don't be angry. Relax!",
+        "Good! I am happy too.",
+        "Sorry. I cannot see the trash can."
+      ],
+      "correct": "Sorry. I cannot see the trash can.",
+      "why_wrong": {
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!",
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Good! I am happy too.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q22",
+      "type": 4,
+      "prompt_text": "Review: Student says “Don't do that!”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_rev_22",
+      "image_ids": [
+        "pic_excuse_me"
+      ],
+      "choices": [
+        "Oh no! don't be angry. Relax!",
+        "Sorry. I will not do that again.",
+        "Oh no! don't be sad! Cheer up!",
+        "Good! I am happy too."
+      ],
+      "correct": "Sorry. I will not do that again.",
+      "why_wrong": {
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!",
+        "Good! I am happy too.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q23",
+      "type": 4,
+      "prompt_text": "Review: Student says “Thank you”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_rev_23",
+      "image_ids": [
+        "pic_not_understand"
+      ],
+      "choices": [
+        "Oh no! don't be angry. Relax!",
+        "You are welcome!",
+        "Oh no! don't be sad! Cheer up!",
+        "Good! I am happy too."
+      ],
+      "correct": "You are welcome!",
+      "why_wrong": {
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!",
+        "Good! I am happy too.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_midterm_1_4_q24",
+      "type": 4,
+      "prompt_text": "Review: Student says “Excuse me”. What does Mr Jay say?",
+      "audio_id": "bb_midterm_1_4_aud_rev_24",
+      "image_ids": [
+        "pic_not_know"
+      ],
+      "choices": [
+        "No problem.",
+        "Good! I am happy too.",
+        "Oh no! don't be angry. Relax!",
+        "Oh no! don't be sad! Cheer up!"
+      ],
+      "correct": "No problem.",
+      "why_wrong": {
+        "Good! I am happy too.": "Not this one. Try again!",
+        "Oh no! don't be angry. Relax!": "Not this one. Try again!",
+        "Oh no! don't be sad! Cheer up!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b"
+    }
+  ]
+}

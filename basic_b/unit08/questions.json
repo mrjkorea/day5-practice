@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "level": "basic_b",
+    "title": "Basic B Unit 8: How old are you?",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 20,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    }
+  },
+  "questions": [
+    {
+      "id": "bb_u08_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u08_aud_word_7",
+      "image_ids": [
+        "pic_age_17",
+        "pic_age_22",
+        "pic_age_66",
+        "pic_age_7"
+      ],
+      "choices": [
+        "pic_age_17",
+        "pic_age_22",
+        "pic_age_66",
+        "pic_age_7"
+      ],
+      "correct": "pic_age_7",
+      "why_wrong": {
+        "pic_age_17": "Not this one. Try again!",
+        "pic_age_22": "Not this one. Try again!",
+        "pic_age_66": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q02",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u08_aud_word_10",
+      "image_ids": [
+        "pic_age_22",
+        "pic_age_25",
+        "pic_age_17",
+        "pic_age_10"
+      ],
+      "choices": [
+        "pic_age_22",
+        "pic_age_25",
+        "pic_age_17",
+        "pic_age_10"
+      ],
+      "correct": "pic_age_10",
+      "why_wrong": {
+        "pic_age_22": "Not this one. Try again!",
+        "pic_age_25": "Not this one. Try again!",
+        "pic_age_17": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q03",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u08_aud_word_14",
+      "image_ids": [
+        "pic_age_10",
+        "pic_age_33",
+        "pic_age_66",
+        "pic_age_14"
+      ],
+      "choices": [
+        "pic_age_10",
+        "pic_age_33",
+        "pic_age_66",
+        "pic_age_14"
+      ],
+      "correct": "pic_age_14",
+      "why_wrong": {
+        "pic_age_10": "Not this one. Try again!",
+        "pic_age_33": "Not this one. Try again!",
+        "pic_age_66": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q04",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u08_aud_listen_7",
+      "image_ids": [
+        "pic_age_7"
+      ],
+      "choices": [
+        "22",
+        "33",
+        "14",
+        "7"
+      ],
+      "correct": "7",
+      "why_wrong": {
+        "22": "Not this one. Try again!",
+        "33": "Not this one. Try again!",
+        "14": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q05",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u08_aud_listen_10",
+      "image_ids": [
+        "pic_age_10"
+      ],
+      "choices": [
+        "22",
+        "17",
+        "10",
+        "33"
+      ],
+      "correct": "10",
+      "why_wrong": {
+        "22": "Not this one. Try again!",
+        "17": "Not this one. Try again!",
+        "33": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q06",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u08_aud_listen_14",
+      "image_ids": [
+        "pic_age_14"
+      ],
+      "choices": [
+        "10",
+        "14",
+        "25",
+        "7"
+      ],
+      "correct": "14",
+      "why_wrong": {
+        "10": "Not this one. Try again!",
+        "25": "Not this one. Try again!",
+        "7": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q07",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_25"
+      ],
+      "choices": [
+        "10",
+        "25",
+        "14",
+        "7"
+      ],
+      "correct": "25",
+      "why_wrong": {
+        "10": "Not this one. Try again!",
+        "14": "Not this one. Try again!",
+        "7": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q08",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_33"
+      ],
+      "choices": [
+        "10",
+        "7",
+        "14",
+        "33"
+      ],
+      "correct": "33",
+      "why_wrong": {
+        "10": "Not this one. Try again!",
+        "7": "Not this one. Try again!",
+        "14": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q09",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_66"
+      ],
+      "choices": [
+        "66",
+        "10",
+        "7",
+        "14"
+      ],
+      "correct": "66",
+      "why_wrong": {
+        "10": "Not this one. Try again!",
+        "7": "Not this one. Try again!",
+        "14": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q10",
+      "type": 4,
+      "prompt_text": "Student says: “I am 7”  What does Mr Jay say?",
+      "audio_id": "bb_u08_aud_stu_10",
+      "image_ids": [
+        "pic_age_14"
+      ],
+      "choices": [
+        "10 years old? Wow. you are in elementary school.",
+        "17 years old? Wow. You are in high school",
+        "14 years old? Wow. you are in middle school",
+        "7 years old? Wow. you are young!"
+      ],
+      "correct": "7 years old? Wow. you are young!",
+      "why_wrong": {
+        "10 years old? Wow. you are in elementary school.": "Not this one. Try again!",
+        "17 years old? Wow. You are in high school": "Not this one. Try again!",
+        "14 years old? Wow. you are in middle school": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q11",
+      "type": 4,
+      "prompt_text": "Student says: “I am 10”  What does Mr Jay say?",
+      "audio_id": "bb_u08_aud_stu_11",
+      "image_ids": [
+        "pic_age_17"
+      ],
+      "choices": [
+        "14 years old? Wow. you are in middle school",
+        "17 years old? Wow. You are in high school",
+        "10 years old? Wow. you are in elementary school.",
+        "7 years old? Wow. you are young!"
+      ],
+      "correct": "10 years old? Wow. you are in elementary school.",
+      "why_wrong": {
+        "14 years old? Wow. you are in middle school": "Not this one. Try again!",
+        "17 years old? Wow. You are in high school": "Not this one. Try again!",
+        "7 years old? Wow. you are young!": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q12",
+      "type": 4,
+      "prompt_text": "Student says: “I am 14”  What does Mr Jay say?",
+      "audio_id": "bb_u08_aud_stu_12",
+      "image_ids": [
+        "pic_age_22"
+      ],
+      "choices": [
+        "14 years old? Wow. you are in middle school",
+        "7 years old? Wow. you are young!",
+        "10 years old? Wow. you are in elementary school.",
+        "17 years old? Wow. You are in high school"
+      ],
+      "correct": "14 years old? Wow. you are in middle school",
+      "why_wrong": {
+        "7 years old? Wow. you are young!": "Not this one. Try again!",
+        "10 years old? Wow. you are in elementary school.": "Not this one. Try again!",
+        "17 years old? Wow. You are in high school": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q13",
+      "type": 5,
+      "prompt_text": "Cue: 7살  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_7"
+      ],
+      "choices": [
+        "10",
+        "17",
+        "14",
+        "7"
+      ],
+      "correct": "7",
+      "why_wrong": {
+        "10": "Not this one. Try again!",
+        "17": "Not this one. Try again!",
+        "14": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q14",
+      "type": 5,
+      "prompt_text": "Cue: 10살  → Click the English.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_age_10"
+      ],
+      "choices": [
+        "14",
+        "17",
+        "10",
+        "7"
+      ],
+      "correct": "10",
+      "why_wrong": {
+        "14": "Not this one. Try again!",
+        "17": "Not this one. Try again!",
+        "7": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q15",
+      "type": 6,
+      "prompt_text": "Spell “young”. Click the correct spelling.",
+      "audio_id": "bb_u08_aud_spell_young",
+      "image_ids": [
+        "pic_age_7"
+      ],
+      "choices": [
+        "O L D",
+        "YOU …",
+        "Y O U N G",
+        "Y E A R S"
+      ],
+      "correct": "Y O U N G",
+      "why_wrong": {
+        "O L D": "Not this one. Try again!",
+        "YOU …": "Not this one. Try again!",
+        "Y E A R S": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q16",
+      "type": 6,
+      "prompt_text": "Spell “old”. Click the correct spelling.",
+      "audio_id": "bb_u08_aud_spell_old",
+      "image_ids": [
+        "pic_age_7"
+      ],
+      "choices": [
+        "Y O U N G",
+        "O L D",
+        "OLD …",
+        "Y E A R S"
+      ],
+      "correct": "O L D",
+      "why_wrong": {
+        "Y O U N G": "Not this one. Try again!",
+        "OLD …": "Not this one. Try again!",
+        "Y E A R S": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q17",
+      "type": 6,
+      "prompt_text": "Spell “years”. Click the correct spelling.",
+      "audio_id": "bb_u08_aud_spell_years",
+      "image_ids": [
+        "pic_age_7"
+      ],
+      "choices": [
+        "O L D",
+        "Y E A R S",
+        "YEA …",
+        "Y O U N G"
+      ],
+      "correct": "Y E A R S",
+      "why_wrong": {
+        "O L D": "Not this one. Try again!",
+        "YEA …": "Not this one. Try again!",
+        "Y O U N G": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q18",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u08_aud_sent_18",
+      "image_ids": [
+        "pic_age_14"
+      ],
+      "choices": [
+        "I am 17",
+        "I am 7",
+        "I am 14",
+        "I am 10"
+      ],
+      "correct": "I am 7",
+      "why_wrong": {
+        "I am 17": "Not this one. Try again!",
+        "I am 14": "Not this one. Try again!",
+        "I am 10": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q19",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u08_aud_sent_19",
+      "image_ids": [
+        "pic_age_17"
+      ],
+      "choices": [
+        "I am 14",
+        "I am 7",
+        "I am 10",
+        "I am 17"
+      ],
+      "correct": "I am 10",
+      "why_wrong": {
+        "I am 14": "Not this one. Try again!",
+        "I am 7": "Not this one. Try again!",
+        "I am 17": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    },
+    {
+      "id": "bb_u08_q20",
+      "type": 7,
+      "prompt_text": "Listen. What did the student say?",
+      "audio_id": "bb_u08_aud_sent_20",
+      "image_ids": [
+        "pic_age_22"
+      ],
+      "choices": [
+        "I am 17",
+        "I am 14",
+        "I am 10",
+        "I am 7"
+      ],
+      "correct": "I am 14",
+      "why_wrong": {
+        "I am 17": "Not this one. Try again!",
+        "I am 10": "Not this one. Try again!",
+        "I am 7": "Not this one. Try again!"
+      },
+      "unit": 8,
+      "level": "basic_b"
+    }
+  ]
+}
