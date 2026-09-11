@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 4: What Do You Want?",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u04_q01",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my teacher.",
+        "I want a sandwich.",
+        "It is raining.",
+        "I am twelve years old."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "She is my teacher.": "Not quite — try again!",
+        "It is raining.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q02",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are happy.",
+        "He is tall.",
+        "I go to school.",
+        "I'd like some water, please."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "They are happy.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "I go to school.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q03",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes red.",
+        "I have two brothers.",
+        "I want to play outside.",
+        "It is Monday."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "I have two brothers.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q04",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want a chocolate muffin.",
+        "Yes, I can swim.",
+        "He is at home.",
+        "I am fine."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "Yes, I can swim.": "Not quite — try again!",
+        "He is at home.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q05",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want ice cream.",
+        "She runs fast.",
+        "We study math.",
+        "I live in Busan."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "She runs fast.": "Not quite — try again!",
+        "We study math.": "Not quite — try again!",
+        "I live in Busan.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q06",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is raining.",
+        "I want a sandwich.",
+        "I am twelve years old.",
+        "She is my teacher."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "It is raining.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!",
+        "She is my teacher.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q07",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "They are happy.",
+        "I go to school.",
+        "I'd like some water, please."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "They are happy.": "Not quite — try again!",
+        "I go to school.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q08",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two brothers.",
+        "She likes red.",
+        "It is Monday.",
+        "I want to play outside."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "I have two brothers.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q09",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is at home.",
+        "I am fine.",
+        "I want a chocolate muffin.",
+        "Yes, I can swim."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "He is at home.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "Yes, I can swim.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q10",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study math.",
+        "I live in Busan.",
+        "She runs fast.",
+        "I want ice cream."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "We study math.": "Not quite — try again!",
+        "I live in Busan.": "Not quite — try again!",
+        "She runs fast.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q11",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my teacher.",
+        "I am twelve years old.",
+        "I want a sandwich.",
+        "It is raining."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "She is my teacher.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!",
+        "It is raining.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q12",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go to school.",
+        "I'd like some water, please.",
+        "They are happy.",
+        "He is tall."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "I go to school.": "Not quite — try again!",
+        "They are happy.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q13",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two brothers.",
+        "I want to play outside.",
+        "She likes red.",
+        "It is Monday."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "I have two brothers.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q14",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I can swim.",
+        "I want a chocolate muffin.",
+        "He is at home.",
+        "I am fine."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "Yes, I can swim.": "Not quite — try again!",
+        "He is at home.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q15",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I live in Busan.",
+        "She runs fast.",
+        "We study math.",
+        "I want ice cream."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "I live in Busan.": "Not quite — try again!",
+        "She runs fast.": "Not quite — try again!",
+        "We study math.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q16",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my teacher.",
+        "I want a sandwich.",
+        "I am twelve years old.",
+        "It is raining."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "She is my teacher.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!",
+        "It is raining.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q17",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are happy.",
+        "I go to school.",
+        "I'd like some water, please.",
+        "He is tall."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "They are happy.": "Not quite — try again!",
+        "I go to school.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q18",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is Monday.",
+        "I want to play outside.",
+        "I have two brothers.",
+        "She likes red."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "It is Monday.": "Not quite — try again!",
+        "I have two brothers.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q19",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is at home.",
+        "I am fine.",
+        "Yes, I can swim.",
+        "I want a chocolate muffin."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "He is at home.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "Yes, I can swim.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q20",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I live in Busan.",
+        "She runs fast.",
+        "I want ice cream.",
+        "We study math."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "I live in Busan.": "Not quite — try again!",
+        "She runs fast.": "Not quite — try again!",
+        "We study math.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q21",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my teacher.",
+        "I am twelve years old.",
+        "I want a sandwich.",
+        "It is raining."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "She is my teacher.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!",
+        "It is raining.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q22",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'd like some water, please.",
+        "They are happy.",
+        "He is tall.",
+        "I go to school."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "They are happy.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "I go to school.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q23",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two brothers.",
+        "I want to play outside.",
+        "It is Monday.",
+        "She likes red."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "I have two brothers.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q24",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "Yes, I can swim.",
+        "He is at home.",
+        "I want a chocolate muffin."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "Yes, I can swim.": "Not quite — try again!",
+        "He is at home.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q25",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study math.",
+        "She runs fast.",
+        "I live in Busan.",
+        "I want ice cream."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "We study math.": "Not quite — try again!",
+        "She runs fast.": "Not quite — try again!",
+        "I live in Busan.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q26",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve years old.",
+        "It is raining.",
+        "I want a sandwich.",
+        "She is my teacher."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "I am twelve years old.": "Not quite — try again!",
+        "It is raining.": "Not quite — try again!",
+        "She is my teacher.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q27",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are happy.",
+        "I'd like some water, please.",
+        "I go to school.",
+        "He is tall."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "They are happy.": "Not quite — try again!",
+        "I go to school.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q28",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two brothers.",
+        "She likes red.",
+        "I want to play outside.",
+        "It is Monday."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "I have two brothers.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q29",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is at home.",
+        "Yes, I can swim.",
+        "I am fine.",
+        "I want a chocolate muffin."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "He is at home.": "Not quite — try again!",
+        "Yes, I can swim.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u04_q30",
+      "type": 4,
+      "prompt_text": "What do you want for dessert?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs fast.",
+        "We study math.",
+        "I want ice cream.",
+        "I live in Busan."
+      ],
+      "correct": "I want ice cream.",
+      "why_wrong": {
+        "She runs fast.": "Not quite — try again!",
+        "We study math.": "Not quite — try again!",
+        "I live in Busan.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2a"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 8: Meeting Foreigners",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u08_q01",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "She is kind.",
+        "I'm from Canada.",
+        "I like blue."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q02",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Nice to meet you too!",
+        "I am hungry.",
+        "Goodbye."
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "Goodbye.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q03",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He jumps.",
+        "I like pizza.",
+        "A little."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q04",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "She reads.",
+        "He sleeps.",
+        "Thank you! I'm excited to be here."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q05",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "For two weeks.",
+        "He eats.",
+        "I like music.",
+        "She swims."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q06",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "I'm from Canada.",
+        "I am twelve.",
+        "She is kind."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q07",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Goodbye.",
+        "He runs.",
+        "I am hungry.",
+        "Nice to meet you too!"
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "Goodbye.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q08",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I like pizza.",
+        "She sings.",
+        "A little."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q09",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Thank you! I'm excited to be here.",
+        "He sleeps.",
+        "I have a dog.",
+        "She reads."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q10",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "For two weeks.",
+        "She swims.",
+        "I like music."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q11",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "I'm from Canada.",
+        "I am twelve.",
+        "She is kind."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q12",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Goodbye.",
+        "Nice to meet you too!",
+        "I am hungry."
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "Goodbye.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q13",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "He jumps.",
+        "She sings.",
+        "A little."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q14",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "Thank you! I'm excited to be here.",
+        "I have a dog.",
+        "She reads."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q15",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "For two weeks.",
+        "I like music.",
+        "He eats.",
+        "She swims."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q16",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm from Canada.",
+        "I like blue.",
+        "I am twelve.",
+        "She is kind."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q17",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Nice to meet you too!",
+        "I am hungry.",
+        "He runs.",
+        "Goodbye."
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "Goodbye.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q18",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "A little.",
+        "She sings.",
+        "He jumps."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q19",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a dog.",
+        "Thank you! I'm excited to be here.",
+        "He sleeps."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q20",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He eats.",
+        "I like music.",
+        "For two weeks."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q21",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm from Canada.",
+        "I like blue.",
+        "She is kind.",
+        "I am twelve."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q22",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Goodbye.",
+        "Nice to meet you too!",
+        "He runs.",
+        "I am hungry."
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "Goodbye.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q23",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I like pizza.",
+        "A little.",
+        "She sings."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q24",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She reads.",
+        "I have a dog.",
+        "Thank you! I'm excited to be here."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q25",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "He eats.",
+        "She swims.",
+        "For two weeks."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q26",
+      "type": 4,
+      "prompt_text": "Hello! Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm from Canada.",
+        "I like blue.",
+        "I am twelve.",
+        "She is kind."
+      ],
+      "correct": "I'm from Canada.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q27",
+      "type": 4,
+      "prompt_text": "Nice to meet you!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Nice to meet you too!",
+        "He runs.",
+        "I am hungry.",
+        "Goodbye."
+      ],
+      "correct": "Nice to meet you too!",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "Goodbye.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q28",
+      "type": 4,
+      "prompt_text": "Do you speak Korean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "A little.",
+        "She sings.",
+        "I like pizza."
+      ],
+      "correct": "A little.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q29",
+      "type": 4,
+      "prompt_text": "Welcome to Korea!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "Thank you! I'm excited to be here.",
+        "She reads.",
+        "He sleeps."
+      ],
+      "correct": "Thank you! I'm excited to be here.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u08_q30",
+      "type": 4,
+      "prompt_text": "How long are you staying?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "For two weeks.",
+        "She swims.",
+        "I like music."
+      ],
+      "correct": "For two weeks.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3b"
+    }
+  ]
+}

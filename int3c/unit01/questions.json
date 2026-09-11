@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 1: Food and Recommendations",
+    "kind": "unit",
+    "units_covered": [
+      1
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u01_q01",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "He is tall.",
+        "Yes, I'd love some!",
+        "I am fine."
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q02",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We study.",
+        "You should try bibimbap.",
+        "I like red."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q03",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I have a pen.",
+        "I'm glad you like it.",
+        "She sings."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q04",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "She swims.",
+        "He jumps.",
+        "Not yet, but I want to."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q05",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He plays.",
+        "Let's get bulgogi and rice.",
+        "I am ten."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q06",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I'd love some!",
+        "He is tall.",
+        "She has a cat.",
+        "I am fine."
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q07",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "You should try bibimbap.",
+        "We study.",
+        "I like red.",
+        "He runs."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q08",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "I'm glad you like it.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q09",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He jumps.",
+        "Not yet, but I want to.",
+        "She swims."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q10",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She is kind.",
+        "I am ten.",
+        "Let's get bulgogi and rice."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q11",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "I am fine.",
+        "He is tall.",
+        "Yes, I'd love some!"
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q12",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We study.",
+        "You should try bibimbap.",
+        "I like red."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q13",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "She sings.",
+        "I'm glad you like it.",
+        "He reads."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q14",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Not yet, but I want to.",
+        "She swims.",
+        "He jumps.",
+        "I like blue."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q15",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "Let's get bulgogi and rice.",
+        "She is kind.",
+        "I am ten."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q16",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "Yes, I'd love some!",
+        "She has a cat.",
+        "I am fine."
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q17",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "You should try bibimbap.",
+        "He runs.",
+        "We study.",
+        "I like red."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q18",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I'm glad you like it.",
+        "I have a pen.",
+        "She sings."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q19",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He jumps.",
+        "She swims.",
+        "Not yet, but I want to."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q20",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Let's get bulgogi and rice.",
+        "He plays.",
+        "I am ten.",
+        "She is kind."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q21",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "Yes, I'd love some!",
+        "She has a cat.",
+        "I am fine."
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q22",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "He runs.",
+        "You should try bibimbap.",
+        "I like red."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q23",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I'm glad you like it.",
+        "I have a pen.",
+        "He reads."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q24",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "Not yet, but I want to.",
+        "He jumps.",
+        "I like blue."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q25",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She is kind.",
+        "Let's get bulgogi and rice.",
+        "He plays."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q26",
+      "type": 4,
+      "prompt_text": "Would you like some kimchi?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "I am fine.",
+        "He is tall.",
+        "Yes, I'd love some!"
+      ],
+      "correct": "Yes, I'd love some!",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q27",
+      "type": 4,
+      "prompt_text": "What food do you recommend?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "You should try bibimbap.",
+        "We study.",
+        "I like red."
+      ],
+      "correct": "You should try bibimbap.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q28",
+      "type": 2,
+      "prompt_text": "This soup is delicious!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He reads.",
+        "I'm glad you like it.",
+        "I have a pen."
+      ],
+      "correct": "I'm glad you like it.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q29",
+      "type": 4,
+      "prompt_text": "Have you tried Korean pancakes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I like blue.",
+        "She swims.",
+        "Not yet, but I want to."
+      ],
+      "correct": "Not yet, but I want to.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u01_q30",
+      "type": 4,
+      "prompt_text": "What should we order?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I am ten.",
+        "He plays.",
+        "Let's get bulgogi and rice."
+      ],
+      "correct": "Let's get bulgogi and rice.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3c"
+    }
+  ]
+}

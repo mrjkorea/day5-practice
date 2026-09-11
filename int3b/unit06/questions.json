@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 6: Fruits",
+    "kind": "unit",
+    "units_covered": [
+      6
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u06_q01",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a carrot",
+        "a strawberry",
+        "a celery",
+        "a potato"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a carrot": "Not quite — try again!",
+        "a celery": "Not quite — try again!",
+        "a potato": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q02",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "black",
+        "yellow",
+        "blue",
+        "purple"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "black": "Not quite — try again!",
+        "blue": "Not quite — try again!",
+        "purple": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q03",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "an orange",
+        "a grape",
+        "an apple",
+        "a pear"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "a grape": "Not quite — try again!",
+        "an apple": "Not quite — try again!",
+        "a pear": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q04",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a peach",
+        "a grape",
+        "a melon",
+        "a coconut"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a peach": "Not quite — try again!",
+        "a melon": "Not quite — try again!",
+        "a coconut": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q05",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a nut",
+        "a cherry",
+        "a leaf",
+        "a bean"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a nut": "Not quite — try again!",
+        "a leaf": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q06",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a potato",
+        "a celery",
+        "a strawberry",
+        "a carrot"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a potato": "Not quite — try again!",
+        "a celery": "Not quite — try again!",
+        "a carrot": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q07",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "black",
+        "purple",
+        "yellow",
+        "blue"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "black": "Not quite — try again!",
+        "purple": "Not quite — try again!",
+        "blue": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q08",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grape",
+        "an orange",
+        "a pear",
+        "an apple"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "a grape": "Not quite — try again!",
+        "a pear": "Not quite — try again!",
+        "an apple": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q09",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grape",
+        "a peach",
+        "a coconut",
+        "a melon"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a peach": "Not quite — try again!",
+        "a coconut": "Not quite — try again!",
+        "a melon": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q10",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a leaf",
+        "a nut",
+        "a bean",
+        "a cherry"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a leaf": "Not quite — try again!",
+        "a nut": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q11",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a carrot",
+        "a potato",
+        "a strawberry",
+        "a celery"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a carrot": "Not quite — try again!",
+        "a potato": "Not quite — try again!",
+        "a celery": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q12",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "blue",
+        "purple",
+        "yellow",
+        "black"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "blue": "Not quite — try again!",
+        "purple": "Not quite — try again!",
+        "black": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q13",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "an apple",
+        "a grape",
+        "a pear",
+        "an orange"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "an apple": "Not quite — try again!",
+        "a grape": "Not quite — try again!",
+        "a pear": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q14",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a coconut",
+        "a grape",
+        "a peach",
+        "a melon"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a coconut": "Not quite — try again!",
+        "a peach": "Not quite — try again!",
+        "a melon": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q15",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a leaf",
+        "a nut",
+        "a cherry",
+        "a bean"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a leaf": "Not quite — try again!",
+        "a nut": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q16",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a celery",
+        "a carrot",
+        "a strawberry",
+        "a potato"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a celery": "Not quite — try again!",
+        "a carrot": "Not quite — try again!",
+        "a potato": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q17",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "black",
+        "blue",
+        "purple",
+        "yellow"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "black": "Not quite — try again!",
+        "blue": "Not quite — try again!",
+        "purple": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q18",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grape",
+        "an apple",
+        "a pear",
+        "an orange"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "a grape": "Not quite — try again!",
+        "an apple": "Not quite — try again!",
+        "a pear": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q19",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a peach",
+        "a grape",
+        "a melon",
+        "a coconut"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a peach": "Not quite — try again!",
+        "a melon": "Not quite — try again!",
+        "a coconut": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q20",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a nut",
+        "a cherry",
+        "a leaf",
+        "a bean"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a nut": "Not quite — try again!",
+        "a leaf": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q21",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a strawberry",
+        "a celery",
+        "a potato",
+        "a carrot"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a celery": "Not quite — try again!",
+        "a potato": "Not quite — try again!",
+        "a carrot": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q22",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "yellow",
+        "black",
+        "purple",
+        "blue"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "black": "Not quite — try again!",
+        "purple": "Not quite — try again!",
+        "blue": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q23",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "an apple",
+        "an orange",
+        "a grape",
+        "a pear"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "an apple": "Not quite — try again!",
+        "a grape": "Not quite — try again!",
+        "a pear": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q24",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grape",
+        "a peach",
+        "a coconut",
+        "a melon"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a peach": "Not quite — try again!",
+        "a coconut": "Not quite — try again!",
+        "a melon": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q25",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a leaf",
+        "a nut",
+        "a cherry",
+        "a bean"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a leaf": "Not quite — try again!",
+        "a nut": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q26",
+      "type": 4,
+      "prompt_text": "Which one is a fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a strawberry",
+        "a celery",
+        "a potato",
+        "a carrot"
+      ],
+      "correct": "a strawberry",
+      "why_wrong": {
+        "a celery": "Not quite — try again!",
+        "a potato": "Not quite — try again!",
+        "a carrot": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q27",
+      "type": 4,
+      "prompt_text": "What color is a banana?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "black",
+        "yellow",
+        "purple",
+        "blue"
+      ],
+      "correct": "yellow",
+      "why_wrong": {
+        "black": "Not quite — try again!",
+        "purple": "Not quite — try again!",
+        "blue": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q28",
+      "type": 2,
+      "prompt_text": "Choose a citrus fruit.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grape",
+        "an orange",
+        "a pear",
+        "an apple"
+      ],
+      "correct": "an orange",
+      "why_wrong": {
+        "a grape": "Not quite — try again!",
+        "a pear": "Not quite — try again!",
+        "an apple": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q29",
+      "type": 4,
+      "prompt_text": "Which fruit is small and purple?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a peach",
+        "a melon",
+        "a coconut",
+        "a grape"
+      ],
+      "correct": "a grape",
+      "why_wrong": {
+        "a peach": "Not quite — try again!",
+        "a melon": "Not quite — try again!",
+        "a coconut": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u06_q30",
+      "type": 4,
+      "prompt_text": "What do we call this red fruit?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a leaf",
+        "a cherry",
+        "a nut",
+        "a bean"
+      ],
+      "correct": "a cherry",
+      "why_wrong": {
+        "a leaf": "Not quite — try again!",
+        "a nut": "Not quite — try again!",
+        "a bean": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3b"
+    }
+  ]
+}

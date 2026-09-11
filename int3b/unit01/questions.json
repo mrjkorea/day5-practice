@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 1: School Grades",
+    "kind": "unit",
+    "units_covered": [
+      1
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u01_q01",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I have a cat.",
+        "I like red.",
+        "I'm in the sixth grade."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q02",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "He's in the fourth grade.",
+        "He is tall.",
+        "He eats."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q03",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She sings.",
+        "I like blue.",
+        "Yes, I'm in seventh grade."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q04",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "Fourth grade",
+        "Sixth grade.",
+        "He sleeps."
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "Fourth grade": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q05",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "grade three school",
+        "third grade",
+        "three grade",
+        "the grade three"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "grade three school": "Not quite — try again!",
+        "three grade": "Not quite — try again!",
+        "the grade three": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q06",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I'm in the sixth grade.",
+        "I like red.",
+        "I have a cat."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q07",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "He plays.",
+        "He is tall.",
+        "He's in the fourth grade."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q08",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He runs.",
+        "She sings.",
+        "Yes, I'm in seventh grade."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q09",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "Fourth grade",
+        "I am ten.",
+        "Sixth grade."
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "Fourth grade": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q10",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "third grade",
+        "the grade three",
+        "grade three school",
+        "three grade"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "the grade three": "Not quite — try again!",
+        "grade three school": "Not quite — try again!",
+        "three grade": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q11",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "I'm in the sixth grade.",
+        "I am fine.",
+        "I like red."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q12",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's in the fourth grade.",
+        "He plays.",
+        "He eats.",
+        "He is tall."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q13",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I'm in seventh grade.",
+        "I like blue.",
+        "She sings.",
+        "He runs."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q14",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Fourth grade",
+        "I am ten.",
+        "Sixth grade.",
+        "He sleeps."
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "Fourth grade": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q15",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "grade three school",
+        "the grade three",
+        "third grade",
+        "three grade"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "grade three school": "Not quite — try again!",
+        "the grade three": "Not quite — try again!",
+        "three grade": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q16",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm in the sixth grade.",
+        "I am fine.",
+        "I have a cat.",
+        "I like red."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q17",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "He's in the fourth grade.",
+        "He eats.",
+        "He plays."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q18",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I like blue.",
+        "He runs.",
+        "Yes, I'm in seventh grade."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q19",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sixth grade.",
+        "He sleeps.",
+        "I am ten.",
+        "Fourth grade"
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "Fourth grade": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q20",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "grade three school",
+        "the grade three",
+        "three grade",
+        "third grade"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "grade three school": "Not quite — try again!",
+        "the grade three": "Not quite — try again!",
+        "three grade": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q21",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "I have a cat.",
+        "I'm in the sixth grade.",
+        "I am fine."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q22",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "He's in the fourth grade.",
+        "He eats.",
+        "He is tall."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q23",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like blue.",
+        "Yes, I'm in seventh grade.",
+        "She sings."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q24",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Fourth grade",
+        "He sleeps.",
+        "I am ten.",
+        "Sixth grade."
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "Fourth grade": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q25",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "grade three school",
+        "third grade",
+        "three grade",
+        "the grade three"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "grade three school": "Not quite — try again!",
+        "three grade": "Not quite — try again!",
+        "the grade three": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q26",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I like red.",
+        "I'm in the sixth grade.",
+        "I have a cat."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q27",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's in the fourth grade.",
+        "He is tall.",
+        "He plays.",
+        "He eats."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q28",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Yes, I'm in seventh grade.",
+        "She sings.",
+        "I like blue."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q29",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He sleeps.",
+        "Sixth grade.",
+        "Fourth grade"
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "Fourth grade": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u01_q30",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "third grade",
+        "three grade",
+        "the grade three",
+        "grade three school"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "three grade": "Not quite — try again!",
+        "the grade three": "Not quite — try again!",
+        "grade three school": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3b"
+    }
+  ]
+}

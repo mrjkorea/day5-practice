@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Midterm Units 1–4",
+    "kind": "midterm_1_4",
+    "units_covered": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "count": 28,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_midterm_1_4_q01",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I have a cat.",
+        "I'm in the sixth grade.",
+        "I like red."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q02",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "He eats.",
+        "He's in the fourth grade.",
+        "He is tall."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q03",
+      "type": 4,
+      "prompt_text": "Are you in middle school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She sings.",
+        "Yes, I'm in seventh grade.",
+        "I like blue."
+      ],
+      "correct": "Yes, I'm in seventh grade.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q04",
+      "type": 4,
+      "prompt_text": "What grade comes after fifth?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "Fourth grade",
+        "I am ten.",
+        "Sixth grade."
+      ],
+      "correct": "Sixth grade.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "Fourth grade": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q05",
+      "type": 2,
+      "prompt_text": "She is in ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "three grade",
+        "the grade three",
+        "grade three school",
+        "third grade"
+      ],
+      "correct": "third grade",
+      "why_wrong": {
+        "three grade": "Not quite — try again!",
+        "the grade three": "Not quite — try again!",
+        "grade three school": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q06",
+      "type": 4,
+      "prompt_text": "What grade are you in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm in the sixth grade.",
+        "I like red.",
+        "I am fine.",
+        "I have a cat."
+      ],
+      "correct": "I'm in the sixth grade.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q07",
+      "type": 4,
+      "prompt_text": "Which grade is he in?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's in the fourth grade.",
+        "He is tall.",
+        "He plays.",
+        "He eats."
+      ],
+      "correct": "He's in the fourth grade.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q08",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Maybe",
+        "True",
+        "False",
+        "Sometimes"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Maybe": "Not quite — try again!",
+        "True": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q09",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, correct.",
+        "I am fine.",
+        "No, that's wrong.",
+        "He plays."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "Yes, correct.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q10",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "False",
+        "I don't know.",
+        "True"
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "False": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q11",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They is students.",
+        "They are students.",
+        "They am students.",
+        "They be students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They is students.": "Not quite — try again!",
+        "They am students.": "Not quite — try again!",
+        "They be students.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q12",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "No, it should be 'He goes to school.'",
+        "Yes, perfect.",
+        "I like red."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "Yes, perfect.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q13",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Maybe",
+        "True",
+        "False",
+        "Sometimes"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Maybe": "Not quite — try again!",
+        "True": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q14",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, correct.",
+        "No, that's wrong.",
+        "He plays.",
+        "I am fine."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "Yes, correct.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q15",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "A mouse is bigger.",
+        "I am twelve.",
+        "They are same.",
+        "An elephant is bigger than a mouse."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "A mouse is bigger.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "They are same.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q16",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "more interestinger",
+        "This book is more interesting than that one.",
+        "interestinger",
+        "most interesting"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "more interestinger": "Not quite — try again!",
+        "interestinger": "Not quite — try again!",
+        "most interesting": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q17",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Minho is taller than Jay.",
+        "I like blue.",
+        "Jay is taller.",
+        "Same height."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "Jay is taller.": "Not quite — try again!",
+        "Same height.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q18",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Seoul is more crowded than Tongyeong.",
+        "He plays.",
+        "Equal.",
+        "Tongyeong is more."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "Equal.": "Not quite — try again!",
+        "Tongyeong is more.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q19",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "harder",
+        "hardest",
+        "hardly",
+        "more hard"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "hardest": "Not quite — try again!",
+        "hardly": "Not quite — try again!",
+        "more hard": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q20",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "An elephant is bigger than a mouse.",
+        "A mouse is bigger.",
+        "They are same."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!",
+        "They are same.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q21",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "interestinger",
+        "This book is more interesting than that one.",
+        "more interestinger",
+        "most interesting"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "interestinger": "Not quite — try again!",
+        "more interestinger": "Not quite — try again!",
+        "most interesting": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q22",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's my aunt.",
+        "I am fine.",
+        "I like pizza.",
+        "He runs."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q23",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I don't think so.",
+        "He eats.",
+        "Yes, I am.",
+        "She sings."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "Yes, I am.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q24",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "She reads.",
+        "They're new students.",
+        "He sleeps."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q25",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He jumps.",
+        "That's our principal.",
+        "I like red."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q26",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, who's he?",
+        "He plays.",
+        "She is kind.",
+        "I am ten."
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q27",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I like pizza.",
+        "She's my aunt.",
+        "He runs."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_midterm_1_4_q28",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "No, I don't think so.",
+        "He eats.",
+        "Yes, I am."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "Yes, I am.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3b"
+    }
+  ]
+}

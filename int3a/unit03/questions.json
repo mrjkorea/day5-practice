@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 3: Adjectives and Opposites",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u03_q01",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "cold",
+        "bright",
+        "warm",
+        "spicy"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "bright": "Not quite — try again!",
+        "warm": "Not quite — try again!",
+        "spicy": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q02",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "long",
+        "wide",
+        "small",
+        "tall"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "long": "Not quite — try again!",
+        "wide": "Not quite — try again!",
+        "tall": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q03",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "kind",
+        "sad",
+        "fun",
+        "glad"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "kind": "Not quite — try again!",
+        "fun": "Not quite — try again!",
+        "glad": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q04",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "early",
+        "soon",
+        "slow",
+        "quick"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "early": "Not quite — try again!",
+        "soon": "Not quite — try again!",
+        "quick": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q05",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "dirty",
+        "fresh",
+        "neat",
+        "clear"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "fresh": "Not quite — try again!",
+        "neat": "Not quite — try again!",
+        "clear": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q06",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "spicy",
+        "warm",
+        "cold",
+        "bright"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "spicy": "Not quite — try again!",
+        "warm": "Not quite — try again!",
+        "bright": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q07",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "small",
+        "wide",
+        "long",
+        "tall"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "wide": "Not quite — try again!",
+        "long": "Not quite — try again!",
+        "tall": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q08",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fun",
+        "sad",
+        "glad",
+        "kind"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "fun": "Not quite — try again!",
+        "glad": "Not quite — try again!",
+        "kind": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q09",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "soon",
+        "quick",
+        "early",
+        "slow"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "soon": "Not quite — try again!",
+        "quick": "Not quite — try again!",
+        "early": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q10",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fresh",
+        "neat",
+        "clear",
+        "dirty"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "fresh": "Not quite — try again!",
+        "neat": "Not quite — try again!",
+        "clear": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q11",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "bright",
+        "spicy",
+        "cold",
+        "warm"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "bright": "Not quite — try again!",
+        "spicy": "Not quite — try again!",
+        "warm": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q12",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "long",
+        "small",
+        "tall",
+        "wide"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "long": "Not quite — try again!",
+        "tall": "Not quite — try again!",
+        "wide": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q13",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "kind",
+        "sad",
+        "glad",
+        "fun"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "kind": "Not quite — try again!",
+        "glad": "Not quite — try again!",
+        "fun": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q14",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "early",
+        "soon",
+        "quick",
+        "slow"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "early": "Not quite — try again!",
+        "soon": "Not quite — try again!",
+        "quick": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q15",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fresh",
+        "clear",
+        "dirty",
+        "neat"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "fresh": "Not quite — try again!",
+        "clear": "Not quite — try again!",
+        "neat": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q16",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "warm",
+        "spicy",
+        "bright",
+        "cold"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "warm": "Not quite — try again!",
+        "spicy": "Not quite — try again!",
+        "bright": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q17",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "tall",
+        "wide",
+        "long",
+        "small"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "tall": "Not quite — try again!",
+        "wide": "Not quite — try again!",
+        "long": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q18",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fun",
+        "kind",
+        "sad",
+        "glad"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "fun": "Not quite — try again!",
+        "kind": "Not quite — try again!",
+        "glad": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q19",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "quick",
+        "slow",
+        "early",
+        "soon"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "quick": "Not quite — try again!",
+        "early": "Not quite — try again!",
+        "soon": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q20",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "neat",
+        "clear",
+        "dirty",
+        "fresh"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "neat": "Not quite — try again!",
+        "clear": "Not quite — try again!",
+        "fresh": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q21",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "spicy",
+        "warm",
+        "bright",
+        "cold"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "spicy": "Not quite — try again!",
+        "warm": "Not quite — try again!",
+        "bright": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q22",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "wide",
+        "long",
+        "small",
+        "tall"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "wide": "Not quite — try again!",
+        "long": "Not quite — try again!",
+        "tall": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q23",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fun",
+        "glad",
+        "kind",
+        "sad"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "fun": "Not quite — try again!",
+        "glad": "Not quite — try again!",
+        "kind": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q24",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "soon",
+        "quick",
+        "early",
+        "slow"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "soon": "Not quite — try again!",
+        "quick": "Not quite — try again!",
+        "early": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q25",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fresh",
+        "dirty",
+        "neat",
+        "clear"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "fresh": "Not quite — try again!",
+        "neat": "Not quite — try again!",
+        "clear": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q26",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'hot'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "cold",
+        "warm",
+        "spicy",
+        "bright"
+      ],
+      "correct": "cold",
+      "why_wrong": {
+        "warm": "Not quite — try again!",
+        "spicy": "Not quite — try again!",
+        "bright": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q27",
+      "type": 2,
+      "prompt_text": "Choose the opposite of 'big'.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "wide",
+        "small",
+        "long",
+        "tall"
+      ],
+      "correct": "small",
+      "why_wrong": {
+        "wide": "Not quite — try again!",
+        "long": "Not quite — try again!",
+        "tall": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q28",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'happy'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "sad",
+        "fun",
+        "kind",
+        "glad"
+      ],
+      "correct": "sad",
+      "why_wrong": {
+        "fun": "Not quite — try again!",
+        "kind": "Not quite — try again!",
+        "glad": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q29",
+      "type": 2,
+      "prompt_text": "The opposite of 'fast' is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "quick",
+        "soon",
+        "slow",
+        "early"
+      ],
+      "correct": "slow",
+      "why_wrong": {
+        "quick": "Not quite — try again!",
+        "soon": "Not quite — try again!",
+        "early": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u03_q30",
+      "type": 4,
+      "prompt_text": "What is the opposite of 'clean'?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "dirty",
+        "clear",
+        "fresh",
+        "neat"
+      ],
+      "correct": "dirty",
+      "why_wrong": {
+        "clear": "Not quite — try again!",
+        "fresh": "Not quite — try again!",
+        "neat": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3a"
+    }
+  ]
+}

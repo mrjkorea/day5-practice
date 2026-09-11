@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 2: Don't Do That",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u02_q01",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "You shouldn't touch it.",
+        "I am fine.",
+        "Touch it quickly."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "Touch it quickly.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q02",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "Sorry, I won't.",
+        "We eat.",
+        "I like cats."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q03",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't talk during the test.",
+        "Talk loudly.",
+        "She sleeps.",
+        "I have homework."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "Talk loudly.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q04",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Feed the animals.",
+        "Don't feed the animals.",
+        "I like pizza.",
+        "He jumps."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "Feed the animals.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q05",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "runs",
+        "running",
+        "ran",
+        "run"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "runs": "Not quite — try again!",
+        "running": "Not quite — try again!",
+        "ran": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q06",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Touch it quickly.",
+        "You shouldn't touch it.",
+        "She runs.",
+        "I am fine."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "Touch it quickly.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q07",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat.",
+        "I like cats.",
+        "Sorry, I won't.",
+        "He sings."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q08",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't talk during the test.",
+        "Talk loudly.",
+        "I have homework.",
+        "She sleeps."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "Talk loudly.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q09",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Feed the animals.",
+        "I like pizza.",
+        "Don't feed the animals.",
+        "He jumps."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "Feed the animals.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q10",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "run",
+        "runs",
+        "running",
+        "ran"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "runs": "Not quite — try again!",
+        "running": "Not quite — try again!",
+        "ran": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q11",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Touch it quickly.",
+        "You shouldn't touch it.",
+        "She runs.",
+        "I am fine."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "Touch it quickly.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q12",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "We eat.",
+        "He sings.",
+        "Sorry, I won't."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q13",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't talk during the test.",
+        "I have homework.",
+        "Talk loudly.",
+        "She sleeps."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "Talk loudly.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q14",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "Don't feed the animals.",
+        "Feed the animals.",
+        "I like pizza."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "Feed the animals.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q15",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "running",
+        "run",
+        "ran",
+        "runs"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "running": "Not quite — try again!",
+        "ran": "Not quite — try again!",
+        "runs": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q16",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "Touch it quickly.",
+        "I am fine.",
+        "You shouldn't touch it."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "Touch it quickly.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q17",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "Sorry, I won't.",
+        "We eat.",
+        "I like cats."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q18",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "Talk loudly.",
+        "Don't talk during the test.",
+        "She sleeps."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "Talk loudly.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q19",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't feed the animals.",
+        "He jumps.",
+        "I like pizza.",
+        "Feed the animals."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "Feed the animals.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q20",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "run",
+        "runs",
+        "running",
+        "ran"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "runs": "Not quite — try again!",
+        "running": "Not quite — try again!",
+        "ran": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q21",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Touch it quickly.",
+        "I am fine.",
+        "She runs.",
+        "You shouldn't touch it."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "Touch it quickly.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q22",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He sings.",
+        "We eat.",
+        "Sorry, I won't."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q23",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Talk loudly.",
+        "I have homework.",
+        "She sleeps.",
+        "Don't talk during the test."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "Talk loudly.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q24",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Feed the animals.",
+        "I like pizza.",
+        "Don't feed the animals.",
+        "He jumps."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "Feed the animals.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q25",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "runs",
+        "running",
+        "ran",
+        "run"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "runs": "Not quite — try again!",
+        "running": "Not quite — try again!",
+        "ran": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q26",
+      "type": 4,
+      "prompt_text": "What does 'Don't touch' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "You shouldn't touch it.",
+        "Touch it quickly.",
+        "I am fine.",
+        "She runs."
+      ],
+      "correct": "You shouldn't touch it.",
+      "why_wrong": {
+        "Touch it quickly.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q27",
+      "type": 2,
+      "prompt_text": "Don't run here!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "We eat.",
+        "I like cats.",
+        "Sorry, I won't."
+      ],
+      "correct": "Sorry, I won't.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q28",
+      "type": 2,
+      "prompt_text": "Choose the best warning.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Talk loudly.",
+        "I have homework.",
+        "She sleeps.",
+        "Don't talk during the test."
+      ],
+      "correct": "Don't talk during the test.",
+      "why_wrong": {
+        "Talk loudly.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q29",
+      "type": 4,
+      "prompt_text": "What should the sign say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "Feed the animals.",
+        "Don't feed the animals.",
+        "He jumps."
+      ],
+      "correct": "Don't feed the animals.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "Feed the animals.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u02_q30",
+      "type": 2,
+      "prompt_text": "Don't ___ near the pool.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "runs",
+        "ran",
+        "running",
+        "run"
+      ],
+      "correct": "run",
+      "why_wrong": {
+        "runs": "Not quite — try again!",
+        "ran": "Not quite — try again!",
+        "running": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3c"
+    }
+  ]
+}

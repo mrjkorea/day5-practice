@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 5: Commands and Requests",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u05_q01",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "Please open your books.",
+        "I like cats.",
+        "She is tall."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q02",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "You sit.",
+        "Sitting down.",
+        "Sit down now!",
+        "Please sit down."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "You sit.": "Not quite — try again!",
+        "Sitting down.": "Not quite — try again!",
+        "Sit down now!": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q03",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't run in the hallway.",
+        "He reads.",
+        "She sings.",
+        "I am fine."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q04",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Listen carefully, please.",
+        "I like blue.",
+        "She swims."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q05",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Write your name at the top.",
+        "He runs.",
+        "I have homework.",
+        "She jumps."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q06",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Please open your books.",
+        "She is tall.",
+        "I like cats.",
+        "He has a bike."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q07",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sit down now!",
+        "Please sit down.",
+        "You sit.",
+        "Sitting down."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "Sit down now!": "Not quite — try again!",
+        "You sit.": "Not quite — try again!",
+        "Sitting down.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q08",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "Don't run in the hallway.",
+        "She sings.",
+        "I am fine."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q09",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He eats.",
+        "Listen carefully, please.",
+        "She swims."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q10",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "Write your name at the top.",
+        "He runs.",
+        "She jumps."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q11",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "She is tall.",
+        "He has a bike.",
+        "Please open your books."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q12",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sit down now!",
+        "Please sit down.",
+        "You sit.",
+        "Sitting down."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "Sit down now!": "Not quite — try again!",
+        "You sit.": "Not quite — try again!",
+        "Sitting down.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q13",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I am fine.",
+        "She sings.",
+        "Don't run in the hallway."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q14",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Listen carefully, please.",
+        "She swims.",
+        "He eats."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q15",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Write your name at the top.",
+        "I have homework.",
+        "She jumps."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q16",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I like cats.",
+        "Please open your books.",
+        "She is tall."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q17",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sitting down.",
+        "You sit.",
+        "Sit down now!",
+        "Please sit down."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "Sitting down.": "Not quite — try again!",
+        "You sit.": "Not quite — try again!",
+        "Sit down now!": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q18",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He reads.",
+        "She sings.",
+        "Don't run in the hallway."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q19",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Listen carefully, please.",
+        "She swims.",
+        "I like blue."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q20",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "She jumps.",
+        "Write your name at the top.",
+        "He runs."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q21",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Please open your books.",
+        "He has a bike.",
+        "She is tall.",
+        "I like cats."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q22",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sit down now!",
+        "Sitting down.",
+        "Please sit down.",
+        "You sit."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "Sit down now!": "Not quite — try again!",
+        "Sitting down.": "Not quite — try again!",
+        "You sit.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q23",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She sings.",
+        "Don't run in the hallway.",
+        "He reads."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q24",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Listen carefully, please.",
+        "I like blue.",
+        "She swims."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q25",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "He runs.",
+        "She jumps.",
+        "Write your name at the top."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q26",
+      "type": 4,
+      "prompt_text": "What should the teacher say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Please open your books.",
+        "He has a bike.",
+        "I like cats.",
+        "She is tall."
+      ],
+      "correct": "Please open your books.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q27",
+      "type": 2,
+      "prompt_text": "Choose a polite command.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sit down now!",
+        "You sit.",
+        "Please sit down.",
+        "Sitting down."
+      ],
+      "correct": "Please sit down.",
+      "why_wrong": {
+        "Sit down now!": "Not quite — try again!",
+        "You sit.": "Not quite — try again!",
+        "Sitting down.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q28",
+      "type": 2,
+      "prompt_text": "Tell them what to do.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I am fine.",
+        "Don't run in the hallway.",
+        "She sings."
+      ],
+      "correct": "Don't run in the hallway.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q29",
+      "type": 4,
+      "prompt_text": "How do you ask someone to listen?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Listen carefully, please.",
+        "He eats.",
+        "She swims."
+      ],
+      "correct": "Listen carefully, please.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u05_q30",
+      "type": 4,
+      "prompt_text": "What is the teacher's instruction?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Write your name at the top.",
+        "I have homework.",
+        "She jumps.",
+        "He runs."
+      ],
+      "correct": "Write your name at the top.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3b"
+    }
+  ]
+}

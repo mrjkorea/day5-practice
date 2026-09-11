@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2c",
+    "title": "Intermediate 2C Unit 4: Likes and Preferences",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2c_u04_q01",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "He is tall.",
+        "I like Korean food.",
+        "I am ten."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q02",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I like blue.",
+        "Yes, I love them.",
+        "He runs."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q03",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "I have a cat.",
+        "She likes dancing.",
+        "He sings."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q04",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like pop music.",
+        "She reads.",
+        "I like pizza."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q05",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Not really.",
+        "She swims.",
+        "I am fine.",
+        "He jumps."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q06",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She has a dog.",
+        "He is tall.",
+        "I like Korean food."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q07",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I love them.",
+        "I like blue.",
+        "He runs.",
+        "We study."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q08",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "He sings.",
+        "I have a cat.",
+        "She likes dancing."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q09",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pop music.",
+        "I like pizza.",
+        "He eats.",
+        "She reads."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q10",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I am fine.",
+        "Not really.",
+        "He jumps."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q11",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "I am ten.",
+        "I like Korean food.",
+        "She has a dog."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q12",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We study.",
+        "Yes, I love them.",
+        "I like blue."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q13",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "She likes dancing.",
+        "He sleeps.",
+        "I have a cat."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q14",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I like pop music.",
+        "I like pizza.",
+        "He eats."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q15",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I am fine.",
+        "Not really.",
+        "He jumps."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q16",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "I like Korean food.",
+        "She has a dog.",
+        "I am ten."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q17",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Yes, I love them.",
+        "I like blue.",
+        "We study."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q18",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "He sleeps.",
+        "She likes dancing.",
+        "I have a cat."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q19",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "I like pop music.",
+        "She reads.",
+        "He eats."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q20",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She swims.",
+        "He jumps.",
+        "Not really."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q21",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "I am ten.",
+        "I like Korean food.",
+        "She has a dog."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q22",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "We study.",
+        "Yes, I love them.",
+        "He runs."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q23",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She likes dancing.",
+        "He sings.",
+        "I have a cat."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q24",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She reads.",
+        "I like pop music.",
+        "He eats."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q25",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I am fine.",
+        "Not really.",
+        "He jumps."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q26",
+      "type": 4,
+      "prompt_text": "What do you like to eat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like Korean food.",
+        "She has a dog.",
+        "I am ten.",
+        "He is tall."
+      ],
+      "correct": "I like Korean food.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q27",
+      "type": 4,
+      "prompt_text": "Do you like playing games?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I love them.",
+        "We study.",
+        "I like blue.",
+        "He runs."
+      ],
+      "correct": "Yes, I love them.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q28",
+      "type": 4,
+      "prompt_text": "What does she like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes dancing.",
+        "I have a cat.",
+        "He sleeps.",
+        "He sings."
+      ],
+      "correct": "She likes dancing.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q29",
+      "type": 4,
+      "prompt_text": "What kind of music do you like?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I like pizza.",
+        "I like pop music.",
+        "He eats."
+      ],
+      "correct": "I like pop music.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u04_q30",
+      "type": 4,
+      "prompt_text": "Does he like vegetables?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I am fine.",
+        "Not really.",
+        "She swims."
+      ],
+      "correct": "Not really.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2c"
+    }
+  ]
+}

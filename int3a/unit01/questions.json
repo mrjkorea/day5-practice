@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 1: Draw and Art",
+    "kind": "unit",
+    "units_covered": [
+      1
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u01_q01",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is running.",
+        "She is drawing a flower.",
+        "She is sleeping.",
+        "She is cooking."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is running.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!",
+        "She is cooking.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q02",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like draw animals.",
+        "I drawing animals.",
+        "I like to draw animals.",
+        "I likes to draw."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I like draw animals.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!",
+        "I likes to draw.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q03",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He drawing mountain.",
+        "He draw a mountain.",
+        "He draws mountain yesterday.",
+        "He drew a mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He drawing mountain.": "Not quite — try again!",
+        "He draw a mountain.": "Not quite — try again!",
+        "He draws mountain yesterday.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q04",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She is tall.",
+        "Yes, I can draw a simple one.",
+        "I am twelve."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q05",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing their families.",
+        "I like red.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q06",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is drawing a flower.",
+        "She is cooking.",
+        "She is running.",
+        "She is sleeping."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is cooking.": "Not quite — try again!",
+        "She is running.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q07",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like draw animals.",
+        "I likes to draw.",
+        "I drawing animals.",
+        "I like to draw animals."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I like draw animals.": "Not quite — try again!",
+        "I likes to draw.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q08",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He draws mountain yesterday.",
+        "He draw a mountain.",
+        "He drew a mountain.",
+        "He drawing mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He draws mountain yesterday.": "Not quite — try again!",
+        "He draw a mountain.": "Not quite — try again!",
+        "He drawing mountain.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q09",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "He plays.",
+        "She is tall.",
+        "Yes, I can draw a simple one."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q10",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing their families.",
+        "We eat.",
+        "He runs.",
+        "I like red."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q11",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is running.",
+        "She is drawing a flower.",
+        "She is cooking.",
+        "She is sleeping."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is running.": "Not quite — try again!",
+        "She is cooking.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q12",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like to draw animals.",
+        "I like draw animals.",
+        "I likes to draw.",
+        "I drawing animals."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I like draw animals.": "Not quite — try again!",
+        "I likes to draw.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q13",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He draws mountain yesterday.",
+        "He drawing mountain.",
+        "He drew a mountain.",
+        "He draw a mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He draws mountain yesterday.": "Not quite — try again!",
+        "He drawing mountain.": "Not quite — try again!",
+        "He draw a mountain.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q14",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "He plays.",
+        "I am twelve.",
+        "Yes, I can draw a simple one."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q15",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "They're drawing their families.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q16",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is running.",
+        "She is drawing a flower.",
+        "She is sleeping.",
+        "She is cooking."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is running.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!",
+        "She is cooking.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q17",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like draw animals.",
+        "I drawing animals.",
+        "I likes to draw.",
+        "I like to draw animals."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I like draw animals.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!",
+        "I likes to draw.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q18",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He drawing mountain.",
+        "He draw a mountain.",
+        "He draws mountain yesterday.",
+        "He drew a mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He drawing mountain.": "Not quite — try again!",
+        "He draw a mountain.": "Not quite — try again!",
+        "He draws mountain yesterday.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q19",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I can draw a simple one.",
+        "I am twelve.",
+        "He plays.",
+        "She is tall."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q20",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "They're drawing their families.",
+        "We eat.",
+        "I like red."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q21",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is running.",
+        "She is drawing a flower.",
+        "She is sleeping.",
+        "She is cooking."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is running.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!",
+        "She is cooking.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q22",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I likes to draw.",
+        "I drawing animals.",
+        "I like draw animals.",
+        "I like to draw animals."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I likes to draw.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!",
+        "I like draw animals.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q23",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He draw a mountain.",
+        "He drew a mountain.",
+        "He draws mountain yesterday.",
+        "He drawing mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He draw a mountain.": "Not quite — try again!",
+        "He draws mountain yesterday.": "Not quite — try again!",
+        "He drawing mountain.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q24",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "Yes, I can draw a simple one.",
+        "He plays.",
+        "She is tall."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q25",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing their families.",
+        "He runs.",
+        "I like red.",
+        "We eat."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q26",
+      "type": 4,
+      "prompt_text": "What is she doing in art class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is cooking.",
+        "She is sleeping.",
+        "She is running.",
+        "She is drawing a flower."
+      ],
+      "correct": "She is drawing a flower.",
+      "why_wrong": {
+        "She is cooking.": "Not quite — try again!",
+        "She is sleeping.": "Not quite — try again!",
+        "She is running.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q27",
+      "type": 2,
+      "prompt_text": "Choose the best sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I likes to draw.",
+        "I like draw animals.",
+        "I like to draw animals.",
+        "I drawing animals."
+      ],
+      "correct": "I like to draw animals.",
+      "why_wrong": {
+        "I likes to draw.": "Not quite — try again!",
+        "I like draw animals.": "Not quite — try again!",
+        "I drawing animals.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q28",
+      "type": 4,
+      "prompt_text": "What did he draw?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He draw a mountain.",
+        "He draws mountain yesterday.",
+        "He drawing mountain.",
+        "He drew a mountain."
+      ],
+      "correct": "He drew a mountain.",
+      "why_wrong": {
+        "He draw a mountain.": "Not quite — try again!",
+        "He draws mountain yesterday.": "Not quite — try again!",
+        "He drawing mountain.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q29",
+      "type": 4,
+      "prompt_text": "Can you draw a map?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "Yes, I can draw a simple one.",
+        "She is tall.",
+        "I am twelve."
+      ],
+      "correct": "Yes, I can draw a simple one.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u01_q30",
+      "type": 4,
+      "prompt_text": "What are they drawing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He runs.",
+        "We eat.",
+        "They're drawing their families."
+      ],
+      "correct": "They're drawing their families.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int3a"
+    }
+  ]
+}

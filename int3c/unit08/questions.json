@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 8: Telling Time",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u08_q01",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "It's a quarter to five.",
+        "I am fine.",
+        "She is tall."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q02",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like blue.",
+        "We eat.",
+        "It starts at nine o'clock."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q03",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Thirty three.",
+        "Half three past.",
+        "Half past three.",
+        "Three past half."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Thirty three.": "Not quite — try again!",
+        "Half three past.": "Not quite — try again!",
+        "Three past half.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q04",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Around seven p.m.",
+        "She sings.",
+        "He sleeps.",
+        "I have a cat."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q05",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like pizza.",
+        "He jumps.",
+        "No, it's only nine forty-five."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q06",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a quarter to five.",
+        "He plays.",
+        "I am fine.",
+        "She is tall."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q07",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We eat.",
+        "I like blue.",
+        "It starts at nine o'clock."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q08",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Half three past.",
+        "Half past three.",
+        "Three past half.",
+        "Thirty three."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Half three past.": "Not quite — try again!",
+        "Three past half.": "Not quite — try again!",
+        "Thirty three.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q09",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "I have a cat.",
+        "She sings.",
+        "Around seven p.m."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q10",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's only nine forty-five.",
+        "I like pizza.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q11",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "It's a quarter to five.",
+        "She is tall.",
+        "I am fine."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q12",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He runs.",
+        "We eat.",
+        "It starts at nine o'clock."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q13",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Half past three.",
+        "Three past half.",
+        "Thirty three.",
+        "Half three past."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Three past half.": "Not quite — try again!",
+        "Thirty three.": "Not quite — try again!",
+        "Half three past.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q14",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Around seven p.m.",
+        "I have a cat.",
+        "She sings.",
+        "He sleeps."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q15",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's only nine forty-five.",
+        "I like pizza.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q16",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a quarter to five.",
+        "He plays.",
+        "She is tall.",
+        "I am fine."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q17",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "It starts at nine o'clock.",
+        "I like blue.",
+        "We eat."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q18",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Half past three.",
+        "Half three past.",
+        "Thirty three.",
+        "Three past half."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Half three past.": "Not quite — try again!",
+        "Thirty three.": "Not quite — try again!",
+        "Three past half.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q19",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She sings.",
+        "Around seven p.m.",
+        "I have a cat."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q20",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He jumps.",
+        "I like pizza.",
+        "No, it's only nine forty-five."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q21",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a quarter to five.",
+        "He plays.",
+        "She is tall.",
+        "I am fine."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q22",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like blue.",
+        "It starts at nine o'clock.",
+        "We eat."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q23",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Three past half.",
+        "Half past three.",
+        "Half three past.",
+        "Thirty three."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Three past half.": "Not quite — try again!",
+        "Half three past.": "Not quite — try again!",
+        "Thirty three.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q24",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He sleeps.",
+        "She sings.",
+        "Around seven p.m."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q25",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "No, it's only nine forty-five.",
+        "I like pizza.",
+        "She swims."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q26",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a quarter to five.",
+        "He plays.",
+        "I am fine.",
+        "She is tall."
+      ],
+      "correct": "It's a quarter to five.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q27",
+      "type": 4,
+      "prompt_text": "When does class start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like blue.",
+        "We eat.",
+        "It starts at nine o'clock."
+      ],
+      "correct": "It starts at nine o'clock.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q28",
+      "type": 4,
+      "prompt_text": "How do you say 3:30?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Half three past.",
+        "Half past three.",
+        "Three past half.",
+        "Thirty three."
+      ],
+      "correct": "Half past three.",
+      "why_wrong": {
+        "Half three past.": "Not quite — try again!",
+        "Three past half.": "Not quite — try again!",
+        "Thirty three.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q29",
+      "type": 4,
+      "prompt_text": "What time do you eat dinner?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He sleeps.",
+        "Around seven p.m.",
+        "I have a cat."
+      ],
+      "correct": "Around seven p.m.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u08_q30",
+      "type": 4,
+      "prompt_text": "Is it ten o'clock yet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's only nine forty-five.",
+        "I like pizza.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "No, it's only nine forty-five.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3c"
+    }
+  ]
+}

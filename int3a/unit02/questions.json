@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 2: Asking Opinions",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u02_q01",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "She is kind.",
+        "I am fine.",
+        "I think it's great."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q02",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He runs.",
+        "I'm not sure yet.",
+        "We study."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q03",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I have a pen.",
+        "She sings.",
+        "In my opinion, we should wait."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q04",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I think we need more time.",
+        "He jumps.",
+        "I like blue."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q05",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I think so.",
+        "I like pizza.",
+        "She eats.",
+        "He sleeps."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q06",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I am fine.",
+        "I think it's great.",
+        "She is kind."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q07",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "We study.",
+        "He runs.",
+        "I'm not sure yet."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q08",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She sings.",
+        "In my opinion, we should wait.",
+        "I have a pen."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q09",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like blue.",
+        "I think we need more time.",
+        "He jumps."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q10",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I think so.",
+        "He sleeps.",
+        "I like pizza.",
+        "She eats."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q11",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I am fine.",
+        "She is kind.",
+        "I think it's great."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q12",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We study.",
+        "I like cats.",
+        "I'm not sure yet."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q13",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "In my opinion, we should wait.",
+        "I have a pen.",
+        "He reads.",
+        "She sings."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q14",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I think we need more time.",
+        "She swims.",
+        "He jumps.",
+        "I like blue."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q15",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She eats.",
+        "Yes, I think so.",
+        "He sleeps."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q16",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He has a bike.",
+        "I think it's great.",
+        "I am fine."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q17",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like cats.",
+        "We study.",
+        "I'm not sure yet."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q18",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He reads.",
+        "I have a pen.",
+        "In my opinion, we should wait."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q19",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I think we need more time.",
+        "I like blue.",
+        "She swims.",
+        "He jumps."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q20",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She eats.",
+        "He sleeps.",
+        "Yes, I think so."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q21",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I think it's great.",
+        "I am fine.",
+        "He has a bike."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q22",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm not sure yet.",
+        "We study.",
+        "He runs.",
+        "I like cats."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q23",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "She sings.",
+        "He reads.",
+        "In my opinion, we should wait."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q24",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I think we need more time.",
+        "I like blue.",
+        "She swims.",
+        "He jumps."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q25",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "Yes, I think so.",
+        "She eats.",
+        "He sleeps."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q26",
+      "type": 4,
+      "prompt_text": "What do you think of this idea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He has a bike.",
+        "She is kind.",
+        "I think it's great."
+      ],
+      "correct": "I think it's great.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q27",
+      "type": 4,
+      "prompt_text": "Do you agree with them?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He runs.",
+        "I'm not sure yet.",
+        "We study."
+      ],
+      "correct": "I'm not sure yet.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q28",
+      "type": 4,
+      "prompt_text": "What's your opinion?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "In my opinion, we should wait.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "In my opinion, we should wait.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q29",
+      "type": 4,
+      "prompt_text": "How do you feel about the plan?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I think we need more time.",
+        "She swims.",
+        "He jumps.",
+        "I like blue."
+      ],
+      "correct": "I think we need more time.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u02_q30",
+      "type": 4,
+      "prompt_text": "Do you think it's fair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I think so.",
+        "He sleeps.",
+        "I like pizza.",
+        "She eats."
+      ],
+      "correct": "Yes, I think so.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3a"
+    }
+  ]
+}

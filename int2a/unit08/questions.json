@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 8: After-School Activities",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u08_q01",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "It is sunny.",
+        "I am eleven.",
+        "I go to piano lessons."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q02",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "We eat rice.",
+        "I like red.",
+        "He plays soccer with friends."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q03",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "Yes, I join the art club.",
+        "He is my brother.",
+        "It is cold."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q04",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings well.",
+        "I like summer.",
+        "I do my homework.",
+        "He runs fast."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "She sings well.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He runs fast.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q05",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm meeting my friends.",
+        "She is kind.",
+        "I have two pens.",
+        "He likes math."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I have two pens.": "Not quite — try again!",
+        "He likes math.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q06",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I go to piano lessons.",
+        "I am eleven.",
+        "It is sunny."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q07",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "We eat rice.",
+        "I like red.",
+        "He plays soccer with friends."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q08",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I join the art club.",
+        "He is my brother.",
+        "It is cold.",
+        "I am hungry."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q09",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs fast.",
+        "I like summer.",
+        "I do my homework.",
+        "She sings well."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "He runs fast.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "She sings well.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q10",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He likes math.",
+        "I have two pens.",
+        "I'm meeting my friends.",
+        "She is kind."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "He likes math.": "Not quite — try again!",
+        "I have two pens.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q11",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go to piano lessons.",
+        "It is sunny.",
+        "She is tall.",
+        "I am eleven."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "It is sunny.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q12",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer with friends.",
+        "She has a cat.",
+        "I like red.",
+        "We eat rice."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q13",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It is cold.",
+        "He is my brother.",
+        "Yes, I join the art club."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q14",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings well.",
+        "I like summer.",
+        "He runs fast.",
+        "I do my homework."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "She sings well.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He runs fast.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q15",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two pens.",
+        "I'm meeting my friends.",
+        "She is kind.",
+        "He likes math."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "I have two pens.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He likes math.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q16",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go to piano lessons.",
+        "I am eleven.",
+        "It is sunny.",
+        "She is tall."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "I am eleven.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q17",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "We eat rice.",
+        "He plays soccer with friends.",
+        "She has a cat."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q18",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "I am hungry.",
+        "Yes, I join the art club.",
+        "He is my brother."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q19",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I do my homework.",
+        "She sings well.",
+        "He runs fast.",
+        "I like summer."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "She sings well.": "Not quite — try again!",
+        "He runs fast.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q20",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm meeting my friends.",
+        "I have two pens.",
+        "She is kind.",
+        "He likes math."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "I have two pens.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He likes math.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q21",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go to piano lessons.",
+        "I am eleven.",
+        "It is sunny.",
+        "She is tall."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "I am eleven.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q22",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer with friends.",
+        "I like red.",
+        "She has a cat.",
+        "We eat rice."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q23",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I join the art club.",
+        "It is cold.",
+        "I am hungry.",
+        "He is my brother."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q24",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs fast.",
+        "She sings well.",
+        "I do my homework.",
+        "I like summer."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "He runs fast.": "Not quite — try again!",
+        "She sings well.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q25",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two pens.",
+        "He likes math.",
+        "I'm meeting my friends.",
+        "She is kind."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "I have two pens.": "Not quite — try again!",
+        "He likes math.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q26",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is sunny.",
+        "She is tall.",
+        "I go to piano lessons.",
+        "I am eleven."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "It is sunny.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q27",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer with friends.",
+        "I like red.",
+        "She has a cat.",
+        "We eat rice."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q28",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is my brother.",
+        "I am hungry.",
+        "It is cold.",
+        "Yes, I join the art club."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q29",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings well.",
+        "I do my homework.",
+        "He runs fast.",
+        "I like summer."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "She sings well.": "Not quite — try again!",
+        "He runs fast.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u08_q30",
+      "type": 4,
+      "prompt_text": "What are you doing after class?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have two pens.",
+        "He likes math.",
+        "I'm meeting my friends.",
+        "She is kind."
+      ],
+      "correct": "I'm meeting my friends.",
+      "why_wrong": {
+        "I have two pens.": "Not quite — try again!",
+        "He likes math.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2a"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 6: Introducing Korea",
+    "kind": "unit",
+    "units_covered": [
+      6
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u06_q01",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "It's in East Asia.",
+        "I like pizza.",
+        "I am twelve."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q02",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He runs.",
+        "K-pop and delicious food.",
+        "I have a dog."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q03",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "It's a beautiful coastal city.",
+        "He eats.",
+        "I like blue."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q04",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreans",
+        "Korean",
+        "Koreish",
+        "Korea"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreans": "Not quite — try again!",
+        "Koreish": "Not quite — try again!",
+        "Korea": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q05",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I am fine.",
+        "He jumps.",
+        "I love the kind people and the scenery."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q06",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "It's in East Asia.",
+        "I like pizza.",
+        "I am twelve."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q07",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "K-pop and delicious food.",
+        "He runs.",
+        "I have a dog.",
+        "She sings."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q08",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a beautiful coastal city.",
+        "He eats.",
+        "I like blue.",
+        "She reads."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q09",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreish",
+        "Koreans",
+        "Korean",
+        "Korea"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreish": "Not quite — try again!",
+        "Koreans": "Not quite — try again!",
+        "Korea": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q10",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "I love the kind people and the scenery.",
+        "I am fine."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q11",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "It's in East Asia.",
+        "He plays.",
+        "I like pizza."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q12",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She sings.",
+        "K-pop and delicious food.",
+        "I have a dog."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q13",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like blue.",
+        "It's a beautiful coastal city.",
+        "She reads."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q14",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korean",
+        "Koreish",
+        "Koreans",
+        "Korea"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreish": "Not quite — try again!",
+        "Koreans": "Not quite — try again!",
+        "Korea": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q15",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I am fine.",
+        "I love the kind people and the scenery.",
+        "She swims."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q16",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "It's in East Asia.",
+        "I am twelve.",
+        "He plays."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q17",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She sings.",
+        "K-pop and delicious food.",
+        "I have a dog."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q18",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "He eats.",
+        "I like blue.",
+        "It's a beautiful coastal city."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q19",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreish",
+        "Korean",
+        "Korea",
+        "Koreans"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreish": "Not quite — try again!",
+        "Korea": "Not quite — try again!",
+        "Koreans": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q20",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "I love the kind people and the scenery.",
+        "I am fine."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q21",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's in East Asia.",
+        "I like pizza.",
+        "He plays.",
+        "I am twelve."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q22",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "K-pop and delicious food.",
+        "I have a dog.",
+        "She sings."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q23",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "It's a beautiful coastal city.",
+        "I like blue.",
+        "He eats."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q24",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korean",
+        "Korea",
+        "Koreans",
+        "Koreish"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Korea": "Not quite — try again!",
+        "Koreans": "Not quite — try again!",
+        "Koreish": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q25",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "I love the kind people and the scenery.",
+        "She swims.",
+        "He jumps."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q26",
+      "type": 4,
+      "prompt_text": "Where is Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I like pizza.",
+        "I am twelve.",
+        "It's in East Asia."
+      ],
+      "correct": "It's in East Asia.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q27",
+      "type": 4,
+      "prompt_text": "What is famous in Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a dog.",
+        "He runs.",
+        "K-pop and delicious food."
+      ],
+      "correct": "K-pop and delicious food.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q28",
+      "type": 4,
+      "prompt_text": "Tell me about Tongyeong.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like blue.",
+        "She reads.",
+        "It's a beautiful coastal city."
+      ],
+      "correct": "It's a beautiful coastal city.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q29",
+      "type": 4,
+      "prompt_text": "What language do Koreans speak?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreans",
+        "Korea",
+        "Koreish",
+        "Korean"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreans": "Not quite — try again!",
+        "Korea": "Not quite — try again!",
+        "Koreish": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u06_q30",
+      "type": 4,
+      "prompt_text": "What do you like about Korea?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I love the kind people and the scenery.",
+        "She swims.",
+        "I am fine.",
+        "He jumps."
+      ],
+      "correct": "I love the kind people and the scenery.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int3c"
+    }
+  ]
+}

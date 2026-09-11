@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "level": "int2c",
+    "title": "Intermediate 2C Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 28,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2c_midterm_5_8_q01",
+      "type": 4,
+      "prompt_text": "How are you feeling today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She has a cat.",
+        "I like apples.",
+        "I'm a little nervous."
+      ],
+      "correct": "I'm a little nervous.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q02",
+      "type": 4,
+      "prompt_text": "She looks sad. What should you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We eat.",
+        "Are you okay?",
+        "I am twelve."
+      ],
+      "correct": "Are you okay?",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q03",
+      "type": 4,
+      "prompt_text": "How did he feel after the test?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "She sings.",
+        "He felt relieved.",
+        "He reads."
+      ],
+      "correct": "He felt relieved.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q04",
+      "type": 4,
+      "prompt_text": "Are you excited about the trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "Yes, I'm thrilled!",
+        "I have homework."
+      ],
+      "correct": "Yes, I'm thrilled!",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q05",
+      "type": 4,
+      "prompt_text": "Why does she seem angry?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Maybe she's upset about the game.",
+        "I like music.",
+        "We study.",
+        "He sleeps."
+      ],
+      "correct": "Maybe she's upset about the game.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q06",
+      "type": 4,
+      "prompt_text": "How are you feeling today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm a little nervous.",
+        "He plays.",
+        "She has a cat.",
+        "I like apples."
+      ],
+      "correct": "I'm a little nervous.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q07",
+      "type": 4,
+      "prompt_text": "She looks sad. What should you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Are you okay?",
+        "I am twelve.",
+        "We eat.",
+        "He runs."
+      ],
+      "correct": "Are you okay?",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q08",
+      "type": 4,
+      "prompt_text": "What's wrong?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I like pizza.",
+        "He has a bike.",
+        "My throat hurts."
+      ],
+      "correct": "My throat hurts.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q09",
+      "type": 4,
+      "prompt_text": "Where does it hurt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "He sings.",
+        "I am fine.",
+        "My stomach hurts."
+      ],
+      "correct": "My stomach hurts.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q10",
+      "type": 4,
+      "prompt_text": "Do you have a fever?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She reads.",
+        "Yes, a little.",
+        "I like blue."
+      ],
+      "correct": "Yes, a little.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "How do you feel?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I have a dog.",
+        "I feel dizzy.",
+        "She swims."
+      ],
+      "correct": "I feel dizzy.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q12",
+      "type": 4,
+      "prompt_text": "What should you do when you're sick?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She jumps.",
+        "I like summer.",
+        "I should rest and drink water.",
+        "He runs."
+      ],
+      "correct": "I should rest and drink water.",
+      "why_wrong": {
+        "She jumps.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q13",
+      "type": 4,
+      "prompt_text": "What's wrong?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "My throat hurts.",
+        "She is kind.",
+        "I like pizza.",
+        "He has a bike."
+      ],
+      "correct": "My throat hurts.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q14",
+      "type": 4,
+      "prompt_text": "Where does it hurt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He sings.",
+        "She runs.",
+        "My stomach hurts."
+      ],
+      "correct": "My stomach hurts.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q15",
+      "type": 4,
+      "prompt_text": "Phone: Hello?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hi, this is Jay. Is Minji there?",
+        "I like cats.",
+        "She is tall.",
+        "He plays."
+      ],
+      "correct": "Hi, this is Jay. Is Minji there?",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q16",
+      "type": 4,
+      "prompt_text": "Can I speak to Mr. Lee?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hold on, please.",
+        "He reads.",
+        "I am ten.",
+        "She sings."
+      ],
+      "correct": "Hold on, please.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q17",
+      "type": 4,
+      "prompt_text": "Sorry, wrong number.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "That's okay. Goodbye.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "That's okay. Goodbye.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q18",
+      "type": 4,
+      "prompt_text": "I'll call you back later.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I have a pen.",
+        "She eats.",
+        "Sure, talk to you soon."
+      ],
+      "correct": "Sure, talk to you soon.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She eats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q19",
+      "type": 4,
+      "prompt_text": "Who is calling?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I like music.",
+        "This is Sora from class.",
+        "He sleeps."
+      ],
+      "correct": "This is Sora from class.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q20",
+      "type": 4,
+      "prompt_text": "Phone: Hello?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "Hi, this is Jay. Is Minji there?",
+        "He plays.",
+        "I like cats."
+      ],
+      "correct": "Hi, this is Jay. Is Minji there?",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Can I speak to Mr. Lee?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hold on, please.",
+        "She sings.",
+        "I am ten.",
+        "He reads."
+      ],
+      "correct": "Hold on, please.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "See you!",
+        "I am hungry.",
+        "She is kind."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q23",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "Okay, take care!",
+        "I like blue.",
+        "He sings."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q24",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a cat.",
+        "He plays.",
+        "You too!"
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q25",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She swims.",
+        "He eats.",
+        "Likewise!"
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q26",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She jumps.",
+        "Thanks, bye!",
+        "I am fine.",
+        "He runs."
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "She jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q27",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "She is kind.",
+        "See you!",
+        "He has a bike."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_midterm_5_8_q28",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I like blue.",
+        "Okay, take care!",
+        "She runs."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2c"
+    }
+  ]
+}

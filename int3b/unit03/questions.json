@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 3: Comparative Adjectives",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u03_q01",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are same.",
+        "I am twelve.",
+        "An elephant is bigger than a mouse.",
+        "A mouse is bigger."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "They are same.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q02",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "most interesting",
+        "interestinger",
+        "more interestinger",
+        "This book is more interesting than that one."
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "most interesting": "Not quite — try again!",
+        "interestinger": "Not quite — try again!",
+        "more interestinger": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q03",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Same height.",
+        "Minho is taller than Jay.",
+        "Jay is taller."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "Same height.": "Not quite — try again!",
+        "Jay is taller.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q04",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tongyeong is more.",
+        "Seoul is more crowded than Tongyeong.",
+        "He plays.",
+        "Equal."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Tongyeong is more.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "Equal.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q05",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "harder",
+        "hardly",
+        "more hard",
+        "hardest"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "hardly": "Not quite — try again!",
+        "more hard": "Not quite — try again!",
+        "hardest": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q06",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "A mouse is bigger.",
+        "They are same.",
+        "An elephant is bigger than a mouse."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!",
+        "They are same.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q07",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "most interesting",
+        "interestinger",
+        "This book is more interesting than that one.",
+        "more interestinger"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "most interesting": "Not quite — try again!",
+        "interestinger": "Not quite — try again!",
+        "more interestinger": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q08",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Minho is taller than Jay.",
+        "Same height.",
+        "I like blue.",
+        "Jay is taller."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "Same height.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "Jay is taller.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q09",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Equal.",
+        "He plays.",
+        "Tongyeong is more.",
+        "Seoul is more crowded than Tongyeong."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Equal.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "Tongyeong is more.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q10",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "harder",
+        "hardly",
+        "hardest",
+        "more hard"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "hardly": "Not quite — try again!",
+        "hardest": "Not quite — try again!",
+        "more hard": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q11",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "An elephant is bigger than a mouse.",
+        "I am twelve.",
+        "A mouse is bigger.",
+        "They are same."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!",
+        "They are same.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q12",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "This book is more interesting than that one.",
+        "most interesting",
+        "interestinger",
+        "more interestinger"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "most interesting": "Not quite — try again!",
+        "interestinger": "Not quite — try again!",
+        "more interestinger": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q13",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Same height.",
+        "Jay is taller.",
+        "I like blue.",
+        "Minho is taller than Jay."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "Same height.": "Not quite — try again!",
+        "Jay is taller.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q14",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tongyeong is more.",
+        "Equal.",
+        "Seoul is more crowded than Tongyeong.",
+        "He plays."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Tongyeong is more.": "Not quite — try again!",
+        "Equal.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q15",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "hardly",
+        "more hard",
+        "hardest",
+        "harder"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "hardly": "Not quite — try again!",
+        "more hard": "Not quite — try again!",
+        "hardest": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q16",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are same.",
+        "A mouse is bigger.",
+        "An elephant is bigger than a mouse.",
+        "I am twelve."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "They are same.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q17",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "This book is more interesting than that one.",
+        "more interestinger",
+        "most interesting",
+        "interestinger"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "more interestinger": "Not quite — try again!",
+        "most interesting": "Not quite — try again!",
+        "interestinger": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q18",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Jay is taller.",
+        "Same height.",
+        "Minho is taller than Jay."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "Jay is taller.": "Not quite — try again!",
+        "Same height.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q19",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Equal.",
+        "Seoul is more crowded than Tongyeong.",
+        "Tongyeong is more.",
+        "He plays."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Equal.": "Not quite — try again!",
+        "Tongyeong is more.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q20",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "more hard",
+        "harder",
+        "hardly",
+        "hardest"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "more hard": "Not quite — try again!",
+        "hardly": "Not quite — try again!",
+        "hardest": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q21",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "A mouse is bigger.",
+        "An elephant is bigger than a mouse.",
+        "I am twelve.",
+        "They are same."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "A mouse is bigger.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "They are same.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q22",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "more interestinger",
+        "interestinger",
+        "most interesting",
+        "This book is more interesting than that one."
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "more interestinger": "Not quite — try again!",
+        "interestinger": "Not quite — try again!",
+        "most interesting": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q23",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Jay is taller.",
+        "Same height.",
+        "I like blue.",
+        "Minho is taller than Jay."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "Jay is taller.": "Not quite — try again!",
+        "Same height.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q24",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tongyeong is more.",
+        "Equal.",
+        "Seoul is more crowded than Tongyeong.",
+        "He plays."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Tongyeong is more.": "Not quite — try again!",
+        "Equal.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q25",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "more hard",
+        "harder",
+        "hardest",
+        "hardly"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "more hard": "Not quite — try again!",
+        "hardest": "Not quite — try again!",
+        "hardly": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q26",
+      "type": 4,
+      "prompt_text": "Which is bigger?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are same.",
+        "I am twelve.",
+        "An elephant is bigger than a mouse.",
+        "A mouse is bigger."
+      ],
+      "correct": "An elephant is bigger than a mouse.",
+      "why_wrong": {
+        "They are same.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "A mouse is bigger.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q27",
+      "type": 2,
+      "prompt_text": "Choose the comparative.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "more interestinger",
+        "most interesting",
+        "This book is more interesting than that one.",
+        "interestinger"
+      ],
+      "correct": "This book is more interesting than that one.",
+      "why_wrong": {
+        "more interestinger": "Not quite — try again!",
+        "most interesting": "Not quite — try again!",
+        "interestinger": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q28",
+      "type": 4,
+      "prompt_text": "Who is taller?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Jay is taller.",
+        "Same height.",
+        "I like blue.",
+        "Minho is taller than Jay."
+      ],
+      "correct": "Minho is taller than Jay.",
+      "why_wrong": {
+        "Jay is taller.": "Not quite — try again!",
+        "Same height.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q29",
+      "type": 4,
+      "prompt_text": "Which city is more crowded?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tongyeong is more.",
+        "Seoul is more crowded than Tongyeong.",
+        "He plays.",
+        "Equal."
+      ],
+      "correct": "Seoul is more crowded than Tongyeong.",
+      "why_wrong": {
+        "Tongyeong is more.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "Equal.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u03_q30",
+      "type": 2,
+      "prompt_text": "This test is ___ than the last one.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "harder",
+        "hardest",
+        "hardly",
+        "more hard"
+      ],
+      "correct": "harder",
+      "why_wrong": {
+        "hardest": "Not quite — try again!",
+        "hardly": "Not quite — try again!",
+        "more hard": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int3b"
+    }
+  ]
+}

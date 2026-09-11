@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 1: Weather in Different Regions",
+    "kind": "unit",
+    "units_covered": [
+      1
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u01_q01",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "It's snowing hard.",
+        "She is twelve.",
+        "It's sunny and warm."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "It's snowing hard.": "Not quite — try again!",
+        "She is twelve.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q02",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Open the window.",
+        "He plays soccer.",
+        "It's rainy and cloudy.",
+        "I have a red bag."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "Open the window.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q03",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I am tired.",
+        "They are at school.",
+        "She draws pictures.",
+        "Yes, it's very hot."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "No, I am tired.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q04",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want some juice.",
+        "He is my brother.",
+        "It's windy and cool.",
+        "We study English."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "I want some juice.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q05",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go home at four.",
+        "She likes music.",
+        "They have two cats.",
+        "It's below zero."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "I go home at four.": "Not quite — try again!",
+        "She likes music.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q06",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's snowing hard.",
+        "She is twelve.",
+        "I like pizza.",
+        "It's sunny and warm."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "It's snowing hard.": "Not quite — try again!",
+        "She is twelve.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q07",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer.",
+        "I have a red bag.",
+        "It's rainy and cloudy.",
+        "Open the window."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!",
+        "Open the window.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q08",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I am tired.",
+        "They are at school.",
+        "Yes, it's very hot.",
+        "She draws pictures."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "No, I am tired.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q09",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's windy and cool.",
+        "He is my brother.",
+        "I want some juice.",
+        "We study English."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q10",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes music.",
+        "They have two cats.",
+        "It's below zero.",
+        "I go home at four."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "She likes music.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!",
+        "I go home at four.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q11",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "It's snowing hard.",
+        "She is twelve.",
+        "It's sunny and warm."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "It's snowing hard.": "Not quite — try again!",
+        "She is twelve.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q12",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Open the window.",
+        "He plays soccer.",
+        "I have a red bag.",
+        "It's rainy and cloudy."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "Open the window.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q13",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are at school.",
+        "No, I am tired.",
+        "Yes, it's very hot.",
+        "She draws pictures."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "They are at school.": "Not quite — try again!",
+        "No, I am tired.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q14",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is my brother.",
+        "We study English.",
+        "I want some juice.",
+        "It's windy and cool."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q15",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's below zero.",
+        "I go home at four.",
+        "They have two cats.",
+        "She likes music."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "I go home at four.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!",
+        "She likes music.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q16",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is twelve.",
+        "It's sunny and warm.",
+        "I like pizza.",
+        "It's snowing hard."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "She is twelve.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "It's snowing hard.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q17",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a red bag.",
+        "Open the window.",
+        "He plays soccer.",
+        "It's rainy and cloudy."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "I have a red bag.": "Not quite — try again!",
+        "Open the window.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q18",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I am tired.",
+        "They are at school.",
+        "Yes, it's very hot.",
+        "She draws pictures."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "No, I am tired.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q19",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "He is my brother.",
+        "I want some juice.",
+        "It's windy and cool."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q20",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's below zero.",
+        "I go home at four.",
+        "She likes music.",
+        "They have two cats."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "I go home at four.": "Not quite — try again!",
+        "She likes music.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q21",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's sunny and warm.",
+        "I like pizza.",
+        "She is twelve.",
+        "It's snowing hard."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She is twelve.": "Not quite — try again!",
+        "It's snowing hard.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q22",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's rainy and cloudy.",
+        "Open the window.",
+        "He plays soccer.",
+        "I have a red bag."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "Open the window.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q23",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I am tired.",
+        "They are at school.",
+        "She draws pictures.",
+        "Yes, it's very hot."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "No, I am tired.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q24",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is my brother.",
+        "We study English.",
+        "It's windy and cool.",
+        "I want some juice."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q25",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes music.",
+        "It's below zero.",
+        "I go home at four.",
+        "They have two cats."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "She likes music.": "Not quite — try again!",
+        "I go home at four.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q26",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's snowing hard.",
+        "She is twelve.",
+        "It's sunny and warm.",
+        "I like pizza."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "It's snowing hard.": "Not quite — try again!",
+        "She is twelve.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q27",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Open the window.",
+        "He plays soccer.",
+        "I have a red bag.",
+        "It's rainy and cloudy."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "Open the window.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q28",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I am tired.",
+        "They are at school.",
+        "Yes, it's very hot.",
+        "She draws pictures."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "No, I am tired.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "She draws pictures.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q29",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "I want some juice.",
+        "It's windy and cool.",
+        "He is my brother."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u01_q30",
+      "type": 4,
+      "prompt_text": "What's the temperature in winter?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's below zero.",
+        "I go home at four.",
+        "She likes music.",
+        "They have two cats."
+      ],
+      "correct": "It's below zero.",
+      "why_wrong": {
+        "I go home at four.": "Not quite — try again!",
+        "She likes music.": "Not quite — try again!",
+        "They have two cats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2a"
+    }
+  ]
+}

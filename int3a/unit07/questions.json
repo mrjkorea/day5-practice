@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 7: Exercise and Sports",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u07_q01",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am sleeping.",
+        "I am cooking.",
+        "I am reading.",
+        "I'm lifting weights."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am sleeping.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!",
+        "I am reading.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q02",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I try to exercise three times a week.",
+        "He has a bike.",
+        "I like pizza.",
+        "She is kind."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q03",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat lunch.",
+        "I like cats.",
+        "He runs home.",
+        "I play basketball."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "We eat lunch.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He runs home.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q04",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He reads.",
+        "I am ten.",
+        "Yes, before we run."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q05",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "To stay healthy.",
+        "She swims.",
+        "I like red."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q06",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am reading.",
+        "I am sleeping.",
+        "I am cooking.",
+        "I'm lifting weights."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am reading.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q07",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I try to exercise three times a week.",
+        "I like pizza.",
+        "He has a bike.",
+        "She is kind."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q08",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I play basketball.",
+        "He runs home.",
+        "I like cats.",
+        "We eat lunch."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q09",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, before we run.",
+        "I am ten.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q10",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like red.",
+        "He jumps.",
+        "To stay healthy."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q11",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am cooking.",
+        "I am reading.",
+        "I'm lifting weights.",
+        "I am sleeping."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am cooking.": "Not quite — try again!",
+        "I am reading.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q12",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "She is kind.",
+        "I like pizza.",
+        "I try to exercise three times a week."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q13",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs home.",
+        "We eat lunch.",
+        "I play basketball.",
+        "I like cats."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q14",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "Yes, before we run.",
+        "I am ten.",
+        "She sings."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q15",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "To stay healthy.",
+        "He jumps.",
+        "I like red.",
+        "She swims."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q16",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am sleeping.",
+        "I'm lifting weights.",
+        "I am reading.",
+        "I am cooking."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am sleeping.": "Not quite — try again!",
+        "I am reading.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q17",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He has a bike.",
+        "I try to exercise three times a week.",
+        "I like pizza."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q18",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I play basketball.",
+        "He runs home.",
+        "I like cats.",
+        "We eat lunch."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q19",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "Yes, before we run.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q20",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "To stay healthy.",
+        "He jumps.",
+        "I like red."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q21",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm lifting weights.",
+        "I am reading.",
+        "I am cooking.",
+        "I am sleeping."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am reading.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q22",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "He has a bike.",
+        "I try to exercise three times a week.",
+        "She is kind."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q23",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat lunch.",
+        "He runs home.",
+        "I like cats.",
+        "I play basketball."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "We eat lunch.": "Not quite — try again!",
+        "He runs home.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q24",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "Yes, before we run.",
+        "She sings.",
+        "I am ten."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q25",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "To stay healthy.",
+        "I like red."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q26",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am reading.",
+        "I am cooking.",
+        "I am sleeping.",
+        "I'm lifting weights."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am reading.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q27",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I like pizza.",
+        "I try to exercise three times a week.",
+        "He has a bike."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q28",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I play basketball.",
+        "He runs home.",
+        "We eat lunch.",
+        "I like cats."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q29",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, before we run.",
+        "I am ten.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u07_q30",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He jumps.",
+        "She swims.",
+        "To stay healthy."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3a"
+    }
+  ]
+}

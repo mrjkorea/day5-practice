@@ -1,6 +1,8 @@
 (function () {
   const PASS = 80;
-  const base = (function () {
+  const root = document.documentElement.dataset.siteRoot || '';
+  const manifestFile = document.documentElement.dataset.manifest || 'data/manifest.json';
+  const base = root || (function () {
     // Support GitHub project pages /day5-practice/ and local root.
     const path = location.pathname.replace(/\/index\.html?$/, '/');
     if (path.endsWith('/')) return path;
@@ -82,7 +84,7 @@
 
   async function ensureManifest() {
     if (manifest) return manifest;
-    const res = await fetch(asset('data/manifest.json'));
+    const res = await fetch(asset(manifestFile));
     manifest = await res.json();
     return manifest;
   }
