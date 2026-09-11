@@ -23,6 +23,12 @@ ORIGIN_SOURCES = {
         "path": "staging/INT2A/",
         "sha256": "eebcf0226c4ff19ef503d59e6d2dc9874d3707bfeb48a32aef8bddca39ad5447",
     },
+    "INT2B": {
+        "git": "https://origin.cursor.com/git/wait4languages/tmp-8b71226a906aee3d.git",
+        "branch": "main",
+        "path": "main (~133MB, 157 PNGs, 11 packs)",
+        "sha256": "113c826487c71322bc171d4515245ea733bc8c1e5bbb90328d839e3f998848ff",
+    },
     "INT2C": {
         "git": "https://origin.cursor.com/git/wait4languages/tmp-0a5450fe7d08e1b2.git",
         "branch": "main",
@@ -91,8 +97,6 @@ def write_origin_md(folder, book_id):
             f"- tgz sha256: `{src['sha256']}`\n",
             f"- GitHub branch: `staging-{book_id}`\n",
         ]
-    elif folder == "INT2B":
-        lines += ["## Origin source\n", "INT2B Origin URL pending.\n"]
     lines += ["\nImport: `./scripts/import_staging_from_origin.sh " + folder + "`\n"]
     with open(path, "w", encoding="utf-8") as f:
         f.writelines(lines)
@@ -131,12 +135,13 @@ def main():
     status = os.path.join(ROOT, "staging", "ORIGIN_STATUS.md")
     with open(status, "w", encoding="utf-8") as f:
         f.write("# Origin import status\n\n**All books: `ORIGIN_CLONE_FAILED`** on cloud agent (no Origin auth).\n\n")
-        f.write("| Book | GitHub branch | Folder | Origin git |\n")
-        f.write("|------|---------------|--------|------------|\n")
+        f.write("| Book | GitHub branch | Folder | Origin git | tgz sha256 |\n")
+        f.write("|------|---------------|--------|------------|------------|\n")
         for book_id, folder in BOOKS.items():
             src = ORIGIN_SOURCES.get(folder, {})
-            git = src.get("git", "TBD (INT2B)") if folder != "INT2B" else "TBD"
-            f.write(f"| {folder} | staging-{book_id} | staging/{folder}/ | {git} |\n")
+            git = src.get("git", "TBD")
+            sha = src.get("sha256", "—")[:8] + "…" if src.get("sha256") else "—"
+            f.write(f"| {folder} | staging-{book_id} | staging/{folder}/ | {git} | `{sha}` |\n")
     print("Staging shells ready for", ", ".join(BOOKS.values()))
 
 

@@ -11,6 +11,12 @@ ORIGIN_SUBPATH[INT2A]="staging/INT2A"
 ORIGIN_SHA[INT2A]="eebcf0226c4ff19ef503d59e6d2dc9874d3707bfeb48a32aef8bddca39ad5447"
 STAGING_BRANCH[INT2A]="staging-int2a"
 
+ORIGIN_GIT[INT2B]="https://origin.cursor.com/git/wait4languages/tmp-8b71226a906aee3d.git"
+ORIGIN_BRANCH[INT2B]="main"
+ORIGIN_SUBPATH[INT2B]="."
+ORIGIN_SHA[INT2B]="113c826487c71322bc171d4515245ea733bc8c1e5bbb90328d839e3f998848ff"
+STAGING_BRANCH[INT2B]="staging-int2b"
+
 ORIGIN_GIT[INT2C]="https://origin.cursor.com/git/wait4languages/tmp-0a5450fe7d08e1b2.git"
 ORIGIN_BRANCH[INT2C]="main"
 ORIGIN_SUBPATH[INT2C]="."
@@ -37,7 +43,7 @@ STAGING_BRANCH[INT3C]="staging-int3c"
 
 BOOK="${1:-}"
 if [[ -z "$BOOK" || -z "${ORIGIN_GIT[$BOOK]:-}" ]]; then
-  echo "Usage: $0 INT2A|INT2C|INT3A|INT3B|INT3C"
+  echo "Usage: $0 INT2A|INT2B|INT2C|INT3A|INT3B|INT3C"
   exit 1
 fi
 
@@ -59,14 +65,17 @@ SUB="${ORIGIN_SUBPATH[$BOOK]}"
 SRC="$CLONE_DIR"
 [[ "$SUB" != "." ]] && SRC="$CLONE_DIR/$SUB"
 
-if [[ -d "$SRC/unit01" ]]; then
-  rsync -a --delete "$SRC/" "$DEST/"
-elif [[ -d "$SRC/packs" ]]; then
-  rsync -a --delete "$SRC/packs/" "$DEST/"
-else
+PACK_SRC=""
+for try in "$SRC" "$CLONE_DIR/staging/$BOOK" "$CLONE_DIR"; do
+  [[ -d "$try/unit01" ]] && PACK_SRC="$try" && break
+  [[ -d "$try/packs/unit01" ]] && PACK_SRC="$try/packs" && break
+  [[ -d "$try/packs" && -f "$try/packs/unit01/questions.json" ]] && PACK_SRC="$try/packs" && break
+done
+if [[ -z "$PACK_SRC" ]]; then
   echo "No pack layout found under $SRC"
   exit 1
 fi
+rsync -a --delete "$PACK_SRC/" "$DEST/"
 
 for img in "$CLONE_DIR/images/$BOOK_LOWER" "$CLONE_DIR/images/${BOOK}" "$SRC/images"; do
   [[ -d "$img" ]] && rsync -a "$img/" "$ROOT/images/$BOOK_LOWER/"
