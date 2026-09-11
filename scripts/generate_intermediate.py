@@ -513,7 +513,7 @@ def write_pack(book, assess_id, kind, title, units_covered, count, bank_slices):
     return len(questions)
 
 
-SKIP_BOOKS = {"int3c"}  # real pack lives in staging/INT3C/
+SKIP_BOOKS = {"int2a", "int2b", "int2c", "int3a", "int3b", "int3c"}  # staging/INT*/
 
 
 def main():
