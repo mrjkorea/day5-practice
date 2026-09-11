@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 7: Don't Forget",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u07_q01",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Remember to do it.",
+        "Never do it.",
+        "I am fine.",
+        "She is kind."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "Never do it.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q02",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I am twelve.",
+        "I won't forget!",
+        "He plays."
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q03",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget — it's on Friday.",
+        "He sings.",
+        "We eat.",
+        "I like red."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q04",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "Don't forget your passport.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q05",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "lunch forget",
+        "forget your lunch",
+        "bring your lunch",
+        "forgetting lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "lunch forget": "Not quite — try again!",
+        "forget your lunch": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q06",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Never do it.",
+        "I am fine.",
+        "Remember to do it.",
+        "She is kind."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "Never do it.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q07",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I won't forget!",
+        "I am twelve.",
+        "She runs.",
+        "He plays."
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q08",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "We eat.",
+        "Don't forget — it's on Friday.",
+        "He sings."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q09",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He sleeps.",
+        "She reads.",
+        "Don't forget your passport."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q10",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "lunch forget",
+        "forgetting lunch",
+        "forget your lunch",
+        "bring your lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "lunch forget": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!",
+        "forget your lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q11",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Remember to do it.",
+        "She is kind.",
+        "Never do it.",
+        "I am fine."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "Never do it.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q12",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I am twelve.",
+        "She runs.",
+        "I won't forget!"
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q13",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget — it's on Friday.",
+        "We eat.",
+        "I like red.",
+        "He sings."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q14",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget your passport.",
+        "I have a cat.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q15",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "lunch forget",
+        "forget your lunch",
+        "bring your lunch",
+        "forgetting lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "lunch forget": "Not quite — try again!",
+        "forget your lunch": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q16",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "Never do it.",
+        "Remember to do it.",
+        "She is kind."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "Never do it.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q17",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I won't forget!",
+        "He plays.",
+        "I am twelve.",
+        "She runs."
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q18",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget — it's on Friday.",
+        "I like red.",
+        "We eat.",
+        "He sings."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q19",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "Don't forget your passport.",
+        "She reads.",
+        "I have a cat."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q20",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "lunch forget",
+        "bring your lunch",
+        "forgetting lunch",
+        "forget your lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "lunch forget": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!",
+        "forget your lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q21",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "Never do it.",
+        "She is kind.",
+        "Remember to do it."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "Never do it.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q22",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "I won't forget!",
+        "She runs.",
+        "He plays."
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q23",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "Don't forget — it's on Friday.",
+        "We eat.",
+        "I like red."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q24",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a cat.",
+        "He sleeps.",
+        "Don't forget your passport."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q25",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "forget your lunch",
+        "lunch forget",
+        "bring your lunch",
+        "forgetting lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "forget your lunch": "Not quite — try again!",
+        "lunch forget": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q26",
+      "type": 4,
+      "prompt_text": "What does 'Don't forget' mean?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "Never do it.",
+        "Remember to do it.",
+        "I am fine."
+      ],
+      "correct": "Remember to do it.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "Never do it.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q27",
+      "type": 4,
+      "prompt_text": "Don't forget your homework!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "She runs.",
+        "He plays.",
+        "I won't forget!"
+      ],
+      "correct": "I won't forget!",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q28",
+      "type": 4,
+      "prompt_text": "Remind me about the test.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget — it's on Friday.",
+        "He sings.",
+        "I like red.",
+        "We eat."
+      ],
+      "correct": "Don't forget — it's on Friday.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q29",
+      "type": 4,
+      "prompt_text": "What should you say before a trip?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a cat.",
+        "He sleeps.",
+        "Don't forget your passport."
+      ],
+      "correct": "Don't forget your passport.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u07_q30",
+      "type": 4,
+      "prompt_text": "Don't forget to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "forget your lunch",
+        "lunch forget",
+        "bring your lunch",
+        "forgetting lunch"
+      ],
+      "correct": "bring your lunch",
+      "why_wrong": {
+        "forget your lunch": "Not quite — try again!",
+        "lunch forget": "Not quite — try again!",
+        "forgetting lunch": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3b"
+    }
+  ]
+}

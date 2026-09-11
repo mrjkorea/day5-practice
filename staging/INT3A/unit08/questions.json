@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 8: Self Introduction",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u08_q01",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm Jay and I love teaching English.",
+        "She is tall.",
+        "He plays.",
+        "I like apples."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q02",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I am fine.",
+        "I'm from Tongyeong, Korea.",
+        "He sings."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q03",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "I like reading and swimming.",
+        "I have a dog.",
+        "She reads."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q04",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Hi, I'm Sora. I'm in grade six.",
+        "He eats.",
+        "She swims."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q05",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I like music.",
+        "I'm good at helping friends study.",
+        "He jumps."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q06",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "She is tall.",
+        "He plays.",
+        "I'm Jay and I love teaching English."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q07",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I'm from Tongyeong, Korea.",
+        "She runs.",
+        "I am fine."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q08",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like reading and swimming.",
+        "She reads.",
+        "He sleeps.",
+        "I have a dog."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q09",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He eats.",
+        "She swims.",
+        "Hi, I'm Sora. I'm in grade six."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q10",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "He jumps.",
+        "I'm good at helping friends study.",
+        "We study."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q11",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I like apples.",
+        "He plays.",
+        "I'm Jay and I love teaching English."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q12",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm from Tongyeong, Korea.",
+        "I am fine.",
+        "He sings.",
+        "She runs."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q13",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like reading and swimming.",
+        "She reads.",
+        "I have a dog.",
+        "He sleeps."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q14",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "Hi, I'm Sora. I'm in grade six.",
+        "I like blue.",
+        "He eats."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q15",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm good at helping friends study.",
+        "He jumps.",
+        "I like music.",
+        "We study."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q16",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I like apples.",
+        "He plays.",
+        "I'm Jay and I love teaching English."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q17",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I'm from Tongyeong, Korea.",
+        "I am fine.",
+        "She runs."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q18",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a dog.",
+        "I like reading and swimming.",
+        "He sleeps."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q19",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hi, I'm Sora. I'm in grade six.",
+        "I like blue.",
+        "He eats.",
+        "She swims."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q20",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm good at helping friends study.",
+        "We study.",
+        "I like music.",
+        "He jumps."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q21",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She is tall.",
+        "I'm Jay and I love teaching English.",
+        "I like apples."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q22",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I am fine.",
+        "She runs.",
+        "I'm from Tongyeong, Korea."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q23",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "I like reading and swimming.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q24",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like blue.",
+        "She swims.",
+        "Hi, I'm Sora. I'm in grade six."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q25",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm good at helping friends study.",
+        "We study.",
+        "I like music.",
+        "He jumps."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q26",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I'm Jay and I love teaching English.",
+        "I like apples.",
+        "He plays."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q27",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I'm from Tongyeong, Korea.",
+        "He sings.",
+        "I am fine."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q28",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like reading and swimming.",
+        "I have a dog.",
+        "She reads.",
+        "He sleeps."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q29",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He eats.",
+        "Hi, I'm Sora. I'm in grade six.",
+        "She swims."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u08_q30",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I like music.",
+        "I'm good at helping friends study.",
+        "He jumps."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int3a"
+    }
+  ]
+}

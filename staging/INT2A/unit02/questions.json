@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 2: There Is / There Are",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u02_q01",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is books on the desk.",
+        "There is a book on the desk.",
+        "There have a book.",
+        "There are a book on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There is books on the desk.": "Not quite — try again!",
+        "There have a book.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q02",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are three chairs in the room.",
+        "There is many chairs.",
+        "There are chair in the room.",
+        "There is three chairs."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is many chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!",
+        "There is three chairs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q03",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There isn't any milk.",
+        "There isn't some milk.",
+        "There aren't any milk.",
+        "There not is milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There isn't some milk.": "Not quite — try again!",
+        "There aren't any milk.": "Not quite — try again!",
+        "There not is milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q04",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is many students.",
+        "There have students.",
+        "There are many students here.",
+        "There are a student."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There is many students.": "Not quite — try again!",
+        "There have students.": "Not quite — try again!",
+        "There are a student.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q05",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are a park.",
+        "There is parks.",
+        "There is a park near my house.",
+        "There have park."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There are a park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!",
+        "There have park.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q06",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are a book on the desk.",
+        "There is books on the desk.",
+        "There have a book.",
+        "There is a book on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There are a book on the desk.": "Not quite — try again!",
+        "There is books on the desk.": "Not quite — try again!",
+        "There have a book.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q07",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is three chairs.",
+        "There are three chairs in the room.",
+        "There are chair in the room.",
+        "There is many chairs."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is three chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!",
+        "There is many chairs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q08",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There isn't any milk.",
+        "There aren't any milk.",
+        "There isn't some milk.",
+        "There not is milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There aren't any milk.": "Not quite — try again!",
+        "There isn't some milk.": "Not quite — try again!",
+        "There not is milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q09",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is many students.",
+        "There are many students here.",
+        "There have students.",
+        "There are a student."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There is many students.": "Not quite — try again!",
+        "There have students.": "Not quite — try again!",
+        "There are a student.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q10",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have park.",
+        "There are a park.",
+        "There is parks.",
+        "There is a park near my house."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There have park.": "Not quite — try again!",
+        "There are a park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q11",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have a book.",
+        "There are a book on the desk.",
+        "There is a book on the desk.",
+        "There is books on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There have a book.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!",
+        "There is books on the desk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q12",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are chair in the room.",
+        "There is three chairs.",
+        "There are three chairs in the room.",
+        "There is many chairs."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There are chair in the room.": "Not quite — try again!",
+        "There is three chairs.": "Not quite — try again!",
+        "There is many chairs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q13",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There not is milk.",
+        "There isn't some milk.",
+        "There aren't any milk.",
+        "There isn't any milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There not is milk.": "Not quite — try again!",
+        "There isn't some milk.": "Not quite — try again!",
+        "There aren't any milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q14",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have students.",
+        "There are many students here.",
+        "There are a student.",
+        "There is many students."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There have students.": "Not quite — try again!",
+        "There are a student.": "Not quite — try again!",
+        "There is many students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q15",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are a park.",
+        "There is a park near my house.",
+        "There have park.",
+        "There is parks."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There are a park.": "Not quite — try again!",
+        "There have park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q16",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is books on the desk.",
+        "There is a book on the desk.",
+        "There have a book.",
+        "There are a book on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There is books on the desk.": "Not quite — try again!",
+        "There have a book.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q17",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is many chairs.",
+        "There is three chairs.",
+        "There are chair in the room.",
+        "There are three chairs in the room."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is many chairs.": "Not quite — try again!",
+        "There is three chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q18",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There isn't some milk.",
+        "There aren't any milk.",
+        "There isn't any milk.",
+        "There not is milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There isn't some milk.": "Not quite — try again!",
+        "There aren't any milk.": "Not quite — try again!",
+        "There not is milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q19",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have students.",
+        "There are many students here.",
+        "There is many students.",
+        "There are a student."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There have students.": "Not quite — try again!",
+        "There is many students.": "Not quite — try again!",
+        "There are a student.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q20",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are a park.",
+        "There is parks.",
+        "There have park.",
+        "There is a park near my house."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There are a park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!",
+        "There have park.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q21",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have a book.",
+        "There are a book on the desk.",
+        "There is books on the desk.",
+        "There is a book on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There have a book.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!",
+        "There is books on the desk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q22",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is three chairs.",
+        "There is many chairs.",
+        "There are chair in the room.",
+        "There are three chairs in the room."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is three chairs.": "Not quite — try again!",
+        "There is many chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q23",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There isn't any milk.",
+        "There not is milk.",
+        "There aren't any milk.",
+        "There isn't some milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There not is milk.": "Not quite — try again!",
+        "There aren't any milk.": "Not quite — try again!",
+        "There isn't some milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q24",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are many students here.",
+        "There are a student.",
+        "There have students.",
+        "There is many students."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There are a student.": "Not quite — try again!",
+        "There have students.": "Not quite — try again!",
+        "There is many students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q25",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have park.",
+        "There is a park near my house.",
+        "There is parks.",
+        "There are a park."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There have park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!",
+        "There are a park.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q26",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is a book on the desk.",
+        "There have a book.",
+        "There are a book on the desk.",
+        "There is books on the desk."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There have a book.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!",
+        "There is books on the desk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q27",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are three chairs in the room.",
+        "There is three chairs.",
+        "There are chair in the room.",
+        "There is many chairs."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is three chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!",
+        "There is many chairs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q28",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There isn't some milk.",
+        "There aren't any milk.",
+        "There not is milk.",
+        "There isn't any milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There isn't some milk.": "Not quite — try again!",
+        "There aren't any milk.": "Not quite — try again!",
+        "There not is milk.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q29",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are a student.",
+        "There have students.",
+        "There is many students.",
+        "There are many students here."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There are a student.": "Not quite — try again!",
+        "There have students.": "Not quite — try again!",
+        "There is many students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u02_q30",
+      "type": 4,
+      "prompt_text": "Which is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There have park.",
+        "There is a park near my house.",
+        "There is parks.",
+        "There are a park."
+      ],
+      "correct": "There is a park near my house.",
+      "why_wrong": {
+        "There have park.": "Not quite — try again!",
+        "There is parks.": "Not quite — try again!",
+        "There are a park.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2a"
+    }
+  ]
+}

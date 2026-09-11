@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 4: Invitations",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u04_q01",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "Sure, that sounds fun!",
+        "She is kind.",
+        "He has a bike."
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q02",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat.",
+        "I like cats.",
+        "Great idea!",
+        "He runs home."
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He runs home.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q03",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a pen.",
+        "He reads.",
+        "Yes, I'd love to!"
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q04",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Okay, let's do it.",
+        "He eats.",
+        "I like pizza.",
+        "She swims."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q05",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She jumps.",
+        "He plays.",
+        "Good plan!"
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q06",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I am fine.",
+        "Sure, that sounds fun!",
+        "He has a bike."
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q07",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs home.",
+        "We eat.",
+        "I like cats.",
+        "Great idea!"
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q08",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "Yes, I'd love to!",
+        "He reads.",
+        "She sings."
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q09",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He eats.",
+        "Okay, let's do it.",
+        "I like pizza."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q10",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "Good plan!",
+        "She jumps.",
+        "He plays."
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q11",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sure, that sounds fun!",
+        "She is kind.",
+        "He has a bike.",
+        "I am fine."
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q12",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He runs home.",
+        "Great idea!",
+        "We eat."
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs home.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q13",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I have a pen.",
+        "Yes, I'd love to!",
+        "She sings."
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q14",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like pizza.",
+        "She swims.",
+        "Okay, let's do it."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q15",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I am ten.",
+        "Good plan!",
+        "She jumps."
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q16",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "Sure, that sounds fun!",
+        "She is kind.",
+        "He has a bike."
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q17",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs home.",
+        "Great idea!",
+        "We eat.",
+        "I like cats."
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q18",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "Yes, I'd love to!",
+        "I have a pen.",
+        "He reads."
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q19",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "She swims.",
+        "Okay, let's do it.",
+        "I like pizza."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q20",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Good plan!",
+        "He plays.",
+        "I am ten.",
+        "She jumps."
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q21",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "I am fine.",
+        "He has a bike.",
+        "Sure, that sounds fun!"
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q22",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Great idea!",
+        "He runs home.",
+        "I like cats.",
+        "We eat."
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q23",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I'd love to!",
+        "She sings.",
+        "He reads.",
+        "I have a pen."
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q24",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He eats.",
+        "I like pizza.",
+        "Okay, let's do it."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q25",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Good plan!",
+        "I am ten.",
+        "He plays.",
+        "She jumps."
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q26",
+      "type": 4,
+      "prompt_text": "Would you like to join us?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "Sure, that sounds fun!",
+        "He has a bike.",
+        "I am fine."
+      ],
+      "correct": "Sure, that sounds fun!",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q27",
+      "type": 4,
+      "prompt_text": "Let's play soccer after school.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs home.",
+        "We eat.",
+        "Great idea!",
+        "I like cats."
+      ],
+      "correct": "Great idea!",
+      "why_wrong": {
+        "He runs home.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q28",
+      "type": 4,
+      "prompt_text": "Do you want to come to my party?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "Yes, I'd love to!",
+        "She sings.",
+        "I have a pen."
+      ],
+      "correct": "Yes, I'd love to!",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q29",
+      "type": 4,
+      "prompt_text": "How about watching a movie?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "He eats.",
+        "She swims.",
+        "Okay, let's do it."
+      ],
+      "correct": "Okay, let's do it.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u04_q30",
+      "type": 4,
+      "prompt_text": "Shall we study together?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "Good plan!",
+        "She jumps.",
+        "I am ten."
+      ],
+      "correct": "Good plan!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3c"
+    }
+  ]
+}

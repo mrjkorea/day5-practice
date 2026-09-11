@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 5: Finding Object Locations",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u05_q01",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "It's in your bag.",
+        "We play games.",
+        "I like apples."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q02",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are on the table.",
+        "It is cold.",
+        "I want juice.",
+        "He is ten."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "He is ten.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q03",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It's under the chair.",
+        "They sing songs.",
+        "She reads books."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!",
+        "She reads books.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q04",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "We eat lunch.",
+        "It's next to the cafeteria.",
+        "He plays piano."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!",
+        "He plays piano.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q05",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my friend.",
+        "I like summer.",
+        "They are by the door.",
+        "He runs every day."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "She is my friend.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He runs every day.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q06",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "We play games.",
+        "It's in your bag.",
+        "I like apples."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q07",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "They are on the table.",
+        "He is ten.",
+        "I want juice."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "He is ten.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q08",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads books.",
+        "They sing songs.",
+        "It's under the chair.",
+        "I am hungry."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "She reads books.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q09",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's next to the cafeteria.",
+        "He plays piano.",
+        "I have a dog.",
+        "We eat lunch."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "He plays piano.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q10",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs every day.",
+        "She is my friend.",
+        "I like summer.",
+        "They are by the door."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "He runs every day.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q11",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's in your bag.",
+        "I like apples.",
+        "She is kind.",
+        "We play games."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q12",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want juice.",
+        "He is ten.",
+        "It is cold.",
+        "They are on the table."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "I want juice.": "Not quite — try again!",
+        "He is ten.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q13",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's under the chair.",
+        "She reads books.",
+        "They sing songs.",
+        "I am hungry."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "She reads books.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q14",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays piano.",
+        "I have a dog.",
+        "We eat lunch.",
+        "It's next to the cafeteria."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "He plays piano.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q15",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are by the door.",
+        "I like summer.",
+        "He runs every day.",
+        "She is my friend."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He runs every day.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q16",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "It's in your bag.",
+        "She is kind.",
+        "We play games."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q17",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is ten.",
+        "They are on the table.",
+        "I want juice.",
+        "It is cold."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "He is ten.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q18",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads books.",
+        "I am hungry.",
+        "It's under the chair.",
+        "They sing songs."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "She reads books.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q19",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "We eat lunch.",
+        "He plays piano.",
+        "It's next to the cafeteria."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!",
+        "He plays piano.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q20",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs every day.",
+        "They are by the door.",
+        "I like summer.",
+        "She is my friend."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "He runs every day.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q21",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's in your bag.",
+        "I like apples.",
+        "We play games.",
+        "She is kind."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q22",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "He is ten.",
+        "I want juice.",
+        "They are on the table."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "He is ten.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q23",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's under the chair.",
+        "I am hungry.",
+        "She reads books.",
+        "They sing songs."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She reads books.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q24",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's next to the cafeteria.",
+        "We eat lunch.",
+        "I have a dog.",
+        "He plays piano."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "We eat lunch.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "He plays piano.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q25",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my friend.",
+        "He runs every day.",
+        "They are by the door.",
+        "I like summer."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "She is my friend.": "Not quite — try again!",
+        "He runs every day.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q26",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "It's in your bag.",
+        "She is kind.",
+        "We play games."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q27",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "They are on the table.",
+        "He is ten.",
+        "I want juice."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "He is ten.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q28",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads books.",
+        "It's under the chair.",
+        "I am hungry.",
+        "They sing songs."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "She reads books.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q29",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's next to the cafeteria.",
+        "I have a dog.",
+        "He plays piano.",
+        "We eat lunch."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He plays piano.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u05_q30",
+      "type": 4,
+      "prompt_text": "Where are my shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are by the door.",
+        "She is my friend.",
+        "I like summer.",
+        "He runs every day."
+      ],
+      "correct": "They are by the door.",
+      "why_wrong": {
+        "She is my friend.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He runs every day.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2a"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 28,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_midterm_5_8_q01",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "I like pizza.",
+        "That's my cousin Minho.",
+        "It is Monday."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q02",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "We eat.",
+        "He plays.",
+        "The one near the window."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q03",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He runs.",
+        "He's wearing a blue jacket.",
+        "I like cats."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q04",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "She reads.",
+        "He sleeps.",
+        "That's Sora."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q05",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I like music.",
+        "She swims.",
+        "The boy in the back row."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q06",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's my cousin Minho.",
+        "She has a dog.",
+        "It is Monday.",
+        "I like pizza."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q07",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat.",
+        "He plays.",
+        "I am fine.",
+        "The one near the window."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q08",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes red.",
+        "Nice to meet you.",
+        "I am hungry.",
+        "It is cold."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q09",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Pleased to meet you.",
+        "He runs.",
+        "I have a cat.",
+        "We study."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q10",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He plays.",
+        "She sings.",
+        "Hello, everyone!"
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "How do you do?",
+        "She reads.",
+        "He eats.",
+        "I am ten."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q12",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "Welcome to our home.",
+        "I like summer.",
+        "He jumps."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q13",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "Nice to meet you.",
+        "She likes red.",
+        "It is cold."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q14",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Pleased to meet you.",
+        "I have a cat.",
+        "We study.",
+        "He runs."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q15",
+      "type": 4,
+      "prompt_text": "Where is the remote control?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "It's on the sofa.",
+        "I like apples.",
+        "She is kind."
+      ],
+      "correct": "It's on the sofa.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q16",
+      "type": 4,
+      "prompt_text": "Where did you put the umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "I left it in the hallway.",
+        "He plays.",
+        "She likes red."
+      ],
+      "correct": "I left it in the hallway.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q17",
+      "type": 4,
+      "prompt_text": "Where are the scissors?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I have a dog.",
+        "They're in the top drawer.",
+        "She runs."
+      ],
+      "correct": "They're in the top drawer.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q18",
+      "type": 4,
+      "prompt_text": "Where is your phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She reads.",
+        "I like music.",
+        "It's in my pocket."
+      ],
+      "correct": "It's in my pocket.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q19",
+      "type": 4,
+      "prompt_text": "Where can I find the stapler?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "She swims.",
+        "It's on the teacher's desk.",
+        "I like pizza."
+      ],
+      "correct": "It's on the teacher's desk.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q20",
+      "type": 4,
+      "prompt_text": "Where is the remote control?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "She is kind.",
+        "I like apples.",
+        "It's on the sofa."
+      ],
+      "correct": "It's on the sofa.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Where did you put the umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am twelve.",
+        "She likes red.",
+        "I left it in the hallway.",
+        "He plays."
+      ],
+      "correct": "I left it in the hallway.",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "Whose backpack is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's mine.",
+        "I am fine.",
+        "He plays soccer.",
+        "She is tall."
+      ],
+      "correct": "It's mine.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q23",
+      "type": 4,
+      "prompt_text": "Is this your pencil case?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We eat.",
+        "No, it's hers.",
+        "I like cats."
+      ],
+      "correct": "No, it's hers.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q24",
+      "type": 2,
+      "prompt_text": "This book belongs to ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "him",
+        "they",
+        "her book",
+        "our"
+      ],
+      "correct": "him",
+      "why_wrong": {
+        "they": "Not quite — try again!",
+        "her book": "Not quite — try again!",
+        "our": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q25",
+      "type": 4,
+      "prompt_text": "Are these your gloves?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "She sings.",
+        "Yes, they're ours.",
+        "He reads."
+      ],
+      "correct": "Yes, they're ours.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q26",
+      "type": 4,
+      "prompt_text": "Whose turn is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's yours.",
+        "I like blue.",
+        "She swims.",
+        "He jumps."
+      ],
+      "correct": "It's yours.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q27",
+      "type": 4,
+      "prompt_text": "Whose backpack is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "He plays soccer.",
+        "It's mine.",
+        "I am fine."
+      ],
+      "correct": "It's mine.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_5_8_q28",
+      "type": 4,
+      "prompt_text": "Is this your pencil case?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like cats.",
+        "We eat.",
+        "No, it's hers."
+      ],
+      "correct": "No, it's hers.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    }
+  ]
+}

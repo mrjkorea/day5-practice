@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2c",
+    "title": "Intermediate 2C Unit 8: Saying Goodbye",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2c_u08_q01",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He has a bike.",
+        "I am hungry.",
+        "See you!"
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q02",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I like blue.",
+        "He sings.",
+        "Okay, take care!"
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q03",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "You too!",
+        "She reads.",
+        "I have a cat."
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q04",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Likewise!",
+        "She swims.",
+        "I like pizza.",
+        "He eats."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q05",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She jumps.",
+        "He runs.",
+        "Thanks, bye!"
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q06",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "He has a bike.",
+        "See you!",
+        "She is kind."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q07",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Okay, take care!",
+        "She runs.",
+        "I like blue.",
+        "He sings."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q08",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "You too!",
+        "She reads.",
+        "He plays."
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q09",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like pizza.",
+        "Likewise!",
+        "She swims."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q10",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She jumps.",
+        "I am fine.",
+        "Thanks, bye!"
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q11",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "She is kind.",
+        "He has a bike.",
+        "See you!"
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q12",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Okay, take care!",
+        "He sings.",
+        "I like blue.",
+        "She runs."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q13",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I have a cat.",
+        "You too!",
+        "He plays."
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q14",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Likewise!",
+        "I like pizza.",
+        "She swims."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q15",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Thanks, bye!",
+        "I am fine.",
+        "She jumps.",
+        "He runs."
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q16",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I am hungry.",
+        "See you!",
+        "She is kind."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q17",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He sings.",
+        "She runs.",
+        "Okay, take care!"
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q18",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "He plays.",
+        "I have a cat.",
+        "You too!"
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q19",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Likewise!",
+        "She swims.",
+        "I like pizza."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q20",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Thanks, bye!",
+        "She jumps.",
+        "I am fine."
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q21",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "See you!",
+        "I am hungry.",
+        "He has a bike.",
+        "She is kind."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q22",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I like blue.",
+        "Okay, take care!",
+        "He sings."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q23",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "He plays.",
+        "You too!",
+        "I have a cat."
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q24",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She swims.",
+        "Likewise!",
+        "He eats."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q25",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Thanks, bye!",
+        "I am fine.",
+        "She jumps.",
+        "He runs."
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She jumps.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q26",
+      "type": 4,
+      "prompt_text": "See you tomorrow!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "She is kind.",
+        "See you!",
+        "He has a bike."
+      ],
+      "correct": "See you!",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q27",
+      "type": 2,
+      "prompt_text": "I have to go now.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "Okay, take care!",
+        "He sings.",
+        "I like blue."
+      ],
+      "correct": "Okay, take care!",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q28",
+      "type": 4,
+      "prompt_text": "Goodbye! Have a nice weekend!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He plays.",
+        "She reads.",
+        "You too!"
+      ],
+      "correct": "You too!",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q29",
+      "type": 2,
+      "prompt_text": "It was nice talking to you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Likewise!",
+        "I like pizza.",
+        "She swims."
+      ],
+      "correct": "Likewise!",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u08_q30",
+      "type": 2,
+      "prompt_text": "Bye! Drive safely.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She jumps.",
+        "I am fine.",
+        "Thanks, bye!",
+        "He runs."
+      ],
+      "correct": "Thanks, bye!",
+      "why_wrong": {
+        "She jumps.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 8,
+      "level": "int2c"
+    }
+  ]
+}

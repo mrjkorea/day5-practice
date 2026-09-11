@@ -1,0 +1,598 @@
+{
+  "levels": [
+    {
+      "id": "int2a",
+      "label": "Intermediate 2A",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT2A/unit01/questions.json",
+          "title": "Intermediate 2A Unit 1: Weather in Different Regions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT2A/unit02/questions.json",
+          "title": "Intermediate 2A Unit 2: There Is / There Are",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT2A/unit03/questions.json",
+          "title": "Intermediate 2A Unit 3: Country Languages",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT2A/unit04/questions.json",
+          "title": "Intermediate 2A Unit 4: What Do You Want?",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT2A/unit05/questions.json",
+          "title": "Intermediate 2A Unit 5: Finding Object Locations",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT2A/unit06/questions.json",
+          "title": "Intermediate 2A Unit 6: Agreeing and Responding",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT2A/unit07/questions.json",
+          "title": "Intermediate 2A Unit 7: Location and Place",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT2A/unit08/questions.json",
+          "title": "Intermediate 2A Unit 8: After-School Activities",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT2A/midterm_1_4/questions.json",
+          "title": "Intermediate 2A Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT2A/midterm_5_8/questions.json",
+          "title": "Intermediate 2A Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT2A/final/questions.json",
+          "title": "Intermediate 2A Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ],
+      "asset_prefix": {
+        "pictures": "images/int2a",
+        "audio": "audio/int2a"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+    },
+    {
+      "id": "int2b",
+      "label": "Intermediate 2B",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT2B/unit01/questions.json",
+          "title": "Intermediate 2B Unit 1: Store Hours and Days",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT2B/unit02/questions.json",
+          "title": "Intermediate 2B Unit 2: Time and Daily Activities",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT2B/unit03/questions.json",
+          "title": "Intermediate 2B Unit 3: Future Dreams",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT2B/unit04/questions.json",
+          "title": "Intermediate 2B Unit 4: Prices and Money",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT2B/unit05/questions.json",
+          "title": "Intermediate 2B Unit 5: Describing People and Things",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT2B/unit06/questions.json",
+          "title": "Intermediate 2B Unit 6: Introducing Teachers",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT2B/unit07/questions.json",
+          "title": "Intermediate 2B Unit 7: Where Things Are",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT2B/unit08/questions.json",
+          "title": "Intermediate 2B Unit 8: Mine and Yours",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT2B/midterm_1_4/questions.json",
+          "title": "Intermediate 2B Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT2B/midterm_5_8/questions.json",
+          "title": "Intermediate 2B Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT2B/final/questions.json",
+          "title": "Intermediate 2B Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ],
+      "asset_prefix": {
+        "pictures": "images/int2b",
+        "audio": "audio/int2b"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+    },
+    {
+      "id": "int2c",
+      "label": "Intermediate 2C",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT2C/unit01/questions.json",
+          "title": "Intermediate 2C Unit 1: Favorite Seasons",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT2C/unit02/questions.json",
+          "title": "Intermediate 2C Unit 2: What Are You Doing?",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT2C/unit03/questions.json",
+          "title": "Intermediate 2C Unit 3: Whose Is It?",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT2C/unit04/questions.json",
+          "title": "Intermediate 2C Unit 4: Likes and Preferences",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT2C/unit05/questions.json",
+          "title": "Intermediate 2C Unit 5: Feelings and Emotions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT2C/unit06/questions.json",
+          "title": "Intermediate 2C Unit 6: Body and Health",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT2C/unit07/questions.json",
+          "title": "Intermediate 2C Unit 7: Phone Conversations",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT2C/unit08/questions.json",
+          "title": "Intermediate 2C Unit 8: Saying Goodbye",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT2C/midterm_1_4/questions.json",
+          "title": "Intermediate 2C Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT2C/midterm_5_8/questions.json",
+          "title": "Intermediate 2C Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT2C/final/questions.json",
+          "title": "Intermediate 2C Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ],
+      "asset_prefix": {
+        "pictures": "images/int2c",
+        "audio": "audio/int2c"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+    },
+    {
+      "id": "int3a",
+      "label": "Intermediate 3A",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT3A/unit01/questions.json",
+          "title": "Intermediate 3A Unit 1: Draw and Art",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT3A/unit02/questions.json",
+          "title": "Intermediate 3A Unit 2: Asking Opinions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT3A/unit03/questions.json",
+          "title": "Intermediate 3A Unit 3: Adjectives and Opposites",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT3A/unit04/questions.json",
+          "title": "Intermediate 3A Unit 4: Age Questions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT3A/unit05/questions.json",
+          "title": "Intermediate 3A Unit 5: Insects and Bugs",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT3A/unit06/questions.json",
+          "title": "Intermediate 3A Unit 6: Greetings",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT3A/unit07/questions.json",
+          "title": "Intermediate 3A Unit 7: Exercise and Sports",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT3A/unit08/questions.json",
+          "title": "Intermediate 3A Unit 8: Self Introduction",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT3A/midterm_1_4/questions.json",
+          "title": "Intermediate 3A Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT3A/midterm_5_8/questions.json",
+          "title": "Intermediate 3A Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT3A/final/questions.json",
+          "title": "Intermediate 3A Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ],
+      "asset_prefix": {
+        "pictures": "images/int3a",
+        "audio": "audio/int3a"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+    },
+    {
+      "id": "int3b",
+      "label": "Intermediate 3B",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT3B/unit01/questions.json",
+          "title": "Intermediate 3B Unit 1: School Grades",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT3B/unit02/questions.json",
+          "title": "Intermediate 3B Unit 2: True or False",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT3B/unit03/questions.json",
+          "title": "Intermediate 3B Unit 3: Comparative Adjectives",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT3B/unit04/questions.json",
+          "title": "Intermediate 3B Unit 4: Who Is That?",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT3B/unit05/questions.json",
+          "title": "Intermediate 3B Unit 5: Commands and Requests",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT3B/unit06/questions.json",
+          "title": "Intermediate 3B Unit 6: Fruits",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT3B/unit07/questions.json",
+          "title": "Intermediate 3B Unit 7: Don't Forget",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT3B/unit08/questions.json",
+          "title": "Intermediate 3B Unit 8: Meeting Foreigners",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT3B/midterm_1_4/questions.json",
+          "title": "Intermediate 3B Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT3B/midterm_5_8/questions.json",
+          "title": "Intermediate 3B Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT3B/final/questions.json",
+          "title": "Intermediate 3B Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ],
+      "asset_prefix": {
+        "pictures": "images/int3b",
+        "audio": "audio/int3b"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+    },
+    {
+      "id": "int3c",
+      "label": "Intermediate 3C",
+      "asset_prefix": {
+        "pictures": "images/int3c",
+        "audio": "audio/int3c"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import",
+      "assessments": [
+        {
+          "id": "unit01",
+          "path": "staging/INT3C/unit01/questions.json",
+          "title": "Intermediate 3C Unit 1: Food and Recommendations",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit02",
+          "path": "staging/INT3C/unit02/questions.json",
+          "title": "Intermediate 3C Unit 2: Don't Do That",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit03",
+          "path": "staging/INT3C/unit03/questions.json",
+          "title": "Intermediate 3C Unit 3: Asking Permission",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit04",
+          "path": "staging/INT3C/unit04/questions.json",
+          "title": "Intermediate 3C Unit 4: Invitations",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit05",
+          "path": "staging/INT3C/unit05/questions.json",
+          "title": "Intermediate 3C Unit 5: Have and Possessions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit06",
+          "path": "staging/INT3C/unit06/questions.json",
+          "title": "Intermediate 3C Unit 6: Introducing Korea",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT3C/unit07/questions.json",
+          "title": "Intermediate 3C Unit 7: Can Questions",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit08",
+          "path": "staging/INT3C/unit08/questions.json",
+          "title": "Intermediate 3C Unit 8: Telling Time",
+          "kind": "unit",
+          "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_1_4",
+          "path": "staging/INT3C/midterm_1_4/questions.json",
+          "title": "Intermediate 3C Midterm Units 1–4",
+          "kind": "midterm_1_4",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "midterm_5_8",
+          "path": "staging/INT3C/midterm_5_8/questions.json",
+          "title": "Intermediate 3C Midterm Units 5–8",
+          "kind": "midterm_5_8",
+          "count": 28,
+          "pass_percent": 80
+        },
+        {
+          "id": "final",
+          "path": "staging/INT3C/final/questions.json",
+          "title": "Intermediate 3C Final Exam",
+          "kind": "final",
+          "count": 32,
+          "pass_percent": 80
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Unit 5: Insects and Bugs",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_u05_q01",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a bird.",
+        "It's a dog.",
+        "It's a butterfly.",
+        "It's a fish."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a bird.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q02",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The shiny black bug.",
+        "The yellow flower.",
+        "The green leaf.",
+        "The blue sky."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The yellow flower.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!",
+        "The blue sky.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q03",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a turtle",
+        "a dolphin",
+        "a grasshopper",
+        "a rabbit"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a turtle": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!",
+        "a rabbit": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q04",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "bird",
+        "insect",
+        "fish",
+        "mammal"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "bird": "Not quite — try again!",
+        "fish": "Not quite — try again!",
+        "mammal": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q05",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a bee",
+        "a worm",
+        "a spider",
+        "a snail"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a spider": "Not quite — try again!",
+        "a snail": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q06",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a dog.",
+        "It's a fish.",
+        "It's a butterfly.",
+        "It's a bird."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a dog.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!",
+        "It's a bird.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q07",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The yellow flower.",
+        "The shiny black bug.",
+        "The green leaf.",
+        "The blue sky."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The yellow flower.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!",
+        "The blue sky.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q08",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a grasshopper",
+        "a turtle",
+        "a rabbit",
+        "a dolphin"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a turtle": "Not quite — try again!",
+        "a rabbit": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q09",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "bird",
+        "insect",
+        "fish",
+        "mammal"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "bird": "Not quite — try again!",
+        "fish": "Not quite — try again!",
+        "mammal": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q10",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a worm",
+        "a spider",
+        "a bee",
+        "a snail"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a spider": "Not quite — try again!",
+        "a snail": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q11",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a fish.",
+        "It's a bird.",
+        "It's a dog.",
+        "It's a butterfly."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a fish.": "Not quite — try again!",
+        "It's a bird.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q12",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The yellow flower.",
+        "The blue sky.",
+        "The shiny black bug.",
+        "The green leaf."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The yellow flower.": "Not quite — try again!",
+        "The blue sky.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q13",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a turtle",
+        "a grasshopper",
+        "a dolphin",
+        "a rabbit"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a turtle": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!",
+        "a rabbit": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q14",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "mammal",
+        "bird",
+        "insect",
+        "fish"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "mammal": "Not quite — try again!",
+        "bird": "Not quite — try again!",
+        "fish": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q15",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a snail",
+        "a worm",
+        "a spider",
+        "a bee"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a snail": "Not quite — try again!",
+        "a worm": "Not quite — try again!",
+        "a spider": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q16",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a bird.",
+        "It's a dog.",
+        "It's a fish.",
+        "It's a butterfly."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a bird.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q17",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The blue sky.",
+        "The green leaf.",
+        "The yellow flower.",
+        "The shiny black bug."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The blue sky.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!",
+        "The yellow flower.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q18",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a rabbit",
+        "a dolphin",
+        "a grasshopper",
+        "a turtle"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a rabbit": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!",
+        "a turtle": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q19",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "insect",
+        "fish",
+        "mammal",
+        "bird"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "fish": "Not quite — try again!",
+        "mammal": "Not quite — try again!",
+        "bird": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q20",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a worm",
+        "a spider",
+        "a bee",
+        "a snail"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a spider": "Not quite — try again!",
+        "a snail": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q21",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a fish.",
+        "It's a dog.",
+        "It's a butterfly.",
+        "It's a bird."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a fish.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!",
+        "It's a bird.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q22",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The green leaf.",
+        "The yellow flower.",
+        "The blue sky.",
+        "The shiny black bug."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The green leaf.": "Not quite — try again!",
+        "The yellow flower.": "Not quite — try again!",
+        "The blue sky.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q23",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a turtle",
+        "a rabbit",
+        "a dolphin",
+        "a grasshopper"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a turtle": "Not quite — try again!",
+        "a rabbit": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q24",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "fish",
+        "mammal",
+        "bird",
+        "insect"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "fish": "Not quite — try again!",
+        "mammal": "Not quite — try again!",
+        "bird": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q25",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a worm",
+        "a bee",
+        "a snail",
+        "a spider"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a snail": "Not quite — try again!",
+        "a spider": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q26",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a bird.",
+        "It's a dog.",
+        "It's a fish.",
+        "It's a butterfly."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a bird.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q27",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The shiny black bug.",
+        "The yellow flower.",
+        "The blue sky.",
+        "The green leaf."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The yellow flower.": "Not quite — try again!",
+        "The blue sky.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q28",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a rabbit",
+        "a turtle",
+        "a dolphin",
+        "a grasshopper"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a rabbit": "Not quite — try again!",
+        "a turtle": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q29",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "mammal",
+        "fish",
+        "insect",
+        "bird"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "mammal": "Not quite — try again!",
+        "fish": "Not quite — try again!",
+        "bird": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_u05_q30",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a worm",
+        "a snail",
+        "a spider",
+        "a bee"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a snail": "Not quite — try again!",
+        "a spider": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int3a"
+    }
+  ]
+}

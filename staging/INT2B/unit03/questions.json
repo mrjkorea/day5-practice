@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Unit 3: Future Dreams",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_u03_q01",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "She is my friend.",
+        "It is cold.",
+        "I want to be a doctor."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q02",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to be a teacher.",
+        "He runs.",
+        "I like cats.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q03",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He sleeps.",
+        "I have a pen.",
+        "He hopes to be an engineer."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q04",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I like blue.",
+        "She reads.",
+        "I dream of being a scientist."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q05",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She wants to travel the world.",
+        "He is tall.",
+        "We study."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q06",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my friend.",
+        "It is cold.",
+        "I am hungry.",
+        "I want to be a doctor."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "She is my friend.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q07",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "She wants to be a teacher.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q08",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He hopes to be an engineer.",
+        "I have a pen.",
+        "She sings.",
+        "He sleeps."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q09",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "I like blue.",
+        "He plays.",
+        "I dream of being a scientist."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q10",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "He is tall.",
+        "She wants to travel the world.",
+        "I am fine."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q11",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want to be a doctor.",
+        "I am hungry.",
+        "She is my friend.",
+        "It is cold."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q12",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to be a teacher.",
+        "I like cats.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q13",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He hopes to be an engineer.",
+        "I have a pen.",
+        "She sings.",
+        "He sleeps."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q14",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He plays.",
+        "She reads.",
+        "I dream of being a scientist."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q15",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to travel the world.",
+        "He is tall.",
+        "We study.",
+        "I am fine."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q16",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want to be a doctor.",
+        "It is cold.",
+        "She is my friend.",
+        "I am hungry."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q17",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to be a teacher.",
+        "He runs.",
+        "I like cats.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q18",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She sings.",
+        "I have a pen.",
+        "He hopes to be an engineer."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q19",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I dream of being a scientist.",
+        "I like blue.",
+        "He plays.",
+        "She reads."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q20",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I am fine.",
+        "She wants to travel the world.",
+        "He is tall."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q21",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It is cold.",
+        "She is my friend.",
+        "I want to be a doctor."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q22",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We eat.",
+        "I like cats.",
+        "She wants to be a teacher."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q23",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "He sleeps.",
+        "He hopes to be an engineer.",
+        "She sings."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q24",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "I dream of being a scientist.",
+        "He plays.",
+        "She reads."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q25",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to travel the world.",
+        "He is tall.",
+        "I am fine.",
+        "We study."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q26",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is my friend.",
+        "It is cold.",
+        "I am hungry.",
+        "I want to be a doctor."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "She is my friend.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q27",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "We eat.",
+        "She wants to be a teacher.",
+        "He runs."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q28",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He hopes to be an engineer.",
+        "He sleeps.",
+        "She sings.",
+        "I have a pen."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q29",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "He plays.",
+        "I dream of being a scientist.",
+        "I like blue."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u03_q30",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I am fine.",
+        "She wants to travel the world.",
+        "He is tall."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2b"
+    }
+  ]
+}

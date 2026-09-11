@@ -1,0 +1,704 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Final Exam",
+    "kind": "final",
+    "units_covered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 32,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_final_q01",
+      "type": 4,
+      "prompt_text": "How is the weather in Seoul?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's sunny and warm.",
+        "She is twelve.",
+        "It's snowing hard.",
+        "I like pizza."
+      ],
+      "correct": "It's sunny and warm.",
+      "why_wrong": {
+        "She is twelve.": "Not quite — try again!",
+        "It's snowing hard.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q02",
+      "type": 4,
+      "prompt_text": "What's the weather like in London?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer.",
+        "I have a red bag.",
+        "It's rainy and cloudy.",
+        "Open the window."
+      ],
+      "correct": "It's rainy and cloudy.",
+      "why_wrong": {
+        "He plays soccer.": "Not quite — try again!",
+        "I have a red bag.": "Not quite — try again!",
+        "Open the window.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q03",
+      "type": 4,
+      "prompt_text": "Is it hot in Dubai?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She draws pictures.",
+        "Yes, it's very hot.",
+        "They are at school.",
+        "No, I am tired."
+      ],
+      "correct": "Yes, it's very hot.",
+      "why_wrong": {
+        "She draws pictures.": "Not quite — try again!",
+        "They are at school.": "Not quite — try again!",
+        "No, I am tired.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q04",
+      "type": 4,
+      "prompt_text": "How's the weather today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is my brother.",
+        "We study English.",
+        "It's windy and cool.",
+        "I want some juice."
+      ],
+      "correct": "It's windy and cool.",
+      "why_wrong": {
+        "He is my brother.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!",
+        "I want some juice.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q05",
+      "type": 2,
+      "prompt_text": "Choose the correct sentence.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is a book on the desk.",
+        "There is books on the desk.",
+        "There are a book on the desk.",
+        "There have a book."
+      ],
+      "correct": "There is a book on the desk.",
+      "why_wrong": {
+        "There is books on the desk.": "Not quite — try again!",
+        "There are a book on the desk.": "Not quite — try again!",
+        "There have a book.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q06",
+      "type": 4,
+      "prompt_text": "What can you say?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There is many chairs.",
+        "There are chair in the room.",
+        "There is three chairs.",
+        "There are three chairs in the room."
+      ],
+      "correct": "There are three chairs in the room.",
+      "why_wrong": {
+        "There is many chairs.": "Not quite — try again!",
+        "There are chair in the room.": "Not quite — try again!",
+        "There is three chairs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q07",
+      "type": 2,
+      "prompt_text": "Pick the right answer.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There aren't any milk.",
+        "There isn't some milk.",
+        "There isn't any milk.",
+        "There not is milk."
+      ],
+      "correct": "There isn't any milk.",
+      "why_wrong": {
+        "There aren't any milk.": "Not quite — try again!",
+        "There isn't some milk.": "Not quite — try again!",
+        "There not is milk.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q08",
+      "type": 2,
+      "prompt_text": "Complete the idea.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "There are many students here.",
+        "There are a student.",
+        "There is many students.",
+        "There have students."
+      ],
+      "correct": "There are many students here.",
+      "why_wrong": {
+        "There are a student.": "Not quite — try again!",
+        "There is many students.": "Not quite — try again!",
+        "There have students.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q09",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "French",
+        "Franc",
+        "France",
+        "Franch"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "Franc": "Not quite — try again!",
+        "France": "Not quite — try again!",
+        "Franch": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q10",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japans",
+        "Japanese",
+        "Japaneese",
+        "Japan"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japans": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!",
+        "Japan": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q11",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreans",
+        "Korea",
+        "Korean",
+        "Koreish"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreans": "Not quite — try again!",
+        "Korea": "Not quite — try again!",
+        "Koreish": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q12",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spains",
+        "Spaneesh",
+        "Spain",
+        "Spanish"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spains": "Not quite — try again!",
+        "Spaneesh": "Not quite — try again!",
+        "Spain": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q13",
+      "type": 4,
+      "prompt_text": "What do you want for lunch?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is raining.",
+        "I want a sandwich.",
+        "I am twelve years old.",
+        "She is my teacher."
+      ],
+      "correct": "I want a sandwich.",
+      "why_wrong": {
+        "It is raining.": "Not quite — try again!",
+        "I am twelve years old.": "Not quite — try again!",
+        "She is my teacher.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q14",
+      "type": 4,
+      "prompt_text": "What would you like to drink?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I go to school.",
+        "He is tall.",
+        "I'd like some water, please.",
+        "They are happy."
+      ],
+      "correct": "I'd like some water, please.",
+      "why_wrong": {
+        "I go to school.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "They are happy.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q15",
+      "type": 4,
+      "prompt_text": "What do you want to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes red.",
+        "I have two brothers.",
+        "I want to play outside.",
+        "It is Monday."
+      ],
+      "correct": "I want to play outside.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "I have two brothers.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q16",
+      "type": 4,
+      "prompt_text": "May I help you?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is at home.",
+        "I am fine.",
+        "Yes, I can swim.",
+        "I want a chocolate muffin."
+      ],
+      "correct": "I want a chocolate muffin.",
+      "why_wrong": {
+        "He is at home.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "Yes, I can swim.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q17",
+      "type": 4,
+      "prompt_text": "Where is my pencil?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "We play games.",
+        "She is kind.",
+        "It's in your bag."
+      ],
+      "correct": "It's in your bag.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "We play games.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q18",
+      "type": 4,
+      "prompt_text": "Where are the keys?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is ten.",
+        "They are on the table.",
+        "I want juice.",
+        "It is cold."
+      ],
+      "correct": "They are on the table.",
+      "why_wrong": {
+        "He is ten.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q19",
+      "type": 4,
+      "prompt_text": "Can you find the eraser?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads books.",
+        "They sing songs.",
+        "I am hungry.",
+        "It's under the chair."
+      ],
+      "correct": "It's under the chair.",
+      "why_wrong": {
+        "She reads books.": "Not quite — try again!",
+        "They sing songs.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q20",
+      "type": 4,
+      "prompt_text": "Where is the library?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's next to the cafeteria.",
+        "I have a dog.",
+        "We eat lunch.",
+        "He plays piano."
+      ],
+      "correct": "It's next to the cafeteria.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "We eat lunch.": "Not quite — try again!",
+        "He plays piano.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q21",
+      "type": 2,
+      "prompt_text": "I love this song!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "How old are you?",
+        "Goodbye.",
+        "I don't know.",
+        "Me too!"
+      ],
+      "correct": "Me too!",
+      "why_wrong": {
+        "How old are you?": "Not quite — try again!",
+        "Goodbye.": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q22",
+      "type": 2,
+      "prompt_text": "That movie was amazing!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I agree!",
+        "I am twelve.",
+        "Open your book.",
+        "Where is it?"
+      ],
+      "correct": "I agree!",
+      "why_wrong": {
+        "I am twelve.": "Not quite — try again!",
+        "Open your book.": "Not quite — try again!",
+        "Where is it?": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q23",
+      "type": 2,
+      "prompt_text": "I'm so tired today.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want pizza.",
+        "It's Tuesday.",
+        "She is tall.",
+        "Me neither... wait, I mean, I feel the same."
+      ],
+      "correct": "Me neither... wait, I mean, I feel the same.",
+      "why_wrong": {
+        "I want pizza.": "Not quite — try again!",
+        "It's Tuesday.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q24",
+      "type": 2,
+      "prompt_text": "This homework is hard.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "You're right.",
+        "Let's eat.",
+        "He sings well.",
+        "I have a cat."
+      ],
+      "correct": "You're right.",
+      "why_wrong": {
+        "Let's eat.": "Not quite — try again!",
+        "He sings well.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q25",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We have class.",
+        "It's on Main Street.",
+        "She is happy.",
+        "I like music."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "We have class.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q26",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want water.",
+        "He is young.",
+        "No, it's quite close.",
+        "They play soccer."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "I want water.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!",
+        "They play soccer.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q27",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads fast.",
+        "I am fine.",
+        "At the post office.",
+        "He has a bike."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "She reads fast.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q28",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "I like dogs.",
+        "She is kind.",
+        "It's two blocks away."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q29",
+      "type": 4,
+      "prompt_text": "What do you do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "It is sunny.",
+        "I am eleven.",
+        "I go to piano lessons."
+      ],
+      "correct": "I go to piano lessons.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q30",
+      "type": 4,
+      "prompt_text": "What does Jay do after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a cat.",
+        "He plays soccer with friends.",
+        "I like red.",
+        "We eat rice."
+      ],
+      "correct": "He plays soccer with friends.",
+      "why_wrong": {
+        "She has a cat.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "We eat rice.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q31",
+      "type": 4,
+      "prompt_text": "Do you have clubs after school?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I join the art club.",
+        "It is cold.",
+        "He is my brother.",
+        "I am hungry."
+      ],
+      "correct": "Yes, I join the art club.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "He is my brother.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_final_q32",
+      "type": 4,
+      "prompt_text": "What do you usually do at 4 p.m.?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs fast.",
+        "She sings well.",
+        "I do my homework.",
+        "I like summer."
+      ],
+      "correct": "I do my homework.",
+      "why_wrong": {
+        "He runs fast.": "Not quite — try again!",
+        "She sings well.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2a"
+    }
+  ]
+}

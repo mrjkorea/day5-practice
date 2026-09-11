@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3c",
+    "title": "Intermediate 3C Unit 7: Can Questions",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3c_u07_q01",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "Yes, I can.",
+        "I am ten.",
+        "She is kind."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q02",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "No, she can't.",
+        "I like red.",
+        "We study."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q03",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Can",
+        "Are",
+        "Is",
+        "Do"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Are": "Not quite — try again!",
+        "Is": "Not quite — try again!",
+        "Do": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q04",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can drive.",
+        "They can cook.",
+        "They can read.",
+        "They can fly."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can drive.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!",
+        "They can read.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q05",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "Sorry, we can't today.",
+        "She sings.",
+        "I like cats."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q06",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I can.",
+        "She is kind.",
+        "I am ten.",
+        "He has a bike."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q07",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He runs.",
+        "No, she can't.",
+        "We study."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q08",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Do",
+        "Can",
+        "Are",
+        "Is"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Do": "Not quite — try again!",
+        "Are": "Not quite — try again!",
+        "Is": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q09",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can read.",
+        "They can drive.",
+        "They can fly.",
+        "They can cook."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can read.": "Not quite — try again!",
+        "They can drive.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q10",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "Sorry, we can't today.",
+        "He reads.",
+        "She sings."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q11",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She is kind.",
+        "He has a bike.",
+        "Yes, I can."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q12",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, she can't.",
+        "I like red.",
+        "He runs.",
+        "We study."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q13",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Is",
+        "Do",
+        "Are",
+        "Can"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Is": "Not quite — try again!",
+        "Do": "Not quite — try again!",
+        "Are": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q14",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can fly.",
+        "They can read.",
+        "They can cook.",
+        "They can drive."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can read.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!",
+        "They can drive.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q15",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I like cats.",
+        "He reads.",
+        "Sorry, we can't today."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q16",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "She is kind.",
+        "Yes, I can.",
+        "I am ten."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q17",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "No, she can't.",
+        "He runs.",
+        "I like red."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q18",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Can",
+        "Are",
+        "Do",
+        "Is"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Are": "Not quite — try again!",
+        "Do": "Not quite — try again!",
+        "Is": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q19",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can read.",
+        "They can fly.",
+        "They can drive.",
+        "They can cook."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can read.": "Not quite — try again!",
+        "They can drive.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q20",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "She sings.",
+        "He reads.",
+        "Sorry, we can't today."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q21",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I am ten.",
+        "She is kind.",
+        "Yes, I can."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q22",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "He runs.",
+        "I like red.",
+        "No, she can't."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q23",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Do",
+        "Can",
+        "Are",
+        "Is"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Do": "Not quite — try again!",
+        "Are": "Not quite — try again!",
+        "Is": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q24",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can drive.",
+        "They can read.",
+        "They can fly.",
+        "They can cook."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can drive.": "Not quite — try again!",
+        "They can read.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q25",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sorry, we can't today.",
+        "She sings.",
+        "I like cats.",
+        "He reads."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q26",
+      "type": 4,
+      "prompt_text": "Can you swim?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She is kind.",
+        "Yes, I can.",
+        "He has a bike."
+      ],
+      "correct": "Yes, I can.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q27",
+      "type": 4,
+      "prompt_text": "Can she play the piano?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, she can't.",
+        "We study.",
+        "He runs.",
+        "I like red."
+      ],
+      "correct": "No, she can't.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q28",
+      "type": 4,
+      "prompt_text": "___ you help me?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Is",
+        "Are",
+        "Can",
+        "Do"
+      ],
+      "correct": "Can",
+      "why_wrong": {
+        "Is": "Not quite — try again!",
+        "Are": "Not quite — try again!",
+        "Do": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q29",
+      "type": 4,
+      "prompt_text": "What can birds do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They can read.",
+        "They can cook.",
+        "They can fly.",
+        "They can drive."
+      ],
+      "correct": "They can fly.",
+      "why_wrong": {
+        "They can read.": "Not quite — try again!",
+        "They can cook.": "Not quite — try again!",
+        "They can drive.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    },
+    {
+      "id": "i3c_u07_q30",
+      "type": 4,
+      "prompt_text": "Can we leave early?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "She sings.",
+        "He reads.",
+        "Sorry, we can't today."
+      ],
+      "correct": "Sorry, we can't today.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int3c"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Midterm Units 1–4",
+    "kind": "midterm_1_4",
+    "units_covered": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "count": 28,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_midterm_1_4_q01",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "He plays soccer.",
+        "It's open from Monday to Friday.",
+        "She is ten."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q02",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "They swim.",
+        "She has a dog.",
+        "It's Wednesday."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "They swim.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q03",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's closed on Sunday.",
+        "I want juice.",
+        "He is tall.",
+        "We study."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "I want juice.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q04",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She reads.",
+        "I like blue.",
+        "Tuesday through Saturday."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q05",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a cat.",
+        "It starts on Monday.",
+        "He eats."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q06",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "She is ten.",
+        "It's open from Monday to Friday.",
+        "He plays soccer."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q07",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "They swim.",
+        "It's Wednesday.",
+        "I am fine."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "They swim.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q08",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's half past three.",
+        "He has a bike.",
+        "She is kind.",
+        "I like pizza."
+      ],
+      "correct": "It's half past three.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q09",
+      "type": 4,
+      "prompt_text": "What do people do in the morning?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I am twelve.",
+        "She likes red.",
+        "They eat breakfast."
+      ],
+      "correct": "They eat breakfast.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q10",
+      "type": 4,
+      "prompt_text": "What time do you go to bed?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "I go to bed at ten.",
+        "He sings.",
+        "She runs."
+      ],
+      "correct": "I go to bed at ten.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q11",
+      "type": 4,
+      "prompt_text": "What do you do at noon?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "I eat lunch.",
+        "I have a dog.",
+        "She is tall."
+      ],
+      "correct": "I eat lunch.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q12",
+      "type": 4,
+      "prompt_text": "When do you do homework?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I do homework in the evening.",
+        "He jumps.",
+        "I like music."
+      ],
+      "correct": "I do homework in the evening.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q13",
+      "type": 4,
+      "prompt_text": "What time is it?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She is kind.",
+        "He has a bike.",
+        "It's half past three."
+      ],
+      "correct": "It's half past three.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q14",
+      "type": 4,
+      "prompt_text": "What do people do in the morning?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes red.",
+        "They eat breakfast.",
+        "He plays.",
+        "I am twelve."
+      ],
+      "correct": "They eat breakfast.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am twelve.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q15",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want to be a doctor.",
+        "I am hungry.",
+        "She is my friend.",
+        "It is cold."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q16",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "She wants to be a teacher.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q17",
+      "type": 4,
+      "prompt_text": "What does he hope to become?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a pen.",
+        "He sleeps.",
+        "He hopes to be an engineer."
+      ],
+      "correct": "He hopes to be an engineer.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q18",
+      "type": 4,
+      "prompt_text": "What is your future dream?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I dream of being a scientist.",
+        "I like blue.",
+        "She reads.",
+        "He plays."
+      ],
+      "correct": "I dream of being a scientist.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q19",
+      "type": 4,
+      "prompt_text": "What does she want to do someday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "She wants to travel the world.",
+        "I am fine.",
+        "We study."
+      ],
+      "correct": "She wants to travel the world.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q20",
+      "type": 4,
+      "prompt_text": "What do you want to be?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "I want to be a doctor.",
+        "She is my friend.",
+        "I am hungry."
+      ],
+      "correct": "I want to be a doctor.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "She is my friend.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q21",
+      "type": 4,
+      "prompt_text": "What is her dream job?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She wants to be a teacher.",
+        "He runs.",
+        "I like cats.",
+        "We eat."
+      ],
+      "correct": "She wants to be a teacher.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q22",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "It's twenty dollars.",
+        "She is kind.",
+        "I like rice."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like rice.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q23",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "It's fifteen thousand won.",
+        "He sings.",
+        "I have a cat."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q24",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He reads.",
+        "She likes red.",
+        "No, it's quite cheap."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q25",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "He eats.",
+        "They're fifty dollars.",
+        "She swims."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q26",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "It costs two dollars.",
+        "He jumps.",
+        "She is tall."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q27",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's twenty dollars.",
+        "I like rice.",
+        "He plays.",
+        "She is kind."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "I like rice.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_midterm_1_4_q28",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "He sings.",
+        "I have a cat.",
+        "It's fifteen thousand won."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int2b"
+    }
+  ]
+}

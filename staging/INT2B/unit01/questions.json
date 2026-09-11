@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Unit 1: Store Hours and Days",
+    "kind": "unit",
+    "units_covered": [
+      1
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_u01_q01",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer.",
+        "I like apples.",
+        "She is ten.",
+        "It's open from Monday to Friday."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "He plays soccer.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q02",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "It's Wednesday.",
+        "They swim.",
+        "I am fine."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "They swim.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q03",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's closed on Sunday.",
+        "He is tall.",
+        "We study.",
+        "I want juice."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q04",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "Tuesday through Saturday.",
+        "I like blue.",
+        "He runs."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q05",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "It starts on Monday.",
+        "I have a cat.",
+        "He eats."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q06",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays soccer.",
+        "She is ten.",
+        "I like apples.",
+        "It's open from Monday to Friday."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "He plays soccer.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q07",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's Wednesday.",
+        "I am fine.",
+        "They swim.",
+        "She has a dog."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "They swim.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q08",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's closed on Sunday.",
+        "We study.",
+        "I want juice.",
+        "He is tall."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q09",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tuesday through Saturday.",
+        "She reads.",
+        "He runs.",
+        "I like blue."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q10",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a cat.",
+        "He eats.",
+        "It starts on Monday."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q11",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's open from Monday to Friday.",
+        "I like apples.",
+        "He plays soccer.",
+        "She is ten."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q12",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They swim.",
+        "I am fine.",
+        "It's Wednesday.",
+        "She has a dog."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "They swim.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q13",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want juice.",
+        "We study.",
+        "No, it's closed on Sunday.",
+        "He is tall."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "I want juice.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q14",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "Tuesday through Saturday.",
+        "I like blue.",
+        "He runs."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q15",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He eats.",
+        "It starts on Monday.",
+        "She sings."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q16",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "It's open from Monday to Friday.",
+        "He plays soccer.",
+        "She is ten."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q17",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "They swim.",
+        "She has a dog.",
+        "It's Wednesday."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "They swim.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q18",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "No, it's closed on Sunday.",
+        "I want juice.",
+        "He is tall."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q19",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "Tuesday through Saturday.",
+        "He runs.",
+        "She reads."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q20",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "She sings.",
+        "I have a cat.",
+        "It starts on Monday."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q21",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "She is ten.",
+        "It's open from Monday to Friday.",
+        "He plays soccer."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "She is ten.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q22",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's Wednesday.",
+        "They swim.",
+        "She has a dog.",
+        "I am fine."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "They swim.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q23",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I want juice.",
+        "No, it's closed on Sunday.",
+        "He is tall."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!",
+        "He is tall.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q24",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tuesday through Saturday.",
+        "She reads.",
+        "I like blue.",
+        "He runs."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q25",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He eats.",
+        "I have a cat.",
+        "It starts on Monday."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q26",
+      "type": 4,
+      "prompt_text": "When is the store open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is ten.",
+        "He plays soccer.",
+        "It's open from Monday to Friday.",
+        "I like apples."
+      ],
+      "correct": "It's open from Monday to Friday.",
+      "why_wrong": {
+        "She is ten.": "Not quite — try again!",
+        "He plays soccer.": "Not quite — try again!",
+        "I like apples.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q27",
+      "type": 4,
+      "prompt_text": "What day is it today?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They swim.",
+        "I am fine.",
+        "It's Wednesday.",
+        "She has a dog."
+      ],
+      "correct": "It's Wednesday.",
+      "why_wrong": {
+        "They swim.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q28",
+      "type": 4,
+      "prompt_text": "Is the shop open on Sunday?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is tall.",
+        "We study.",
+        "I want juice.",
+        "No, it's closed on Sunday."
+      ],
+      "correct": "No, it's closed on Sunday.",
+      "why_wrong": {
+        "He is tall.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I want juice.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q29",
+      "type": 4,
+      "prompt_text": "Which days is the library open?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Tuesday through Saturday.",
+        "She reads.",
+        "I like blue.",
+        "He runs."
+      ],
+      "correct": "Tuesday through Saturday.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u01_q30",
+      "type": 4,
+      "prompt_text": "When does school start?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It starts on Monday.",
+        "I have a cat.",
+        "She sings.",
+        "He eats."
+      ],
+      "correct": "It starts on Monday.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 1,
+      "level": "int2b"
+    }
+  ]
+}

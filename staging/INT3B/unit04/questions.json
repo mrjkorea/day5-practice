@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 4: Who Is That?",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u04_q01",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's my aunt.",
+        "I like pizza.",
+        "I am fine.",
+        "He runs."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q02",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "No, I don't think so.",
+        "Yes, I am.",
+        "He eats."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "Yes, I am.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q03",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "They're new students.",
+        "She reads.",
+        "He sleeps."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q04",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He jumps.",
+        "She swims.",
+        "That's our principal."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q05",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He plays.",
+        "She is kind.",
+        "No, who's he?"
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q06",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She's my aunt.",
+        "He runs.",
+        "I like pizza."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q07",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, I don't think so.",
+        "Yes, I am.",
+        "He eats.",
+        "She sings."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "Yes, I am.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q08",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She reads.",
+        "I have a dog.",
+        "They're new students."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q09",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "That's our principal.",
+        "I like red.",
+        "He jumps."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q10",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She is kind.",
+        "No, who's he?",
+        "He plays."
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q11",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's my aunt.",
+        "He runs.",
+        "I like pizza.",
+        "I am fine."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q12",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I am.",
+        "No, I don't think so.",
+        "He eats.",
+        "She sings."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "Yes, I am.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q13",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're new students.",
+        "I have a dog.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q14",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He jumps.",
+        "She swims.",
+        "That's our principal."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q15",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "She is kind.",
+        "He plays.",
+        "No, who's he?"
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q16",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She's my aunt.",
+        "I like pizza.",
+        "He runs."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q17",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "Yes, I am.",
+        "No, I don't think so.",
+        "She sings."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "Yes, I am.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q18",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "They're new students.",
+        "He sleeps.",
+        "I have a dog."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q19",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "That's our principal.",
+        "I like red."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q20",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He plays.",
+        "No, who's he?",
+        "She is kind."
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q21",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She's my aunt.",
+        "I like pizza.",
+        "I am fine."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q22",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, I am.",
+        "No, I don't think so.",
+        "She sings.",
+        "He eats."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "Yes, I am.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q23",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "They're new students.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q24",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "He jumps.",
+        "That's our principal.",
+        "She swims."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q25",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, who's he?",
+        "She is kind.",
+        "I am ten.",
+        "He plays."
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q26",
+      "type": 4,
+      "prompt_text": "Who is that woman?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "She's my aunt.",
+        "I like pizza.",
+        "I am fine."
+      ],
+      "correct": "She's my aunt.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q27",
+      "type": 4,
+      "prompt_text": "Do you know that man?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He eats.",
+        "Yes, I am.",
+        "No, I don't think so."
+      ],
+      "correct": "No, I don't think so.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "Yes, I am.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q28",
+      "type": 4,
+      "prompt_text": "Who are those children?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're new students.",
+        "She reads.",
+        "He sleeps.",
+        "I have a dog."
+      ],
+      "correct": "They're new students.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q29",
+      "type": 4,
+      "prompt_text": "Excuse me, who is she?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's our principal.",
+        "She swims.",
+        "I like red.",
+        "He jumps."
+      ],
+      "correct": "That's our principal.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u04_q30",
+      "type": 4,
+      "prompt_text": "Have you met him before?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, who's he?",
+        "He plays.",
+        "She is kind.",
+        "I am ten."
+      ],
+      "correct": "No, who's he?",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int3b"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Intermediate 3B Unit 2: True or False",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3b_u02_q01",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "True",
+        "False",
+        "Maybe",
+        "Sometimes"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "True": "Not quite — try again!",
+        "Maybe": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q02",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, that's wrong.",
+        "He plays.",
+        "Yes, correct.",
+        "I am fine."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "Yes, correct.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q03",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "True",
+        "False",
+        "I don't know."
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "False": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q04",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are students.",
+        "They am students.",
+        "They be students.",
+        "They is students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They am students.": "Not quite — try again!",
+        "They be students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q05",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, perfect.",
+        "No, it should be 'He goes to school.'",
+        "She runs.",
+        "I like red."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "Yes, perfect.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q06",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Maybe",
+        "Sometimes",
+        "False",
+        "True"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Maybe": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!",
+        "True": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q07",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Yes, correct.",
+        "No, that's wrong.",
+        "He plays.",
+        "I am fine."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "Yes, correct.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q08",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "True",
+        "She sings.",
+        "I don't know.",
+        "False"
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!",
+        "False": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q09",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They be students.",
+        "They am students.",
+        "They is students.",
+        "They are students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They be students.": "Not quite — try again!",
+        "They am students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q10",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it should be 'He goes to school.'",
+        "Yes, perfect.",
+        "I like red.",
+        "She runs."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "Yes, perfect.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q11",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "True",
+        "Maybe",
+        "False",
+        "Sometimes"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "True": "Not quite — try again!",
+        "Maybe": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q12",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He plays.",
+        "Yes, correct.",
+        "No, that's wrong."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "Yes, correct.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q13",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "False",
+        "She sings.",
+        "I don't know.",
+        "True"
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "False": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q14",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They am students.",
+        "They are students.",
+        "They be students.",
+        "They is students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They am students.": "Not quite — try again!",
+        "They be students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q15",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it should be 'He goes to school.'",
+        "Yes, perfect.",
+        "She runs.",
+        "I like red."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "Yes, perfect.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q16",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Maybe",
+        "Sometimes",
+        "False",
+        "True"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Maybe": "Not quite — try again!",
+        "Sometimes": "Not quite — try again!",
+        "True": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q17",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "No, that's wrong.",
+        "I am fine.",
+        "Yes, correct."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "Yes, correct.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q18",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "True",
+        "False",
+        "I don't know."
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "False": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q19",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are students.",
+        "They be students.",
+        "They am students.",
+        "They is students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They be students.": "Not quite — try again!",
+        "They am students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q20",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it should be 'He goes to school.'",
+        "She runs.",
+        "I like red.",
+        "Yes, perfect."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "Yes, perfect.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q21",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sometimes",
+        "Maybe",
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Sometimes": "Not quite — try again!",
+        "Maybe": "Not quite — try again!",
+        "True": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q22",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, that's wrong.",
+        "Yes, correct.",
+        "I am fine.",
+        "He plays."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "Yes, correct.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q23",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I don't know.",
+        "False",
+        "She sings.",
+        "True"
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "I don't know.": "Not quite — try again!",
+        "False": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q24",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are students.",
+        "They be students.",
+        "They am students.",
+        "They is students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They be students.": "Not quite — try again!",
+        "They am students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q25",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it should be 'He goes to school.'",
+        "She runs.",
+        "I like red.",
+        "Yes, perfect."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "Yes, perfect.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q26",
+      "type": 2,
+      "prompt_text": "True or false: The sun rises in the west.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sometimes",
+        "False",
+        "Maybe",
+        "True"
+      ],
+      "correct": "False",
+      "why_wrong": {
+        "Sometimes": "Not quite — try again!",
+        "Maybe": "Not quite — try again!",
+        "True": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q27",
+      "type": 4,
+      "prompt_text": "Is this correct? 'She don't like apples.'",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "No, that's wrong.",
+        "Yes, correct.",
+        "I am fine."
+      ],
+      "correct": "No, that's wrong.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "Yes, correct.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q28",
+      "type": 2,
+      "prompt_text": "True or false: Water boils at 100°C.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "False",
+        "I don't know.",
+        "She sings.",
+        "True"
+      ],
+      "correct": "True",
+      "why_wrong": {
+        "False": "Not quite — try again!",
+        "I don't know.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q29",
+      "type": 4,
+      "prompt_text": "Which sentence is correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They am students.",
+        "They be students.",
+        "They is students.",
+        "They are students."
+      ],
+      "correct": "They are students.",
+      "why_wrong": {
+        "They am students.": "Not quite — try again!",
+        "They be students.": "Not quite — try again!",
+        "They is students.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    },
+    {
+      "id": "i3b_u02_q30",
+      "type": 4,
+      "prompt_text": "Is 'He go to school' correct?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it should be 'He goes to school.'",
+        "I like red.",
+        "Yes, perfect.",
+        "She runs."
+      ],
+      "correct": "No, it should be 'He goes to school.'",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "Yes, perfect.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int3b"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "level": "int3a",
+    "title": "Intermediate 3A Midterm Units 5–8",
+    "kind": "midterm_5_8",
+    "units_covered": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "count": 28,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i3a_midterm_5_8_q01",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a dog.",
+        "It's a fish.",
+        "It's a butterfly.",
+        "It's a bird."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a dog.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!",
+        "It's a bird.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q02",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The shiny black bug.",
+        "The blue sky.",
+        "The yellow flower.",
+        "The green leaf."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The blue sky.": "Not quite — try again!",
+        "The yellow flower.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q03",
+      "type": 4,
+      "prompt_text": "What do we call a small jumping insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a turtle",
+        "a grasshopper",
+        "a dolphin",
+        "a rabbit"
+      ],
+      "correct": "a grasshopper",
+      "why_wrong": {
+        "a turtle": "Not quite — try again!",
+        "a dolphin": "Not quite — try again!",
+        "a rabbit": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q04",
+      "type": 2,
+      "prompt_text": "An ant is a kind of ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "insect",
+        "bird",
+        "mammal",
+        "fish"
+      ],
+      "correct": "insect",
+      "why_wrong": {
+        "bird": "Not quite — try again!",
+        "mammal": "Not quite — try again!",
+        "fish": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q05",
+      "type": 4,
+      "prompt_text": "Which bug makes honey?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "a worm",
+        "a snail",
+        "a bee",
+        "a spider"
+      ],
+      "correct": "a bee",
+      "why_wrong": {
+        "a worm": "Not quite — try again!",
+        "a snail": "Not quite — try again!",
+        "a spider": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q06",
+      "type": 4,
+      "prompt_text": "What is this insect?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's a bird.",
+        "It's a fish.",
+        "It's a dog.",
+        "It's a butterfly."
+      ],
+      "correct": "It's a butterfly.",
+      "why_wrong": {
+        "It's a bird.": "Not quite — try again!",
+        "It's a fish.": "Not quite — try again!",
+        "It's a dog.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q07",
+      "type": 4,
+      "prompt_text": "Which one is a beetle?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The blue sky.",
+        "The green leaf.",
+        "The shiny black bug.",
+        "The yellow flower."
+      ],
+      "correct": "The shiny black bug.",
+      "why_wrong": {
+        "The blue sky.": "Not quite — try again!",
+        "The green leaf.": "Not quite — try again!",
+        "The yellow flower.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q08",
+      "type": 4,
+      "prompt_text": "Good morning!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "See you.",
+        "I'm twelve.",
+        "Good morning! How are you?",
+        "Good night."
+      ],
+      "correct": "Good morning! How are you?",
+      "why_wrong": {
+        "See you.": "Not quite — try again!",
+        "I'm twelve.": "Not quite — try again!",
+        "Good night.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q09",
+      "type": 4,
+      "prompt_text": "Hello, nice to meet you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "He plays.",
+        "I like red.",
+        "Nice to meet you too."
+      ],
+      "correct": "Nice to meet you too.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q10",
+      "type": 4,
+      "prompt_text": "How have you been?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "She has a cat.",
+        "It is cold.",
+        "I've been well, thanks."
+      ],
+      "correct": "I've been well, thanks.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "She has a cat.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q11",
+      "type": 4,
+      "prompt_text": "Long time no see!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "We eat.",
+        "He sings.",
+        "Yeah, it's been a while!"
+      ],
+      "correct": "Yeah, it's been a while!",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q12",
+      "type": 4,
+      "prompt_text": "Hi there!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have homework.",
+        "He jumps.",
+        "She swims.",
+        "Hi! How's it going?"
+      ],
+      "correct": "Hi! How's it going?",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q13",
+      "type": 4,
+      "prompt_text": "Good morning!",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Good morning! How are you?",
+        "See you.",
+        "Good night.",
+        "I'm twelve."
+      ],
+      "correct": "Good morning! How are you?",
+      "why_wrong": {
+        "See you.": "Not quite — try again!",
+        "Good night.": "Not quite — try again!",
+        "I'm twelve.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q14",
+      "type": 4,
+      "prompt_text": "Hello, nice to meet you.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I like red.",
+        "He plays.",
+        "Nice to meet you too."
+      ],
+      "correct": "Nice to meet you too.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q15",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am reading.",
+        "I'm lifting weights.",
+        "I am cooking.",
+        "I am sleeping."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am reading.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q16",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I try to exercise three times a week.",
+        "She is kind.",
+        "I like pizza."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q17",
+      "type": 4,
+      "prompt_text": "What sport do you play?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat lunch.",
+        "I play basketball.",
+        "I like cats.",
+        "He runs home."
+      ],
+      "correct": "I play basketball.",
+      "why_wrong": {
+        "We eat lunch.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He runs home.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q18",
+      "type": 4,
+      "prompt_text": "Are you stretching?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "Yes, before we run.",
+        "He reads.",
+        "She sings."
+      ],
+      "correct": "Yes, before we run.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q19",
+      "type": 4,
+      "prompt_text": "Why do you exercise?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like red.",
+        "She swims.",
+        "To stay healthy.",
+        "He jumps."
+      ],
+      "correct": "To stay healthy.",
+      "why_wrong": {
+        "I like red.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q20",
+      "type": 4,
+      "prompt_text": "What are you doing at the gym?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am reading.",
+        "I am sleeping.",
+        "I'm lifting weights.",
+        "I am cooking."
+      ],
+      "correct": "I'm lifting weights.",
+      "why_wrong": {
+        "I am reading.": "Not quite — try again!",
+        "I am sleeping.": "Not quite — try again!",
+        "I am cooking.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q21",
+      "type": 4,
+      "prompt_text": "Do you exercise every day?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She is kind.",
+        "I try to exercise three times a week.",
+        "He has a bike."
+      ],
+      "correct": "I try to exercise three times a week.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q22",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "I'm Jay and I love teaching English.",
+        "He plays.",
+        "She is tall."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q23",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm from Tongyeong, Korea.",
+        "I am fine.",
+        "He sings.",
+        "She runs."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q24",
+      "type": 4,
+      "prompt_text": "What do you like to do?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "He sleeps.",
+        "I like reading and swimming.",
+        "She reads."
+      ],
+      "correct": "I like reading and swimming.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q25",
+      "type": 2,
+      "prompt_text": "Introduce yourself briefly.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like blue.",
+        "Hi, I'm Sora. I'm in grade six.",
+        "He eats."
+      ],
+      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q26",
+      "type": 4,
+      "prompt_text": "What makes you unique?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "We study.",
+        "I'm good at helping friends study.",
+        "He jumps."
+      ],
+      "correct": "I'm good at helping friends study.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q27",
+      "type": 4,
+      "prompt_text": "Tell me about yourself.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like apples.",
+        "He plays.",
+        "She is tall.",
+        "I'm Jay and I love teaching English."
+      ],
+      "correct": "I'm Jay and I love teaching English.",
+      "why_wrong": {
+        "I like apples.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    },
+    {
+      "id": "i3a_midterm_5_8_q28",
+      "type": 4,
+      "prompt_text": "Where are you from?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I am fine.",
+        "She runs.",
+        "I'm from Tongyeong, Korea."
+      ],
+      "correct": "I'm from Tongyeong, Korea.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": null,
+      "level": "int3a"
+    }
+  ]
+}
