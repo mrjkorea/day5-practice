@@ -513,10 +513,15 @@ def write_pack(book, assess_id, kind, title, units_covered, count, bank_slices):
     return len(questions)
 
 
+SKIP_BOOKS = {"int3c"}  # real pack lives in staging/INT3C/
+
+
 def main():
     random.seed(42)
     manifest_levels = []
     for book, info in BOOKS.items():
+        if book in SKIP_BOOKS:
+            continue
         assessments = []
         banks = UNIT_BANKS[book]
         label = info["label"]
@@ -558,9 +563,18 @@ def main():
         })
         manifest_levels.append({"id": book, "label": label, "assessments": assessments})
     manifest_path = os.path.join(ROOT, "data", "manifest-intermediate.json")
+    existing = {}
+    if os.path.isfile(manifest_path):
+        with open(manifest_path, encoding="utf-8") as f:
+            existing = json.load(f)
+    kept = [lv for lv in existing.get("levels", []) if lv["id"] in SKIP_BOOKS]
+    all_levels = manifest_levels + kept
+    # preserve stable book order
+    order = list(BOOKS.keys())
+    all_levels.sort(key=lambda lv: order.index(lv["id"]) if lv["id"] in order else 99)
     with open(manifest_path, "w", encoding="utf-8") as f:
-        json.dump({"levels": manifest_levels}, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(manifest_levels)} books to {manifest_path}")
+        json.dump({"levels": all_levels}, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(manifest_levels)} books (+ {len(kept)} skipped) to {manifest_path}")
 
 
 if __name__ == "__main__":

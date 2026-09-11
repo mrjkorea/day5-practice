@@ -46,6 +46,11 @@
   let audio = null;
 
   function asset(p) { return base + p.replace(/^\//, ''); }
+  function levelAssetDir(kind) {
+    const p = currentLevel && currentLevel.asset_prefix;
+    if (p && p[kind]) return p[kind];
+    return kind === 'pictures' ? 'pictures' : 'audio';
+  }
   function storageKey(levelId, assessId) {
     return 'mrj-day5-' + levelId + '-' + assessId;
   }
@@ -141,7 +146,7 @@
   function playAudio(audioId, fallbackText) {
     stopAudio();
     if (audioId) {
-      audio = new Audio(asset('audio/' + audioId + '.mp3'));
+      audio = new Audio(asset(levelAssetDir('audio') + '/' + audioId + '.mp3'));
       audio.play().catch(() => speakText(fallbackText || ''));
       return;
     }
@@ -169,7 +174,7 @@
     const imgs = q.image_ids || [];
     const picChoices = (q.choices || []).every(isPictureChoice);
     if (!picChoices && imgs.length === 1) {
-      els.promptPic.src = asset('pictures/' + imgs[0] + '.png');
+      els.promptPic.src = asset(levelAssetDir('pictures') + '/' + imgs[0] + '.png');
       els.promptPic.classList.remove('hidden');
       els.promptPic.onerror = function () { els.promptPic.classList.add('hidden'); };
     } else {
@@ -188,7 +193,7 @@
         const img = document.createElement('img');
         img.className = 'choice-pic';
         img.alt = choice;
-        img.src = asset('pictures/' + choice + '.png');
+        img.src = asset(levelAssetDir('pictures') + '/' + choice + '.png');
         img.onerror = function () { img.replaceWith(document.createTextNode(choice)); };
         b.appendChild(img);
       } else {

@@ -473,10 +473,15 @@
     {
       "id": "int3c",
       "label": "Intermediate 3C",
+      "asset_prefix": {
+        "pictures": "images/int3c",
+        "audio": "audio/int3c"
+      },
+      "staging_note": "ORIGIN_CLONE_FAILED — shell pack in staging/INT3C until Origin import",
       "assessments": [
         {
           "id": "unit01",
-          "path": "int3c/unit01/questions.json",
+          "path": "staging/INT3C/unit01/questions.json",
           "title": "Intermediate 3C Unit 1: Food and Recommendations",
           "kind": "unit",
           "count": 30,
@@ -484,7 +489,7 @@
         },
         {
           "id": "unit02",
-          "path": "int3c/unit02/questions.json",
+          "path": "staging/INT3C/unit02/questions.json",
           "title": "Intermediate 3C Unit 2: Don't Do That",
           "kind": "unit",
           "count": 30,
@@ -492,7 +497,7 @@
         },
         {
           "id": "unit03",
-          "path": "int3c/unit03/questions.json",
+          "path": "staging/INT3C/unit03/questions.json",
           "title": "Intermediate 3C Unit 3: Asking Permission",
           "kind": "unit",
           "count": 30,
@@ -500,7 +505,7 @@
         },
         {
           "id": "unit04",
-          "path": "int3c/unit04/questions.json",
+          "path": "staging/INT3C/unit04/questions.json",
           "title": "Intermediate 3C Unit 4: Invitations",
           "kind": "unit",
           "count": 30,
@@ -508,7 +513,7 @@
         },
         {
           "id": "unit05",
-          "path": "int3c/unit05/questions.json",
+          "path": "staging/INT3C/unit05/questions.json",
           "title": "Intermediate 3C Unit 5: Have and Possessions",
           "kind": "unit",
           "count": 30,
@@ -516,7 +521,7 @@
         },
         {
           "id": "unit06",
-          "path": "int3c/unit06/questions.json",
+          "path": "staging/INT3C/unit06/questions.json",
           "title": "Intermediate 3C Unit 6: Introducing Korea",
           "kind": "unit",
           "count": 30,
@@ -524,7 +529,7 @@
         },
         {
           "id": "unit07",
-          "path": "int3c/unit07/questions.json",
+          "path": "staging/INT3C/unit07/questions.json",
           "title": "Intermediate 3C Unit 7: Can Questions",
           "kind": "unit",
           "count": 30,
@@ -532,7 +537,7 @@
         },
         {
           "id": "unit08",
-          "path": "int3c/unit08/questions.json",
+          "path": "staging/INT3C/unit08/questions.json",
           "title": "Intermediate 3C Unit 8: Telling Time",
           "kind": "unit",
           "count": 30,
@@ -540,7 +545,7 @@
         },
         {
           "id": "midterm_1_4",
-          "path": "int3c/midterm_1_4/questions.json",
+          "path": "staging/INT3C/midterm_1_4/questions.json",
           "title": "Intermediate 3C Midterm Units 1–4",
           "kind": "midterm_1_4",
           "count": 28,
@@ -548,7 +553,7 @@
         },
         {
           "id": "midterm_5_8",
-          "path": "int3c/midterm_5_8/questions.json",
+          "path": "staging/INT3C/midterm_5_8/questions.json",
           "title": "Intermediate 3C Midterm Units 5–8",
           "kind": "midterm_5_8",
           "count": 28,
@@ -556,7 +561,7 @@
         },
         {
           "id": "final",
-          "path": "int3c/final/questions.json",
+          "path": "staging/INT3C/final/questions.json",
           "title": "Intermediate 3C Final Exam",
           "kind": "final",
           "count": 32,
