@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 6: Fruits",
+    "title": "WHAT FRUIT ARE THESE?",
     "kind": "unit",
     "units_covered": [
       6
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u06_q01",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a carrot",
-        "a strawberry",
-        "a celery",
-        "a potato"
+      "type": 1,
+      "prompt_text": "They are apples.",
+      "audio_id": "unit6-q01",
+      "image_ids": [
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_lemon"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_lemon"
+      ],
+      "correct": "i3b_apples",
       "why_wrong": {
-        "a carrot": "Not quite — try again!",
-        "a celery": "Not quite — try again!",
-        "a potato": "Not quite — try again!"
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_apples": "apples",
+        "i3b_soursop": "soursop",
+        "i3b_pineapple": "pineapple",
+        "i3b_lemon": "lemon"
+      }
     },
     {
       "id": "i3b_u06_q02",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "black",
-        "yellow",
-        "blue",
-        "purple"
+      "type": 1,
+      "prompt_text": "What fruit are those? Mangos!",
+      "audio_id": "unit6-q02",
+      "image_ids": [
+        "i3b_rocks",
+        "i3b_mangos",
+        "i3b_durian",
+        "i3b_mangosteen"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_rocks",
+        "i3b_mangos",
+        "i3b_durian",
+        "i3b_mangosteen"
+      ],
+      "correct": "i3b_mangos",
       "why_wrong": {
-        "black": "Not quite — try again!",
-        "blue": "Not quite — try again!",
-        "purple": "Not quite — try again!"
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_mangosteen": "You tapped \"mangosteen\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_rocks": "rocks",
+        "i3b_mangos": "mangos",
+        "i3b_durian": "durian",
+        "i3b_mangosteen": "mangosteen"
+      }
     },
     {
       "id": "i3b_u06_q03",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "an orange",
-        "a grape",
-        "an apple",
-        "a pear"
+      "type": 1,
+      "prompt_text": "They are lychee.",
+      "audio_id": "unit6-q03",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_lychee",
+        "i3b_grapefruit",
+        "i3b_rocks"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_durian",
+        "i3b_lychee",
+        "i3b_grapefruit",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_lychee",
       "why_wrong": {
-        "a grape": "Not quite — try again!",
-        "an apple": "Not quite — try again!",
-        "a pear": "Not quite — try again!"
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_lychee": "lychee",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_rocks": "rocks"
+      }
     },
     {
       "id": "i3b_u06_q04",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a peach",
-        "a grape",
-        "a melon",
-        "a coconut"
+      "type": 1,
+      "prompt_text": "They are soursop.",
+      "audio_id": "unit6-q04",
+      "image_ids": [
+        "i3b_grapefruit",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_soursop"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_grapefruit",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_soursop"
+      ],
+      "correct": "i3b_soursop",
       "why_wrong": {
-        "a peach": "Not quite — try again!",
-        "a melon": "Not quite — try again!",
-        "a coconut": "Not quite — try again!"
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grapefruit": "grapefruit",
+        "i3b_apples": "apples",
+        "i3b_rocks": "rocks",
+        "i3b_soursop": "soursop"
+      }
     },
     {
       "id": "i3b_u06_q05",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a nut",
-        "a cherry",
-        "a leaf",
-        "a bean"
+      "type": 1,
+      "prompt_text": "They are grapefruit.",
+      "audio_id": "unit6-q05",
+      "image_ids": [
+        "i3b_mangos",
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_grapefruit"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_mangos",
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_grapefruit"
+      ],
+      "correct": "i3b_grapefruit",
       "why_wrong": {
-        "a nut": "Not quite — try again!",
-        "a leaf": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_mangos": "mangos",
+        "i3b_apples": "apples",
+        "i3b_soursop": "soursop",
+        "i3b_grapefruit": "grapefruit"
+      }
     },
     {
       "id": "i3b_u06_q06",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a potato",
-        "a celery",
-        "a strawberry",
-        "a carrot"
+      "type": 1,
+      "prompt_text": "They are mangosteen.",
+      "audio_id": "unit6-q06",
+      "image_ids": [
+        "i3b_mangos",
+        "i3b_mangosteen",
+        "i3b_durian",
+        "i3b_lychee"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_mangos",
+        "i3b_mangosteen",
+        "i3b_durian",
+        "i3b_lychee"
+      ],
+      "correct": "i3b_mangosteen",
       "why_wrong": {
-        "a potato": "Not quite — try again!",
-        "a celery": "Not quite — try again!",
-        "a carrot": "Not quite — try again!"
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_mangos": "mangos",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_durian": "durian",
+        "i3b_lychee": "lychee"
+      }
     },
     {
       "id": "i3b_u06_q07",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "black",
-        "purple",
-        "yellow",
-        "blue"
+      "type": 1,
+      "prompt_text": "They are durian.",
+      "audio_id": "unit6-q07",
+      "image_ids": [
+        "i3b_lychee",
+        "i3b_durian",
+        "i3b_avocado",
+        "i3b_soursop"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_lychee",
+        "i3b_durian",
+        "i3b_avocado",
+        "i3b_soursop"
+      ],
+      "correct": "i3b_durian",
       "why_wrong": {
-        "black": "Not quite — try again!",
-        "purple": "Not quite — try again!",
-        "blue": "Not quite — try again!"
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!",
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!",
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lychee": "lychee",
+        "i3b_durian": "durian",
+        "i3b_avocado": "avocado",
+        "i3b_soursop": "soursop"
+      }
     },
     {
       "id": "i3b_u06_q08",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grape",
-        "an orange",
-        "a pear",
-        "an apple"
+      "type": 1,
+      "prompt_text": "They are lemon.",
+      "audio_id": "unit6-q08",
+      "image_ids": [
+        "i3b_soursop",
+        "i3b_lemon",
+        "i3b_mangos",
+        "i3b_apples"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_soursop",
+        "i3b_lemon",
+        "i3b_mangos",
+        "i3b_apples"
+      ],
+      "correct": "i3b_lemon",
       "why_wrong": {
-        "a grape": "Not quite — try again!",
-        "a pear": "Not quite — try again!",
-        "an apple": "Not quite — try again!"
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!",
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_soursop": "soursop",
+        "i3b_lemon": "lemon",
+        "i3b_mangos": "mangos",
+        "i3b_apples": "apples"
+      }
     },
     {
       "id": "i3b_u06_q09",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grape",
-        "a peach",
-        "a coconut",
-        "a melon"
+      "type": 1,
+      "prompt_text": "They are pineapple.",
+      "audio_id": "unit6-q09",
+      "image_ids": [
+        "i3b_pineapple",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_durian"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_pineapple",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_durian"
+      ],
+      "correct": "i3b_pineapple",
       "why_wrong": {
-        "a peach": "Not quite — try again!",
-        "a coconut": "Not quite — try again!",
-        "a melon": "Not quite — try again!"
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_pineapple": "pineapple",
+        "i3b_apples": "apples",
+        "i3b_rocks": "rocks",
+        "i3b_durian": "durian"
+      }
     },
     {
       "id": "i3b_u06_q10",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a leaf",
-        "a nut",
-        "a bean",
-        "a cherry"
+      "type": 1,
+      "prompt_text": "They are avocado.",
+      "audio_id": "unit6-q10",
+      "image_ids": [
+        "i3b_apples",
+        "i3b_bananas",
+        "i3b_avocado",
+        "i3b_lemon"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_apples",
+        "i3b_bananas",
+        "i3b_avocado",
+        "i3b_lemon"
+      ],
+      "correct": "i3b_avocado",
       "why_wrong": {
-        "a leaf": "Not quite — try again!",
-        "a nut": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_apples": "apples",
+        "i3b_bananas": "bananas",
+        "i3b_avocado": "avocado",
+        "i3b_lemon": "lemon"
+      }
     },
     {
       "id": "i3b_u06_q11",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a carrot",
-        "a potato",
-        "a strawberry",
-        "a celery"
+      "type": 1,
+      "prompt_text": "They are bananas.",
+      "audio_id": "unit6-q11",
+      "image_ids": [
+        "i3b_bananas",
+        "i3b_mangosteen",
+        "i3b_rocks",
+        "i3b_avocado"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_bananas",
+        "i3b_mangosteen",
+        "i3b_rocks",
+        "i3b_avocado"
+      ],
+      "correct": "i3b_bananas",
       "why_wrong": {
-        "a carrot": "Not quite — try again!",
-        "a potato": "Not quite — try again!",
-        "a celery": "Not quite — try again!"
+        "i3b_mangosteen": "You tapped \"mangosteen\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!",
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bananas": "bananas",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_rocks": "rocks",
+        "i3b_avocado": "avocado"
+      }
     },
     {
       "id": "i3b_u06_q12",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "blue",
-        "purple",
-        "yellow",
-        "black"
+      "type": 1,
+      "prompt_text": "They are not fruit! They are rocks.",
+      "audio_id": "unit6-q12",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_mangosteen",
+        "i3b_avocado",
+        "i3b_rocks"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_durian",
+        "i3b_mangosteen",
+        "i3b_avocado",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_rocks",
       "why_wrong": {
-        "blue": "Not quite — try again!",
-        "purple": "Not quite — try again!",
-        "black": "Not quite — try again!"
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!",
+        "i3b_mangosteen": "You tapped \"mangosteen\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!",
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_avocado": "avocado",
+        "i3b_rocks": "rocks"
+      }
     },
     {
       "id": "i3b_u06_q13",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "an apple",
-        "a grape",
-        "a pear",
-        "an orange"
+      "type": 1,
+      "prompt_text": "They are apples.",
+      "audio_id": "unit6-q13",
+      "image_ids": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_pineapple",
+        "i3b_lychee"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_pineapple",
+        "i3b_lychee"
+      ],
+      "correct": "i3b_apples",
       "why_wrong": {
-        "an apple": "Not quite — try again!",
-        "a grape": "Not quite — try again!",
-        "a pear": "Not quite — try again!"
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lemon": "lemon",
+        "i3b_apples": "apples",
+        "i3b_pineapple": "pineapple",
+        "i3b_lychee": "lychee"
+      }
     },
     {
       "id": "i3b_u06_q14",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a coconut",
-        "a grape",
-        "a peach",
-        "a melon"
+      "type": 1,
+      "prompt_text": "What fruit are those? Mangos!",
+      "audio_id": "unit6-q14",
+      "image_ids": [
+        "i3b_bananas",
+        "i3b_mangos",
+        "i3b_grapefruit",
+        "i3b_apples"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_bananas",
+        "i3b_mangos",
+        "i3b_grapefruit",
+        "i3b_apples"
+      ],
+      "correct": "i3b_mangos",
       "why_wrong": {
-        "a coconut": "Not quite — try again!",
-        "a peach": "Not quite — try again!",
-        "a melon": "Not quite — try again!"
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bananas": "bananas",
+        "i3b_mangos": "mangos",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_apples": "apples"
+      }
     },
     {
       "id": "i3b_u06_q15",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a leaf",
-        "a nut",
-        "a cherry",
-        "a bean"
+      "type": 1,
+      "prompt_text": "They are lychee.",
+      "audio_id": "unit6-q15",
+      "image_ids": [
+        "i3b_lychee",
+        "i3b_mangos",
+        "i3b_bananas",
+        "i3b_avocado"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_lychee",
+        "i3b_mangos",
+        "i3b_bananas",
+        "i3b_avocado"
+      ],
+      "correct": "i3b_lychee",
       "why_wrong": {
-        "a leaf": "Not quite — try again!",
-        "a nut": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lychee": "lychee",
+        "i3b_mangos": "mangos",
+        "i3b_bananas": "bananas",
+        "i3b_avocado": "avocado"
+      }
     },
     {
       "id": "i3b_u06_q16",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a celery",
-        "a carrot",
-        "a strawberry",
-        "a potato"
+      "type": 1,
+      "prompt_text": "They are soursop.",
+      "audio_id": "unit6-q16",
+      "image_ids": [
+        "i3b_mangos",
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_rocks"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_mangos",
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_soursop",
       "why_wrong": {
-        "a celery": "Not quite — try again!",
-        "a carrot": "Not quite — try again!",
-        "a potato": "Not quite — try again!"
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_mangos": "mangos",
+        "i3b_apples": "apples",
+        "i3b_soursop": "soursop",
+        "i3b_rocks": "rocks"
+      }
     },
     {
       "id": "i3b_u06_q17",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "black",
-        "blue",
-        "purple",
-        "yellow"
+      "type": 1,
+      "prompt_text": "They are grapefruit.",
+      "audio_id": "unit6-q17",
+      "image_ids": [
+        "i3b_bananas",
+        "i3b_lychee",
+        "i3b_pineapple",
+        "i3b_grapefruit"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_bananas",
+        "i3b_lychee",
+        "i3b_pineapple",
+        "i3b_grapefruit"
+      ],
+      "correct": "i3b_grapefruit",
       "why_wrong": {
-        "black": "Not quite — try again!",
-        "blue": "Not quite — try again!",
-        "purple": "Not quite — try again!"
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bananas": "bananas",
+        "i3b_lychee": "lychee",
+        "i3b_pineapple": "pineapple",
+        "i3b_grapefruit": "grapefruit"
+      }
     },
     {
       "id": "i3b_u06_q18",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grape",
-        "an apple",
-        "a pear",
-        "an orange"
+      "type": 1,
+      "prompt_text": "They are mangosteen.",
+      "audio_id": "unit6-q18",
+      "image_ids": [
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_mangosteen",
+        "i3b_grapefruit"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_mangosteen",
+        "i3b_grapefruit"
+      ],
+      "correct": "i3b_mangosteen",
       "why_wrong": {
-        "a grape": "Not quite — try again!",
-        "an apple": "Not quite — try again!",
-        "a pear": "Not quite — try again!"
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_soursop": "soursop",
+        "i3b_pineapple": "pineapple",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_grapefruit": "grapefruit"
+      }
     },
     {
       "id": "i3b_u06_q19",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a peach",
-        "a grape",
-        "a melon",
-        "a coconut"
+      "type": 1,
+      "prompt_text": "They are durian.",
+      "audio_id": "unit6-q19",
+      "image_ids": [
+        "i3b_avocado",
+        "i3b_durian",
+        "i3b_apples",
+        "i3b_pineapple"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_avocado",
+        "i3b_durian",
+        "i3b_apples",
+        "i3b_pineapple"
+      ],
+      "correct": "i3b_durian",
       "why_wrong": {
-        "a peach": "Not quite — try again!",
-        "a melon": "Not quite — try again!",
-        "a coconut": "Not quite — try again!"
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are durian.\". The correct picture is \"durian\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_avocado": "avocado",
+        "i3b_durian": "durian",
+        "i3b_apples": "apples",
+        "i3b_pineapple": "pineapple"
+      }
     },
     {
       "id": "i3b_u06_q20",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a nut",
-        "a cherry",
-        "a leaf",
-        "a bean"
+      "type": 1,
+      "prompt_text": "They are lemon.",
+      "audio_id": "unit6-q20",
+      "image_ids": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_grapefruit",
+        "i3b_bananas"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_grapefruit",
+        "i3b_bananas"
+      ],
+      "correct": "i3b_lemon",
       "why_wrong": {
-        "a nut": "Not quite — try again!",
-        "a leaf": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are lemon.\". The correct picture is \"lemon\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lemon": "lemon",
+        "i3b_apples": "apples",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_bananas": "bananas"
+      }
     },
     {
       "id": "i3b_u06_q21",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a strawberry",
-        "a celery",
-        "a potato",
-        "a carrot"
+      "type": 1,
+      "prompt_text": "They are pineapple.",
+      "audio_id": "unit6-q21",
+      "image_ids": [
+        "i3b_pineapple",
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_bananas"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_pineapple",
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_bananas"
+      ],
+      "correct": "i3b_pineapple",
       "why_wrong": {
-        "a celery": "Not quite — try again!",
-        "a potato": "Not quite — try again!",
-        "a carrot": "Not quite — try again!"
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are pineapple.\". The correct picture is \"pineapple\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_pineapple": "pineapple",
+        "i3b_lemon": "lemon",
+        "i3b_apples": "apples",
+        "i3b_bananas": "bananas"
+      }
     },
     {
       "id": "i3b_u06_q22",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "yellow",
-        "black",
-        "purple",
-        "blue"
+      "type": 1,
+      "prompt_text": "They are avocado.",
+      "audio_id": "unit6-q22",
+      "image_ids": [
+        "i3b_lychee",
+        "i3b_avocado",
+        "i3b_lemon",
+        "i3b_apples"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_lychee",
+        "i3b_avocado",
+        "i3b_lemon",
+        "i3b_apples"
+      ],
+      "correct": "i3b_avocado",
       "why_wrong": {
-        "black": "Not quite — try again!",
-        "purple": "Not quite — try again!",
-        "blue": "Not quite — try again!"
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are avocado.\". The correct picture is \"avocado\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lychee": "lychee",
+        "i3b_avocado": "avocado",
+        "i3b_lemon": "lemon",
+        "i3b_apples": "apples"
+      }
     },
     {
       "id": "i3b_u06_q23",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "an apple",
-        "an orange",
-        "a grape",
-        "a pear"
+      "type": 1,
+      "prompt_text": "They are bananas.",
+      "audio_id": "unit6-q23",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_apples",
+        "i3b_bananas",
+        "i3b_rocks"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_durian",
+        "i3b_apples",
+        "i3b_bananas",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_bananas",
       "why_wrong": {
-        "an apple": "Not quite — try again!",
-        "a grape": "Not quite — try again!",
-        "a pear": "Not quite — try again!"
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are bananas.\". The correct picture is \"bananas\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_apples": "apples",
+        "i3b_bananas": "bananas",
+        "i3b_rocks": "rocks"
+      }
     },
     {
       "id": "i3b_u06_q24",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grape",
-        "a peach",
-        "a coconut",
-        "a melon"
+      "type": 1,
+      "prompt_text": "They are not fruit! They are rocks.",
+      "audio_id": "unit6-q24",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_lemon",
+        "i3b_lychee",
+        "i3b_rocks"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_durian",
+        "i3b_lemon",
+        "i3b_lychee",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_rocks",
       "why_wrong": {
-        "a peach": "Not quite — try again!",
-        "a coconut": "Not quite — try again!",
-        "a melon": "Not quite — try again!"
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!",
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"They are not fruit! They are rocks.\". The correct picture is \"rocks\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_lemon": "lemon",
+        "i3b_lychee": "lychee",
+        "i3b_rocks": "rocks"
+      }
     },
     {
       "id": "i3b_u06_q25",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a leaf",
-        "a nut",
-        "a cherry",
-        "a bean"
+      "type": 1,
+      "prompt_text": "They are apples.",
+      "audio_id": "unit6-q25",
+      "image_ids": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_bananas"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_lemon",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_bananas"
+      ],
+      "correct": "i3b_apples",
       "why_wrong": {
-        "a leaf": "Not quite — try again!",
-        "a nut": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lemon": "lemon",
+        "i3b_apples": "apples",
+        "i3b_rocks": "rocks",
+        "i3b_bananas": "bananas"
+      }
     },
     {
       "id": "i3b_u06_q26",
-      "type": 4,
-      "prompt_text": "Which one is a fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a strawberry",
-        "a celery",
-        "a potato",
-        "a carrot"
+      "type": 1,
+      "prompt_text": "What fruit are those? Mangos!",
+      "audio_id": "unit6-q26",
+      "image_ids": [
+        "i3b_bananas",
+        "i3b_mangos",
+        "i3b_soursop",
+        "i3b_grapefruit"
       ],
-      "correct": "a strawberry",
+      "choices": [
+        "i3b_bananas",
+        "i3b_mangos",
+        "i3b_soursop",
+        "i3b_grapefruit"
+      ],
+      "correct": "i3b_mangos",
       "why_wrong": {
-        "a celery": "Not quite — try again!",
-        "a potato": "Not quite — try again!",
-        "a carrot": "Not quite — try again!"
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bananas": "bananas",
+        "i3b_mangos": "mangos",
+        "i3b_soursop": "soursop",
+        "i3b_grapefruit": "grapefruit"
+      }
     },
     {
       "id": "i3b_u06_q27",
-      "type": 4,
-      "prompt_text": "What color is a banana?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "black",
-        "yellow",
-        "purple",
-        "blue"
+      "type": 1,
+      "prompt_text": "They are lychee.",
+      "audio_id": "unit6-q27",
+      "image_ids": [
+        "i3b_lychee",
+        "i3b_mangos",
+        "i3b_bananas",
+        "i3b_grapefruit"
       ],
-      "correct": "yellow",
+      "choices": [
+        "i3b_lychee",
+        "i3b_mangos",
+        "i3b_bananas",
+        "i3b_grapefruit"
+      ],
+      "correct": "i3b_lychee",
       "why_wrong": {
-        "black": "Not quite — try again!",
-        "purple": "Not quite — try again!",
-        "blue": "Not quite — try again!"
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lychee": "lychee",
+        "i3b_mangos": "mangos",
+        "i3b_bananas": "bananas",
+        "i3b_grapefruit": "grapefruit"
+      }
     },
     {
       "id": "i3b_u06_q28",
-      "type": 2,
-      "prompt_text": "Choose a citrus fruit.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grape",
-        "an orange",
-        "a pear",
-        "an apple"
+      "type": 1,
+      "prompt_text": "They are soursop.",
+      "audio_id": "unit6-q28",
+      "image_ids": [
+        "i3b_apples",
+        "i3b_lemon",
+        "i3b_soursop",
+        "i3b_durian"
       ],
-      "correct": "an orange",
+      "choices": [
+        "i3b_apples",
+        "i3b_lemon",
+        "i3b_soursop",
+        "i3b_durian"
+      ],
+      "correct": "i3b_soursop",
       "why_wrong": {
-        "a grape": "Not quite — try again!",
-        "a pear": "Not quite — try again!",
-        "an apple": "Not quite — try again!"
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_apples": "apples",
+        "i3b_lemon": "lemon",
+        "i3b_soursop": "soursop",
+        "i3b_durian": "durian"
+      }
     },
     {
       "id": "i3b_u06_q29",
-      "type": 4,
-      "prompt_text": "Which fruit is small and purple?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a peach",
-        "a melon",
-        "a coconut",
-        "a grape"
+      "type": 1,
+      "prompt_text": "They are grapefruit.",
+      "audio_id": "unit6-q29",
+      "image_ids": [
+        "i3b_grapefruit",
+        "i3b_bananas",
+        "i3b_soursop",
+        "i3b_pineapple"
       ],
-      "correct": "a grape",
+      "choices": [
+        "i3b_grapefruit",
+        "i3b_bananas",
+        "i3b_soursop",
+        "i3b_pineapple"
+      ],
+      "correct": "i3b_grapefruit",
       "why_wrong": {
-        "a peach": "Not quite — try again!",
-        "a melon": "Not quite — try again!",
-        "a coconut": "Not quite — try again!"
+        "i3b_bananas": "You tapped \"bananas\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are grapefruit.\". The correct picture is \"grapefruit\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grapefruit": "grapefruit",
+        "i3b_bananas": "bananas",
+        "i3b_soursop": "soursop",
+        "i3b_pineapple": "pineapple"
+      }
     },
     {
       "id": "i3b_u06_q30",
-      "type": 4,
-      "prompt_text": "What do we call this red fruit?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a leaf",
-        "a cherry",
-        "a nut",
-        "a bean"
+      "type": 1,
+      "prompt_text": "They are mangosteen.",
+      "audio_id": "unit6-q30",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_grapefruit",
+        "i3b_mangosteen",
+        "i3b_apples"
       ],
-      "correct": "a cherry",
+      "choices": [
+        "i3b_durian",
+        "i3b_grapefruit",
+        "i3b_mangosteen",
+        "i3b_apples"
+      ],
+      "correct": "i3b_mangosteen",
       "why_wrong": {
-        "a leaf": "Not quite — try again!",
-        "a nut": "Not quite — try again!",
-        "a bean": "Not quite — try again!"
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are mangosteen.\". The correct picture is \"mangosteen\". Listen again!"
       },
       "unit": 6,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_apples": "apples"
+      }
     }
   ]
 }

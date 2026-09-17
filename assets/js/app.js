@@ -135,7 +135,10 @@
   }
 
   function isPictureChoice(choice) {
-    return typeof choice === 'string' && choice.indexOf('pic_') === 0;
+    // pic_* (Basic) + int* (e.g. int3c_*) + i2*/i3* (e.g. i3b_g1) intermediate ids
+    if (typeof choice !== 'string') return false;
+    if (choice.indexOf('pic_') === 0 || choice.indexOf('int') === 0) return true;
+    return /^i[23][abc]?_/.test(choice);
   }
 
   function stopAudio() {

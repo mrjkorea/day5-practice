@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 4: Who Is That?",
+    "title": "Who is This?",
     "kind": "unit",
     "units_covered": [
       4
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u04_q01",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's my aunt.",
-        "I like pizza.",
-        "I am fine.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Is she your mom?",
+      "audio_id": "unit4-q01",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_mom",
+        "i3b_grandma",
+        "i3b_me"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_mom",
+        "i3b_grandma",
+        "i3b_me"
+      ],
+      "correct": "i3b_mom",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_mom": "mom",
+        "i3b_grandma": "grandmother",
+        "i3b_me": "me"
+      }
     },
     {
       "id": "i3b_u04_q02",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "No, I don't think so.",
-        "Yes, I am.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "She is my aunt.",
+      "audio_id": "unit4-q02",
+      "image_ids": [
+        "i3b_aunt",
+        "i3b_brother",
+        "i3b_mom",
+        "i3b_grandpa"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_aunt",
+        "i3b_brother",
+        "i3b_mom",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_aunt",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "Yes, I am.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_aunt": "aunt",
+        "i3b_brother": "brother",
+        "i3b_mom": "mom",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
       "id": "i3b_u04_q03",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "They're new students.",
-        "She reads.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "No, she is my grandmother.",
+      "audio_id": "unit4-q03",
+      "image_ids": [
+        "i3b_uncle",
+        "i3b_aunt",
+        "i3b_mom",
+        "i3b_grandma"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_uncle",
+        "i3b_aunt",
+        "i3b_mom",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_grandma",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_uncle": "uncle",
+        "i3b_aunt": "aunt",
+        "i3b_mom": "mom",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q04",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He jumps.",
-        "She swims.",
-        "That's our principal."
+      "type": 1,
+      "prompt_text": "She is my sister.",
+      "audio_id": "unit4-q04",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_brother"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_brother"
+      ],
+      "correct": "i3b_sister",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_dad": "dad",
+        "i3b_aunt": "aunt",
+        "i3b_brother": "brother"
+      }
     },
     {
       "id": "i3b_u04_q05",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "He plays.",
-        "She is kind.",
-        "No, who's he?"
+      "type": 1,
+      "prompt_text": "No, she is my teacher.",
+      "audio_id": "unit4-q05",
+      "image_ids": [
+        "i3b_me",
+        "i3b_teacher",
+        "i3b_dad",
+        "i3b_grandma"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_me",
+        "i3b_teacher",
+        "i3b_dad",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_teacher",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_me": "You tapped \"me\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_me": "me",
+        "i3b_teacher": "teacher",
+        "i3b_dad": "dad",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q06",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She's my aunt.",
-        "He runs.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "No, he is my dad.",
+      "audio_id": "unit4-q06",
+      "image_ids": [
+        "i3b_me",
+        "i3b_dad",
+        "i3b_grandpa",
+        "i3b_grandma"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_me",
+        "i3b_dad",
+        "i3b_grandpa",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_dad",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "i3b_me": "You tapped \"me\", but the audio said: \"No, he is my dad.\". The correct picture is \"dad\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"No, he is my dad.\". The correct picture is \"dad\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, he is my dad.\". The correct picture is \"dad\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_me": "me",
+        "i3b_dad": "dad",
+        "i3b_grandpa": "grandfather",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q07",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I don't think so.",
-        "Yes, I am.",
-        "He eats.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "No, he is my uncle.",
+      "audio_id": "unit4-q07",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_uncle",
+        "i3b_dad",
+        "i3b_mom"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_grandma",
+        "i3b_uncle",
+        "i3b_dad",
+        "i3b_mom"
+      ],
+      "correct": "i3b_uncle",
       "why_wrong": {
-        "Yes, I am.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_uncle": "uncle",
+        "i3b_dad": "dad",
+        "i3b_mom": "mom"
+      }
     },
     {
       "id": "i3b_u04_q08",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She reads.",
-        "I have a dog.",
-        "They're new students."
+      "type": 1,
+      "prompt_text": "He is my grandfather.",
+      "audio_id": "unit4-q08",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_grandpa",
+        "i3b_sister",
+        "i3b_dad"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_grandpa",
+        "i3b_sister",
+        "i3b_dad"
+      ],
+      "correct": "i3b_grandpa",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_grandpa": "grandfather",
+        "i3b_sister": "sister",
+        "i3b_dad": "dad"
+      }
     },
     {
       "id": "i3b_u04_q09",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "That's our principal.",
-        "I like red.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "No, he is my brother.",
+      "audio_id": "unit4-q09",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_brother"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_brother"
+      ],
+      "correct": "i3b_brother",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_uncle": "uncle",
+        "i3b_grandpa": "grandfather",
+        "i3b_brother": "brother"
+      }
     },
     {
       "id": "i3b_u04_q10",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "She is kind.",
-        "No, who's he?",
-        "He plays."
+      "type": 1,
+      "prompt_text": "It is me!",
+      "audio_id": "unit4-q10",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_grandpa",
+        "i3b_me"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_grandpa",
+        "i3b_me"
+      ],
+      "correct": "i3b_me",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_dad": "dad",
+        "i3b_grandpa": "grandfather",
+        "i3b_me": "me"
+      }
     },
     {
       "id": "i3b_u04_q11",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's my aunt.",
-        "He runs.",
-        "I like pizza.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "She is my mom.",
+      "audio_id": "unit4-q11",
+      "image_ids": [
+        "i3b_mom",
+        "i3b_uncle",
+        "i3b_brother",
+        "i3b_grandpa"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_mom",
+        "i3b_uncle",
+        "i3b_brother",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_mom",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"She is my mom.\". The correct picture is \"mom\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my mom.\". The correct picture is \"mom\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"She is my mom.\". The correct picture is \"mom\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_mom": "mom",
+        "i3b_uncle": "uncle",
+        "i3b_brother": "brother",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
       "id": "i3b_u04_q12",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I am.",
-        "No, I don't think so.",
-        "He eats.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "She is my aunt.",
+      "audio_id": "unit4-q12",
+      "image_ids": [
+        "i3b_me",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_teacher"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_me",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_teacher"
+      ],
+      "correct": "i3b_aunt",
       "why_wrong": {
-        "Yes, I am.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_me": "You tapped \"me\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_me": "me",
+        "i3b_dad": "dad",
+        "i3b_aunt": "aunt",
+        "i3b_teacher": "teacher"
+      }
     },
     {
       "id": "i3b_u04_q13",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're new students.",
-        "I have a dog.",
-        "He sleeps.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "No, she is my grandmother.",
+      "audio_id": "unit4-q13",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_me",
+        "i3b_grandpa",
+        "i3b_sister"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_grandma",
+        "i3b_me",
+        "i3b_grandpa",
+        "i3b_sister"
+      ],
+      "correct": "i3b_grandma",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "i3b_me": "You tapped \"me\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_me": "me",
+        "i3b_grandpa": "grandfather",
+        "i3b_sister": "sister"
+      }
     },
     {
       "id": "i3b_u04_q14",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He jumps.",
-        "She swims.",
-        "That's our principal."
+      "type": 1,
+      "prompt_text": "She is my sister.",
+      "audio_id": "unit4-q14",
+      "image_ids": [
+        "i3b_grandpa",
+        "i3b_sister",
+        "i3b_uncle",
+        "i3b_grandma"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_grandpa",
+        "i3b_sister",
+        "i3b_uncle",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_sister",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandpa": "grandfather",
+        "i3b_sister": "sister",
+        "i3b_uncle": "uncle",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q15",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "She is kind.",
-        "He plays.",
-        "No, who's he?"
+      "type": 1,
+      "prompt_text": "No, she is my teacher.",
+      "audio_id": "unit4-q15",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_teacher"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_grandma",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_teacher"
+      ],
+      "correct": "i3b_teacher",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_dad": "dad",
+        "i3b_aunt": "aunt",
+        "i3b_teacher": "teacher"
+      }
     },
     {
       "id": "i3b_u04_q16",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She's my aunt.",
-        "I like pizza.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Is he your dad?",
+      "audio_id": "unit4-q16",
+      "image_ids": [
+        "i3b_dad",
+        "i3b_mom",
+        "i3b_sister",
+        "i3b_grandpa"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_dad",
+        "i3b_mom",
+        "i3b_sister",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_dad",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"Is he your dad?\". The correct picture is \"dad\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Is he your dad?\". The correct picture is \"dad\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"Is he your dad?\". The correct picture is \"dad\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_dad": "dad",
+        "i3b_mom": "mom",
+        "i3b_sister": "sister",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
       "id": "i3b_u04_q17",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Yes, I am.",
-        "No, I don't think so.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "No, he is my uncle.",
+      "audio_id": "unit4-q17",
+      "image_ids": [
+        "i3b_uncle",
+        "i3b_grandma",
+        "i3b_sister",
+        "i3b_mom"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_uncle",
+        "i3b_grandma",
+        "i3b_sister",
+        "i3b_mom"
+      ],
+      "correct": "i3b_uncle",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "Yes, I am.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_uncle": "uncle",
+        "i3b_grandma": "grandmother",
+        "i3b_sister": "sister",
+        "i3b_mom": "mom"
+      }
     },
     {
       "id": "i3b_u04_q18",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "They're new students.",
-        "He sleeps.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "He is my grandfather.",
+      "audio_id": "unit4-q18",
+      "image_ids": [
+        "i3b_aunt",
+        "i3b_grandpa",
+        "i3b_teacher",
+        "i3b_me"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_aunt",
+        "i3b_grandpa",
+        "i3b_teacher",
+        "i3b_me"
+      ],
+      "correct": "i3b_grandpa",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_aunt": "aunt",
+        "i3b_grandpa": "grandfather",
+        "i3b_teacher": "teacher",
+        "i3b_me": "me"
+      }
     },
     {
       "id": "i3b_u04_q19",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "That's our principal.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "No, he is my brother.",
+      "audio_id": "unit4-q19",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_brother",
+        "i3b_me",
+        "i3b_grandma"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_brother",
+        "i3b_me",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_brother",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_brother": "brother",
+        "i3b_me": "me",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q20",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "He plays.",
-        "No, who's he?",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "It is me!",
+      "audio_id": "unit4-q20",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_aunt",
+        "i3b_uncle",
+        "i3b_me"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_teacher",
+        "i3b_aunt",
+        "i3b_uncle",
+        "i3b_me"
+      ],
+      "correct": "i3b_me",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_aunt": "aunt",
+        "i3b_uncle": "uncle",
+        "i3b_me": "me"
+      }
     },
     {
       "id": "i3b_u04_q21",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She's my aunt.",
-        "I like pizza.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "No, she is my mom.",
+      "audio_id": "unit4-q21",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_sister",
+        "i3b_mom",
+        "i3b_aunt"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_sister",
+        "i3b_mom",
+        "i3b_aunt"
+      ],
+      "correct": "i3b_mom",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"No, she is my mom.\". The correct picture is \"mom\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"No, she is my mom.\". The correct picture is \"mom\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"No, she is my mom.\". The correct picture is \"mom\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_sister": "sister",
+        "i3b_mom": "mom",
+        "i3b_aunt": "aunt"
+      }
     },
     {
       "id": "i3b_u04_q22",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I am.",
-        "No, I don't think so.",
-        "She sings.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "She is my aunt.",
+      "audio_id": "unit4-q22",
+      "image_ids": [
+        "i3b_brother",
+        "i3b_teacher",
+        "i3b_aunt",
+        "i3b_grandpa"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_brother",
+        "i3b_teacher",
+        "i3b_aunt",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_aunt",
       "why_wrong": {
-        "Yes, I am.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_brother": "brother",
+        "i3b_teacher": "teacher",
+        "i3b_aunt": "aunt",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
       "id": "i3b_u04_q23",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "They're new students.",
-        "He sleeps.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "No, she is my grandmother.",
+      "audio_id": "unit4-q23",
+      "image_ids": [
+        "i3b_uncle",
+        "i3b_teacher",
+        "i3b_brother",
+        "i3b_grandma"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_uncle",
+        "i3b_teacher",
+        "i3b_brother",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_grandma",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_uncle": "uncle",
+        "i3b_teacher": "teacher",
+        "i3b_brother": "brother",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q24",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He jumps.",
-        "That's our principal.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "She is my sister.",
+      "audio_id": "unit4-q24",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_mom",
+        "i3b_me"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_mom",
+        "i3b_me"
+      ],
+      "correct": "i3b_sister",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_dad": "dad",
+        "i3b_mom": "mom",
+        "i3b_me": "me"
+      }
     },
     {
       "id": "i3b_u04_q25",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, who's he?",
-        "She is kind.",
-        "I am ten.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "No, she is my teacher.",
+      "audio_id": "unit4-q25",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_grandma",
+        "i3b_uncle",
+        "i3b_sister"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_teacher",
+        "i3b_grandma",
+        "i3b_uncle",
+        "i3b_sister"
+      ],
+      "correct": "i3b_teacher",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"No, she is my teacher.\". The correct picture is \"teacher\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_grandma": "grandmother",
+        "i3b_uncle": "uncle",
+        "i3b_sister": "sister"
+      }
     },
     {
       "id": "i3b_u04_q26",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She's my aunt.",
-        "I like pizza.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "He is my dad.",
+      "audio_id": "unit4-q26",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_dad"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_teacher",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_dad"
+      ],
+      "correct": "i3b_dad",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"He is my dad.\". The correct picture is \"dad\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"He is my dad.\". The correct picture is \"dad\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"He is my dad.\". The correct picture is \"dad\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_uncle": "uncle",
+        "i3b_grandpa": "grandfather",
+        "i3b_dad": "dad"
+      }
     },
     {
       "id": "i3b_u04_q27",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He eats.",
-        "Yes, I am.",
-        "No, I don't think so."
+      "type": 1,
+      "prompt_text": "No, he is my uncle.",
+      "audio_id": "unit4-q27",
+      "image_ids": [
+        "i3b_dad",
+        "i3b_brother",
+        "i3b_uncle",
+        "i3b_grandma"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_dad",
+        "i3b_brother",
+        "i3b_uncle",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_uncle",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "Yes, I am.": "Not quite — try again!"
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, he is my uncle.\". The correct picture is \"uncle\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_dad": "dad",
+        "i3b_brother": "brother",
+        "i3b_uncle": "uncle",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
       "id": "i3b_u04_q28",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're new students.",
-        "She reads.",
-        "He sleeps.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "He is my grandfather.",
+      "audio_id": "unit4-q28",
+      "image_ids": [
+        "i3b_aunt",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_brother"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_aunt",
+        "i3b_uncle",
+        "i3b_grandpa",
+        "i3b_brother"
+      ],
+      "correct": "i3b_grandpa",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"He is my grandfather.\". The correct picture is \"grandfather\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_aunt": "aunt",
+        "i3b_uncle": "uncle",
+        "i3b_grandpa": "grandfather",
+        "i3b_brother": "brother"
+      }
     },
     {
       "id": "i3b_u04_q29",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "That's our principal.",
-        "She swims.",
-        "I like red.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "No, he is my brother.",
+      "audio_id": "unit4-q29",
+      "image_ids": [
+        "i3b_grandpa",
+        "i3b_dad",
+        "i3b_brother",
+        "i3b_aunt"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_grandpa",
+        "i3b_dad",
+        "i3b_brother",
+        "i3b_aunt"
+      ],
+      "correct": "i3b_brother",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"No, he is my brother.\". The correct picture is \"brother\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandpa": "grandfather",
+        "i3b_dad": "dad",
+        "i3b_brother": "brother",
+        "i3b_aunt": "aunt"
+      }
     },
     {
       "id": "i3b_u04_q30",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, who's he?",
-        "He plays.",
-        "She is kind.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "It is me!",
+      "audio_id": "unit4-q30",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_mom",
+        "i3b_me",
+        "i3b_brother"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_grandma",
+        "i3b_mom",
+        "i3b_me",
+        "i3b_brother"
+      ],
+      "correct": "i3b_me",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"It is me!\". The correct picture is \"me\". Listen again!"
       },
       "unit": 4,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_mom": "mom",
+        "i3b_me": "me",
+        "i3b_brother": "brother"
+      }
     }
   ]
 }

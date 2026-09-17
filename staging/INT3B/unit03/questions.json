@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 3: Comparative Adjectives",
+    "title": "Bigger Please!",
     "kind": "unit",
     "units_covered": [
       3
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u03_q01",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are same.",
-        "I am twelve.",
-        "An elephant is bigger than a mouse.",
-        "A mouse is bigger."
+      "type": 1,
+      "prompt_text": "Slower, please.",
+      "audio_id": "unit3-q01",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_slower",
+        "i3b_quieter",
+        "i3b_smaller"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_slower",
+        "i3b_quieter",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_slower",
       "why_wrong": {
-        "They are same.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!"
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_slower": "slower",
+        "i3b_quieter": "quieter",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q02",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "most interesting",
-        "interestinger",
-        "more interestinger",
-        "This book is more interesting than that one."
+      "type": 1,
+      "prompt_text": "Warmer, please.",
+      "audio_id": "unit3-q02",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_warmer",
       "why_wrong": {
-        "most interesting": "Not quite — try again!",
-        "interestinger": "Not quite — try again!",
-        "more interestinger": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_less": "less",
+        "i3b_higher": "higher",
+        "i3b_quieter": "quieter"
+      }
     },
     {
       "id": "i3b_u03_q03",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Same height.",
-        "Minho is taller than Jay.",
-        "Jay is taller."
+      "type": 1,
+      "prompt_text": "Bigger, please.",
+      "audio_id": "unit3-q03",
+      "image_ids": [
+        "i3b_louder",
+        "i3b_warmer",
+        "i3b_bigger",
+        "i3b_smaller"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_louder",
+        "i3b_warmer",
+        "i3b_bigger",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_bigger",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "Same height.": "Not quite — try again!",
-        "Jay is taller.": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_louder": "louder",
+        "i3b_warmer": "warmer",
+        "i3b_bigger": "bigger",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q04",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tongyeong is more.",
-        "Seoul is more crowded than Tongyeong.",
-        "He plays.",
-        "Equal."
+      "type": 1,
+      "prompt_text": "Higher, please.",
+      "audio_id": "unit3-q04",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_higher",
+        "i3b_more",
+        "i3b_cooler"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_higher",
+        "i3b_more",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_higher",
       "why_wrong": {
-        "Tongyeong is more.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "Equal.": "Not quite — try again!"
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_higher": "higher",
+        "i3b_more": "more",
+        "i3b_cooler": "cooler"
+      }
     },
     {
       "id": "i3b_u03_q05",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "harder",
-        "hardly",
-        "more hard",
-        "hardest"
+      "type": 1,
+      "prompt_text": "Cooler, please.",
+      "audio_id": "unit3-q05",
+      "image_ids": [
+        "i3b_smaller",
+        "i3b_slower",
+        "i3b_warmer",
+        "i3b_cooler"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_smaller",
+        "i3b_slower",
+        "i3b_warmer",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_cooler",
       "why_wrong": {
-        "hardly": "Not quite — try again!",
-        "more hard": "Not quite — try again!",
-        "hardest": "Not quite — try again!"
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_smaller": "smaller",
+        "i3b_slower": "slower",
+        "i3b_warmer": "warmer",
+        "i3b_cooler": "cooler"
+      }
     },
     {
       "id": "i3b_u03_q06",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "A mouse is bigger.",
-        "They are same.",
-        "An elephant is bigger than a mouse."
+      "type": 1,
+      "prompt_text": "Smaller, please.",
+      "audio_id": "unit3-q06",
+      "image_ids": [
+        "i3b_smaller",
+        "i3b_bigger",
+        "i3b_louder",
+        "i3b_higher"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_smaller",
+        "i3b_bigger",
+        "i3b_louder",
+        "i3b_higher"
+      ],
+      "correct": "i3b_smaller",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!",
-        "They are same.": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_smaller": "smaller",
+        "i3b_bigger": "bigger",
+        "i3b_louder": "louder",
+        "i3b_higher": "higher"
+      }
     },
     {
       "id": "i3b_u03_q07",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "most interesting",
-        "interestinger",
-        "This book is more interesting than that one.",
-        "more interestinger"
+      "type": 1,
+      "prompt_text": "More, please.",
+      "audio_id": "unit3-q07",
+      "image_ids": [
+        "i3b_less",
+        "i3b_more",
+        "i3b_quieter",
+        "i3b_louder"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_less",
+        "i3b_more",
+        "i3b_quieter",
+        "i3b_louder"
+      ],
+      "correct": "i3b_more",
       "why_wrong": {
-        "most interesting": "Not quite — try again!",
-        "interestinger": "Not quite — try again!",
-        "more interestinger": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_more": "more",
+        "i3b_quieter": "quieter",
+        "i3b_louder": "louder"
+      }
     },
     {
       "id": "i3b_u03_q08",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Minho is taller than Jay.",
-        "Same height.",
-        "I like blue.",
-        "Jay is taller."
+      "type": 1,
+      "prompt_text": "Less, please.",
+      "audio_id": "unit3-q08",
+      "image_ids": [
+        "i3b_higher",
+        "i3b_louder",
+        "i3b_slower",
+        "i3b_less"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_higher",
+        "i3b_louder",
+        "i3b_slower",
+        "i3b_less"
+      ],
+      "correct": "i3b_less",
       "why_wrong": {
-        "Same height.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "Jay is taller.": "Not quite — try again!"
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_higher": "higher",
+        "i3b_louder": "louder",
+        "i3b_slower": "slower",
+        "i3b_less": "less"
+      }
     },
     {
       "id": "i3b_u03_q09",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Equal.",
-        "He plays.",
-        "Tongyeong is more.",
-        "Seoul is more crowded than Tongyeong."
+      "type": 1,
+      "prompt_text": "Quieter, please.",
+      "audio_id": "unit3-q09",
+      "image_ids": [
+        "i3b_more",
+        "i3b_louder",
+        "i3b_quieter",
+        "i3b_warmer"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_more",
+        "i3b_louder",
+        "i3b_quieter",
+        "i3b_warmer"
+      ],
+      "correct": "i3b_quieter",
       "why_wrong": {
-        "Equal.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "Tongyeong is more.": "Not quite — try again!"
+        "i3b_more": "You tapped \"more\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_more": "more",
+        "i3b_louder": "louder",
+        "i3b_quieter": "quieter",
+        "i3b_warmer": "warmer"
+      }
     },
     {
       "id": "i3b_u03_q10",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "harder",
-        "hardly",
-        "hardest",
-        "more hard"
+      "type": 1,
+      "prompt_text": "Louder, please.",
+      "audio_id": "unit3-q10",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_higher",
+        "i3b_less"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_higher",
+        "i3b_less"
+      ],
+      "correct": "i3b_louder",
       "why_wrong": {
-        "hardly": "Not quite — try again!",
-        "hardest": "Not quite — try again!",
-        "more hard": "Not quite — try again!"
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_louder": "louder",
+        "i3b_higher": "higher",
+        "i3b_less": "less"
+      }
     },
     {
       "id": "i3b_u03_q11",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "An elephant is bigger than a mouse.",
-        "I am twelve.",
-        "A mouse is bigger.",
-        "They are same."
+      "type": 1,
+      "prompt_text": "Slower, please.",
+      "audio_id": "unit3-q11",
+      "image_ids": [
+        "i3b_bigger",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_warmer"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_bigger",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_warmer"
+      ],
+      "correct": "i3b_slower",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!",
-        "They are same.": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bigger": "bigger",
+        "i3b_less": "less",
+        "i3b_slower": "slower",
+        "i3b_warmer": "warmer"
+      }
     },
     {
       "id": "i3b_u03_q12",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "This book is more interesting than that one.",
-        "most interesting",
-        "interestinger",
-        "more interestinger"
+      "type": 1,
+      "prompt_text": "Warmer, please.",
+      "audio_id": "unit3-q12",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_smaller",
+        "i3b_cooler"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_smaller",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_warmer",
       "why_wrong": {
-        "most interesting": "Not quite — try again!",
-        "interestinger": "Not quite — try again!",
-        "more interestinger": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_louder": "louder",
+        "i3b_smaller": "smaller",
+        "i3b_cooler": "cooler"
+      }
     },
     {
       "id": "i3b_u03_q13",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Same height.",
-        "Jay is taller.",
-        "I like blue.",
-        "Minho is taller than Jay."
+      "type": 1,
+      "prompt_text": "Bigger, please.",
+      "audio_id": "unit3-q13",
+      "image_ids": [
+        "i3b_less",
+        "i3b_bigger",
+        "i3b_more",
+        "i3b_warmer"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_less",
+        "i3b_bigger",
+        "i3b_more",
+        "i3b_warmer"
+      ],
+      "correct": "i3b_bigger",
       "why_wrong": {
-        "Same height.": "Not quite — try again!",
-        "Jay is taller.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_bigger": "bigger",
+        "i3b_more": "more",
+        "i3b_warmer": "warmer"
+      }
     },
     {
       "id": "i3b_u03_q14",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tongyeong is more.",
-        "Equal.",
-        "Seoul is more crowded than Tongyeong.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Higher, please.",
+      "audio_id": "unit3-q14",
+      "image_ids": [
+        "i3b_more",
+        "i3b_smaller",
+        "i3b_higher",
+        "i3b_less"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_more",
+        "i3b_smaller",
+        "i3b_higher",
+        "i3b_less"
+      ],
+      "correct": "i3b_higher",
       "why_wrong": {
-        "Tongyeong is more.": "Not quite — try again!",
-        "Equal.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_more": "You tapped \"more\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_more": "more",
+        "i3b_smaller": "smaller",
+        "i3b_higher": "higher",
+        "i3b_less": "less"
+      }
     },
     {
       "id": "i3b_u03_q15",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "hardly",
-        "more hard",
-        "hardest",
-        "harder"
+      "type": 1,
+      "prompt_text": "Cooler, please.",
+      "audio_id": "unit3-q15",
+      "image_ids": [
+        "i3b_less",
+        "i3b_cooler",
+        "i3b_louder",
+        "i3b_warmer"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_less",
+        "i3b_cooler",
+        "i3b_louder",
+        "i3b_warmer"
+      ],
+      "correct": "i3b_cooler",
       "why_wrong": {
-        "hardly": "Not quite — try again!",
-        "more hard": "Not quite — try again!",
-        "hardest": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_cooler": "cooler",
+        "i3b_louder": "louder",
+        "i3b_warmer": "warmer"
+      }
     },
     {
       "id": "i3b_u03_q16",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are same.",
-        "A mouse is bigger.",
-        "An elephant is bigger than a mouse.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Smaller, please.",
+      "audio_id": "unit3-q16",
+      "image_ids": [
+        "i3b_smaller",
+        "i3b_more",
+        "i3b_bigger",
+        "i3b_cooler"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_smaller",
+        "i3b_more",
+        "i3b_bigger",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_smaller",
       "why_wrong": {
-        "They are same.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "i3b_more": "You tapped \"more\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_smaller": "smaller",
+        "i3b_more": "more",
+        "i3b_bigger": "bigger",
+        "i3b_cooler": "cooler"
+      }
     },
     {
       "id": "i3b_u03_q17",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "This book is more interesting than that one.",
-        "more interestinger",
-        "most interesting",
-        "interestinger"
+      "type": 1,
+      "prompt_text": "More, please.",
+      "audio_id": "unit3-q17",
+      "image_ids": [
+        "i3b_bigger",
+        "i3b_slower",
+        "i3b_more",
+        "i3b_quieter"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_bigger",
+        "i3b_slower",
+        "i3b_more",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_more",
       "why_wrong": {
-        "more interestinger": "Not quite — try again!",
-        "most interesting": "Not quite — try again!",
-        "interestinger": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bigger": "bigger",
+        "i3b_slower": "slower",
+        "i3b_more": "more",
+        "i3b_quieter": "quieter"
+      }
     },
     {
       "id": "i3b_u03_q18",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Jay is taller.",
-        "Same height.",
-        "Minho is taller than Jay."
+      "type": 1,
+      "prompt_text": "Less, please.",
+      "audio_id": "unit3-q18",
+      "image_ids": [
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_slower",
+        "i3b_louder"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_slower",
+        "i3b_louder"
+      ],
+      "correct": "i3b_less",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "Jay is taller.": "Not quite — try again!",
-        "Same height.": "Not quite — try again!"
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_smaller": "smaller",
+        "i3b_slower": "slower",
+        "i3b_louder": "louder"
+      }
     },
     {
       "id": "i3b_u03_q19",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Equal.",
-        "Seoul is more crowded than Tongyeong.",
-        "Tongyeong is more.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Quieter, please.",
+      "audio_id": "unit3-q19",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_quieter",
+        "i3b_slower",
+        "i3b_smaller"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_quieter",
+        "i3b_slower",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_quieter",
       "why_wrong": {
-        "Equal.": "Not quite — try again!",
-        "Tongyeong is more.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_quieter": "quieter",
+        "i3b_slower": "slower",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q20",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "more hard",
-        "harder",
-        "hardly",
-        "hardest"
+      "type": 1,
+      "prompt_text": "Louder, please.",
+      "audio_id": "unit3-q20",
+      "image_ids": [
+        "i3b_less",
+        "i3b_louder",
+        "i3b_cooler",
+        "i3b_smaller"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_less",
+        "i3b_louder",
+        "i3b_cooler",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_louder",
       "why_wrong": {
-        "more hard": "Not quite — try again!",
-        "hardly": "Not quite — try again!",
-        "hardest": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_louder": "louder",
+        "i3b_cooler": "cooler",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q21",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "A mouse is bigger.",
-        "An elephant is bigger than a mouse.",
-        "I am twelve.",
-        "They are same."
+      "type": 1,
+      "prompt_text": "Slower, please.",
+      "audio_id": "unit3-q21",
+      "image_ids": [
+        "i3b_louder",
+        "i3b_cooler",
+        "i3b_less",
+        "i3b_slower"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_louder",
+        "i3b_cooler",
+        "i3b_less",
+        "i3b_slower"
+      ],
+      "correct": "i3b_slower",
       "why_wrong": {
-        "A mouse is bigger.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "They are same.": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_louder": "louder",
+        "i3b_cooler": "cooler",
+        "i3b_less": "less",
+        "i3b_slower": "slower"
+      }
     },
     {
       "id": "i3b_u03_q22",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "more interestinger",
-        "interestinger",
-        "most interesting",
-        "This book is more interesting than that one."
+      "type": 1,
+      "prompt_text": "Warmer, please.",
+      "audio_id": "unit3-q22",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_quieter"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_warmer",
       "why_wrong": {
-        "more interestinger": "Not quite — try again!",
-        "interestinger": "Not quite — try again!",
-        "most interesting": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_less": "less",
+        "i3b_smaller": "smaller",
+        "i3b_quieter": "quieter"
+      }
     },
     {
       "id": "i3b_u03_q23",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Jay is taller.",
-        "Same height.",
-        "I like blue.",
-        "Minho is taller than Jay."
+      "type": 1,
+      "prompt_text": "Bigger, please.",
+      "audio_id": "unit3-q23",
+      "image_ids": [
+        "i3b_slower",
+        "i3b_louder",
+        "i3b_higher",
+        "i3b_bigger"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_slower",
+        "i3b_louder",
+        "i3b_higher",
+        "i3b_bigger"
+      ],
+      "correct": "i3b_bigger",
       "why_wrong": {
-        "Jay is taller.": "Not quite — try again!",
-        "Same height.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slower": "slower",
+        "i3b_louder": "louder",
+        "i3b_higher": "higher",
+        "i3b_bigger": "bigger"
+      }
     },
     {
       "id": "i3b_u03_q24",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tongyeong is more.",
-        "Equal.",
-        "Seoul is more crowded than Tongyeong.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Higher, please.",
+      "audio_id": "unit3-q24",
+      "image_ids": [
+        "i3b_bigger",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_bigger",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_higher",
       "why_wrong": {
-        "Tongyeong is more.": "Not quite — try again!",
-        "Equal.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bigger": "bigger",
+        "i3b_less": "less",
+        "i3b_higher": "higher",
+        "i3b_quieter": "quieter"
+      }
     },
     {
       "id": "i3b_u03_q25",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "more hard",
-        "harder",
-        "hardest",
-        "hardly"
+      "type": 1,
+      "prompt_text": "Cooler, please.",
+      "audio_id": "unit3-q25",
+      "image_ids": [
+        "i3b_higher",
+        "i3b_warmer",
+        "i3b_cooler",
+        "i3b_more"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_higher",
+        "i3b_warmer",
+        "i3b_cooler",
+        "i3b_more"
+      ],
+      "correct": "i3b_cooler",
       "why_wrong": {
-        "more hard": "Not quite — try again!",
-        "hardest": "Not quite — try again!",
-        "hardly": "Not quite — try again!"
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_higher": "higher",
+        "i3b_warmer": "warmer",
+        "i3b_cooler": "cooler",
+        "i3b_more": "more"
+      }
     },
     {
       "id": "i3b_u03_q26",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are same.",
-        "I am twelve.",
-        "An elephant is bigger than a mouse.",
-        "A mouse is bigger."
+      "type": 1,
+      "prompt_text": "Smaller, please.",
+      "audio_id": "unit3-q26",
+      "image_ids": [
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_more",
+        "i3b_quieter"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_less",
+        "i3b_smaller",
+        "i3b_more",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_smaller",
       "why_wrong": {
-        "They are same.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_smaller": "smaller",
+        "i3b_more": "more",
+        "i3b_quieter": "quieter"
+      }
     },
     {
       "id": "i3b_u03_q27",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "more interestinger",
-        "most interesting",
-        "This book is more interesting than that one.",
-        "interestinger"
+      "type": 1,
+      "prompt_text": "More, please.",
+      "audio_id": "unit3-q27",
+      "image_ids": [
+        "i3b_slower",
+        "i3b_more",
+        "i3b_warmer",
+        "i3b_cooler"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_slower",
+        "i3b_more",
+        "i3b_warmer",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_more",
       "why_wrong": {
-        "more interestinger": "Not quite — try again!",
-        "most interesting": "Not quite — try again!",
-        "interestinger": "Not quite — try again!"
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slower": "slower",
+        "i3b_more": "more",
+        "i3b_warmer": "warmer",
+        "i3b_cooler": "cooler"
+      }
     },
     {
       "id": "i3b_u03_q28",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Jay is taller.",
-        "Same height.",
-        "I like blue.",
-        "Minho is taller than Jay."
+      "type": 1,
+      "prompt_text": "Less, please.",
+      "audio_id": "unit3-q28",
+      "image_ids": [
+        "i3b_louder",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_smaller"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_louder",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_less",
       "why_wrong": {
-        "Jay is taller.": "Not quite — try again!",
-        "Same height.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_louder": "louder",
+        "i3b_less": "less",
+        "i3b_slower": "slower",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q29",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tongyeong is more.",
-        "Seoul is more crowded than Tongyeong.",
-        "He plays.",
-        "Equal."
+      "type": 1,
+      "prompt_text": "Quieter, please.",
+      "audio_id": "unit3-q29",
+      "image_ids": [
+        "i3b_cooler",
+        "i3b_louder",
+        "i3b_quieter",
+        "i3b_smaller"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_cooler",
+        "i3b_louder",
+        "i3b_quieter",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_quieter",
       "why_wrong": {
-        "Tongyeong is more.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "Equal.": "Not quite — try again!"
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooler": "cooler",
+        "i3b_louder": "louder",
+        "i3b_quieter": "quieter",
+        "i3b_smaller": "smaller"
+      }
     },
     {
       "id": "i3b_u03_q30",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "harder",
-        "hardest",
-        "hardly",
-        "more hard"
+      "type": 1,
+      "prompt_text": "Louder, please.",
+      "audio_id": "unit3-q30",
+      "image_ids": [
+        "i3b_bigger",
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_more"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_bigger",
+        "i3b_warmer",
+        "i3b_louder",
+        "i3b_more"
+      ],
+      "correct": "i3b_louder",
       "why_wrong": {
-        "hardest": "Not quite — try again!",
-        "hardly": "Not quite — try again!",
-        "more hard": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!"
       },
       "unit": 3,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bigger": "bigger",
+        "i3b_warmer": "warmer",
+        "i3b_louder": "louder",
+        "i3b_more": "more"
+      }
     }
   ]
 }

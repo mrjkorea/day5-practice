@@ -403,7 +403,7 @@
         {
           "id": "unit01",
           "path": "staging/INT3B/unit01/questions.json",
-          "title": "Intermediate 3B Unit 1: School Grades",
+          "title": "Intermediate 3B Unit 1: What Grade Are You In?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -411,7 +411,7 @@
         {
           "id": "unit02",
           "path": "staging/INT3B/unit02/questions.json",
-          "title": "Intermediate 3B Unit 2: True or False",
+          "title": "Intermediate 3B Unit 2: Is This a Gayageum?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -419,7 +419,7 @@
         {
           "id": "unit03",
           "path": "staging/INT3B/unit03/questions.json",
-          "title": "Intermediate 3B Unit 3: Comparative Adjectives",
+          "title": "Intermediate 3B Unit 3: Bigger Please!",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -427,7 +427,7 @@
         {
           "id": "unit04",
           "path": "staging/INT3B/unit04/questions.json",
-          "title": "Intermediate 3B Unit 4: Who Is That?",
+          "title": "Intermediate 3B Unit 4: Who is This?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -435,7 +435,7 @@
         {
           "id": "unit05",
           "path": "staging/INT3B/unit05/questions.json",
-          "title": "Intermediate 3B Unit 5: Commands and Requests",
+          "title": "Intermediate 3B Unit 5: EAT UP",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -443,15 +443,7 @@
         {
           "id": "unit06",
           "path": "staging/INT3B/unit06/questions.json",
-          "title": "Intermediate 3B Unit 6: Fruits",
-          "kind": "unit",
-          "count": 30,
-          "pass_percent": 80
-        },
-        {
-          "id": "unit07",
-          "path": "staging/INT3B/unit07/questions.json",
-          "title": "Intermediate 3B Unit 7: Don't Forget",
+          "title": "Intermediate 3B Unit 6: WHAT FRUIT ARE THESE?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -459,7 +451,7 @@
         {
           "id": "unit08",
           "path": "staging/INT3B/unit08/questions.json",
-          "title": "Intermediate 3B Unit 8: Meeting Foreigners",
+          "title": "Intermediate 3B Unit 8: Do You Like Korea?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -469,7 +461,7 @@
           "path": "staging/INT3B/midterm_1_4/questions.json",
           "title": "Intermediate 3B Midterm Units 1–4",
           "kind": "midterm_1_4",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -477,7 +469,7 @@
           "path": "staging/INT3B/midterm_5_8/questions.json",
           "title": "Intermediate 3B Midterm Units 5–8",
           "kind": "midterm_5_8",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -485,7 +477,7 @@
           "path": "staging/INT3B/final/questions.json",
           "title": "Intermediate 3B Final Exam",
           "kind": "final",
-          "count": 32,
+          "count": 35,
           "pass_percent": 80
         }
       ],
@@ -493,7 +485,7 @@
         "pictures": "images/int3b",
         "audio": "audio/int3b"
       },
-      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+      "staging_note": "REAL packs wired 2026-09-18 (int3b-ready). unit07 skipped (incomplete source q18–q21). 98/98 PNGs. Audio via Web Speech TTS fallback."
     },
     {
       "id": "int3c",

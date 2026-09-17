@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 5: Commands and Requests",
+    "title": "EAT UP",
     "kind": "unit",
     "units_covered": [
       5
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u05_q01",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "Please open your books.",
-        "I like cats.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q01",
+      "image_ids": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_eatup",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooldown": "cool down",
+        "i3b_yessir": "yes sir",
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up"
+      }
     },
     {
       "id": "i3b_u05_q02",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "You sit.",
-        "Sitting down.",
-        "Sit down now!",
-        "Please sit down."
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q02",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_washup",
       "why_wrong": {
-        "You sit.": "Not quite — try again!",
-        "Sitting down.": "Not quite — try again!",
-        "Sit down now!": "Not quite — try again!"
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_cooldown": "cool down",
+        "i3b_washup": "wash up",
+        "i3b_quietdown": "quiet down"
+      }
     },
     {
       "id": "i3b_u05_q03",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't run in the hallway.",
-        "He reads.",
-        "She sings.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "unit5-q03",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_hurryup",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_eatup": "eat up",
+        "i3b_cooldown": "cool down",
+        "i3b_quietdown": "quiet down"
+      }
     },
     {
       "id": "i3b_u05_q04",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Listen carefully, please.",
-        "I like blue.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "unit5-q04",
+      "image_ids": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_cleanup",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cleanup": "clean up",
+        "i3b_yessir": "yes sir",
+        "i3b_getdown": "get down",
+        "i3b_slowdown": "slow down"
+      }
     },
     {
       "id": "i3b_u05_q05",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Write your name at the top.",
-        "He runs.",
-        "I have homework.",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Slow down!",
+      "audio_id": "unit5-q05",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_slowdown",
+        "i3b_yesmaam",
+        "i3b_giveup"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_hurryup",
+        "i3b_slowdown",
+        "i3b_yesmaam",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_slowdown",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_slowdown": "slow down",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_giveup": "give up"
+      }
     },
     {
       "id": "i3b_u05_q06",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Please open your books.",
-        "She is tall.",
-        "I like cats.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Lay down!",
+      "audio_id": "unit5-q06",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_slowdown",
+        "i3b_laydown"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_slowdown",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_laydown",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down",
+        "i3b_laydown": "lay down"
+      }
     },
     {
       "id": "i3b_u05_q07",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sit down now!",
-        "Please sit down.",
-        "You sit.",
-        "Sitting down."
+      "type": 1,
+      "prompt_text": "Get down!",
+      "audio_id": "unit5-q07",
+      "image_ids": [
+        "i3b_washup",
+        "i3b_okdad",
+        "i3b_getdown",
+        "i3b_eatup"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_washup",
+        "i3b_okdad",
+        "i3b_getdown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_getdown",
       "why_wrong": {
-        "Sit down now!": "Not quite — try again!",
-        "You sit.": "Not quite — try again!",
-        "Sitting down.": "Not quite — try again!"
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_washup": "wash up",
+        "i3b_okdad": "okay dad",
+        "i3b_getdown": "get down",
+        "i3b_eatup": "eat up"
+      }
     },
     {
       "id": "i3b_u05_q08",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Don't run in the hallway.",
-        "She sings.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Quiet down!",
+      "audio_id": "unit5-q08",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_eatup",
+        "i3b_cleanup",
+        "i3b_hurryup"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_quietdown",
+        "i3b_eatup",
+        "i3b_cleanup",
+        "i3b_hurryup"
+      ],
+      "correct": "i3b_quietdown",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_eatup": "eat up",
+        "i3b_cleanup": "clean up",
+        "i3b_hurryup": "hurry up"
+      }
     },
     {
       "id": "i3b_u05_q09",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He eats.",
-        "Listen carefully, please.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Give up!",
+      "audio_id": "unit5-q09",
+      "image_ids": [
+        "i3b_giveup",
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_eatup"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_giveup",
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_giveup",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_giveup": "give up",
+        "i3b_quietdown": "quiet down",
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up"
+      }
     },
     {
       "id": "i3b_u05_q10",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "Write your name at the top.",
-        "He runs.",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Cool down!",
+      "audio_id": "unit5-q10",
+      "image_ids": [
+        "i3b_okmom",
+        "i3b_okdad",
+        "i3b_quietdown",
+        "i3b_cooldown"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_okmom",
+        "i3b_okdad",
+        "i3b_quietdown",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_cooldown",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okmom": "okay mom",
+        "i3b_okdad": "okay dad",
+        "i3b_quietdown": "quiet down",
+        "i3b_cooldown": "cool down"
+      }
     },
     {
       "id": "i3b_u05_q11",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "She is tall.",
-        "He has a bike.",
-        "Please open your books."
+      "type": 1,
+      "prompt_text": "Okay, mom.",
+      "audio_id": "unit5-q11",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_okmom",
+        "i3b_cooldown"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_okmom",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_okmom",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_yessir": "yes sir",
+        "i3b_okmom": "okay mom",
+        "i3b_cooldown": "cool down"
+      }
     },
     {
       "id": "i3b_u05_q12",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sit down now!",
-        "Please sit down.",
-        "You sit.",
-        "Sitting down."
+      "type": 1,
+      "prompt_text": "Yes, sir!",
+      "audio_id": "unit5-q12",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_eatup"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_yessir",
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_yessir",
       "why_wrong": {
-        "Sit down now!": "Not quite — try again!",
-        "You sit.": "Not quite — try again!",
-        "Sitting down.": "Not quite — try again!"
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up"
+      }
     },
     {
       "id": "i3b_u05_q13",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I am fine.",
-        "She sings.",
-        "Don't run in the hallway."
+      "type": 1,
+      "prompt_text": "Yes, ma'am!",
+      "audio_id": "unit5-q13",
+      "image_ids": [
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_hurryup",
+        "i3b_cleanup"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_hurryup",
+        "i3b_cleanup"
+      ],
+      "correct": "i3b_yesmaam",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_eatup": "eat up",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_hurryup": "hurry up",
+        "i3b_cleanup": "clean up"
+      }
     },
     {
       "id": "i3b_u05_q14",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Listen carefully, please.",
-        "She swims.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "Okay, dad.",
+      "audio_id": "unit5-q14",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_laydown",
+        "i3b_getdown"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_laydown",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_okdad",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up",
+        "i3b_laydown": "lay down",
+        "i3b_getdown": "get down"
+      }
     },
     {
       "id": "i3b_u05_q15",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Write your name at the top.",
-        "I have homework.",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q15",
+      "image_ids": [
+        "i3b_laydown",
+        "i3b_okmom",
+        "i3b_eatup",
+        "i3b_giveup"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_laydown",
+        "i3b_okmom",
+        "i3b_eatup",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_eatup",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_laydown": "lay down",
+        "i3b_okmom": "okay mom",
+        "i3b_eatup": "eat up",
+        "i3b_giveup": "give up"
+      }
     },
     {
       "id": "i3b_u05_q16",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I like cats.",
-        "Please open your books.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q16",
+      "image_ids": [
+        "i3b_okmom",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_washup"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_okmom",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_washup"
+      ],
+      "correct": "i3b_washup",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okmom": "okay mom",
+        "i3b_quietdown": "quiet down",
+        "i3b_yessir": "yes sir",
+        "i3b_washup": "wash up"
+      }
     },
     {
       "id": "i3b_u05_q17",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sitting down.",
-        "You sit.",
-        "Sit down now!",
-        "Please sit down."
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "unit5-q17",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_okdad",
+        "i3b_giveup",
+        "i3b_laydown"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_hurryup",
+        "i3b_okdad",
+        "i3b_giveup",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_hurryup",
       "why_wrong": {
-        "Sitting down.": "Not quite — try again!",
-        "You sit.": "Not quite — try again!",
-        "Sit down now!": "Not quite — try again!"
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_okdad": "okay dad",
+        "i3b_giveup": "give up",
+        "i3b_laydown": "lay down"
+      }
     },
     {
       "id": "i3b_u05_q18",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He reads.",
-        "She sings.",
-        "Don't run in the hallway."
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "unit5-q18",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_cleanup",
+        "i3b_slowdown",
+        "i3b_yessir"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_hurryup",
+        "i3b_cleanup",
+        "i3b_slowdown",
+        "i3b_yessir"
+      ],
+      "correct": "i3b_cleanup",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_cleanup": "clean up",
+        "i3b_slowdown": "slow down",
+        "i3b_yessir": "yes sir"
+      }
     },
     {
       "id": "i3b_u05_q19",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Listen carefully, please.",
-        "She swims.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "Slow down!",
+      "audio_id": "unit5-q19",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_slowdown",
+        "i3b_washup",
+        "i3b_laydown"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_yessir",
+        "i3b_slowdown",
+        "i3b_washup",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_slowdown",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_slowdown": "slow down",
+        "i3b_washup": "wash up",
+        "i3b_laydown": "lay down"
+      }
     },
     {
       "id": "i3b_u05_q20",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "She jumps.",
-        "Write your name at the top.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Lay down!",
+      "audio_id": "unit5-q20",
+      "image_ids": [
+        "i3b_cleanup",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_giveup"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_cleanup",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_laydown",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cleanup": "clean up",
+        "i3b_okmom": "okay mom",
+        "i3b_laydown": "lay down",
+        "i3b_giveup": "give up"
+      }
     },
     {
       "id": "i3b_u05_q21",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Please open your books.",
-        "He has a bike.",
-        "She is tall.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Get down!",
+      "audio_id": "unit5-q21",
+      "image_ids": [
+        "i3b_slowdown",
+        "i3b_okmom",
+        "i3b_cleanup",
+        "i3b_getdown"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_slowdown",
+        "i3b_okmom",
+        "i3b_cleanup",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_getdown",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slowdown": "slow down",
+        "i3b_okmom": "okay mom",
+        "i3b_cleanup": "clean up",
+        "i3b_getdown": "get down"
+      }
     },
     {
       "id": "i3b_u05_q22",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sit down now!",
-        "Sitting down.",
-        "Please sit down.",
-        "You sit."
+      "type": 1,
+      "prompt_text": "Quiet down!",
+      "audio_id": "unit5-q22",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_okmom"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_yessir",
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_okmom"
+      ],
+      "correct": "i3b_quietdown",
       "why_wrong": {
-        "Sit down now!": "Not quite — try again!",
-        "Sitting down.": "Not quite — try again!",
-        "You sit.": "Not quite — try again!"
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_quietdown": "quiet down",
+        "i3b_washup": "wash up",
+        "i3b_okmom": "okay mom"
+      }
     },
     {
       "id": "i3b_u05_q23",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She sings.",
-        "Don't run in the hallway.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Give up!",
+      "audio_id": "unit5-q23",
+      "image_ids": [
+        "i3b_giveup",
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_okmom"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_giveup",
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_okmom"
+      ],
+      "correct": "i3b_giveup",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_giveup": "give up",
+        "i3b_hurryup": "hurry up",
+        "i3b_eatup": "eat up",
+        "i3b_okmom": "okay mom"
+      }
     },
     {
       "id": "i3b_u05_q24",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Listen carefully, please.",
-        "I like blue.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Cool down!",
+      "audio_id": "unit5-q24",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_cooldown"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_cooldown",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_cooldown": "cool down"
+      }
     },
     {
       "id": "i3b_u05_q25",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "He runs.",
-        "She jumps.",
-        "Write your name at the top."
+      "type": 1,
+      "prompt_text": "Okay, mom.",
+      "audio_id": "unit5-q25",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_washup"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_okdad",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_washup"
+      ],
+      "correct": "i3b_okmom",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_okmom": "okay mom",
+        "i3b_laydown": "lay down",
+        "i3b_washup": "wash up"
+      }
     },
     {
       "id": "i3b_u05_q26",
-      "type": 4,
-      "prompt_text": "What should the teacher say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Please open your books.",
-        "He has a bike.",
-        "I like cats.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Yes, sir!",
+      "audio_id": "unit5-q26",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_giveup",
+        "i3b_cooldown",
+        "i3b_yessir"
       ],
-      "correct": "Please open your books.",
+      "choices": [
+        "i3b_quietdown",
+        "i3b_giveup",
+        "i3b_cooldown",
+        "i3b_yessir"
+      ],
+      "correct": "i3b_yessir",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_giveup": "give up",
+        "i3b_cooldown": "cool down",
+        "i3b_yessir": "yes sir"
+      }
     },
     {
       "id": "i3b_u05_q27",
-      "type": 2,
-      "prompt_text": "Choose a polite command.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sit down now!",
-        "You sit.",
-        "Please sit down.",
-        "Sitting down."
+      "type": 1,
+      "prompt_text": "Yes, ma'am!",
+      "audio_id": "unit5-q27",
+      "image_ids": [
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_washup",
+        "i3b_slowdown"
       ],
-      "correct": "Please sit down.",
+      "choices": [
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_yesmaam",
       "why_wrong": {
-        "Sit down now!": "Not quite — try again!",
-        "You sit.": "Not quite — try again!",
-        "Sitting down.": "Not quite — try again!"
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_okdad": "okay dad",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down"
+      }
     },
     {
       "id": "i3b_u05_q28",
-      "type": 2,
-      "prompt_text": "Tell them what to do.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I am fine.",
-        "Don't run in the hallway.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Okay, dad.",
+      "audio_id": "unit5-q28",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_okdad",
+        "i3b_cooldown"
       ],
-      "correct": "Don't run in the hallway.",
+      "choices": [
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_okdad",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_okdad",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_laydown": "lay down",
+        "i3b_okdad": "okay dad",
+        "i3b_cooldown": "cool down"
+      }
     },
     {
       "id": "i3b_u05_q29",
-      "type": 4,
-      "prompt_text": "How do you ask someone to listen?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Listen carefully, please.",
-        "He eats.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q29",
+      "image_ids": [
+        "i3b_laydown",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_getdown"
       ],
-      "correct": "Listen carefully, please.",
+      "choices": [
+        "i3b_laydown",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_eatup",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up",
+        "i3b_cooldown": "cool down",
+        "i3b_getdown": "get down"
+      }
     },
     {
       "id": "i3b_u05_q30",
-      "type": 4,
-      "prompt_text": "What is the teacher's instruction?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Write your name at the top.",
-        "I have homework.",
-        "She jumps.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q30",
+      "image_ids": [
+        "i3b_getdown",
+        "i3b_eatup",
+        "i3b_washup",
+        "i3b_slowdown"
       ],
-      "correct": "Write your name at the top.",
+      "choices": [
+        "i3b_getdown",
+        "i3b_eatup",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_washup",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
       },
       "unit": 5,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_getdown": "get down",
+        "i3b_eatup": "eat up",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down"
+      }
     }
   ]
 }

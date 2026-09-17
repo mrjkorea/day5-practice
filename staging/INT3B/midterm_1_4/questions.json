@@ -1,16 +1,11 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Midterm Units 1–4",
-    "kind": "midterm_1_4",
-    "units_covered": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "title": "Midterm 1–4",
+    "kind": "midterm",
+    "units_covered": [],
+    "count": 34,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -21,596 +16,1097 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
-      "id": "i3b_midterm_1_4_q01",
-      "type": 4,
-      "prompt_text": "What grade are you in?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I have a cat.",
-        "I'm in the sixth grade.",
-        "I like red."
+      "id": "i3b_midterm1_4_q01",
+      "type": 1,
+      "prompt_text": "I am in kindergarten.",
+      "audio_id": "midterm1-4-q01",
+      "image_ids": [
+        "i3b_kinder",
+        "i3b_dad",
+        "i3b_warmer",
+        "i3b_g9"
       ],
-      "correct": "I'm in the sixth grade.",
+      "choices": [
+        "i3b_kinder",
+        "i3b_dad",
+        "i3b_warmer",
+        "i3b_g9"
+      ],
+      "correct": "i3b_kinder",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!",
+        "i3b_g9": "You tapped \"the ninth grade\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_kinder": "kindergarten",
+        "i3b_dad": "dad",
+        "i3b_warmer": "warmer",
+        "i3b_g9": "the ninth grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q02",
-      "type": 4,
-      "prompt_text": "Which grade is he in?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "He eats.",
-        "He's in the fourth grade.",
-        "He is tall."
+      "id": "i3b_midterm1_4_q02",
+      "type": 1,
+      "prompt_text": "I am in the first grade.",
+      "audio_id": "midterm1-4-q02",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_g1"
       ],
-      "correct": "He's in the fourth grade.",
+      "choices": [
+        "i3b_sister",
+        "i3b_less",
+        "i3b_slower",
+        "i3b_g1"
+      ],
+      "correct": "i3b_g1",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_less": "less",
+        "i3b_slower": "slower",
+        "i3b_g1": "the first grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q03",
-      "type": 4,
-      "prompt_text": "Are you in middle school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She sings.",
-        "Yes, I'm in seventh grade.",
-        "I like blue."
+      "id": "i3b_midterm1_4_q03",
+      "type": 1,
+      "prompt_text": "I am in the second grade.",
+      "audio_id": "midterm1-4-q03",
+      "image_ids": [
+        "i3b_more",
+        "i3b_sister",
+        "i3b_g2",
+        "i3b_g8"
       ],
-      "correct": "Yes, I'm in seventh grade.",
+      "choices": [
+        "i3b_more",
+        "i3b_sister",
+        "i3b_g2",
+        "i3b_g8"
+      ],
+      "correct": "i3b_g2",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_more": "You tapped \"more\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!",
+        "i3b_g8": "You tapped \"the eighth grade\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_more": "more",
+        "i3b_sister": "sister",
+        "i3b_g2": "the second grade",
+        "i3b_g8": "the eighth grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q04",
-      "type": 4,
-      "prompt_text": "What grade comes after fifth?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "Fourth grade",
-        "I am ten.",
-        "Sixth grade."
+      "id": "i3b_midterm1_4_q04",
+      "type": 1,
+      "prompt_text": "I am in the third grade.",
+      "audio_id": "midterm1-4-q04",
+      "image_ids": [
+        "i3b_slower",
+        "i3b_cooler",
+        "i3b_g3",
+        "i3b_g7"
       ],
-      "correct": "Sixth grade.",
+      "choices": [
+        "i3b_slower",
+        "i3b_cooler",
+        "i3b_g3",
+        "i3b_g7"
+      ],
+      "correct": "i3b_g3",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "Fourth grade": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!",
+        "i3b_g7": "You tapped \"the seventh grade\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slower": "slower",
+        "i3b_cooler": "cooler",
+        "i3b_g3": "the third grade",
+        "i3b_g7": "the seventh grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q05",
-      "type": 2,
-      "prompt_text": "She is in ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "three grade",
-        "the grade three",
-        "grade three school",
-        "third grade"
+      "id": "i3b_midterm1_4_q05",
+      "type": 1,
+      "prompt_text": "I am in the fourth grade.",
+      "audio_id": "midterm1-4-q05",
+      "image_ids": [
+        "i3b_g4",
+        "i3b_louder",
+        "i3b_gayageum",
+        "i3b_me"
       ],
-      "correct": "third grade",
+      "choices": [
+        "i3b_g4",
+        "i3b_louder",
+        "i3b_gayageum",
+        "i3b_me"
+      ],
+      "correct": "i3b_g4",
       "why_wrong": {
-        "three grade": "Not quite — try again!",
-        "the grade three": "Not quite — try again!",
-        "grade three school": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"I am in the fourth grade.\". The correct picture is \"the fourth grade\". Listen again!",
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"I am in the fourth grade.\". The correct picture is \"the fourth grade\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"I am in the fourth grade.\". The correct picture is \"the fourth grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g4": "the fourth grade",
+        "i3b_louder": "louder",
+        "i3b_gayageum": "gayageum",
+        "i3b_me": "me"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q06",
-      "type": 4,
-      "prompt_text": "What grade are you in?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm in the sixth grade.",
-        "I like red.",
-        "I am fine.",
-        "I have a cat."
+      "id": "i3b_midterm1_4_q06",
+      "type": 1,
+      "prompt_text": "I am in the fifth grade.",
+      "audio_id": "midterm1-4-q06",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_ukulele",
+        "i3b_g5",
+        "i3b_g2"
       ],
-      "correct": "I'm in the sixth grade.",
+      "choices": [
+        "i3b_drum",
+        "i3b_ukulele",
+        "i3b_g5",
+        "i3b_g2"
+      ],
+      "correct": "i3b_g5",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"I am in the fifth grade.\". The correct picture is \"the fifth grade\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"I am in the fifth grade.\". The correct picture is \"the fifth grade\". Listen again!",
+        "i3b_g2": "You tapped \"the second grade\", but the audio said: \"I am in the fifth grade.\". The correct picture is \"the fifth grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_ukulele": "ukulele",
+        "i3b_g5": "the fifth grade",
+        "i3b_g2": "the second grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q07",
-      "type": 4,
-      "prompt_text": "Which grade is he in?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's in the fourth grade.",
-        "He is tall.",
-        "He plays.",
-        "He eats."
+      "id": "i3b_midterm1_4_q07",
+      "type": 1,
+      "prompt_text": "I am in the sixth grade.",
+      "audio_id": "midterm1-4-q07",
+      "image_ids": [
+        "i3b_g6",
+        "i3b_sax",
+        "i3b_kinder",
+        "i3b_grandma"
       ],
-      "correct": "He's in the fourth grade.",
+      "choices": [
+        "i3b_g6",
+        "i3b_sax",
+        "i3b_kinder",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_g6",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"I am in the sixth grade.\". The correct picture is \"the sixth grade\". Listen again!",
+        "i3b_kinder": "You tapped \"kindergarten\", but the audio said: \"I am in the sixth grade.\". The correct picture is \"the sixth grade\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"I am in the sixth grade.\". The correct picture is \"the sixth grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g6": "the sixth grade",
+        "i3b_sax": "saxophone",
+        "i3b_kinder": "kindergarten",
+        "i3b_grandma": "grandmother"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q08",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Maybe",
-        "True",
-        "False",
-        "Sometimes"
+      "id": "i3b_midterm1_4_q08",
+      "type": 1,
+      "prompt_text": "I am in the seventh grade.",
+      "audio_id": "midterm1-4-q08",
+      "image_ids": [
+        "i3b_bigger",
+        "i3b_g4",
+        "i3b_g7",
+        "i3b_quieter"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_bigger",
+        "i3b_g4",
+        "i3b_g7",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_g7",
       "why_wrong": {
-        "Maybe": "Not quite — try again!",
-        "True": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!"
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"I am in the seventh grade.\". The correct picture is \"the seventh grade\". Listen again!",
+        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"I am in the seventh grade.\". The correct picture is \"the seventh grade\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"I am in the seventh grade.\". The correct picture is \"the seventh grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bigger": "bigger",
+        "i3b_g4": "the fourth grade",
+        "i3b_g7": "the seventh grade",
+        "i3b_quieter": "quieter"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q09",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, correct.",
-        "I am fine.",
-        "No, that's wrong.",
-        "He plays."
+      "id": "i3b_midterm1_4_q09",
+      "type": 1,
+      "prompt_text": "I am in the eighth grade.",
+      "audio_id": "midterm1-4-q09",
+      "image_ids": [
+        "i3b_quieter",
+        "i3b_g8",
+        "i3b_g1",
+        "i3b_slower"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_quieter",
+        "i3b_g8",
+        "i3b_g1",
+        "i3b_slower"
+      ],
+      "correct": "i3b_g8",
       "why_wrong": {
-        "Yes, correct.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"I am in the eighth grade.\". The correct picture is \"the eighth grade\". Listen again!",
+        "i3b_g1": "You tapped \"the first grade\", but the audio said: \"I am in the eighth grade.\". The correct picture is \"the eighth grade\". Listen again!",
+        "i3b_slower": "You tapped \"slower\", but the audio said: \"I am in the eighth grade.\". The correct picture is \"the eighth grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quieter": "quieter",
+        "i3b_g8": "the eighth grade",
+        "i3b_g1": "the first grade",
+        "i3b_slower": "slower"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q10",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "False",
-        "I don't know.",
-        "True"
+      "id": "i3b_midterm1_4_q10",
+      "type": 1,
+      "prompt_text": "I am in the ninth grade.",
+      "audio_id": "midterm1-4-q10",
+      "image_ids": [
+        "i3b_g6",
+        "i3b_more",
+        "i3b_g9",
+        "i3b_grandpa"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_g6",
+        "i3b_more",
+        "i3b_g9",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_g9",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "False": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"I am in the ninth grade.\". The correct picture is \"the ninth grade\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"I am in the ninth grade.\". The correct picture is \"the ninth grade\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"I am in the ninth grade.\". The correct picture is \"the ninth grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g6": "the sixth grade",
+        "i3b_more": "more",
+        "i3b_g9": "the ninth grade",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q11",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They is students.",
-        "They are students.",
-        "They am students.",
-        "They be students."
+      "id": "i3b_midterm1_4_q11",
+      "type": 1,
+      "prompt_text": "I am in middle school.",
+      "audio_id": "midterm1-4-q11",
+      "image_ids": [
+        "i3b_g3",
+        "i3b_middle",
+        "i3b_cooler",
+        "i3b_drum"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_g3",
+        "i3b_middle",
+        "i3b_cooler",
+        "i3b_drum"
+      ],
+      "correct": "i3b_middle",
       "why_wrong": {
-        "They is students.": "Not quite — try again!",
-        "They am students.": "Not quite — try again!",
-        "They be students.": "Not quite — try again!"
+        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"I am in middle school.\". The correct picture is \"middle school\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"I am in middle school.\". The correct picture is \"middle school\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"I am in middle school.\". The correct picture is \"middle school\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g3": "the third grade",
+        "i3b_middle": "middle school",
+        "i3b_cooler": "cooler",
+        "i3b_drum": "drum"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q12",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "No, it should be 'He goes to school.'",
-        "Yes, perfect.",
-        "I like red."
+      "id": "i3b_midterm1_4_q12",
+      "type": 1,
+      "prompt_text": "I am in the 11th grade.",
+      "audio_id": "midterm1-4-q12",
+      "image_ids": [
+        "i3b_dad",
+        "i3b_g11",
+        "i3b_flute",
+        "i3b_quieter"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_dad",
+        "i3b_g11",
+        "i3b_flute",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_g11",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "Yes, perfect.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"I am in the 11th grade.\". The correct picture is \"the 11th grade\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"I am in the 11th grade.\". The correct picture is \"the 11th grade\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"I am in the 11th grade.\". The correct picture is \"the 11th grade\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_dad": "dad",
+        "i3b_g11": "the 11th grade",
+        "i3b_flute": "flute",
+        "i3b_quieter": "quieter"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q13",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Maybe",
-        "True",
-        "False",
-        "Sometimes"
+      "id": "i3b_midterm1_4_q13",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "midterm1-4-q13",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_cooler",
+        "i3b_grandpa",
+        "i3b_guitar"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_grandma",
+        "i3b_cooler",
+        "i3b_grandpa",
+        "i3b_guitar"
+      ],
+      "correct": "i3b_guitar",
       "why_wrong": {
-        "Maybe": "Not quite — try again!",
-        "True": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_cooler": "cooler",
+        "i3b_grandpa": "grandfather",
+        "i3b_guitar": "guitar"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q14",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, correct.",
-        "No, that's wrong.",
-        "He plays.",
-        "I am fine."
+      "id": "i3b_midterm1_4_q14",
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "midterm1-4-q14",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_guitar",
+        "i3b_piano",
+        "i3b_uncle"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_drum",
+        "i3b_guitar",
+        "i3b_piano",
+        "i3b_uncle"
+      ],
+      "correct": "i3b_piano",
       "why_wrong": {
-        "Yes, correct.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_guitar": "guitar",
+        "i3b_piano": "piano",
+        "i3b_uncle": "uncle"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q15",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "A mouse is bigger.",
-        "I am twelve.",
-        "They are same.",
-        "An elephant is bigger than a mouse."
+      "id": "i3b_midterm1_4_q15",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "midterm1-4-q15",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_warmer",
+        "i3b_brother"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_warmer",
+        "i3b_brother"
+      ],
+      "correct": "i3b_flute",
       "why_wrong": {
-        "A mouse is bigger.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "They are same.": "Not quite — try again!"
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_violin": "violin",
+        "i3b_warmer": "warmer",
+        "i3b_brother": "brother"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q16",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "more interestinger",
-        "This book is more interesting than that one.",
-        "interestinger",
-        "most interesting"
+      "id": "i3b_midterm1_4_q16",
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "midterm1-4-q16",
+      "image_ids": [
+        "i3b_uncle",
+        "i3b_kinder",
+        "i3b_g7",
+        "i3b_drum"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_uncle",
+        "i3b_kinder",
+        "i3b_g7",
+        "i3b_drum"
+      ],
+      "correct": "i3b_drum",
       "why_wrong": {
-        "more interestinger": "Not quite — try again!",
-        "interestinger": "Not quite — try again!",
-        "most interesting": "Not quite — try again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_kinder": "You tapped \"kindergarten\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_g7": "You tapped \"the seventh grade\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_uncle": "uncle",
+        "i3b_kinder": "kindergarten",
+        "i3b_g7": "the seventh grade",
+        "i3b_drum": "drum"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q17",
-      "type": 4,
-      "prompt_text": "Who is taller?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Minho is taller than Jay.",
-        "I like blue.",
-        "Jay is taller.",
-        "Same height."
+      "id": "i3b_midterm1_4_q17",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a violin.",
+      "audio_id": "midterm1-4-q17",
+      "image_ids": [
+        "i3b_higher",
+        "i3b_microwave",
+        "i3b_violin",
+        "i3b_piano"
       ],
-      "correct": "Minho is taller than Jay.",
+      "choices": [
+        "i3b_higher",
+        "i3b_microwave",
+        "i3b_violin",
+        "i3b_piano"
+      ],
+      "correct": "i3b_violin",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "Jay is taller.": "Not quite — try again!",
-        "Same height.": "Not quite — try again!"
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_higher": "higher",
+        "i3b_microwave": "microwave",
+        "i3b_violin": "violin",
+        "i3b_piano": "piano"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q18",
-      "type": 4,
-      "prompt_text": "Which city is more crowded?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Seoul is more crowded than Tongyeong.",
-        "He plays.",
-        "Equal.",
-        "Tongyeong is more."
+      "id": "i3b_midterm1_4_q18",
+      "type": 1,
+      "prompt_text": "It is a saxophone.",
+      "audio_id": "midterm1-4-q18",
+      "image_ids": [
+        "i3b_g8",
+        "i3b_sax",
+        "i3b_middle",
+        "i3b_brother"
       ],
-      "correct": "Seoul is more crowded than Tongyeong.",
+      "choices": [
+        "i3b_g8",
+        "i3b_sax",
+        "i3b_middle",
+        "i3b_brother"
+      ],
+      "correct": "i3b_sax",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "Equal.": "Not quite — try again!",
-        "Tongyeong is more.": "Not quite — try again!"
+        "i3b_g8": "You tapped \"the eighth grade\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_middle": "You tapped \"middle school\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g8": "the eighth grade",
+        "i3b_sax": "saxophone",
+        "i3b_middle": "middle school",
+        "i3b_brother": "brother"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q19",
-      "type": 2,
-      "prompt_text": "This test is ___ than the last one.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "harder",
-        "hardest",
-        "hardly",
-        "more hard"
+      "id": "i3b_midterm1_4_q19",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a microwave.",
+      "audio_id": "midterm1-4-q19",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_g3",
+        "i3b_dad",
+        "i3b_sax"
       ],
-      "correct": "harder",
+      "choices": [
+        "i3b_microwave",
+        "i3b_g3",
+        "i3b_dad",
+        "i3b_sax"
+      ],
+      "correct": "i3b_microwave",
       "why_wrong": {
-        "hardest": "Not quite — try again!",
-        "hardly": "Not quite — try again!",
-        "more hard": "Not quite — try again!"
+        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_g3": "the third grade",
+        "i3b_dad": "dad",
+        "i3b_sax": "saxophone"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q20",
-      "type": 4,
-      "prompt_text": "Which is bigger?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "An elephant is bigger than a mouse.",
-        "A mouse is bigger.",
-        "They are same."
+      "id": "i3b_midterm1_4_q20",
+      "type": 1,
+      "prompt_text": "Yes, it is!",
+      "audio_id": "midterm1-4-q20",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_uncle",
+        "i3b_g4",
+        "i3b_guitar"
       ],
-      "correct": "An elephant is bigger than a mouse.",
+      "choices": [
+        "i3b_gayageum",
+        "i3b_uncle",
+        "i3b_g4",
+        "i3b_guitar"
+      ],
+      "correct": "i3b_gayageum",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "A mouse is bigger.": "Not quite — try again!",
-        "They are same.": "Not quite — try again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_uncle": "uncle",
+        "i3b_g4": "the fourth grade",
+        "i3b_guitar": "guitar"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q21",
-      "type": 2,
-      "prompt_text": "Choose the comparative.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "interestinger",
-        "This book is more interesting than that one.",
-        "more interestinger",
-        "most interesting"
+      "id": "i3b_midterm1_4_q21",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a cello.",
+      "audio_id": "midterm1-4-q21",
+      "image_ids": [
+        "i3b_louder",
+        "i3b_g1",
+        "i3b_ukulele",
+        "i3b_cello"
       ],
-      "correct": "This book is more interesting than that one.",
+      "choices": [
+        "i3b_louder",
+        "i3b_g1",
+        "i3b_ukulele",
+        "i3b_cello"
+      ],
+      "correct": "i3b_cello",
       "why_wrong": {
-        "interestinger": "Not quite — try again!",
-        "more interestinger": "Not quite — try again!",
-        "most interesting": "Not quite — try again!"
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_g1": "You tapped \"the first grade\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_louder": "louder",
+        "i3b_g1": "the first grade",
+        "i3b_ukulele": "ukulele",
+        "i3b_cello": "cello"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q22",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's my aunt.",
-        "I am fine.",
-        "I like pizza.",
-        "He runs."
+      "id": "i3b_midterm1_4_q22",
+      "type": 1,
+      "prompt_text": "It is a ukulele.",
+      "audio_id": "midterm1-4-q22",
+      "image_ids": [
+        "i3b_less",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_g6"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_less",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_g6"
+      ],
+      "correct": "i3b_ukulele",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_less": "You tapped \"less\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_ukulele": "ukulele",
+        "i3b_violin": "violin",
+        "i3b_g6": "the sixth grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q23",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I don't think so.",
-        "He eats.",
-        "Yes, I am.",
-        "She sings."
+      "id": "i3b_midterm1_4_q23",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a trumpet.",
+      "audio_id": "midterm1-4-q23",
+      "image_ids": [
+        "i3b_higher",
+        "i3b_piano",
+        "i3b_mom",
+        "i3b_trumpet"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_higher",
+        "i3b_piano",
+        "i3b_mom",
+        "i3b_trumpet"
+      ],
+      "correct": "i3b_trumpet",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "Yes, I am.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_higher": "higher",
+        "i3b_piano": "piano",
+        "i3b_mom": "mom",
+        "i3b_trumpet": "trumpet"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q24",
-      "type": 4,
-      "prompt_text": "Who are those children?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "She reads.",
-        "They're new students.",
-        "He sleeps."
+      "id": "i3b_midterm1_4_q24",
+      "type": 1,
+      "prompt_text": "Slower, please.",
+      "audio_id": "midterm1-4-q24",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_louder",
+        "i3b_slower",
+        "i3b_g6"
       ],
-      "correct": "They're new students.",
+      "choices": [
+        "i3b_trumpet",
+        "i3b_louder",
+        "i3b_slower",
+        "i3b_g6"
+      ],
+      "correct": "i3b_slower",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_louder": "louder",
+        "i3b_slower": "slower",
+        "i3b_g6": "the sixth grade"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q25",
-      "type": 4,
-      "prompt_text": "Excuse me, who is she?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "That's our principal.",
-        "I like red."
+      "id": "i3b_midterm1_4_q25",
+      "type": 1,
+      "prompt_text": "Warmer, please.",
+      "audio_id": "midterm1-4-q25",
+      "image_ids": [
+        "i3b_quieter",
+        "i3b_less",
+        "i3b_bigger",
+        "i3b_warmer"
       ],
-      "correct": "That's our principal.",
+      "choices": [
+        "i3b_quieter",
+        "i3b_less",
+        "i3b_bigger",
+        "i3b_warmer"
+      ],
+      "correct": "i3b_warmer",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_less": "You tapped \"less\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_bigger": "You tapped \"bigger\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quieter": "quieter",
+        "i3b_less": "less",
+        "i3b_bigger": "bigger",
+        "i3b_warmer": "warmer"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q26",
-      "type": 4,
-      "prompt_text": "Have you met him before?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, who's he?",
-        "He plays.",
-        "She is kind.",
-        "I am ten."
+      "id": "i3b_midterm1_4_q26",
+      "type": 1,
+      "prompt_text": "Bigger, please.",
+      "audio_id": "midterm1-4-q26",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_bigger",
+        "i3b_g9",
+        "i3b_grandpa"
       ],
-      "correct": "No, who's he?",
+      "choices": [
+        "i3b_microwave",
+        "i3b_bigger",
+        "i3b_g9",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_bigger",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_g9": "You tapped \"the ninth grade\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_bigger": "bigger",
+        "i3b_g9": "the ninth grade",
+        "i3b_grandpa": "grandfather"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q27",
-      "type": 4,
-      "prompt_text": "Who is that woman?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I like pizza.",
-        "She's my aunt.",
-        "He runs."
+      "id": "i3b_midterm1_4_q27",
+      "type": 1,
+      "prompt_text": "Higher, please.",
+      "audio_id": "midterm1-4-q27",
+      "image_ids": [
+        "i3b_grandma",
+        "i3b_g9",
+        "i3b_me",
+        "i3b_higher"
       ],
-      "correct": "She's my aunt.",
+      "choices": [
+        "i3b_grandma",
+        "i3b_g9",
+        "i3b_me",
+        "i3b_higher"
+      ],
+      "correct": "i3b_higher",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_g9": "You tapped \"the ninth grade\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grandma": "grandmother",
+        "i3b_g9": "the ninth grade",
+        "i3b_me": "me",
+        "i3b_higher": "higher"
+      }
     },
     {
-      "id": "i3b_midterm_1_4_q28",
-      "type": 4,
-      "prompt_text": "Do you know that man?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "No, I don't think so.",
-        "He eats.",
-        "Yes, I am."
+      "id": "i3b_midterm1_4_q28",
+      "type": 1,
+      "prompt_text": "Cooler, please.",
+      "audio_id": "midterm1-4-q28",
+      "image_ids": [
+        "i3b_cooler",
+        "i3b_grandpa",
+        "i3b_g11",
+        "i3b_violin"
       ],
-      "correct": "No, I don't think so.",
+      "choices": [
+        "i3b_cooler",
+        "i3b_grandpa",
+        "i3b_g11",
+        "i3b_violin"
+      ],
+      "correct": "i3b_cooler",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "Yes, I am.": "Not quite — try again!"
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_g11": "You tapped \"the 11th grade\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"Cooler, please.\". The correct picture is \"cooler\". Listen again!"
       },
       "unit": null,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooler": "cooler",
+        "i3b_grandpa": "grandfather",
+        "i3b_g11": "the 11th grade",
+        "i3b_violin": "violin"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q29",
+      "type": 1,
+      "prompt_text": "Smaller, please.",
+      "audio_id": "midterm1-4-q29",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_g8",
+        "i3b_aunt",
+        "i3b_smaller"
+      ],
+      "choices": [
+        "i3b_gayageum",
+        "i3b_g8",
+        "i3b_aunt",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_smaller",
+      "why_wrong": {
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_g8": "You tapped \"the eighth grade\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"Smaller, please.\". The correct picture is \"smaller\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_g8": "the eighth grade",
+        "i3b_aunt": "aunt",
+        "i3b_smaller": "smaller"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q30",
+      "type": 1,
+      "prompt_text": "More, please.",
+      "audio_id": "midterm1-4-q30",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_g1",
+        "i3b_more",
+        "i3b_me"
+      ],
+      "choices": [
+        "i3b_warmer",
+        "i3b_g1",
+        "i3b_more",
+        "i3b_me"
+      ],
+      "correct": "i3b_more",
+      "why_wrong": {
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_g1": "You tapped \"the first grade\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"More, please.\". The correct picture is \"more\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_g1": "the first grade",
+        "i3b_more": "more",
+        "i3b_me": "me"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q31",
+      "type": 1,
+      "prompt_text": "Less, please.",
+      "audio_id": "midterm1-4-q31",
+      "image_ids": [
+        "i3b_aunt",
+        "i3b_less",
+        "i3b_dad",
+        "i3b_g5"
+      ],
+      "choices": [
+        "i3b_aunt",
+        "i3b_less",
+        "i3b_dad",
+        "i3b_g5"
+      ],
+      "correct": "i3b_less",
+      "why_wrong": {
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!",
+        "i3b_g5": "You tapped \"the fifth grade\", but the audio said: \"Less, please.\". The correct picture is \"less\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_aunt": "aunt",
+        "i3b_less": "less",
+        "i3b_dad": "dad",
+        "i3b_g5": "the fifth grade"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q32",
+      "type": 1,
+      "prompt_text": "Quieter, please.",
+      "audio_id": "midterm1-4-q32",
+      "image_ids": [
+        "i3b_less",
+        "i3b_cello",
+        "i3b_quieter",
+        "i3b_g5"
+      ],
+      "choices": [
+        "i3b_less",
+        "i3b_cello",
+        "i3b_quieter",
+        "i3b_g5"
+      ],
+      "correct": "i3b_quieter",
+      "why_wrong": {
+        "i3b_less": "You tapped \"less\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!",
+        "i3b_g5": "You tapped \"the fifth grade\", but the audio said: \"Quieter, please.\". The correct picture is \"quieter\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_less": "less",
+        "i3b_cello": "cello",
+        "i3b_quieter": "quieter",
+        "i3b_g5": "the fifth grade"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q33",
+      "type": 1,
+      "prompt_text": "Louder, please.",
+      "audio_id": "midterm1-4-q33",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_g6",
+        "i3b_me",
+        "i3b_louder"
+      ],
+      "choices": [
+        "i3b_drum",
+        "i3b_g6",
+        "i3b_me",
+        "i3b_louder"
+      ],
+      "correct": "i3b_louder",
+      "why_wrong": {
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"Louder, please.\". The correct picture is \"louder\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_g6": "the sixth grade",
+        "i3b_me": "me",
+        "i3b_louder": "louder"
+      }
+    },
+    {
+      "id": "i3b_midterm1_4_q34",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm1-4-q34",
+      "image_ids": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_egg",
+      "why_wrong": {
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
     }
   ]
 }

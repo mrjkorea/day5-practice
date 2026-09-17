@@ -1,20 +1,16 @@
 # INT3B staging pack
 
-**Status: `ORIGIN_CLONE_FAILED`** (harvest ready on Origin; not imported to GitHub yet)
+**Status: `WIRED_REAL`** (2026-09-18 KST)
 
-## Origin source (Wait for Languages)
+Real Day5 packs from `/workspace/int3b-ready/staging/INT3B/` (Hermes soft-pack stitch).
+Normalized to day5-practice schema (`choices` = `i3b_*` picture ids).
 
-- Git: https://origin.cursor.com/git/wait4languages/tmp-6027b4826ea45356.git
-- Harvest branch: `main`
-- Ferry tooling branch: `cursor/int3b-day5-ferry-e372` (bc-3cae94ea)
-- Artifact: `export/INT3B-day5.tgz`
-- tgz sha256: `febd99df16367d13cda93ae1cb72ff7d9d9e0ba4067f3749d5be9ab910ad76bf`
-- GitHub branch: `staging-int3b`
+| Assessment | Status |
+|------------|--------|
+| unit01–06, unit08 | real, playable |
+| midterm_1_4, midterm_5_8, final | real, playable |
+| unit07 | **SKIPPED** — incomplete source (missing q18–q21); shell not published |
 
-Import:
+PNGs: `images/int3b/` (98/98 REQUIRED). Audio: none local — Web Speech TTS fallback via `prompt_text`.
 
-```bash
-./scripts/import_staging_from_origin.sh INT3B
-# or, with a downloaded tgz:
-./scripts/import_staging_from_tgz.sh INT3B /path/to/INT3B-day5.tgz
-```
+Origin harvest note (historical): `ORIGIN_CLONE_FAILED` on cloud VM; content ferried via int3b-ready instead.

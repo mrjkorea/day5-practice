@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 2: True or False",
+    "title": "Is This a Gayageum?",
     "kind": "unit",
     "units_covered": [
       2
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u02_q01",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "True",
-        "False",
-        "Maybe",
-        "Sometimes"
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "unit2-q01",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_guitar",
       "why_wrong": {
-        "True": "Not quite — try again!",
-        "Maybe": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!"
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_guitar": "guitar",
+        "i3b_ukulele": "ukulele"
+      }
     },
     {
       "id": "i3b_u02_q02",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, that's wrong.",
-        "He plays.",
-        "Yes, correct.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "unit2-q02",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "correct": "i3b_piano",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "Yes, correct.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_drum": "drum",
+        "i3b_trumpet": "trumpet",
+        "i3b_piano": "piano"
+      }
     },
     {
       "id": "i3b_u02_q03",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "True",
-        "False",
-        "I don't know."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "unit2-q03",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
+      ],
+      "correct": "i3b_flute",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "False": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_cello": "cello",
+        "i3b_sax": "saxophone",
+        "i3b_flute": "flute"
+      }
     },
     {
       "id": "i3b_u02_q04",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are students.",
-        "They am students.",
-        "They be students.",
-        "They is students."
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "unit2-q04",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_drum",
       "why_wrong": {
-        "They am students.": "Not quite — try again!",
-        "They be students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_piano": "piano",
+        "i3b_drum": "drum",
+        "i3b_ukulele": "ukulele"
+      }
     },
     {
       "id": "i3b_u02_q05",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, perfect.",
-        "No, it should be 'He goes to school.'",
-        "She runs.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a violin.",
+      "audio_id": "unit2-q05",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin"
+      ],
+      "correct": "i3b_violin",
       "why_wrong": {
-        "Yes, perfect.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone",
+        "i3b_piano": "piano",
+        "i3b_violin": "violin"
+      }
     },
     {
       "id": "i3b_u02_q06",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Maybe",
-        "Sometimes",
-        "False",
-        "True"
+      "type": 1,
+      "prompt_text": "It is a saxophone.",
+      "audio_id": "unit2-q06",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_microwave",
+        "i3b_guitar"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_microwave",
+        "i3b_guitar"
+      ],
+      "correct": "i3b_sax",
       "why_wrong": {
-        "Maybe": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!",
-        "True": "Not quite — try again!"
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_microwave": "microwave",
+        "i3b_guitar": "guitar"
+      }
     },
     {
       "id": "i3b_u02_q07",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, correct.",
-        "No, that's wrong.",
-        "He plays.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a microwave.",
+      "audio_id": "unit2-q07",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_piano"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_piano"
+      ],
+      "correct": "i3b_microwave",
       "why_wrong": {
-        "Yes, correct.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone",
+        "i3b_drum": "drum",
+        "i3b_piano": "piano"
+      }
     },
     {
       "id": "i3b_u02_q08",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "True",
-        "She sings.",
-        "I don't know.",
-        "False"
+      "type": 1,
+      "prompt_text": "Yes, it is!",
+      "audio_id": "unit2-q08",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_gayageum"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_flute",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_gayageum",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!",
-        "False": "Not quite — try again!"
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_ukulele": "ukulele",
+        "i3b_violin": "violin",
+        "i3b_gayageum": "gayageum"
+      }
     },
     {
       "id": "i3b_u02_q09",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They be students.",
-        "They am students.",
-        "They is students.",
-        "They are students."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a cello.",
+      "audio_id": "unit2-q09",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_cello",
+        "i3b_violin",
+        "i3b_gayageum"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_sax",
+        "i3b_cello",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_cello",
       "why_wrong": {
-        "They be students.": "Not quite — try again!",
-        "They am students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_cello": "cello",
+        "i3b_violin": "violin",
+        "i3b_gayageum": "gayageum"
+      }
     },
     {
       "id": "i3b_u02_q10",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it should be 'He goes to school.'",
-        "Yes, perfect.",
-        "I like red.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "It is a ukulele.",
+      "audio_id": "unit2-q10",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_flute"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_ukulele",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_flute"
+      ],
+      "correct": "i3b_ukulele",
       "why_wrong": {
-        "Yes, perfect.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_sax": "saxophone",
+        "i3b_drum": "drum",
+        "i3b_flute": "flute"
+      }
     },
     {
       "id": "i3b_u02_q11",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "True",
-        "Maybe",
-        "False",
-        "Sometimes"
+      "type": 1,
+      "prompt_text": "No, it is not. It is a trumpet.",
+      "audio_id": "unit2-q11",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_flute",
+        "i3b_violin"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_flute",
+        "i3b_violin"
+      ],
+      "correct": "i3b_trumpet",
       "why_wrong": {
-        "True": "Not quite — try again!",
-        "Maybe": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_flute": "flute",
+        "i3b_violin": "violin"
+      }
     },
     {
       "id": "i3b_u02_q12",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He plays.",
-        "Yes, correct.",
-        "No, that's wrong."
+      "type": 1,
+      "prompt_text": "It is a guitar.",
+      "audio_id": "unit2-q12",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_flute",
+        "i3b_piano"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_flute",
+        "i3b_piano"
+      ],
+      "correct": "i3b_guitar",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "Yes, correct.": "Not quite — try again!"
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_guitar": "guitar",
+        "i3b_flute": "flute",
+        "i3b_piano": "piano"
+      }
     },
     {
       "id": "i3b_u02_q13",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "False",
-        "She sings.",
-        "I don't know.",
-        "True"
+      "type": 1,
+      "prompt_text": "No, it is not. It is a piano.",
+      "audio_id": "unit2-q13",
+      "image_ids": [
+        "i3b_guitar",
+        "i3b_violin",
+        "i3b_trumpet",
+        "i3b_piano"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_guitar",
+        "i3b_violin",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "correct": "i3b_piano",
       "why_wrong": {
-        "False": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_guitar": "guitar",
+        "i3b_violin": "violin",
+        "i3b_trumpet": "trumpet",
+        "i3b_piano": "piano"
+      }
     },
     {
       "id": "i3b_u02_q14",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They am students.",
-        "They are students.",
-        "They be students.",
-        "They is students."
+      "type": 1,
+      "prompt_text": "It is a flute.",
+      "audio_id": "unit2-q14",
+      "image_ids": [
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax",
+        "i3b_ukulele"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_flute",
       "why_wrong": {
-        "They am students.": "Not quite — try again!",
-        "They be students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cello": "cello",
+        "i3b_flute": "flute",
+        "i3b_sax": "saxophone",
+        "i3b_ukulele": "ukulele"
+      }
     },
     {
       "id": "i3b_u02_q15",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it should be 'He goes to school.'",
-        "Yes, perfect.",
-        "She runs.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a drum.",
+      "audio_id": "unit2-q15",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_microwave"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_microwave"
+      ],
+      "correct": "i3b_drum",
       "why_wrong": {
-        "Yes, perfect.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_microwave": "microwave"
+      }
     },
     {
       "id": "i3b_u02_q16",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Maybe",
-        "Sometimes",
-        "False",
-        "True"
+      "type": 1,
+      "prompt_text": "It is a violin.",
+      "audio_id": "unit2-q16",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_guitar",
+        "i3b_sax",
+        "i3b_microwave"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_violin",
+        "i3b_guitar",
+        "i3b_sax",
+        "i3b_microwave"
+      ],
+      "correct": "i3b_violin",
       "why_wrong": {
-        "Maybe": "Not quite — try again!",
-        "Sometimes": "Not quite — try again!",
-        "True": "Not quite — try again!"
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_guitar": "guitar",
+        "i3b_sax": "saxophone",
+        "i3b_microwave": "microwave"
+      }
     },
     {
       "id": "i3b_u02_q17",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "No, that's wrong.",
-        "I am fine.",
-        "Yes, correct."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a saxophone.",
+      "audio_id": "unit2-q17",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_ukulele",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "correct": "i3b_sax",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "Yes, correct.": "Not quite — try again!"
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_piano": "piano",
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone"
+      }
     },
     {
       "id": "i3b_u02_q18",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "True",
-        "False",
-        "I don't know."
+      "type": 1,
+      "prompt_text": "It is a microwave.",
+      "audio_id": "unit2-q18",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_gayageum",
+        "i3b_violin",
+        "i3b_piano"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_microwave",
+        "i3b_gayageum",
+        "i3b_violin",
+        "i3b_piano"
+      ],
+      "correct": "i3b_microwave",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "False": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_gayageum": "gayageum",
+        "i3b_violin": "violin",
+        "i3b_piano": "piano"
+      }
     },
     {
       "id": "i3b_u02_q19",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are students.",
-        "They be students.",
-        "They am students.",
-        "They is students."
+      "type": 1,
+      "prompt_text": "Is this a gayageum?",
+      "audio_id": "unit2-q19",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_gayageum",
+        "i3b_cello"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_gayageum",
+        "i3b_cello"
+      ],
+      "correct": "i3b_gayageum",
       "why_wrong": {
-        "They be students.": "Not quite — try again!",
-        "They am students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_gayageum": "gayageum",
+        "i3b_cello": "cello"
+      }
     },
     {
       "id": "i3b_u02_q20",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it should be 'He goes to school.'",
-        "She runs.",
-        "I like red.",
-        "Yes, perfect."
+      "type": 1,
+      "prompt_text": "It is a cello.",
+      "audio_id": "unit2-q20",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_gayageum",
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax"
+      ],
+      "correct": "i3b_cello",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "Yes, perfect.": "Not quite — try again!"
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_cello": "cello",
+        "i3b_flute": "flute",
+        "i3b_sax": "saxophone"
+      }
     },
     {
       "id": "i3b_u02_q21",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sometimes",
-        "Maybe",
-        "True",
-        "False"
+      "type": 1,
+      "prompt_text": "No, it is not. It is a ukulele.",
+      "audio_id": "unit2-q21",
+      "image_ids": [
+        "i3b_guitar",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_cello"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_guitar",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_cello"
+      ],
+      "correct": "i3b_ukulele",
       "why_wrong": {
-        "Sometimes": "Not quite — try again!",
-        "Maybe": "Not quite — try again!",
-        "True": "Not quite — try again!"
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_guitar": "guitar",
+        "i3b_ukulele": "ukulele",
+        "i3b_violin": "violin",
+        "i3b_cello": "cello"
+      }
     },
     {
       "id": "i3b_u02_q22",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, that's wrong.",
-        "Yes, correct.",
-        "I am fine.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "It is a trumpet.",
+      "audio_id": "unit2-q22",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_cello",
+        "i3b_trumpet"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_cello",
+        "i3b_trumpet"
+      ],
+      "correct": "i3b_trumpet",
       "why_wrong": {
-        "Yes, correct.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_cello": "cello",
+        "i3b_trumpet": "trumpet"
+      }
     },
     {
       "id": "i3b_u02_q23",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I don't know.",
-        "False",
-        "She sings.",
-        "True"
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "unit2-q23",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_microwave",
+        "i3b_guitar",
+        "i3b_cello"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_violin",
+        "i3b_microwave",
+        "i3b_guitar",
+        "i3b_cello"
+      ],
+      "correct": "i3b_guitar",
       "why_wrong": {
-        "I don't know.": "Not quite — try again!",
-        "False": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_microwave": "microwave",
+        "i3b_guitar": "guitar",
+        "i3b_cello": "cello"
+      }
     },
     {
       "id": "i3b_u02_q24",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are students.",
-        "They be students.",
-        "They am students.",
-        "They is students."
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "unit2-q24",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_sax"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_ukulele",
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_sax"
+      ],
+      "correct": "i3b_piano",
       "why_wrong": {
-        "They be students.": "Not quite — try again!",
-        "They am students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_flute": "flute",
+        "i3b_piano": "piano",
+        "i3b_sax": "saxophone"
+      }
     },
     {
       "id": "i3b_u02_q25",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it should be 'He goes to school.'",
-        "She runs.",
-        "I like red.",
-        "Yes, perfect."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "unit2-q25",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_microwave",
+        "i3b_flute"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_microwave",
+        "i3b_flute"
+      ],
+      "correct": "i3b_flute",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "Yes, perfect.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_guitar": "guitar",
+        "i3b_microwave": "microwave",
+        "i3b_flute": "flute"
+      }
     },
     {
       "id": "i3b_u02_q26",
-      "type": 2,
-      "prompt_text": "True or false: The sun rises in the west.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sometimes",
-        "False",
-        "Maybe",
-        "True"
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "unit2-q26",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
       ],
-      "correct": "False",
+      "choices": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "correct": "i3b_drum",
       "why_wrong": {
-        "Sometimes": "Not quite — try again!",
-        "Maybe": "Not quite — try again!",
-        "True": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_piano": "piano",
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone"
+      }
     },
     {
       "id": "i3b_u02_q27",
-      "type": 4,
-      "prompt_text": "Is this correct? 'She don't like apples.'",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "No, that's wrong.",
-        "Yes, correct.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a violin.",
+      "audio_id": "unit2-q27",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_drum",
+        "i3b_trumpet"
       ],
-      "correct": "No, that's wrong.",
+      "choices": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_drum",
+        "i3b_trumpet"
+      ],
+      "correct": "i3b_violin",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "Yes, correct.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_violin": "violin",
+        "i3b_drum": "drum",
+        "i3b_trumpet": "trumpet"
+      }
     },
     {
       "id": "i3b_u02_q28",
-      "type": 2,
-      "prompt_text": "True or false: Water boils at 100°C.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "False",
-        "I don't know.",
-        "She sings.",
-        "True"
+      "type": 1,
+      "prompt_text": "It is a saxophone.",
+      "audio_id": "unit2-q28",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin",
+        "i3b_drum"
       ],
-      "correct": "True",
+      "choices": [
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin",
+        "i3b_drum"
+      ],
+      "correct": "i3b_sax",
       "why_wrong": {
-        "False": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_piano": "piano",
+        "i3b_violin": "violin",
+        "i3b_drum": "drum"
+      }
     },
     {
       "id": "i3b_u02_q29",
-      "type": 4,
-      "prompt_text": "Which sentence is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They am students.",
-        "They be students.",
-        "They is students.",
-        "They are students."
+      "type": 1,
+      "prompt_text": "No, it is not. It is a microwave.",
+      "audio_id": "unit2-q29",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_gayageum"
       ],
-      "correct": "They are students.",
+      "choices": [
+        "i3b_microwave",
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_microwave",
       "why_wrong": {
-        "They am students.": "Not quite — try again!",
-        "They be students.": "Not quite — try again!",
-        "They is students.": "Not quite — try again!"
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_piano": "piano",
+        "i3b_guitar": "guitar",
+        "i3b_gayageum": "gayageum"
+      }
     },
     {
       "id": "i3b_u02_q30",
-      "type": 4,
-      "prompt_text": "Is 'He go to school' correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it should be 'He goes to school.'",
-        "I like red.",
-        "Yes, perfect.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "It is a gayageum.",
+      "audio_id": "unit2-q30",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_microwave",
+        "i3b_cello",
+        "i3b_sax"
       ],
-      "correct": "No, it should be 'He goes to school.'",
+      "choices": [
+        "i3b_gayageum",
+        "i3b_microwave",
+        "i3b_cello",
+        "i3b_sax"
+      ],
+      "correct": "i3b_gayageum",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "Yes, perfect.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": 2,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_microwave": "microwave",
+        "i3b_cello": "cello",
+        "i3b_sax": "saxophone"
+      }
     }
   ]
 }

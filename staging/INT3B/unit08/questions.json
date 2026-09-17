@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Intermediate 3B Unit 8: Meeting Foreigners",
+    "title": "Do You Like Korea?",
     "kind": "unit",
     "units_covered": [
       8
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -18,638 +18,969 @@
       "7": "listen_pick_sentence"
     },
     "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
   },
   "questions": [
     {
       "id": "i3b_u08_q01",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "She is kind.",
-        "I'm from Canada.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "I am from Canada.",
+      "audio_id": "unit8-q01",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
+      ],
+      "correct": "i3b_canada",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_canada": "Canada",
+        "i3b_feet310": "310 mm feet",
+        "i3b_what": "What"
+      }
     },
     {
       "id": "i3b_u08_q02",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Nice to meet you too!",
-        "I am hungry.",
-        "Goodbye."
+      "type": 1,
+      "prompt_text": "How tall are you? 187 cm!",
+      "audio_id": "unit8-q02",
+      "image_ids": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_187cm",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!"
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_where": "Where",
+        "i3b_canada": "Canada",
+        "i3b_why": "Why",
+        "i3b_187cm": "187 cm tall"
+      }
     },
     {
       "id": "i3b_u08_q03",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He jumps.",
-        "I like pizza.",
-        "A little."
+      "type": 1,
+      "prompt_text": "I am 22 years old forever.",
+      "audio_id": "unit8-q03",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_22forever",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_what": "What",
+        "i3b_gimbap": "Gimbap",
+        "i3b_187cm": "187 cm tall"
+      }
     },
     {
       "id": "i3b_u08_q04",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "She reads.",
-        "He sleeps.",
-        "Thank you! I'm excited to be here."
+      "type": 1,
+      "prompt_text": "Why did you come to Korea? To teach English!",
+      "audio_id": "unit8-q04",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
+      ],
+      "correct": "i3b_teacheng",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_why": "Why",
+        "i3b_who": "Who",
+        "i3b_gfsecret": "girlfriend secret"
+      }
     },
     {
       "id": "i3b_u08_q05",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "For two weeks.",
-        "He eats.",
-        "I like music.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "They are 310 millimeters.",
+      "audio_id": "unit8-q05",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_why",
+        "i3b_feet310",
+        "i3b_22forever"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_canada",
+        "i3b_why",
+        "i3b_feet310",
+        "i3b_22forever"
+      ],
+      "correct": "i3b_feet310",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_why": "Why",
+        "i3b_feet310": "310 mm feet",
+        "i3b_22forever": "22 years old forever"
+      }
     },
     {
       "id": "i3b_u08_q06",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "I'm from Canada.",
-        "I am twelve.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "What Korean food do you like? Gimbap!",
+      "audio_id": "unit8-q06",
+      "image_ids": [
+        "i3b_gimbap",
+        "i3b_why",
+        "i3b_what",
+        "i3b_canada"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_gimbap",
+        "i3b_why",
+        "i3b_what",
+        "i3b_canada"
+      ],
+      "correct": "i3b_gimbap",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_why": "You tapped \"Why\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gimbap": "Gimbap",
+        "i3b_why": "Why",
+        "i3b_what": "What",
+        "i3b_canada": "Canada"
+      }
     },
     {
       "id": "i3b_u08_q07",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Goodbye.",
-        "He runs.",
-        "I am hungry.",
-        "Nice to meet you too!"
+      "type": 1,
+      "prompt_text": "That is a secret!",
+      "audio_id": "unit8-q07",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_where",
+        "i3b_secret",
+        "i3b_why"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_canada",
+        "i3b_where",
+        "i3b_secret",
+        "i3b_why"
+      ],
+      "correct": "i3b_secret",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_where": "Where",
+        "i3b_secret": "secret",
+        "i3b_why": "Why"
+      }
     },
     {
       "id": "i3b_u08_q08",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I like pizza.",
-        "She sings.",
-        "A little."
+      "type": 1,
+      "prompt_text": "Do you have a girlfriend? That is a secret too!",
+      "audio_id": "unit8-q08",
+      "image_ids": [
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_who",
+        "i3b_feet310"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_who",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_gfsecret",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_how": "You tapped \"How\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_how": "How",
+        "i3b_who": "Who",
+        "i3b_feet310": "310 mm feet"
+      }
     },
     {
       "id": "i3b_u08_q09",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Thank you! I'm excited to be here.",
-        "He sleeps.",
-        "I have a dog.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "Who?",
+      "audio_id": "unit8-q09",
+      "image_ids": [
+        "i3b_who",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_who",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "correct": "i3b_who",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "i3b_how": "You tapped \"How\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_who": "Who",
+        "i3b_how": "How",
+        "i3b_secret": "secret",
+        "i3b_canada": "Canada"
+      }
     },
     {
       "id": "i3b_u08_q10",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "For two weeks.",
-        "She swims.",
-        "I like music."
+      "type": 1,
+      "prompt_text": "What?",
+      "audio_id": "unit8-q10",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_teacheng",
+        "i3b_what",
+        "i3b_gimbap"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_187cm",
+        "i3b_teacheng",
+        "i3b_what",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_what",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_teacheng": "teach English",
+        "i3b_what": "What",
+        "i3b_gimbap": "Gimbap"
+      }
     },
     {
       "id": "i3b_u08_q11",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "I'm from Canada.",
-        "I am twelve.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Where are you from?",
+      "audio_id": "unit8-q11",
+      "image_ids": [
+        "i3b_where",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_feet310"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_where",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_where",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_where": "Where",
+        "i3b_teacheng": "teach English",
+        "i3b_187cm": "187 cm tall",
+        "i3b_feet310": "310 mm feet"
+      }
     },
     {
       "id": "i3b_u08_q12",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Goodbye.",
-        "Nice to meet you too!",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "Why did you come to Korea?",
+      "audio_id": "unit8-q12",
+      "image_ids": [
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_187cm",
+        "i3b_why"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_187cm",
+        "i3b_why"
+      ],
+      "correct": "i3b_why",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_feet310": "310 mm feet",
+        "i3b_secret": "secret",
+        "i3b_187cm": "187 cm tall",
+        "i3b_why": "Why"
+      }
     },
     {
       "id": "i3b_u08_q13",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He jumps.",
-        "She sings.",
-        "A little."
+      "type": 1,
+      "prompt_text": "How tall are you?",
+      "audio_id": "unit8-q13",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_187cm",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "correct": "i3b_how",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_how": "How",
+        "i3b_secret": "secret",
+        "i3b_canada": "Canada"
+      }
     },
     {
       "id": "i3b_u08_q14",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "Thank you! I'm excited to be here.",
-        "I have a dog.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "Where are you from? Canada!",
+      "audio_id": "unit8-q14",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_gfsecret",
+        "i3b_teacheng",
+        "i3b_feet310"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_canada",
+        "i3b_gfsecret",
+        "i3b_teacheng",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_canada",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_teacheng": "teach English",
+        "i3b_feet310": "310 mm feet"
+      }
     },
     {
       "id": "i3b_u08_q15",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "For two weeks.",
-        "I like music.",
-        "He eats.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I am 187 centimeters tall.",
+      "audio_id": "unit8-q15",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_canada"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_187cm",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_canada"
+      ],
+      "correct": "i3b_187cm",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_22forever": "22 years old forever",
+        "i3b_how": "How",
+        "i3b_canada": "Canada"
+      }
     },
     {
       "id": "i3b_u08_q16",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm from Canada.",
-        "I like blue.",
-        "I am twelve.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "How old are you? 22 forever!",
+      "audio_id": "unit8-q16",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_what"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "correct": "i3b_22forever",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_187cm": "187 cm tall",
+        "i3b_what": "What"
+      }
     },
     {
       "id": "i3b_u08_q17",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Nice to meet you too!",
-        "I am hungry.",
-        "He runs.",
-        "Goodbye."
+      "type": 1,
+      "prompt_text": "I came to teach English.",
+      "audio_id": "unit8-q17",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_why",
+        "i3b_canada"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_why",
+        "i3b_canada"
+      ],
+      "correct": "i3b_teacheng",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!"
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_why": "Why",
+        "i3b_canada": "Canada"
+      }
     },
     {
       "id": "i3b_u08_q18",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "A little.",
-        "She sings.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "How big are your feet? 310 mm!",
+      "audio_id": "unit8-q18",
+      "image_ids": [
+        "i3b_how",
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_teacheng"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_how",
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_feet310",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "i3b_how": "You tapped \"How\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_feet310": "310 mm feet",
+        "i3b_secret": "secret",
+        "i3b_teacheng": "teach English"
+      }
     },
     {
       "id": "i3b_u08_q19",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "I have a dog.",
-        "Thank you! I'm excited to be here.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I love Gimbap!",
+      "audio_id": "unit8-q19",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_gimbap",
+        "i3b_feet310",
+        "i3b_how"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_canada",
+        "i3b_gimbap",
+        "i3b_feet310",
+        "i3b_how"
+      ],
+      "correct": "i3b_gimbap",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_gimbap": "Gimbap",
+        "i3b_feet310": "310 mm feet",
+        "i3b_how": "How"
+      }
     },
     {
       "id": "i3b_u08_q20",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He eats.",
-        "I like music.",
-        "For two weeks."
+      "type": 1,
+      "prompt_text": "How much do you weigh? That is a secret!",
+      "audio_id": "unit8-q20",
+      "image_ids": [
+        "i3b_secret",
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_where"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_secret",
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_where"
+      ],
+      "correct": "i3b_secret",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_secret": "secret",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_how": "How",
+        "i3b_where": "Where"
+      }
     },
     {
       "id": "i3b_u08_q21",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm from Canada.",
-        "I like blue.",
-        "She is kind.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "That is a secret too!",
+      "audio_id": "unit8-q21",
+      "image_ids": [
+        "i3b_gfsecret",
+        "i3b_gimbap",
+        "i3b_how",
+        "i3b_teacheng"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_gfsecret",
+        "i3b_gimbap",
+        "i3b_how",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_gfsecret",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_gimbap": "Gimbap",
+        "i3b_how": "How",
+        "i3b_teacheng": "teach English"
+      }
     },
     {
       "id": "i3b_u08_q22",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Goodbye.",
-        "Nice to meet you too!",
-        "He runs.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "Who?",
+      "audio_id": "unit8-q22",
+      "image_ids": [
+        "i3b_what",
+        "i3b_who",
+        "i3b_gimbap",
+        "i3b_teacheng"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_what",
+        "i3b_who",
+        "i3b_gimbap",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_who",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "i3b_what": "You tapped \"What\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_what": "What",
+        "i3b_who": "Who",
+        "i3b_gimbap": "Gimbap",
+        "i3b_teacheng": "teach English"
+      }
     },
     {
       "id": "i3b_u08_q23",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I like pizza.",
-        "A little.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "What?",
+      "audio_id": "unit8-q23",
+      "image_ids": [
+        "i3b_how",
+        "i3b_why",
+        "i3b_what",
+        "i3b_who"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_how",
+        "i3b_why",
+        "i3b_what",
+        "i3b_who"
+      ],
+      "correct": "i3b_what",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "i3b_how": "You tapped \"How\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_why": "Why",
+        "i3b_what": "What",
+        "i3b_who": "Who"
+      }
     },
     {
       "id": "i3b_u08_q24",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She reads.",
-        "I have a dog.",
-        "Thank you! I'm excited to be here."
+      "type": 1,
+      "prompt_text": "Where are you from?",
+      "audio_id": "unit8-q24",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_where",
+        "i3b_gfsecret",
+        "i3b_feet310"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_teacheng",
+        "i3b_where",
+        "i3b_gfsecret",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_where",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_where": "Where",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_feet310": "310 mm feet"
+      }
     },
     {
       "id": "i3b_u08_q25",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "He eats.",
-        "She swims.",
-        "For two weeks."
+      "type": 1,
+      "prompt_text": "Why did you come to Korea?",
+      "audio_id": "unit8-q25",
+      "image_ids": [
+        "i3b_how",
+        "i3b_who",
+        "i3b_why",
+        "i3b_secret"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_how",
+        "i3b_who",
+        "i3b_why",
+        "i3b_secret"
+      ],
+      "correct": "i3b_why",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "i3b_how": "You tapped \"How\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_who": "Who",
+        "i3b_why": "Why",
+        "i3b_secret": "secret"
+      }
     },
     {
       "id": "i3b_u08_q26",
-      "type": 4,
-      "prompt_text": "Hello! Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm from Canada.",
-        "I like blue.",
-        "I am twelve.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "How tall are you?",
+      "audio_id": "unit8-q26",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_who",
+        "i3b_where",
+        "i3b_how"
       ],
-      "correct": "I'm from Canada.",
+      "choices": [
+        "i3b_canada",
+        "i3b_who",
+        "i3b_where",
+        "i3b_how"
+      ],
+      "correct": "i3b_how",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_who": "Who",
+        "i3b_where": "Where",
+        "i3b_how": "How"
+      }
     },
     {
       "id": "i3b_u08_q27",
-      "type": 4,
-      "prompt_text": "Nice to meet you!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Nice to meet you too!",
-        "He runs.",
-        "I am hungry.",
-        "Goodbye."
+      "type": 1,
+      "prompt_text": "I am from Canada.",
+      "audio_id": "unit8-q27",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_why"
       ],
-      "correct": "Nice to meet you too!",
+      "choices": [
+        "i3b_canada",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_why"
+      ],
+      "correct": "i3b_canada",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!"
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_22forever": "22 years old forever",
+        "i3b_how": "How",
+        "i3b_why": "Why"
+      }
     },
     {
       "id": "i3b_u08_q28",
-      "type": 4,
-      "prompt_text": "Do you speak Korean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "A little.",
-        "She sings.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "How tall are you? 187 cm!",
+      "audio_id": "unit8-q28",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_187cm",
+        "i3b_secret",
+        "i3b_gimbap"
       ],
-      "correct": "A little.",
+      "choices": [
+        "i3b_canada",
+        "i3b_187cm",
+        "i3b_secret",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_187cm",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_187cm": "187 cm tall",
+        "i3b_secret": "secret",
+        "i3b_gimbap": "Gimbap"
+      }
     },
     {
       "id": "i3b_u08_q29",
-      "type": 4,
-      "prompt_text": "Welcome to Korea!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "Thank you! I'm excited to be here.",
-        "She reads.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I am 22 years old forever.",
+      "audio_id": "unit8-q29",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_gimbap"
       ],
-      "correct": "Thank you! I'm excited to be here.",
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_22forever",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_187cm": "187 cm tall",
+        "i3b_gimbap": "Gimbap"
+      }
     },
     {
       "id": "i3b_u08_q30",
-      "type": 4,
-      "prompt_text": "How long are you staying?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "For two weeks.",
-        "She swims.",
-        "I like music."
+      "type": 1,
+      "prompt_text": "Why did you come to Korea? To teach English!",
+      "audio_id": "unit8-q30",
+      "image_ids": [
+        "i3b_why",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_what"
       ],
-      "correct": "For two weeks.",
+      "choices": [
+        "i3b_why",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "correct": "i3b_teacheng",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!"
       },
       "unit": 8,
-      "level": "int3b"
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_why": "Why",
+        "i3b_teacheng": "teach English",
+        "i3b_187cm": "187 cm tall",
+        "i3b_what": "What"
+      }
     }
   ]
 }

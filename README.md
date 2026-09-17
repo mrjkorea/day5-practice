@@ -11,6 +11,9 @@ Static GitHub Pages app for Conversation Basic and Intermediate Day 5 unit tests
 
 Pages source: **Deploy from branch `main` / root**.
 
+- **INT3B (real packs):** https://mrjkorea.github.io/day5-practice/intermediate/#/int3b — unit07 skipped (incomplete). Audio via Web Speech TTS until mp3s land.
+
+
 ## Intermediate staging (Origin → GitHub)
 
 | Book | GitHub branch | Folder | Origin status |
