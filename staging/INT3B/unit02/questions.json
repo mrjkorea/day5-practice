@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Is This a Gayageum?",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "day5-practice",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
+  },
+  "questions": [
+    {
+      "id": "i3b_u02_q01",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "unit2-q01",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
+      ],
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_guitar",
+      "why_wrong": {
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_guitar": "guitar",
+        "i3b_ukulele": "ukulele"
+      }
+    },
+    {
+      "id": "i3b_u02_q02",
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "unit2-q02",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "correct": "i3b_piano",
+      "why_wrong": {
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_drum": "drum",
+        "i3b_trumpet": "trumpet",
+        "i3b_piano": "piano"
+      }
+    },
+    {
+      "id": "i3b_u02_q03",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "unit2-q03",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
+      ],
+      "choices": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
+      ],
+      "correct": "i3b_flute",
+      "why_wrong": {
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_cello": "cello",
+        "i3b_sax": "saxophone",
+        "i3b_flute": "flute"
+      }
+    },
+    {
+      "id": "i3b_u02_q04",
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "unit2-q04",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
+      ],
+      "choices": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_drum",
+      "why_wrong": {
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_piano": "piano",
+        "i3b_drum": "drum",
+        "i3b_ukulele": "ukulele"
+      }
+    },
+    {
+      "id": "i3b_u02_q05",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a violin.",
+      "audio_id": "unit2-q05",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin"
+      ],
+      "choices": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin"
+      ],
+      "correct": "i3b_violin",
+      "why_wrong": {
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone",
+        "i3b_piano": "piano",
+        "i3b_violin": "violin"
+      }
+    },
+    {
+      "id": "i3b_u02_q06",
+      "type": 1,
+      "prompt_text": "It is a saxophone.",
+      "audio_id": "unit2-q06",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_microwave",
+        "i3b_guitar"
+      ],
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_microwave",
+        "i3b_guitar"
+      ],
+      "correct": "i3b_sax",
+      "why_wrong": {
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_microwave": "microwave",
+        "i3b_guitar": "guitar"
+      }
+    },
+    {
+      "id": "i3b_u02_q07",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a microwave.",
+      "audio_id": "unit2-q07",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_microwave",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_piano"
+      ],
+      "correct": "i3b_microwave",
+      "why_wrong": {
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone",
+        "i3b_drum": "drum",
+        "i3b_piano": "piano"
+      }
+    },
+    {
+      "id": "i3b_u02_q08",
+      "type": 1,
+      "prompt_text": "Yes, it is!",
+      "audio_id": "unit2-q08",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "choices": [
+        "i3b_flute",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_gayageum",
+      "why_wrong": {
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_ukulele": "ukulele",
+        "i3b_violin": "violin",
+        "i3b_gayageum": "gayageum"
+      }
+    },
+    {
+      "id": "i3b_u02_q09",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a cello.",
+      "audio_id": "unit2-q09",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_cello",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "choices": [
+        "i3b_sax",
+        "i3b_cello",
+        "i3b_violin",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_cello",
+      "why_wrong": {
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"No, it is not. It is a cello.\". The correct picture is \"cello\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_cello": "cello",
+        "i3b_violin": "violin",
+        "i3b_gayageum": "gayageum"
+      }
+    },
+    {
+      "id": "i3b_u02_q10",
+      "type": 1,
+      "prompt_text": "It is a ukulele.",
+      "audio_id": "unit2-q10",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_flute"
+      ],
+      "choices": [
+        "i3b_ukulele",
+        "i3b_sax",
+        "i3b_drum",
+        "i3b_flute"
+      ],
+      "correct": "i3b_ukulele",
+      "why_wrong": {
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a ukulele.\". The correct picture is \"ukulele\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_sax": "saxophone",
+        "i3b_drum": "drum",
+        "i3b_flute": "flute"
+      }
+    },
+    {
+      "id": "i3b_u02_q11",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a trumpet.",
+      "audio_id": "unit2-q11",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_flute",
+        "i3b_violin"
+      ],
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_flute",
+        "i3b_violin"
+      ],
+      "correct": "i3b_trumpet",
+      "why_wrong": {
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a trumpet.\". The correct picture is \"trumpet\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_flute": "flute",
+        "i3b_violin": "violin"
+      }
+    },
+    {
+      "id": "i3b_u02_q12",
+      "type": 1,
+      "prompt_text": "It is a guitar.",
+      "audio_id": "unit2-q12",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_flute",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_flute",
+        "i3b_piano"
+      ],
+      "correct": "i3b_guitar",
+      "why_wrong": {
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a guitar.\". The correct picture is \"guitar\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_guitar": "guitar",
+        "i3b_flute": "flute",
+        "i3b_piano": "piano"
+      }
+    },
+    {
+      "id": "i3b_u02_q13",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a piano.",
+      "audio_id": "unit2-q13",
+      "image_ids": [
+        "i3b_guitar",
+        "i3b_violin",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_guitar",
+        "i3b_violin",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "correct": "i3b_piano",
+      "why_wrong": {
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a piano.\". The correct picture is \"piano\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_guitar": "guitar",
+        "i3b_violin": "violin",
+        "i3b_trumpet": "trumpet",
+        "i3b_piano": "piano"
+      }
+    },
+    {
+      "id": "i3b_u02_q14",
+      "type": 1,
+      "prompt_text": "It is a flute.",
+      "audio_id": "unit2-q14",
+      "image_ids": [
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax",
+        "i3b_ukulele"
+      ],
+      "choices": [
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_flute",
+      "why_wrong": {
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a flute.\". The correct picture is \"flute\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cello": "cello",
+        "i3b_flute": "flute",
+        "i3b_sax": "saxophone",
+        "i3b_ukulele": "ukulele"
+      }
+    },
+    {
+      "id": "i3b_u02_q15",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a drum.",
+      "audio_id": "unit2-q15",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_microwave"
+      ],
+      "choices": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_microwave"
+      ],
+      "correct": "i3b_drum",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a drum.\". The correct picture is \"drum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_microwave": "microwave"
+      }
+    },
+    {
+      "id": "i3b_u02_q16",
+      "type": 1,
+      "prompt_text": "It is a violin.",
+      "audio_id": "unit2-q16",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_guitar",
+        "i3b_sax",
+        "i3b_microwave"
+      ],
+      "choices": [
+        "i3b_violin",
+        "i3b_guitar",
+        "i3b_sax",
+        "i3b_microwave"
+      ],
+      "correct": "i3b_violin",
+      "why_wrong": {
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a violin.\". The correct picture is \"violin\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_guitar": "guitar",
+        "i3b_sax": "saxophone",
+        "i3b_microwave": "microwave"
+      }
+    },
+    {
+      "id": "i3b_u02_q17",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a saxophone.",
+      "audio_id": "unit2-q17",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "choices": [
+        "i3b_ukulele",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "correct": "i3b_sax",
+      "why_wrong": {
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_piano": "piano",
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone"
+      }
+    },
+    {
+      "id": "i3b_u02_q18",
+      "type": 1,
+      "prompt_text": "It is a microwave.",
+      "audio_id": "unit2-q18",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_gayageum",
+        "i3b_violin",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_microwave",
+        "i3b_gayageum",
+        "i3b_violin",
+        "i3b_piano"
+      ],
+      "correct": "i3b_microwave",
+      "why_wrong": {
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a microwave.\". The correct picture is \"microwave\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_gayageum": "gayageum",
+        "i3b_violin": "violin",
+        "i3b_piano": "piano"
+      }
+    },
+    {
+      "id": "i3b_u02_q19",
+      "type": 1,
+      "prompt_text": "Is this a gayageum?",
+      "audio_id": "unit2-q19",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_gayageum",
+        "i3b_cello"
+      ],
+      "choices": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_gayageum",
+        "i3b_cello"
+      ],
+      "correct": "i3b_gayageum",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"Is this a gayageum?\". The correct picture is \"gayageum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_gayageum": "gayageum",
+        "i3b_cello": "cello"
+      }
+    },
+    {
+      "id": "i3b_u02_q20",
+      "type": 1,
+      "prompt_text": "It is a cello.",
+      "audio_id": "unit2-q20",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax"
+      ],
+      "choices": [
+        "i3b_gayageum",
+        "i3b_cello",
+        "i3b_flute",
+        "i3b_sax"
+      ],
+      "correct": "i3b_cello",
+      "why_wrong": {
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a cello.\". The correct picture is \"cello\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_cello": "cello",
+        "i3b_flute": "flute",
+        "i3b_sax": "saxophone"
+      }
+    },
+    {
+      "id": "i3b_u02_q21",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a ukulele.",
+      "audio_id": "unit2-q21",
+      "image_ids": [
+        "i3b_guitar",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_cello"
+      ],
+      "choices": [
+        "i3b_guitar",
+        "i3b_ukulele",
+        "i3b_violin",
+        "i3b_cello"
+      ],
+      "correct": "i3b_ukulele",
+      "why_wrong": {
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a ukulele.\". The correct picture is \"ukulele\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_guitar": "guitar",
+        "i3b_ukulele": "ukulele",
+        "i3b_violin": "violin",
+        "i3b_cello": "cello"
+      }
+    },
+    {
+      "id": "i3b_u02_q22",
+      "type": 1,
+      "prompt_text": "It is a trumpet.",
+      "audio_id": "unit2-q22",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_cello",
+        "i3b_trumpet"
+      ],
+      "choices": [
+        "i3b_piano",
+        "i3b_flute",
+        "i3b_cello",
+        "i3b_trumpet"
+      ],
+      "correct": "i3b_trumpet",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a trumpet.\". The correct picture is \"trumpet\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_flute": "flute",
+        "i3b_cello": "cello",
+        "i3b_trumpet": "trumpet"
+      }
+    },
+    {
+      "id": "i3b_u02_q23",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "unit2-q23",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_microwave",
+        "i3b_guitar",
+        "i3b_cello"
+      ],
+      "choices": [
+        "i3b_violin",
+        "i3b_microwave",
+        "i3b_guitar",
+        "i3b_cello"
+      ],
+      "correct": "i3b_guitar",
+      "why_wrong": {
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_microwave": "microwave",
+        "i3b_guitar": "guitar",
+        "i3b_cello": "cello"
+      }
+    },
+    {
+      "id": "i3b_u02_q24",
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "unit2-q24",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_sax"
+      ],
+      "choices": [
+        "i3b_ukulele",
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_sax"
+      ],
+      "correct": "i3b_piano",
+      "why_wrong": {
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_flute": "flute",
+        "i3b_piano": "piano",
+        "i3b_sax": "saxophone"
+      }
+    },
+    {
+      "id": "i3b_u02_q25",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "unit2-q25",
+      "image_ids": [
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_microwave",
+        "i3b_flute"
+      ],
+      "choices": [
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_microwave",
+        "i3b_flute"
+      ],
+      "correct": "i3b_flute",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_piano": "piano",
+        "i3b_guitar": "guitar",
+        "i3b_microwave": "microwave",
+        "i3b_flute": "flute"
+      }
+    },
+    {
+      "id": "i3b_u02_q26",
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "unit2-q26",
+      "image_ids": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "choices": [
+        "i3b_drum",
+        "i3b_piano",
+        "i3b_microwave",
+        "i3b_sax"
+      ],
+      "correct": "i3b_drum",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_drum": "drum",
+        "i3b_piano": "piano",
+        "i3b_microwave": "microwave",
+        "i3b_sax": "saxophone"
+      }
+    },
+    {
+      "id": "i3b_u02_q27",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a violin.",
+      "audio_id": "unit2-q27",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_drum",
+        "i3b_trumpet"
+      ],
+      "choices": [
+        "i3b_flute",
+        "i3b_violin",
+        "i3b_drum",
+        "i3b_trumpet"
+      ],
+      "correct": "i3b_violin",
+      "why_wrong": {
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a violin.\". The correct picture is \"violin\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_violin": "violin",
+        "i3b_drum": "drum",
+        "i3b_trumpet": "trumpet"
+      }
+    },
+    {
+      "id": "i3b_u02_q28",
+      "type": 1,
+      "prompt_text": "It is a saxophone.",
+      "audio_id": "unit2-q28",
+      "image_ids": [
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin",
+        "i3b_drum"
+      ],
+      "choices": [
+        "i3b_sax",
+        "i3b_piano",
+        "i3b_violin",
+        "i3b_drum"
+      ],
+      "correct": "i3b_sax",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a saxophone.\". The correct picture is \"saxophone\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sax": "saxophone",
+        "i3b_piano": "piano",
+        "i3b_violin": "violin",
+        "i3b_drum": "drum"
+      }
+    },
+    {
+      "id": "i3b_u02_q29",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a microwave.",
+      "audio_id": "unit2-q29",
+      "image_ids": [
+        "i3b_microwave",
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_gayageum"
+      ],
+      "choices": [
+        "i3b_microwave",
+        "i3b_piano",
+        "i3b_guitar",
+        "i3b_gayageum"
+      ],
+      "correct": "i3b_microwave",
+      "why_wrong": {
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!",
+        "i3b_gayageum": "You tapped \"gayageum\", but the audio said: \"No, it is not. It is a microwave.\". The correct picture is \"microwave\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_microwave": "microwave",
+        "i3b_piano": "piano",
+        "i3b_guitar": "guitar",
+        "i3b_gayageum": "gayageum"
+      }
+    },
+    {
+      "id": "i3b_u02_q30",
+      "type": 1,
+      "prompt_text": "It is a gayageum.",
+      "audio_id": "unit2-q30",
+      "image_ids": [
+        "i3b_gayageum",
+        "i3b_microwave",
+        "i3b_cello",
+        "i3b_sax"
+      ],
+      "choices": [
+        "i3b_gayageum",
+        "i3b_microwave",
+        "i3b_cello",
+        "i3b_sax"
+      ],
+      "correct": "i3b_gayageum",
+      "why_wrong": {
+        "i3b_microwave": "You tapped \"microwave\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"It is a gayageum.\". The correct picture is \"gayageum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gayageum": "gayageum",
+        "i3b_microwave": "microwave",
+        "i3b_cello": "cello",
+        "i3b_sax": "saxophone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Unit 5: Describing People and Things",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_u05_q01",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is Monday.",
+        "She has a dog.",
+        "I like pizza.",
+        "That's my cousin Minho."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "It is Monday.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q02",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The one near the window.",
+        "I am fine.",
+        "He plays.",
+        "We eat."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q03",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He runs.",
+        "I like cats.",
+        "He's wearing a blue jacket."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q04",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's Sora.",
+        "She reads.",
+        "He sleeps.",
+        "I have a pen."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q05",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "I like music.",
+        "The boy in the back row."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q06",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "I like pizza.",
+        "That's my cousin Minho.",
+        "It is Monday."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q07",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat.",
+        "He plays.",
+        "The one near the window.",
+        "I am fine."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q08",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's wearing a blue jacket.",
+        "She sings.",
+        "He runs.",
+        "I like cats."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q09",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sleeps.",
+        "She reads.",
+        "That's Sora.",
+        "I have a pen."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q10",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "The boy in the back row.",
+        "He jumps.",
+        "I like music."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q11",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She has a dog.",
+        "That's my cousin Minho.",
+        "It is Monday.",
+        "I like pizza."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "She has a dog.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q12",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I am fine.",
+        "We eat.",
+        "The one near the window."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q13",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's wearing a blue jacket.",
+        "I like cats.",
+        "She sings.",
+        "He runs."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q14",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's Sora.",
+        "I have a pen.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q15",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "The boy in the back row.",
+        "He jumps.",
+        "I like music."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q16",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's my cousin Minho.",
+        "It is Monday.",
+        "I like pizza.",
+        "She has a dog."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "It is Monday.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q17",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "The one near the window.",
+        "We eat.",
+        "He plays."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q18",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He's wearing a blue jacket.",
+        "He runs.",
+        "She sings."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q19",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's Sora.",
+        "He sleeps.",
+        "I have a pen.",
+        "She reads."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q20",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like music.",
+        "He jumps.",
+        "The boy in the back row."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q21",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like pizza.",
+        "She has a dog.",
+        "That's my cousin Minho.",
+        "It is Monday."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "I like pizza.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "It is Monday.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q22",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "The one near the window.",
+        "I am fine.",
+        "We eat."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q23",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He's wearing a blue jacket.",
+        "She sings.",
+        "He runs."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q24",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's Sora.",
+        "I have a pen.",
+        "He sleeps.",
+        "She reads."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "He sleeps.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q25",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He jumps.",
+        "The boy in the back row.",
+        "I like music."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q26",
+      "type": 4,
+      "prompt_text": "Who is the tall boy with glasses?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is Monday.",
+        "She has a dog.",
+        "I like pizza.",
+        "That's my cousin Minho."
+      ],
+      "correct": "That's my cousin Minho.",
+      "why_wrong": {
+        "It is Monday.": "Not quite — try again!",
+        "She has a dog.": "Not quite — try again!",
+        "I like pizza.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q27",
+      "type": 4,
+      "prompt_text": "Which girl is wearing a red hat?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We eat.",
+        "He plays.",
+        "The one near the window.",
+        "I am fine."
+      ],
+      "correct": "The one near the window.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q28",
+      "type": 2,
+      "prompt_text": "Describe the man at the door.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He's wearing a blue jacket.",
+        "I like cats.",
+        "He runs."
+      ],
+      "correct": "He's wearing a blue jacket.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q29",
+      "type": 4,
+      "prompt_text": "Who has the curly hair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "That's Sora.",
+        "He sleeps.",
+        "I have a pen.",
+        "She reads."
+      ],
+      "correct": "That's Sora.",
+      "why_wrong": {
+        "He sleeps.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u05_q30",
+      "type": 4,
+      "prompt_text": "Which student is very quiet?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "The boy in the back row.",
+        "She swims.",
+        "I like music.",
+        "He jumps."
+      ],
+      "correct": "The boy in the back row.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 5,
+      "level": "int2b"
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "EAT UP",
+    "kind": "unit",
+    "units_covered": [
+      5
+    ],
+    "count": 30,
+    "schema": "day5-practice",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
+  },
+  "questions": [
+    {
+      "id": "i3b_u05_q01",
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q01",
+      "image_ids": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "choices": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_eatup",
+      "why_wrong": {
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooldown": "cool down",
+        "i3b_yessir": "yes sir",
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up"
+      }
+    },
+    {
+      "id": "i3b_u05_q02",
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q02",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
+      ],
+      "choices": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_washup",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_cooldown": "cool down",
+        "i3b_washup": "wash up",
+        "i3b_quietdown": "quiet down"
+      }
+    },
+    {
+      "id": "i3b_u05_q03",
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "unit5-q03",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
+      ],
+      "choices": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_hurryup",
+      "why_wrong": {
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_eatup": "eat up",
+        "i3b_cooldown": "cool down",
+        "i3b_quietdown": "quiet down"
+      }
+    },
+    {
+      "id": "i3b_u05_q04",
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "unit5-q04",
+      "image_ids": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
+      ],
+      "choices": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_cleanup",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cleanup": "clean up",
+        "i3b_yessir": "yes sir",
+        "i3b_getdown": "get down",
+        "i3b_slowdown": "slow down"
+      }
+    },
+    {
+      "id": "i3b_u05_q05",
+      "type": 1,
+      "prompt_text": "Slow down!",
+      "audio_id": "unit5-q05",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_slowdown",
+        "i3b_yesmaam",
+        "i3b_giveup"
+      ],
+      "choices": [
+        "i3b_hurryup",
+        "i3b_slowdown",
+        "i3b_yesmaam",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_slowdown",
+      "why_wrong": {
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_slowdown": "slow down",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_giveup": "give up"
+      }
+    },
+    {
+      "id": "i3b_u05_q06",
+      "type": 1,
+      "prompt_text": "Lay down!",
+      "audio_id": "unit5-q06",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_slowdown",
+        "i3b_laydown"
+      ],
+      "choices": [
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_slowdown",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_laydown",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down",
+        "i3b_laydown": "lay down"
+      }
+    },
+    {
+      "id": "i3b_u05_q07",
+      "type": 1,
+      "prompt_text": "Get down!",
+      "audio_id": "unit5-q07",
+      "image_ids": [
+        "i3b_washup",
+        "i3b_okdad",
+        "i3b_getdown",
+        "i3b_eatup"
+      ],
+      "choices": [
+        "i3b_washup",
+        "i3b_okdad",
+        "i3b_getdown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_getdown",
+      "why_wrong": {
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_washup": "wash up",
+        "i3b_okdad": "okay dad",
+        "i3b_getdown": "get down",
+        "i3b_eatup": "eat up"
+      }
+    },
+    {
+      "id": "i3b_u05_q08",
+      "type": 1,
+      "prompt_text": "Quiet down!",
+      "audio_id": "unit5-q08",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_eatup",
+        "i3b_cleanup",
+        "i3b_hurryup"
+      ],
+      "choices": [
+        "i3b_quietdown",
+        "i3b_eatup",
+        "i3b_cleanup",
+        "i3b_hurryup"
+      ],
+      "correct": "i3b_quietdown",
+      "why_wrong": {
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_eatup": "eat up",
+        "i3b_cleanup": "clean up",
+        "i3b_hurryup": "hurry up"
+      }
+    },
+    {
+      "id": "i3b_u05_q09",
+      "type": 1,
+      "prompt_text": "Give up!",
+      "audio_id": "unit5-q09",
+      "image_ids": [
+        "i3b_giveup",
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "choices": [
+        "i3b_giveup",
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_giveup",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_giveup": "give up",
+        "i3b_quietdown": "quiet down",
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up"
+      }
+    },
+    {
+      "id": "i3b_u05_q10",
+      "type": 1,
+      "prompt_text": "Cool down!",
+      "audio_id": "unit5-q10",
+      "image_ids": [
+        "i3b_okmom",
+        "i3b_okdad",
+        "i3b_quietdown",
+        "i3b_cooldown"
+      ],
+      "choices": [
+        "i3b_okmom",
+        "i3b_okdad",
+        "i3b_quietdown",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_cooldown",
+      "why_wrong": {
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okmom": "okay mom",
+        "i3b_okdad": "okay dad",
+        "i3b_quietdown": "quiet down",
+        "i3b_cooldown": "cool down"
+      }
+    },
+    {
+      "id": "i3b_u05_q11",
+      "type": 1,
+      "prompt_text": "Okay, mom.",
+      "audio_id": "unit5-q11",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_okmom",
+        "i3b_cooldown"
+      ],
+      "choices": [
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_okmom",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_okmom",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_yessir": "yes sir",
+        "i3b_okmom": "okay mom",
+        "i3b_cooldown": "cool down"
+      }
+    },
+    {
+      "id": "i3b_u05_q12",
+      "type": 1,
+      "prompt_text": "Yes, sir!",
+      "audio_id": "unit5-q12",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_eatup"
+      ],
+      "choices": [
+        "i3b_yessir",
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_yessir",
+      "why_wrong": {
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up"
+      }
+    },
+    {
+      "id": "i3b_u05_q13",
+      "type": 1,
+      "prompt_text": "Yes, ma'am!",
+      "audio_id": "unit5-q13",
+      "image_ids": [
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_hurryup",
+        "i3b_cleanup"
+      ],
+      "choices": [
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_hurryup",
+        "i3b_cleanup"
+      ],
+      "correct": "i3b_yesmaam",
+      "why_wrong": {
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_eatup": "eat up",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_hurryup": "hurry up",
+        "i3b_cleanup": "clean up"
+      }
+    },
+    {
+      "id": "i3b_u05_q14",
+      "type": 1,
+      "prompt_text": "Okay, dad.",
+      "audio_id": "unit5-q14",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_laydown",
+        "i3b_getdown"
+      ],
+      "choices": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_laydown",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_okdad",
+      "why_wrong": {
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up",
+        "i3b_laydown": "lay down",
+        "i3b_getdown": "get down"
+      }
+    },
+    {
+      "id": "i3b_u05_q15",
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q15",
+      "image_ids": [
+        "i3b_laydown",
+        "i3b_okmom",
+        "i3b_eatup",
+        "i3b_giveup"
+      ],
+      "choices": [
+        "i3b_laydown",
+        "i3b_okmom",
+        "i3b_eatup",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_eatup",
+      "why_wrong": {
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_laydown": "lay down",
+        "i3b_okmom": "okay mom",
+        "i3b_eatup": "eat up",
+        "i3b_giveup": "give up"
+      }
+    },
+    {
+      "id": "i3b_u05_q16",
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q16",
+      "image_ids": [
+        "i3b_okmom",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_washup"
+      ],
+      "choices": [
+        "i3b_okmom",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_washup"
+      ],
+      "correct": "i3b_washup",
+      "why_wrong": {
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okmom": "okay mom",
+        "i3b_quietdown": "quiet down",
+        "i3b_yessir": "yes sir",
+        "i3b_washup": "wash up"
+      }
+    },
+    {
+      "id": "i3b_u05_q17",
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "unit5-q17",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_okdad",
+        "i3b_giveup",
+        "i3b_laydown"
+      ],
+      "choices": [
+        "i3b_hurryup",
+        "i3b_okdad",
+        "i3b_giveup",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_hurryup",
+      "why_wrong": {
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_okdad": "okay dad",
+        "i3b_giveup": "give up",
+        "i3b_laydown": "lay down"
+      }
+    },
+    {
+      "id": "i3b_u05_q18",
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "unit5-q18",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_cleanup",
+        "i3b_slowdown",
+        "i3b_yessir"
+      ],
+      "choices": [
+        "i3b_hurryup",
+        "i3b_cleanup",
+        "i3b_slowdown",
+        "i3b_yessir"
+      ],
+      "correct": "i3b_cleanup",
+      "why_wrong": {
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_cleanup": "clean up",
+        "i3b_slowdown": "slow down",
+        "i3b_yessir": "yes sir"
+      }
+    },
+    {
+      "id": "i3b_u05_q19",
+      "type": 1,
+      "prompt_text": "Slow down!",
+      "audio_id": "unit5-q19",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_slowdown",
+        "i3b_washup",
+        "i3b_laydown"
+      ],
+      "choices": [
+        "i3b_yessir",
+        "i3b_slowdown",
+        "i3b_washup",
+        "i3b_laydown"
+      ],
+      "correct": "i3b_slowdown",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_slowdown": "slow down",
+        "i3b_washup": "wash up",
+        "i3b_laydown": "lay down"
+      }
+    },
+    {
+      "id": "i3b_u05_q20",
+      "type": 1,
+      "prompt_text": "Lay down!",
+      "audio_id": "unit5-q20",
+      "image_ids": [
+        "i3b_cleanup",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_giveup"
+      ],
+      "choices": [
+        "i3b_cleanup",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_giveup"
+      ],
+      "correct": "i3b_laydown",
+      "why_wrong": {
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cleanup": "clean up",
+        "i3b_okmom": "okay mom",
+        "i3b_laydown": "lay down",
+        "i3b_giveup": "give up"
+      }
+    },
+    {
+      "id": "i3b_u05_q21",
+      "type": 1,
+      "prompt_text": "Get down!",
+      "audio_id": "unit5-q21",
+      "image_ids": [
+        "i3b_slowdown",
+        "i3b_okmom",
+        "i3b_cleanup",
+        "i3b_getdown"
+      ],
+      "choices": [
+        "i3b_slowdown",
+        "i3b_okmom",
+        "i3b_cleanup",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_getdown",
+      "why_wrong": {
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_cleanup": "You tapped \"clean up\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slowdown": "slow down",
+        "i3b_okmom": "okay mom",
+        "i3b_cleanup": "clean up",
+        "i3b_getdown": "get down"
+      }
+    },
+    {
+      "id": "i3b_u05_q22",
+      "type": 1,
+      "prompt_text": "Quiet down!",
+      "audio_id": "unit5-q22",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_okmom"
+      ],
+      "choices": [
+        "i3b_yessir",
+        "i3b_quietdown",
+        "i3b_washup",
+        "i3b_okmom"
+      ],
+      "correct": "i3b_quietdown",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_quietdown": "quiet down",
+        "i3b_washup": "wash up",
+        "i3b_okmom": "okay mom"
+      }
+    },
+    {
+      "id": "i3b_u05_q23",
+      "type": 1,
+      "prompt_text": "Give up!",
+      "audio_id": "unit5-q23",
+      "image_ids": [
+        "i3b_giveup",
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_okmom"
+      ],
+      "choices": [
+        "i3b_giveup",
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_okmom"
+      ],
+      "correct": "i3b_giveup",
+      "why_wrong": {
+        "i3b_hurryup": "You tapped \"hurry up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_giveup": "give up",
+        "i3b_hurryup": "hurry up",
+        "i3b_eatup": "eat up",
+        "i3b_okmom": "okay mom"
+      }
+    },
+    {
+      "id": "i3b_u05_q24",
+      "type": 1,
+      "prompt_text": "Cool down!",
+      "audio_id": "unit5-q24",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_cooldown"
+      ],
+      "choices": [
+        "i3b_okdad",
+        "i3b_eatup",
+        "i3b_yesmaam",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_cooldown",
+      "why_wrong": {
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_yesmaam": "You tapped \"yes ma'am\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_eatup": "eat up",
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_cooldown": "cool down"
+      }
+    },
+    {
+      "id": "i3b_u05_q25",
+      "type": 1,
+      "prompt_text": "Okay, mom.",
+      "audio_id": "unit5-q25",
+      "image_ids": [
+        "i3b_okdad",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_washup"
+      ],
+      "choices": [
+        "i3b_okdad",
+        "i3b_okmom",
+        "i3b_laydown",
+        "i3b_washup"
+      ],
+      "correct": "i3b_okmom",
+      "why_wrong": {
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okdad": "okay dad",
+        "i3b_okmom": "okay mom",
+        "i3b_laydown": "lay down",
+        "i3b_washup": "wash up"
+      }
+    },
+    {
+      "id": "i3b_u05_q26",
+      "type": 1,
+      "prompt_text": "Yes, sir!",
+      "audio_id": "unit5-q26",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_giveup",
+        "i3b_cooldown",
+        "i3b_yessir"
+      ],
+      "choices": [
+        "i3b_quietdown",
+        "i3b_giveup",
+        "i3b_cooldown",
+        "i3b_yessir"
+      ],
+      "correct": "i3b_yessir",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_giveup": "give up",
+        "i3b_cooldown": "cool down",
+        "i3b_yessir": "yes sir"
+      }
+    },
+    {
+      "id": "i3b_u05_q27",
+      "type": 1,
+      "prompt_text": "Yes, ma'am!",
+      "audio_id": "unit5-q27",
+      "image_ids": [
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "choices": [
+        "i3b_yesmaam",
+        "i3b_okdad",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_yesmaam",
+      "why_wrong": {
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_okdad": "okay dad",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down"
+      }
+    },
+    {
+      "id": "i3b_u05_q28",
+      "type": 1,
+      "prompt_text": "Okay, dad.",
+      "audio_id": "unit5-q28",
+      "image_ids": [
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_okdad",
+        "i3b_cooldown"
+      ],
+      "choices": [
+        "i3b_quietdown",
+        "i3b_laydown",
+        "i3b_okdad",
+        "i3b_cooldown"
+      ],
+      "correct": "i3b_okdad",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_quietdown": "quiet down",
+        "i3b_laydown": "lay down",
+        "i3b_okdad": "okay dad",
+        "i3b_cooldown": "cool down"
+      }
+    },
+    {
+      "id": "i3b_u05_q29",
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q29",
+      "image_ids": [
+        "i3b_laydown",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_getdown"
+      ],
+      "choices": [
+        "i3b_laydown",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_getdown"
+      ],
+      "correct": "i3b_eatup",
+      "why_wrong": {
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up",
+        "i3b_cooldown": "cool down",
+        "i3b_getdown": "get down"
+      }
+    },
+    {
+      "id": "i3b_u05_q30",
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q30",
+      "image_ids": [
+        "i3b_getdown",
+        "i3b_eatup",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "choices": [
+        "i3b_getdown",
+        "i3b_eatup",
+        "i3b_washup",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_washup",
+      "why_wrong": {
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_getdown": "get down",
+        "i3b_eatup": "eat up",
+        "i3b_washup": "wash up",
+        "i3b_slowdown": "slow down"
+      }
+    }
+  ]
+}

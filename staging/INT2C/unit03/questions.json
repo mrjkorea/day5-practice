@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2c",
+    "title": "Intermediate 2C Unit 3: Whose Is It?",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2c_u03_q01",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He plays.",
+        "She is kind.",
+        "It's Jake's."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q02",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We eat.",
+        "No, it's Maria's.",
+        "I like cats."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q03",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "She sings.",
+        "I think it's ours.",
+        "He reads."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q04",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "herself",
+        "she",
+        "her",
+        "she's"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "herself": "Not quite — try again!",
+        "she": "Not quite — try again!",
+        "she's": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q05",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He jumps.",
+        "I like red.",
+        "It's his."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q06",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "It's Jake's.",
+        "I am fine.",
+        "He plays."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q07",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's Maria's.",
+        "I like cats.",
+        "He runs.",
+        "We eat."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q08",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She sings.",
+        "I have a pen.",
+        "I think it's ours."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q09",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "she",
+        "she's",
+        "herself",
+        "her"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "she": "Not quite — try again!",
+        "she's": "Not quite — try again!",
+        "herself": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q10",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like red.",
+        "He jumps.",
+        "It's his."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q11",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "It's Jake's.",
+        "He plays.",
+        "She is kind."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q12",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "I like cats.",
+        "We eat.",
+        "No, it's Maria's."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q13",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She sings.",
+        "I have a pen.",
+        "I think it's ours."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q14",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "herself",
+        "she's",
+        "her",
+        "she"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "herself": "Not quite — try again!",
+        "she's": "Not quite — try again!",
+        "she": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q15",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's his.",
+        "He jumps.",
+        "I like red.",
+        "She swims."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q16",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "It's Jake's.",
+        "I am fine.",
+        "He plays."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q17",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's Maria's.",
+        "We eat.",
+        "He runs.",
+        "I like cats."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "We eat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I like cats.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q18",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I have a pen.",
+        "He reads.",
+        "I think it's ours."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q19",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "she's",
+        "her",
+        "herself",
+        "she"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "she's": "Not quite — try again!",
+        "herself": "Not quite — try again!",
+        "she": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q20",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "I like red.",
+        "He jumps.",
+        "It's his."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q21",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's Jake's.",
+        "I am fine.",
+        "She is kind.",
+        "He plays."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q22",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He runs.",
+        "No, it's Maria's.",
+        "We eat."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q23",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I think it's ours.",
+        "I have a pen.",
+        "He reads."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I have a pen.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q24",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "she",
+        "she's",
+        "her",
+        "herself"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "she": "Not quite — try again!",
+        "she's": "Not quite — try again!",
+        "herself": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q25",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I like red.",
+        "She swims.",
+        "It's his."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q26",
+      "type": 4,
+      "prompt_text": "Whose jacket is on the chair?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "She is kind.",
+        "He plays.",
+        "It's Jake's."
+      ],
+      "correct": "It's Jake's.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q27",
+      "type": 4,
+      "prompt_text": "Is this your umbrella?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like cats.",
+        "He runs.",
+        "We eat.",
+        "No, it's Maria's."
+      ],
+      "correct": "No, it's Maria's.",
+      "why_wrong": {
+        "I like cats.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We eat.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q28",
+      "type": 4,
+      "prompt_text": "Whose notebook is this?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a pen.",
+        "I think it's ours.",
+        "She sings.",
+        "He reads."
+      ],
+      "correct": "I think it's ours.",
+      "why_wrong": {
+        "I have a pen.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q29",
+      "type": 2,
+      "prompt_text": "This is ___ bike.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "she's",
+        "her",
+        "herself",
+        "she"
+      ],
+      "correct": "her",
+      "why_wrong": {
+        "she's": "Not quite — try again!",
+        "herself": "Not quite — try again!",
+        "she": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u03_q30",
+      "type": 4,
+      "prompt_text": "Whose phone is ringing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "It's his.",
+        "I like red.",
+        "He jumps."
+      ],
+      "correct": "It's his.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like red.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2c"
+    }
+  ]
+}

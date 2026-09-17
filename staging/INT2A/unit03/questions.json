@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 3: Country Languages",
+    "kind": "unit",
+    "units_covered": [
+      3
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u03_q01",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "France",
+        "Franc",
+        "Franch",
+        "French"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "France": "Not quite — try again!",
+        "Franc": "Not quite — try again!",
+        "Franch": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q02",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japans",
+        "Japaneese",
+        "Japanese",
+        "Japan"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japans": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!",
+        "Japan": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q03",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korea",
+        "Koreish",
+        "Korean",
+        "Koreans"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Korea": "Not quite — try again!",
+        "Koreish": "Not quite — try again!",
+        "Koreans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q04",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spanish",
+        "Spain",
+        "Spains",
+        "Spaneesh"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spain": "Not quite — try again!",
+        "Spains": "Not quite — try again!",
+        "Spaneesh": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q05",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Chinas",
+        "Chinese",
+        "Chineese",
+        "China"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "Chinas": "Not quite — try again!",
+        "Chineese": "Not quite — try again!",
+        "China": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q06",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Franc",
+        "France",
+        "French",
+        "Franch"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "Franc": "Not quite — try again!",
+        "France": "Not quite — try again!",
+        "Franch": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q07",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japan",
+        "Japaneese",
+        "Japanese",
+        "Japans"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japan": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!",
+        "Japans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q08",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreish",
+        "Korea",
+        "Koreans",
+        "Korean"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreish": "Not quite — try again!",
+        "Korea": "Not quite — try again!",
+        "Koreans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q09",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spanish",
+        "Spains",
+        "Spain",
+        "Spaneesh"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spains": "Not quite — try again!",
+        "Spain": "Not quite — try again!",
+        "Spaneesh": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q10",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "China",
+        "Chinese",
+        "Chineese",
+        "Chinas"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "China": "Not quite — try again!",
+        "Chineese": "Not quite — try again!",
+        "Chinas": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q11",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Franc",
+        "France",
+        "Franch",
+        "French"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "Franc": "Not quite — try again!",
+        "France": "Not quite — try again!",
+        "Franch": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q12",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japan",
+        "Japans",
+        "Japanese",
+        "Japaneese"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japan": "Not quite — try again!",
+        "Japans": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q13",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Koreans",
+        "Koreish",
+        "Korean",
+        "Korea"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreans": "Not quite — try again!",
+        "Koreish": "Not quite — try again!",
+        "Korea": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q14",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spaneesh",
+        "Spanish",
+        "Spains",
+        "Spain"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spaneesh": "Not quite — try again!",
+        "Spains": "Not quite — try again!",
+        "Spain": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q15",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Chinas",
+        "Chinese",
+        "China",
+        "Chineese"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "Chinas": "Not quite — try again!",
+        "China": "Not quite — try again!",
+        "Chineese": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q16",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Franc",
+        "Franch",
+        "France",
+        "French"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "Franc": "Not quite — try again!",
+        "Franch": "Not quite — try again!",
+        "France": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q17",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japan",
+        "Japans",
+        "Japaneese",
+        "Japanese"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japan": "Not quite — try again!",
+        "Japans": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q18",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korea",
+        "Koreans",
+        "Koreish",
+        "Korean"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Korea": "Not quite — try again!",
+        "Koreans": "Not quite — try again!",
+        "Koreish": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q19",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spanish",
+        "Spaneesh",
+        "Spain",
+        "Spains"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spaneesh": "Not quite — try again!",
+        "Spain": "Not quite — try again!",
+        "Spains": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q20",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Chineese",
+        "Chinese",
+        "Chinas",
+        "China"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "Chineese": "Not quite — try again!",
+        "Chinas": "Not quite — try again!",
+        "China": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q21",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Franc",
+        "French",
+        "Franch",
+        "France"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "Franc": "Not quite — try again!",
+        "Franch": "Not quite — try again!",
+        "France": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q22",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japanese",
+        "Japaneese",
+        "Japan",
+        "Japans"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japaneese": "Not quite — try again!",
+        "Japan": "Not quite — try again!",
+        "Japans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q23",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korean",
+        "Koreish",
+        "Korea",
+        "Koreans"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Koreish": "Not quite — try again!",
+        "Korea": "Not quite — try again!",
+        "Koreans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q24",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spaneesh",
+        "Spains",
+        "Spanish",
+        "Spain"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spaneesh": "Not quite — try again!",
+        "Spains": "Not quite — try again!",
+        "Spain": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q25",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Chinas",
+        "Chineese",
+        "Chinese",
+        "China"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "Chinas": "Not quite — try again!",
+        "Chineese": "Not quite — try again!",
+        "China": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q26",
+      "type": 2,
+      "prompt_text": "People in France speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "France",
+        "Franch",
+        "French",
+        "Franc"
+      ],
+      "correct": "French",
+      "why_wrong": {
+        "France": "Not quite — try again!",
+        "Franch": "Not quite — try again!",
+        "Franc": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q27",
+      "type": 2,
+      "prompt_text": "The language of Japan is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Japan",
+        "Japanese",
+        "Japaneese",
+        "Japans"
+      ],
+      "correct": "Japanese",
+      "why_wrong": {
+        "Japan": "Not quite — try again!",
+        "Japaneese": "Not quite — try again!",
+        "Japans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q28",
+      "type": 2,
+      "prompt_text": "In Korea, people speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Korea",
+        "Koreish",
+        "Koreans",
+        "Korean"
+      ],
+      "correct": "Korean",
+      "why_wrong": {
+        "Korea": "Not quite — try again!",
+        "Koreish": "Not quite — try again!",
+        "Koreans": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q29",
+      "type": 2,
+      "prompt_text": "People in Spain speak ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Spains",
+        "Spaneesh",
+        "Spanish",
+        "Spain"
+      ],
+      "correct": "Spanish",
+      "why_wrong": {
+        "Spains": "Not quite — try again!",
+        "Spaneesh": "Not quite — try again!",
+        "Spain": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u03_q30",
+      "type": 2,
+      "prompt_text": "The language of China is ___.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Chineese",
+        "Chinese",
+        "Chinas",
+        "China"
+      ],
+      "correct": "Chinese",
+      "why_wrong": {
+        "Chineese": "Not quite — try again!",
+        "Chinas": "Not quite — try again!",
+        "China": "Not quite — try again!"
+      },
+      "unit": 3,
+      "level": "int2a"
+    }
+  ]
+}

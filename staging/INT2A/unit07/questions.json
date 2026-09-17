@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2a",
+    "title": "Intermediate 2A Unit 7: Location and Place",
+    "kind": "unit",
+    "units_covered": [
+      7
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2a_u07_q01",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's on Main Street.",
+        "We have class.",
+        "I like music.",
+        "She is happy."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "We have class.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q02",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want water.",
+        "No, it's quite close.",
+        "He is young.",
+        "They play soccer."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "I want water.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!",
+        "They play soccer.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q03",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads fast.",
+        "I am fine.",
+        "At the post office.",
+        "He has a bike."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "She reads fast.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q04",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "It's two blocks away.",
+        "I like dogs.",
+        "She is kind."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q05",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's on the third floor.",
+        "He plays games.",
+        "I eat lunch.",
+        "They are friends."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "He plays games.": "Not quite — try again!",
+        "I eat lunch.": "Not quite — try again!",
+        "They are friends.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q06",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is happy.",
+        "It's on Main Street.",
+        "We have class.",
+        "I like music."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "She is happy.": "Not quite — try again!",
+        "We have class.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q07",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He is young.",
+        "They play soccer.",
+        "I want water.",
+        "No, it's quite close."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "He is young.": "Not quite — try again!",
+        "They play soccer.": "Not quite — try again!",
+        "I want water.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q08",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He has a bike.",
+        "I am fine.",
+        "She reads fast.",
+        "At the post office."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She reads fast.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q09",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "It's two blocks away.",
+        "She is kind.",
+        "I like dogs."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q10",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are friends.",
+        "He plays games.",
+        "I eat lunch.",
+        "It's on the third floor."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "They are friends.": "Not quite — try again!",
+        "He plays games.": "Not quite — try again!",
+        "I eat lunch.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q11",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We have class.",
+        "I like music.",
+        "It's on Main Street.",
+        "She is happy."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "We have class.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q12",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's quite close.",
+        "They play soccer.",
+        "I want water.",
+        "He is young."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "They play soccer.": "Not quite — try again!",
+        "I want water.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q13",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "At the post office.",
+        "He has a bike.",
+        "I am fine.",
+        "She reads fast."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!",
+        "She reads fast.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q14",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "She is kind.",
+        "I like dogs.",
+        "It's two blocks away."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q15",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays games.",
+        "They are friends.",
+        "I eat lunch.",
+        "It's on the third floor."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "He plays games.": "Not quite — try again!",
+        "They are friends.": "Not quite — try again!",
+        "I eat lunch.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q16",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "We have class.",
+        "She is happy.",
+        "It's on Main Street."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "We have class.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q17",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want water.",
+        "He is young.",
+        "They play soccer.",
+        "No, it's quite close."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "I want water.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!",
+        "They play soccer.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q18",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He has a bike.",
+        "She reads fast.",
+        "At the post office."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She reads fast.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q19",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study English.",
+        "She is kind.",
+        "It's two blocks away.",
+        "I like dogs."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "We study English.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q20",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I eat lunch.",
+        "They are friends.",
+        "He plays games.",
+        "It's on the third floor."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "I eat lunch.": "Not quite — try again!",
+        "They are friends.": "Not quite — try again!",
+        "He plays games.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q21",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's on Main Street.",
+        "I like music.",
+        "She is happy.",
+        "We have class."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!",
+        "We have class.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q22",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I want water.",
+        "They play soccer.",
+        "No, it's quite close.",
+        "He is young."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "I want water.": "Not quite — try again!",
+        "They play soccer.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q23",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads fast.",
+        "At the post office.",
+        "He has a bike.",
+        "I am fine."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "She reads fast.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "I am fine.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q24",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "We study English.",
+        "I like dogs.",
+        "It's two blocks away."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!",
+        "I like dogs.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q25",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I eat lunch.",
+        "It's on the third floor.",
+        "He plays games.",
+        "They are friends."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "I eat lunch.": "Not quite — try again!",
+        "He plays games.": "Not quite — try again!",
+        "They are friends.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q26",
+      "type": 4,
+      "prompt_text": "Where is the post office?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "We have class.",
+        "She is happy.",
+        "It's on Main Street."
+      ],
+      "correct": "It's on Main Street.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "We have class.": "Not quite — try again!",
+        "She is happy.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q27",
+      "type": 4,
+      "prompt_text": "Is the bank far from here?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They play soccer.",
+        "I want water.",
+        "He is young.",
+        "No, it's quite close."
+      ],
+      "correct": "No, it's quite close.",
+      "why_wrong": {
+        "They play soccer.": "Not quite — try again!",
+        "I want water.": "Not quite — try again!",
+        "He is young.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q28",
+      "type": 4,
+      "prompt_text": "Where can I buy stamps?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am fine.",
+        "He has a bike.",
+        "She reads fast.",
+        "At the post office."
+      ],
+      "correct": "At the post office.",
+      "why_wrong": {
+        "I am fine.": "Not quite — try again!",
+        "He has a bike.": "Not quite — try again!",
+        "She reads fast.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q29",
+      "type": 4,
+      "prompt_text": "Where is the nearest subway?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It's two blocks away.",
+        "I like dogs.",
+        "She is kind.",
+        "We study English."
+      ],
+      "correct": "It's two blocks away.",
+      "why_wrong": {
+        "I like dogs.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "We study English.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    },
+    {
+      "id": "i2a_u07_q30",
+      "type": 4,
+      "prompt_text": "Where is your classroom?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They are friends.",
+        "I eat lunch.",
+        "It's on the third floor.",
+        "He plays games."
+      ],
+      "correct": "It's on the third floor.",
+      "why_wrong": {
+        "They are friends.": "Not quite — try again!",
+        "I eat lunch.": "Not quite — try again!",
+        "He plays games.": "Not quite — try again!"
+      },
+      "unit": 7,
+      "level": "int2a"
+    }
+  ]
+}

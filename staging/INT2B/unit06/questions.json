@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Unit 6: Introducing Teachers",
+    "kind": "unit",
+    "units_covered": [
+      6
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_u06_q01",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She likes red.",
+        "I am hungry.",
+        "It is cold.",
+        "Nice to meet you."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q02",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "We study.",
+        "I have a cat.",
+        "Pleased to meet you."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q03",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hello, everyone!",
+        "She sings.",
+        "I like blue.",
+        "He plays."
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q04",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "How do you do?",
+        "He eats.",
+        "I am ten."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q05",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Welcome to our home.",
+        "She swims.",
+        "He jumps.",
+        "I like summer."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q06",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It is cold.",
+        "Nice to meet you.",
+        "She likes red."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q07",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Pleased to meet you.",
+        "I have a cat.",
+        "We study.",
+        "He runs."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q08",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like blue.",
+        "He plays.",
+        "Hello, everyone!",
+        "She sings."
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q09",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "How do you do?",
+        "I am ten.",
+        "She reads.",
+        "He eats."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q10",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "I like summer.",
+        "Welcome to our home."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q11",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "She likes red.",
+        "Nice to meet you.",
+        "I am hungry."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q12",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He runs.",
+        "Pleased to meet you.",
+        "We study."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q13",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She sings.",
+        "Hello, everyone!",
+        "I like blue."
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q14",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He eats.",
+        "How do you do?",
+        "She reads."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q15",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "Welcome to our home.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q16",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It is cold.",
+        "Nice to meet you.",
+        "She likes red."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q17",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "Pleased to meet you.",
+        "He runs.",
+        "I have a cat."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q18",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "I like blue.",
+        "Hello, everyone!",
+        "He plays."
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q19",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "How do you do?",
+        "He eats.",
+        "She reads."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q20",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Welcome to our home.",
+        "I like summer.",
+        "She swims.",
+        "He jumps."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q21",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am hungry.",
+        "It is cold.",
+        "Nice to meet you.",
+        "She likes red."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "I am hungry.": "Not quite — try again!",
+        "It is cold.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q22",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "Pleased to meet you.",
+        "I have a cat.",
+        "He runs."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He runs.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q23",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Hello, everyone!",
+        "I like blue.",
+        "He plays.",
+        "She sings."
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "She sings.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q24",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "How do you do?",
+        "She reads.",
+        "I am ten.",
+        "He eats."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q25",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "She swims.",
+        "Welcome to our home.",
+        "He jumps."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q26",
+      "type": 4,
+      "prompt_text": "Mom, this is my English teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is cold.",
+        "Nice to meet you.",
+        "She likes red.",
+        "I am hungry."
+      ],
+      "correct": "Nice to meet you.",
+      "why_wrong": {
+        "It is cold.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "I am hungry.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q27",
+      "type": 2,
+      "prompt_text": "Let me introduce Mr. Kim.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He runs.",
+        "Pleased to meet you.",
+        "I have a cat.",
+        "We study."
+      ],
+      "correct": "Pleased to meet you.",
+      "why_wrong": {
+        "He runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q28",
+      "type": 2,
+      "prompt_text": "These are my teachers.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She sings.",
+        "He plays.",
+        "I like blue.",
+        "Hello, everyone!"
+      ],
+      "correct": "Hello, everyone!",
+      "why_wrong": {
+        "She sings.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q29",
+      "type": 4,
+      "prompt_text": "Dad, meet my science teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "How do you do?",
+        "She reads.",
+        "He eats.",
+        "I am ten."
+      ],
+      "correct": "How do you do?",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u06_q30",
+      "type": 2,
+      "prompt_text": "This is Ms. Park, my homeroom teacher.",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "Welcome to our home.",
+        "He jumps.",
+        "I like summer."
+      ],
+      "correct": "Welcome to our home.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 6,
+      "level": "int2b"
+    }
+  ]
+}

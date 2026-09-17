@@ -1,10 +1,38 @@
 # MRJ Day 5 practice
 
-Static GitHub Pages app for Conversation Basic A / B / C Day 5 unit tests.
+Static GitHub Pages app for Conversation Basic and Intermediate Day 5 unit tests.
 
-- Live: https://mrjkorea.github.io/day5-practice/
+- **Basic:** https://mrjkorea.github.io/day5-practice/
+- **Intermediate:** https://mrjkorea.github.io/day5-practice/intermediate/
 - No login. Scores in `localStorage`.
 - Pass mark: 80%.
-- 33 assessments, pictures under `pictures/`, audio under `audio/`.
+- Basic: 33 assessments (A/B/C), pictures under `pictures/`, audio under `audio/`.
+- Intermediate: 66 assessments (INT2A–INT3C), packs under `staging/INT*/`.
 
-Pages source: **Deploy from branch `main` / root** (same pattern as youtube-free-practice).
+Pages source: **Deploy from branch `main` / root**.
+
+- **INT3B (real packs):** https://mrjkorea.github.io/day5-practice/intermediate/#/int3b — unit07 skipped (incomplete). Audio via Web Speech TTS until mp3s land.
+
+
+## Intermediate staging (Origin → GitHub)
+
+| Book | GitHub branch | Folder | Origin status |
+|------|---------------|--------|---------------|
+| INT2A | `staging-int2a` | `staging/INT2A/` | ORIGIN_CLONE_FAILED |
+| INT2B | `staging-int2b` | `staging/INT2B/` | ORIGIN_CLONE_FAILED |
+| INT2C | `staging-int2c` | `staging/INT2C/` | ORIGIN_CLONE_FAILED |
+| INT3A | `staging-int3a` | `staging/INT3A/` | ORIGIN_CLONE_FAILED |
+| INT3B | `staging-int3b` | `staging/INT3B/` | ORIGIN_CLONE_FAILED |
+| INT3C | `staging-int3c` | `staging/INT3C/` | ORIGIN_CLONE_FAILED |
+
+Import when Origin auth is available:
+
+```bash
+./scripts/import_staging_from_origin.sh INT2A
+./scripts/import_staging_from_origin.sh INT2B
+./scripts/import_staging_from_origin.sh INT3C   # uses cos-ferry-int3c branch
+```
+
+See `IMPORT_REPORT.md`, `staging/ORIGIN_STATUS.md`, and per-book `staging/INT*/ORIGIN.md`.
+
+Shell packs: `python3 scripts/setup_staging_shells.py` (from generated `int*` if present).

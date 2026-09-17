@@ -1,0 +1,1112 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Midterm 5–8",
+    "kind": "midterm",
+    "units_covered": [],
+    "count": 34,
+    "schema": "day5-practice",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
+  },
+  "questions": [
+    {
+      "id": "i3b_midterm5_8_q01",
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "midterm5-8-q01",
+      "image_ids": [
+        "i3b_lunch",
+        "i3b_sister",
+        "i3b_eatup",
+        "i3b_textbook"
+      ],
+      "choices": [
+        "i3b_lunch",
+        "i3b_sister",
+        "i3b_eatup",
+        "i3b_textbook"
+      ],
+      "correct": "i3b_eatup",
+      "why_wrong": {
+        "i3b_lunch": "You tapped \"lunch\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_textbook": "You tapped \"textbook\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_lunch": "lunch",
+        "i3b_sister": "sister",
+        "i3b_eatup": "eat up",
+        "i3b_textbook": "textbook"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q02",
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "midterm5-8-q02",
+      "image_ids": [
+        "i3b_washup",
+        "i3b_lychee",
+        "i3b_hat",
+        "i3b_pineapple"
+      ],
+      "choices": [
+        "i3b_washup",
+        "i3b_lychee",
+        "i3b_hat",
+        "i3b_pineapple"
+      ],
+      "correct": "i3b_washup",
+      "why_wrong": {
+        "i3b_lychee": "You tapped \"lychee\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_hat": "You tapped \"hat\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_washup": "wash up",
+        "i3b_lychee": "lychee",
+        "i3b_hat": "hat",
+        "i3b_pineapple": "pineapple"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q03",
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "midterm5-8-q03",
+      "image_ids": [
+        "i3b_okay",
+        "i3b_22forever",
+        "i3b_slowdown",
+        "i3b_hurryup"
+      ],
+      "choices": [
+        "i3b_okay",
+        "i3b_22forever",
+        "i3b_slowdown",
+        "i3b_hurryup"
+      ],
+      "correct": "i3b_hurryup",
+      "why_wrong": {
+        "i3b_okay": "You tapped \"okay\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_okay": "okay",
+        "i3b_22forever": "22 years old forever",
+        "i3b_slowdown": "slow down",
+        "i3b_hurryup": "hurry up"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q04",
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "midterm5-8-q04",
+      "image_ids": [
+        "i3b_umbrella",
+        "i3b_yessir",
+        "i3b_cleanup",
+        "i3b_teacheng"
+      ],
+      "choices": [
+        "i3b_umbrella",
+        "i3b_yessir",
+        "i3b_cleanup",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_cleanup",
+      "why_wrong": {
+        "i3b_umbrella": "You tapped \"umbrella\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_umbrella": "umbrella",
+        "i3b_yessir": "yes sir",
+        "i3b_cleanup": "clean up",
+        "i3b_teacheng": "teach English"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q05",
+      "type": 1,
+      "prompt_text": "Slow down!",
+      "audio_id": "midterm5-8-q05",
+      "image_ids": [
+        "i3b_why",
+        "i3b_sister",
+        "i3b_slowdown",
+        "i3b_yessir"
+      ],
+      "choices": [
+        "i3b_why",
+        "i3b_sister",
+        "i3b_slowdown",
+        "i3b_yessir"
+      ],
+      "correct": "i3b_slowdown",
+      "why_wrong": {
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Slow down!\". The correct picture is \"slow down\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_why": "Why",
+        "i3b_sister": "sister",
+        "i3b_slowdown": "slow down",
+        "i3b_yessir": "yes sir"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q06",
+      "type": 1,
+      "prompt_text": "Lay down!",
+      "audio_id": "midterm5-8-q06",
+      "image_ids": [
+        "i3b_laydown",
+        "i3b_jacket",
+        "i3b_grapefruit",
+        "i3b_money"
+      ],
+      "choices": [
+        "i3b_laydown",
+        "i3b_jacket",
+        "i3b_grapefruit",
+        "i3b_money"
+      ],
+      "correct": "i3b_laydown",
+      "why_wrong": {
+        "i3b_jacket": "You tapped \"jacket\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!",
+        "i3b_money": "You tapped \"money\", but the audio said: \"Lay down!\". The correct picture is \"lay down\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_laydown": "lay down",
+        "i3b_jacket": "jacket",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_money": "money"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q07",
+      "type": 1,
+      "prompt_text": "Get down!",
+      "audio_id": "midterm5-8-q07",
+      "image_ids": [
+        "i3b_slowdown",
+        "i3b_getdown",
+        "i3b_yessir",
+        "i3b_jacket"
+      ],
+      "choices": [
+        "i3b_slowdown",
+        "i3b_getdown",
+        "i3b_yessir",
+        "i3b_jacket"
+      ],
+      "correct": "i3b_getdown",
+      "why_wrong": {
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!",
+        "i3b_jacket": "You tapped \"jacket\", but the audio said: \"Get down!\". The correct picture is \"get down\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_slowdown": "slow down",
+        "i3b_getdown": "get down",
+        "i3b_yessir": "yes sir",
+        "i3b_jacket": "jacket"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q08",
+      "type": 1,
+      "prompt_text": "Quiet down!",
+      "audio_id": "midterm5-8-q08",
+      "image_ids": [
+        "i3b_avocado",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_mangos"
+      ],
+      "choices": [
+        "i3b_avocado",
+        "i3b_quietdown",
+        "i3b_yessir",
+        "i3b_mangos"
+      ],
+      "correct": "i3b_quietdown",
+      "why_wrong": {
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!",
+        "i3b_mangos": "You tapped \"mangos\", but the audio said: \"Quiet down!\". The correct picture is \"quiet down\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_avocado": "avocado",
+        "i3b_quietdown": "quiet down",
+        "i3b_yessir": "yes sir",
+        "i3b_mangos": "mangos"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q09",
+      "type": 1,
+      "prompt_text": "Give up!",
+      "audio_id": "midterm5-8-q09",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_giveup",
+        "i3b_grapefruit",
+        "i3b_where"
+      ],
+      "choices": [
+        "i3b_sister",
+        "i3b_giveup",
+        "i3b_grapefruit",
+        "i3b_where"
+      ],
+      "correct": "i3b_giveup",
+      "why_wrong": {
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"Give up!\". The correct picture is \"give up\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_giveup": "give up",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_where": "Where"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q10",
+      "type": 1,
+      "prompt_text": "Cool down!",
+      "audio_id": "midterm5-8-q10",
+      "image_ids": [
+        "i3b_cooldown",
+        "i3b_getdown",
+        "i3b_washup",
+        "i3b_who"
+      ],
+      "choices": [
+        "i3b_cooldown",
+        "i3b_getdown",
+        "i3b_washup",
+        "i3b_who"
+      ],
+      "correct": "i3b_cooldown",
+      "why_wrong": {
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_washup": "You tapped \"wash up\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Cool down!\". The correct picture is \"cool down\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooldown": "cool down",
+        "i3b_getdown": "get down",
+        "i3b_washup": "wash up",
+        "i3b_who": "Who"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q11",
+      "type": 1,
+      "prompt_text": "Okay, mom.",
+      "audio_id": "midterm5-8-q11",
+      "image_ids": [
+        "i3b_feet310",
+        "i3b_cooldown",
+        "i3b_okmom",
+        "i3b_gfsecret"
+      ],
+      "choices": [
+        "i3b_feet310",
+        "i3b_cooldown",
+        "i3b_okmom",
+        "i3b_gfsecret"
+      ],
+      "correct": "i3b_okmom",
+      "why_wrong": {
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Okay, mom.\". The correct picture is \"okay mom\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_feet310": "310 mm feet",
+        "i3b_cooldown": "cool down",
+        "i3b_okmom": "okay mom",
+        "i3b_gfsecret": "girlfriend secret"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q12",
+      "type": 1,
+      "prompt_text": "Yes, sir!",
+      "audio_id": "midterm5-8-q12",
+      "image_ids": [
+        "i3b_money",
+        "i3b_feet310",
+        "i3b_yessir",
+        "i3b_soursop"
+      ],
+      "choices": [
+        "i3b_money",
+        "i3b_feet310",
+        "i3b_yessir",
+        "i3b_soursop"
+      ],
+      "correct": "i3b_yessir",
+      "why_wrong": {
+        "i3b_money": "You tapped \"money\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!",
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"Yes, sir!\". The correct picture is \"yes sir\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_money": "money",
+        "i3b_feet310": "310 mm feet",
+        "i3b_yessir": "yes sir",
+        "i3b_soursop": "soursop"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q13",
+      "type": 1,
+      "prompt_text": "Yes, ma'am!",
+      "audio_id": "midterm5-8-q13",
+      "image_ids": [
+        "i3b_yesmaam",
+        "i3b_quietdown",
+        "i3b_umbrella",
+        "i3b_durian"
+      ],
+      "choices": [
+        "i3b_yesmaam",
+        "i3b_quietdown",
+        "i3b_umbrella",
+        "i3b_durian"
+      ],
+      "correct": "i3b_yesmaam",
+      "why_wrong": {
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_umbrella": "You tapped \"umbrella\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"Yes, ma'am!\". The correct picture is \"yes ma'am\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yesmaam": "yes ma'am",
+        "i3b_quietdown": "quiet down",
+        "i3b_umbrella": "umbrella",
+        "i3b_durian": "durian"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q14",
+      "type": 1,
+      "prompt_text": "Okay, dad.",
+      "audio_id": "midterm5-8-q14",
+      "image_ids": [
+        "i3b_getdown",
+        "i3b_feet310",
+        "i3b_umbrella",
+        "i3b_okdad"
+      ],
+      "choices": [
+        "i3b_getdown",
+        "i3b_feet310",
+        "i3b_umbrella",
+        "i3b_okdad"
+      ],
+      "correct": "i3b_okdad",
+      "why_wrong": {
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!",
+        "i3b_umbrella": "You tapped \"umbrella\", but the audio said: \"Okay, dad.\". The correct picture is \"okay dad\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_getdown": "get down",
+        "i3b_feet310": "310 mm feet",
+        "i3b_umbrella": "umbrella",
+        "i3b_okdad": "okay dad"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q15",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q15",
+      "image_ids": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_egg",
+      "why_wrong": {
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q16",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q16",
+      "image_ids": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_bread",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bread": "bread",
+        "i3b_egg": "egg",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q17",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q17",
+      "image_ids": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_milk",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_milk": "milk",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q18",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q18",
+      "image_ids": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "choices": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "correct": "i3b_cheese",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cheese": "cheese",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q19",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q19",
+      "image_ids": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_egg",
+      "why_wrong": {
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q20",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q20",
+      "image_ids": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_bread",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bread": "bread",
+        "i3b_egg": "egg",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q21",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q21",
+      "image_ids": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_milk",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_milk": "milk",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q22",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q22",
+      "image_ids": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "choices": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "correct": "i3b_cheese",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cheese": "cheese",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q23",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q23",
+      "image_ids": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_egg",
+      "why_wrong": {
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q24",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q24",
+      "image_ids": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_bread",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bread": "bread",
+        "i3b_egg": "egg",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q25",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q25",
+      "image_ids": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_milk",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_milk",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_milk": "milk",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q26",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q26",
+      "image_ids": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "choices": [
+        "i3b_cheese",
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk"
+      ],
+      "correct": "i3b_cheese",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cheese": "cheese",
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q27",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q27",
+      "image_ids": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_egg",
+        "i3b_bread",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_egg",
+      "why_wrong": {
+        "i3b_bread": "That is bread.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_egg": "egg",
+        "i3b_bread": "bread",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q28",
+      "type": 1,
+      "prompt_text": "Listen and tap the picture.",
+      "audio_id": "midterm5-8-q28",
+      "image_ids": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "choices": [
+        "i3b_bread",
+        "i3b_egg",
+        "i3b_milk",
+        "i3b_cheese"
+      ],
+      "correct": "i3b_bread",
+      "why_wrong": {
+        "i3b_egg": "That is an egg.",
+        "i3b_milk": "That is milk.",
+        "i3b_cheese": "That is cheese."
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_bread": "bread",
+        "i3b_egg": "egg",
+        "i3b_milk": "milk",
+        "i3b_cheese": "cheese"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q29",
+      "type": 1,
+      "prompt_text": "Do not forget your jacket!",
+      "audio_id": "midterm5-8-q29",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_giveup",
+        "i3b_avocado",
+        "i3b_jacket"
+      ],
+      "choices": [
+        "i3b_sister",
+        "i3b_giveup",
+        "i3b_avocado",
+        "i3b_jacket"
+      ],
+      "correct": "i3b_jacket",
+      "why_wrong": {
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Do not forget your jacket!\". The correct picture is \"jacket\". Listen again!",
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Do not forget your jacket!\". The correct picture is \"jacket\". Listen again!",
+        "i3b_avocado": "You tapped \"avocado\", but the audio said: \"Do not forget your jacket!\". The correct picture is \"jacket\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_giveup": "give up",
+        "i3b_avocado": "avocado",
+        "i3b_jacket": "jacket"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q30",
+      "type": 1,
+      "prompt_text": "Don't forget your money!",
+      "audio_id": "midterm5-8-q30",
+      "image_ids": [
+        "i3b_textbook",
+        "i3b_mangosteen",
+        "i3b_canada",
+        "i3b_money"
+      ],
+      "choices": [
+        "i3b_textbook",
+        "i3b_mangosteen",
+        "i3b_canada",
+        "i3b_money"
+      ],
+      "correct": "i3b_money",
+      "why_wrong": {
+        "i3b_textbook": "You tapped \"textbook\", but the audio said: \"Don't forget your money!\". The correct picture is \"money\". Listen again!",
+        "i3b_mangosteen": "You tapped \"mangosteen\", but the audio said: \"Don't forget your money!\". The correct picture is \"money\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"Don't forget your money!\". The correct picture is \"money\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_textbook": "textbook",
+        "i3b_mangosteen": "mangosteen",
+        "i3b_canada": "Canada",
+        "i3b_money": "money"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q31",
+      "type": 1,
+      "prompt_text": "Do not forget your phone!",
+      "audio_id": "midterm5-8-q31",
+      "image_ids": [
+        "i3b_giveup",
+        "i3b_sister",
+        "i3b_okmom",
+        "i3b_phone"
+      ],
+      "choices": [
+        "i3b_giveup",
+        "i3b_sister",
+        "i3b_okmom",
+        "i3b_phone"
+      ],
+      "correct": "i3b_phone",
+      "why_wrong": {
+        "i3b_giveup": "You tapped \"give up\", but the audio said: \"Do not forget your phone!\". The correct picture is \"phone\". Listen again!",
+        "i3b_sister": "You tapped \"sister\", but the audio said: \"Do not forget your phone!\". The correct picture is \"phone\". Listen again!",
+        "i3b_okmom": "You tapped \"okay mom\", but the audio said: \"Do not forget your phone!\". The correct picture is \"phone\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_giveup": "give up",
+        "i3b_sister": "sister",
+        "i3b_okmom": "okay mom",
+        "i3b_phone": "phone"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q32",
+      "type": 1,
+      "prompt_text": "Don't forget your school bag!",
+      "audio_id": "midterm5-8-q32",
+      "image_ids": [
+        "i3b_apples",
+        "i3b_schoolbag",
+        "i3b_gfsecret",
+        "i3b_slowdown"
+      ],
+      "choices": [
+        "i3b_apples",
+        "i3b_schoolbag",
+        "i3b_gfsecret",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_schoolbag",
+      "why_wrong": {
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"Don't forget your school bag!\". The correct picture is \"school bag\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Don't forget your school bag!\". The correct picture is \"school bag\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Don't forget your school bag!\". The correct picture is \"school bag\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_apples": "apples",
+        "i3b_schoolbag": "school bag",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_slowdown": "slow down"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q33",
+      "type": 1,
+      "prompt_text": "Do not forget your lunch!",
+      "audio_id": "midterm5-8-q33",
+      "image_ids": [
+        "i3b_jacket",
+        "i3b_lunch",
+        "i3b_omgsorry",
+        "i3b_secret"
+      ],
+      "choices": [
+        "i3b_jacket",
+        "i3b_lunch",
+        "i3b_omgsorry",
+        "i3b_secret"
+      ],
+      "correct": "i3b_lunch",
+      "why_wrong": {
+        "i3b_jacket": "You tapped \"jacket\", but the audio said: \"Do not forget your lunch!\". The correct picture is \"lunch\". Listen again!",
+        "i3b_omgsorry": "You tapped \"oh my god sorry\", but the audio said: \"Do not forget your lunch!\". The correct picture is \"lunch\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Do not forget your lunch!\". The correct picture is \"lunch\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_jacket": "jacket",
+        "i3b_lunch": "lunch",
+        "i3b_omgsorry": "oh my god sorry",
+        "i3b_secret": "secret"
+      }
+    },
+    {
+      "id": "i3b_midterm5_8_q34",
+      "type": 1,
+      "prompt_text": "She is my sister.",
+      "audio_id": "midterm5-8-q34",
+      "image_ids": [
+        "i3b_who",
+        "i3b_key",
+        "i3b_phone",
+        "i3b_sister"
+      ],
+      "choices": [
+        "i3b_who",
+        "i3b_key",
+        "i3b_phone",
+        "i3b_sister"
+      ],
+      "correct": "i3b_sister",
+      "why_wrong": {
+        "i3b_who": "You tapped \"Who\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_key": "You tapped \"key\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_phone": "You tapped \"phone\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!"
+      },
+      "unit": null,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_who": "Who",
+        "i3b_key": "key",
+        "i3b_phone": "phone",
+        "i3b_sister": "sister"
+      }
+    }
+  ]
+}

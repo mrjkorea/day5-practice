@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2c",
+    "title": "Intermediate 2C Unit 2: What Are You Doing?",
+    "kind": "unit",
+    "units_covered": [
+      2
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2c_u02_q01",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is sunny.",
+        "I am eleven.",
+        "I'm reading a book.",
+        "She is tall."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "It is sunny.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q02",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "I like blue.",
+        "We study.",
+        "She's cooking dinner."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q03",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "She runs.",
+        "I have a dog.",
+        "Yes, they are."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q04",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing pictures.",
+        "I like music.",
+        "She reads.",
+        "He eats."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q05",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He's talking to his mom.",
+        "He jumps.",
+        "She swims.",
+        "I like summer."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q06",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am eleven.",
+        "She is tall.",
+        "I'm reading a book.",
+        "It is sunny."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "I am eleven.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q07",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "We study.",
+        "I like blue.",
+        "She's cooking dinner.",
+        "He plays."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "We study.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q08",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "Yes, they are.",
+        "He sings.",
+        "She runs."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q09",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like music.",
+        "She reads.",
+        "They're drawing pictures."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q10",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "He's talking to his mom.",
+        "He jumps.",
+        "She swims."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q11",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm reading a book.",
+        "She is tall.",
+        "It is sunny.",
+        "I am eleven."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q12",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's cooking dinner.",
+        "I like blue.",
+        "He plays.",
+        "We study."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q13",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "He sings.",
+        "I have a dog.",
+        "Yes, they are."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q14",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She reads.",
+        "He eats.",
+        "They're drawing pictures.",
+        "I like music."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like music.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q15",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "He jumps.",
+        "He's talking to his mom.",
+        "She swims."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q16",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I'm reading a book.",
+        "I am eleven.",
+        "It is sunny."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!",
+        "It is sunny.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q17",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's cooking dinner.",
+        "He plays.",
+        "I like blue.",
+        "We study."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "I like blue.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q18",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a dog.",
+        "Yes, they are.",
+        "He sings.",
+        "She runs."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "I have a dog.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q19",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing pictures.",
+        "I like music.",
+        "He eats.",
+        "She reads."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q20",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "She swims.",
+        "He's talking to his mom.",
+        "I like summer."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q21",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is sunny.",
+        "I'm reading a book.",
+        "I am eleven.",
+        "She is tall."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "It is sunny.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q22",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's cooking dinner.",
+        "I like blue.",
+        "He plays.",
+        "We study."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q23",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "I have a dog.",
+        "She runs.",
+        "Yes, they are."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q24",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like music.",
+        "They're drawing pictures.",
+        "He eats.",
+        "She reads."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q25",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He jumps.",
+        "He's talking to his mom.",
+        "I like summer."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q26",
+      "type": 4,
+      "prompt_text": "What are you doing right now?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I'm reading a book.",
+        "It is sunny.",
+        "She is tall.",
+        "I am eleven."
+      ],
+      "correct": "I'm reading a book.",
+      "why_wrong": {
+        "It is sunny.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I am eleven.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q27",
+      "type": 4,
+      "prompt_text": "What is she doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She's cooking dinner.",
+        "I like blue.",
+        "He plays.",
+        "We study."
+      ],
+      "correct": "She's cooking dinner.",
+      "why_wrong": {
+        "I like blue.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "We study.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q28",
+      "type": 4,
+      "prompt_text": "Are they playing soccer?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "She runs.",
+        "Yes, they are.",
+        "I have a dog."
+      ],
+      "correct": "Yes, they are.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I have a dog.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q29",
+      "type": 4,
+      "prompt_text": "What are the kids doing?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're drawing pictures.",
+        "I like music.",
+        "She reads.",
+        "He eats."
+      ],
+      "correct": "They're drawing pictures.",
+      "why_wrong": {
+        "I like music.": "Not quite — try again!",
+        "She reads.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    },
+    {
+      "id": "i2c_u02_q30",
+      "type": 4,
+      "prompt_text": "What is he doing on the phone?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "He jumps.",
+        "She swims.",
+        "He's talking to his mom."
+      ],
+      "correct": "He's talking to his mom.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 2,
+      "level": "int2c"
+    }
+  ]
+}

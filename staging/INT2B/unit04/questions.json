@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "level": "int2b",
+    "title": "Intermediate 2B Unit 4: Prices and Money",
+    "kind": "unit",
+    "units_covered": [
+      4
+    ],
+    "count": 30,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Shell pack — replace with staging assets when available."
+  },
+  "questions": [
+    {
+      "id": "i2b_u04_q01",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "It's twenty dollars.",
+        "He plays.",
+        "I like rice."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like rice.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q02",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He sings.",
+        "It's fifteen thousand won.",
+        "She runs."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q03",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's quite cheap.",
+        "I am ten.",
+        "He reads.",
+        "She likes red."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q04",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "They're fifty dollars.",
+        "I like summer.",
+        "She swims."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q05",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "He jumps.",
+        "It costs two dollars.",
+        "I have homework."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q06",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like rice.",
+        "She is kind.",
+        "He plays.",
+        "It's twenty dollars."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "I like rice.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q07",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I have a cat.",
+        "He sings.",
+        "She runs.",
+        "It's fifteen thousand won."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "I have a cat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q08",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "No, it's quite cheap.",
+        "She likes red.",
+        "I am ten.",
+        "He reads."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "She likes red.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q09",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He eats.",
+        "I like summer.",
+        "They're fifty dollars.",
+        "She swims."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "He eats.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q10",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It costs two dollars.",
+        "I have homework.",
+        "He jumps.",
+        "She is tall."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "I have homework.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q11",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like rice.",
+        "She is kind.",
+        "He plays.",
+        "It's twenty dollars."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "I like rice.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q12",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "It's fifteen thousand won.",
+        "She runs.",
+        "I have a cat."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q13",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She likes red.",
+        "I am ten.",
+        "No, it's quite cheap."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q14",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're fifty dollars.",
+        "She swims.",
+        "I like summer.",
+        "He eats."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q15",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "It costs two dollars.",
+        "I have homework.",
+        "He jumps."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q16",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He plays.",
+        "She is kind.",
+        "I like rice.",
+        "It's twenty dollars."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "He plays.": "Not quite — try again!",
+        "She is kind.": "Not quite — try again!",
+        "I like rice.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q17",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "She runs.",
+        "I have a cat.",
+        "It's fifteen thousand won."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q18",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I am ten.",
+        "He reads.",
+        "No, it's quite cheap.",
+        "She likes red."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "I am ten.": "Not quite — try again!",
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q19",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "I like summer.",
+        "They're fifty dollars.",
+        "She swims.",
+        "He eats."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q20",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is tall.",
+        "I have homework.",
+        "He jumps.",
+        "It costs two dollars."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "She is tall.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "He jumps.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q21",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He plays.",
+        "It's twenty dollars.",
+        "I like rice."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like rice.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q22",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He sings.",
+        "It's fifteen thousand won.",
+        "I have a cat.",
+        "She runs."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "He sings.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "She runs.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q23",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She likes red.",
+        "I am ten.",
+        "No, it's quite cheap."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q24",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She swims.",
+        "He eats.",
+        "They're fifty dollars.",
+        "I like summer."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!",
+        "I like summer.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q25",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It costs two dollars.",
+        "He jumps.",
+        "She is tall.",
+        "I have homework."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q26",
+      "type": 4,
+      "prompt_text": "How much is this shirt?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She is kind.",
+        "He plays.",
+        "I like rice.",
+        "It's twenty dollars."
+      ],
+      "correct": "It's twenty dollars.",
+      "why_wrong": {
+        "She is kind.": "Not quite — try again!",
+        "He plays.": "Not quite — try again!",
+        "I like rice.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q27",
+      "type": 4,
+      "prompt_text": "What's the price of the bag?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "She runs.",
+        "I have a cat.",
+        "It's fifteen thousand won.",
+        "He sings."
+      ],
+      "correct": "It's fifteen thousand won.",
+      "why_wrong": {
+        "She runs.": "Not quite — try again!",
+        "I have a cat.": "Not quite — try again!",
+        "He sings.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q28",
+      "type": 4,
+      "prompt_text": "Is the notebook expensive?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He reads.",
+        "She likes red.",
+        "I am ten.",
+        "No, it's quite cheap."
+      ],
+      "correct": "No, it's quite cheap.",
+      "why_wrong": {
+        "He reads.": "Not quite — try again!",
+        "She likes red.": "Not quite — try again!",
+        "I am ten.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q29",
+      "type": 4,
+      "prompt_text": "How much are these shoes?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "They're fifty dollars.",
+        "I like summer.",
+        "She swims.",
+        "He eats."
+      ],
+      "correct": "They're fifty dollars.",
+      "why_wrong": {
+        "I like summer.": "Not quite — try again!",
+        "She swims.": "Not quite — try again!",
+        "He eats.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    },
+    {
+      "id": "i2b_u04_q30",
+      "type": 4,
+      "prompt_text": "What does the pen cost?",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "He jumps.",
+        "I have homework.",
+        "It costs two dollars.",
+        "She is tall."
+      ],
+      "correct": "It costs two dollars.",
+      "why_wrong": {
+        "He jumps.": "Not quite — try again!",
+        "I have homework.": "Not quite — try again!",
+        "She is tall.": "Not quite — try again!"
+      },
+      "unit": 4,
+      "level": "int2b"
+    }
+  ]
+}

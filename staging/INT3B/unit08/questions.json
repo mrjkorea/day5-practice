@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "level": "int3b",
+    "title": "Do You Like Korea?",
+    "kind": "unit",
+    "units_covered": [
+      8
+    ],
+    "count": 30,
+    "schema": "day5-practice",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": true,
+    "note": "Converted from reconstructed INT3B Hermes soft-pack questions; prompt_text uses the source audioText transcript.",
+    "normalized_from": "int3b-ready"
+  },
+  "questions": [
+    {
+      "id": "i3b_u08_q01",
+      "type": 1,
+      "prompt_text": "I am from Canada.",
+      "audio_id": "unit8-q01",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
+      ],
+      "choices": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
+      ],
+      "correct": "i3b_canada",
+      "why_wrong": {
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_canada": "Canada",
+        "i3b_feet310": "310 mm feet",
+        "i3b_what": "What"
+      }
+    },
+    {
+      "id": "i3b_u08_q02",
+      "type": 1,
+      "prompt_text": "How tall are you? 187 cm!",
+      "audio_id": "unit8-q02",
+      "image_ids": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
+      ],
+      "choices": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_187cm",
+      "why_wrong": {
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_where": "Where",
+        "i3b_canada": "Canada",
+        "i3b_why": "Why",
+        "i3b_187cm": "187 cm tall"
+      }
+    },
+    {
+      "id": "i3b_u08_q03",
+      "type": 1,
+      "prompt_text": "I am 22 years old forever.",
+      "audio_id": "unit8-q03",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
+      ],
+      "choices": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_22forever",
+      "why_wrong": {
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_what": "What",
+        "i3b_gimbap": "Gimbap",
+        "i3b_187cm": "187 cm tall"
+      }
+    },
+    {
+      "id": "i3b_u08_q04",
+      "type": 1,
+      "prompt_text": "Why did you come to Korea? To teach English!",
+      "audio_id": "unit8-q04",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
+      ],
+      "correct": "i3b_teacheng",
+      "why_wrong": {
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_why": "Why",
+        "i3b_who": "Who",
+        "i3b_gfsecret": "girlfriend secret"
+      }
+    },
+    {
+      "id": "i3b_u08_q05",
+      "type": 1,
+      "prompt_text": "They are 310 millimeters.",
+      "audio_id": "unit8-q05",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_why",
+        "i3b_feet310",
+        "i3b_22forever"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_why",
+        "i3b_feet310",
+        "i3b_22forever"
+      ],
+      "correct": "i3b_feet310",
+      "why_wrong": {
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"They are 310 millimeters.\". The correct picture is \"310 mm feet\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_why": "Why",
+        "i3b_feet310": "310 mm feet",
+        "i3b_22forever": "22 years old forever"
+      }
+    },
+    {
+      "id": "i3b_u08_q06",
+      "type": 1,
+      "prompt_text": "What Korean food do you like? Gimbap!",
+      "audio_id": "unit8-q06",
+      "image_ids": [
+        "i3b_gimbap",
+        "i3b_why",
+        "i3b_what",
+        "i3b_canada"
+      ],
+      "choices": [
+        "i3b_gimbap",
+        "i3b_why",
+        "i3b_what",
+        "i3b_canada"
+      ],
+      "correct": "i3b_gimbap",
+      "why_wrong": {
+        "i3b_why": "You tapped \"Why\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"What Korean food do you like? Gimbap!\". The correct picture is \"Gimbap\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gimbap": "Gimbap",
+        "i3b_why": "Why",
+        "i3b_what": "What",
+        "i3b_canada": "Canada"
+      }
+    },
+    {
+      "id": "i3b_u08_q07",
+      "type": 1,
+      "prompt_text": "That is a secret!",
+      "audio_id": "unit8-q07",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_where",
+        "i3b_secret",
+        "i3b_why"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_where",
+        "i3b_secret",
+        "i3b_why"
+      ],
+      "correct": "i3b_secret",
+      "why_wrong": {
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"That is a secret!\". The correct picture is \"secret\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_where": "Where",
+        "i3b_secret": "secret",
+        "i3b_why": "Why"
+      }
+    },
+    {
+      "id": "i3b_u08_q08",
+      "type": 1,
+      "prompt_text": "Do you have a girlfriend? That is a secret too!",
+      "audio_id": "unit8-q08",
+      "image_ids": [
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_who",
+        "i3b_feet310"
+      ],
+      "choices": [
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_who",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_gfsecret",
+      "why_wrong": {
+        "i3b_how": "You tapped \"How\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Do you have a girlfriend? That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_how": "How",
+        "i3b_who": "Who",
+        "i3b_feet310": "310 mm feet"
+      }
+    },
+    {
+      "id": "i3b_u08_q09",
+      "type": 1,
+      "prompt_text": "Who?",
+      "audio_id": "unit8-q09",
+      "image_ids": [
+        "i3b_who",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "choices": [
+        "i3b_who",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "correct": "i3b_who",
+      "why_wrong": {
+        "i3b_how": "You tapped \"How\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_who": "Who",
+        "i3b_how": "How",
+        "i3b_secret": "secret",
+        "i3b_canada": "Canada"
+      }
+    },
+    {
+      "id": "i3b_u08_q10",
+      "type": 1,
+      "prompt_text": "What?",
+      "audio_id": "unit8-q10",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_teacheng",
+        "i3b_what",
+        "i3b_gimbap"
+      ],
+      "choices": [
+        "i3b_187cm",
+        "i3b_teacheng",
+        "i3b_what",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_what",
+      "why_wrong": {
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_teacheng": "teach English",
+        "i3b_what": "What",
+        "i3b_gimbap": "Gimbap"
+      }
+    },
+    {
+      "id": "i3b_u08_q11",
+      "type": 1,
+      "prompt_text": "Where are you from?",
+      "audio_id": "unit8-q11",
+      "image_ids": [
+        "i3b_where",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_feet310"
+      ],
+      "choices": [
+        "i3b_where",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_where",
+      "why_wrong": {
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_where": "Where",
+        "i3b_teacheng": "teach English",
+        "i3b_187cm": "187 cm tall",
+        "i3b_feet310": "310 mm feet"
+      }
+    },
+    {
+      "id": "i3b_u08_q12",
+      "type": 1,
+      "prompt_text": "Why did you come to Korea?",
+      "audio_id": "unit8-q12",
+      "image_ids": [
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_187cm",
+        "i3b_why"
+      ],
+      "choices": [
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_187cm",
+        "i3b_why"
+      ],
+      "correct": "i3b_why",
+      "why_wrong": {
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_feet310": "310 mm feet",
+        "i3b_secret": "secret",
+        "i3b_187cm": "187 cm tall",
+        "i3b_why": "Why"
+      }
+    },
+    {
+      "id": "i3b_u08_q13",
+      "type": 1,
+      "prompt_text": "How tall are you?",
+      "audio_id": "unit8-q13",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "choices": [
+        "i3b_187cm",
+        "i3b_how",
+        "i3b_secret",
+        "i3b_canada"
+      ],
+      "correct": "i3b_how",
+      "why_wrong": {
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_how": "How",
+        "i3b_secret": "secret",
+        "i3b_canada": "Canada"
+      }
+    },
+    {
+      "id": "i3b_u08_q14",
+      "type": 1,
+      "prompt_text": "Where are you from? Canada!",
+      "audio_id": "unit8-q14",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_gfsecret",
+        "i3b_teacheng",
+        "i3b_feet310"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_gfsecret",
+        "i3b_teacheng",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_canada",
+      "why_wrong": {
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from? Canada!\". The correct picture is \"Canada\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_teacheng": "teach English",
+        "i3b_feet310": "310 mm feet"
+      }
+    },
+    {
+      "id": "i3b_u08_q15",
+      "type": 1,
+      "prompt_text": "I am 187 centimeters tall.",
+      "audio_id": "unit8-q15",
+      "image_ids": [
+        "i3b_187cm",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_canada"
+      ],
+      "choices": [
+        "i3b_187cm",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_canada"
+      ],
+      "correct": "i3b_187cm",
+      "why_wrong": {
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I am 187 centimeters tall.\". The correct picture is \"187 cm tall\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_187cm": "187 cm tall",
+        "i3b_22forever": "22 years old forever",
+        "i3b_how": "How",
+        "i3b_canada": "Canada"
+      }
+    },
+    {
+      "id": "i3b_u08_q16",
+      "type": 1,
+      "prompt_text": "How old are you? 22 forever!",
+      "audio_id": "unit8-q16",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "correct": "i3b_22forever",
+      "why_wrong": {
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"How old are you? 22 forever!\". The correct picture is \"22 years old forever\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_187cm": "187 cm tall",
+        "i3b_what": "What"
+      }
+    },
+    {
+      "id": "i3b_u08_q17",
+      "type": 1,
+      "prompt_text": "I came to teach English.",
+      "audio_id": "unit8-q17",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_why",
+        "i3b_canada"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_why",
+        "i3b_canada"
+      ],
+      "correct": "i3b_teacheng",
+      "why_wrong": {
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I came to teach English.\". The correct picture is \"teach English\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_why": "Why",
+        "i3b_canada": "Canada"
+      }
+    },
+    {
+      "id": "i3b_u08_q18",
+      "type": 1,
+      "prompt_text": "How big are your feet? 310 mm!",
+      "audio_id": "unit8-q18",
+      "image_ids": [
+        "i3b_how",
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_teacheng"
+      ],
+      "choices": [
+        "i3b_how",
+        "i3b_feet310",
+        "i3b_secret",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_feet310",
+      "why_wrong": {
+        "i3b_how": "You tapped \"How\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"How big are your feet? 310 mm!\". The correct picture is \"310 mm feet\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_feet310": "310 mm feet",
+        "i3b_secret": "secret",
+        "i3b_teacheng": "teach English"
+      }
+    },
+    {
+      "id": "i3b_u08_q19",
+      "type": 1,
+      "prompt_text": "I love Gimbap!",
+      "audio_id": "unit8-q19",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_gimbap",
+        "i3b_feet310",
+        "i3b_how"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_gimbap",
+        "i3b_feet310",
+        "i3b_how"
+      ],
+      "correct": "i3b_gimbap",
+      "why_wrong": {
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I love Gimbap!\". The correct picture is \"Gimbap\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_gimbap": "Gimbap",
+        "i3b_feet310": "310 mm feet",
+        "i3b_how": "How"
+      }
+    },
+    {
+      "id": "i3b_u08_q20",
+      "type": 1,
+      "prompt_text": "How much do you weigh? That is a secret!",
+      "audio_id": "unit8-q20",
+      "image_ids": [
+        "i3b_secret",
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_where"
+      ],
+      "choices": [
+        "i3b_secret",
+        "i3b_gfsecret",
+        "i3b_how",
+        "i3b_where"
+      ],
+      "correct": "i3b_secret",
+      "why_wrong": {
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_secret": "secret",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_how": "How",
+        "i3b_where": "Where"
+      }
+    },
+    {
+      "id": "i3b_u08_q21",
+      "type": 1,
+      "prompt_text": "That is a secret too!",
+      "audio_id": "unit8-q21",
+      "image_ids": [
+        "i3b_gfsecret",
+        "i3b_gimbap",
+        "i3b_how",
+        "i3b_teacheng"
+      ],
+      "choices": [
+        "i3b_gfsecret",
+        "i3b_gimbap",
+        "i3b_how",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_gfsecret",
+      "why_wrong": {
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"That is a secret too!\". The correct picture is \"girlfriend secret\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_gimbap": "Gimbap",
+        "i3b_how": "How",
+        "i3b_teacheng": "teach English"
+      }
+    },
+    {
+      "id": "i3b_u08_q22",
+      "type": 1,
+      "prompt_text": "Who?",
+      "audio_id": "unit8-q22",
+      "image_ids": [
+        "i3b_what",
+        "i3b_who",
+        "i3b_gimbap",
+        "i3b_teacheng"
+      ],
+      "choices": [
+        "i3b_what",
+        "i3b_who",
+        "i3b_gimbap",
+        "i3b_teacheng"
+      ],
+      "correct": "i3b_who",
+      "why_wrong": {
+        "i3b_what": "You tapped \"What\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!",
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Who?\". The correct picture is \"Who\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_what": "What",
+        "i3b_who": "Who",
+        "i3b_gimbap": "Gimbap",
+        "i3b_teacheng": "teach English"
+      }
+    },
+    {
+      "id": "i3b_u08_q23",
+      "type": 1,
+      "prompt_text": "What?",
+      "audio_id": "unit8-q23",
+      "image_ids": [
+        "i3b_how",
+        "i3b_why",
+        "i3b_what",
+        "i3b_who"
+      ],
+      "choices": [
+        "i3b_how",
+        "i3b_why",
+        "i3b_what",
+        "i3b_who"
+      ],
+      "correct": "i3b_what",
+      "why_wrong": {
+        "i3b_how": "You tapped \"How\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"What?\". The correct picture is \"What\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_why": "Why",
+        "i3b_what": "What",
+        "i3b_who": "Who"
+      }
+    },
+    {
+      "id": "i3b_u08_q24",
+      "type": 1,
+      "prompt_text": "Where are you from?",
+      "audio_id": "unit8-q24",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_where",
+        "i3b_gfsecret",
+        "i3b_feet310"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_where",
+        "i3b_gfsecret",
+        "i3b_feet310"
+      ],
+      "correct": "i3b_where",
+      "why_wrong": {
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"Where are you from?\". The correct picture is \"Where\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_where": "Where",
+        "i3b_gfsecret": "girlfriend secret",
+        "i3b_feet310": "310 mm feet"
+      }
+    },
+    {
+      "id": "i3b_u08_q25",
+      "type": 1,
+      "prompt_text": "Why did you come to Korea?",
+      "audio_id": "unit8-q25",
+      "image_ids": [
+        "i3b_how",
+        "i3b_who",
+        "i3b_why",
+        "i3b_secret"
+      ],
+      "choices": [
+        "i3b_how",
+        "i3b_who",
+        "i3b_why",
+        "i3b_secret"
+      ],
+      "correct": "i3b_why",
+      "why_wrong": {
+        "i3b_how": "You tapped \"How\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"Why did you come to Korea?\". The correct picture is \"Why\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_how": "How",
+        "i3b_who": "Who",
+        "i3b_why": "Why",
+        "i3b_secret": "secret"
+      }
+    },
+    {
+      "id": "i3b_u08_q26",
+      "type": 1,
+      "prompt_text": "How tall are you?",
+      "audio_id": "unit8-q26",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_who",
+        "i3b_where",
+        "i3b_how"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_who",
+        "i3b_where",
+        "i3b_how"
+      ],
+      "correct": "i3b_how",
+      "why_wrong": {
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!",
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How tall are you?\". The correct picture is \"How\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_who": "Who",
+        "i3b_where": "Where",
+        "i3b_how": "How"
+      }
+    },
+    {
+      "id": "i3b_u08_q27",
+      "type": 1,
+      "prompt_text": "I am from Canada.",
+      "audio_id": "unit8-q27",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_why"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_22forever",
+        "i3b_how",
+        "i3b_why"
+      ],
+      "correct": "i3b_canada",
+      "why_wrong": {
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_how": "You tapped \"How\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_22forever": "22 years old forever",
+        "i3b_how": "How",
+        "i3b_why": "Why"
+      }
+    },
+    {
+      "id": "i3b_u08_q28",
+      "type": 1,
+      "prompt_text": "How tall are you? 187 cm!",
+      "audio_id": "unit8-q28",
+      "image_ids": [
+        "i3b_canada",
+        "i3b_187cm",
+        "i3b_secret",
+        "i3b_gimbap"
+      ],
+      "choices": [
+        "i3b_canada",
+        "i3b_187cm",
+        "i3b_secret",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_187cm",
+      "why_wrong": {
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_secret": "You tapped \"secret\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_canada": "Canada",
+        "i3b_187cm": "187 cm tall",
+        "i3b_secret": "secret",
+        "i3b_gimbap": "Gimbap"
+      }
+    },
+    {
+      "id": "i3b_u08_q29",
+      "type": 1,
+      "prompt_text": "I am 22 years old forever.",
+      "audio_id": "unit8-q29",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_gimbap"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_22forever",
+        "i3b_187cm",
+        "i3b_gimbap"
+      ],
+      "correct": "i3b_22forever",
+      "why_wrong": {
+        "i3b_teacheng": "You tapped \"teach English\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_22forever": "22 years old forever",
+        "i3b_187cm": "187 cm tall",
+        "i3b_gimbap": "Gimbap"
+      }
+    },
+    {
+      "id": "i3b_u08_q30",
+      "type": 1,
+      "prompt_text": "Why did you come to Korea? To teach English!",
+      "audio_id": "unit8-q30",
+      "image_ids": [
+        "i3b_why",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "choices": [
+        "i3b_why",
+        "i3b_teacheng",
+        "i3b_187cm",
+        "i3b_what"
+      ],
+      "correct": "i3b_teacheng",
+      "why_wrong": {
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_why": "Why",
+        "i3b_teacheng": "teach English",
+        "i3b_187cm": "187 cm tall",
+        "i3b_what": "What"
+      }
+    }
+  ]
+}
