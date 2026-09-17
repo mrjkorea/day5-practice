@@ -7,7 +7,7 @@
       2
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,972 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
+    "images_partial": false,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2c-ready"
   },
   "questions": [
     {
       "id": "i2c_u02_q01",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is sunny.",
-        "I am eleven.",
-        "I'm reading a book.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "I am taking a picture.",
+      "audio_id": "unit-02-q01",
+      "image_ids": [
+        "int2c_suitcase",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_nervous"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_suitcase",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_nervous"
+      ],
+      "correct": "int2c_camera",
       "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_studying": "student studying",
+        "int2c_nervous": "nervous face"
+      }
     },
     {
       "id": "i2c_u02_q02",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "I like blue.",
-        "We study.",
-        "She's cooking dinner."
+      "type": 1,
+      "prompt_text": "He is selling fruit.",
+      "audio_id": "unit-02-q02",
+      "image_ids": [
+        "int2c_fruit_stall",
+        "int2c_headphones",
+        "int2c_sunglasses",
+        "int2c_studying"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_fruit_stall",
+        "int2c_headphones",
+        "int2c_sunglasses",
+        "int2c_studying"
+      ],
+      "correct": "int2c_fruit_stall",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_headphones": "headphones",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_studying": "student studying"
+      }
     },
     {
       "id": "i2c_u02_q03",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "She runs.",
-        "I have a dog.",
-        "Yes, they are."
+      "type": 1,
+      "prompt_text": "She is bowing.",
+      "audio_id": "unit-02-q03",
+      "image_ids": [
+        "int2c_bowing",
+        "int2c_ski",
+        "int2c_headache",
+        "int2c_candy"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_bowing",
+        "int2c_ski",
+        "int2c_headache",
+        "int2c_candy"
+      ],
+      "correct": "int2c_bowing",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_bowing": "person bowing",
+        "int2c_ski": "ski",
+        "int2c_headache": "head with headache",
+        "int2c_candy": "candy"
+      }
     },
     {
       "id": "i2c_u02_q04",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing pictures.",
-        "I like music.",
-        "She reads.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "He is fishing.",
+      "audio_id": "unit-02-q04",
+      "image_ids": [
+        "int2c_jacket",
+        "int2c_watch",
+        "int2c_fishing",
+        "int2c_knee"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_jacket",
+        "int2c_watch",
+        "int2c_fishing",
+        "int2c_knee"
+      ],
+      "correct": "int2c_fishing",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jacket": "jacket",
+        "int2c_watch": "watch",
+        "int2c_fishing": "fishing",
+        "int2c_knee": "knee"
+      }
     },
     {
       "id": "i2c_u02_q05",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's talking to his mom.",
-        "He jumps.",
-        "She swims.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "She is selling vegetables.",
+      "audio_id": "unit-02-q05",
+      "image_ids": [
+        "int2c_skate",
+        "int2c_fruit_stall",
+        "int2c_naejangsan",
+        "int2c_veg_stall"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_skate",
+        "int2c_fruit_stall",
+        "int2c_naejangsan",
+        "int2c_veg_stall"
+      ],
+      "correct": "int2c_veg_stall",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2c_skate": "You tapped \"ice skate\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_skate": "ice skate",
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_veg_stall": "vegetable stall"
+      }
     },
     {
       "id": "i2c_u02_q06",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am eleven.",
-        "She is tall.",
-        "I'm reading a book.",
-        "It is sunny."
+      "type": 1,
+      "prompt_text": "They are playing Go.",
+      "audio_id": "unit-02-q06",
+      "image_ids": [
+        "int2c_tongyeong",
+        "int2c_watch",
+        "int2c_go_board",
+        "int2c_kimchi"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_tongyeong",
+        "int2c_watch",
+        "int2c_go_board",
+        "int2c_kimchi"
+      ],
+      "correct": "int2c_go_board",
       "why_wrong": {
-        "I am eleven.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!"
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_watch": "watch",
+        "int2c_go_board": "Go board",
+        "int2c_kimchi": "kimchi"
+      }
     },
     {
       "id": "i2c_u02_q07",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I like blue.",
-        "She's cooking dinner.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "They are playing computer games.",
+      "audio_id": "unit-02-q07",
+      "image_ids": [
+        "int2c_camera",
+        "int2c_toothbrush",
+        "int2c_worried",
+        "int2c_computer_games"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_camera",
+        "int2c_toothbrush",
+        "int2c_worried",
+        "int2c_computer_games"
+      ],
+      "correct": "int2c_computer_games",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_camera": "camera / taking a picture",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_worried": "worried face",
+        "int2c_computer_games": "computer games"
+      }
     },
     {
       "id": "i2c_u02_q08",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "Yes, they are.",
-        "He sings.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "We are making kimchi.",
+      "audio_id": "unit-02-q08",
+      "image_ids": [
+        "int2c_kimchi",
+        "int2c_bowing",
+        "int2c_winter",
+        "int2c_spring"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_kimchi",
+        "int2c_bowing",
+        "int2c_winter",
+        "int2c_spring"
+      ],
+      "correct": "int2c_kimchi",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_bowing": "You tapped \"person bowing\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!",
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_kimchi": "kimchi",
+        "int2c_bowing": "person bowing",
+        "int2c_winter": "winter",
+        "int2c_spring": "spring"
+      }
     },
     {
       "id": "i2c_u02_q09",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like music.",
-        "She reads.",
-        "They're drawing pictures."
+      "type": 1,
+      "prompt_text": "I am brushing my teeth.",
+      "audio_id": "unit-02-q09",
+      "image_ids": [
+        "int2c_gangwon",
+        "int2c_toothbrush",
+        "int2c_phone",
+        "int2c_studying"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_gangwon",
+        "int2c_toothbrush",
+        "int2c_phone",
+        "int2c_studying"
+      ],
+      "correct": "int2c_toothbrush",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!",
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_gangwon": "Gangwon Province",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_phone": "phone",
+        "int2c_studying": "student studying"
+      }
     },
     {
       "id": "i2c_u02_q10",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "He's talking to his mom.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I am sleeping.",
+      "audio_id": "unit-02-q10",
+      "image_ids": [
+        "int2c_sleeping",
+        "int2c_fall_leaves",
+        "int2c_pen",
+        "int2c_nose"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_sleeping",
+        "int2c_fall_leaves",
+        "int2c_pen",
+        "int2c_nose"
+      ],
+      "correct": "int2c_sleeping",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sleeping": "person sleeping",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_pen": "pen",
+        "int2c_nose": "bloody nose"
+      }
     },
     {
       "id": "i2c_u02_q11",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm reading a book.",
-        "She is tall.",
-        "It is sunny.",
-        "I am eleven."
+      "type": 1,
+      "prompt_text": "You are studying.",
+      "audio_id": "unit-02-q11",
+      "image_ids": [
+        "int2c_proud",
+        "int2c_wave",
+        "int2c_blue",
+        "int2c_studying"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_proud",
+        "int2c_wave",
+        "int2c_blue",
+        "int2c_studying"
+      ],
+      "correct": "int2c_studying",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_proud": "proud face",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_blue": "blue color swatch",
+        "int2c_studying": "student studying"
+      }
     },
     {
       "id": "i2c_u02_q12",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's cooking dinner.",
-        "I like blue.",
-        "He plays.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I am taking a shower.",
+      "audio_id": "unit-02-q12",
+      "image_ids": [
+        "int2c_ignored",
+        "int2c_stomach",
+        "int2c_cold_illness",
+        "int2c_shower"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_ignored",
+        "int2c_stomach",
+        "int2c_cold_illness",
+        "int2c_shower"
+      ],
+      "correct": "int2c_shower",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ignored": "ignored / left out face",
+        "int2c_stomach": "stomachache",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_shower": "shower"
+      }
     },
     {
       "id": "i2c_u02_q13",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He sings.",
-        "I have a dog.",
-        "Yes, they are."
+      "type": 1,
+      "prompt_text": "I am taking a picture.",
+      "audio_id": "unit-02-q13",
+      "image_ids": [
+        "int2c_science",
+        "int2c_camera",
+        "int2c_ski",
+        "int2c_surprised"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_science",
+        "int2c_camera",
+        "int2c_ski",
+        "int2c_surprised"
+      ],
+      "correct": "int2c_camera",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2c_science": "You tapped \"science\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_surprised": "You tapped \"surprised face\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_science": "science",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_ski": "ski",
+        "int2c_surprised": "surprised face"
+      }
     },
     {
       "id": "i2c_u02_q14",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He eats.",
-        "They're drawing pictures.",
-        "I like music."
+      "type": 1,
+      "prompt_text": "He is selling fruit.",
+      "audio_id": "unit-02-q14",
+      "image_ids": [
+        "int2c_phone",
+        "int2c_science",
+        "int2c_blue",
+        "int2c_fruit_stall"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_phone",
+        "int2c_science",
+        "int2c_blue",
+        "int2c_fruit_stall"
+      ],
+      "correct": "int2c_fruit_stall",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_phone": "phone",
+        "int2c_science": "science",
+        "int2c_blue": "blue color swatch",
+        "int2c_fruit_stall": "fruit stall"
+      }
     },
     {
       "id": "i2c_u02_q15",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "He jumps.",
-        "He's talking to his mom.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "She is bowing.",
+      "audio_id": "unit-02-q15",
+      "image_ids": [
+        "int2c_spring",
+        "int2c_bowing",
+        "int2c_back",
+        "int2c_proud"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_spring",
+        "int2c_bowing",
+        "int2c_back",
+        "int2c_proud"
+      ],
+      "correct": "int2c_bowing",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_spring": "spring",
+        "int2c_bowing": "person bowing",
+        "int2c_back": "back / spine",
+        "int2c_proud": "proud face"
+      }
     },
     {
       "id": "i2c_u02_q16",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I'm reading a book.",
-        "I am eleven.",
-        "It is sunny."
+      "type": 1,
+      "prompt_text": "He is fishing.",
+      "audio_id": "unit-02-q16",
+      "image_ids": [
+        "int2c_fruit_stall",
+        "int2c_embarrassed",
+        "int2c_fishing",
+        "int2c_camera"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_fruit_stall",
+        "int2c_embarrassed",
+        "int2c_fishing",
+        "int2c_camera"
+      ],
+      "correct": "int2c_fishing",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!"
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_embarrassed": "You tapped \"embarrassed face\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_embarrassed": "embarrassed face",
+        "int2c_fishing": "fishing",
+        "int2c_camera": "camera / taking a picture"
+      }
     },
     {
       "id": "i2c_u02_q17",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's cooking dinner.",
-        "He plays.",
-        "I like blue.",
-        "We study."
+      "type": 1,
+      "prompt_text": "She is selling vegetables.",
+      "audio_id": "unit-02-q17",
+      "image_ids": [
+        "int2c_go_board",
+        "int2c_jinhae",
+        "int2c_veg_stall",
+        "int2c_autumn"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_go_board",
+        "int2c_jinhae",
+        "int2c_veg_stall",
+        "int2c_autumn"
+      ],
+      "correct": "int2c_veg_stall",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_go_board": "Go board",
+        "int2c_jinhae": "Jinhae",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_autumn": "autumn / fall"
+      }
     },
     {
       "id": "i2c_u02_q18",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "Yes, they are.",
-        "He sings.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "They are playing Go.",
+      "audio_id": "unit-02-q18",
+      "image_ids": [
+        "int2c_hockey",
+        "int2c_go_board",
+        "int2c_throat",
+        "int2c_car"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_hockey",
+        "int2c_go_board",
+        "int2c_throat",
+        "int2c_car"
+      ],
+      "correct": "int2c_go_board",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_car": "You tapped \"car\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_hockey": "ice hockey",
+        "int2c_go_board": "Go board",
+        "int2c_throat": "sore throat",
+        "int2c_car": "car"
+      }
     },
     {
       "id": "i2c_u02_q19",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing pictures.",
-        "I like music.",
-        "He eats.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "They are playing computer games.",
+      "audio_id": "unit-02-q19",
+      "image_ids": [
+        "int2c_computer_games",
+        "int2c_chair",
+        "int2c_cold_illness",
+        "int2c_science"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_computer_games",
+        "int2c_chair",
+        "int2c_cold_illness",
+        "int2c_science"
+      ],
+      "correct": "int2c_computer_games",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2c_chair": "You tapped \"chair\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"They are playing computer games.\". The correct picture is \"computer games\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_computer_games": "computer games",
+        "int2c_chair": "chair",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_science": "science"
+      }
     },
     {
       "id": "i2c_u02_q20",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "He's talking to his mom.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "We are making kimchi.",
+      "audio_id": "unit-02-q20",
+      "image_ids": [
+        "int2c_money",
+        "int2c_kimchi",
+        "int2c_go_board",
+        "int2c_spring"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_money",
+        "int2c_kimchi",
+        "int2c_go_board",
+        "int2c_spring"
+      ],
+      "correct": "int2c_kimchi",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2c_money": "You tapped \"money\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!",
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"We are making kimchi.\". The correct picture is \"kimchi\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_money": "money",
+        "int2c_kimchi": "kimchi",
+        "int2c_go_board": "Go board",
+        "int2c_spring": "spring"
+      }
     },
     {
       "id": "i2c_u02_q21",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is sunny.",
-        "I'm reading a book.",
-        "I am eleven.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "I am brushing my teeth.",
+      "audio_id": "unit-02-q21",
+      "image_ids": [
+        "int2c_toothbrush",
+        "int2c_money",
+        "int2c_go_board",
+        "int2c_kimchi"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_toothbrush",
+        "int2c_money",
+        "int2c_go_board",
+        "int2c_kimchi"
+      ],
+      "correct": "int2c_toothbrush",
       "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2c_money": "You tapped \"money\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!",
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"I am brushing my teeth.\". The correct picture is \"toothbrush\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_toothbrush": "toothbrush",
+        "int2c_money": "money",
+        "int2c_go_board": "Go board",
+        "int2c_kimchi": "kimchi"
+      }
     },
     {
       "id": "i2c_u02_q22",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's cooking dinner.",
-        "I like blue.",
-        "He plays.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I am sleeping.",
+      "audio_id": "unit-02-q22",
+      "image_ids": [
+        "int2c_sleeping",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_shower"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_sleeping",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_shower"
+      ],
+      "correct": "int2c_sleeping",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!",
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"I am sleeping.\". The correct picture is \"person sleeping\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sleeping": "person sleeping",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_studying": "student studying",
+        "int2c_shower": "shower"
+      }
     },
     {
       "id": "i2c_u02_q23",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I have a dog.",
-        "She runs.",
-        "Yes, they are."
+      "type": 1,
+      "prompt_text": "You are studying.",
+      "audio_id": "unit-02-q23",
+      "image_ids": [
+        "int2c_studying",
+        "int2c_throat",
+        "int2c_kart",
+        "int2c_skate"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_studying",
+        "int2c_throat",
+        "int2c_kart",
+        "int2c_skate"
+      ],
+      "correct": "int2c_studying",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!",
+        "int2c_skate": "You tapped \"ice skate\", but the audio said: \"You are studying.\". The correct picture is \"student studying\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_studying": "student studying",
+        "int2c_throat": "sore throat",
+        "int2c_kart": "Kart Rider game",
+        "int2c_skate": "ice skate"
+      }
     },
     {
       "id": "i2c_u02_q24",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "They're drawing pictures.",
-        "He eats.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "I am taking a shower.",
+      "audio_id": "unit-02-q24",
+      "image_ids": [
+        "int2c_telephone",
+        "int2c_watch",
+        "int2c_shower",
+        "int2c_wave"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_telephone",
+        "int2c_watch",
+        "int2c_shower",
+        "int2c_wave"
+      ],
+      "correct": "int2c_shower",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2c_telephone": "You tapped \"telephone\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"I am taking a shower.\". The correct picture is \"shower\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_telephone": "telephone",
+        "int2c_watch": "watch",
+        "int2c_shower": "shower",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u02_q25",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "He's talking to his mom.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "I am taking a picture.",
+      "audio_id": "unit-02-q25",
+      "image_ids": [
+        "int2c_knee",
+        "int2c_camera",
+        "int2c_kimchi",
+        "int2c_fishing"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_knee",
+        "int2c_camera",
+        "int2c_kimchi",
+        "int2c_fishing"
+      ],
+      "correct": "int2c_camera",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_knee": "knee",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_kimchi": "kimchi",
+        "int2c_fishing": "fishing"
+      }
     },
     {
       "id": "i2c_u02_q26",
-      "type": 4,
-      "prompt_text": "What are you doing right now?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm reading a book.",
-        "It is sunny.",
-        "She is tall.",
-        "I am eleven."
+      "type": 1,
+      "prompt_text": "He is selling fruit.",
+      "audio_id": "unit-02-q26",
+      "image_ids": [
+        "int2c_naejangsan",
+        "int2c_perfume",
+        "int2c_studying",
+        "int2c_fruit_stall"
       ],
-      "correct": "I'm reading a book.",
+      "choices": [
+        "int2c_naejangsan",
+        "int2c_perfume",
+        "int2c_studying",
+        "int2c_fruit_stall"
+      ],
+      "correct": "int2c_fruit_stall",
       "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_perfume": "perfume",
+        "int2c_studying": "student studying",
+        "int2c_fruit_stall": "fruit stall"
+      }
     },
     {
       "id": "i2c_u02_q27",
-      "type": 4,
-      "prompt_text": "What is she doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She's cooking dinner.",
-        "I like blue.",
-        "He plays.",
-        "We study."
+      "type": 1,
+      "prompt_text": "She is bowing.",
+      "audio_id": "unit-02-q27",
+      "image_ids": [
+        "int2c_autumn",
+        "int2c_bowing",
+        "int2c_studying",
+        "int2c_toothbrush"
       ],
-      "correct": "She's cooking dinner.",
+      "choices": [
+        "int2c_autumn",
+        "int2c_bowing",
+        "int2c_studying",
+        "int2c_toothbrush"
+      ],
+      "correct": "int2c_bowing",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_autumn": "autumn / fall",
+        "int2c_bowing": "person bowing",
+        "int2c_studying": "student studying",
+        "int2c_toothbrush": "toothbrush"
+      }
     },
     {
       "id": "i2c_u02_q28",
-      "type": 4,
-      "prompt_text": "Are they playing soccer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "She runs.",
-        "Yes, they are.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "He is fishing.",
+      "audio_id": "unit-02-q28",
+      "image_ids": [
+        "int2c_ski",
+        "int2c_fishing",
+        "int2c_ignored",
+        "int2c_tongyeong"
       ],
-      "correct": "Yes, they are.",
+      "choices": [
+        "int2c_ski",
+        "int2c_fishing",
+        "int2c_ignored",
+        "int2c_tongyeong"
+      ],
+      "correct": "int2c_fishing",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ski": "ski",
+        "int2c_fishing": "fishing",
+        "int2c_ignored": "ignored / left out face",
+        "int2c_tongyeong": "Tongyeong City"
+      }
     },
     {
       "id": "i2c_u02_q29",
-      "type": 4,
-      "prompt_text": "What are the kids doing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing pictures.",
-        "I like music.",
-        "She reads.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "She is selling vegetables.",
+      "audio_id": "unit-02-q29",
+      "image_ids": [
+        "int2c_jinhae",
+        "int2c_confused",
+        "int2c_summer",
+        "int2c_veg_stall"
       ],
-      "correct": "They're drawing pictures.",
+      "choices": [
+        "int2c_jinhae",
+        "int2c_confused",
+        "int2c_summer",
+        "int2c_veg_stall"
+      ],
+      "correct": "int2c_veg_stall",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_confused": "You tapped \"confused face\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!",
+        "int2c_summer": "You tapped \"summer\", but the audio said: \"She is selling vegetables.\". The correct picture is \"vegetable stall\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jinhae": "Jinhae",
+        "int2c_confused": "confused face",
+        "int2c_summer": "summer",
+        "int2c_veg_stall": "vegetable stall"
+      }
     },
     {
       "id": "i2c_u02_q30",
-      "type": 4,
-      "prompt_text": "What is he doing on the phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "He jumps.",
-        "She swims.",
-        "He's talking to his mom."
+      "type": 1,
+      "prompt_text": "They are playing Go.",
+      "audio_id": "unit-02-q30",
+      "image_ids": [
+        "int2c_go_board",
+        "int2c_money",
+        "int2c_pen",
+        "int2c_perfume"
       ],
-      "correct": "He's talking to his mom.",
+      "choices": [
+        "int2c_go_board",
+        "int2c_money",
+        "int2c_pen",
+        "int2c_perfume"
+      ],
+      "correct": "int2c_go_board",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_money": "You tapped \"money\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!",
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"They are playing Go.\". The correct picture is \"Go board\". Listen again!"
       },
       "unit": 2,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_go_board": "Go board",
+        "int2c_money": "money",
+        "int2c_pen": "pen",
+        "int2c_perfume": "perfume"
+      }
     }
   ]
 }

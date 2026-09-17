@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2c",
-    "title": "Intermediate 2C Unit 1: Favorite Seasons",
+    "title": "Intermediate 2C Unit 1: I Love Summer",
     "kind": "unit",
     "units_covered": [
       1
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,972 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
+    "images_partial": false,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2c-ready"
   },
   "questions": [
     {
       "id": "i2c_u01_q01",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "She has a cat.",
-        "He plays soccer.",
-        "I love autumn because of the colors."
+      "type": 1,
+      "prompt_text": "I love summer.",
+      "audio_id": "unit-01-q01",
+      "image_ids": [
+        "int2c_spring",
+        "int2c_summer",
+        "int2c_fever",
+        "int2c_ignored"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_spring",
+        "int2c_summer",
+        "int2c_fever",
+        "int2c_ignored"
+      ],
+      "correct": "int2c_summer",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_spring": "spring",
+        "int2c_summer": "summer",
+        "int2c_fever": "fever thermometer",
+        "int2c_ignored": "ignored / left out face"
+      }
     },
     {
       "id": "i2c_u01_q02",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Because I can swim.",
-        "We eat.",
-        "He reads.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "I love winter.",
+      "audio_id": "unit-01-q02",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_throat",
+        "int2c_winter",
+        "int2c_stomach"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_swim",
+        "int2c_throat",
+        "int2c_winter",
+        "int2c_stomach"
+      ],
+      "correct": "int2c_winter",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_throat": "sore throat",
+        "int2c_winter": "winter",
+        "int2c_stomach": "stomachache"
+      }
     },
     {
       "id": "i2c_u01_q03",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Winter.",
-        "Spring",
-        "I am fine.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "I love spring.",
+      "audio_id": "unit-01-q03",
+      "image_ids": [
+        "int2c_watch",
+        "int2c_tooth",
+        "int2c_science",
+        "int2c_spring"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_watch",
+        "int2c_tooth",
+        "int2c_science",
+        "int2c_spring"
+      ],
+      "correct": "int2c_spring",
       "why_wrong": {
-        "Spring": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_watch": "watch",
+        "int2c_tooth": "tooth",
+        "int2c_science": "science",
+        "int2c_spring": "spring"
+      }
     },
     {
       "id": "i2c_u01_q04",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "I have homework.",
-        "Flowers bloom and it gets warmer.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "I love fall.",
+      "audio_id": "unit-01-q04",
+      "image_ids": [
+        "int2c_autumn",
+        "int2c_headache",
+        "int2c_wave",
+        "int2c_go_board"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_autumn",
+        "int2c_headache",
+        "int2c_wave",
+        "int2c_go_board"
+      ],
+      "correct": "int2c_autumn",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_autumn": "autumn / fall",
+        "int2c_headache": "head with headache",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_go_board": "Go board"
+      }
     },
     {
       "id": "i2c_u01_q05",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I don't like the rainy season.",
-        "I like pizza.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I love summer in Tongyeong City.",
+      "audio_id": "unit-01-q05",
+      "image_ids": [
+        "int2c_tongyeong",
+        "int2c_nose",
+        "int2c_sunglasses",
+        "int2c_science"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_tongyeong",
+        "int2c_nose",
+        "int2c_sunglasses",
+        "int2c_science"
+      ],
+      "correct": "int2c_tongyeong",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_nose": "bloody nose",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_science": "science"
+      }
     },
     {
       "id": "i2c_u01_q06",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I love autumn because of the colors.",
-        "I am twelve.",
-        "She has a cat.",
-        "He plays soccer."
+      "type": 1,
+      "prompt_text": "I love fall in Naejangsan National Park.",
+      "audio_id": "unit-01-q06",
+      "image_ids": [
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_kimchi",
+        "int2c_gum"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_kimchi",
+        "int2c_gum"
+      ],
+      "correct": "int2c_naejangsan",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!",
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_candy": "candy",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_kimchi": "kimchi",
+        "int2c_gum": "gum"
+      }
     },
     {
       "id": "i2c_u01_q07",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "We eat.",
-        "Because I can swim.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "I love winter in Gangwon Province.",
+      "audio_id": "unit-01-q07",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_fishing",
+        "int2c_gangwon",
+        "int2c_ankle"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_swim",
+        "int2c_fishing",
+        "int2c_gangwon",
+        "int2c_ankle"
+      ],
+      "correct": "int2c_gangwon",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!",
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_fishing": "fishing",
+        "int2c_gangwon": "Gangwon Province",
+        "int2c_ankle": "sprained ankle"
+      }
     },
     {
       "id": "i2c_u01_q08",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Spring",
-        "Winter.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I love spring in Jinhae.",
+      "audio_id": "unit-01-q08",
+      "image_ids": [
+        "int2c_guilty",
+        "int2c_proud",
+        "int2c_science",
+        "int2c_spring"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_guilty",
+        "int2c_proud",
+        "int2c_science",
+        "int2c_spring"
+      ],
+      "correct": "int2c_spring",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "Spring": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_guilty": "You tapped \"guilty face\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_guilty": "guilty face",
+        "int2c_proud": "proud face",
+        "int2c_science": "science",
+        "int2c_spring": "spring"
+      }
     },
     {
       "id": "i2c_u01_q09",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "Flowers bloom and it gets warmer.",
-        "He sleeps.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "We can swim.",
+      "audio_id": "unit-01-q09",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_phone",
+        "int2c_fever",
+        "int2c_cold_illness"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_swim",
+        "int2c_phone",
+        "int2c_fever",
+        "int2c_cold_illness"
+      ],
+      "correct": "int2c_swim",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_phone": "phone",
+        "int2c_fever": "fever thermometer",
+        "int2c_cold_illness": "person with a cold"
+      }
     },
     {
       "id": "i2c_u01_q10",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I don't like the rainy season.",
-        "She swims.",
-        "I like pizza.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "We can visit many islands.",
+      "audio_id": "unit-01-q10",
+      "image_ids": [
+        "int2c_ski",
+        "int2c_winter",
+        "int2c_islands",
+        "int2c_jealous"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_ski",
+        "int2c_winter",
+        "int2c_islands",
+        "int2c_jealous"
+      ],
+      "correct": "int2c_islands",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!",
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!",
+        "int2c_jealous": "You tapped \"jealous face\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ski": "ski",
+        "int2c_winter": "winter",
+        "int2c_islands": "islands",
+        "int2c_jealous": "jealous face"
+      }
     },
     {
       "id": "i2c_u01_q11",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I love autumn because of the colors.",
-        "I am twelve.",
-        "She has a cat.",
-        "He plays soccer."
+      "type": 1,
+      "prompt_text": "beautiful fall leaves",
+      "audio_id": "unit-01-q11",
+      "image_ids": [
+        "int2c_summer",
+        "int2c_fall_leaves",
+        "int2c_laptop",
+        "int2c_headache"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_summer",
+        "int2c_fall_leaves",
+        "int2c_laptop",
+        "int2c_headache"
+      ],
+      "correct": "int2c_fall_leaves",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2c_summer": "You tapped \"summer\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_summer": "summer",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_laptop": "laptop",
+        "int2c_headache": "head with headache"
+      }
     },
     {
       "id": "i2c_u01_q12",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like red.",
-        "Because I can swim.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "We can ski.",
+      "audio_id": "unit-01-q12",
+      "image_ids": [
+        "int2c_ankle",
+        "int2c_camera",
+        "int2c_ski",
+        "int2c_fall_leaves"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_ankle",
+        "int2c_camera",
+        "int2c_ski",
+        "int2c_fall_leaves"
+      ],
+      "correct": "int2c_ski",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!",
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ankle": "sprained ankle",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_ski": "ski",
+        "int2c_fall_leaves": "fall leaves"
+      }
     },
     {
       "id": "i2c_u01_q13",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "Winter.",
-        "Spring",
-        "He runs."
+      "type": 1,
+      "prompt_text": "We can skate.",
+      "audio_id": "unit-01-q13",
+      "image_ids": [
+        "int2c_car",
+        "int2c_tongyeong",
+        "int2c_perfume",
+        "int2c_skate"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_car",
+        "int2c_tongyeong",
+        "int2c_perfume",
+        "int2c_skate"
+      ],
+      "correct": "int2c_skate",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "Spring": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_car": "You tapped \"car\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!",
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_car": "car",
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_perfume": "perfume",
+        "int2c_skate": "ice skate"
+      }
     },
     {
       "id": "i2c_u01_q14",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "I have homework.",
-        "Flowers bloom and it gets warmer.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Cherry blossoms everywhere.",
+      "audio_id": "unit-01-q14",
+      "image_ids": [
+        "int2c_worried",
+        "int2c_cherry",
+        "int2c_veg_stall",
+        "int2c_back"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_worried",
+        "int2c_cherry",
+        "int2c_veg_stall",
+        "int2c_back"
+      ],
+      "correct": "int2c_cherry",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!",
+        "int2c_veg_stall": "You tapped \"vegetable stall\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_worried": "worried face",
+        "int2c_cherry": "cherry blossoms",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_back": "back / spine"
+      }
     },
     {
       "id": "i2c_u01_q15",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "I like pizza.",
-        "I don't like the rainy season."
+      "type": 1,
+      "prompt_text": "I love summer.",
+      "audio_id": "unit-01-q15",
+      "image_ids": [
+        "int2c_summer",
+        "int2c_cold_illness",
+        "int2c_tooth",
+        "int2c_kimchi"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_summer",
+        "int2c_cold_illness",
+        "int2c_tooth",
+        "int2c_kimchi"
+      ],
+      "correct": "int2c_summer",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_summer": "summer",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_tooth": "tooth",
+        "int2c_kimchi": "kimchi"
+      }
     },
     {
       "id": "i2c_u01_q16",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I love autumn because of the colors.",
-        "I am twelve.",
-        "She has a cat.",
-        "He plays soccer."
+      "type": 1,
+      "prompt_text": "I love winter.",
+      "audio_id": "unit-01-q16",
+      "image_ids": [
+        "int2c_jinhae",
+        "int2c_winter",
+        "int2c_ski",
+        "int2c_surprised"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_jinhae",
+        "int2c_winter",
+        "int2c_ski",
+        "int2c_surprised"
+      ],
+      "correct": "int2c_winter",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_surprised": "You tapped \"surprised face\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jinhae": "Jinhae",
+        "int2c_winter": "winter",
+        "int2c_ski": "ski",
+        "int2c_surprised": "surprised face"
+      }
     },
     {
       "id": "i2c_u01_q17",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "We eat.",
-        "Because I can swim.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "I love spring.",
+      "audio_id": "unit-01-q17",
+      "image_ids": [
+        "int2c_dogs",
+        "int2c_spring",
+        "int2c_jacket",
+        "int2c_skate"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_dogs",
+        "int2c_spring",
+        "int2c_jacket",
+        "int2c_skate"
+      ],
+      "correct": "int2c_spring",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2c_dogs": "You tapped \"dogs\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_skate": "You tapped \"ice skate\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_dogs": "dogs",
+        "int2c_spring": "spring",
+        "int2c_jacket": "jacket",
+        "int2c_skate": "ice skate"
+      }
     },
     {
       "id": "i2c_u01_q18",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spring",
-        "He runs.",
-        "Winter.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I love fall.",
+      "audio_id": "unit-01-q18",
+      "image_ids": [
+        "int2c_ski",
+        "int2c_bike",
+        "int2c_throat",
+        "int2c_autumn"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_ski",
+        "int2c_bike",
+        "int2c_throat",
+        "int2c_autumn"
+      ],
+      "correct": "int2c_autumn",
       "why_wrong": {
-        "Spring": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ski": "ski",
+        "int2c_bike": "bike",
+        "int2c_throat": "sore throat",
+        "int2c_autumn": "autumn / fall"
+      }
     },
     {
       "id": "i2c_u01_q19",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She sings.",
-        "Flowers bloom and it gets warmer.",
-        "I have homework."
+      "type": 1,
+      "prompt_text": "I love summer in Tongyeong City.",
+      "audio_id": "unit-01-q19",
+      "image_ids": [
+        "int2c_nervous",
+        "int2c_fever",
+        "int2c_proud",
+        "int2c_tongyeong"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_nervous",
+        "int2c_fever",
+        "int2c_proud",
+        "int2c_tongyeong"
+      ],
+      "correct": "int2c_tongyeong",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!"
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"I love summer in Tongyeong City.\". The correct picture is \"Tongyeong City\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nervous": "nervous face",
+        "int2c_fever": "fever thermometer",
+        "int2c_proud": "proud face",
+        "int2c_tongyeong": "Tongyeong City"
+      }
     },
     {
       "id": "i2c_u01_q20",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I don't like the rainy season.",
-        "She swims.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "I love fall in Naejangsan National Park.",
+      "audio_id": "unit-01-q20",
+      "image_ids": [
+        "int2c_studying",
+        "int2c_veg_stall",
+        "int2c_naejangsan",
+        "int2c_bowing"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_studying",
+        "int2c_veg_stall",
+        "int2c_naejangsan",
+        "int2c_bowing"
+      ],
+      "correct": "int2c_naejangsan",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!",
+        "int2c_veg_stall": "You tapped \"vegetable stall\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!",
+        "int2c_bowing": "You tapped \"person bowing\", but the audio said: \"I love fall in Naejangsan National Park.\". The correct picture is \"Naejangsan National Park\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_studying": "student studying",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_bowing": "person bowing"
+      }
     },
     {
       "id": "i2c_u01_q21",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer.",
-        "I am twelve.",
-        "She has a cat.",
-        "I love autumn because of the colors."
+      "type": 1,
+      "prompt_text": "I love winter in Gangwon Province.",
+      "audio_id": "unit-01-q21",
+      "image_ids": [
+        "int2c_islands",
+        "int2c_suitcase",
+        "int2c_kart",
+        "int2c_gangwon"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_islands",
+        "int2c_suitcase",
+        "int2c_kart",
+        "int2c_gangwon"
+      ],
+      "correct": "int2c_gangwon",
       "why_wrong": {
-        "He plays soccer.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"I love winter in Gangwon Province.\". The correct picture is \"Gangwon Province\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_islands": "islands",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_kart": "Kart Rider game",
+        "int2c_gangwon": "Gangwon Province"
+      }
     },
     {
       "id": "i2c_u01_q22",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Because I can swim.",
-        "I like red.",
-        "We eat.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "I love spring in Jinhae.",
+      "audio_id": "unit-01-q22",
+      "image_ids": [
+        "int2c_cold_illness",
+        "int2c_spring",
+        "int2c_money",
+        "int2c_nervous"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_cold_illness",
+        "int2c_spring",
+        "int2c_money",
+        "int2c_nervous"
+      ],
+      "correct": "int2c_spring",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!",
+        "int2c_money": "You tapped \"money\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!",
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"I love spring in Jinhae.\". The correct picture is \"spring\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_cold_illness": "person with a cold",
+        "int2c_spring": "spring",
+        "int2c_money": "money",
+        "int2c_nervous": "nervous face"
+      }
     },
     {
       "id": "i2c_u01_q23",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spring",
-        "He runs.",
-        "I am fine.",
-        "Winter."
+      "type": 1,
+      "prompt_text": "We can swim.",
+      "audio_id": "unit-01-q23",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_fishing",
+        "int2c_back",
+        "int2c_gimbap"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_swim",
+        "int2c_fishing",
+        "int2c_back",
+        "int2c_gimbap"
+      ],
+      "correct": "int2c_swim",
       "why_wrong": {
-        "Spring": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!",
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"We can swim.\". The correct picture is \"swimming\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_fishing": "fishing",
+        "int2c_back": "back / spine",
+        "int2c_gimbap": "Gimbap"
+      }
     },
     {
       "id": "i2c_u01_q24",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "He sleeps.",
-        "She sings.",
-        "Flowers bloom and it gets warmer."
+      "type": 1,
+      "prompt_text": "We can visit many islands.",
+      "audio_id": "unit-01-q24",
+      "image_ids": [
+        "int2c_car",
+        "int2c_worried",
+        "int2c_islands",
+        "int2c_naejangsan"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_car",
+        "int2c_worried",
+        "int2c_islands",
+        "int2c_naejangsan"
+      ],
+      "correct": "int2c_islands",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2c_car": "You tapped \"car\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"We can visit many islands.\". The correct picture is \"islands\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_car": "car",
+        "int2c_worried": "worried face",
+        "int2c_islands": "islands",
+        "int2c_naejangsan": "Naejangsan National Park"
+      }
     },
     {
       "id": "i2c_u01_q25",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I don't like the rainy season.",
-        "I like pizza.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "beautiful fall leaves",
+      "audio_id": "unit-01-q25",
+      "image_ids": [
+        "int2c_fall_leaves",
+        "int2c_science",
+        "int2c_bike",
+        "int2c_kart"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_fall_leaves",
+        "int2c_science",
+        "int2c_bike",
+        "int2c_kart"
+      ],
+      "correct": "int2c_fall_leaves",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2c_science": "You tapped \"science\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"beautiful fall leaves\". The correct picture is \"fall leaves\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_science": "science",
+        "int2c_bike": "bike",
+        "int2c_kart": "Kart Rider game"
+      }
     },
     {
       "id": "i2c_u01_q26",
-      "type": 4,
-      "prompt_text": "What's your favorite season?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "I love autumn because of the colors.",
-        "He plays soccer.",
-        "She has a cat."
+      "type": 1,
+      "prompt_text": "We can ski.",
+      "audio_id": "unit-01-q26",
+      "image_ids": [
+        "int2c_islands",
+        "int2c_jealous",
+        "int2c_ski",
+        "int2c_pen"
       ],
-      "correct": "I love autumn because of the colors.",
+      "choices": [
+        "int2c_islands",
+        "int2c_jealous",
+        "int2c_ski",
+        "int2c_pen"
+      ],
+      "correct": "int2c_ski",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!",
+        "int2c_jealous": "You tapped \"jealous face\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"We can ski.\". The correct picture is \"ski\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_islands": "islands",
+        "int2c_jealous": "jealous face",
+        "int2c_ski": "ski",
+        "int2c_pen": "pen"
+      }
     },
     {
       "id": "i2c_u01_q27",
-      "type": 4,
-      "prompt_text": "Why do you like summer?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Because I can swim.",
-        "We eat.",
-        "I like red.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "We can skate.",
+      "audio_id": "unit-01-q27",
+      "image_ids": [
+        "int2c_bowing",
+        "int2c_winter",
+        "int2c_skate",
+        "int2c_money"
       ],
-      "correct": "Because I can swim.",
+      "choices": [
+        "int2c_bowing",
+        "int2c_winter",
+        "int2c_skate",
+        "int2c_money"
+      ],
+      "correct": "int2c_skate",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_bowing": "You tapped \"person bowing\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!",
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!",
+        "int2c_money": "You tapped \"money\", but the audio said: \"We can skate.\". The correct picture is \"ice skate\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_bowing": "person bowing",
+        "int2c_winter": "winter",
+        "int2c_skate": "ice skate",
+        "int2c_money": "money"
+      }
     },
     {
       "id": "i2c_u01_q28",
-      "type": 4,
-      "prompt_text": "Which season is cold and snowy?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spring",
-        "I am fine.",
-        "He runs.",
-        "Winter."
+      "type": 1,
+      "prompt_text": "Cherry blossoms everywhere.",
+      "audio_id": "unit-01-q28",
+      "image_ids": [
+        "int2c_cherry",
+        "int2c_veg_stall",
+        "int2c_summer",
+        "int2c_candy"
       ],
-      "correct": "Winter.",
+      "choices": [
+        "int2c_cherry",
+        "int2c_veg_stall",
+        "int2c_summer",
+        "int2c_candy"
+      ],
+      "correct": "int2c_cherry",
       "why_wrong": {
-        "Spring": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_veg_stall": "You tapped \"vegetable stall\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!",
+        "int2c_summer": "You tapped \"summer\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"Cherry blossoms everywhere.\". The correct picture is \"cherry blossoms\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_cherry": "cherry blossoms",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_summer": "summer",
+        "int2c_candy": "candy"
+      }
     },
     {
       "id": "i2c_u01_q29",
-      "type": 4,
-      "prompt_text": "What is spring like?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I have homework.",
-        "He sleeps.",
-        "Flowers bloom and it gets warmer."
+      "type": 1,
+      "prompt_text": "I love summer.",
+      "audio_id": "unit-01-q29",
+      "image_ids": [
+        "int2c_summer",
+        "int2c_suitcase",
+        "int2c_fall_leaves",
+        "int2c_blue"
       ],
-      "correct": "Flowers bloom and it gets warmer.",
+      "choices": [
+        "int2c_summer",
+        "int2c_suitcase",
+        "int2c_fall_leaves",
+        "int2c_blue"
+      ],
+      "correct": "int2c_summer",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_summer": "summer",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_blue": "blue color swatch"
+      }
     },
     {
       "id": "i2c_u01_q30",
-      "type": 4,
-      "prompt_text": "Which season do you dislike?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "I don't like the rainy season.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "I love winter.",
+      "audio_id": "unit-01-q30",
+      "image_ids": [
+        "int2c_tooth",
+        "int2c_back",
+        "int2c_winter",
+        "int2c_shower"
       ],
-      "correct": "I don't like the rainy season.",
+      "choices": [
+        "int2c_tooth",
+        "int2c_back",
+        "int2c_winter",
+        "int2c_shower"
+      ],
+      "correct": "int2c_winter",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!"
       },
       "unit": 1,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tooth": "tooth",
+        "int2c_back": "back / spine",
+        "int2c_winter": "winter",
+        "int2c_shower": "shower"
+      }
     }
   ]
 }

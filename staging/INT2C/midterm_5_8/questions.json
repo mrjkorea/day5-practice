@@ -2,15 +2,15 @@
   "meta": {
     "level": "int2c",
     "title": "Intermediate 2C Midterm Units 5–8",
-    "kind": "midterm_5_8",
+    "kind": "midterm",
     "units_covered": [
       5,
       6,
       7,
       8
     ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 33,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -20,597 +20,1068 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
+    "images_partial": false,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2c-ready"
   },
   "questions": [
     {
-      "id": "i2c_midterm_5_8_q01",
-      "type": 4,
-      "prompt_text": "How are you feeling today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She has a cat.",
-        "I like apples.",
-        "I'm a little nervous."
+      "id": "i2c_m58_q01",
+      "type": 1,
+      "prompt_text": "I am feeling a little confused.",
+      "audio_id": "midterm_5_8-q01",
+      "image_ids": [
+        "int2c_fantastic",
+        "int2c_confused",
+        "int2c_bike",
+        "int2c_gangwon"
       ],
-      "correct": "I'm a little nervous.",
+      "choices": [
+        "int2c_fantastic",
+        "int2c_confused",
+        "int2c_bike",
+        "int2c_gangwon"
+      ],
+      "correct": "int2c_confused",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2c_fantastic": "You tapped \"fantastic / star-eyed face\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!",
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fantastic": "fantastic / star-eyed face",
+        "int2c_confused": "confused face",
+        "int2c_bike": "bike",
+        "int2c_gangwon": "Gangwon Province"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q02",
-      "type": 4,
-      "prompt_text": "She looks sad. What should you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "Are you okay?",
-        "I am twelve."
+      "id": "i2c_m58_q02",
+      "type": 1,
+      "prompt_text": "I am feeling a little embarrassed.",
+      "audio_id": "midterm_5_8-q02",
+      "image_ids": [
+        "int2c_guilty",
+        "int2c_fever",
+        "int2c_embarrassed",
+        "int2c_naejangsan"
       ],
-      "correct": "Are you okay?",
+      "choices": [
+        "int2c_guilty",
+        "int2c_fever",
+        "int2c_embarrassed",
+        "int2c_naejangsan"
+      ],
+      "correct": "int2c_embarrassed",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2c_guilty": "You tapped \"guilty face\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_guilty": "guilty face",
+        "int2c_fever": "fever thermometer",
+        "int2c_embarrassed": "embarrassed face",
+        "int2c_naejangsan": "Naejangsan National Park"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q03",
-      "type": 4,
-      "prompt_text": "How did he feel after the test?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "She sings.",
-        "He felt relieved.",
-        "He reads."
+      "id": "i2c_m58_q03",
+      "type": 1,
+      "prompt_text": "I am feeling a little jealous.",
+      "audio_id": "midterm_5_8-q03",
+      "image_ids": [
+        "int2c_embarrassed",
+        "int2c_islands",
+        "int2c_jealous",
+        "int2c_ankle"
       ],
-      "correct": "He felt relieved.",
+      "choices": [
+        "int2c_embarrassed",
+        "int2c_islands",
+        "int2c_jealous",
+        "int2c_ankle"
+      ],
+      "correct": "int2c_jealous",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_embarrassed": "You tapped \"embarrassed face\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!",
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!",
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_embarrassed": "embarrassed face",
+        "int2c_islands": "islands",
+        "int2c_jealous": "jealous face",
+        "int2c_ankle": "sprained ankle"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q04",
-      "type": 4,
-      "prompt_text": "Are you excited about the trip?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "Yes, I'm thrilled!",
-        "I have homework."
+      "id": "i2c_m58_q04",
+      "type": 1,
+      "prompt_text": "I am feeling surprised.",
+      "audio_id": "midterm_5_8-q04",
+      "image_ids": [
+        "int2c_jacket",
+        "int2c_jinhae",
+        "int2c_sunglasses",
+        "int2c_surprised"
       ],
-      "correct": "Yes, I'm thrilled!",
+      "choices": [
+        "int2c_jacket",
+        "int2c_jinhae",
+        "int2c_sunglasses",
+        "int2c_surprised"
+      ],
+      "correct": "int2c_surprised",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!"
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!",
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jacket": "jacket",
+        "int2c_jinhae": "Jinhae",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_surprised": "surprised face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q05",
-      "type": 4,
-      "prompt_text": "Why does she seem angry?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Maybe she's upset about the game.",
-        "I like music.",
-        "We study.",
-        "He sleeps."
+      "id": "i2c_m58_q05",
+      "type": 1,
+      "prompt_text": "I am feeling proud.",
+      "audio_id": "midterm_5_8-q05",
+      "image_ids": [
+        "int2c_knee",
+        "int2c_car",
+        "int2c_jinhae",
+        "int2c_proud"
       ],
-      "correct": "Maybe she's upset about the game.",
+      "choices": [
+        "int2c_knee",
+        "int2c_car",
+        "int2c_jinhae",
+        "int2c_proud"
+      ],
+      "correct": "int2c_proud",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!",
+        "int2c_car": "You tapped \"car\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!",
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_knee": "knee",
+        "int2c_car": "car",
+        "int2c_jinhae": "Jinhae",
+        "int2c_proud": "proud face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q06",
-      "type": 4,
-      "prompt_text": "How are you feeling today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm a little nervous.",
-        "He plays.",
-        "She has a cat.",
-        "I like apples."
+      "id": "i2c_m58_q06",
+      "type": 1,
+      "prompt_text": "I am feeling ignored.",
+      "audio_id": "midterm_5_8-q06",
+      "image_ids": [
+        "int2c_stomach",
+        "int2c_spring",
+        "int2c_back",
+        "int2c_ignored"
       ],
-      "correct": "I'm a little nervous.",
+      "choices": [
+        "int2c_stomach",
+        "int2c_spring",
+        "int2c_back",
+        "int2c_ignored"
+      ],
+      "correct": "int2c_ignored",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_stomach": "stomachache",
+        "int2c_spring": "spring",
+        "int2c_back": "back / spine",
+        "int2c_ignored": "ignored / left out face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q07",
-      "type": 4,
-      "prompt_text": "She looks sad. What should you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Are you okay?",
-        "I am twelve.",
-        "We eat.",
-        "He runs."
+      "id": "i2c_m58_q07",
+      "type": 1,
+      "prompt_text": "I am feeling fantastic.",
+      "audio_id": "midterm_5_8-q07",
+      "image_ids": [
+        "int2c_dogs",
+        "int2c_fantastic",
+        "int2c_swim",
+        "int2c_proud"
       ],
-      "correct": "Are you okay?",
+      "choices": [
+        "int2c_dogs",
+        "int2c_fantastic",
+        "int2c_swim",
+        "int2c_proud"
+      ],
+      "correct": "int2c_fantastic",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_dogs": "You tapped \"dogs\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!",
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_dogs": "dogs",
+        "int2c_fantastic": "fantastic / star-eyed face",
+        "int2c_swim": "swimming",
+        "int2c_proud": "proud face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q08",
-      "type": 4,
-      "prompt_text": "What's wrong?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I like pizza.",
-        "He has a bike.",
-        "My throat hurts."
+      "id": "i2c_m58_q08",
+      "type": 1,
+      "prompt_text": "I am feeling guilty.",
+      "audio_id": "midterm_5_8-q08",
+      "image_ids": [
+        "int2c_bike",
+        "int2c_candy",
+        "int2c_guilty",
+        "int2c_stomach"
       ],
-      "correct": "My throat hurts.",
+      "choices": [
+        "int2c_bike",
+        "int2c_candy",
+        "int2c_guilty",
+        "int2c_stomach"
+      ],
+      "correct": "int2c_guilty",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_bike": "bike",
+        "int2c_candy": "candy",
+        "int2c_guilty": "guilty face",
+        "int2c_stomach": "stomachache"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q09",
-      "type": 4,
-      "prompt_text": "Where does it hurt?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He sings.",
-        "I am fine.",
-        "My stomach hurts."
+      "id": "i2c_m58_q09",
+      "type": 1,
+      "prompt_text": "I am feeling nervous.",
+      "audio_id": "midterm_5_8-q09",
+      "image_ids": [
+        "int2c_nervous",
+        "int2c_islands",
+        "int2c_back",
+        "int2c_sleeping"
       ],
-      "correct": "My stomach hurts.",
+      "choices": [
+        "int2c_nervous",
+        "int2c_islands",
+        "int2c_back",
+        "int2c_sleeping"
+      ],
+      "correct": "int2c_nervous",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!",
+        "int2c_sleeping": "You tapped \"person sleeping\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nervous": "nervous face",
+        "int2c_islands": "islands",
+        "int2c_back": "back / spine",
+        "int2c_sleeping": "person sleeping"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q10",
-      "type": 4,
-      "prompt_text": "Do you have a fever?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She reads.",
-        "Yes, a little.",
-        "I like blue."
+      "id": "i2c_m58_q10",
+      "type": 1,
+      "prompt_text": "I am feeling worried.",
+      "audio_id": "midterm_5_8-q10",
+      "image_ids": [
+        "int2c_worried",
+        "int2c_nervous",
+        "int2c_fall_leaves",
+        "int2c_wave"
       ],
-      "correct": "Yes, a little.",
+      "choices": [
+        "int2c_worried",
+        "int2c_nervous",
+        "int2c_fall_leaves",
+        "int2c_wave"
+      ],
+      "correct": "int2c_worried",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_worried": "worried face",
+        "int2c_nervous": "nervous face",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q11",
-      "type": 4,
-      "prompt_text": "How do you feel?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I have a dog.",
-        "I feel dizzy.",
-        "She swims."
+      "id": "i2c_m58_q11",
+      "type": 1,
+      "prompt_text": "I have a cold.",
+      "audio_id": "midterm_5_8-q11",
+      "image_ids": [
+        "int2c_headphones",
+        "int2c_cold_illness",
+        "int2c_shower",
+        "int2c_nose"
       ],
-      "correct": "I feel dizzy.",
+      "choices": [
+        "int2c_headphones",
+        "int2c_cold_illness",
+        "int2c_shower",
+        "int2c_nose"
+      ],
+      "correct": "int2c_cold_illness",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"I have a cold.\". The correct picture is \"person with a cold\". Listen again!",
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"I have a cold.\". The correct picture is \"person with a cold\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"I have a cold.\". The correct picture is \"person with a cold\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_headphones": "headphones",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_shower": "shower",
+        "int2c_nose": "bloody nose"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q12",
-      "type": 4,
-      "prompt_text": "What should you do when you're sick?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She jumps.",
-        "I like summer.",
-        "I should rest and drink water.",
-        "He runs."
+      "id": "i2c_m58_q12",
+      "type": 1,
+      "prompt_text": "My knee hurts.",
+      "audio_id": "midterm_5_8-q12",
+      "image_ids": [
+        "int2c_embarrassed",
+        "int2c_knee",
+        "int2c_cherry",
+        "int2c_tongyeong"
       ],
-      "correct": "I should rest and drink water.",
+      "choices": [
+        "int2c_embarrassed",
+        "int2c_knee",
+        "int2c_cherry",
+        "int2c_tongyeong"
+      ],
+      "correct": "int2c_knee",
       "why_wrong": {
-        "She jumps.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_embarrassed": "You tapped \"embarrassed face\", but the audio said: \"My knee hurts.\". The correct picture is \"knee\". Listen again!",
+        "int2c_cherry": "You tapped \"cherry blossoms\", but the audio said: \"My knee hurts.\". The correct picture is \"knee\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"My knee hurts.\". The correct picture is \"knee\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_embarrassed": "embarrassed face",
+        "int2c_knee": "knee",
+        "int2c_cherry": "cherry blossoms",
+        "int2c_tongyeong": "Tongyeong City"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q13",
-      "type": 4,
-      "prompt_text": "What's wrong?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "My throat hurts.",
-        "She is kind.",
-        "I like pizza.",
-        "He has a bike."
+      "id": "i2c_m58_q13",
+      "type": 1,
+      "prompt_text": "I have a headache.",
+      "audio_id": "midterm_5_8-q13",
+      "image_ids": [
+        "int2c_candy",
+        "int2c_science",
+        "int2c_jacket",
+        "int2c_headache"
       ],
-      "correct": "My throat hurts.",
+      "choices": [
+        "int2c_candy",
+        "int2c_science",
+        "int2c_jacket",
+        "int2c_headache"
+      ],
+      "correct": "int2c_headache",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"I have a headache.\". The correct picture is \"head with headache\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"I have a headache.\". The correct picture is \"head with headache\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I have a headache.\". The correct picture is \"head with headache\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_candy": "candy",
+        "int2c_science": "science",
+        "int2c_jacket": "jacket",
+        "int2c_headache": "head with headache"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q14",
-      "type": 4,
-      "prompt_text": "Where does it hurt?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He sings.",
-        "She runs.",
-        "My stomach hurts."
+      "id": "i2c_m58_q14",
+      "type": 1,
+      "prompt_text": "My back hurts.",
+      "audio_id": "midterm_5_8-q14",
+      "image_ids": [
+        "int2c_back",
+        "int2c_wave",
+        "int2c_go_board",
+        "int2c_jealous"
       ],
-      "correct": "My stomach hurts.",
+      "choices": [
+        "int2c_back",
+        "int2c_wave",
+        "int2c_go_board",
+        "int2c_jealous"
+      ],
+      "correct": "int2c_back",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"My back hurts.\". The correct picture is \"back / spine\". Listen again!",
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"My back hurts.\". The correct picture is \"back / spine\". Listen again!",
+        "int2c_jealous": "You tapped \"jealous face\", but the audio said: \"My back hurts.\". The correct picture is \"back / spine\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_back": "back / spine",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_go_board": "Go board",
+        "int2c_jealous": "jealous face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q15",
-      "type": 4,
-      "prompt_text": "Phone: Hello?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hi, this is Jay. Is Minji there?",
-        "I like cats.",
-        "She is tall.",
-        "He plays."
+      "id": "i2c_m58_q15",
+      "type": 1,
+      "prompt_text": "I have a sore throat.",
+      "audio_id": "midterm_5_8-q15",
+      "image_ids": [
+        "int2c_ignored",
+        "int2c_headache",
+        "int2c_jacket",
+        "int2c_throat"
       ],
-      "correct": "Hi, this is Jay. Is Minji there?",
+      "choices": [
+        "int2c_ignored",
+        "int2c_headache",
+        "int2c_jacket",
+        "int2c_throat"
+      ],
+      "correct": "int2c_throat",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"I have a sore throat.\". The correct picture is \"sore throat\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"I have a sore throat.\". The correct picture is \"sore throat\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I have a sore throat.\". The correct picture is \"sore throat\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ignored": "ignored / left out face",
+        "int2c_headache": "head with headache",
+        "int2c_jacket": "jacket",
+        "int2c_throat": "sore throat"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q16",
-      "type": 4,
-      "prompt_text": "Can I speak to Mr. Lee?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hold on, please.",
-        "He reads.",
-        "I am ten.",
-        "She sings."
+      "id": "i2c_m58_q16",
+      "type": 1,
+      "prompt_text": "I have a fever.",
+      "audio_id": "midterm_5_8-q16",
+      "image_ids": [
+        "int2c_perfume",
+        "int2c_fever",
+        "int2c_ignored",
+        "int2c_ski"
       ],
-      "correct": "Hold on, please.",
+      "choices": [
+        "int2c_perfume",
+        "int2c_fever",
+        "int2c_ignored",
+        "int2c_ski"
+      ],
+      "correct": "int2c_fever",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"I have a fever.\". The correct picture is \"fever thermometer\". Listen again!",
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"I have a fever.\". The correct picture is \"fever thermometer\". Listen again!",
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"I have a fever.\". The correct picture is \"fever thermometer\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_perfume": "perfume",
+        "int2c_fever": "fever thermometer",
+        "int2c_ignored": "ignored / left out face",
+        "int2c_ski": "ski"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q17",
-      "type": 4,
-      "prompt_text": "Sorry, wrong number.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "That's okay. Goodbye.",
-        "He jumps.",
-        "She swims."
+      "id": "i2c_m58_q17",
+      "type": 1,
+      "prompt_text": "I have a stomachache.",
+      "audio_id": "midterm_5_8-q17",
+      "image_ids": [
+        "int2c_knee",
+        "int2c_fruit_stall",
+        "int2c_hockey",
+        "int2c_stomach"
       ],
-      "correct": "That's okay. Goodbye.",
+      "choices": [
+        "int2c_knee",
+        "int2c_fruit_stall",
+        "int2c_hockey",
+        "int2c_stomach"
+      ],
+      "correct": "int2c_stomach",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"I have a stomachache.\". The correct picture is \"stomachache\". Listen again!",
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"I have a stomachache.\". The correct picture is \"stomachache\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"I have a stomachache.\". The correct picture is \"stomachache\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_knee": "knee",
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_hockey": "ice hockey",
+        "int2c_stomach": "stomachache"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q18",
-      "type": 4,
-      "prompt_text": "I'll call you back later.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I have a pen.",
-        "She eats.",
-        "Sure, talk to you soon."
+      "id": "i2c_m58_q18",
+      "type": 1,
+      "prompt_text": "My tooth hurts.",
+      "audio_id": "midterm_5_8-q18",
+      "image_ids": [
+        "int2c_tongyeong",
+        "int2c_studying",
+        "int2c_tooth",
+        "int2c_sunglasses"
       ],
-      "correct": "Sure, talk to you soon.",
+      "choices": [
+        "int2c_tongyeong",
+        "int2c_studying",
+        "int2c_tooth",
+        "int2c_sunglasses"
+      ],
+      "correct": "int2c_tooth",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!"
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"My tooth hurts.\". The correct picture is \"tooth\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"My tooth hurts.\". The correct picture is \"tooth\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"My tooth hurts.\". The correct picture is \"tooth\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_studying": "student studying",
+        "int2c_tooth": "tooth",
+        "int2c_sunglasses": "sunglasses"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q19",
-      "type": 4,
-      "prompt_text": "Who is calling?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I like music.",
-        "This is Sora from class.",
-        "He sleeps."
+      "id": "i2c_m58_q19",
+      "type": 1,
+      "prompt_text": "I have a bloody nose.",
+      "audio_id": "midterm_5_8-q19",
+      "image_ids": [
+        "int2c_guilty",
+        "int2c_nose",
+        "int2c_tongyeong",
+        "int2c_perfume"
       ],
-      "correct": "This is Sora from class.",
+      "choices": [
+        "int2c_guilty",
+        "int2c_nose",
+        "int2c_tongyeong",
+        "int2c_perfume"
+      ],
+      "correct": "int2c_nose",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2c_guilty": "You tapped \"guilty face\", but the audio said: \"I have a bloody nose.\". The correct picture is \"bloody nose\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"I have a bloody nose.\". The correct picture is \"bloody nose\". Listen again!",
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"I have a bloody nose.\". The correct picture is \"bloody nose\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_guilty": "guilty face",
+        "int2c_nose": "bloody nose",
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_perfume": "perfume"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q20",
-      "type": 4,
-      "prompt_text": "Phone: Hello?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "Hi, this is Jay. Is Minji there?",
-        "He plays.",
-        "I like cats."
+      "id": "i2c_m58_q20",
+      "type": 1,
+      "prompt_text": "I have a sprained ankle.",
+      "audio_id": "midterm_5_8-q20",
+      "image_ids": [
+        "int2c_science",
+        "int2c_ankle",
+        "int2c_sleeping",
+        "int2c_summer"
       ],
-      "correct": "Hi, this is Jay. Is Minji there?",
+      "choices": [
+        "int2c_science",
+        "int2c_ankle",
+        "int2c_sleeping",
+        "int2c_summer"
+      ],
+      "correct": "int2c_ankle",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int2c_science": "You tapped \"science\", but the audio said: \"I have a sprained ankle.\". The correct picture is \"sprained ankle\". Listen again!",
+        "int2c_sleeping": "You tapped \"person sleeping\", but the audio said: \"I have a sprained ankle.\". The correct picture is \"sprained ankle\". Listen again!",
+        "int2c_summer": "You tapped \"summer\", but the audio said: \"I have a sprained ankle.\". The correct picture is \"sprained ankle\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 6,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_science": "science",
+        "int2c_ankle": "sprained ankle",
+        "int2c_sleeping": "person sleeping",
+        "int2c_summer": "summer"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q21",
-      "type": 4,
-      "prompt_text": "Can I speak to Mr. Lee?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hold on, please.",
-        "She sings.",
-        "I am ten.",
-        "He reads."
+      "id": "i2c_m58_q22",
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "midterm_5_8-q22",
+      "image_ids": [
+        "int2c_winter",
+        "int2c_money",
+        "int2c_veg_stall",
+        "int2c_wave"
       ],
-      "correct": "Hold on, please.",
+      "choices": [
+        "int2c_winter",
+        "int2c_money",
+        "int2c_veg_stall",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_money": "You tapped \"money\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_veg_stall": "You tapped \"vegetable stall\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_winter": "winter",
+        "int2c_money": "money",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q22",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "See you!",
-        "I am hungry.",
-        "She is kind."
+      "id": "i2c_m58_q23",
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "midterm_5_8-q23",
+      "image_ids": [
+        "int2c_shower",
+        "int2c_wave",
+        "int2c_fishing",
+        "int2c_fruit_stall"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_shower",
+        "int2c_wave",
+        "int2c_fishing",
+        "int2c_fruit_stall"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_shower": "shower",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_fishing": "fishing",
+        "int2c_fruit_stall": "fruit stall"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q23",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "Okay, take care!",
-        "I like blue.",
-        "He sings."
+      "id": "i2c_m58_q24",
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "midterm_5_8-q24",
+      "image_ids": [
+        "int2c_suitcase",
+        "int2c_ankle",
+        "int2c_gangwon",
+        "int2c_stomach"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_suitcase",
+        "int2c_ankle",
+        "int2c_gangwon",
+        "int2c_stomach"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_ankle": "sprained ankle",
+        "int2c_gangwon": "Gangwon Province",
+        "int2c_stomach": "stomachache"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q24",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "I have a cat.",
-        "He plays.",
-        "You too!"
+      "id": "i2c_m58_q25",
+      "type": 1,
+      "prompt_text": "I am feeling a little confused.",
+      "audio_id": "midterm_5_8-q25",
+      "image_ids": [
+        "int2c_watch",
+        "int2c_studying",
+        "int2c_jacket",
+        "int2c_confused"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_watch",
+        "int2c_studying",
+        "int2c_jacket",
+        "int2c_confused"
+      ],
+      "correct": "int2c_confused",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I am feeling a little confused.\". The correct picture is \"confused face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_watch": "watch",
+        "int2c_studying": "student studying",
+        "int2c_jacket": "jacket",
+        "int2c_confused": "confused face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q25",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "She swims.",
-        "He eats.",
-        "Likewise!"
+      "id": "i2c_m58_q26",
+      "type": 1,
+      "prompt_text": "I am feeling a little embarrassed.",
+      "audio_id": "midterm_5_8-q26",
+      "image_ids": [
+        "int2c_blue",
+        "int2c_spring",
+        "int2c_fall_leaves",
+        "int2c_embarrassed"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_blue",
+        "int2c_spring",
+        "int2c_fall_leaves",
+        "int2c_embarrassed"
+      ],
+      "correct": "int2c_embarrassed",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"I am feeling a little embarrassed.\". The correct picture is \"embarrassed face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_blue": "blue color swatch",
+        "int2c_spring": "spring",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_embarrassed": "embarrassed face"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q26",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She jumps.",
-        "Thanks, bye!",
-        "I am fine.",
-        "He runs."
+      "id": "i2c_m58_q27",
+      "type": 1,
+      "prompt_text": "I am feeling a little jealous.",
+      "audio_id": "midterm_5_8-q27",
+      "image_ids": [
+        "int2c_sunglasses",
+        "int2c_jealous",
+        "int2c_surprised",
+        "int2c_laptop"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_sunglasses",
+        "int2c_jealous",
+        "int2c_surprised",
+        "int2c_laptop"
+      ],
+      "correct": "int2c_jealous",
       "why_wrong": {
-        "She jumps.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!",
+        "int2c_surprised": "You tapped \"surprised face\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"I am feeling a little jealous.\". The correct picture is \"jealous face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sunglasses": "sunglasses",
+        "int2c_jealous": "jealous face",
+        "int2c_surprised": "surprised face",
+        "int2c_laptop": "laptop"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q27",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "She is kind.",
-        "See you!",
-        "He has a bike."
+      "id": "i2c_m58_q28",
+      "type": 1,
+      "prompt_text": "I am feeling surprised.",
+      "audio_id": "midterm_5_8-q28",
+      "image_ids": [
+        "int2c_winter",
+        "int2c_surprised",
+        "int2c_candy",
+        "int2c_blue"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_winter",
+        "int2c_surprised",
+        "int2c_candy",
+        "int2c_blue"
+      ],
+      "correct": "int2c_surprised",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"I am feeling surprised.\". The correct picture is \"surprised face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_winter": "winter",
+        "int2c_surprised": "surprised face",
+        "int2c_candy": "candy",
+        "int2c_blue": "blue color swatch"
+      }
     },
     {
-      "id": "i2c_midterm_5_8_q28",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I like blue.",
-        "Okay, take care!",
-        "She runs."
+      "id": "i2c_m58_q29",
+      "type": 1,
+      "prompt_text": "I am feeling proud.",
+      "audio_id": "midterm_5_8-q29",
+      "image_ids": [
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_phone",
+        "int2c_gangwon"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_phone",
+        "int2c_gangwon"
+      ],
+      "correct": "int2c_proud",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!",
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!",
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"I am feeling proud.\". The correct picture is \"proud face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2c"
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_throat": "sore throat",
+        "int2c_proud": "proud face",
+        "int2c_phone": "phone",
+        "int2c_gangwon": "Gangwon Province"
+      }
+    },
+    {
+      "id": "i2c_m58_q30",
+      "type": 1,
+      "prompt_text": "I am feeling ignored.",
+      "audio_id": "midterm_5_8-q30",
+      "image_ids": [
+        "int2c_gum",
+        "int2c_ignored",
+        "int2c_autumn",
+        "int2c_ski"
+      ],
+      "choices": [
+        "int2c_gum",
+        "int2c_ignored",
+        "int2c_autumn",
+        "int2c_ski"
+      ],
+      "correct": "int2c_ignored",
+      "why_wrong": {
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!",
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!",
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"I am feeling ignored.\". The correct picture is \"ignored / left out face\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_gum": "gum",
+        "int2c_ignored": "ignored / left out face",
+        "int2c_autumn": "autumn / fall",
+        "int2c_ski": "ski"
+      }
+    },
+    {
+      "id": "i2c_m58_q31",
+      "type": 1,
+      "prompt_text": "I am feeling fantastic.",
+      "audio_id": "midterm_5_8-q31",
+      "image_ids": [
+        "int2c_fantastic",
+        "int2c_headache",
+        "int2c_gimbap",
+        "int2c_confused"
+      ],
+      "choices": [
+        "int2c_fantastic",
+        "int2c_headache",
+        "int2c_gimbap",
+        "int2c_confused"
+      ],
+      "correct": "int2c_fantastic",
+      "why_wrong": {
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!",
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!",
+        "int2c_confused": "You tapped \"confused face\", but the audio said: \"I am feeling fantastic.\". The correct picture is \"fantastic / star-eyed face\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fantastic": "fantastic / star-eyed face",
+        "int2c_headache": "head with headache",
+        "int2c_gimbap": "Gimbap",
+        "int2c_confused": "confused face"
+      }
+    },
+    {
+      "id": "i2c_m58_q32",
+      "type": 1,
+      "prompt_text": "I am feeling guilty.",
+      "audio_id": "midterm_5_8-q32",
+      "image_ids": [
+        "int2c_guilty",
+        "int2c_swim",
+        "int2c_chair",
+        "int2c_toothbrush"
+      ],
+      "choices": [
+        "int2c_guilty",
+        "int2c_swim",
+        "int2c_chair",
+        "int2c_toothbrush"
+      ],
+      "correct": "int2c_guilty",
+      "why_wrong": {
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!",
+        "int2c_chair": "You tapped \"chair\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!",
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"I am feeling guilty.\". The correct picture is \"guilty face\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_guilty": "guilty face",
+        "int2c_swim": "swimming",
+        "int2c_chair": "chair",
+        "int2c_toothbrush": "toothbrush"
+      }
+    },
+    {
+      "id": "i2c_m58_q33",
+      "type": 1,
+      "prompt_text": "I am feeling nervous.",
+      "audio_id": "midterm_5_8-q33",
+      "image_ids": [
+        "int2c_nervous",
+        "int2c_fever",
+        "int2c_watch",
+        "int2c_confused"
+      ],
+      "choices": [
+        "int2c_nervous",
+        "int2c_fever",
+        "int2c_watch",
+        "int2c_confused"
+      ],
+      "correct": "int2c_nervous",
+      "why_wrong": {
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!",
+        "int2c_confused": "You tapped \"confused face\", but the audio said: \"I am feeling nervous.\". The correct picture is \"nervous face\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nervous": "nervous face",
+        "int2c_fever": "fever thermometer",
+        "int2c_watch": "watch",
+        "int2c_confused": "confused face"
+      }
+    },
+    {
+      "id": "i2c_m58_q34",
+      "type": 1,
+      "prompt_text": "I am feeling worried.",
+      "audio_id": "midterm_5_8-q34",
+      "image_ids": [
+        "int2c_surprised",
+        "int2c_jacket",
+        "int2c_worried",
+        "int2c_summer"
+      ],
+      "choices": [
+        "int2c_surprised",
+        "int2c_jacket",
+        "int2c_worried",
+        "int2c_summer"
+      ],
+      "correct": "int2c_worried",
+      "why_wrong": {
+        "int2c_surprised": "You tapped \"surprised face\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!",
+        "int2c_summer": "You tapped \"summer\", but the audio said: \"I am feeling worried.\". The correct picture is \"worried face\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_surprised": "surprised face",
+        "int2c_jacket": "jacket",
+        "int2c_worried": "worried face",
+        "int2c_summer": "summer"
+      }
     }
   ]
 }

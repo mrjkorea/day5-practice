@@ -1,0 +1,575 @@
+{
+  "book": "INT2C",
+  "brand": "Wait for Languages",
+  "list_type": "PACK_CHOICE_IDS_NEED_NEW",
+  "note": "INT2C: concrete drawable nouns only (weather/places/seasons/body/food/objects/people). Phrase-only items skipped. Drop PNGs to images/int2c/.",
+  "have_on_disk": 0,
+  "need_new_or_rematch": 70,
+  "total_pack_choice_ids": 70,
+  "questions_kept": 312,
+  "questions_skipped_phrase_or_no_noun": 0,
+  "drop_to": "/workspace/day5-practice/images/int2c/",
+  "ferry_folder_id": "18qTcleQ6605lTerp7Ie8BIjBIrRWfTtW",
+  "images": [
+    {
+      "id": "int2c_ankle",
+      "file": "int2c_ankle.png",
+      "label_en": "sprained ankle",
+      "path": "images/int2c/int2c_ankle.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of sprained ankle, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_autumn",
+      "file": "int2c_autumn.png",
+      "label_en": "autumn / fall",
+      "path": "images/int2c/int2c_autumn.png",
+      "kind": "season",
+      "prompt_hint": "cute simple flat cartoon season illustration of autumn / fall, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_back",
+      "file": "int2c_back.png",
+      "label_en": "back / spine",
+      "path": "images/int2c/int2c_back.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of back / spine, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_bike",
+      "file": "int2c_bike.png",
+      "label_en": "bike",
+      "path": "images/int2c/int2c_bike.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of bike, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_blue",
+      "file": "int2c_blue.png",
+      "label_en": "blue color swatch",
+      "path": "images/int2c/int2c_blue.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of blue color swatch, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_bowing",
+      "file": "int2c_bowing.png",
+      "label_en": "person bowing",
+      "path": "images/int2c/int2c_bowing.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of person bowing, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_camera",
+      "file": "int2c_camera.png",
+      "label_en": "camera / taking a picture",
+      "path": "images/int2c/int2c_camera.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of camera / taking a picture, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_candy",
+      "file": "int2c_candy.png",
+      "label_en": "candy",
+      "path": "images/int2c/int2c_candy.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of candy, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_car",
+      "file": "int2c_car.png",
+      "label_en": "car",
+      "path": "images/int2c/int2c_car.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of car, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_chair",
+      "file": "int2c_chair.png",
+      "label_en": "chair",
+      "path": "images/int2c/int2c_chair.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of chair, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_cherry",
+      "file": "int2c_cherry.png",
+      "label_en": "cherry blossoms",
+      "path": "images/int2c/int2c_cherry.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of cherry blossoms, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_cold_illness",
+      "file": "int2c_cold_illness.png",
+      "label_en": "person with a cold",
+      "path": "images/int2c/int2c_cold_illness.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of person with a cold, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_computer_games",
+      "file": "int2c_computer_games.png",
+      "label_en": "computer games",
+      "path": "images/int2c/int2c_computer_games.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of computer games, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_confused",
+      "file": "int2c_confused.png",
+      "label_en": "confused face",
+      "path": "images/int2c/int2c_confused.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of confused face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_dogs",
+      "file": "int2c_dogs.png",
+      "label_en": "dogs",
+      "path": "images/int2c/int2c_dogs.png",
+      "kind": "animal",
+      "prompt_hint": "cute simple flat cartoon animal illustration of dogs, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_embarrassed",
+      "file": "int2c_embarrassed.png",
+      "label_en": "embarrassed face",
+      "path": "images/int2c/int2c_embarrassed.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of embarrassed face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_fall_leaves",
+      "file": "int2c_fall_leaves.png",
+      "label_en": "fall leaves",
+      "path": "images/int2c/int2c_fall_leaves.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of fall leaves, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_fantastic",
+      "file": "int2c_fantastic.png",
+      "label_en": "fantastic / star-eyed face",
+      "path": "images/int2c/int2c_fantastic.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of fantastic / star-eyed face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_fever",
+      "file": "int2c_fever.png",
+      "label_en": "fever thermometer",
+      "path": "images/int2c/int2c_fever.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of fever thermometer, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_fishing",
+      "file": "int2c_fishing.png",
+      "label_en": "fishing",
+      "path": "images/int2c/int2c_fishing.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of fishing, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_fruit_stall",
+      "file": "int2c_fruit_stall.png",
+      "label_en": "fruit stall",
+      "path": "images/int2c/int2c_fruit_stall.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of fruit stall, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_gangwon",
+      "file": "int2c_gangwon.png",
+      "label_en": "Gangwon Province",
+      "path": "images/int2c/int2c_gangwon.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of Gangwon Province, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_garbage",
+      "file": "int2c_garbage.png",
+      "label_en": "garbage",
+      "path": "images/int2c/int2c_garbage.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of garbage, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_gimbap",
+      "file": "int2c_gimbap.png",
+      "label_en": "Gimbap",
+      "path": "images/int2c/int2c_gimbap.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of Gimbap, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_go_board",
+      "file": "int2c_go_board.png",
+      "label_en": "Go board",
+      "path": "images/int2c/int2c_go_board.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of Go board, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_guilty",
+      "file": "int2c_guilty.png",
+      "label_en": "guilty face",
+      "path": "images/int2c/int2c_guilty.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of guilty face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_gum",
+      "file": "int2c_gum.png",
+      "label_en": "gum",
+      "path": "images/int2c/int2c_gum.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of gum, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_headache",
+      "file": "int2c_headache.png",
+      "label_en": "head with headache",
+      "path": "images/int2c/int2c_headache.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of head with headache, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_headphones",
+      "file": "int2c_headphones.png",
+      "label_en": "headphones",
+      "path": "images/int2c/int2c_headphones.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of headphones, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_hockey",
+      "file": "int2c_hockey.png",
+      "label_en": "ice hockey",
+      "path": "images/int2c/int2c_hockey.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of ice hockey, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_ignored",
+      "file": "int2c_ignored.png",
+      "label_en": "ignored / left out face",
+      "path": "images/int2c/int2c_ignored.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of ignored / left out face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_islands",
+      "file": "int2c_islands.png",
+      "label_en": "islands",
+      "path": "images/int2c/int2c_islands.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of islands, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_jacket",
+      "file": "int2c_jacket.png",
+      "label_en": "jacket",
+      "path": "images/int2c/int2c_jacket.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of jacket, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_jealous",
+      "file": "int2c_jealous.png",
+      "label_en": "jealous face",
+      "path": "images/int2c/int2c_jealous.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of jealous face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_jinhae",
+      "file": "int2c_jinhae.png",
+      "label_en": "Jinhae",
+      "path": "images/int2c/int2c_jinhae.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of Jinhae, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_kart",
+      "file": "int2c_kart.png",
+      "label_en": "Kart Rider game",
+      "path": "images/int2c/int2c_kart.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of Kart Rider game, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_kimchi",
+      "file": "int2c_kimchi.png",
+      "label_en": "kimchi",
+      "path": "images/int2c/int2c_kimchi.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of kimchi, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_knee",
+      "file": "int2c_knee.png",
+      "label_en": "knee",
+      "path": "images/int2c/int2c_knee.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of knee, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_laptop",
+      "file": "int2c_laptop.png",
+      "label_en": "laptop",
+      "path": "images/int2c/int2c_laptop.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of laptop, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_money",
+      "file": "int2c_money.png",
+      "label_en": "money",
+      "path": "images/int2c/int2c_money.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of money, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_naejangsan",
+      "file": "int2c_naejangsan.png",
+      "label_en": "Naejangsan National Park",
+      "path": "images/int2c/int2c_naejangsan.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of Naejangsan National Park, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_nervous",
+      "file": "int2c_nervous.png",
+      "label_en": "nervous face",
+      "path": "images/int2c/int2c_nervous.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of nervous face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_nose",
+      "file": "int2c_nose.png",
+      "label_en": "bloody nose",
+      "path": "images/int2c/int2c_nose.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of bloody nose, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_pen",
+      "file": "int2c_pen.png",
+      "label_en": "pen",
+      "path": "images/int2c/int2c_pen.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of pen, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_perfume",
+      "file": "int2c_perfume.png",
+      "label_en": "perfume",
+      "path": "images/int2c/int2c_perfume.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of perfume, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_phone",
+      "file": "int2c_phone.png",
+      "label_en": "phone",
+      "path": "images/int2c/int2c_phone.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of phone, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_proud",
+      "file": "int2c_proud.png",
+      "label_en": "proud face",
+      "path": "images/int2c/int2c_proud.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of proud face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_science",
+      "file": "int2c_science.png",
+      "label_en": "science",
+      "path": "images/int2c/int2c_science.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of science, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_shower",
+      "file": "int2c_shower.png",
+      "label_en": "shower",
+      "path": "images/int2c/int2c_shower.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of shower, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_skate",
+      "file": "int2c_skate.png",
+      "label_en": "ice skate",
+      "path": "images/int2c/int2c_skate.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of ice skate, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_ski",
+      "file": "int2c_ski.png",
+      "label_en": "ski",
+      "path": "images/int2c/int2c_ski.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of ski, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_sleeping",
+      "file": "int2c_sleeping.png",
+      "label_en": "person sleeping",
+      "path": "images/int2c/int2c_sleeping.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of person sleeping, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_spring",
+      "file": "int2c_spring.png",
+      "label_en": "spring",
+      "path": "images/int2c/int2c_spring.png",
+      "kind": "season",
+      "prompt_hint": "cute simple flat cartoon season illustration of spring, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_stomach",
+      "file": "int2c_stomach.png",
+      "label_en": "stomachache",
+      "path": "images/int2c/int2c_stomach.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of stomachache, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_studying",
+      "file": "int2c_studying.png",
+      "label_en": "student studying",
+      "path": "images/int2c/int2c_studying.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of student studying, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_suitcase",
+      "file": "int2c_suitcase.png",
+      "label_en": "suitcase (leaving)",
+      "path": "images/int2c/int2c_suitcase.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of suitcase (leaving), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_summer",
+      "file": "int2c_summer.png",
+      "label_en": "summer",
+      "path": "images/int2c/int2c_summer.png",
+      "kind": "season",
+      "prompt_hint": "cute simple flat cartoon season illustration of summer, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_sunglasses",
+      "file": "int2c_sunglasses.png",
+      "label_en": "sunglasses",
+      "path": "images/int2c/int2c_sunglasses.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of sunglasses, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_surprised",
+      "file": "int2c_surprised.png",
+      "label_en": "surprised face",
+      "path": "images/int2c/int2c_surprised.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of surprised face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_swim",
+      "file": "int2c_swim.png",
+      "label_en": "swimming",
+      "path": "images/int2c/int2c_swim.png",
+      "kind": "activity",
+      "prompt_hint": "cute simple flat cartoon activity illustration of swimming, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_telephone",
+      "file": "int2c_telephone.png",
+      "label_en": "telephone",
+      "path": "images/int2c/int2c_telephone.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of telephone, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_throat",
+      "file": "int2c_throat.png",
+      "label_en": "sore throat",
+      "path": "images/int2c/int2c_throat.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of sore throat, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_tongyeong",
+      "file": "int2c_tongyeong.png",
+      "label_en": "Tongyeong City",
+      "path": "images/int2c/int2c_tongyeong.png",
+      "kind": "place",
+      "prompt_hint": "cute simple flat cartoon place illustration of Tongyeong City, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_tooth",
+      "file": "int2c_tooth.png",
+      "label_en": "tooth",
+      "path": "images/int2c/int2c_tooth.png",
+      "kind": "body",
+      "prompt_hint": "cute simple flat cartoon body illustration of tooth, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_toothbrush",
+      "file": "int2c_toothbrush.png",
+      "label_en": "toothbrush",
+      "path": "images/int2c/int2c_toothbrush.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of toothbrush, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_veg_stall",
+      "file": "int2c_veg_stall.png",
+      "label_en": "vegetable stall",
+      "path": "images/int2c/int2c_veg_stall.png",
+      "kind": "food",
+      "prompt_hint": "cute simple flat cartoon food illustration of vegetable stall, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_watch",
+      "file": "int2c_watch.png",
+      "label_en": "watch",
+      "path": "images/int2c/int2c_watch.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of watch, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_wave",
+      "file": "int2c_wave.png",
+      "label_en": "waving goodbye hand",
+      "path": "images/int2c/int2c_wave.png",
+      "kind": "object",
+      "prompt_hint": "cute simple flat cartoon object illustration of waving goodbye hand, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_winter",
+      "file": "int2c_winter.png",
+      "label_en": "winter",
+      "path": "images/int2c/int2c_winter.png",
+      "kind": "season",
+      "prompt_hint": "cute simple flat cartoon season illustration of winter, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    },
+    {
+      "id": "int2c_worried",
+      "file": "int2c_worried.png",
+      "label_en": "worried face",
+      "path": "images/int2c/int2c_worried.png",
+      "kind": "emotion",
+      "prompt_hint": "cute simple flat cartoon emotion illustration of worried face, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+    }
+  ]
+}
