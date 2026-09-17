@@ -47,14 +47,27 @@ if [[ -z "$BOOK" || -z "${ORIGIN_GIT[$BOOK]:-}" ]]; then
   exit 1
 fi
 
-BOOK_LOWER=$(echo "$BOOK" | tr '[:upper:]' '[:lower:]')
 CLONE_DIR="${TMPDIR:-/tmp}/origin-import-${BOOK}"
 GIT_URL="${ORIGIN_GIT[$BOOK]}"
 BRANCH="${ORIGIN_BRANCH[$BOOK]}"
 
-echo "Cloning $BOOK from $GIT_URL (branch $BRANCH)..."
-if ! git clone --depth 1 --branch "$BRANCH" "$GIT_URL" "$CLONE_DIR" 2>/dev/null; then
-  echo "ORIGIN_CLONE_FAILED: $BOOK — could not clone $GIT_URL"
+BOOK_LOWER=$(echo "$BOOK" | tr '[:upper:]' '[:lower:]')
+ALT_BRANCH="intermediate-${BOOK_LOWER}"
+BRANCHES=("$BRANCH")
+[[ "$ALT_BRANCH" != "$BRANCH" ]] && BRANCHES+=("$ALT_BRANCH")
+
+echo "Cloning $BOOK from $GIT_URL..."
+CLONED=""
+for try in "${BRANCHES[@]}"; do
+  rm -rf "$CLONE_DIR"
+  if git clone --depth 1 --branch "$try" "$GIT_URL" "$CLONE_DIR" 2>/dev/null; then
+    echo "Checked out branch: $try"
+    CLONED=1
+    break
+  fi
+done
+if [[ -z "$CLONED" ]]; then
+  echo "ORIGIN_CLONE_FAILED: $BOOK — could not clone $GIT_URL (tried: ${BRANCHES[*]})"
   exit 1
 fi
 

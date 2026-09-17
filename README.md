@@ -30,6 +30,6 @@ Import when Origin auth is available:
 ./scripts/import_staging_from_origin.sh INT3C   # uses cos-ferry-int3c branch
 ```
 
-See `staging/ORIGIN_STATUS.md` and per-book `staging/INT*/ORIGIN.md`.
+See `IMPORT_REPORT.md`, `staging/ORIGIN_STATUS.md`, and per-book `staging/INT*/ORIGIN.md`.
 
 Shell packs: `python3 scripts/setup_staging_shells.py` (from generated `int*` if present).
