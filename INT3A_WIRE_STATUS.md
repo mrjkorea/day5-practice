@@ -56,3 +56,10 @@ Real type-1 listen_pick_picture packs (`staging/INT3A/`, `generated: false`). **
 ## Push
 
 Branch `intermediate-int3a` → PR → merge `main`. Pages deploy from **main**.
+
+## Deploy confirmation
+
+- PR: https://github.com/mrjkorea/day5-practice/pull/5 — **merged** to `main` (2026-09-18 KST)
+- Pages status: **built**
+- Verified live (HTTP 200): intermediate hub, `staging/INT3A/unit01/questions.json` (generated=false, type 1), `images/int3a/int3a_draw-monster_circle.png`, `audio/int3a/u01_q01.mp3`
+- Playable assessments: **11 / 11**; pack PNG missing: **0**; questions: **343**
