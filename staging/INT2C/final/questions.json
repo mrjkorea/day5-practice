@@ -26,7 +26,7 @@
     },
     "generated": false,
     "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
-    "images_partial": false,
+    "images_partial": true,
     "concrete_nouns_only": true,
     "normalized_from": "int2c-ready"
   },
