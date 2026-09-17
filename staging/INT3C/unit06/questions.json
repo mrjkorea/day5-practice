@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 6: Introducing Korea",
+    "title": "How Many Cities?",
     "kind": "unit",
     "units_covered": [
       6
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-06-how-many-cities.json"
   },
   "questions": [
     {
       "id": "i3c_u06_q01",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "It's in East Asia.",
-        "I like pizza.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "This is my mom.",
+      "audio_id": "u06_q01",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_52000000_people"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_52000000_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_my_mom",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_22_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_tigers": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_52000000_people": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_my_mom": "My Mom",
+        "int3c_u06_how_many_cities_tigers": "Tigers",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People"
+      }
     },
     {
       "id": "i3c_u06_q02",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He runs.",
-        "K-pop and delicious food.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "She is a professor.",
+      "audio_id": "u06_q02",
+      "image_ids": [
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_0_deserts"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_professor",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_how_many_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_how_many_provinces": "How Many Provinces",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
+      }
     },
     {
       "id": "i3c_u06_q03",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "It's a beautiful coastal city.",
-        "He eats.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "A professor? Great!",
+      "audio_id": "u06_q03",
+      "image_ids": [
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_islands"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_a_professor_great",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_professor": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_how_many_islands": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_a_professor_great": "A Professor Great",
+        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands"
+      }
     },
     {
       "id": "i3c_u06_q04",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreans",
-        "Korean",
-        "Koreish",
-        "Korea"
+      "type": 1,
+      "prompt_text": "How many cities are there in Korea?",
+      "audio_id": "u06_q04",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_people"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_125_cities",
       "why_wrong": {
-        "Koreans": "Not quite — try again!",
-        "Koreish": "Not quite — try again!",
-        "Korea": "Not quite — try again!"
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_people": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands",
+        "int3c_u06_how_many_cities_count_125_cities": "Count 125 Cities",
+        "int3c_u06_how_many_cities_how_many_people": "How Many People"
+      }
     },
     {
       "id": "i3c_u06_q05",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I am fine.",
-        "He jumps.",
-        "I love the kind people and the scenery."
+      "type": 1,
+      "prompt_text": "How many provinces are there in Korea?",
+      "audio_id": "u06_q05",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_wrong_125_provinces",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_wrong_125_provinces",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_9_provinces",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_125_provinces": "There are 9 provinces, not 125.",
+        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "There are 2 volcanoes, not 22."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_wrong_125_provinces": "Wrong 125 Provinces",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "Wrong 22 Volcanoes"
+      }
     },
     {
       "id": "i3c_u06_q06",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "It's in East Asia.",
-        "I like pizza.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "How many national parks are there in Korea?",
+      "audio_id": "u06_q06",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_wrong_3_cities",
+        "int3c_u06_how_many_cities_she_is_professor"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_wrong_3_cities",
+        "int3c_u06_how_many_cities_she_is_professor"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_22_parks",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_wrong_3_cities": "There are 125 cities in Korea.",
+        "int3c_u06_how_many_cities_she_is_professor": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_wrong_3_cities": "Wrong 3 Cities",
+        "int3c_u06_how_many_cities_she_is_professor": "She Is Professor"
+      }
     },
     {
       "id": "i3c_u06_q07",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "K-pop and delicious food.",
-        "He runs.",
-        "I have a dog.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "How many islands are there in Korea?",
+      "audio_id": "u06_q07",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_3358_islands",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes"
+      }
     },
     {
       "id": "i3c_u06_q08",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a beautiful coastal city.",
-        "He eats.",
-        "I like blue.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "How many volcanoes are there in Korea?",
+      "audio_id": "u06_q08",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_my_mom"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_my_mom"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_2_volcanoes",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_professor": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_my_mom": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_count_2_volcanoes": "Count 2 Volcanoes",
+        "int3c_u06_how_many_cities_my_mom": "My Mom"
+      }
     },
     {
       "id": "i3c_u06_q09",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreish",
-        "Koreans",
-        "Korean",
-        "Korea"
+      "type": 1,
+      "prompt_text": "How many deserts are there in Korea?",
+      "audio_id": "u06_q09",
+      "image_ids": [
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_wrong_125_provinces"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_wrong_125_provinces"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_0_deserts",
       "why_wrong": {
-        "Koreish": "Not quite — try again!",
-        "Koreans": "Not quite — try again!",
-        "Korea": "Not quite — try again!"
+        "int3c_u06_how_many_cities_pardon": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_125_provinces": "There are 9 provinces, not 125."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_pardon": "Pardon",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_wrong_125_provinces": "Wrong 125 Provinces"
+      }
     },
     {
       "id": "i3c_u06_q10",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "I love the kind people and the scenery.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "How many people are there in Korea?",
+      "audio_id": "u06_q10",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_9_cities",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_a_professor_great"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_9_cities",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_a_professor_great"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_52000000_people",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_9_cities": "There are 125 cities in Korea, not 9.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_a_professor_great": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_9_cities": "Wrong 9 Cities",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts",
+        "int3c_u06_how_many_cities_a_professor_great": "A Professor Great"
+      }
     },
     {
       "id": "i3c_u06_q11",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "It's in East Asia.",
-        "He plays.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Pardon?",
+      "audio_id": "u06_q11",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_how_many_provinces"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_how_many_provinces"
+      ],
+      "correct": "int3c_u06_how_many_cities_pardon",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "There are 2 volcanoes, not 22.",
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_how_many_provinces": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "Wrong 22 Volcanoes",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_pardon": "Pardon",
+        "int3c_u06_how_many_cities_how_many_provinces": "How Many Provinces"
+      }
     },
     {
       "id": "i3c_u06_q12",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She sings.",
-        "K-pop and delicious food.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "125 cities.",
+      "audio_id": "u06_q12",
+      "image_ids": [
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_parks"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_parks"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_125_cities",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_students": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_students": "Students",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_count_125_cities": "Count 125 Cities",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks"
+      }
     },
     {
       "id": "i3c_u06_q13",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like blue.",
-        "It's a beautiful coastal city.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "Nine provinces.",
+      "audio_id": "u06_q13",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_mountains",
+        "int3c_u06_how_many_cities_how_many_parks"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_mountains",
+        "int3c_u06_how_many_cities_how_many_parks"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_9_provinces",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_mountains": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_mountains": "Mountains",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks"
+      }
     },
     {
       "id": "i3c_u06_q14",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korean",
-        "Koreish",
-        "Koreans",
-        "Korea"
+      "type": 1,
+      "prompt_text": "22 national parks.",
+      "audio_id": "u06_q14",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_wrong_125_provinces"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_wrong_125_provinces"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_22_parks",
       "why_wrong": {
-        "Koreish": "Not quite — try again!",
-        "Koreans": "Not quite — try again!",
-        "Korea": "Not quite — try again!"
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_wrong_125_provinces": "There are 9 provinces, not 125."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_wrong_125_provinces": "Wrong 125 Provinces"
+      }
     },
     {
       "id": "i3c_u06_q15",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I am fine.",
-        "I love the kind people and the scenery.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "3,358 islands.",
+      "audio_id": "u06_q15",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_how_many_cities",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_how_many_cities",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_3358_islands",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_how_many_cities": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_how_many_cities": "How Many Cities",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes"
+      }
     },
     {
       "id": "i3c_u06_q16",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "It's in East Asia.",
-        "I am twelve.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Two volcanoes.",
+      "audio_id": "u06_q16",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_mountains"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_mountains"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_2_volcanoes",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_mountains": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_count_2_volcanoes": "Count 2 Volcanoes",
+        "int3c_u06_how_many_cities_mountains": "Mountains"
+      }
     },
     {
       "id": "i3c_u06_q17",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She sings.",
-        "K-pop and delicious food.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "Zero deserts.",
+      "audio_id": "u06_q17",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_count_0_deserts"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_0_deserts",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
+      }
     },
     {
       "id": "i3c_u06_q18",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He eats.",
-        "I like blue.",
-        "It's a beautiful coastal city."
+      "type": 1,
+      "prompt_text": "Almost 52,000,000 people.",
+      "audio_id": "u06_q18",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_3358_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_52000000_people",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_a_professor_great": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People",
+        "int3c_u06_how_many_cities_a_professor_great": "A Professor Great",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands"
+      }
     },
     {
       "id": "i3c_u06_q19",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreish",
-        "Korean",
-        "Korea",
-        "Koreans"
+      "type": 1,
+      "prompt_text": "How many cities?",
+      "audio_id": "u06_q19",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_how_many_cities",
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+        "int3c_u06_how_many_cities_she_is_professor"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_how_many_cities",
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+        "int3c_u06_how_many_cities_she_is_professor"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_cities",
       "why_wrong": {
-        "Koreish": "Not quite — try again!",
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes": "That is the people count, not volcanoes.",
+        "int3c_u06_how_many_cities_she_is_professor": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_how_many_cities": "How Many Cities",
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes": "Wrong 52000000 Volcanoes",
+        "int3c_u06_how_many_cities_she_is_professor": "She Is Professor"
+      }
     },
     {
       "id": "i3c_u06_q20",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "I love the kind people and the scenery.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "How many provinces?",
+      "audio_id": "u06_q20",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_provinces"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_provinces"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_provinces",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_how_many_volcanoes": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_people": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_125_cities": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes",
+        "int3c_u06_how_many_cities_how_many_people": "How Many People",
+        "int3c_u06_how_many_cities_count_125_cities": "Count 125 Cities",
+        "int3c_u06_how_many_cities_how_many_provinces": "How Many Provinces"
+      }
     },
     {
       "id": "i3c_u06_q21",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in East Asia.",
-        "I like pizza.",
-        "He plays.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "How many national parks?",
+      "audio_id": "u06_q21",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_125_provinces",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_how_many_islands"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_125_provinces",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_how_many_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_parks",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_125_provinces": "There are 9 provinces, not 125.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_how_many_islands": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_125_provinces": "Wrong 125 Provinces",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands"
+      }
     },
     {
       "id": "i3c_u06_q22",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "K-pop and delicious food.",
-        "I have a dog.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "How many islands?",
+      "audio_id": "u06_q22",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_students"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_students"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_islands",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_tigers": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_students": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_tigers": "Tigers",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands",
+        "int3c_u06_how_many_cities_students": "Students"
+      }
     },
     {
       "id": "i3c_u06_q23",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "It's a beautiful coastal city.",
-        "I like blue.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "How many volcanoes?",
+      "audio_id": "u06_q23",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_wrong_9_cities"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_wrong_9_cities"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_volcanoes",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_tigers": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_pardon": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_9_cities": "There are 125 cities in Korea, not 9."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes",
+        "int3c_u06_how_many_cities_tigers": "Tigers",
+        "int3c_u06_how_many_cities_pardon": "Pardon",
+        "int3c_u06_how_many_cities_wrong_9_cities": "Wrong 9 Cities"
+      }
     },
     {
       "id": "i3c_u06_q24",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korean",
-        "Korea",
-        "Koreans",
-        "Koreish"
+      "type": 1,
+      "prompt_text": "How many deserts?",
+      "audio_id": "u06_q24",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_tigers"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_tigers"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_deserts",
       "why_wrong": {
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!",
-        "Koreish": "Not quite — try again!"
+        "int3c_u06_how_many_cities_my_mom": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_students": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_tigers": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_my_mom": "My Mom",
+        "int3c_u06_how_many_cities_students": "Students",
+        "int3c_u06_how_many_cities_tigers": "Tigers"
+      }
     },
     {
       "id": "i3c_u06_q25",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I love the kind people and the scenery.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "How many people?",
+      "audio_id": "u06_q25",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_people",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_professor": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_people": "How Many People",
+        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts"
+      }
     },
     {
       "id": "i3c_u06_q26",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "I like pizza.",
-        "I am twelve.",
-        "It's in East Asia."
+      "type": 1,
+      "prompt_text": "Tap 125 cities.",
+      "audio_id": "u06_q26",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_125_cities"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_count_125_cities"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_125_cities",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes": "That is the people count, not volcanoes.",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "There are 2 volcanoes, not 22.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_52000000_volcanoes": "Wrong 52000000 Volcanoes",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "Wrong 22 Volcanoes",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_count_125_cities": "Count 125 Cities"
+      }
     },
     {
       "id": "i3c_u06_q27",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I have a dog.",
-        "He runs.",
-        "K-pop and delicious food."
+      "type": 1,
+      "prompt_text": "Tap 9 provinces.",
+      "audio_id": "u06_q27",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_how_many_cities"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_how_many_cities"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_9_provinces",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_22_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_pardon": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_cities": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_pardon": "Pardon",
+        "int3c_u06_how_many_cities_how_many_cities": "How Many Cities"
+      }
     },
     {
       "id": "i3c_u06_q28",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like blue.",
-        "She reads.",
-        "It's a beautiful coastal city."
+      "type": 1,
+      "prompt_text": "Tap 22 national parks.",
+      "audio_id": "u06_q28",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_my_mom"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts",
+        "int3c_u06_how_many_cities_my_mom"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_22_parks",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358.",
+        "int3c_u06_how_many_cities_my_mom": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts",
+        "int3c_u06_how_many_cities_my_mom": "My Mom"
+      }
     },
     {
       "id": "i3c_u06_q29",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreans",
-        "Korea",
-        "Koreish",
-        "Korean"
+      "type": 1,
+      "prompt_text": "Tap 2 volcanoes.",
+      "audio_id": "u06_q29",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_she_is_professor",
+        "int3c_u06_how_many_cities_count_0_deserts"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_she_is_professor",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_2_volcanoes",
       "why_wrong": {
-        "Koreans": "Not quite — try again!",
-        "Korea": "Not quite — try again!",
-        "Koreish": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_52000000_people": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_she_is_professor": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_2_volcanoes": "Count 2 Volcanoes",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People",
+        "int3c_u06_how_many_cities_she_is_professor": "She Is Professor",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
+      }
     },
     {
       "id": "i3c_u06_q30",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I love the kind people and the scenery.",
-        "She swims.",
-        "I am fine.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Tap zero deserts.",
+      "audio_id": "u06_q30",
+      "image_ids": [
+        "int3c_u06_how_many_cities_mountains",
+        "int3c_u06_how_many_cities_wrong_0_parks",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u06_how_many_cities_mountains",
+        "int3c_u06_how_many_cities_wrong_0_parks",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_0_deserts",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_mountains": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_0_parks": "There are 22 national parks, not 0.",
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2."
       },
       "unit": 6,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_mountains": "Mountains",
+        "int3c_u06_how_many_cities_wrong_0_parks": "Wrong 0 Parks",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands"
+      }
     }
   ]
 }

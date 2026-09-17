@@ -1,0 +1,1445 @@
+{
+  "book": "INT3C",
+  "id": "final",
+  "title": "Final",
+  "type": "final",
+  "pass_percent": 80,
+  "question_count": 35,
+  "questions": [
+    {
+      "id": "final_q01",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap six oclock.",
+      "prompt_audio": "audio/int3c/final_q01.mp3",
+      "audio_spec": {
+        "file": "final_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap six oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_six_oclock",
+          "image": "images/int3c/int3c_u08_what_time_six_oclock.png",
+          "label": "Six Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_no_exclamation",
+          "image": "images/int3c/int3c_u08_what_time_no_exclamation.png",
+          "label": "No Exclamation",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_one_oclock.png",
+          "label": "Wrong One Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not one o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_can_we_go_home_please",
+          "image": "images/int3c/int3c_u08_what_time_can_we_go_home_please.png",
+          "label": "Can We Go Home Please",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "final_q02",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap twelve oclock.",
+      "prompt_audio": "audio/int3c/final_q02.mp3",
+      "audio_spec": {
+        "file": "final_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap twelve oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_wrong_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_eleven_oclock.png",
+          "label": "Wrong Eleven Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not eleven o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_twelve_oclock",
+          "image": "images/int3c/int3c_u08_what_time_twelve_oclock.png",
+          "label": "Twelve Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_one_oclock.png",
+          "label": "Wrong One Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not one o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_seven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_seven_oclock.png",
+          "label": "Seven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "final_q03",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap lets climb jungle gym.",
+      "prompt_audio": "audio/int3c/final_q03.mp3",
+      "audio_spec": {
+        "file": "final_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap lets climb jungle gym."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_study",
+          "image": "images/int3c/int3c_u04_rpg_study.png",
+          "label": "Study",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u04_rpg_too_scary",
+          "image": "images/int3c/int3c_u04_rpg_too_scary.png",
+          "label": "Too Scary",
+          "correct": false,
+          "why_wrong": "It is too scary — not climb the jungle gym."
+        },
+        {
+          "id": "int3c_u04_rpg_lets_climb_jungle_gym",
+          "image": "images/int3c/int3c_u04_rpg_lets_climb_jungle_gym.png",
+          "label": "Lets Climb Jungle Gym",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        }
+      ]
+    },
+    {
+      "id": "final_q04",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap talk.",
+      "prompt_audio": "audio/int3c/final_q04.mp3",
+      "audio_spec": {
+        "file": "final_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap talk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_legs_short",
+          "image": "images/int3c/int3c_u04_rpg_legs_short.png",
+          "label": "Legs Short",
+          "correct": false,
+          "why_wrong": "My legs are short — not ride bikes."
+        },
+        {
+          "id": "int3c_u04_rpg_not_hungry",
+          "image": "images/int3c/int3c_u04_rpg_not_hungry.png",
+          "label": "Not Hungry",
+          "correct": false,
+          "why_wrong": "I am not hungry — not Let's cook."
+        },
+        {
+          "id": "int3c_u04_rpg_talk",
+          "image": "images/int3c/int3c_u04_rpg_talk.png",
+          "label": "Talk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_watch_tv",
+          "image": "images/int3c/int3c_u04_rpg_watch_tv.png",
+          "label": "Watch Tv",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "final_q05",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap dress.",
+      "prompt_audio": "audio/int3c/final_q05.mp3",
+      "audio_spec": {
+        "file": "final_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap dress."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q06",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap shorts.",
+      "prompt_audio": "audio/int3c/final_q06.mp3",
+      "audio_spec": {
+        "file": "final_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap shorts."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_shorts",
+          "image": "images/int3c/int3c_u03_play_outside_shorts.png",
+          "label": "Shorts",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "final_q07",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you run?",
+      "prompt_audio": "audio/int3c/final_q07.mp3",
+      "audio_spec": {
+        "file": "final_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap: Can you run?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_sing.png",
+          "label": "Sing",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        }
+      ]
+    },
+    {
+      "id": "final_q08",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: a professor great.",
+      "prompt_audio": "audio/int3c/final_q08.mp3",
+      "audio_spec": {
+        "file": "final_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap the answer: a professor great."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_0_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_0_parks.png",
+          "label": "Wrong 0 Parks",
+          "correct": false,
+          "why_wrong": "There are 22 national parks, not 0."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_125_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_125_cities.png",
+          "label": "Count 125 Cities",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q09",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you walk?",
+      "prompt_audio": "audio/int3c/final_q09.mp3",
+      "audio_spec": {
+        "file": "final_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap: Can you walk?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_fly.png",
+          "label": "Can You Fly",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_walk.png",
+          "label": "Walk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q10",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sauteed bellflower root.",
+      "prompt_audio": "audio/int3c/final_q10.mp3",
+      "audio_spec": {
+        "file": "final_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap sauteed bellflower root."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_sauteed_bellflower_root",
+          "image": "images/int3c/int3c_u01_sweet_food_sauteed_bellflower_root.png",
+          "label": "Sauteed Bellflower Root",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        }
+      ]
+    },
+    {
+      "id": "final_q11",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: mountains.",
+      "prompt_audio": "audio/int3c/final_q11.mp3",
+      "audio_spec": {
+        "file": "final_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap the answer: mountains."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_mountains",
+          "image": "images/int3c/int3c_u06_how_many_cities_mountains.png",
+          "label": "Mountains",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q12",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have hat.",
+      "prompt_audio": "audio/int3c/final_q12.mp3",
+      "audio_spec": {
+        "file": "final_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap i have hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil.png",
+          "label": "Pencil",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q13",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not draw sign.",
+      "prompt_audio": "audio/int3c/final_q13.mp3",
+      "audio_spec": {
+        "file": "final_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap: do not draw sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_sign.png",
+          "label": "Do Not Draw Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_sleep_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_sleep_sign.png",
+          "label": "Do Not Sleep Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "final_q14",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you can you type?",
+      "prompt_audio": "audio/int3c/final_q14.mp3",
+      "audio_spec": {
+        "file": "final_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap: Can you can you type?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_type.png",
+          "label": "Can You Type",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_fight.png",
+          "label": "Fight",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "final_q15",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not run sign.",
+      "prompt_audio": "audio/int3c/final_q15.mp3",
+      "audio_spec": {
+        "file": "final_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap: do not run sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_cry",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_cry.png",
+          "label": "Please Do Not Cry",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "final_q16",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you can you run?",
+      "prompt_audio": "audio/int3c/final_q16.mp3",
+      "audio_spec": {
+        "file": "final_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap: Can you can you run?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_fight.png",
+          "label": "Can You Fight",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_run.png",
+          "label": "Can You Run",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q17",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you can you sing?",
+      "prompt_audio": "audio/int3c/final_q17.mp3",
+      "audio_spec": {
+        "file": "final_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap: Can you can you sing?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_sing.png",
+          "label": "Can You Sing",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "final_q18",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap doraji namul.",
+      "prompt_audio": "audio/int3c/final_q18.mp3",
+      "audio_spec": {
+        "file": "final_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap doraji namul."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_sour",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_sour.png",
+          "label": "Do You Like Sour",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        }
+      ]
+    },
+    {
+      "id": "final_q19",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap five oclock.",
+      "prompt_audio": "audio/int3c/final_q19.mp3",
+      "audio_spec": {
+        "file": "final_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap five oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_can_we_go_home_please",
+          "image": "images/int3c/int3c_u08_what_time_can_we_go_home_please.png",
+          "label": "Can We Go Home Please",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_five_oclock",
+          "image": "images/int3c/int3c_u08_what_time_five_oclock.png",
+          "label": "Five Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_eight_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eight_oclock.png",
+          "label": "Eight Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "final_q20",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap soy paste stew.",
+      "prompt_audio": "audio/int3c/final_q20.mp3",
+      "audio_spec": {
+        "file": "final_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap soy paste stew."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_soy_paste_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_soy_paste_stew.png",
+          "label": "Soy Paste Stew",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_sauteed_bellflower_root",
+          "image": "images/int3c/int3c_u01_sweet_food_sauteed_bellflower_root.png",
+          "label": "Sauteed Bellflower Root",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        }
+      ]
+    },
+    {
+      "id": "final_q21",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap i do not know.",
+      "prompt_audio": "audio/int3c/final_q21.mp3",
+      "audio_spec": {
+        "file": "final_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap i do not know."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_i_do_not_know",
+          "image": "images/int3c/int3c_u01_sweet_food_i_do_not_know.png",
+          "label": "I Do Not Know",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_cities",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_cities.png",
+          "label": "Wrong Food Cities",
+          "correct": false,
+          "why_wrong": "Cities are from Unit 6."
+        }
+      ]
+    },
+    {
+      "id": "final_q22",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap watch tv.",
+      "prompt_audio": "audio/int3c/final_q22.mp3",
+      "audio_spec": {
+        "file": "final_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap watch tv."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_lets_climb_jungle_gym",
+          "image": "images/int3c/int3c_u04_rpg_lets_climb_jungle_gym.png",
+          "label": "Lets Climb Jungle Gym",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u04_rpg_too_scary",
+          "image": "images/int3c/int3c_u04_rpg_too_scary.png",
+          "label": "Too Scary",
+          "correct": false,
+          "why_wrong": "It is too scary — not climb the jungle gym."
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        },
+        {
+          "id": "int3c_u04_rpg_watch_tv",
+          "image": "images/int3c/int3c_u04_rpg_watch_tv.png",
+          "label": "Watch Tv",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q23",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap no thanks.",
+      "prompt_audio": "audio/int3c/final_q23.mp3",
+      "audio_spec": {
+        "file": "final_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap no thanks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_not_hungry",
+          "image": "images/int3c/int3c_u04_rpg_not_hungry.png",
+          "label": "Not Hungry",
+          "correct": false,
+          "why_wrong": "I am not hungry — not Let's cook."
+        },
+        {
+          "id": "int3c_u04_rpg_lets_sing_karaoke",
+          "image": "images/int3c/int3c_u04_rpg_lets_sing_karaoke.png",
+          "label": "Lets Sing Karaoke",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_sports",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_sports.png",
+          "label": "Dont Like Sports",
+          "correct": false,
+          "why_wrong": "I do not like sports — not Let's play soccer."
+        },
+        {
+          "id": "int3c_u04_rpg_no_thanks",
+          "image": "images/int3c/int3c_u04_rpg_no_thanks.png",
+          "label": "No Thanks",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q24",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap pants.",
+      "prompt_audio": "audio/int3c/final_q24.mp3",
+      "audio_spec": {
+        "file": "final_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_pants",
+          "image": "images/int3c/int3c_u03_play_outside_pants.png",
+          "label": "Pants",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        }
+      ]
+    },
+    {
+      "id": "final_q25",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap newspaper.",
+      "prompt_audio": "audio/int3c/final_q25.mp3",
+      "audio_spec": {
+        "file": "final_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap newspaper."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q26",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you no i can not?",
+      "prompt_audio": "audio/int3c/final_q26.mp3",
+      "audio_spec": {
+        "file": "final_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap: Can you no i can not?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_no_i_can_not",
+          "image": "images/int3c/int3c_u07_can_you_fly_no_i_can_not.png",
+          "label": "No I Can Not",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "final_q27",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not touch.",
+      "prompt_audio": "audio/int3c/final_q27.mp3",
+      "audio_spec": {
+        "file": "final_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap: do not touch."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_cry_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_cry_sign.png",
+          "label": "Please Cry Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch.png",
+          "label": "Do Not Touch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q28",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap try doenjang guk.",
+      "prompt_audio": "audio/int3c/final_q28.mp3",
+      "audio_spec": {
+        "file": "final_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap try doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_bitter",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_bitter.png",
+          "label": "Do You Like Bitter",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doenjang_guk.png",
+          "label": "Try Doenjang Guk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        }
+      ]
+    },
+    {
+      "id": "final_q29",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap three oclock.",
+      "prompt_audio": "audio/int3c/final_q29.mp3",
+      "audio_spec": {
+        "file": "final_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap three oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_six_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_six_oclock.png",
+          "label": "Wrong Six Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not six o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_ten_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_ten_oclock.png",
+          "label": "Wrong Ten Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not ten o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_three_oclock",
+          "image": "images/int3c/int3c_u08_what_time_three_oclock.png",
+          "label": "Three Oclock",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q30",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap shirt.",
+      "prompt_audio": "audio/int3c/final_q30.mp3",
+      "audio_spec": {
+        "file": "final_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap shirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_jacket.png",
+          "label": "Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        }
+      ]
+    },
+    {
+      "id": "final_q31",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many cities.",
+      "prompt_audio": "audio/int3c/final_q31.mp3",
+      "audio_spec": {
+        "file": "final_q31.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap the answer: how many cities."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_she_is_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_she_is_professor.png",
+          "label": "She Is Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_cities.png",
+          "label": "How Many Cities",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_professor.png",
+          "label": "Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "final_q32",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap hat.",
+      "prompt_audio": "audio/int3c/final_q32.mp3",
+      "audio_spec": {
+        "file": "final_q32.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cup.png",
+          "label": "Cup",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_hat.png",
+          "label": "Hat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q33",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many islands.",
+      "prompt_audio": "audio/int3c/final_q33.mp3",
+      "audio_spec": {
+        "file": "final_q33.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap the answer: how many islands."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_she_is_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_she_is_professor.png",
+          "label": "She Is Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "final_q34",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: please cry sign.",
+      "prompt_audio": "audio/int3c/final_q34.mp3",
+      "audio_spec": {
+        "file": "final_q34.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap: please cry sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch_sign.png",
+          "label": "Do Not Touch Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_cry_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_cry_sign.png",
+          "label": "Please Cry Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "final_q35",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not throw that.",
+      "prompt_audio": "audio/int3c/final_q35.mp3",
+      "audio_spec": {
+        "file": "final_q35.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap: do not throw that."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    }
+  ]
+}

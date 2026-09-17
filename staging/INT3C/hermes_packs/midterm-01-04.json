@@ -1,0 +1,1404 @@
+{
+  "book": "INT3C",
+  "id": "m14",
+  "title": "Midterm 01 04",
+  "type": "midterm",
+  "pass_percent": 80,
+  "question_count": 34,
+  "questions": [
+    {
+      "id": "m14_q01",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap lets watch tv.",
+      "prompt_audio": "audio/int3c/m14_q01.mp3",
+      "audio_spec": {
+        "file": "m14_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap lets watch tv."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_not_hungry",
+          "image": "images/int3c/int3c_u04_rpg_not_hungry.png",
+          "label": "Not Hungry",
+          "correct": false,
+          "why_wrong": "I am not hungry — not Let's cook."
+        },
+        {
+          "id": "int3c_u04_rpg_lets_watch_tv",
+          "image": "images/int3c/int3c_u04_rpg_lets_watch_tv.png",
+          "label": "Lets Watch Tv",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_cannot_sing",
+          "image": "images/int3c/int3c_u04_rpg_cannot_sing.png",
+          "label": "Cannot Sing",
+          "correct": false,
+          "why_wrong": "I cannot sing — that is a refusal, not Let's sing karaoke."
+        },
+        {
+          "id": "int3c_u04_rpg_study",
+          "image": "images/int3c/int3c_u04_rpg_study.png",
+          "label": "Study",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q02",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not pull it.",
+      "prompt_audio": "audio/int3c/m14_q02.mp3",
+      "audio_spec": {
+        "file": "m14_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap: do not pull it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_open_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_open_sign.png",
+          "label": "Do Not Open Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_it",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_it.png",
+          "label": "Do Not Pull It",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q03",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap shirt.",
+      "prompt_audio": "audio/int3c/m14_q03.mp3",
+      "audio_spec": {
+        "file": "m14_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap shirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_socks",
+          "image": "images/int3c/int3c_u03_play_outside_socks.png",
+          "label": "Socks",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q04",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap yes i do.",
+      "prompt_audio": "audio/int3c/m14_q04.mp3",
+      "audio_spec": {
+        "file": "m14_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap yes i do."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_yes_i_do",
+          "image": "images/int3c/int3c_u01_sweet_food_yes_i_do.png",
+          "label": "Yes I Do",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_what_is_it",
+          "image": "images/int3c/int3c_u01_sweet_food_what_is_it.png",
+          "label": "What Is It",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        }
+      ]
+    },
+    {
+      "id": "m14_q05",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap try doenjang guk.",
+      "prompt_audio": "audio/int3c/m14_q05.mp3",
+      "audio_spec": {
+        "file": "m14_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap try doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doenjang_guk.png",
+          "label": "Try Doenjang Guk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_bitter",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_bitter.png",
+          "label": "Do You Like Bitter",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        }
+      ]
+    },
+    {
+      "id": "m14_q06",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap doraji namul.",
+      "prompt_audio": "audio/int3c/m14_q06.mp3",
+      "audio_spec": {
+        "file": "m14_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap doraji namul."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_yes_i_do",
+          "image": "images/int3c/int3c_u01_sweet_food_yes_i_do.png",
+          "label": "Yes I Do",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        }
+      ]
+    },
+    {
+      "id": "m14_q07",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap pants.",
+      "prompt_audio": "audio/int3c/m14_q07.mp3",
+      "audio_spec": {
+        "file": "m14_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_hat",
+          "image": "images/int3c/int3c_u03_play_outside_hat.png",
+          "label": "Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_pants",
+          "image": "images/int3c/int3c_u03_play_outside_pants.png",
+          "label": "Pants",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q08",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap bibimbap.",
+      "prompt_audio": "audio/int3c/m14_q08.mp3",
+      "audio_spec": {
+        "file": "m14_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap bibimbap."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_bibimbap",
+          "image": "images/int3c/int3c_u01_sweet_food_bibimbap.png",
+          "label": "Bibimbap",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q09",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap socks.",
+      "prompt_audio": "audio/int3c/m14_q09.mp3",
+      "audio_spec": {
+        "file": "m14_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap socks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_socks",
+          "image": "images/int3c/int3c_u03_play_outside_socks.png",
+          "label": "Socks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "m14_q10",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap no thanks.",
+      "prompt_audio": "audio/int3c/m14_q10.mp3",
+      "audio_spec": {
+        "file": "m14_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap no thanks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_play_rpg",
+          "image": "images/int3c/int3c_u04_rpg_play_rpg.png",
+          "label": "Play Rpg",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        },
+        {
+          "id": "int3c_u04_rpg_no_thanks",
+          "image": "images/int3c/int3c_u04_rpg_no_thanks.png",
+          "label": "No Thanks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_throat_hurts",
+          "image": "images/int3c/int3c_u04_rpg_throat_hurts.png",
+          "label": "Throat Hurts",
+          "correct": false,
+          "why_wrong": "My throat hurts — not Let's talk."
+        }
+      ]
+    },
+    {
+      "id": "m14_q11",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not run sign.",
+      "prompt_audio": "audio/int3c/m14_q11.mp3",
+      "audio_spec": {
+        "file": "m14_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap: do not run sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_touch_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_touch_ok.png",
+          "label": "Touch Ok",
+          "correct": false,
+          "why_wrong": "Do not touch."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_fight_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_fight_sign.png",
+          "label": "Do Not Fight Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q12",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sweet food.",
+      "prompt_audio": "audio/int3c/m14_q12.mp3",
+      "audio_spec": {
+        "file": "m14_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap sweet food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_salty_food",
+          "image": "images/int3c/int3c_u01_sweet_food_salty_food.png",
+          "label": "Salty Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        }
+      ]
+    },
+    {
+      "id": "m14_q13",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap gloves.",
+      "prompt_audio": "audio/int3c/m14_q13.mp3",
+      "audio_spec": {
+        "file": "m14_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap gloves."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q14",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sour food.",
+      "prompt_audio": "audio/int3c/m14_q14.mp3",
+      "audio_spec": {
+        "file": "m14_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap sour food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sour_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sour_food.png",
+          "label": "Sour Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_doenjang_guk.png",
+          "label": "Doenjang Guk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q15",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap put on hat.",
+      "prompt_audio": "audio/int3c/m14_q15.mp3",
+      "audio_spec": {
+        "file": "m14_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap put on hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_put_on_hat",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_hat.png",
+          "label": "Put On Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "m14_q16",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap not yet put on pants.",
+      "prompt_audio": "audio/int3c/m14_q16.mp3",
+      "audio_spec": {
+        "file": "m14_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap not yet put on pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_pants",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_pants.png",
+          "label": "Not Yet Put On Pants",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q17",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap not yet put on jacket.",
+      "prompt_audio": "audio/int3c/m14_q17.mp3",
+      "audio_spec": {
+        "file": "m14_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap not yet put on jacket."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_shoes.png",
+          "label": "Shoes",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q18",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap jacket.",
+      "prompt_audio": "audio/int3c/m14_q18.mp3",
+      "audio_spec": {
+        "file": "m14_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap jacket."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_jacket.png",
+          "label": "Jacket",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q19",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not draw sign.",
+      "prompt_audio": "audio/int3c/m14_q19.mp3",
+      "audio_spec": {
+        "file": "m14_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap: do not draw sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_sign.png",
+          "label": "Do Not Draw Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_sign.png",
+          "label": "Do Not Pull Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q20",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap i do not know.",
+      "prompt_audio": "audio/int3c/m14_q20.mp3",
+      "audio_spec": {
+        "file": "m14_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap i do not know."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_i_do_not_know",
+          "image": "images/int3c/int3c_u01_sweet_food_i_do_not_know.png",
+          "label": "I Do Not Know",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q21",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap lets ride bikes.",
+      "prompt_audio": "audio/int3c/m14_q21.mp3",
+      "audio_spec": {
+        "file": "m14_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap lets ride bikes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        },
+        {
+          "id": "int3c_u04_rpg_lets_ride_bikes",
+          "image": "images/int3c/int3c_u04_rpg_lets_ride_bikes.png",
+          "label": "Lets Ride Bikes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_too_scary",
+          "image": "images/int3c/int3c_u04_rpg_too_scary.png",
+          "label": "Too Scary",
+          "correct": false,
+          "why_wrong": "It is too scary — not climb the jungle gym."
+        },
+        {
+          "id": "int3c_u04_rpg_talk",
+          "image": "images/int3c/int3c_u04_rpg_talk.png",
+          "label": "Talk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q22",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not sleep sign.",
+      "prompt_audio": "audio/int3c/m14_q22.mp3",
+      "audio_spec": {
+        "file": "m14_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap: do not sleep sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_sleep_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_sleep_sign.png",
+          "label": "Do Not Sleep Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        }
+      ]
+    },
+    {
+      "id": "m14_q23",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap doenjang guk.",
+      "prompt_audio": "audio/int3c/m14_q23.mp3",
+      "audio_spec": {
+        "file": "m14_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_what_is_it",
+          "image": "images/int3c/int3c_u01_sweet_food_what_is_it.png",
+          "label": "What Is It",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_doenjang_guk.png",
+          "label": "Doenjang Guk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q24",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: please cry sign.",
+      "prompt_audio": "audio/int3c/m14_q24.mp3",
+      "audio_spec": {
+        "file": "m14_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap: please cry sign."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_cry_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_cry_sign.png",
+          "label": "Please Cry Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q25",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: please do not go.",
+      "prompt_audio": "audio/int3c/m14_q25.mp3",
+      "audio_spec": {
+        "file": "m14_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap: please do not go."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        }
+      ]
+    },
+    {
+      "id": "m14_q26",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap lets study.",
+      "prompt_audio": "audio/int3c/m14_q26.mp3",
+      "audio_spec": {
+        "file": "m14_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap lets study."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_legs_short",
+          "image": "images/int3c/int3c_u04_rpg_legs_short.png",
+          "label": "Legs Short",
+          "correct": false,
+          "why_wrong": "My legs are short — not ride bikes."
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_sports",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_sports.png",
+          "label": "Dont Like Sports",
+          "correct": false,
+          "why_wrong": "I do not like sports — not Let's play soccer."
+        },
+        {
+          "id": "int3c_u04_rpg_lets_study",
+          "image": "images/int3c/int3c_u04_rpg_lets_study.png",
+          "label": "Lets Study",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_lets_go_to_school",
+          "image": "images/int3c/int3c_u04_rpg_lets_go_to_school.png",
+          "label": "Lets Go To School",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q27",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap okay have fun.",
+      "prompt_audio": "audio/int3c/m14_q27.mp3",
+      "audio_spec": {
+        "file": "m14_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap okay have fun."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_okay_have_fun",
+          "image": "images/int3c/int3c_u03_play_outside_okay_have_fun.png",
+          "label": "Okay Have Fun",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_too_cold_watch_tv",
+          "image": "images/int3c/int3c_u03_play_outside_too_cold_watch_tv.png",
+          "label": "Too Cold Watch Tv",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q28",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap not yet put on shoes.",
+      "prompt_audio": "audio/int3c/m14_q28.mp3",
+      "audio_spec": {
+        "file": "m14_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap not yet put on shoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_glasses.png",
+          "label": "Glasses",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shoes.png",
+          "label": "Not Yet Put On Shoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "m14_q29",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not throw that.",
+      "prompt_audio": "audio/int3c/m14_q29.mp3",
+      "audio_spec": {
+        "file": "m14_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap: do not throw that."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q30",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap good idea.",
+      "prompt_audio": "audio/int3c/m14_q30.mp3",
+      "audio_spec": {
+        "file": "m14_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap good idea."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_good_idea",
+          "image": "images/int3c/int3c_u04_rpg_good_idea.png",
+          "label": "Good Idea",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_lets_talk",
+          "image": "images/int3c/int3c_u04_rpg_lets_talk.png",
+          "label": "Lets Talk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u04_rpg_too_scary",
+          "image": "images/int3c/int3c_u04_rpg_too_scary.png",
+          "label": "Too Scary",
+          "correct": false,
+          "why_wrong": "It is too scary — not climb the jungle gym."
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        }
+      ]
+    },
+    {
+      "id": "m14_q31",
+      "unit": "u04_rpg",
+      "prompt_text": "Tap lets cook.",
+      "prompt_audio": "audio/int3c/m14_q31.mp3",
+      "audio_spec": {
+        "file": "m14_q31.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap lets cook."
+      },
+      "choices": [
+        {
+          "id": "int3c_u04_rpg_lets_cook",
+          "image": "images/int3c/int3c_u04_rpg_lets_cook.png",
+          "label": "Lets Cook",
+          "correct": true
+        },
+        {
+          "id": "int3c_u04_rpg_dont_like_tv",
+          "image": "images/int3c/int3c_u04_rpg_dont_like_tv.png",
+          "label": "Dont Like Tv",
+          "correct": false,
+          "why_wrong": "I do not like TV — not Let's watch TV."
+        },
+        {
+          "id": "int3c_u04_rpg_cannot_sing",
+          "image": "images/int3c/int3c_u04_rpg_cannot_sing.png",
+          "label": "Cannot Sing",
+          "correct": false,
+          "why_wrong": "I cannot sing — that is a refusal, not Let's sing karaoke."
+        },
+        {
+          "id": "int3c_u04_rpg_climb_jungle_gym",
+          "image": "images/int3c/int3c_u04_rpg_climb_jungle_gym.png",
+          "label": "Climb Jungle Gym",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m14_q32",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not yell.",
+      "prompt_audio": "audio/int3c/m14_q32.mp3",
+      "audio_spec": {
+        "file": "m14_q32.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap: do not yell."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_sign.png",
+          "label": "Do Not Pull Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell.png",
+          "label": "Do Not Yell",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q33",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Tap: do not touch.",
+      "prompt_audio": "audio/int3c/m14_q33.mp3",
+      "audio_spec": {
+        "file": "m14_q33.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap: do not touch."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch_sign.png",
+          "label": "Do Not Touch Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch.png",
+          "label": "Do Not Touch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m14_q34",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap not yet put on socks.",
+      "prompt_audio": "audio/int3c/m14_q34.mp3",
+      "audio_spec": {
+        "file": "m14_q34.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap not yet put on socks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_socks",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_socks.png",
+          "label": "Not Yet Put On Socks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    }
+  ]
+}

@@ -9,8 +9,8 @@
       7,
       8
     ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 34,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -20,597 +20,1099 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "midterm-05-08.json"
   },
   "questions": [
     {
-      "id": "i3c_midterm_5_8_q01",
-      "type": 4,
-      "prompt_text": "Do you have a pet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "Yes, I have a hamster.",
-        "He runs.",
-        "I am fine."
+      "id": "i3c_m58_q01",
+      "type": 1,
+      "prompt_text": "Tap: Can you no i can not?",
+      "audio_id": "m58_q01",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_no_i_can_not"
       ],
-      "correct": "Yes, I have a hamster.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_no_i_can_not"
+      ],
+      "correct": "int3c_u07_can_you_fly_no_i_can_not",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_can_you_run": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_run": "Can You Run",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_no_i_can_not": "No I Can Not"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q02",
-      "type": 4,
-      "prompt_text": "What do you have in your bag?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have books and a water bottle.",
-        "He sings.",
-        "We eat.",
-        "I like blue."
+      "id": "i3c_m58_q02",
+      "type": 1,
+      "prompt_text": "Tap the answer: how many volcanoes.",
+      "audio_id": "m58_q02",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_how_many_people"
       ],
-      "correct": "I have books and a water bottle.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_volcanoes",
+        "int3c_u06_how_many_cities_count_9_provinces",
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_how_many_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_volcanoes",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_52000000_people": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_people": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes",
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People",
+        "int3c_u06_how_many_cities_how_many_people": "How Many People"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q03",
-      "type": 2,
-      "prompt_text": "She doesn't have ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "any brotheres",
-        "any brothers",
-        "some brother",
-        "brother any"
+      "id": "i3c_m58_q03",
+      "type": 1,
+      "prompt_text": "Tap what time is it.",
+      "audio_id": "m58_q03",
+      "image_ids": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_twelve_oclock"
       ],
-      "correct": "any brothers",
+      "choices": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_twelve_oclock"
+      ],
+      "correct": "int3c_u08_what_time_what_time_is_it",
       "why_wrong": {
-        "any brotheres": "Not quite — try again!",
-        "some brother": "Not quite — try again!",
-        "brother any": "Not quite — try again!"
+        "int3c_u08_what_time_midnight": "Look at the clock again.",
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_twelve_oclock": "Look at the clock again."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It",
+        "int3c_u08_what_time_twelve_oclock": "Twelve Oclock"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q04",
-      "type": 4,
-      "prompt_text": "Do they have homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "He sleeps.",
-        "Yes, they have a lot.",
-        "She reads."
+      "id": "i3c_m58_q04",
+      "type": 1,
+      "prompt_text": "Tap ten oclock.",
+      "audio_id": "m58_q04",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_ten_oclock"
       ],
-      "correct": "Yes, they have a lot.",
+      "choices": [
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_ten_oclock",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_one_oclock": "That clock is not one o'clock.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_three_oclock": "That clock is not three o'clock."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_one_oclock": "Wrong One Oclock",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_wrong_three_oclock": "Wrong Three Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q05",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He jumps.",
-        "Okay, see you later!",
-        "She swims."
+      "id": "i3c_m58_q05",
+      "type": 1,
+      "prompt_text": "Tap: Can you walk?",
+      "audio_id": "m58_q05",
+      "image_ids": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_walk"
       ],
-      "correct": "Okay, see you later!",
+      "choices": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_walk"
+      ],
+      "correct": "int3c_u07_can_you_fly_walk",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_run": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_walk": "Walk"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q06",
-      "type": 4,
-      "prompt_text": "Do you have a pet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I am fine.",
-        "He runs.",
-        "Yes, I have a hamster."
+      "id": "i3c_m58_q06",
+      "type": 1,
+      "prompt_text": "Tap cup.",
+      "audio_id": "m58_q06",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_i_have_puzzle",
+        "int3c_u05_what_do_you_have_cup",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_moon"
       ],
-      "correct": "Yes, I have a hamster.",
+      "choices": [
+        "int3c_u05_what_do_you_have_i_have_puzzle",
+        "int3c_u05_what_do_you_have_cup",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_moon"
+      ],
+      "correct": "int3c_u05_what_do_you_have_cup",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_i_have_puzzle": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_cloud": "You cannot hold a cloud.",
+        "int3c_u05_what_do_you_have_moon": "The moon is far away."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_i_have_puzzle": "I Have Puzzle",
+        "int3c_u05_what_do_you_have_cup": "Cup",
+        "int3c_u05_what_do_you_have_cloud": "Cloud",
+        "int3c_u05_what_do_you_have_moon": "Moon"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q07",
-      "type": 4,
-      "prompt_text": "What do you have in your bag?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I have books and a water bottle.",
-        "I like blue.",
-        "He sings."
+      "id": "i3c_m58_q07",
+      "type": 1,
+      "prompt_text": "Tap the answer: tigers.",
+      "audio_id": "m58_q07",
+      "image_ids": [
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
       ],
-      "correct": "I have books and a water bottle.",
+      "choices": [
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_3358_islands",
+        "int3c_u06_how_many_cities_how_many_volcanoes"
+      ],
+      "correct": "int3c_u06_how_many_cities_tigers",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_my_mom": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_my_mom": "My Mom",
+        "int3c_u06_how_many_cities_tigers": "Tigers",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands",
+        "int3c_u06_how_many_cities_how_many_volcanoes": "How Many Volcanoes"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q08",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "It's in East Asia.",
-        "He plays.",
-        "I like pizza."
+      "id": "i3c_m58_q08",
+      "type": 1,
+      "prompt_text": "Tap: Can you drink?",
+      "audio_id": "m58_q08",
+      "image_ids": [
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_can_you_sing"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_can_you_sing"
+      ],
+      "correct": "int3c_u07_can_you_fly_drink",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_can_you_sing": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_drink": "Drink",
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_can_you_sing": "Can You Sing"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q09",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He runs.",
-        "K-pop and delicious food.",
-        "I have a dog."
+      "id": "i3c_m58_q09",
+      "type": 1,
+      "prompt_text": "Tap the answer: count 22 parks.",
+      "audio_id": "m58_q09",
+      "image_ids": [
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_how_many_deserts"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u06_how_many_cities_pardon",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_how_many_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_22_parks",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_pardon": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_pardon": "Pardon",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts",
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q10",
-      "type": 4,
-      "prompt_text": "Tell me about Tongyeong.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a beautiful coastal city.",
-        "I like blue.",
-        "He eats.",
-        "She reads."
+      "id": "i3c_m58_q10",
+      "type": 1,
+      "prompt_text": "Tap: Can you love?",
+      "audio_id": "m58_q10",
+      "image_ids": [
+        "int3c_u07_can_you_fly_love",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_dance"
       ],
-      "correct": "It's a beautiful coastal city.",
+      "choices": [
+        "int3c_u07_can_you_fly_love",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_love",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_dance": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_love": "Love",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_dance": "Dance"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q11",
-      "type": 4,
-      "prompt_text": "What language do Koreans speak?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korea",
-        "Koreans",
-        "Koreish",
-        "Korean"
+      "id": "i3c_m58_q11",
+      "type": 1,
+      "prompt_text": "Tap i have chess board.",
+      "audio_id": "m58_q11",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_earphones",
+        "int3c_u05_what_do_you_have_river",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_i_have_chess_board"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int3c_u05_what_do_you_have_earphones",
+        "int3c_u05_what_do_you_have_river",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_i_have_chess_board"
+      ],
+      "correct": "int3c_u05_what_do_you_have_i_have_chess_board",
       "why_wrong": {
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!",
-        "Koreish": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_earphones": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_river": "You cannot have a river in your bag.",
+        "int3c_u05_what_do_you_have_cloud": "You cannot hold a cloud."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_earphones": "Earphones",
+        "int3c_u05_what_do_you_have_river": "River",
+        "int3c_u05_what_do_you_have_cloud": "Cloud",
+        "int3c_u05_what_do_you_have_i_have_chess_board": "I Have Chess Board"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q12",
-      "type": 4,
-      "prompt_text": "What do you like about Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I love the kind people and the scenery.",
-        "She swims.",
-        "He jumps."
+      "id": "i3c_m58_q12",
+      "type": 1,
+      "prompt_text": "Tap i have hat.",
+      "audio_id": "m58_q12",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_i_have_hat",
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have"
       ],
-      "correct": "I love the kind people and the scenery.",
+      "choices": [
+        "int3c_u05_what_do_you_have_i_have_hat",
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have"
+      ],
+      "correct": "int3c_u05_what_do_you_have_i_have_hat",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_volcano": "A volcano is not something you carry.",
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_what_do_you_have": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_i_have_hat": "I Have Hat",
+        "int3c_u05_what_do_you_have_volcano": "Volcano",
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have": "What Do You Have"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q13",
-      "type": 4,
-      "prompt_text": "Where is Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He plays.",
-        "I am twelve.",
-        "It's in East Asia."
+      "id": "i3c_m58_q13",
+      "type": 1,
+      "prompt_text": "Tap i have phone.",
+      "audio_id": "m58_q13",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_river",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_i_have_phone"
       ],
-      "correct": "It's in East Asia.",
+      "choices": [
+        "int3c_u05_what_do_you_have_river",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_i_have_phone"
+      ],
+      "correct": "int3c_u05_what_do_you_have_i_have_phone",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_river": "You cannot have a river in your bag.",
+        "int3c_u05_what_do_you_have_i_have_book": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_moon": "The moon is far away."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_river": "River",
+        "int3c_u05_what_do_you_have_i_have_book": "I Have Book",
+        "int3c_u05_what_do_you_have_moon": "Moon",
+        "int3c_u05_what_do_you_have_i_have_phone": "I Have Phone"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q14",
-      "type": 4,
-      "prompt_text": "What is famous in Korea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She sings.",
-        "I have a dog.",
-        "K-pop and delicious food."
+      "id": "i3c_m58_q14",
+      "type": 1,
+      "prompt_text": "Tap what do you have.",
+      "audio_id": "m58_q14",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have",
+        "int3c_u05_what_do_you_have_pencil_case"
       ],
-      "correct": "K-pop and delicious food.",
+      "choices": [
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have",
+        "int3c_u05_what_do_you_have_pencil_case"
+      ],
+      "correct": "int3c_u05_what_do_you_have_what_do_you_have",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_volcano": "A volcano is not something you carry.",
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_pencil_case": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_volcano": "Volcano",
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_what_do_you_have": "What Do You Have",
+        "int3c_u05_what_do_you_have_pencil_case": "Pencil Case"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q15",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I can.",
-        "He has a bike.",
-        "She is kind.",
-        "I am ten."
+      "id": "i3c_m58_q15",
+      "type": 1,
+      "prompt_text": "Tap twelve oclock.",
+      "audio_id": "m58_q15",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_wrong_one_oclock"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_wrong_one_oclock"
+      ],
+      "correct": "int3c_u08_what_time_twelve_oclock",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_eleven_oclock": "That clock is not eleven o'clock.",
+        "int3c_u08_what_time_wrong_five_oclock": "That clock is not five o'clock.",
+        "int3c_u08_what_time_wrong_one_oclock": "That clock is not one o'clock."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_eleven_oclock": "Wrong Eleven Oclock",
+        "int3c_u08_what_time_twelve_oclock": "Twelve Oclock",
+        "int3c_u08_what_time_wrong_five_oclock": "Wrong Five Oclock",
+        "int3c_u08_what_time_wrong_one_oclock": "Wrong One Oclock"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q16",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, she can't.",
-        "We study.",
-        "I like red.",
-        "He runs."
+      "id": "i3c_m58_q16",
+      "type": 1,
+      "prompt_text": "Tap eleven oclock.",
+      "audio_id": "m58_q16",
+      "image_ids": [
+        "int3c_u08_what_time_three_oclock",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_wrong_midnight"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u08_what_time_three_oclock",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_wrong_midnight"
+      ],
+      "correct": "int3c_u08_what_time_eleven_oclock",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u08_what_time_three_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_three_oclock": "Three Oclock",
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q17",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Is",
-        "Can",
-        "Are",
-        "Do"
+      "id": "i3c_m58_q17",
+      "type": 1,
+      "prompt_text": "Tap i have cup.",
+      "audio_id": "m58_q17",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_i_have_chess_board",
+        "int3c_u05_what_do_you_have_forest",
+        "int3c_u05_what_do_you_have_i_have_cup",
+        "int3c_u05_what_do_you_have_mountain"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u05_what_do_you_have_i_have_chess_board",
+        "int3c_u05_what_do_you_have_forest",
+        "int3c_u05_what_do_you_have_i_have_cup",
+        "int3c_u05_what_do_you_have_mountain"
+      ],
+      "correct": "int3c_u05_what_do_you_have_i_have_cup",
       "why_wrong": {
-        "Is": "Not quite — try again!",
-        "Are": "Not quite — try again!",
-        "Do": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_i_have_chess_board": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_forest": "A forest is not something you have.",
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_i_have_chess_board": "I Have Chess Board",
+        "int3c_u05_what_do_you_have_forest": "Forest",
+        "int3c_u05_what_do_you_have_i_have_cup": "I Have Cup",
+        "int3c_u05_what_do_you_have_mountain": "Mountain"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q18",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can drive.",
-        "They can fly.",
-        "They can read.",
-        "They can cook."
+      "id": "i3c_m58_q18",
+      "type": 1,
+      "prompt_text": "Tap: Can you can you love?",
+      "audio_id": "m58_q18",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_airplane"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_airplane"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_love",
       "why_wrong": {
-        "They can drive.": "Not quite — try again!",
-        "They can read.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_dance": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_love": "Can You Love",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_dance": "Dance",
+        "int3c_u07_can_you_fly_airplane": "Airplane"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q19",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I like cats.",
-        "She sings.",
-        "Sorry, we can't today."
+      "id": "i3c_m58_q19",
+      "type": 1,
+      "prompt_text": "Tap: Can you dance?",
+      "audio_id": "m58_q19",
+      "image_ids": [
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_dance"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_dance",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_type": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_type": "Type",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_helicopter": "Helicopter",
+        "int3c_u07_can_you_fly_dance": "Dance"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q20",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "I am ten.",
-        "Yes, I can."
+      "id": "i3c_m58_q20",
+      "type": 1,
+      "prompt_text": "Tap one oclock.",
+      "audio_id": "m58_q20",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_ten_oclock"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_one_oclock",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q21",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "No, she can't.",
-        "I like red.",
-        "We study."
+      "id": "i3c_m58_q21",
+      "type": 1,
+      "prompt_text": "Tap i have book.",
+      "audio_id": "m58_q21",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_nothing",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_river"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_nothing",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_river"
+      ],
+      "correct": "int3c_u05_what_do_you_have_i_have_book",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_moon": "The moon is far away.",
+        "int3c_u05_what_do_you_have_nothing": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_river": "You cannot have a river in your bag."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_moon": "Moon",
+        "int3c_u05_what_do_you_have_nothing": "Nothing",
+        "int3c_u05_what_do_you_have_i_have_book": "I Have Book",
+        "int3c_u05_what_do_you_have_river": "River"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q22",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "He plays.",
-        "It's a quarter to five.",
-        "I am fine."
+      "id": "i3c_m58_q22",
+      "type": 1,
+      "prompt_text": "Tap the answer: how many parks.",
+      "audio_id": "m58_q22",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_wrong_0_parks",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_count_3358_islands"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_52000000_people",
+        "int3c_u06_how_many_cities_wrong_0_parks",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_count_3358_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_parks",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_count_52000000_people": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_0_parks": "There are 22 national parks, not 0.",
+        "int3c_u06_how_many_cities_count_3358_islands": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People",
+        "int3c_u06_how_many_cities_wrong_0_parks": "Wrong 0 Parks",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
+        "int3c_u06_how_many_cities_count_3358_islands": "Count 3358 Islands"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q23",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "It starts at nine o'clock.",
-        "I like blue.",
-        "He runs."
+      "id": "i3c_m58_q23",
+      "type": 1,
+      "prompt_text": "Tap: Can you type?",
+      "audio_id": "m58_q23",
+      "image_ids": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_no_i_can_not"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_no_i_can_not"
+      ],
+      "correct": "int3c_u07_can_you_fly_type",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_no_i_can_not": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_type": "Type",
+        "int3c_u07_can_you_fly_no_i_can_not": "No I Can Not"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q24",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Half past three.",
-        "Half three past.",
-        "Three past half.",
-        "Thirty three."
+      "id": "i3c_m58_q24",
+      "type": 1,
+      "prompt_text": "Tap the answer: count 52000000 people.",
+      "audio_id": "m58_q24",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_52000000_people"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_how_many_parks",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_52000000_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_52000000_people",
       "why_wrong": {
-        "Half three past.": "Not quite — try again!",
-        "Three past half.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "There are 2 volcanoes, not 22.",
+        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_provinces": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "Wrong 22 Volcanoes",
+        "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
+        "int3c_u06_how_many_cities_how_many_provinces": "How Many Provinces",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q25",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "She sings.",
-        "Around seven p.m.",
-        "He sleeps."
+      "id": "i3c_m58_q25",
+      "type": 1,
+      "prompt_text": "Tap detention.",
+      "audio_id": "m58_q25",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_detention"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_detention"
+      ],
+      "correct": "int3c_u08_what_time_detention",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_nine_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_twelve_oclock": "Look at the clock again."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_nine_oclock": "Nine Oclock",
+        "int3c_u08_what_time_twelve_oclock": "Twelve Oclock",
+        "int3c_u08_what_time_detention": "Detention"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q26",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like pizza.",
-        "No, it's only nine forty-five.",
-        "He jumps."
+      "id": "i3c_m58_q26",
+      "type": 1,
+      "prompt_text": "Tap the answer: how many people.",
+      "audio_id": "m58_q26",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_wrong_9_cities",
+        "int3c_u06_how_many_cities_count_9_provinces"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_people",
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_wrong_9_cities",
+        "int3c_u06_how_many_cities_count_9_provinces"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_people",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_a_professor_great": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_9_cities": "There are 125 cities in Korea, not 9.",
+        "int3c_u06_how_many_cities_count_9_provinces": "That is not the correct Korea count."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_people": "How Many People",
+        "int3c_u06_how_many_cities_a_professor_great": "A Professor Great",
+        "int3c_u06_how_many_cities_wrong_9_cities": "Wrong 9 Cities",
+        "int3c_u06_how_many_cities_count_9_provinces": "Count 9 Provinces"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q27",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "It's a quarter to five.",
-        "I am fine.",
-        "He plays."
+      "id": "i3c_m58_q27",
+      "type": 1,
+      "prompt_text": "Tap the answer: count 2 volcanoes.",
+      "audio_id": "m58_q27",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u06_how_many_cities_count_2_volcanoes",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_2_volcanoes",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3c_u06_how_many_cities_students": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "There are zero deserts, not 3,358."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_2_volcanoes": "Count 2 Volcanoes",
+        "int3c_u06_how_many_cities_students": "Students",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_wrong_3358_deserts": "Wrong 3358 Deserts"
+      }
     },
     {
-      "id": "i3c_midterm_5_8_q28",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "It starts at nine o'clock.",
-        "I like blue.",
-        "He runs."
+      "id": "i3c_m58_q28",
+      "type": 1,
+      "prompt_text": "Tap newspaper.",
+      "audio_id": "m58_q28",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_puzzle",
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_newspaper"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_puzzle",
+        "int3c_u05_what_do_you_have_volcano",
+        "int3c_u05_what_do_you_have_newspaper"
+      ],
+      "correct": "int3c_u05_what_do_you_have_newspaper",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_puzzle": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_volcano": "A volcano is not something you carry."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_puzzle": "Puzzle",
+        "int3c_u05_what_do_you_have_volcano": "Volcano",
+        "int3c_u05_what_do_you_have_newspaper": "Newspaper"
+      }
+    },
+    {
+      "id": "i3c_m58_q29",
+      "type": 1,
+      "prompt_text": "Tap no way.",
+      "audio_id": "m58_q29",
+      "image_ids": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_no_way"
+      ],
+      "choices": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_no_way"
+      ],
+      "correct": "int3c_u08_what_time_no_way",
+      "why_wrong": {
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_eight_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_midnight": "Look at the clock again."
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_eight_oclock": "Eight Oclock",
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_no_way": "No Way"
+      }
+    },
+    {
+      "id": "i3c_m58_q30",
+      "type": 1,
+      "prompt_text": "Tap nine oclock.",
+      "audio_id": "m58_q30",
+      "image_ids": [
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_one_oclock"
+      ],
+      "choices": [
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_one_oclock"
+      ],
+      "correct": "int3c_u08_what_time_nine_oclock",
+      "why_wrong": {
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_can_we_go_home_please": "Look at the clock again.",
+        "int3c_u08_what_time_one_oclock": "Look at the clock again."
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please",
+        "int3c_u08_what_time_nine_oclock": "Nine Oclock",
+        "int3c_u08_what_time_one_oclock": "One Oclock"
+      }
+    },
+    {
+      "id": "i3c_m58_q31",
+      "type": 1,
+      "prompt_text": "Tap book.",
+      "audio_id": "m58_q31",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_book",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_pencil",
+        "int3c_u05_what_do_you_have_volcano"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_book",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_pencil",
+        "int3c_u05_what_do_you_have_volcano"
+      ],
+      "correct": "int3c_u05_what_do_you_have_book",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_moon": "The moon is far away.",
+        "int3c_u05_what_do_you_have_pencil": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_volcano": "A volcano is not something you carry."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_book": "Book",
+        "int3c_u05_what_do_you_have_moon": "Moon",
+        "int3c_u05_what_do_you_have_pencil": "Pencil",
+        "int3c_u05_what_do_you_have_volcano": "Volcano"
+      }
+    },
+    {
+      "id": "i3c_m58_q32",
+      "type": 1,
+      "prompt_text": "Tap pillow.",
+      "audio_id": "m58_q32",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_puzzle",
+        "int3c_u05_what_do_you_have_pillow",
+        "int3c_u05_what_do_you_have_cloud"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_puzzle",
+        "int3c_u05_what_do_you_have_pillow",
+        "int3c_u05_what_do_you_have_cloud"
+      ],
+      "correct": "int3c_u05_what_do_you_have_pillow",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_puzzle": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_cloud": "You cannot hold a cloud."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_puzzle": "Puzzle",
+        "int3c_u05_what_do_you_have_pillow": "Pillow",
+        "int3c_u05_what_do_you_have_cloud": "Cloud"
+      }
+    },
+    {
+      "id": "i3c_m58_q33",
+      "type": 1,
+      "prompt_text": "Tap: Can you can you fight?",
+      "audio_id": "m58_q33",
+      "image_ids": [
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_can_you_fight",
+        "int3c_u07_can_you_fly_train"
+      ],
+      "choices": [
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_can_you_fight",
+        "int3c_u07_can_you_fly_train"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_fight",
+      "why_wrong": {
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?",
+        "int3c_u07_can_you_fly_run": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks."
+      },
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_helicopter": "Helicopter",
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_can_you_fight": "Can You Fight",
+        "int3c_u07_can_you_fly_train": "Train"
+      }
+    },
+    {
+      "id": "i3c_m58_q34",
+      "type": 1,
+      "prompt_text": "Tap the answer: how many islands.",
+      "audio_id": "m58_q34",
+      "image_ids": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "choices": [
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_students",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_how_many_islands",
+      "why_wrong": {
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "There are 2 volcanoes, not 22.",
+        "int3c_u06_how_many_cities_students": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count."
+      },
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "Wrong 22 Volcanoes",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands",
+        "int3c_u06_how_many_cities_students": "Students",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
+      }
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 7: Can Questions",
+    "title": "Can You Fly?",
     "kind": "unit",
     "units_covered": [
       7
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-07-can-you-fly.json"
   },
   "questions": [
     {
       "id": "i3c_u07_q01",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "Yes, I can.",
-        "I am ten.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Can you dance?",
+      "audio_id": "u07_q01",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
+      ],
+      "correct": "int3c_u07_can_you_fly_dance",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_can_you_run": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_dance": "Dance",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_run": "Can You Run"
+      }
     },
     {
       "id": "i3c_u07_q02",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "No, she can't.",
-        "I like red.",
-        "We study."
+      "type": 1,
+      "prompt_text": "Yes, I can.",
+      "audio_id": "u07_q02",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_yes_i_can",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_yes_i_can",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
+      ],
+      "correct": "int3c_u07_can_you_fly_yes_i_can",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_can_you_love": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_yes_i_can": "Yes I Can",
+        "int3c_u07_can_you_fly_can_you_love": "Can You Love",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly"
+      }
     },
     {
       "id": "i3c_u07_q03",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Can",
-        "Are",
-        "Is",
-        "Do"
+      "type": 1,
+      "prompt_text": "Can you jump?",
+      "audio_id": "u07_q03",
+      "image_ids": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_helicopter"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_helicopter"
+      ],
+      "correct": "int3c_u07_can_you_fly_jump",
       "why_wrong": {
-        "Are": "Not quite — try again!",
-        "Is": "Not quite — try again!",
-        "Do": "Not quite — try again!"
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_can_you_cook": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_jump": "Jump",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook",
+        "int3c_u07_can_you_fly_helicopter": "Helicopter"
+      }
     },
     {
       "id": "i3c_u07_q04",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can drive.",
-        "They can cook.",
-        "They can read.",
-        "They can fly."
+      "type": 1,
+      "prompt_text": "Can you sing?",
+      "audio_id": "u07_q04",
+      "image_ids": [
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_can_you_cook"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_can_you_cook"
+      ],
+      "correct": "int3c_u07_can_you_fly_sing",
       "why_wrong": {
-        "They can drive.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!",
-        "They can read.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_can_you_cook": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_sing": "Sing",
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook"
+      }
     },
     {
       "id": "i3c_u07_q05",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Sorry, we can't today.",
-        "She sings.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Can you fight?",
+      "audio_id": "u07_q05",
+      "image_ids": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_fight"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_fight"
+      ],
+      "correct": "int3c_u07_can_you_fly_fight",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_jump": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_jump": "Jump",
+        "int3c_u07_can_you_fly_fight": "Fight"
+      }
     },
     {
       "id": "i3c_u07_q06",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I can.",
-        "She is kind.",
-        "I am ten.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Can you type?",
+      "audio_id": "u07_q06",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_walk",
+        "int3c_u07_can_you_fly_butterfly"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_type",
+        "int3c_u07_can_you_fly_walk",
+        "int3c_u07_can_you_fly_butterfly"
+      ],
+      "correct": "int3c_u07_can_you_fly_type",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_walk": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_type": "Type",
+        "int3c_u07_can_you_fly_walk": "Walk",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly"
+      }
     },
     {
       "id": "i3c_u07_q07",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He runs.",
-        "No, she can't.",
-        "We study."
+      "type": 1,
+      "prompt_text": "Can you walk?",
+      "audio_id": "u07_q07",
+      "image_ids": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_walk",
+        "int3c_u07_can_you_fly_can_you_cook"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_walk",
+        "int3c_u07_can_you_fly_can_you_cook"
+      ],
+      "correct": "int3c_u07_can_you_fly_walk",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?",
+        "int3c_u07_can_you_fly_can_you_cook": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_helicopter": "Helicopter",
+        "int3c_u07_can_you_fly_walk": "Walk",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook"
+      }
     },
     {
       "id": "i3c_u07_q08",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Do",
-        "Can",
-        "Are",
-        "Is"
+      "type": 1,
+      "prompt_text": "Can you cook?",
+      "audio_id": "u07_q08",
+      "image_ids": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_cook",
+        "int3c_u07_can_you_fly_dance"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_cook",
+        "int3c_u07_can_you_fly_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_cook",
       "why_wrong": {
-        "Do": "Not quite — try again!",
-        "Are": "Not quite — try again!",
-        "Is": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_dance": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_cook": "Cook",
+        "int3c_u07_can_you_fly_dance": "Dance"
+      }
     },
     {
       "id": "i3c_u07_q09",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can read.",
-        "They can drive.",
-        "They can fly.",
-        "They can cook."
+      "type": 1,
+      "prompt_text": "Can you fly?",
+      "audio_id": "u07_q09",
+      "image_ids": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_fight"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_fight"
+      ],
+      "correct": "int3c_u07_can_you_fly_fly",
       "why_wrong": {
-        "They can read.": "Not quite — try again!",
-        "They can drive.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_fight": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_fly": "Fly",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_fight": "Fight"
+      }
     },
     {
       "id": "i3c_u07_q10",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "Sorry, we can't today.",
-        "He reads.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Can you love?",
+      "audio_id": "u07_q10",
+      "image_ids": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_love"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_love"
+      ],
+      "correct": "int3c_u07_can_you_fly_love",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_fly": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_fly": "Fly",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_love": "Love"
+      }
     },
     {
       "id": "i3c_u07_q11",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "She is kind.",
-        "He has a bike.",
-        "Yes, I can."
+      "type": 1,
+      "prompt_text": "Can you run?",
+      "audio_id": "u07_q11",
+      "image_ids": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_drink"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_drink"
+      ],
+      "correct": "int3c_u07_can_you_fly_run",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_drink": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_drink": "Drink"
+      }
     },
     {
       "id": "i3c_u07_q12",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, she can't.",
-        "I like red.",
-        "He runs.",
-        "We study."
+      "type": 1,
+      "prompt_text": "No, I can not.",
+      "audio_id": "u07_q12",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_no_i_can_not",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_rock"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_no_i_can_not",
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_rock"
+      ],
+      "correct": "int3c_u07_can_you_fly_no_i_can_not",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_can_you_jump": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_jump": "Can You Jump",
+        "int3c_u07_can_you_fly_no_i_can_not": "No I Can Not",
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_rock": "Rock"
+      }
     },
     {
       "id": "i3c_u07_q13",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Is",
-        "Do",
-        "Are",
-        "Can"
+      "type": 1,
+      "prompt_text": "Can you dance?",
+      "audio_id": "u07_q13",
+      "image_ids": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_love",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_dance"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_love",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_dance",
       "why_wrong": {
-        "Is": "Not quite — try again!",
-        "Do": "Not quite — try again!",
-        "Are": "Not quite — try again!"
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_love": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_love": "Love",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_can_you_dance": "Can You Dance"
+      }
     },
     {
       "id": "i3c_u07_q14",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can fly.",
-        "They can read.",
-        "They can cook.",
-        "They can drive."
+      "type": 1,
+      "prompt_text": "Can you jump?",
+      "audio_id": "u07_q14",
+      "image_ids": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_bicycle"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_airplane",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_bicycle"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_jump",
       "why_wrong": {
-        "They can read.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!",
-        "They can drive.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly.",
+        "int3c_u07_can_you_fly_drink": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_airplane": "Airplane",
+        "int3c_u07_can_you_fly_drink": "Drink",
+        "int3c_u07_can_you_fly_can_you_jump": "Can You Jump",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle"
+      }
     },
     {
       "id": "i3c_u07_q15",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I like cats.",
-        "He reads.",
-        "Sorry, we can't today."
+      "type": 1,
+      "prompt_text": "Can you sing?",
+      "audio_id": "u07_q15",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_sing",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_airplane"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_sing",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_airplane"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_sing",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_can_you_love": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_sing": "Can You Sing",
+        "int3c_u07_can_you_fly_can_you_love": "Can You Love",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_airplane": "Airplane"
+      }
     },
     {
       "id": "i3c_u07_q16",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "Yes, I can.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "Can you fight?",
+      "audio_id": "u07_q16",
+      "image_ids": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_fight",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_dance"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_fight",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_fight",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_dance": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_fight": "Can You Fight",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_dance": "Dance"
+      }
     },
     {
       "id": "i3c_u07_q17",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "No, she can't.",
-        "He runs.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Can you type?",
+      "audio_id": "u07_q17",
+      "image_ids": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_rock"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_fly",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_rock"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_type",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_fly": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_fly": "Fly",
+        "int3c_u07_can_you_fly_can_you_type": "Can You Type",
+        "int3c_u07_can_you_fly_rock": "Rock"
+      }
     },
     {
       "id": "i3c_u07_q18",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Can",
-        "Are",
-        "Do",
-        "Is"
+      "type": 1,
+      "prompt_text": "Can you walk?",
+      "audio_id": "u07_q18",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_no_i_can_not",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_walk"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_no_i_can_not",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_walk"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_walk",
       "why_wrong": {
-        "Are": "Not quite — try again!",
-        "Do": "Not quite — try again!",
-        "Is": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_no_i_can_not": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_no_i_can_not": "No I Can Not",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_can_you_walk": "Can You Walk"
+      }
     },
     {
       "id": "i3c_u07_q19",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can read.",
-        "They can fly.",
-        "They can drive.",
-        "They can cook."
+      "type": 1,
+      "prompt_text": "Can you cook?",
+      "audio_id": "u07_q19",
+      "image_ids": [
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_jump"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_jump"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_cook",
       "why_wrong": {
-        "They can read.": "Not quite — try again!",
-        "They can drive.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_jump": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_jump": "Jump"
+      }
     },
     {
       "id": "i3c_u07_q20",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "She sings.",
-        "He reads.",
-        "Sorry, we can't today."
+      "type": 1,
+      "prompt_text": "Can you fly?",
+      "audio_id": "u07_q20",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_fly",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_fight"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_fly",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_fight"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_fly",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_fight": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_fly": "Can You Fly",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_fight": "Fight"
+      }
     },
     {
       "id": "i3c_u07_q21",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I am ten.",
-        "She is kind.",
-        "Yes, I can."
+      "type": 1,
+      "prompt_text": "Can you love?",
+      "audio_id": "u07_q21",
+      "image_ids": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_love",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_run": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_can_you_love": "Can You Love",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly"
+      }
     },
     {
       "id": "i3c_u07_q22",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "He runs.",
-        "I like red.",
-        "No, she can't."
+      "type": 1,
+      "prompt_text": "Can you run?",
+      "audio_id": "u07_q22",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
+      ],
+      "correct": "int3c_u07_can_you_fly_can_you_run",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_drink": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_drink": "Drink",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_run": "Can You Run"
+      }
     },
     {
       "id": "i3c_u07_q23",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Do",
-        "Can",
-        "Are",
-        "Is"
+      "type": 1,
+      "prompt_text": "Tap dance.",
+      "audio_id": "u07_q23",
+      "image_ids": [
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_dance",
+        "int3c_u07_can_you_fly_dance"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_dance",
+        "int3c_u07_can_you_fly_dance"
+      ],
+      "correct": "int3c_u07_can_you_fly_dance",
       "why_wrong": {
-        "Do": "Not quite — try again!",
-        "Are": "Not quite — try again!",
-        "Is": "Not quite — try again!"
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_can_you_dance": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_dance": "Can You Dance",
+        "int3c_u07_can_you_fly_dance": "Dance"
+      }
     },
     {
       "id": "i3c_u07_q24",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can drive.",
-        "They can read.",
-        "They can fly.",
-        "They can cook."
+      "type": 1,
+      "prompt_text": "Tap jump.",
+      "audio_id": "u07_q24",
+      "image_ids": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_car"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_car"
+      ],
+      "correct": "int3c_u07_can_you_fly_jump",
       "why_wrong": {
-        "They can drive.": "Not quite — try again!",
-        "They can read.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_can_you_type": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_car": "Cars cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_jump": "Jump",
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_can_you_type": "Can You Type",
+        "int3c_u07_can_you_fly_car": "Car"
+      }
     },
     {
       "id": "i3c_u07_q25",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sorry, we can't today.",
-        "She sings.",
-        "I like cats.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Tap sing.",
+      "audio_id": "u07_q25",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_airplane"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_jump",
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_airplane"
+      ],
+      "correct": "int3c_u07_can_you_fly_sing",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_can_you_jump": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_airplane": "An airplane flies — Can you fly means the verb fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_jump": "Can You Jump",
+        "int3c_u07_can_you_fly_sing": "Sing",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_airplane": "Airplane"
+      }
     },
     {
       "id": "i3c_u07_q26",
-      "type": 4,
-      "prompt_text": "Can you swim?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "She is kind.",
-        "Yes, I can.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Tap fly.",
+      "audio_id": "u07_q26",
+      "image_ids": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_fly"
       ],
-      "correct": "Yes, I can.",
+      "choices": [
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_fly"
+      ],
+      "correct": "int3c_u07_can_you_fly_fly",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_run": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_helicopter": "Helicopter",
+        "int3c_u07_can_you_fly_fly": "Fly"
+      }
     },
     {
       "id": "i3c_u07_q27",
-      "type": 4,
-      "prompt_text": "Can she play the piano?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, she can't.",
-        "We study.",
-        "He runs.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Tap cook.",
+      "audio_id": "u07_q27",
+      "image_ids": [
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_fight",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_cook"
       ],
-      "correct": "No, she can't.",
+      "choices": [
+        "int3c_u07_can_you_fly_helicopter",
+        "int3c_u07_can_you_fly_fight",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_cook"
+      ],
+      "correct": "int3c_u07_can_you_fly_cook",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?",
+        "int3c_u07_can_you_fly_fight": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_helicopter": "Helicopter",
+        "int3c_u07_can_you_fly_fight": "Fight",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_cook": "Cook"
+      }
     },
     {
       "id": "i3c_u07_q28",
-      "type": 4,
-      "prompt_text": "___ you help me?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Is",
-        "Are",
-        "Can",
-        "Do"
+      "type": 1,
+      "prompt_text": "Tap run.",
+      "audio_id": "u07_q28",
+      "image_ids": [
+        "int3c_u07_can_you_fly_can_you_walk",
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_car"
       ],
-      "correct": "Can",
+      "choices": [
+        "int3c_u07_can_you_fly_can_you_walk",
+        "int3c_u07_can_you_fly_run",
+        "int3c_u07_can_you_fly_bicycle",
+        "int3c_u07_can_you_fly_car"
+      ],
+      "correct": "int3c_u07_can_you_fly_run",
       "why_wrong": {
-        "Is": "Not quite — try again!",
-        "Are": "Not quite — try again!",
-        "Do": "Not quite — try again!"
+        "int3c_u07_can_you_fly_can_you_walk": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_bicycle": "Bicycles roll on the ground.",
+        "int3c_u07_can_you_fly_car": "Cars cannot fly."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_can_you_walk": "Can You Walk",
+        "int3c_u07_can_you_fly_run": "Run",
+        "int3c_u07_can_you_fly_bicycle": "Bicycle",
+        "int3c_u07_can_you_fly_car": "Car"
+      }
     },
     {
       "id": "i3c_u07_q29",
-      "type": 4,
-      "prompt_text": "What can birds do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They can read.",
-        "They can cook.",
-        "They can fly.",
-        "They can drive."
+      "type": 1,
+      "prompt_text": "Tap drink.",
+      "audio_id": "u07_q29",
+      "image_ids": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_run"
       ],
-      "correct": "They can fly.",
+      "choices": [
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_drink",
+        "int3c_u07_can_you_fly_bird",
+        "int3c_u07_can_you_fly_run"
+      ],
+      "correct": "int3c_u07_can_you_fly_drink",
       "why_wrong": {
-        "They can read.": "Not quite — try again!",
-        "They can cook.": "Not quite — try again!",
-        "They can drive.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_bird": "A bird can fly — tap the action word fly.",
+        "int3c_u07_can_you_fly_run": "That is not the correct answer. Listen again!"
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_drink": "Drink",
+        "int3c_u07_can_you_fly_bird": "Bird",
+        "int3c_u07_can_you_fly_run": "Run"
+      }
     },
     {
       "id": "i3c_u07_q30",
-      "type": 4,
-      "prompt_text": "Can we leave early?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "She sings.",
-        "He reads.",
-        "Sorry, we can't today."
+      "type": 1,
+      "prompt_text": "Yes, I can.",
+      "audio_id": "u07_q30",
+      "image_ids": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_yes_i_can"
       ],
-      "correct": "Sorry, we can't today.",
+      "choices": [
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_type",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_yes_i_can"
+      ],
+      "correct": "int3c_u07_can_you_fly_yes_i_can",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_can_you_type": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks."
       },
       "unit": 7,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_type": "Can You Type",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_yes_i_can": "Yes I Can"
+      }
     }
   ]
 }

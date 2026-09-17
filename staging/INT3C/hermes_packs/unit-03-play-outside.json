@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u03",
+  "title": "Can I Play Outside?",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u03_q01",
+      "unit": "u03_play_outside",
+      "prompt_text": "Can I play outside?",
+      "prompt_audio": "audio/int3c/u03_q01.mp3",
+      "audio_spec": {
+        "file": "u03_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Can I play outside?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_gloves.png",
+          "label": "Not Yet Put On Gloves",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u03_q02",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your shirt.",
+      "prompt_audio": "audio/int3c/u03_q02.mp3",
+      "audio_spec": {
+        "file": "u03_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Not yet, put on your shirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u03_q03",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your pants.",
+      "prompt_audio": "audio/int3c/u03_q03.mp3",
+      "audio_spec": {
+        "file": "u03_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Not yet, put on your pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        },
+        {
+          "id": "int3c_u03_play_outside_pants",
+          "image": "images/int3c/int3c_u03_play_outside_pants.png",
+          "label": "Pants",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_hat",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_hat.png",
+          "label": "Put On Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "u03_q04",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your socks.",
+      "prompt_audio": "audio/int3c/u03_q04.mp3",
+      "audio_spec": {
+        "file": "u03_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Not yet, put on your socks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_socks",
+          "image": "images/int3c/int3c_u03_play_outside_socks.png",
+          "label": "Socks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_shorts",
+          "image": "images/int3c/int3c_u03_play_outside_shorts.png",
+          "label": "Shorts",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        }
+      ]
+    },
+    {
+      "id": "u03_q05",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your jacket.",
+      "prompt_audio": "audio/int3c/u03_q05.mp3",
+      "audio_spec": {
+        "file": "u03_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Not yet, put on your jacket."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shirt.png",
+          "label": "Not Yet Put On Shirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_jacket.png",
+          "label": "Jacket",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        }
+      ]
+    },
+    {
+      "id": "u03_q06",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your gloves.",
+      "prompt_audio": "audio/int3c/u03_q06.mp3",
+      "audio_spec": {
+        "file": "u03_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Not yet, put on your gloves."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_shorts",
+          "image": "images/int3c/int3c_u03_play_outside_shorts.png",
+          "label": "Shorts",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u03_q07",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your shoes.",
+      "prompt_audio": "audio/int3c/u03_q07.mp3",
+      "audio_spec": {
+        "file": "u03_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Not yet, put on your shoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_shoes.png",
+          "label": "Shoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_glasses.png",
+          "label": "Put On Glasses",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        }
+      ]
+    },
+    {
+      "id": "u03_q08",
+      "unit": "u03_play_outside",
+      "prompt_text": "Okay! Have fun.",
+      "prompt_audio": "audio/int3c/u03_q08.mp3",
+      "audio_spec": {
+        "file": "u03_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Okay! Have fun."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_okay_have_fun",
+          "image": "images/int3c/int3c_u03_play_outside_okay_have_fun.png",
+          "label": "Okay Have Fun",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_dress",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_dress.png",
+          "label": "Put On Dress",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u03_q09",
+      "unit": "u03_play_outside",
+      "prompt_text": "It is too cold. Can I watch TV?",
+      "prompt_audio": "audio/int3c/u03_q09.mp3",
+      "audio_spec": {
+        "file": "u03_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] It is too cold. Can I watch TV?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_too_cold_watch_tv",
+          "image": "images/int3c/int3c_u03_play_outside_too_cold_watch_tv.png",
+          "label": "Too Cold Watch Tv",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        },
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        }
+      ]
+    },
+    {
+      "id": "u03_q10",
+      "unit": "u03_play_outside",
+      "prompt_text": "Put on your dress.",
+      "prompt_audio": "audio/int3c/u03_q10.mp3",
+      "audio_spec": {
+        "file": "u03_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Put on your dress."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        }
+      ]
+    },
+    {
+      "id": "u03_q11",
+      "unit": "u03_play_outside",
+      "prompt_text": "Put on your skirt.",
+      "prompt_audio": "audio/int3c/u03_q11.mp3",
+      "audio_spec": {
+        "file": "u03_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Put on your skirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_skirt",
+          "image": "images/int3c/int3c_u03_play_outside_skirt.png",
+          "label": "Skirt",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_glasses.png",
+          "label": "Put On Glasses",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "u03_q12",
+      "unit": "u03_play_outside",
+      "prompt_text": "Put on your hat.",
+      "prompt_audio": "audio/int3c/u03_q12.mp3",
+      "audio_spec": {
+        "file": "u03_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Put on your hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_hat",
+          "image": "images/int3c/int3c_u03_play_outside_hat.png",
+          "label": "Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        },
+        {
+          "id": "int3c_u03_play_outside_skirt",
+          "image": "images/int3c/int3c_u03_play_outside_skirt.png",
+          "label": "Skirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        }
+      ]
+    },
+    {
+      "id": "u03_q13",
+      "unit": "u03_play_outside",
+      "prompt_text": "Put on your glasses.",
+      "prompt_audio": "audio/int3c/u03_q13.mp3",
+      "audio_spec": {
+        "file": "u03_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Put on your glasses."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_glasses.png",
+          "label": "Glasses",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_gloves.png",
+          "label": "Not Yet Put On Gloves",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "u03_q14",
+      "unit": "u03_play_outside",
+      "prompt_text": "Put on your shorts.",
+      "prompt_audio": "audio/int3c/u03_q14.mp3",
+      "audio_spec": {
+        "file": "u03_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Put on your shorts."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_shoes.png",
+          "label": "Shoes",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_shorts",
+          "image": "images/int3c/int3c_u03_play_outside_shorts.png",
+          "label": "Shorts",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        }
+      ]
+    },
+    {
+      "id": "u03_q15",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your shirt.",
+      "prompt_audio": "audio/int3c/u03_q15.mp3",
+      "audio_spec": {
+        "file": "u03_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Not yet, put on your shirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shirt.png",
+          "label": "Not Yet Put On Shirt",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_jacket.png",
+          "label": "Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u03_q16",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your pants.",
+      "prompt_audio": "audio/int3c/u03_q16.mp3",
+      "audio_spec": {
+        "file": "u03_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Not yet, put on your pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_pants",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_pants.png",
+          "label": "Not Yet Put On Pants",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u03_q17",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your socks.",
+      "prompt_audio": "audio/int3c/u03_q17.mp3",
+      "audio_spec": {
+        "file": "u03_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Not yet, put on your socks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_hat",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_hat.png",
+          "label": "Put On Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_socks",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_socks.png",
+          "label": "Not Yet Put On Socks",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u03_q18",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your jacket.",
+      "prompt_audio": "audio/int3c/u03_q18.mp3",
+      "audio_spec": {
+        "file": "u03_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Not yet, put on your jacket."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_pants",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_pants.png",
+          "label": "Not Yet Put On Pants",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        }
+      ]
+    },
+    {
+      "id": "u03_q19",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your gloves.",
+      "prompt_audio": "audio/int3c/u03_q19.mp3",
+      "audio_spec": {
+        "file": "u03_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Not yet, put on your gloves."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_gloves.png",
+          "label": "Not Yet Put On Gloves",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        }
+      ]
+    },
+    {
+      "id": "u03_q20",
+      "unit": "u03_play_outside",
+      "prompt_text": "Not yet, put on your shoes.",
+      "prompt_audio": "audio/int3c/u03_q20.mp3",
+      "audio_spec": {
+        "file": "u03_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Not yet, put on your shoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_okay_have_fun",
+          "image": "images/int3c/int3c_u03_play_outside_okay_have_fun.png",
+          "label": "Okay Have Fun",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shoes.png",
+          "label": "Not Yet Put On Shoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "u03_q21",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your shirt.",
+      "prompt_audio": "audio/int3c/u03_q21.mp3",
+      "audio_spec": {
+        "file": "u03_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap your shirt."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_barefoot",
+          "image": "images/int3c/int3c_u03_play_outside_barefoot.png",
+          "label": "Barefoot",
+          "correct": false,
+          "why_wrong": "Put on your shoes first."
+        }
+      ]
+    },
+    {
+      "id": "u03_q22",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your pants.",
+      "prompt_audio": "audio/int3c/u03_q22.mp3",
+      "audio_spec": {
+        "file": "u03_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap your pants."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        },
+        {
+          "id": "int3c_u03_play_outside_pants",
+          "image": "images/int3c/int3c_u03_play_outside_pants.png",
+          "label": "Pants",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_glasses.png",
+          "label": "Put On Glasses",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "u03_q23",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your socks.",
+      "prompt_audio": "audio/int3c/u03_q23.mp3",
+      "audio_spec": {
+        "file": "u03_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap your socks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_jacket.png",
+          "label": "Not Yet Put On Jacket",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        },
+        {
+          "id": "int3c_u03_play_outside_socks",
+          "image": "images/int3c/int3c_u03_play_outside_socks.png",
+          "label": "Socks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "u03_q24",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your jacket.",
+      "prompt_audio": "audio/int3c/u03_q24.mp3",
+      "audio_spec": {
+        "file": "u03_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap your jacket."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shirt.png",
+          "label": "Not Yet Put On Shirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_jacket.png",
+          "label": "Jacket",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        }
+      ]
+    },
+    {
+      "id": "u03_q25",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your gloves.",
+      "prompt_audio": "audio/int3c/u03_q25.mp3",
+      "audio_spec": {
+        "file": "u03_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap your gloves."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_gloves.png",
+          "label": "Gloves",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_shirt.png",
+          "label": "Shirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        }
+      ]
+    },
+    {
+      "id": "u03_q26",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your shoes.",
+      "prompt_audio": "audio/int3c/u03_q26.mp3",
+      "audio_spec": {
+        "file": "u03_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap your shoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_shorts",
+          "image": "images/int3c/int3c_u03_play_outside_shorts.png",
+          "label": "Shorts",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_no_shoes.png",
+          "label": "No Shoes",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shoes."
+        },
+        {
+          "id": "int3c_u03_play_outside_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_shoes.png",
+          "label": "Shoes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u03_q27",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your dress.",
+      "prompt_audio": "audio/int3c/u03_q27.mp3",
+      "audio_spec": {
+        "file": "u03_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap your dress."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_gloves",
+          "image": "images/int3c/int3c_u03_play_outside_no_gloves.png",
+          "label": "No Gloves",
+          "correct": false,
+          "why_wrong": "Not yet — put on your gloves."
+        },
+        {
+          "id": "int3c_u03_play_outside_skirt",
+          "image": "images/int3c/int3c_u03_play_outside_skirt.png",
+          "label": "Skirt",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_dress",
+          "image": "images/int3c/int3c_u03_play_outside_dress.png",
+          "label": "Dress",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u03_q28",
+      "unit": "u03_play_outside",
+      "prompt_text": "Tap your hat.",
+      "prompt_audio": "audio/int3c/u03_q28.mp3",
+      "audio_spec": {
+        "file": "u03_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap your hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_hat",
+          "image": "images/int3c/int3c_u03_play_outside_hat.png",
+          "label": "Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_put_on_hat",
+          "image": "images/int3c/int3c_u03_play_outside_put_on_hat.png",
+          "label": "Put On Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_socks",
+          "image": "images/int3c/int3c_u03_play_outside_no_socks.png",
+          "label": "No Socks",
+          "correct": false,
+          "why_wrong": "Not yet — put on your socks."
+        }
+      ]
+    },
+    {
+      "id": "u03_q29",
+      "unit": "u03_play_outside",
+      "prompt_text": "Can I play outside?",
+      "prompt_audio": "audio/int3c/u03_q29.mp3",
+      "audio_spec": {
+        "file": "u03_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Can I play outside?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_can_i_play_outside",
+          "image": "images/int3c/int3c_u03_play_outside_can_i_play_outside.png",
+          "label": "Can I Play Outside",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_tv_only",
+          "image": "images/int3c/int3c_u03_play_outside_tv_only.png",
+          "label": "Tv Only",
+          "correct": false,
+          "why_wrong": "It is too cold. Can I watch TV?"
+        },
+        {
+          "id": "int3c_u03_play_outside_glasses",
+          "image": "images/int3c/int3c_u03_play_outside_glasses.png",
+          "label": "Glasses",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_no_pants",
+          "image": "images/int3c/int3c_u03_play_outside_no_pants.png",
+          "label": "No Pants",
+          "correct": false,
+          "why_wrong": "Not yet — put on your pants."
+        }
+      ]
+    },
+    {
+      "id": "u03_q30",
+      "unit": "u03_play_outside",
+      "prompt_text": "Okay! Have fun.",
+      "prompt_audio": "audio/int3c/u03_q30.mp3",
+      "audio_spec": {
+        "file": "u03_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Okay! Have fun."
+      },
+      "choices": [
+        {
+          "id": "int3c_u03_play_outside_not_yet_put_on_shoes",
+          "image": "images/int3c/int3c_u03_play_outside_not_yet_put_on_shoes.png",
+          "label": "Not Yet Put On Shoes",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u03_play_outside_okay_have_fun",
+          "image": "images/int3c/int3c_u03_play_outside_okay_have_fun.png",
+          "label": "Okay Have Fun",
+          "correct": true
+        },
+        {
+          "id": "int3c_u03_play_outside_no_shirt",
+          "image": "images/int3c/int3c_u03_play_outside_no_shirt.png",
+          "label": "No Shirt",
+          "correct": false,
+          "why_wrong": "Not yet — put on your shirt."
+        },
+        {
+          "id": "int3c_u03_play_outside_no_jacket",
+          "image": "images/int3c/int3c_u03_play_outside_no_jacket.png",
+          "label": "No Jacket",
+          "correct": false,
+          "why_wrong": "Not yet — put on your jacket."
+        }
+      ]
+    }
+  ]
+}

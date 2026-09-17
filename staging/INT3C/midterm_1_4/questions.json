@@ -9,8 +9,8 @@
       3,
       4
     ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 34,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -20,597 +20,1099 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "midterm-01-04.json"
   },
   "questions": [
     {
-      "id": "i3c_midterm_1_4_q01",
-      "type": 4,
-      "prompt_text": "Would you like some kimchi?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He is tall.",
-        "Yes, I'd love some!",
-        "She has a cat."
+      "id": "i3c_m14_q01",
+      "type": 1,
+      "prompt_text": "Tap lets watch tv.",
+      "audio_id": "m14_q01",
+      "image_ids": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_study"
       ],
-      "correct": "Yes, I'd love some!",
+      "choices": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_study"
+      ],
+      "correct": "int3c_u04_rpg_lets_watch_tv",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_study": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_lets_watch_tv": "Lets Watch Tv",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_study": "Study"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q02",
-      "type": 4,
-      "prompt_text": "What food do you recommend?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like red.",
-        "You should try bibimbap.",
-        "We study."
+      "id": "i3c_m14_q02",
+      "type": 1,
+      "prompt_text": "Tap: do not pull it.",
+      "audio_id": "m14_q02",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it"
       ],
-      "correct": "You should try bibimbap.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_pull_it",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_open_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_open_sign": "Do Not Open Sign",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_do_not_pull_it": "Do Not Pull It"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q03",
-      "type": 2,
-      "prompt_text": "This soup is delicious!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm glad you like it.",
-        "He reads.",
-        "I have a pen.",
-        "She sings."
+      "id": "i3c_m14_q03",
+      "type": 1,
+      "prompt_text": "Tap shirt.",
+      "audio_id": "m14_q03",
+      "image_ids": [
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_socks"
       ],
-      "correct": "I'm glad you like it.",
+      "choices": [
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_socks"
+      ],
+      "correct": "int3c_u03_play_outside_shirt",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_socks": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_shirt": "Shirt",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_socks": "Socks"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q04",
-      "type": 4,
-      "prompt_text": "Have you tried Korean pancakes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I like blue.",
-        "She swims.",
-        "Not yet, but I want to."
+      "id": "i3c_m14_q04",
+      "type": 1,
+      "prompt_text": "Tap yes i do.",
+      "audio_id": "m14_q04",
+      "image_ids": [
+        "int3c_u01_sweet_food_yes_i_do",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_spicy_food",
+        "int3c_u01_sweet_food_wrong_food_yell"
       ],
-      "correct": "Not yet, but I want to.",
+      "choices": [
+        "int3c_u01_sweet_food_yes_i_do",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_spicy_food",
+        "int3c_u01_sweet_food_wrong_food_yell"
+      ],
+      "correct": "int3c_u01_sweet_food_yes_i_do",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u01_sweet_food_what_is_it": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_spicy_food": "Bibimbap is spicy — that is an example, not sweet food.",
+        "int3c_u01_sweet_food_wrong_food_yell": "Do not yell is from Unit 2, not food."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_yes_i_do": "Yes I Do",
+        "int3c_u01_sweet_food_what_is_it": "What Is It",
+        "int3c_u01_sweet_food_spicy_food": "Spicy Food",
+        "int3c_u01_sweet_food_wrong_food_yell": "Wrong Food Yell"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q05",
-      "type": 4,
-      "prompt_text": "What should we order?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "Let's get bulgogi and rice.",
-        "He plays.",
-        "She is kind."
+      "id": "i3c_m14_q05",
+      "type": 1,
+      "prompt_text": "Tap try doenjang guk.",
+      "audio_id": "m14_q05",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_food_yell",
+        "int3c_u01_sweet_food_try_doenjang_guk",
+        "int3c_u01_sweet_food_do_you_like_bitter",
+        "int3c_u01_sweet_food_wrong_food_dance"
       ],
-      "correct": "Let's get bulgogi and rice.",
+      "choices": [
+        "int3c_u01_sweet_food_wrong_food_yell",
+        "int3c_u01_sweet_food_try_doenjang_guk",
+        "int3c_u01_sweet_food_do_you_like_bitter",
+        "int3c_u01_sweet_food_wrong_food_dance"
+      ],
+      "correct": "int3c_u01_sweet_food_try_doenjang_guk",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3c_u01_sweet_food_wrong_food_yell": "Do not yell is from Unit 2, not food.",
+        "int3c_u01_sweet_food_do_you_like_bitter": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_food_yell": "Wrong Food Yell",
+        "int3c_u01_sweet_food_try_doenjang_guk": "Try Doenjang Guk",
+        "int3c_u01_sweet_food_do_you_like_bitter": "Do You Like Bitter",
+        "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q06",
-      "type": 4,
-      "prompt_text": "Would you like some kimchi?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I'd love some!",
-        "She has a cat.",
-        "He is tall.",
-        "I am fine."
+      "id": "i3c_m14_q06",
+      "type": 1,
+      "prompt_text": "Tap doraji namul.",
+      "audio_id": "m14_q06",
+      "image_ids": [
+        "int3c_u01_sweet_food_doraji_namul",
+        "int3c_u01_sweet_food_yes_i_do",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_wrong_food_yell"
       ],
-      "correct": "Yes, I'd love some!",
+      "choices": [
+        "int3c_u01_sweet_food_doraji_namul",
+        "int3c_u01_sweet_food_yes_i_do",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_wrong_food_yell"
+      ],
+      "correct": "int3c_u01_sweet_food_doraji_namul",
       "why_wrong": {
-        "She has a cat.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u01_sweet_food_yes_i_do": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Sweet food is not the same as bitter food.",
+        "int3c_u01_sweet_food_wrong_food_yell": "Do not yell is from Unit 2, not food."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_doraji_namul": "Doraji Namul",
+        "int3c_u01_sweet_food_yes_i_do": "Yes I Do",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Wrong Bitter Candy",
+        "int3c_u01_sweet_food_wrong_food_yell": "Wrong Food Yell"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q07",
-      "type": 4,
-      "prompt_text": "What food do you recommend?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "We study.",
-        "You should try bibimbap.",
-        "He runs."
+      "id": "i3c_m14_q07",
+      "type": 1,
+      "prompt_text": "Tap pants.",
+      "audio_id": "m14_q07",
+      "image_ids": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_pants"
       ],
-      "correct": "You should try bibimbap.",
+      "choices": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_pants"
+      ],
+      "correct": "int3c_u03_play_outside_pants",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_hat": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_hat": "Hat",
+        "int3c_u03_play_outside_pants": "Pants"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q08",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "Touch it quickly.",
-        "You shouldn't touch it.",
-        "I am fine."
+      "id": "i3c_m14_q08",
+      "type": 1,
+      "prompt_text": "Tap bibimbap.",
+      "audio_id": "m14_q08",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_bibimbap",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_doraji_namul"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_bibimbap",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_doraji_namul"
+      ],
+      "correct": "int3c_u01_sweet_food_bibimbap",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "Touch it quickly.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u01_sweet_food_wrong_sour_stew": "Soy paste stew is salty, not sour food.",
+        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7.",
+        "int3c_u01_sweet_food_doraji_namul": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_sour_stew": "Wrong Sour Stew",
+        "int3c_u01_sweet_food_bibimbap": "Bibimbap",
+        "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance",
+        "int3c_u01_sweet_food_doraji_namul": "Doraji Namul"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q09",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "Sorry, I won't.",
-        "He sings.",
-        "We eat."
+      "id": "i3c_m14_q09",
+      "type": 1,
+      "prompt_text": "Tap socks.",
+      "audio_id": "m14_q09",
+      "image_ids": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_pants"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_pants"
+      ],
+      "correct": "int3c_u03_play_outside_socks",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u03_play_outside_can_i_play_outside": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside",
+        "int3c_u03_play_outside_socks": "Socks",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_no_pants": "No Pants"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q10",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Talk loudly.",
-        "I have homework.",
-        "Don't talk during the test.",
-        "She sleeps."
+      "id": "i3c_m14_q10",
+      "type": 1,
+      "prompt_text": "Tap no thanks.",
+      "audio_id": "m14_q10",
+      "image_ids": [
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_no_thanks",
+        "int3c_u04_rpg_throat_hurts"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_no_thanks",
+        "int3c_u04_rpg_throat_hurts"
+      ],
+      "correct": "int3c_u04_rpg_no_thanks",
       "why_wrong": {
-        "Talk loudly.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u04_rpg_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_play_rpg": "Play Rpg",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_no_thanks": "No Thanks",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q11",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't feed the animals.",
-        "Feed the animals.",
-        "He jumps.",
-        "I like pizza."
+      "id": "i3c_m14_q11",
+      "type": 1,
+      "prompt_text": "Tap: do not run sign.",
+      "audio_id": "m14_q11",
+      "image_ids": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_run_sign",
       "why_wrong": {
-        "Feed the animals.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
+        "int3c_u02_do_not_yell_touch_ok": "Do not touch.",
+        "int3c_u02_do_not_yell_do_not_fight_sign": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_do_not_run_sign": "Do Not Run Sign",
+        "int3c_u02_do_not_yell_touch_ok": "Touch Ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign": "Do Not Fight Sign"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q12",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "runs",
-        "ran",
-        "running",
-        "run"
+      "id": "i3c_m14_q12",
+      "type": 1,
+      "prompt_text": "Tap sweet food.",
+      "audio_id": "m14_q12",
+      "image_ids": [
+        "int3c_u01_sweet_food_sweet_food",
+        "int3c_u01_sweet_food_salty_food",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
+        "int3c_u01_sweet_food_wrong_sweet_doenjang"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u01_sweet_food_sweet_food",
+        "int3c_u01_sweet_food_salty_food",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
+        "int3c_u01_sweet_food_wrong_sweet_doenjang"
+      ],
+      "correct": "int3c_u01_sweet_food_sweet_food",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "ran": "Not quite — try again!",
-        "running": "Not quite — try again!"
+        "int3c_u01_sweet_food_salty_food": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "Ddeok is a sweet sticky rice dessert, not salty food.",
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_sweet_food": "Sweet Food",
+        "int3c_u01_sweet_food_salty_food": "Salty Food",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "Wrong Salty Ddeok",
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q13",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She runs.",
-        "Touch it quickly.",
-        "You shouldn't touch it."
+      "id": "i3c_m14_q13",
+      "type": 1,
+      "prompt_text": "Tap gloves.",
+      "audio_id": "m14_q13",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_gloves"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_gloves",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "Touch it quickly.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_gloves": "Gloves"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q14",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sorry, I won't.",
-        "We eat.",
-        "I like cats.",
-        "He sings."
+      "id": "i3c_m14_q14",
+      "type": 1,
+      "prompt_text": "Tap sour food.",
+      "audio_id": "m14_q14",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_sour_food",
+        "int3c_u01_sweet_food_spicy_food",
+        "int3c_u01_sweet_food_doenjang_guk"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_sour_food",
+        "int3c_u01_sweet_food_spicy_food",
+        "int3c_u01_sweet_food_doenjang_guk"
+      ],
+      "correct": "int3c_u01_sweet_food_sour_food",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
+        "int3c_u01_sweet_food_spicy_food": "Bibimbap is spicy — that is an example, not sweet food.",
+        "int3c_u01_sweet_food_doenjang_guk": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_sour_food": "Sour Food",
+        "int3c_u01_sweet_food_spicy_food": "Spicy Food",
+        "int3c_u01_sweet_food_doenjang_guk": "Doenjang Guk"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q15",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sure, here you go.",
-        "He plays.",
-        "She is tall.",
-        "I am twelve."
+      "id": "i3c_m14_q15",
+      "type": 1,
+      "prompt_text": "Tap put on hat.",
+      "audio_id": "m14_q15",
+      "image_ids": [
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_put_on_hat",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_shirt": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_put_on_hat": "Put On Hat",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_shirt": "Shirt",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q16",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "Yes, you may.",
-        "I like blue."
+      "id": "i3c_m14_q16",
+      "type": 1,
+      "prompt_text": "Tap not yet put on pants.",
+      "audio_id": "m14_q16",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_pants",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_pants": "Not Yet Put On Pants",
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q17",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "She sings.",
-        "He reads.",
-        "Sorry, not right now."
+      "id": "i3c_m14_q17",
+      "type": 1,
+      "prompt_text": "Tap not yet put on jacket.",
+      "audio_id": "m14_q17",
+      "image_ids": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_jacket",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_shoes": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_shoes": "Shoes",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q18",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "Of course.",
-        "She swims.",
-        "He jumps."
+      "id": "i3c_m14_q18",
+      "type": 1,
+      "prompt_text": "Tap jacket.",
+      "audio_id": "m14_q18",
+      "image_ids": [
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_jacket",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_jacket": "Jacket",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q19",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "No, go ahead.",
-        "He sleeps.",
-        "We study."
+      "id": "i3c_m14_q19",
+      "type": 1,
+      "prompt_text": "Tap: do not draw sign.",
+      "audio_id": "m14_q19",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_draw_sign",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_draw_sign",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_draw_sign",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_draw_sign": "Do Not Draw Sign",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "Do Not Pull Sign"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q20",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sure, here you go.",
-        "She is tall.",
-        "He plays.",
-        "I am twelve."
+      "id": "i3c_m14_q20",
+      "type": 1,
+      "prompt_text": "Tap i do not know.",
+      "audio_id": "m14_q20",
+      "image_ids": [
+        "int3c_u01_sweet_food_try_doraji_namul",
+        "int3c_u01_sweet_food_wrong_food_shirt",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_i_do_not_know"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u01_sweet_food_try_doraji_namul",
+        "int3c_u01_sweet_food_wrong_food_shirt",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_i_do_not_know"
+      ],
+      "correct": "int3c_u01_sweet_food_i_do_not_know",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u01_sweet_food_try_doraji_namul": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_food_shirt": "A shirt is clothes from Unit 3.",
+        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_try_doraji_namul": "Try Doraji Namul",
+        "int3c_u01_sweet_food_wrong_food_shirt": "Wrong Food Shirt",
+        "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance",
+        "int3c_u01_sweet_food_i_do_not_know": "I Do Not Know"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q21",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "Yes, you may.",
-        "I like blue.",
-        "He runs."
+      "id": "i3c_m14_q21",
+      "type": 1,
+      "prompt_text": "Tap lets ride bikes.",
+      "audio_id": "m14_q21",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_talk"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_talk"
+      ],
+      "correct": "int3c_u04_rpg_lets_ride_bikes",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_talk": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_lets_ride_bikes": "Lets Ride Bikes",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_talk": "Talk"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q22",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He has a bike.",
-        "She is kind.",
-        "Sure, that sounds fun!"
+      "id": "i3c_m14_q22",
+      "type": 1,
+      "prompt_text": "Tap: do not sleep sign.",
+      "audio_id": "m14_q22",
+      "image_ids": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_sleep_sign",
+        "int3c_u02_do_not_yell_open_it_ok"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_sleep_sign",
+        "int3c_u02_do_not_yell_open_it_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_sleep_sign",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_do_not_run": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_do_not_sleep_sign": "Do Not Sleep Sign",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q23",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "Great idea!",
-        "He runs home.",
-        "I like cats."
+      "id": "i3c_m14_q23",
+      "type": 1,
+      "prompt_text": "Tap doenjang guk.",
+      "audio_id": "m14_q23",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_doenjang_guk"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_doenjang_guk"
+      ],
+      "correct": "int3c_u01_sweet_food_doenjang_guk",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
+        "int3c_u01_sweet_food_what_is_it": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_what_is_it": "What Is It",
+        "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance",
+        "int3c_u01_sweet_food_doenjang_guk": "Doenjang Guk"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q24",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "Yes, I'd love to!",
-        "I have a pen.",
-        "He reads."
+      "id": "i3c_m14_q24",
+      "type": 1,
+      "prompt_text": "Tap: please cry sign.",
+      "audio_id": "m14_q24",
+      "image_ids": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_please_cry_sign"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_please_cry_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_cry_sign",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
+        "int3c_u02_do_not_yell_do_not_throw_that": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That",
+        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q25",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He eats.",
-        "I like pizza.",
-        "Okay, let's do it."
+      "id": "i3c_m14_q25",
+      "type": 1,
+      "prompt_text": "Tap: please do not go.",
+      "audio_id": "m14_q25",
+      "image_ids": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_running_ok"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_running_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_do_not_go",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_do_not_run_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go",
+        "int3c_u02_do_not_yell_do_not_run_sign": "Do Not Run Sign",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q26",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She jumps.",
-        "I am ten.",
-        "Good plan!"
+      "id": "i3c_m14_q26",
+      "type": 1,
+      "prompt_text": "Tap lets study.",
+      "audio_id": "m14_q26",
+      "image_ids": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_lets_go_to_school"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_lets_go_to_school"
+      ],
+      "correct": "int3c_u04_rpg_lets_study",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_lets_go_to_school": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_study": "Lets Study",
+        "int3c_u04_rpg_lets_go_to_school": "Lets Go To School"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q27",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I am fine.",
-        "He has a bike.",
-        "Sure, that sounds fun!"
+      "id": "i3c_m14_q27",
+      "type": 1,
+      "prompt_text": "Tap okay have fun.",
+      "audio_id": "m14_q27",
+      "image_ids": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_too_cold_watch_tv"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_too_cold_watch_tv"
+      ],
+      "correct": "int3c_u03_play_outside_okay_have_fun",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_too_cold_watch_tv": "That is not the correct answer. Listen again!"
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_okay_have_fun": "Okay Have Fun",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_too_cold_watch_tv": "Too Cold Watch Tv"
+      }
     },
     {
-      "id": "i3c_midterm_1_4_q28",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like cats.",
-        "He runs home.",
-        "Great idea!"
+      "id": "i3c_m14_q28",
+      "type": 1,
+      "prompt_text": "Tap not yet put on shoes.",
+      "audio_id": "m14_q28",
+      "image_ids": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_no_pants"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_no_pants"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_shoes",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_glasses": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
-      "unit": null,
-      "level": "int3c"
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_glasses": "Glasses",
+        "int3c_u03_play_outside_not_yet_put_on_shoes": "Not Yet Put On Shoes",
+        "int3c_u03_play_outside_no_pants": "No Pants"
+      }
+    },
+    {
+      "id": "i3c_m14_q29",
+      "type": 1,
+      "prompt_text": "Tap: do not throw that.",
+      "audio_id": "m14_q29",
+      "image_ids": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_throw_that"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_throw_that"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_throw_that",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight.",
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_do_not_run": "That is not the correct answer. Listen again!"
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That"
+      }
+    },
+    {
+      "id": "i3c_m14_q30",
+      "type": 1,
+      "prompt_text": "Tap good idea.",
+      "audio_id": "m14_q30",
+      "image_ids": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_lets_talk",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_dont_like_tv"
+      ],
+      "choices": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_lets_talk",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_dont_like_tv"
+      ],
+      "correct": "int3c_u04_rpg_good_idea",
+      "why_wrong": {
+        "int3c_u04_rpg_lets_talk": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV."
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_good_idea": "Good Idea",
+        "int3c_u04_rpg_lets_talk": "Lets Talk",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv"
+      }
+    },
+    {
+      "id": "i3c_m14_q31",
+      "type": 1,
+      "prompt_text": "Tap lets cook.",
+      "audio_id": "m14_q31",
+      "image_ids": [
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "choices": [
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "correct": "int3c_u04_rpg_lets_cook",
+      "why_wrong": {
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_climb_jungle_gym": "That is not the correct answer. Listen again!"
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_cook": "Lets Cook",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym"
+      }
+    },
+    {
+      "id": "i3c_m14_q32",
+      "type": 1,
+      "prompt_text": "Tap: do not yell.",
+      "audio_id": "m14_q32",
+      "image_ids": [
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_yell",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "That is not the correct answer. Listen again!"
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "Do Not Pull Sign",
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell"
+      }
+    },
+    {
+      "id": "i3c_m14_q33",
+      "type": 1,
+      "prompt_text": "Tap: do not touch.",
+      "audio_id": "m14_q33",
+      "image_ids": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_do_not_touch"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_do_not_touch"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_touch",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight.",
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "That is not the correct answer. Listen again!"
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "Do Not Touch Sign",
+        "int3c_u02_do_not_yell_do_not_touch": "Do Not Touch"
+      }
+    },
+    {
+      "id": "i3c_m14_q34",
+      "type": 1,
+      "prompt_text": "Tap not yet put on socks.",
+      "audio_id": "m14_q34",
+      "image_ids": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_not_yet_put_on_socks",
+        "int3c_u03_play_outside_can_i_play_outside"
+      ],
+      "choices": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_not_yet_put_on_socks",
+        "int3c_u03_play_outside_can_i_play_outside"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_socks",
+      "why_wrong": {
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket.",
+        "int3c_u03_play_outside_can_i_play_outside": "That is not the correct answer. Listen again!"
+      },
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_not_yet_put_on_socks": "Not Yet Put On Socks",
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside"
+      }
     }
   ]
 }
