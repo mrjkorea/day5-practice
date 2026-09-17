@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2b",
-    "title": "Intermediate 2B Unit 7: Where Things Are",
+    "title": "Intermediate 2B Unit 7: Have You Seen My Transit Card?",
     "kind": "unit",
     "units_covered": [
       7
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 11,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,364 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
-      "id": "i2b_u07_q01",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's on the sofa.",
-        "She is kind.",
-        "He has a bike.",
-        "I like apples."
-      ],
-      "correct": "It's on the sofa.",
-      "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q02",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "He plays.",
-        "I am twelve.",
-        "I left it in the hallway."
-      ],
-      "correct": "I left it in the hallway.",
-      "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q03",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're in the top drawer.",
-        "I have a dog.",
-        "She runs.",
-        "He sings."
-      ],
-      "correct": "They're in the top drawer.",
-      "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q04",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "It's in my pocket.",
-        "He sleeps.",
-        "I like music."
-      ],
-      "correct": "It's in my pocket.",
-      "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q05",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He eats.",
-        "It's on the teacher's desk.",
-        "She swims."
-      ],
-      "correct": "It's on the teacher's desk.",
-      "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q06",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I like apples.",
-        "It's on the sofa.",
-        "She is kind."
-      ],
-      "correct": "It's on the sofa.",
-      "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q07",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She likes red.",
-        "I left it in the hallway.",
-        "I am twelve."
-      ],
-      "correct": "I left it in the hallway.",
-      "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q08",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "They're in the top drawer.",
-        "I have a dog.",
-        "She runs."
-      ],
-      "correct": "They're in the top drawer.",
-      "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q09",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "It's in my pocket.",
-        "I like music.",
-        "He sleeps."
-      ],
-      "correct": "It's in my pocket.",
-      "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
       "id": "i2b_u07_q10",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like pizza.",
-        "He eats.",
-        "It's on the teacher's desk."
+      "type": 1,
+      "prompt_text": "Is it in your pencil case?",
+      "audio_id": "u7_q10",
+      "image_ids": [
+        "int2b_clock_555",
+        "int2b_english_book",
+        "int2b_pencil_case",
+        "int2b_books"
       ],
-      "correct": "It's on the teacher's desk.",
+      "choices": [
+        "int2b_clock_555",
+        "int2b_english_book",
+        "int2b_pencil_case",
+        "int2b_books"
+      ],
+      "correct": "int2b_pencil_case",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_books": "You tapped \"books\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_555": "clock 5:55",
+        "int2b_english_book": "English book",
+        "int2b_pencil_case": "pencil case",
+        "int2b_books": "books"
+      }
     },
     {
       "id": "i2b_u07_q11",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "He has a bike.",
-        "It's on the sofa.",
-        "I like apples."
+      "type": 1,
+      "prompt_text": "Is it on your books?",
+      "audio_id": "u7_q11",
+      "image_ids": [
+        "int2b_korean_book",
+        "int2b_books",
+        "int2b_lunch",
+        "int2b_dinner"
       ],
-      "correct": "It's on the sofa.",
+      "choices": [
+        "int2b_korean_book",
+        "int2b_books",
+        "int2b_lunch",
+        "int2b_dinner"
+      ],
+      "correct": "int2b_books",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_korean_book": "Korean book",
+        "int2b_books": "books",
+        "int2b_lunch": "lunch",
+        "int2b_dinner": "dinner"
+      }
     },
     {
       "id": "i2b_u07_q12",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "He plays.",
-        "I am twelve.",
-        "I left it in the hallway."
+      "type": 1,
+      "prompt_text": "Is it under your desk?",
+      "audio_id": "u7_q12",
+      "image_ids": [
+        "int2b_short",
+        "int2b_desk",
+        "int2b_smart",
+        "int2b_friday"
       ],
-      "correct": "I left it in the hallway.",
+      "choices": [
+        "int2b_short",
+        "int2b_desk",
+        "int2b_smart",
+        "int2b_friday"
+      ],
+      "correct": "int2b_desk",
       "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2b_short": "You tapped \"short person\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_friday": "You tapped \"Friday calendar\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_short": "short person",
+        "int2b_desk": "desk",
+        "int2b_smart": "smart student with book",
+        "int2b_friday": "Friday calendar"
+      }
     },
     {
       "id": "i2b_u07_q13",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "He sings.",
-        "They're in the top drawer.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "Is it behind your phone?",
+      "audio_id": "u7_q13",
+      "image_ids": [
+        "int2b_history",
+        "int2b_hacker",
+        "int2b_phone",
+        "int2b_japanese_book"
       ],
-      "correct": "They're in the top drawer.",
+      "choices": [
+        "int2b_history",
+        "int2b_hacker",
+        "int2b_phone",
+        "int2b_japanese_book"
+      ],
+      "correct": "int2b_phone",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_history": "history / scroll",
+        "int2b_hacker": "computer hacker",
+        "int2b_phone": "phone",
+        "int2b_japanese_book": "Japanese book"
+      }
     },
     {
       "id": "i2b_u07_q14",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in my pocket.",
-        "She reads.",
-        "He sleeps.",
-        "I like music."
+      "type": 1,
+      "prompt_text": "Is it in front of the stairs?",
+      "audio_id": "u7_q14",
+      "image_ids": [
+        "int2b_clock_12",
+        "int2b_stairs",
+        "int2b_clock_730",
+        "int2b_coffee"
       ],
-      "correct": "It's in my pocket.",
+      "choices": [
+        "int2b_clock_12",
+        "int2b_stairs",
+        "int2b_clock_730",
+        "int2b_coffee"
+      ],
+      "correct": "int2b_stairs",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"Is it in front of the stairs?\". The correct picture is \"stairs\". Listen again!",
+        "int2b_clock_730": "You tapped \"clock 7:30\", but the audio said: \"Is it in front of the stairs?\". The correct picture is \"stairs\". Listen again!",
+        "int2b_coffee": "You tapped \"coffee\", but the audio said: \"Is it in front of the stairs?\". The correct picture is \"stairs\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_12": "clock 12:00",
+        "int2b_stairs": "stairs",
+        "int2b_clock_730": "clock 7:30",
+        "int2b_coffee": "coffee"
+      }
     },
     {
       "id": "i2b_u07_q15",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like pizza.",
-        "He eats.",
-        "It's on the teacher's desk."
+      "type": 1,
+      "prompt_text": "Is it between your shoes?",
+      "audio_id": "u7_q15",
+      "image_ids": [
+        "int2b_shoes",
+        "int2b_rich",
+        "int2b_phone",
+        "int2b_clock_11am"
       ],
-      "correct": "It's on the teacher's desk.",
+      "choices": [
+        "int2b_shoes",
+        "int2b_rich",
+        "int2b_phone",
+        "int2b_clock_11am"
+      ],
+      "correct": "int2b_shoes",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!",
+        "int2b_phone": "You tapped \"phone\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!",
+        "int2b_clock_11am": "You tapped \"clock 11:00 a.m.\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_shoes": "shoes",
+        "int2b_rich": "rich person with money",
+        "int2b_phone": "phone",
+        "int2b_clock_11am": "clock 11:00 a.m."
+      }
     },
     {
       "id": "i2b_u07_q16",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "He has a bike.",
-        "She is kind.",
-        "It's on the sofa."
+      "type": 1,
+      "prompt_text": "Is it next to the bus stop?",
+      "audio_id": "u7_q16",
+      "image_ids": [
+        "int2b_phone",
+        "int2b_bus_stop",
+        "int2b_work_day",
+        "int2b_stairs"
       ],
-      "correct": "It's on the sofa.",
+      "choices": [
+        "int2b_phone",
+        "int2b_bus_stop",
+        "int2b_work_day",
+        "int2b_stairs"
+      ],
+      "correct": "int2b_bus_stop",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2b_phone": "You tapped \"phone\", but the audio said: \"Is it next to the bus stop?\". The correct picture is \"bus stop\". Listen again!",
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"Is it next to the bus stop?\". The correct picture is \"bus stop\". Listen again!",
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"Is it next to the bus stop?\". The correct picture is \"bus stop\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_phone": "phone",
+        "int2b_bus_stop": "bus stop",
+        "int2b_work_day": "office building (work day)",
+        "int2b_stairs": "stairs"
+      }
     },
     {
       "id": "i2b_u07_q17",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I left it in the hallway.",
-        "She likes red.",
-        "He plays.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Is it in your pocket?",
+      "audio_id": "u7_q17",
+      "image_ids": [
+        "int2b_art",
+        "int2b_open_sign",
+        "int2b_closed_sign",
+        "int2b_pocket"
       ],
-      "correct": "I left it in the hallway.",
+      "choices": [
+        "int2b_art",
+        "int2b_open_sign",
+        "int2b_closed_sign",
+        "int2b_pocket"
+      ],
+      "correct": "int2b_pocket",
       "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2b_art": "You tapped \"art / paintbrush\", but the audio said: \"Is it in your pocket?\". The correct picture is \"pocket\". Listen again!",
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"Is it in your pocket?\". The correct picture is \"pocket\". Listen again!",
+        "int2b_closed_sign": "You tapped \"CLOSED sign\", but the audio said: \"Is it in your pocket?\". The correct picture is \"pocket\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q18",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I have a dog.",
-        "She runs.",
-        "They're in the top drawer."
-      ],
-      "correct": "They're in the top drawer.",
-      "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q19",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in my pocket.",
-        "He sleeps.",
-        "She reads.",
-        "I like music."
-      ],
-      "correct": "It's in my pocket.",
-      "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q20",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "It's on the teacher's desk.",
-        "She swims.",
-        "I like pizza."
-      ],
-      "correct": "It's on the teacher's desk.",
-      "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q21",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "He has a bike.",
-        "It's on the sofa.",
-        "She is kind."
-      ],
-      "correct": "It's on the sofa.",
-      "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q22",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "I left it in the hallway.",
-        "I am twelve.",
-        "He plays."
-      ],
-      "correct": "I left it in the hallway.",
-      "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q23",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're in the top drawer.",
-        "She runs.",
-        "I have a dog.",
-        "He sings."
-      ],
-      "correct": "They're in the top drawer.",
-      "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q24",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He sleeps.",
-        "I like music.",
-        "It's in my pocket."
-      ],
-      "correct": "It's in my pocket.",
-      "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q25",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He eats.",
-        "It's on the teacher's desk.",
-        "She swims."
-      ],
-      "correct": "It's on the teacher's desk.",
-      "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q26",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "He has a bike.",
-        "It's on the sofa.",
-        "She is kind."
-      ],
-      "correct": "It's on the sofa.",
-      "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u07_q27",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I left it in the hallway.",
-        "I am twelve.",
-        "He plays.",
-        "She likes red."
-      ],
-      "correct": "I left it in the hallway.",
-      "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
-      },
-      "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_art": "art / paintbrush",
+        "int2b_open_sign": "OPEN sign",
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_pocket": "pocket"
+      }
     },
     {
       "id": "i2b_u07_q28",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're in the top drawer.",
-        "He sings.",
-        "She runs.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "Is it in your pencil case?",
+      "audio_id": "u7_q28",
+      "image_ids": [
+        "int2b_sunday",
+        "int2b_keys",
+        "int2b_pencil_case",
+        "int2b_hamburger"
       ],
-      "correct": "They're in the top drawer.",
+      "choices": [
+        "int2b_sunday",
+        "int2b_keys",
+        "int2b_pencil_case",
+        "int2b_hamburger"
+      ],
+      "correct": "int2b_pencil_case",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2b_sunday": "You tapped \"Sunday calendar\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_sunday": "Sunday calendar",
+        "int2b_keys": "keys",
+        "int2b_pencil_case": "pencil case",
+        "int2b_hamburger": "hamburger"
+      }
     },
     {
       "id": "i2b_u07_q29",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "It's in my pocket.",
-        "She reads.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "Is it on your books?",
+      "audio_id": "u7_q29",
+      "image_ids": [
+        "int2b_rich",
+        "int2b_books",
+        "int2b_gym_subj",
+        "int2b_president"
       ],
-      "correct": "It's in my pocket.",
+      "choices": [
+        "int2b_rich",
+        "int2b_books",
+        "int2b_gym_subj",
+        "int2b_president"
+      ],
+      "correct": "int2b_books",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_gym_subj": "You tapped \"gym class\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_president": "You tapped \"president\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_rich": "rich person with money",
+        "int2b_books": "books",
+        "int2b_gym_subj": "gym class",
+        "int2b_president": "president"
+      }
     },
     {
       "id": "i2b_u07_q30",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He eats.",
-        "It's on the teacher's desk.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Is it under your desk?",
+      "audio_id": "u7_q30",
+      "image_ids": [
+        "int2b_desk",
+        "int2b_thin",
+        "int2b_wallet",
+        "int2b_transit_card"
       ],
-      "correct": "It's on the teacher's desk.",
+      "choices": [
+        "int2b_desk",
+        "int2b_thin",
+        "int2b_wallet",
+        "int2b_transit_card"
+      ],
+      "correct": "int2b_desk",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2b_thin": "You tapped \"thin person\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_transit_card": "You tapped \"transit card\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!"
       },
       "unit": 7,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_desk": "desk",
+        "int2b_thin": "thin person",
+        "int2b_wallet": "wallet",
+        "int2b_transit_card": "transit card"
+      }
     }
   ]
 }

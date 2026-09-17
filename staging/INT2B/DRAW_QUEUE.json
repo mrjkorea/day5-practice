@@ -1,0 +1,322 @@
+[
+  {
+    "id": "int2b_closed_sign",
+    "file": "int2b_closed_sign.png",
+    "label_en": "CLOSED sign",
+    "path": "images/int2b/int2b_closed_sign.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of CLOSED sign, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_english_book",
+    "file": "int2b_english_book.png",
+    "label_en": "English book",
+    "path": "images/int2b/int2b_english_book.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of English book, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_gym_subj",
+    "file": "int2b_gym_subj.png",
+    "label_en": "gym class",
+    "path": "images/int2b/int2b_gym_subj.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of gym class, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_hacker",
+    "file": "int2b_hacker.png",
+    "label_en": "computer hacker",
+    "path": "images/int2b/int2b_hacker.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of computer hacker, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_hamburger",
+    "file": "int2b_hamburger.png",
+    "label_en": "hamburger",
+    "path": "images/int2b/int2b_hamburger.png",
+    "kind": "food",
+    "prompt_hint": "cute simple flat cartoon food illustration of hamburger, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_history",
+    "file": "int2b_history.png",
+    "label_en": "history / scroll",
+    "path": "images/int2b/int2b_history.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of history / scroll, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_holiday",
+    "file": "int2b_holiday.png",
+    "label_en": "holiday / party flag",
+    "path": "images/int2b/int2b_holiday.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of holiday / party flag, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_japanese_book",
+    "file": "int2b_japanese_book.png",
+    "label_en": "Japanese book",
+    "path": "images/int2b/int2b_japanese_book.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of Japanese book, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_judge",
+    "file": "int2b_judge.png",
+    "label_en": "judge",
+    "path": "images/int2b/int2b_judge.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of judge, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_keys",
+    "file": "int2b_keys.png",
+    "label_en": "keys",
+    "path": "images/int2b/int2b_keys.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of keys, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_korean_book",
+    "file": "int2b_korean_book.png",
+    "label_en": "Korean book",
+    "path": "images/int2b/int2b_korean_book.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of Korean book, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_laptop_class",
+    "file": "int2b_laptop_class.png",
+    "label_en": "laptop (online class)",
+    "path": "images/int2b/int2b_laptop_class.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of laptop (online class), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_math",
+    "file": "int2b_math.png",
+    "label_en": "math / numbers",
+    "path": "images/int2b/int2b_math.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of math / numbers, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_open_sign",
+    "file": "int2b_open_sign.png",
+    "label_en": "OPEN sign",
+    "path": "images/int2b/int2b_open_sign.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of OPEN sign, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_pizza",
+    "file": "int2b_pizza.png",
+    "label_en": "pizza / Pizza Land",
+    "path": "images/int2b/int2b_pizza.png",
+    "kind": "food",
+    "prompt_hint": "cute simple flat cartoon food illustration of pizza / Pizza Land, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_pocket",
+    "file": "int2b_pocket.png",
+    "label_en": "pocket",
+    "path": "images/int2b/int2b_pocket.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of pocket, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_police",
+    "file": "int2b_police.png",
+    "label_en": "police officer",
+    "path": "images/int2b/int2b_police.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of police officer, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_poor",
+    "file": "int2b_poor.png",
+    "label_en": "poor person with empty pockets",
+    "path": "images/int2b/int2b_poor.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of poor person with empty pockets, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_president",
+    "file": "int2b_president.png",
+    "label_en": "president",
+    "path": "images/int2b/int2b_president.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of president, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_pro_gamer",
+    "file": "int2b_pro_gamer.png",
+    "label_en": "pro-gamer",
+    "path": "images/int2b/int2b_pro_gamer.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of pro-gamer, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_recess",
+    "file": "int2b_recess.png",
+    "label_en": "recess playground",
+    "path": "images/int2b/int2b_recess.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of recess playground, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_rich",
+    "file": "int2b_rich.png",
+    "label_en": "rich person with money",
+    "path": "images/int2b/int2b_rich.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of rich person with money, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_saturday",
+    "file": "int2b_saturday.png",
+    "label_en": "Saturday calendar",
+    "path": "images/int2b/int2b_saturday.png",
+    "kind": "calendar",
+    "prompt_hint": "cute simple flat cartoon calendar illustration of Saturday calendar, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_school_day",
+    "file": "int2b_school_day.png",
+    "label_en": "school building (school day)",
+    "path": "images/int2b/int2b_school_day.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of school building (school day), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_science",
+    "file": "int2b_science.png",
+    "label_en": "science / flask",
+    "path": "images/int2b/int2b_science.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of science / flask, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_scientist",
+    "file": "int2b_scientist.png",
+    "label_en": "scientist",
+    "path": "images/int2b/int2b_scientist.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of scientist, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_smart",
+    "file": "int2b_smart.png",
+    "label_en": "smart student with book",
+    "path": "images/int2b/int2b_smart.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of smart student with book, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_snack",
+    "file": "int2b_snack.png",
+    "label_en": "snack",
+    "path": "images/int2b/int2b_snack.png",
+    "kind": "food",
+    "prompt_hint": "cute simple flat cartoon food illustration of snack, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_social",
+    "file": "int2b_social.png",
+    "label_en": "social studies globe",
+    "path": "images/int2b/int2b_social.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of social studies globe, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_stairs",
+    "file": "int2b_stairs.png",
+    "label_en": "stairs",
+    "path": "images/int2b/int2b_stairs.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of stairs, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_sunday",
+    "file": "int2b_sunday.png",
+    "label_en": "Sunday calendar",
+    "path": "images/int2b/int2b_sunday.png",
+    "kind": "calendar",
+    "prompt_hint": "cute simple flat cartoon calendar illustration of Sunday calendar, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_thin",
+    "file": "int2b_thin.png",
+    "label_en": "thin person",
+    "path": "images/int2b/int2b_thin.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of thin person, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_thursday",
+    "file": "int2b_thursday.png",
+    "label_en": "Thursday calendar",
+    "path": "images/int2b/int2b_thursday.png",
+    "kind": "calendar",
+    "prompt_hint": "cute simple flat cartoon calendar illustration of Thursday calendar, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_transit_card",
+    "file": "int2b_transit_card.png",
+    "label_en": "transit card",
+    "path": "images/int2b/int2b_transit_card.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of transit card, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_tuesday",
+    "file": "int2b_tuesday.png",
+    "label_en": "Tuesday calendar",
+    "path": "images/int2b/int2b_tuesday.png",
+    "kind": "calendar",
+    "prompt_hint": "cute simple flat cartoon calendar illustration of Tuesday calendar, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_ugly",
+    "file": "int2b_ugly.png",
+    "label_en": "ugly face (cartoon)",
+    "path": "images/int2b/int2b_ugly.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of ugly face (cartoon), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_wednesday",
+    "file": "int2b_wednesday.png",
+    "label_en": "Wednesday calendar",
+    "path": "images/int2b/int2b_wednesday.png",
+    "kind": "calendar",
+    "prompt_hint": "cute simple flat cartoon calendar illustration of Wednesday calendar, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_won_coin",
+    "file": "int2b_won_coin.png",
+    "label_en": "Korean won coins",
+    "path": "images/int2b/int2b_won_coin.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of Korean won coins, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_work_day",
+    "file": "int2b_work_day.png",
+    "label_en": "office building (work day)",
+    "path": "images/int2b/int2b_work_day.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of office building (work day), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2b_young",
+    "file": "int2b_young.png",
+    "label_en": "young person",
+    "path": "images/int2b/int2b_young.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of young person, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  }
+]

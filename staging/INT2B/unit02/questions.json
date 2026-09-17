@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2b",
-    "title": "Intermediate 2B Unit 2: Time and Daily Activities",
+    "title": "Intermediate 2B Unit 2: What Time is it Now?",
     "kind": "unit",
     "units_covered": [
       2
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,972 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
       "id": "i2b_u02_q01",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He has a bike.",
-        "She is kind.",
-        "It's half past three."
+      "type": 1,
+      "prompt_text": "It is seven thirty.",
+      "audio_id": "u2_q01",
+      "image_ids": [
+        "int2b_pencil_case",
+        "int2b_holiday",
+        "int2b_clock_730",
+        "int2b_lunch"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_pencil_case",
+        "int2b_holiday",
+        "int2b_clock_730",
+        "int2b_lunch"
+      ],
+      "correct": "int2b_clock_730",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_pencil_case": "pencil case",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_clock_730": "clock 7:30",
+        "int2b_lunch": "lunch"
+      }
     },
     {
       "id": "i2b_u02_q02",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "I am twelve.",
-        "They eat breakfast.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "It is eight o'clock.",
+      "audio_id": "u2_q02",
+      "image_ids": [
+        "int2b_clock_8",
+        "int2b_holiday",
+        "int2b_doctor",
+        "int2b_clock_330"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_clock_8",
+        "int2b_holiday",
+        "int2b_doctor",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_clock_8",
       "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_8": "clock 8:00",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_doctor": "doctor",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
       "id": "i2b_u02_q03",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I go to bed at ten.",
-        "She runs.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "It is eleven a.m.",
+      "audio_id": "u2_q03",
+      "image_ids": [
+        "int2b_clock_11am",
+        "int2b_lunch",
+        "int2b_convenience",
+        "int2b_smart"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_clock_11am",
+        "int2b_lunch",
+        "int2b_convenience",
+        "int2b_smart"
+      ],
+      "correct": "int2b_clock_11am",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_11am": "clock 11:00 a.m.",
+        "int2b_lunch": "lunch",
+        "int2b_convenience": "convenience store",
+        "int2b_smart": "smart student with book"
+      }
     },
     {
       "id": "i2b_u02_q04",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I eat lunch.",
-        "I have a dog.",
-        "She is tall.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "It is three thirty.",
+      "audio_id": "u2_q04",
+      "image_ids": [
+        "int2b_clock_330",
+        "int2b_poor",
+        "int2b_won_coin",
+        "int2b_science"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_clock_330",
+        "int2b_poor",
+        "int2b_won_coin",
+        "int2b_science"
+      ],
+      "correct": "int2b_clock_330",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_science": "You tapped \"science / flask\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_330": "clock 3:30",
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_won_coin": "Korean won coins",
+        "int2b_science": "science / flask"
+      }
     },
     {
       "id": "i2b_u02_q05",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "She swims.",
-        "I do homework in the evening.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "It is five fifty-five.",
+      "audio_id": "u2_q05",
+      "image_ids": [
+        "int2b_recess",
+        "int2b_clock_555",
+        "int2b_school",
+        "int2b_shoes"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_recess",
+        "int2b_clock_555",
+        "int2b_school",
+        "int2b_shoes"
+      ],
+      "correct": "int2b_clock_555",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_recess": "You tapped \"recess playground\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!",
+        "int2b_school": "You tapped \"school\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!",
+        "int2b_shoes": "You tapped \"shoes\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_recess": "recess playground",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_school": "school",
+        "int2b_shoes": "shoes"
+      }
     },
     {
       "id": "i2b_u02_q06",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I like pizza.",
-        "He has a bike.",
-        "It's half past three."
+      "type": 1,
+      "prompt_text": "It is ten p.m.",
+      "audio_id": "u2_q06",
+      "image_ids": [
+        "int2b_clock_10pm",
+        "int2b_monday",
+        "int2b_shoes",
+        "int2b_tuesday"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_clock_10pm",
+        "int2b_monday",
+        "int2b_shoes",
+        "int2b_tuesday"
+      ],
+      "correct": "int2b_clock_10pm",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!",
+        "int2b_shoes": "You tapped \"shoes\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!",
+        "int2b_tuesday": "You tapped \"Tuesday calendar\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_10pm": "clock 10:00 p.m.",
+        "int2b_monday": "Monday calendar",
+        "int2b_shoes": "shoes",
+        "int2b_tuesday": "Tuesday calendar"
+      }
     },
     {
       "id": "i2b_u02_q07",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "She likes red.",
-        "They eat breakfast.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "It is ten a.m.",
+      "audio_id": "u2_q07",
+      "image_ids": [
+        "int2b_clock_10am",
+        "int2b_clock_555",
+        "int2b_wednesday",
+        "int2b_open_sign"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_clock_10am",
+        "int2b_clock_555",
+        "int2b_wednesday",
+        "int2b_open_sign"
+      ],
+      "correct": "int2b_clock_10am",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!",
+        "int2b_wednesday": "You tapped \"Wednesday calendar\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!",
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_10am": "clock 10:00 a.m.",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_open_sign": "OPEN sign"
+      }
     },
     {
       "id": "i2b_u02_q08",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I go to bed at ten.",
-        "She runs.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "It is twelve o'clock.",
+      "audio_id": "u2_q08",
+      "image_ids": [
+        "int2b_clock_12",
+        "int2b_game_controller",
+        "int2b_history",
+        "int2b_coffee"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_clock_12",
+        "int2b_game_controller",
+        "int2b_history",
+        "int2b_coffee"
+      ],
+      "correct": "int2b_clock_12",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!",
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!",
+        "int2b_coffee": "You tapped \"coffee\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_12": "clock 12:00",
+        "int2b_game_controller": "game controller",
+        "int2b_history": "history / scroll",
+        "int2b_coffee": "coffee"
+      }
     },
     {
       "id": "i2b_u02_q09",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I eat lunch.",
-        "She is tall.",
-        "I have a dog.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "It is seven ten.",
+      "audio_id": "u2_q09",
+      "image_ids": [
+        "int2b_judge",
+        "int2b_clock_710",
+        "int2b_thursday",
+        "int2b_house"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_judge",
+        "int2b_clock_710",
+        "int2b_thursday",
+        "int2b_house"
+      ],
+      "correct": "int2b_clock_710",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2b_judge": "You tapped \"judge\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!",
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!",
+        "int2b_house": "You tapped \"house\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_judge": "judge",
+        "int2b_clock_710": "clock 7:10",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_house": "house"
+      }
     },
     {
       "id": "i2b_u02_q10",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "I do homework in the evening.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "It's time for breakfast.",
+      "audio_id": "u2_q10",
+      "image_ids": [
+        "int2b_math",
+        "int2b_clock_710",
+        "int2b_breakfast",
+        "int2b_art"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_math",
+        "int2b_clock_710",
+        "int2b_breakfast",
+        "int2b_art"
+      ],
+      "correct": "int2b_breakfast",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_math": "You tapped \"math / numbers\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!",
+        "int2b_clock_710": "You tapped \"clock 7:10\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!",
+        "int2b_art": "You tapped \"art / paintbrush\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_math": "math / numbers",
+        "int2b_clock_710": "clock 7:10",
+        "int2b_breakfast": "breakfast",
+        "int2b_art": "art / paintbrush"
+      }
     },
     {
       "id": "i2b_u02_q11",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "It's half past three.",
-        "She is kind.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "It's school time.",
+      "audio_id": "u2_q11",
+      "image_ids": [
+        "int2b_pocket",
+        "int2b_dinner",
+        "int2b_school",
+        "int2b_english_teacher"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_pocket",
+        "int2b_dinner",
+        "int2b_school",
+        "int2b_english_teacher"
+      ],
+      "correct": "int2b_school",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2b_pocket": "You tapped \"pocket\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!",
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!",
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_pocket": "pocket",
+        "int2b_dinner": "dinner",
+        "int2b_school": "school",
+        "int2b_english_teacher": "English teacher"
+      }
     },
     {
       "id": "i2b_u02_q12",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They eat breakfast.",
-        "I am twelve.",
-        "She likes red.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "It's time for recess.",
+      "audio_id": "u2_q12",
+      "image_ids": [
+        "int2b_recess",
+        "int2b_bed",
+        "int2b_president",
+        "int2b_dinner"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_recess",
+        "int2b_bed",
+        "int2b_president",
+        "int2b_dinner"
+      ],
+      "correct": "int2b_recess",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!",
+        "int2b_president": "You tapped \"president\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!",
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_recess": "recess playground",
+        "int2b_bed": "bed / bedtime",
+        "int2b_president": "president",
+        "int2b_dinner": "dinner"
+      }
     },
     {
       "id": "i2b_u02_q13",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I like summer.",
-        "I go to bed at ten.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "It's time for snack.",
+      "audio_id": "u2_q13",
+      "image_ids": [
+        "int2b_scientist",
+        "int2b_car",
+        "int2b_wednesday",
+        "int2b_snack"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_scientist",
+        "int2b_car",
+        "int2b_wednesday",
+        "int2b_snack"
+      ],
+      "correct": "int2b_snack",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"It's time for snack.\". The correct picture is \"snack\". Listen again!",
+        "int2b_car": "You tapped \"car\", but the audio said: \"It's time for snack.\". The correct picture is \"snack\". Listen again!",
+        "int2b_wednesday": "You tapped \"Wednesday calendar\", but the audio said: \"It's time for snack.\". The correct picture is \"snack\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_scientist": "scientist",
+        "int2b_car": "car",
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_snack": "snack"
+      }
     },
     {
       "id": "i2b_u02_q14",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I eat lunch.",
-        "She is tall.",
-        "He reads.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "It's time for dinner.",
+      "audio_id": "u2_q14",
+      "image_ids": [
+        "int2b_dinner",
+        "int2b_ugly",
+        "int2b_ring",
+        "int2b_school"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_dinner",
+        "int2b_ugly",
+        "int2b_ring",
+        "int2b_school"
+      ],
+      "correct": "int2b_dinner",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2b_ugly": "You tapped \"ugly face (cartoon)\", but the audio said: \"It's time for dinner.\". The correct picture is \"dinner\". Listen again!",
+        "int2b_ring": "You tapped \"ring\", but the audio said: \"It's time for dinner.\". The correct picture is \"dinner\". Listen again!",
+        "int2b_school": "You tapped \"school\", but the audio said: \"It's time for dinner.\". The correct picture is \"dinner\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_dinner": "dinner",
+        "int2b_ugly": "ugly face (cartoon)",
+        "int2b_ring": "ring",
+        "int2b_school": "school"
+      }
     },
     {
       "id": "i2b_u02_q15",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I do homework in the evening.",
-        "He jumps.",
-        "I like music."
+      "type": 1,
+      "prompt_text": "It's bedtime.",
+      "audio_id": "u2_q15",
+      "image_ids": [
+        "int2b_holiday",
+        "int2b_glasses",
+        "int2b_poor",
+        "int2b_bed"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_holiday",
+        "int2b_glasses",
+        "int2b_poor",
+        "int2b_bed"
+      ],
+      "correct": "int2b_bed",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It's bedtime.\". The correct picture is \"bed / bedtime\". Listen again!",
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"It's bedtime.\". The correct picture is \"bed / bedtime\". Listen again!",
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It's bedtime.\". The correct picture is \"bed / bedtime\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_holiday": "holiday / party flag",
+        "int2b_glasses": "glasses",
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_bed": "bed / bedtime"
+      }
     },
     {
       "id": "i2b_u02_q16",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's half past three.",
-        "I like pizza.",
-        "He has a bike.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "It's time for online classes.",
+      "audio_id": "u2_q16",
+      "image_ids": [
+        "int2b_short",
+        "int2b_pro_gamer",
+        "int2b_monday",
+        "int2b_laptop_class"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_short",
+        "int2b_pro_gamer",
+        "int2b_monday",
+        "int2b_laptop_class"
+      ],
+      "correct": "int2b_laptop_class",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2b_short": "You tapped \"short person\", but the audio said: \"It's time for online classes.\". The correct picture is \"laptop (online class)\". Listen again!",
+        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"It's time for online classes.\". The correct picture is \"laptop (online class)\". Listen again!",
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"It's time for online classes.\". The correct picture is \"laptop (online class)\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_short": "short person",
+        "int2b_pro_gamer": "pro-gamer",
+        "int2b_monday": "Monday calendar",
+        "int2b_laptop_class": "laptop (online class)"
+      }
     },
     {
       "id": "i2b_u02_q17",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She likes red.",
-        "I am twelve.",
-        "They eat breakfast."
+      "type": 1,
+      "prompt_text": "It's time for lunch.",
+      "audio_id": "u2_q17",
+      "image_ids": [
+        "int2b_thursday",
+        "int2b_lunch",
+        "int2b_stairs",
+        "int2b_dinner"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_thursday",
+        "int2b_lunch",
+        "int2b_stairs",
+        "int2b_dinner"
+      ],
+      "correct": "int2b_lunch",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"It's time for lunch.\". The correct picture is \"lunch\". Listen again!",
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"It's time for lunch.\". The correct picture is \"lunch\". Listen again!",
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"It's time for lunch.\". The correct picture is \"lunch\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_thursday": "Thursday calendar",
+        "int2b_lunch": "lunch",
+        "int2b_stairs": "stairs",
+        "int2b_dinner": "dinner"
+      }
     },
     {
       "id": "i2b_u02_q18",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He sings.",
-        "I go to bed at ten.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "It's game time.",
+      "audio_id": "u2_q18",
+      "image_ids": [
+        "int2b_clock_8",
+        "int2b_science",
+        "int2b_bike",
+        "int2b_game_controller"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_clock_8",
+        "int2b_science",
+        "int2b_bike",
+        "int2b_game_controller"
+      ],
+      "correct": "int2b_game_controller",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_clock_8": "You tapped \"clock 8:00\", but the audio said: \"It's game time.\". The correct picture is \"game controller\". Listen again!",
+        "int2b_science": "You tapped \"science / flask\", but the audio said: \"It's game time.\". The correct picture is \"game controller\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"It's game time.\". The correct picture is \"game controller\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_8": "clock 8:00",
+        "int2b_science": "science / flask",
+        "int2b_bike": "bicycle",
+        "int2b_game_controller": "game controller"
+      }
     },
     {
       "id": "i2b_u02_q19",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "He reads.",
-        "She is tall.",
-        "I eat lunch."
+      "type": 1,
+      "prompt_text": "It is seven thirty.",
+      "audio_id": "u2_q19",
+      "image_ids": [
+        "int2b_clock_730",
+        "int2b_gym_subj",
+        "int2b_poor",
+        "int2b_game_controller"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_clock_730",
+        "int2b_gym_subj",
+        "int2b_poor",
+        "int2b_game_controller"
+      ],
+      "correct": "int2b_clock_730",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2b_gym_subj": "You tapped \"gym class\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_730": "clock 7:30",
+        "int2b_gym_subj": "gym class",
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_game_controller": "game controller"
+      }
     },
     {
       "id": "i2b_u02_q20",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like music.",
-        "He jumps.",
-        "I do homework in the evening."
+      "type": 1,
+      "prompt_text": "It is eight o'clock.",
+      "audio_id": "u2_q20",
+      "image_ids": [
+        "int2b_keys",
+        "int2b_car",
+        "int2b_clock_8",
+        "int2b_clock_11am"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_keys",
+        "int2b_car",
+        "int2b_clock_8",
+        "int2b_clock_11am"
+      ],
+      "correct": "int2b_clock_8",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_car": "You tapped \"car\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_clock_11am": "You tapped \"clock 11:00 a.m.\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_keys": "keys",
+        "int2b_car": "car",
+        "int2b_clock_8": "clock 8:00",
+        "int2b_clock_11am": "clock 11:00 a.m."
+      }
     },
     {
       "id": "i2b_u02_q21",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "It's half past three.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "It is eleven a.m.",
+      "audio_id": "u2_q21",
+      "image_ids": [
+        "int2b_social",
+        "int2b_doctor",
+        "int2b_game_controller",
+        "int2b_clock_11am"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_social",
+        "int2b_doctor",
+        "int2b_game_controller",
+        "int2b_clock_11am"
+      ],
+      "correct": "int2b_clock_11am",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2b_social": "You tapped \"social studies globe\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_social": "social studies globe",
+        "int2b_doctor": "doctor",
+        "int2b_game_controller": "game controller",
+        "int2b_clock_11am": "clock 11:00 a.m."
+      }
     },
     {
       "id": "i2b_u02_q22",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "He plays.",
-        "She likes red.",
-        "They eat breakfast."
+      "type": 1,
+      "prompt_text": "It is three thirty.",
+      "audio_id": "u2_q22",
+      "image_ids": [
+        "int2b_food_critic",
+        "int2b_japanese_book",
+        "int2b_holiday",
+        "int2b_clock_330"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_food_critic",
+        "int2b_japanese_book",
+        "int2b_holiday",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_clock_330",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_food_critic": "food critic",
+        "int2b_japanese_book": "Japanese book",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
       "id": "i2b_u02_q23",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He sings.",
-        "I go to bed at ten.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "It is five fifty-five.",
+      "audio_id": "u2_q23",
+      "image_ids": [
+        "int2b_school_day",
+        "int2b_phone",
+        "int2b_clock_555",
+        "int2b_desk"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_school_day",
+        "int2b_phone",
+        "int2b_clock_555",
+        "int2b_desk"
+      ],
+      "correct": "int2b_clock_555",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!",
+        "int2b_phone": "You tapped \"phone\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"It is five fifty-five.\". The correct picture is \"clock 5:55\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_school_day": "school building (school day)",
+        "int2b_phone": "phone",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_desk": "desk"
+      }
     },
     {
       "id": "i2b_u02_q24",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I eat lunch.",
-        "She is tall.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "It is ten p.m.",
+      "audio_id": "u2_q24",
+      "image_ids": [
+        "int2b_house",
+        "int2b_food_critic",
+        "int2b_pizza",
+        "int2b_clock_10pm"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_house",
+        "int2b_food_critic",
+        "int2b_pizza",
+        "int2b_clock_10pm"
+      ],
+      "correct": "int2b_clock_10pm",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int2b_house": "You tapped \"house\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!",
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!",
+        "int2b_pizza": "You tapped \"pizza / Pizza Land\", but the audio said: \"It is ten p.m.\". The correct picture is \"clock 10:00 p.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_house": "house",
+        "int2b_food_critic": "food critic",
+        "int2b_pizza": "pizza / Pizza Land",
+        "int2b_clock_10pm": "clock 10:00 p.m."
+      }
     },
     {
       "id": "i2b_u02_q25",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "He jumps.",
-        "I do homework in the evening.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "It is ten a.m.",
+      "audio_id": "u2_q25",
+      "image_ids": [
+        "int2b_bike",
+        "int2b_clock_10pm",
+        "int2b_game_controller",
+        "int2b_clock_10am"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_bike",
+        "int2b_clock_10pm",
+        "int2b_game_controller",
+        "int2b_clock_10am"
+      ],
+      "correct": "int2b_clock_10am",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!",
+        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is ten a.m.\". The correct picture is \"clock 10:00 a.m.\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_bike": "bicycle",
+        "int2b_clock_10pm": "clock 10:00 p.m.",
+        "int2b_game_controller": "game controller",
+        "int2b_clock_10am": "clock 10:00 a.m."
+      }
     },
     {
       "id": "i2b_u02_q26",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He has a bike.",
-        "It's half past three.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "It is twelve o'clock.",
+      "audio_id": "u2_q26",
+      "image_ids": [
+        "int2b_clock_12",
+        "int2b_clock_8",
+        "int2b_bus_stop",
+        "int2b_recess"
       ],
-      "correct": "It's half past three.",
+      "choices": [
+        "int2b_clock_12",
+        "int2b_clock_8",
+        "int2b_bus_stop",
+        "int2b_recess"
+      ],
+      "correct": "int2b_clock_12",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2b_clock_8": "You tapped \"clock 8:00\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!",
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!",
+        "int2b_recess": "You tapped \"recess playground\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"clock 12:00\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_12": "clock 12:00",
+        "int2b_clock_8": "clock 8:00",
+        "int2b_bus_stop": "bus stop",
+        "int2b_recess": "recess playground"
+      }
     },
     {
       "id": "i2b_u02_q27",
-      "type": 4,
-      "prompt_text": "What do people do in the morning?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "She likes red.",
-        "He plays.",
-        "They eat breakfast."
+      "type": 1,
+      "prompt_text": "It is seven ten.",
+      "audio_id": "u2_q27",
+      "image_ids": [
+        "int2b_hacker",
+        "int2b_science",
+        "int2b_clock_710",
+        "int2b_korean_book"
       ],
-      "correct": "They eat breakfast.",
+      "choices": [
+        "int2b_hacker",
+        "int2b_science",
+        "int2b_clock_710",
+        "int2b_korean_book"
+      ],
+      "correct": "int2b_clock_710",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!",
+        "int2b_science": "You tapped \"science / flask\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"It is seven ten.\". The correct picture is \"clock 7:10\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hacker": "computer hacker",
+        "int2b_science": "science / flask",
+        "int2b_clock_710": "clock 7:10",
+        "int2b_korean_book": "Korean book"
+      }
     },
     {
       "id": "i2b_u02_q28",
-      "type": 4,
-      "prompt_text": "What time do you go to bed?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I like summer.",
-        "I go to bed at ten.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "It's time for breakfast.",
+      "audio_id": "u2_q28",
+      "image_ids": [
+        "int2b_breakfast",
+        "int2b_math",
+        "int2b_open_sign",
+        "int2b_clock_330"
       ],
-      "correct": "I go to bed at ten.",
+      "choices": [
+        "int2b_breakfast",
+        "int2b_math",
+        "int2b_open_sign",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_breakfast",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2b_math": "You tapped \"math / numbers\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!",
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It's time for breakfast.\". The correct picture is \"breakfast\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_breakfast": "breakfast",
+        "int2b_math": "math / numbers",
+        "int2b_open_sign": "OPEN sign",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
       "id": "i2b_u02_q29",
-      "type": 4,
-      "prompt_text": "What do you do at noon?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I have a dog.",
-        "He reads.",
-        "I eat lunch."
+      "type": 1,
+      "prompt_text": "It's school time.",
+      "audio_id": "u2_q29",
+      "image_ids": [
+        "int2b_school",
+        "int2b_convenience",
+        "int2b_clock_10am",
+        "int2b_ugly"
       ],
-      "correct": "I eat lunch.",
+      "choices": [
+        "int2b_school",
+        "int2b_convenience",
+        "int2b_clock_10am",
+        "int2b_ugly"
+      ],
+      "correct": "int2b_school",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!",
+        "int2b_clock_10am": "You tapped \"clock 10:00 a.m.\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!",
+        "int2b_ugly": "You tapped \"ugly face (cartoon)\", but the audio said: \"It's school time.\". The correct picture is \"school\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_school": "school",
+        "int2b_convenience": "convenience store",
+        "int2b_clock_10am": "clock 10:00 a.m.",
+        "int2b_ugly": "ugly face (cartoon)"
+      }
     },
     {
       "id": "i2b_u02_q30",
-      "type": 4,
-      "prompt_text": "When do you do homework?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like music.",
-        "He jumps.",
-        "I do homework in the evening."
+      "type": 1,
+      "prompt_text": "It's time for recess.",
+      "audio_id": "u2_q30",
+      "image_ids": [
+        "int2b_clock_330",
+        "int2b_work_day",
+        "int2b_tall",
+        "int2b_recess"
       ],
-      "correct": "I do homework in the evening.",
+      "choices": [
+        "int2b_clock_330",
+        "int2b_work_day",
+        "int2b_tall",
+        "int2b_recess"
+      ],
+      "correct": "int2b_recess",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!",
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"It's time for recess.\". The correct picture is \"recess playground\". Listen again!"
       },
       "unit": 2,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_330": "clock 3:30",
+        "int2b_work_day": "office building (work day)",
+        "int2b_tall": "tall person",
+        "int2b_recess": "recess playground"
+      }
     }
   ]
 }

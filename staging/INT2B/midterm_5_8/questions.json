@@ -2,15 +2,15 @@
   "meta": {
     "level": "int2b",
     "title": "Intermediate 2B Midterm Units 5–8",
-    "kind": "midterm_5_8",
+    "kind": "midterm",
     "units_covered": [
       5,
       6,
       7,
       8
     ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 20,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -20,597 +20,652 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
-      "id": "i2b_midterm_5_8_q01",
-      "type": 4,
-      "prompt_text": "Who is the tall boy with glasses?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She has a dog.",
-        "I like pizza.",
-        "That's my cousin Minho.",
-        "It is Monday."
+      "id": "i2b_m58_q01",
+      "type": 1,
+      "prompt_text": "Somebody stole my bike!",
+      "audio_id": "u5_q01",
+      "image_ids": [
+        "int2b_judge",
+        "int2b_books",
+        "int2b_school_day",
+        "int2b_bike"
       ],
-      "correct": "That's my cousin Minho.",
+      "choices": [
+        "int2b_judge",
+        "int2b_books",
+        "int2b_school_day",
+        "int2b_bike"
+      ],
+      "correct": "int2b_bike",
       "why_wrong": {
-        "She has a dog.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!"
+        "int2b_judge": "You tapped \"judge\", but the audio said: \"Somebody stole my bike!\". The correct picture is \"bicycle\". Listen again!",
+        "int2b_books": "You tapped \"books\", but the audio said: \"Somebody stole my bike!\". The correct picture is \"bicycle\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"Somebody stole my bike!\". The correct picture is \"bicycle\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_judge": "judge",
+        "int2b_books": "books",
+        "int2b_school_day": "school building (school day)",
+        "int2b_bike": "bicycle"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q02",
-      "type": 4,
-      "prompt_text": "Which girl is wearing a red hat?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "We eat.",
-        "He plays.",
-        "The one near the window."
+      "id": "i2b_m58_q02",
+      "type": 1,
+      "prompt_text": "This is my English teacher, Mr. Jay.",
+      "audio_id": "u6_q02",
+      "image_ids": [
+        "int2b_closed_sign",
+        "int2b_english_book",
+        "int2b_school_day",
+        "int2b_korean_book"
       ],
-      "correct": "The one near the window.",
+      "choices": [
+        "int2b_closed_sign",
+        "int2b_english_book",
+        "int2b_school_day",
+        "int2b_korean_book"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_closed_sign": "You tapped \"CLOSED sign\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_english_book": "English book",
+        "int2b_school_day": "school building (school day)",
+        "int2b_korean_book": "Korean book"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q03",
-      "type": 2,
-      "prompt_text": "Describe the man at the door.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He runs.",
-        "He's wearing a blue jacket.",
-        "I like cats."
+      "id": "i2b_m58_q05",
+      "type": 1,
+      "prompt_text": "He is very good-looking.",
+      "audio_id": "u5_q05",
+      "image_ids": [
+        "int2b_wednesday",
+        "int2b_pocket",
+        "int2b_good_looking",
+        "int2b_rich"
       ],
-      "correct": "He's wearing a blue jacket.",
+      "choices": [
+        "int2b_wednesday",
+        "int2b_pocket",
+        "int2b_good_looking",
+        "int2b_rich"
+      ],
+      "correct": "int2b_good_looking",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int2b_wednesday": "You tapped \"Wednesday calendar\", but the audio said: \"He is very good-looking.\". The correct picture is \"good-looking person\". Listen again!",
+        "int2b_pocket": "You tapped \"pocket\", but the audio said: \"He is very good-looking.\". The correct picture is \"good-looking person\". Listen again!",
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"He is very good-looking.\". The correct picture is \"good-looking person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_pocket": "pocket",
+        "int2b_good_looking": "good-looking person",
+        "int2b_rich": "rich person with money"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q04",
-      "type": 4,
-      "prompt_text": "Who has the curly hair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "She reads.",
-        "He sleeps.",
-        "That's Sora."
+      "id": "i2b_m58_q06",
+      "type": 1,
+      "prompt_text": "This is my music teacher.",
+      "audio_id": "u6_q06",
+      "image_ids": [
+        "int2b_music",
+        "int2b_english_book",
+        "int2b_laptop_class",
+        "int2b_house"
       ],
-      "correct": "That's Sora.",
+      "choices": [
+        "int2b_music",
+        "int2b_english_book",
+        "int2b_laptop_class",
+        "int2b_house"
+      ],
+      "correct": "int2b_music",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_house": "You tapped \"house\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_music": "music / notes",
+        "int2b_english_book": "English book",
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_house": "house"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q05",
-      "type": 4,
-      "prompt_text": "Which student is very quiet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I like music.",
-        "She swims.",
-        "The boy in the back row."
+      "id": "i2b_m58_q09",
+      "type": 1,
+      "prompt_text": "He is very short.",
+      "audio_id": "u5_q09",
+      "image_ids": [
+        "int2b_history",
+        "int2b_korean_book",
+        "int2b_short",
+        "int2b_social"
       ],
-      "correct": "The boy in the back row.",
+      "choices": [
+        "int2b_history",
+        "int2b_korean_book",
+        "int2b_short",
+        "int2b_social"
+      ],
+      "correct": "int2b_short",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"He is very short.\". The correct picture is \"short person\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"He is very short.\". The correct picture is \"short person\". Listen again!",
+        "int2b_social": "You tapped \"social studies globe\", but the audio said: \"He is very short.\". The correct picture is \"short person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_history": "history / scroll",
+        "int2b_korean_book": "Korean book",
+        "int2b_short": "short person",
+        "int2b_social": "social studies globe"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q06",
-      "type": 4,
-      "prompt_text": "Who is the tall boy with glasses?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "That's my cousin Minho.",
-        "She has a dog.",
-        "It is Monday.",
-        "I like pizza."
+      "id": "i2b_m58_q10",
+      "type": 1,
+      "prompt_text": "This is my social studies teacher.",
+      "audio_id": "u6_q10",
+      "image_ids": [
+        "int2b_police",
+        "int2b_social",
+        "int2b_bike",
+        "int2b_breakfast"
       ],
-      "correct": "That's my cousin Minho.",
+      "choices": [
+        "int2b_police",
+        "int2b_social",
+        "int2b_bike",
+        "int2b_breakfast"
+      ],
+      "correct": "int2b_social",
       "why_wrong": {
-        "She has a dog.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2b_police": "You tapped \"police officer\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_breakfast": "You tapped \"breakfast\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_police": "police officer",
+        "int2b_social": "social studies globe",
+        "int2b_bike": "bicycle",
+        "int2b_breakfast": "breakfast"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q07",
-      "type": 4,
-      "prompt_text": "Which girl is wearing a red hat?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "He plays.",
-        "I am fine.",
-        "The one near the window."
+      "id": "i2b_m58_q11",
+      "type": 1,
+      "prompt_text": "Is it on your books?",
+      "audio_id": "u7_q11",
+      "image_ids": [
+        "int2b_hacker",
+        "int2b_clock_555",
+        "int2b_convenience",
+        "int2b_books"
       ],
-      "correct": "The one near the window.",
+      "choices": [
+        "int2b_hacker",
+        "int2b_clock_555",
+        "int2b_convenience",
+        "int2b_books"
+      ],
+      "correct": "int2b_books",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hacker": "computer hacker",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_convenience": "convenience store",
+        "int2b_books": "books"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q08",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "Nice to meet you.",
-        "I am hungry.",
-        "It is cold."
+      "id": "i2b_m58_q14",
+      "type": 1,
+      "prompt_text": "This is Mr. Jay, my English teacher.",
+      "audio_id": "u6_q14",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_clock_555",
+        "int2b_school_day",
+        "int2b_history"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_english_book",
+        "int2b_clock_555",
+        "int2b_school_day",
+        "int2b_history"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_school_day": "school building (school day)",
+        "int2b_history": "history / scroll"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q09",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Pleased to meet you.",
-        "He runs.",
-        "I have a cat.",
-        "We study."
+      "id": "i2b_m58_q15",
+      "type": 1,
+      "prompt_text": "Is it between your shoes?",
+      "audio_id": "u7_q15",
+      "image_ids": [
+        "int2b_hamburger",
+        "int2b_clock_555",
+        "int2b_shoes",
+        "int2b_clock_330"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_hamburger",
+        "int2b_clock_555",
+        "int2b_shoes",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_shoes",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!",
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"Is it between your shoes?\". The correct picture is \"shoes\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hamburger": "hamburger",
+        "int2b_clock_555": "clock 5:55",
+        "int2b_shoes": "shoes",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q10",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He plays.",
-        "She sings.",
-        "Hello, everyone!"
+      "id": "i2b_m58_q17",
+      "type": 1,
+      "prompt_text": "He is very tall.",
+      "audio_id": "u5_q17",
+      "image_ids": [
+        "int2b_bus_stop",
+        "int2b_smart",
+        "int2b_lunch",
+        "int2b_tall"
       ],
-      "correct": "Hello, everyone!",
+      "choices": [
+        "int2b_bus_stop",
+        "int2b_smart",
+        "int2b_lunch",
+        "int2b_tall"
+      ],
+      "correct": "int2b_tall",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"He is very tall.\". The correct picture is \"tall person\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"He is very tall.\". The correct picture is \"tall person\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"He is very tall.\". The correct picture is \"tall person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_bus_stop": "bus stop",
+        "int2b_smart": "smart student with book",
+        "int2b_lunch": "lunch",
+        "int2b_tall": "tall person"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q11",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "How do you do?",
-        "She reads.",
-        "He eats.",
-        "I am ten."
+      "id": "i2b_m58_q18",
+      "type": 1,
+      "prompt_text": "This is my math teacher.",
+      "audio_id": "u6_q18",
+      "image_ids": [
+        "int2b_closed_sign",
+        "int2b_math",
+        "int2b_good_looking",
+        "int2b_scientist"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_closed_sign",
+        "int2b_math",
+        "int2b_good_looking",
+        "int2b_scientist"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int2b_closed_sign": "You tapped \"CLOSED sign\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_math": "math / numbers",
+        "int2b_good_looking": "good-looking person",
+        "int2b_scientist": "scientist"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q12",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "Welcome to our home.",
-        "I like summer.",
-        "He jumps."
+      "id": "i2b_m58_q21",
+      "type": 1,
+      "prompt_text": "Is he ugly? No, he is good-looking!",
+      "audio_id": "u5_q21",
+      "image_ids": [
+        "int2b_good_looking",
+        "int2b_clock_330",
+        "int2b_smart",
+        "int2b_clock_555"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_good_looking",
+        "int2b_clock_330",
+        "int2b_smart",
+        "int2b_clock_555"
+      ],
+      "correct": "int2b_good_looking",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"Is he ugly? No, he is good-looking!\". The correct picture is \"good-looking person\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"Is he ugly? No, he is good-looking!\". The correct picture is \"good-looking person\". Listen again!",
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"Is he ugly? No, he is good-looking!\". The correct picture is \"good-looking person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_good_looking": "good-looking person",
+        "int2b_clock_330": "clock 3:30",
+        "int2b_smart": "smart student with book",
+        "int2b_clock_555": "clock 5:55"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q13",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "Nice to meet you.",
-        "She likes red.",
-        "It is cold."
+      "id": "i2b_m58_q22",
+      "type": 1,
+      "prompt_text": "This is my art teacher.",
+      "audio_id": "u6_q22",
+      "image_ids": [
+        "int2b_friday",
+        "int2b_lunch",
+        "int2b_clock_12",
+        "int2b_art"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_friday",
+        "int2b_lunch",
+        "int2b_clock_12",
+        "int2b_art"
+      ],
+      "correct": "int2b_art",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int2b_friday": "You tapped \"Friday calendar\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_friday": "Friday calendar",
+        "int2b_lunch": "lunch",
+        "int2b_clock_12": "clock 12:00",
+        "int2b_art": "art / paintbrush"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q14",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Pleased to meet you.",
-        "I have a cat.",
-        "We study.",
-        "He runs."
+      "id": "i2b_m58_q25",
+      "type": 1,
+      "prompt_text": "He is very old.",
+      "audio_id": "u5_q25",
+      "image_ids": [
+        "int2b_stairs",
+        "int2b_sunday",
+        "int2b_old",
+        "int2b_clock_11am"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_stairs",
+        "int2b_sunday",
+        "int2b_old",
+        "int2b_clock_11am"
+      ],
+      "correct": "int2b_old",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"He is very old.\". The correct picture is \"old person\". Listen again!",
+        "int2b_sunday": "You tapped \"Sunday calendar\", but the audio said: \"He is very old.\". The correct picture is \"old person\". Listen again!",
+        "int2b_clock_11am": "You tapped \"clock 11:00 a.m.\", but the audio said: \"He is very old.\". The correct picture is \"old person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_stairs": "stairs",
+        "int2b_sunday": "Sunday calendar",
+        "int2b_old": "old person",
+        "int2b_clock_11am": "clock 11:00 a.m."
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q15",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "It's on the sofa.",
-        "I like apples.",
-        "She is kind."
+      "id": "i2b_m58_q26",
+      "type": 1,
+      "prompt_text": "This is my Japanese teacher.",
+      "audio_id": "u6_q26",
+      "image_ids": [
+        "int2b_japanese_book",
+        "int2b_glasses",
+        "int2b_lunch",
+        "int2b_young"
       ],
-      "correct": "It's on the sofa.",
+      "choices": [
+        "int2b_japanese_book",
+        "int2b_glasses",
+        "int2b_lunch",
+        "int2b_young"
+      ],
+      "correct": "int2b_japanese_book",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_young": "You tapped \"young person\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_japanese_book": "Japanese book",
+        "int2b_glasses": "glasses",
+        "int2b_lunch": "lunch",
+        "int2b_young": "young person"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q16",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "I left it in the hallway.",
-        "He plays.",
-        "She likes red."
+      "id": "i2b_m58_q29",
+      "type": 1,
+      "prompt_text": "Oh wait! I think he is a she.",
+      "audio_id": "u5_q29",
+      "image_ids": [
+        "int2b_fat",
+        "int2b_laptop_class",
+        "int2b_clock_12",
+        "int2b_thin"
       ],
-      "correct": "I left it in the hallway.",
+      "choices": [
+        "int2b_fat",
+        "int2b_laptop_class",
+        "int2b_clock_12",
+        "int2b_thin"
+      ],
+      "correct": "int2b_thin",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_fat": "fat person (kind cartoon)",
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_clock_12": "clock 12:00",
+        "int2b_thin": "thin person"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q17",
-      "type": 4,
-      "prompt_text": "Where are the scissors?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I have a dog.",
-        "They're in the top drawer.",
-        "She runs."
+      "id": "i2b_m58_q30",
+      "type": 1,
+      "prompt_text": "This is Ms. Gwohok, my math teacher.",
+      "audio_id": "u6_q30",
+      "image_ids": [
+        "int2b_music",
+        "int2b_president",
+        "int2b_math",
+        "int2b_clock_10pm"
       ],
-      "correct": "They're in the top drawer.",
+      "choices": [
+        "int2b_music",
+        "int2b_president",
+        "int2b_math",
+        "int2b_clock_10pm"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2b_music": "You tapped \"music / notes\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_president": "You tapped \"president\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_music": "music / notes",
+        "int2b_president": "president",
+        "int2b_math": "math / numbers",
+        "int2b_clock_10pm": "clock 10:00 p.m."
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q18",
-      "type": 4,
-      "prompt_text": "Where is your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She reads.",
-        "I like music.",
-        "It's in my pocket."
+      "id": "i2b_m58_q31",
+      "type": 1,
+      "prompt_text": "Is it behind your phone?",
+      "audio_id": "u7_q31",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_clock_11am",
+        "int2b_phone",
+        "int2b_convenience"
       ],
-      "correct": "It's in my pocket.",
+      "choices": [
+        "int2b_english_book",
+        "int2b_clock_11am",
+        "int2b_phone",
+        "int2b_convenience"
+      ],
+      "correct": "int2b_phone",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_clock_11am": "You tapped \"clock 11:00 a.m.\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_clock_11am": "clock 11:00 a.m.",
+        "int2b_phone": "phone",
+        "int2b_convenience": "convenience store"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q19",
-      "type": 4,
-      "prompt_text": "Where can I find the stapler?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "She swims.",
-        "It's on the teacher's desk.",
-        "I like pizza."
+      "id": "i2b_m58_q33",
+      "type": 1,
+      "prompt_text": "He is very thin.",
+      "audio_id": "u5_q33",
+      "image_ids": [
+        "int2b_pencil_case",
+        "int2b_clock_12",
+        "int2b_thin",
+        "int2b_fat"
       ],
-      "correct": "It's on the teacher's desk.",
+      "choices": [
+        "int2b_pencil_case",
+        "int2b_clock_12",
+        "int2b_thin",
+        "int2b_fat"
+      ],
+      "correct": "int2b_thin",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"He is very thin.\". The correct picture is \"thin person\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"He is very thin.\". The correct picture is \"thin person\". Listen again!",
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"He is very thin.\". The correct picture is \"thin person\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
+      "unit": 5,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_pencil_case": "pencil case",
+        "int2b_clock_12": "clock 12:00",
+        "int2b_thin": "thin person",
+        "int2b_fat": "fat person (kind cartoon)"
+      }
     },
     {
-      "id": "i2b_midterm_5_8_q20",
-      "type": 4,
-      "prompt_text": "Where is the remote control?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "I like apples.",
-        "It's on the sofa."
+      "id": "i2b_m58_q34",
+      "type": 1,
+      "prompt_text": "This is my science teacher.",
+      "audio_id": "u6_q34",
+      "image_ids": [
+        "int2b_transit_card",
+        "int2b_science",
+        "int2b_clock_10am",
+        "int2b_school_day"
       ],
-      "correct": "It's on the sofa.",
-      "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q21",
-      "type": 4,
-      "prompt_text": "Where did you put the umbrella?",
-      "audio_id": null,
-      "image_ids": [],
       "choices": [
-        "I am twelve.",
-        "She likes red.",
-        "I left it in the hallway.",
-        "He plays."
+        "int2b_transit_card",
+        "int2b_science",
+        "int2b_clock_10am",
+        "int2b_school_day"
       ],
-      "correct": "I left it in the hallway.",
+      "correct": "int2b_science",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_transit_card": "You tapped \"transit card\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_clock_10am": "You tapped \"clock 10:00 a.m.\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!"
       },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q22",
-      "type": 4,
-      "prompt_text": "Whose backpack is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's mine.",
-        "I am fine.",
-        "He plays soccer.",
-        "She is tall."
-      ],
-      "correct": "It's mine.",
-      "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q23",
-      "type": 4,
-      "prompt_text": "Is this your pencil case?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "No, it's hers.",
-        "I like cats."
-      ],
-      "correct": "No, it's hers.",
-      "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q24",
-      "type": 2,
-      "prompt_text": "This book belongs to ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "him",
-        "they",
-        "her book",
-        "our"
-      ],
-      "correct": "him",
-      "why_wrong": {
-        "they": "Not quite — try again!",
-        "her book": "Not quite — try again!",
-        "our": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q25",
-      "type": 4,
-      "prompt_text": "Are these your gloves?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "She sings.",
-        "Yes, they're ours.",
-        "He reads."
-      ],
-      "correct": "Yes, they're ours.",
-      "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q26",
-      "type": 4,
-      "prompt_text": "Whose turn is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's yours.",
-        "I like blue.",
-        "She swims.",
-        "He jumps."
-      ],
-      "correct": "It's yours.",
-      "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q27",
-      "type": 4,
-      "prompt_text": "Whose backpack is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "He plays soccer.",
-        "It's mine.",
-        "I am fine."
-      ],
-      "correct": "It's mine.",
-      "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_midterm_5_8_q28",
-      "type": 4,
-      "prompt_text": "Is this your pencil case?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like cats.",
-        "We eat.",
-        "No, it's hers."
-      ],
-      "correct": "No, it's hers.",
-      "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
-      },
-      "unit": null,
-      "level": "int2b"
+      "unit": 6,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_transit_card": "transit card",
+        "int2b_science": "science / flask",
+        "int2b_clock_10am": "clock 10:00 a.m.",
+        "int2b_school_day": "school building (school day)"
+      }
     }
   ]
 }
