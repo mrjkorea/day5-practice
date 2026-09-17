@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 8: Self Introduction",
+    "title": "Intermediate 3A Unit 8: Introduction",
     "kind": "unit",
     "units_covered": [
       8
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u08_q01",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm Jay and I love teaching English.",
-        "She is tall.",
-        "He plays.",
-        "I like apples."
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "u08_q01",
+      "image_ids": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int3a_introduction_music": "That shows music, not 11 years old.",
+        "int3a_introduction_seoul": "That shows Seoul, not 11 years old.",
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_music": "music",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q02",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I am fine.",
-        "I'm from Tongyeong, Korea.",
-        "He sings."
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "u08_q02",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_music": "That shows music, not 18 years old.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not 18 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
       "id": "i3a_u08_q03",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "I like reading and swimming.",
-        "I have a dog.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "u08_q03",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
+      ],
+      "correct": "int3a_introduction_sing_dance",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not sing and dance.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not sing and dance.",
+        "int3a_introduction_music": "That shows music, not sing and dance."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_music": "music"
+      }
     },
     {
       "id": "i3a_u08_q04",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Hi, I'm Sora. I'm in grade six.",
-        "He eats.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I can draw.",
+      "audio_id": "u08_q04",
+      "image_ids": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_draw",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_draw",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_draw",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_family_6": "That shows family of 6, not draw.",
+        "int3a_introduction_dogs": "That shows dogs, not draw.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not draw."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
       "id": "i3a_u08_q05",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I like music.",
-        "I'm good at helping friends study.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "What do you like? I really like dogs.",
+      "audio_id": "u08_q05",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_dogs",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not dogs.",
+        "int3a_introduction_music": "That shows music, not dogs.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not dogs."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
       "id": "i3a_u08_q06",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "She is tall.",
-        "He plays.",
-        "I'm Jay and I love teaching English."
+      "type": 1,
+      "prompt_text": "I like music.",
+      "audio_id": "u08_q06",
+      "image_ids": [
+        "int3a_introduction_music",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_seoul",
+        "int3a_introduction_dogs"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_music",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_seoul",
+        "int3a_introduction_dogs"
+      ],
+      "correct": "int3a_introduction_music",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_introduction_sing_dance": "That shows sing and dance, not music.",
+        "int3a_introduction_seoul": "That shows Seoul, not music.",
+        "int3a_introduction_dogs": "That shows dogs, not music."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_music": "music",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_dogs": "dogs"
+      }
     },
     {
       "id": "i3a_u08_q07",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I'm from Tongyeong, Korea.",
-        "She runs.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I am from Seoul.",
+      "audio_id": "u08_q07",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_draw",
+        "int3a_introduction_family_6"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_draw",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_seoul",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not Seoul.",
+        "int3a_introduction_draw": "That shows draw, not Seoul.",
+        "int3a_introduction_family_6": "That shows family of 6, not Seoul."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_family_6": "family of 6"
+      }
     },
     {
       "id": "i3a_u08_q08",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like reading and swimming.",
-        "She reads.",
-        "He sleeps.",
-        "I have a dog."
+      "type": 1,
+      "prompt_text": "How big is your family? There are six people in my family.",
+      "audio_id": "u08_q08",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_family_6",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not family of 6.",
+        "int3a_introduction_age_11": "That shows 11 years old, not family of 6.",
+        "int3a_introduction_age_18": "That shows 18 years old, not family of 6."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q09",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He eats.",
-        "She swims.",
-        "Hi, I'm Sora. I'm in grade six."
+      "type": 1,
+      "prompt_text": "I go to Juklim Elementary School.",
+      "audio_id": "u08_q09",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_juklim",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not Juklim Elementary.",
+        "int3a_introduction_age_18": "That shows 18 years old, not Juklim Elementary.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not Juklim Elementary."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
       "id": "i3a_u08_q10",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "He jumps.",
-        "I'm good at helping friends study.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "u08_q10",
+      "image_ids": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_introduction_family_6": "That shows family of 6, not 11 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 11 years old.",
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q11",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I like apples.",
-        "He plays.",
-        "I'm Jay and I love teaching English."
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "u08_q11",
+      "image_ids": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not 18 years old.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 18 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs"
+      }
     },
     {
       "id": "i3a_u08_q12",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm from Tongyeong, Korea.",
-        "I am fine.",
-        "He sings.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "u08_q12",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_sing_dance",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not sing and dance.",
+        "int3a_introduction_family_6": "That shows family of 6, not sing and dance.",
+        "int3a_introduction_age_18": "That shows 18 years old, not sing and dance."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q13",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like reading and swimming.",
-        "She reads.",
-        "I have a dog.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I can draw.",
+      "audio_id": "u08_q13",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_seoul",
+        "int3a_introduction_draw",
+        "int3a_introduction_music"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_seoul",
+        "int3a_introduction_draw",
+        "int3a_introduction_music"
+      ],
+      "correct": "int3a_introduction_draw",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_introduction_sing_dance": "That shows sing and dance, not draw.",
+        "int3a_introduction_seoul": "That shows Seoul, not draw.",
+        "int3a_introduction_music": "That shows music, not draw."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_music": "music"
+      }
     },
     {
       "id": "i3a_u08_q14",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "Hi, I'm Sora. I'm in grade six.",
-        "I like blue.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "What do you like? I really like dogs.",
+      "audio_id": "u08_q14",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_dogs",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int3a_introduction_age_18": "That shows 18 years old, not dogs.",
+        "int3a_introduction_seoul": "That shows Seoul, not dogs.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not dogs."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
       "id": "i3a_u08_q15",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm good at helping friends study.",
-        "He jumps.",
-        "I like music.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I like music.",
+      "audio_id": "u08_q15",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_draw",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_draw",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
+      ],
+      "correct": "int3a_introduction_music",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_introduction_age_18": "That shows 18 years old, not music.",
+        "int3a_introduction_draw": "That shows draw, not music.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not music."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_music": "music"
+      }
     },
     {
       "id": "i3a_u08_q16",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I like apples.",
-        "He plays.",
-        "I'm Jay and I love teaching English."
+      "type": 1,
+      "prompt_text": "I am from Seoul.",
+      "audio_id": "u08_q16",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_seoul",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not Seoul.",
+        "int3a_introduction_music": "That shows music, not Seoul.",
+        "int3a_introduction_age_18": "That shows 18 years old, not Seoul."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q17",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I'm from Tongyeong, Korea.",
-        "I am fine.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "How big is your family? There are six people in my family.",
+      "audio_id": "u08_q17",
+      "image_ids": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_family_6",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not family of 6.",
+        "int3a_introduction_dogs": "That shows dogs, not family of 6.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not family of 6."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
       "id": "i3a_u08_q18",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "I have a dog.",
-        "I like reading and swimming.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I go to Juklim Elementary School.",
+      "audio_id": "u08_q18",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_juklim",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not Juklim Elementary.",
+        "int3a_introduction_seoul": "That shows Seoul, not Juklim Elementary.",
+        "int3a_introduction_music": "That shows music, not Juklim Elementary."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
       "id": "i3a_u08_q19",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hi, I'm Sora. I'm in grade six.",
-        "I like blue.",
-        "He eats.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "u08_q19",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 11 years old.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 11 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old"
+      }
     },
     {
       "id": "i3a_u08_q20",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm good at helping friends study.",
-        "We study.",
-        "I like music.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "u08_q20",
+      "image_ids": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_family_6"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not 18 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 18 years old.",
+        "int3a_introduction_family_6": "That shows family of 6, not 18 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_family_6": "family of 6"
+      }
     },
     {
       "id": "i3a_u08_q21",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She is tall.",
-        "I'm Jay and I love teaching English.",
-        "I like apples."
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "u08_q21",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_draw"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_draw"
+      ],
+      "correct": "int3a_introduction_sing_dance",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not sing and dance.",
+        "int3a_introduction_dogs": "That shows dogs, not sing and dance.",
+        "int3a_introduction_draw": "That shows draw, not sing and dance."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_draw": "draw"
+      }
     },
     {
       "id": "i3a_u08_q22",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I am fine.",
-        "She runs.",
-        "I'm from Tongyeong, Korea."
+      "type": 1,
+      "prompt_text": "I can draw.",
+      "audio_id": "u08_q22",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_draw",
+        "int3a_introduction_music",
+        "int3a_introduction_family_6"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_draw",
+        "int3a_introduction_music",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_draw",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not draw.",
+        "int3a_introduction_music": "That shows music, not draw.",
+        "int3a_introduction_family_6": "That shows family of 6, not draw."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_family_6": "family of 6"
+      }
     },
     {
       "id": "i3a_u08_q23",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "I like reading and swimming.",
-        "He sleeps.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "What do you like? I really like dogs.",
+      "audio_id": "u08_q23",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
+      ],
+      "correct": "int3a_introduction_dogs",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not dogs.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not dogs.",
+        "int3a_introduction_age_11": "That shows 11 years old, not dogs."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old"
+      }
     },
     {
       "id": "i3a_u08_q24",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like blue.",
-        "She swims.",
-        "Hi, I'm Sora. I'm in grade six."
+      "type": 1,
+      "prompt_text": "I like music.",
+      "audio_id": "u08_q24",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_music",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not music.",
+        "int3a_introduction_age_18": "That shows 18 years old, not music.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not music."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
       "id": "i3a_u08_q25",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm good at helping friends study.",
-        "We study.",
-        "I like music.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "I am from Seoul.",
+      "audio_id": "u08_q25",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_seoul",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not Seoul.",
+        "int3a_introduction_family_6": "That shows family of 6, not Seoul.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not Seoul."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
       "id": "i3a_u08_q26",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I'm Jay and I love teaching English.",
-        "I like apples.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "How big is your family? There are six people in my family.",
+      "audio_id": "u08_q26",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_draw"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_draw"
+      ],
+      "correct": "int3a_introduction_family_6",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not family of 6.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not family of 6.",
+        "int3a_introduction_draw": "That shows draw, not family of 6."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_draw": "draw"
+      }
     },
     {
       "id": "i3a_u08_q27",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I'm from Tongyeong, Korea.",
-        "He sings.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I go to Juklim Elementary School.",
+      "audio_id": "u08_q27",
+      "image_ids": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_18",
+        "int3a_introduction_juklim"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_18",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_juklim",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3a_introduction_music": "That shows music, not Juklim Elementary.",
+        "int3a_introduction_seoul": "That shows Seoul, not Juklim Elementary.",
+        "int3a_introduction_age_18": "That shows 18 years old, not Juklim Elementary."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_music": "music",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
       "id": "i3a_u08_q28",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like reading and swimming.",
-        "I have a dog.",
-        "She reads.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "u08_q28",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_age_18"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not 11 years old.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not 11 years old.",
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
       "id": "i3a_u08_q29",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He eats.",
-        "Hi, I'm Sora. I'm in grade six.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "u08_q29",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_family_6"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not 18 years old.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_family_6": "That shows family of 6, not 18 years old."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_family_6": "family of 6"
+      }
     },
     {
       "id": "i3a_u08_q30",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I like music.",
-        "I'm good at helping friends study.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "u08_q30",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_sing_dance",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not sing and dance.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not sing and dance.",
+        "int3a_introduction_family_6": "That shows family of 6, not sing and dance."
       },
       "unit": 8,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_family_6": "family of 6"
+      }
     }
   ]
 }

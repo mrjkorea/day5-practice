@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 1: Draw and Art",
+    "title": "Intermediate 3A Unit 1: I Can Draw a Monster",
     "kind": "unit",
     "units_covered": [
       1
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u01_q01",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is running.",
-        "She is drawing a flower.",
-        "She is sleeping.",
-        "She is cooking."
+      "type": 1,
+      "prompt_text": "I can draw a circle.",
+      "audio_id": "u01_q01",
+      "image_ids": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_circle",
       "why_wrong": {
-        "She is running.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!"
+        "int3a_draw-monster_dragon": "That shows dragon, not circle.",
+        "int3a_draw-monster_apple": "That shows apple, not circle.",
+        "int3a_draw-monster_tree": "That shows tree, not circle."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_tree": "tree"
+      }
     },
     {
       "id": "i3a_u01_q02",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like draw animals.",
-        "I drawing animals.",
-        "I like to draw animals.",
-        "I likes to draw."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a star.",
+      "audio_id": "u01_q02",
+      "image_ids": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_star",
       "why_wrong": {
-        "I like draw animals.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!",
-        "I likes to draw.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not star.",
+        "int3a_draw-monster_circle": "That shows circle, not star.",
+        "int3a_draw-monster_tree": "That shows tree, not star."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_tree": "tree"
+      }
     },
     {
       "id": "i3a_u01_q03",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He drawing mountain.",
-        "He draw a mountain.",
-        "He draws mountain yesterday.",
-        "He drew a mountain."
+      "type": 1,
+      "prompt_text": "Can you draw a tree?",
+      "audio_id": "u01_q03",
+      "image_ids": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_tree",
       "why_wrong": {
-        "He drawing mountain.": "Not quite — try again!",
-        "He draw a mountain.": "Not quite — try again!",
-        "He draws mountain yesterday.": "Not quite — try again!"
+        "int3a_draw-monster_apple": "That shows apple, not tree.",
+        "int3a_draw-monster_flag": "That shows flag, not tree.",
+        "int3a_draw-monster_toy": "That shows toy, not tree."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q04",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She is tall.",
-        "Yes, I can draw a simple one.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "I can draw a poo.",
+      "audio_id": "u01_q04",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_poo",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3a_draw-monster_monster": "That shows monster, not poo.",
+        "int3a_draw-monster_toy": "That shows toy, not poo.",
+        "int3a_draw-monster_hat": "That shows hat, not poo."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q05",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing their families.",
-        "I like red.",
-        "He runs.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a flag.",
+      "audio_id": "u01_q05",
+      "image_ids": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_flag",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_draw-monster_star": "That shows star, not flag.",
+        "int3a_draw-monster_poo": "That shows poo, not flag.",
+        "int3a_draw-monster_apple": "That shows apple, not flag."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
       "id": "i3a_u01_q06",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is drawing a flower.",
-        "She is cooking.",
-        "She is running.",
-        "She is sleeping."
+      "type": 1,
+      "prompt_text": "Can you draw korea?",
+      "audio_id": "u01_q06",
+      "image_ids": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_korea",
       "why_wrong": {
-        "She is cooking.": "Not quite — try again!",
-        "She is running.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!"
+        "int3a_draw-monster_toy": "That shows toy, not korea.",
+        "int3a_draw-monster_hat": "That shows hat, not korea.",
+        "int3a_draw-monster_apple": "That shows apple, not korea."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
       "id": "i3a_u01_q07",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like draw animals.",
-        "I likes to draw.",
-        "I drawing animals.",
-        "I like to draw animals."
+      "type": 1,
+      "prompt_text": "I can draw a monster.",
+      "audio_id": "u01_q07",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo"
+      ],
+      "correct": "int3a_draw-monster_monster",
       "why_wrong": {
-        "I like draw animals.": "Not quite — try again!",
-        "I likes to draw.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!"
+        "int3a_draw-monster_korea": "That shows korea, not monster.",
+        "int3a_draw-monster_circle": "That shows circle, not monster.",
+        "int3a_draw-monster_poo": "That shows poo, not monster."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_poo": "poo"
+      }
     },
     {
       "id": "i3a_u01_q08",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He draws mountain yesterday.",
-        "He draw a mountain.",
-        "He drew a mountain.",
-        "He drawing mountain."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw an apple.",
+      "audio_id": "u01_q08",
+      "image_ids": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle"
+      ],
+      "correct": "int3a_draw-monster_apple",
       "why_wrong": {
-        "He draws mountain yesterday.": "Not quite — try again!",
-        "He draw a mountain.": "Not quite — try again!",
-        "He drawing mountain.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not apple.",
+        "int3a_draw-monster_tree": "That shows tree, not apple.",
+        "int3a_draw-monster_circle": "That shows circle, not apple."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_circle": "circle"
+      }
     },
     {
       "id": "i3a_u01_q09",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "He plays.",
-        "She is tall.",
-        "Yes, I can draw a simple one."
+      "type": 1,
+      "prompt_text": "Can you draw a hat?",
+      "audio_id": "u01_q09",
+      "image_ids": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_hat",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3a_draw-monster_toy": "That shows toy, not hat.",
+        "int3a_draw-monster_korea": "That shows korea, not hat.",
+        "int3a_draw-monster_apple": "That shows apple, not hat."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q10",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing their families.",
-        "We eat.",
-        "He runs.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "I can draw a toy.",
+      "audio_id": "u01_q10",
+      "image_ids": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_toy",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_draw-monster_apple": "That shows apple, not toy.",
+        "int3a_draw-monster_tree": "That shows tree, not toy.",
+        "int3a_draw-monster_circle": "That shows circle, not toy."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q11",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is running.",
-        "She is drawing a flower.",
-        "She is cooking.",
-        "She is sleeping."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a circle.",
+      "audio_id": "u01_q11",
+      "image_ids": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_circle",
       "why_wrong": {
-        "She is running.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not circle.",
+        "int3a_draw-monster_dragon": "That shows dragon, not circle.",
+        "int3a_draw-monster_tree": "That shows tree, not circle."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_tree": "tree"
+      }
     },
     {
       "id": "i3a_u01_q12",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like to draw animals.",
-        "I like draw animals.",
-        "I likes to draw.",
-        "I drawing animals."
+      "type": 1,
+      "prompt_text": "Can you draw a star?",
+      "audio_id": "u01_q12",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_circle"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_circle"
+      ],
+      "correct": "int3a_draw-monster_star",
       "why_wrong": {
-        "I like draw animals.": "Not quite — try again!",
-        "I likes to draw.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!"
+        "int3a_draw-monster_korea": "That shows korea, not star.",
+        "int3a_draw-monster_monster": "That shows monster, not star.",
+        "int3a_draw-monster_circle": "That shows circle, not star."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_circle": "circle"
+      }
     },
     {
       "id": "i3a_u01_q13",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He draws mountain yesterday.",
-        "He drawing mountain.",
-        "He drew a mountain.",
-        "He draw a mountain."
+      "type": 1,
+      "prompt_text": "I can draw a tree.",
+      "audio_id": "u01_q13",
+      "image_ids": [
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_tree",
       "why_wrong": {
-        "He draws mountain yesterday.": "Not quite — try again!",
-        "He drawing mountain.": "Not quite — try again!",
-        "He draw a mountain.": "Not quite — try again!"
+        "int3a_draw-monster_monster": "That shows monster, not tree.",
+        "int3a_draw-monster_poo": "That shows poo, not tree.",
+        "int3a_draw-monster_toy": "That shows toy, not tree."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q14",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "He plays.",
-        "I am twelve.",
-        "Yes, I can draw a simple one."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a poo.",
+      "audio_id": "u01_q14",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_poo"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_poo"
+      ],
+      "correct": "int3a_draw-monster_poo",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3a_draw-monster_korea": "That shows korea, not poo.",
+        "int3a_draw-monster_tree": "That shows tree, not poo.",
+        "int3a_draw-monster_hat": "That shows hat, not poo."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_poo": "poo"
+      }
     },
     {
       "id": "i3a_u01_q15",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "They're drawing their families.",
-        "He runs.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Can you draw a flag?",
+      "audio_id": "u01_q15",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle"
+      ],
+      "correct": "int3a_draw-monster_flag",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_draw-monster_poo": "That shows poo, not flag.",
+        "int3a_draw-monster_toy": "That shows toy, not flag.",
+        "int3a_draw-monster_circle": "That shows circle, not flag."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_circle": "circle"
+      }
     },
     {
       "id": "i3a_u01_q16",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is running.",
-        "She is drawing a flower.",
-        "She is sleeping.",
-        "She is cooking."
+      "type": 1,
+      "prompt_text": "I can draw korea.",
+      "audio_id": "u01_q16",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_korea",
       "why_wrong": {
-        "She is running.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not korea.",
+        "int3a_draw-monster_star": "That shows star, not korea.",
+        "int3a_draw-monster_hat": "That shows hat, not korea."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q17",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like draw animals.",
-        "I drawing animals.",
-        "I likes to draw.",
-        "I like to draw animals."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a monster.",
+      "audio_id": "u01_q17",
+      "image_ids": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_korea"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_korea"
+      ],
+      "correct": "int3a_draw-monster_monster",
       "why_wrong": {
-        "I like draw animals.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!",
-        "I likes to draw.": "Not quite — try again!"
+        "int3a_draw-monster_dragon": "That shows dragon, not monster.",
+        "int3a_draw-monster_apple": "That shows apple, not monster.",
+        "int3a_draw-monster_korea": "That shows korea, not monster."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_korea": "korea"
+      }
     },
     {
       "id": "i3a_u01_q18",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He drawing mountain.",
-        "He draw a mountain.",
-        "He draws mountain yesterday.",
-        "He drew a mountain."
+      "type": 1,
+      "prompt_text": "Can you draw an apple?",
+      "audio_id": "u01_q18",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_apple",
       "why_wrong": {
-        "He drawing mountain.": "Not quite — try again!",
-        "He draw a mountain.": "Not quite — try again!",
-        "He draws mountain yesterday.": "Not quite — try again!"
+        "int3a_draw-monster_poo": "That shows poo, not apple.",
+        "int3a_draw-monster_monster": "That shows monster, not apple.",
+        "int3a_draw-monster_hat": "That shows hat, not apple."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
       "id": "i3a_u01_q19",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I can draw a simple one.",
-        "I am twelve.",
-        "He plays.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "I can draw a hat.",
+      "audio_id": "u01_q19",
+      "image_ids": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster"
+      ],
+      "correct": "int3a_draw-monster_hat",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3a_draw-monster_star": "That shows star, not hat.",
+        "int3a_draw-monster_dragon": "That shows dragon, not hat.",
+        "int3a_draw-monster_monster": "That shows monster, not hat."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_monster": "monster"
+      }
     },
     {
       "id": "i3a_u01_q20",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "They're drawing their families.",
-        "We eat.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a toy.",
+      "audio_id": "u01_q20",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_toy",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_draw-monster_korea": "That shows korea, not toy.",
+        "int3a_draw-monster_circle": "That shows circle, not toy.",
+        "int3a_draw-monster_poo": "That shows poo, not toy."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q21",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is running.",
-        "She is drawing a flower.",
-        "She is sleeping.",
-        "She is cooking."
+      "type": 1,
+      "prompt_text": "Can you draw a circle?",
+      "audio_id": "u01_q21",
+      "image_ids": [
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_circle",
       "why_wrong": {
-        "She is running.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!"
+        "int3a_draw-monster_tree": "That shows tree, not circle.",
+        "int3a_draw-monster_star": "That shows star, not circle.",
+        "int3a_draw-monster_hat": "That shows hat, not circle."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q22",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I likes to draw.",
-        "I drawing animals.",
-        "I like draw animals.",
-        "I like to draw animals."
+      "type": 1,
+      "prompt_text": "I can draw a star.",
+      "audio_id": "u01_q22",
+      "image_ids": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_star",
       "why_wrong": {
-        "I likes to draw.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!",
-        "I like draw animals.": "Not quite — try again!"
+        "int3a_draw-monster_dragon": "That shows dragon, not star.",
+        "int3a_draw-monster_poo": "That shows poo, not star.",
+        "int3a_draw-monster_toy": "That shows toy, not star."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q23",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He draw a mountain.",
-        "He drew a mountain.",
-        "He draws mountain yesterday.",
-        "He drawing mountain."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a tree.",
+      "audio_id": "u01_q23",
+      "image_ids": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_tree",
       "why_wrong": {
-        "He draw a mountain.": "Not quite — try again!",
-        "He draws mountain yesterday.": "Not quite — try again!",
-        "He drawing mountain.": "Not quite — try again!"
+        "int3a_draw-monster_apple": "That shows apple, not tree.",
+        "int3a_draw-monster_monster": "That shows monster, not tree.",
+        "int3a_draw-monster_poo": "That shows poo, not tree."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_tree": "tree"
+      }
     },
     {
       "id": "i3a_u01_q24",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "Yes, I can draw a simple one.",
-        "He plays.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Can you draw a poo?",
+      "audio_id": "u01_q24",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_poo",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3a_draw-monster_dragon": "That shows dragon, not poo.",
+        "int3a_draw-monster_toy": "That shows toy, not poo.",
+        "int3a_draw-monster_hat": "That shows hat, not poo."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q25",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing their families.",
-        "He runs.",
-        "I like red.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "I can draw a flag.",
+      "audio_id": "u01_q25",
+      "image_ids": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_flag",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_draw-monster_circle": "That shows circle, not flag.",
+        "int3a_draw-monster_apple": "That shows apple, not flag.",
+        "int3a_draw-monster_hat": "That shows hat, not flag."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
       "id": "i3a_u01_q26",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is cooking.",
-        "She is sleeping.",
-        "She is running.",
-        "She is drawing a flower."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw korea.",
+      "audio_id": "u01_q26",
+      "image_ids": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_poo"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_poo"
+      ],
+      "correct": "int3a_draw-monster_korea",
       "why_wrong": {
-        "She is cooking.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!",
-        "She is running.": "Not quite — try again!"
+        "int3a_draw-monster_circle": "That shows circle, not korea.",
+        "int3a_draw-monster_toy": "That shows toy, not korea.",
+        "int3a_draw-monster_poo": "That shows poo, not korea."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_poo": "poo"
+      }
     },
     {
       "id": "i3a_u01_q27",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I likes to draw.",
-        "I like draw animals.",
-        "I like to draw animals.",
-        "I drawing animals."
+      "type": 1,
+      "prompt_text": "Can you draw a monster?",
+      "audio_id": "u01_q27",
+      "image_ids": [
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_flag"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_flag"
+      ],
+      "correct": "int3a_draw-monster_monster",
       "why_wrong": {
-        "I likes to draw.": "Not quite — try again!",
-        "I like draw animals.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!"
+        "int3a_draw-monster_circle": "That shows circle, not monster.",
+        "int3a_draw-monster_hat": "That shows hat, not monster.",
+        "int3a_draw-monster_flag": "That shows flag, not monster."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_flag": "flag"
+      }
     },
     {
       "id": "i3a_u01_q28",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He draw a mountain.",
-        "He draws mountain yesterday.",
-        "He drawing mountain.",
-        "He drew a mountain."
+      "type": 1,
+      "prompt_text": "I can draw an apple.",
+      "audio_id": "u01_q28",
+      "image_ids": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_toy"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_apple",
       "why_wrong": {
-        "He draw a mountain.": "Not quite — try again!",
-        "He draws mountain yesterday.": "Not quite — try again!",
-        "He drawing mountain.": "Not quite — try again!"
+        "int3a_draw-monster_circle": "That shows circle, not apple.",
+        "int3a_draw-monster_star": "That shows star, not apple.",
+        "int3a_draw-monster_toy": "That shows toy, not apple."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_toy": "toy"
+      }
     },
     {
       "id": "i3a_u01_q29",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "Yes, I can draw a simple one.",
-        "She is tall.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a hat.",
+      "audio_id": "u01_q29",
+      "image_ids": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_hat",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3a_draw-monster_monster": "That shows monster, not hat.",
+        "int3a_draw-monster_flag": "That shows flag, not hat.",
+        "int3a_draw-monster_apple": "That shows apple, not hat."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
       "id": "i3a_u01_q30",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He runs.",
-        "We eat.",
-        "They're drawing their families."
+      "type": 1,
+      "prompt_text": "Can you draw a toy?",
+      "audio_id": "u01_q30",
+      "image_ids": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_toy",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not toy.",
+        "int3a_draw-monster_dragon": "That shows dragon, not toy.",
+        "int3a_draw-monster_tree": "That shows tree, not toy."
       },
       "unit": 1,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_tree": "tree"
+      }
     }
   ]
 }

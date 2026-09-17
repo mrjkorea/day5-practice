@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 3: Adjectives and Opposites",
+    "title": "Intermediate 3A Unit 3: Opposites",
     "kind": "unit",
     "units_covered": [
       3
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u03_q01",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "cold",
-        "bright",
-        "warm",
-        "spicy"
+      "type": 1,
+      "prompt_text": "This is good.",
+      "audio_id": "u03_q01",
+      "image_ids": [
+        "int3a_opposites_big",
+        "int3a_opposites_hot",
+        "int3a_opposites_new",
+        "int3a_opposites_good"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_big",
+        "int3a_opposites_hot",
+        "int3a_opposites_new",
+        "int3a_opposites_good"
+      ],
+      "correct": "int3a_opposites_good",
       "why_wrong": {
-        "bright": "Not quite — try again!",
-        "warm": "Not quite — try again!",
-        "spicy": "Not quite — try again!"
+        "int3a_opposites_big": "That shows big, not good.",
+        "int3a_opposites_hot": "That shows hot, not good.",
+        "int3a_opposites_new": "That shows new, not good."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_big": "big",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_good": "good"
+      }
     },
     {
       "id": "i3a_u03_q02",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "long",
-        "wide",
-        "small",
-        "tall"
+      "type": 1,
+      "prompt_text": "That is bad.",
+      "audio_id": "u03_q02",
+      "image_ids": [
+        "int3a_opposites_wet",
+        "int3a_opposites_bad",
+        "int3a_opposites_quiet",
+        "int3a_opposites_big"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_wet",
+        "int3a_opposites_bad",
+        "int3a_opposites_quiet",
+        "int3a_opposites_big"
+      ],
+      "correct": "int3a_opposites_bad",
       "why_wrong": {
-        "long": "Not quite — try again!",
-        "wide": "Not quite — try again!",
-        "tall": "Not quite — try again!"
+        "int3a_opposites_wet": "That shows wet, not bad.",
+        "int3a_opposites_quiet": "That shows quiet, not bad.",
+        "int3a_opposites_big": "That shows big, not bad."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_big": "big"
+      }
     },
     {
       "id": "i3a_u03_q03",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "kind",
-        "sad",
-        "fun",
-        "glad"
+      "type": 1,
+      "prompt_text": "How is it? This is cold.",
+      "audio_id": "u03_q03",
+      "image_ids": [
+        "int3a_opposites_small",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_small",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
+      ],
+      "correct": "int3a_opposites_cold",
       "why_wrong": {
-        "kind": "Not quite — try again!",
-        "fun": "Not quite — try again!",
-        "glad": "Not quite — try again!"
+        "int3a_opposites_small": "That shows small, not cold.",
+        "int3a_opposites_wet": "That shows wet, not cold.",
+        "int3a_opposites_new": "That shows new, not cold."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_small": "small",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_new": "new"
+      }
     },
     {
       "id": "i3a_u03_q04",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "early",
-        "soon",
-        "slow",
-        "quick"
+      "type": 1,
+      "prompt_text": "This is hot.",
+      "audio_id": "u03_q04",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
+      ],
+      "correct": "int3a_opposites_hot",
       "why_wrong": {
-        "early": "Not quite — try again!",
-        "soon": "Not quite — try again!",
-        "quick": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not hot.",
+        "int3a_opposites_small": "That shows small, not hot.",
+        "int3a_opposites_quiet": "That shows quiet, not hot."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_quiet": "quiet"
+      }
     },
     {
       "id": "i3a_u03_q05",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "dirty",
-        "fresh",
-        "neat",
-        "clear"
+      "type": 1,
+      "prompt_text": "That is small.",
+      "audio_id": "u03_q05",
+      "image_ids": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_hot",
+        "int3a_opposites_dry",
+        "int3a_opposites_small"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_hot",
+        "int3a_opposites_dry",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_small",
       "why_wrong": {
-        "fresh": "Not quite — try again!",
-        "neat": "Not quite — try again!",
-        "clear": "Not quite — try again!"
+        "int3a_opposites_quiet": "That shows quiet, not small.",
+        "int3a_opposites_hot": "That shows hot, not small.",
+        "int3a_opposites_dry": "That shows dry, not small."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_small": "small"
+      }
     },
     {
       "id": "i3a_u03_q06",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "spicy",
-        "warm",
-        "cold",
-        "bright"
+      "type": 1,
+      "prompt_text": "How is it? This is big.",
+      "audio_id": "u03_q06",
+      "image_ids": [
+        "int3a_opposites_hard",
+        "int3a_opposites_big",
+        "int3a_opposites_wet",
+        "int3a_opposites_good"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_hard",
+        "int3a_opposites_big",
+        "int3a_opposites_wet",
+        "int3a_opposites_good"
+      ],
+      "correct": "int3a_opposites_big",
       "why_wrong": {
-        "spicy": "Not quite — try again!",
-        "warm": "Not quite — try again!",
-        "bright": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not big.",
+        "int3a_opposites_wet": "That shows wet, not big.",
+        "int3a_opposites_good": "That shows good, not big."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_big": "big",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_good": "good"
+      }
     },
     {
       "id": "i3a_u03_q07",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "small",
-        "wide",
-        "long",
-        "tall"
+      "type": 1,
+      "prompt_text": "This is soft.",
+      "audio_id": "u03_q07",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_wet",
+        "int3a_opposites_dry",
+        "int3a_opposites_soft"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_wet",
+        "int3a_opposites_dry",
+        "int3a_opposites_soft"
+      ],
+      "correct": "int3a_opposites_soft",
       "why_wrong": {
-        "wide": "Not quite — try again!",
-        "long": "Not quite — try again!",
-        "tall": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not soft.",
+        "int3a_opposites_wet": "That shows wet, not soft.",
+        "int3a_opposites_dry": "That shows dry, not soft."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_soft": "soft"
+      }
     },
     {
       "id": "i3a_u03_q08",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fun",
-        "sad",
-        "glad",
-        "kind"
+      "type": 1,
+      "prompt_text": "That is hard.",
+      "audio_id": "u03_q08",
+      "image_ids": [
+        "int3a_opposites_big",
+        "int3a_opposites_hard",
+        "int3a_opposites_new",
+        "int3a_opposites_soft"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_big",
+        "int3a_opposites_hard",
+        "int3a_opposites_new",
+        "int3a_opposites_soft"
+      ],
+      "correct": "int3a_opposites_hard",
       "why_wrong": {
-        "fun": "Not quite — try again!",
-        "glad": "Not quite — try again!",
-        "kind": "Not quite — try again!"
+        "int3a_opposites_big": "That shows big, not hard.",
+        "int3a_opposites_new": "That shows new, not hard.",
+        "int3a_opposites_soft": "That shows soft, not hard."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_big": "big",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_soft": "soft"
+      }
     },
     {
       "id": "i3a_u03_q09",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "soon",
-        "quick",
-        "early",
-        "slow"
+      "type": 1,
+      "prompt_text": "How is it? This is quiet.",
+      "audio_id": "u03_q09",
+      "image_ids": [
+        "int3a_opposites_hard",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good",
+        "int3a_opposites_small"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_hard",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_quiet",
       "why_wrong": {
-        "soon": "Not quite — try again!",
-        "quick": "Not quite — try again!",
-        "early": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not quiet.",
+        "int3a_opposites_good": "That shows good, not quiet.",
+        "int3a_opposites_small": "That shows small, not quiet."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_good": "good",
+        "int3a_opposites_small": "small"
+      }
     },
     {
       "id": "i3a_u03_q10",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fresh",
-        "neat",
-        "clear",
-        "dirty"
+      "type": 1,
+      "prompt_text": "This is loud.",
+      "audio_id": "u03_q10",
+      "image_ids": [
+        "int3a_opposites_big",
+        "int3a_opposites_old",
+        "int3a_opposites_hard",
+        "int3a_opposites_loud"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_big",
+        "int3a_opposites_old",
+        "int3a_opposites_hard",
+        "int3a_opposites_loud"
+      ],
+      "correct": "int3a_opposites_loud",
       "why_wrong": {
-        "fresh": "Not quite — try again!",
-        "neat": "Not quite — try again!",
-        "clear": "Not quite — try again!"
+        "int3a_opposites_big": "That shows big, not loud.",
+        "int3a_opposites_old": "That shows old, not loud.",
+        "int3a_opposites_hard": "That shows hard, not loud."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_big": "big",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_loud": "loud"
+      }
     },
     {
       "id": "i3a_u03_q11",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "bright",
-        "spicy",
-        "cold",
-        "warm"
+      "type": 1,
+      "prompt_text": "That is old.",
+      "audio_id": "u03_q11",
+      "image_ids": [
+        "int3a_opposites_new",
+        "int3a_opposites_old",
+        "int3a_opposites_big",
+        "int3a_opposites_quiet"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_new",
+        "int3a_opposites_old",
+        "int3a_opposites_big",
+        "int3a_opposites_quiet"
+      ],
+      "correct": "int3a_opposites_old",
       "why_wrong": {
-        "bright": "Not quite — try again!",
-        "spicy": "Not quite — try again!",
-        "warm": "Not quite — try again!"
+        "int3a_opposites_new": "That shows new, not old.",
+        "int3a_opposites_big": "That shows big, not old.",
+        "int3a_opposites_quiet": "That shows quiet, not old."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_new": "new",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_big": "big",
+        "int3a_opposites_quiet": "quiet"
+      }
     },
     {
       "id": "i3a_u03_q12",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "long",
-        "small",
-        "tall",
-        "wide"
+      "type": 1,
+      "prompt_text": "How is it? This is new.",
+      "audio_id": "u03_q12",
+      "image_ids": [
+        "int3a_opposites_old",
+        "int3a_opposites_new",
+        "int3a_opposites_loud",
+        "int3a_opposites_hot"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_old",
+        "int3a_opposites_new",
+        "int3a_opposites_loud",
+        "int3a_opposites_hot"
+      ],
+      "correct": "int3a_opposites_new",
       "why_wrong": {
-        "long": "Not quite — try again!",
-        "tall": "Not quite — try again!",
-        "wide": "Not quite — try again!"
+        "int3a_opposites_old": "That shows old, not new.",
+        "int3a_opposites_loud": "That shows loud, not new.",
+        "int3a_opposites_hot": "That shows hot, not new."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_old": "old",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_hot": "hot"
+      }
     },
     {
       "id": "i3a_u03_q13",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "kind",
-        "sad",
-        "glad",
-        "fun"
+      "type": 1,
+      "prompt_text": "This is wet.",
+      "audio_id": "u03_q13",
+      "image_ids": [
+        "int3a_opposites_wet",
+        "int3a_opposites_hard",
+        "int3a_opposites_hot",
+        "int3a_opposites_small"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_wet",
+        "int3a_opposites_hard",
+        "int3a_opposites_hot",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_wet",
       "why_wrong": {
-        "kind": "Not quite — try again!",
-        "glad": "Not quite — try again!",
-        "fun": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not wet.",
+        "int3a_opposites_hot": "That shows hot, not wet.",
+        "int3a_opposites_small": "That shows small, not wet."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_small": "small"
+      }
     },
     {
       "id": "i3a_u03_q14",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "early",
-        "soon",
-        "quick",
-        "slow"
+      "type": 1,
+      "prompt_text": "That is dry.",
+      "audio_id": "u03_q14",
+      "image_ids": [
+        "int3a_opposites_old",
+        "int3a_opposites_hard",
+        "int3a_opposites_good",
+        "int3a_opposites_dry"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_old",
+        "int3a_opposites_hard",
+        "int3a_opposites_good",
+        "int3a_opposites_dry"
+      ],
+      "correct": "int3a_opposites_dry",
       "why_wrong": {
-        "early": "Not quite — try again!",
-        "soon": "Not quite — try again!",
-        "quick": "Not quite — try again!"
+        "int3a_opposites_old": "That shows old, not dry.",
+        "int3a_opposites_hard": "That shows hard, not dry.",
+        "int3a_opposites_good": "That shows good, not dry."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_old": "old",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_good": "good",
+        "int3a_opposites_dry": "dry"
+      }
     },
     {
       "id": "i3a_u03_q15",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fresh",
-        "clear",
-        "dirty",
-        "neat"
+      "type": 1,
+      "prompt_text": "How is it? This is good.",
+      "audio_id": "u03_q15",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_good",
+        "int3a_opposites_new",
+        "int3a_opposites_cold"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_good",
+        "int3a_opposites_new",
+        "int3a_opposites_cold"
+      ],
+      "correct": "int3a_opposites_good",
       "why_wrong": {
-        "fresh": "Not quite — try again!",
-        "clear": "Not quite — try again!",
-        "neat": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not good.",
+        "int3a_opposites_new": "That shows new, not good.",
+        "int3a_opposites_cold": "That shows cold, not good."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_good": "good",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_cold": "cold"
+      }
     },
     {
       "id": "i3a_u03_q16",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "warm",
-        "spicy",
-        "bright",
-        "cold"
+      "type": 1,
+      "prompt_text": "This is bad.",
+      "audio_id": "u03_q16",
+      "image_ids": [
+        "int3a_opposites_wet",
+        "int3a_opposites_old",
+        "int3a_opposites_bad",
+        "int3a_opposites_dry"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_wet",
+        "int3a_opposites_old",
+        "int3a_opposites_bad",
+        "int3a_opposites_dry"
+      ],
+      "correct": "int3a_opposites_bad",
       "why_wrong": {
-        "warm": "Not quite — try again!",
-        "spicy": "Not quite — try again!",
-        "bright": "Not quite — try again!"
+        "int3a_opposites_wet": "That shows wet, not bad.",
+        "int3a_opposites_old": "That shows old, not bad.",
+        "int3a_opposites_dry": "That shows dry, not bad."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_dry": "dry"
+      }
     },
     {
       "id": "i3a_u03_q17",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "tall",
-        "wide",
-        "long",
-        "small"
+      "type": 1,
+      "prompt_text": "That is cold.",
+      "audio_id": "u03_q17",
+      "image_ids": [
+        "int3a_opposites_wet",
+        "int3a_opposites_big",
+        "int3a_opposites_cold",
+        "int3a_opposites_good"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_wet",
+        "int3a_opposites_big",
+        "int3a_opposites_cold",
+        "int3a_opposites_good"
+      ],
+      "correct": "int3a_opposites_cold",
       "why_wrong": {
-        "tall": "Not quite — try again!",
-        "wide": "Not quite — try again!",
-        "long": "Not quite — try again!"
+        "int3a_opposites_wet": "That shows wet, not cold.",
+        "int3a_opposites_big": "That shows big, not cold.",
+        "int3a_opposites_good": "That shows good, not cold."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_big": "big",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_good": "good"
+      }
     },
     {
       "id": "i3a_u03_q18",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fun",
-        "kind",
-        "sad",
-        "glad"
+      "type": 1,
+      "prompt_text": "How is it? This is hot.",
+      "audio_id": "u03_q18",
+      "image_ids": [
+        "int3a_opposites_good",
+        "int3a_opposites_hard",
+        "int3a_opposites_new",
+        "int3a_opposites_hot"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_good",
+        "int3a_opposites_hard",
+        "int3a_opposites_new",
+        "int3a_opposites_hot"
+      ],
+      "correct": "int3a_opposites_hot",
       "why_wrong": {
-        "fun": "Not quite — try again!",
-        "kind": "Not quite — try again!",
-        "glad": "Not quite — try again!"
+        "int3a_opposites_good": "That shows good, not hot.",
+        "int3a_opposites_hard": "That shows hard, not hot.",
+        "int3a_opposites_new": "That shows new, not hot."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_good": "good",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_hot": "hot"
+      }
     },
     {
       "id": "i3a_u03_q19",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "quick",
-        "slow",
-        "early",
-        "soon"
+      "type": 1,
+      "prompt_text": "This is small.",
+      "audio_id": "u03_q19",
+      "image_ids": [
+        "int3a_opposites_hard",
+        "int3a_opposites_cold",
+        "int3a_opposites_big",
+        "int3a_opposites_small"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_hard",
+        "int3a_opposites_cold",
+        "int3a_opposites_big",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_small",
       "why_wrong": {
-        "quick": "Not quite — try again!",
-        "early": "Not quite — try again!",
-        "soon": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not small.",
+        "int3a_opposites_cold": "That shows cold, not small.",
+        "int3a_opposites_big": "That shows big, not small."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_big": "big",
+        "int3a_opposites_small": "small"
+      }
     },
     {
       "id": "i3a_u03_q20",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "neat",
-        "clear",
-        "dirty",
-        "fresh"
+      "type": 1,
+      "prompt_text": "That is big.",
+      "audio_id": "u03_q20",
+      "image_ids": [
+        "int3a_opposites_hard",
+        "int3a_opposites_cold",
+        "int3a_opposites_soft",
+        "int3a_opposites_big"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_hard",
+        "int3a_opposites_cold",
+        "int3a_opposites_soft",
+        "int3a_opposites_big"
+      ],
+      "correct": "int3a_opposites_big",
       "why_wrong": {
-        "neat": "Not quite — try again!",
-        "clear": "Not quite — try again!",
-        "fresh": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not big.",
+        "int3a_opposites_cold": "That shows cold, not big.",
+        "int3a_opposites_soft": "That shows soft, not big."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_big": "big"
+      }
     },
     {
       "id": "i3a_u03_q21",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "spicy",
-        "warm",
-        "bright",
-        "cold"
+      "type": 1,
+      "prompt_text": "How is it? This is soft.",
+      "audio_id": "u03_q21",
+      "image_ids": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_soft",
+        "int3a_opposites_small",
+        "int3a_opposites_hard"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_soft",
+        "int3a_opposites_small",
+        "int3a_opposites_hard"
+      ],
+      "correct": "int3a_opposites_soft",
       "why_wrong": {
-        "spicy": "Not quite — try again!",
-        "warm": "Not quite — try again!",
-        "bright": "Not quite — try again!"
+        "int3a_opposites_quiet": "That shows quiet, not soft.",
+        "int3a_opposites_small": "That shows small, not soft.",
+        "int3a_opposites_hard": "That shows hard, not soft."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_hard": "hard"
+      }
     },
     {
       "id": "i3a_u03_q22",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "wide",
-        "long",
-        "small",
-        "tall"
+      "type": 1,
+      "prompt_text": "This is hard.",
+      "audio_id": "u03_q22",
+      "image_ids": [
+        "int3a_opposites_good",
+        "int3a_opposites_bad",
+        "int3a_opposites_old",
+        "int3a_opposites_hard"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_good",
+        "int3a_opposites_bad",
+        "int3a_opposites_old",
+        "int3a_opposites_hard"
+      ],
+      "correct": "int3a_opposites_hard",
       "why_wrong": {
-        "wide": "Not quite — try again!",
-        "long": "Not quite — try again!",
-        "tall": "Not quite — try again!"
+        "int3a_opposites_good": "That shows good, not hard.",
+        "int3a_opposites_bad": "That shows bad, not hard.",
+        "int3a_opposites_old": "That shows old, not hard."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_good": "good",
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_hard": "hard"
+      }
     },
     {
       "id": "i3a_u03_q23",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fun",
-        "glad",
-        "kind",
-        "sad"
+      "type": 1,
+      "prompt_text": "That is quiet.",
+      "audio_id": "u03_q23",
+      "image_ids": [
+        "int3a_opposites_cold",
+        "int3a_opposites_quiet",
+        "int3a_opposites_hard",
+        "int3a_opposites_wet"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_cold",
+        "int3a_opposites_quiet",
+        "int3a_opposites_hard",
+        "int3a_opposites_wet"
+      ],
+      "correct": "int3a_opposites_quiet",
       "why_wrong": {
-        "fun": "Not quite — try again!",
-        "glad": "Not quite — try again!",
-        "kind": "Not quite — try again!"
+        "int3a_opposites_cold": "That shows cold, not quiet.",
+        "int3a_opposites_hard": "That shows hard, not quiet.",
+        "int3a_opposites_wet": "That shows wet, not quiet."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_wet": "wet"
+      }
     },
     {
       "id": "i3a_u03_q24",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "soon",
-        "quick",
-        "early",
-        "slow"
+      "type": 1,
+      "prompt_text": "How is it? This is loud.",
+      "audio_id": "u03_q24",
+      "image_ids": [
+        "int3a_opposites_soft",
+        "int3a_opposites_hard",
+        "int3a_opposites_old",
+        "int3a_opposites_loud"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_soft",
+        "int3a_opposites_hard",
+        "int3a_opposites_old",
+        "int3a_opposites_loud"
+      ],
+      "correct": "int3a_opposites_loud",
       "why_wrong": {
-        "soon": "Not quite — try again!",
-        "quick": "Not quite — try again!",
-        "early": "Not quite — try again!"
+        "int3a_opposites_soft": "That shows soft, not loud.",
+        "int3a_opposites_hard": "That shows hard, not loud.",
+        "int3a_opposites_old": "That shows old, not loud."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_loud": "loud"
+      }
     },
     {
       "id": "i3a_u03_q25",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fresh",
-        "dirty",
-        "neat",
-        "clear"
+      "type": 1,
+      "prompt_text": "This is old.",
+      "audio_id": "u03_q25",
+      "image_ids": [
+        "int3a_opposites_bad",
+        "int3a_opposites_old",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_bad",
+        "int3a_opposites_old",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
+      ],
+      "correct": "int3a_opposites_old",
       "why_wrong": {
-        "fresh": "Not quite — try again!",
-        "neat": "Not quite — try again!",
-        "clear": "Not quite — try again!"
+        "int3a_opposites_bad": "That shows bad, not old.",
+        "int3a_opposites_cold": "That shows cold, not old.",
+        "int3a_opposites_new": "That shows new, not old."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_new": "new"
+      }
     },
     {
       "id": "i3a_u03_q26",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "cold",
-        "warm",
-        "spicy",
-        "bright"
+      "type": 1,
+      "prompt_text": "That is new.",
+      "audio_id": "u03_q26",
+      "image_ids": [
+        "int3a_opposites_new",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_new",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good"
+      ],
+      "correct": "int3a_opposites_new",
       "why_wrong": {
-        "warm": "Not quite — try again!",
-        "spicy": "Not quite — try again!",
-        "bright": "Not quite — try again!"
+        "int3a_opposites_small": "That shows small, not new.",
+        "int3a_opposites_quiet": "That shows quiet, not new.",
+        "int3a_opposites_good": "That shows good, not new."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_new": "new",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_good": "good"
+      }
     },
     {
       "id": "i3a_u03_q27",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "wide",
-        "small",
-        "long",
-        "tall"
+      "type": 1,
+      "prompt_text": "How is it? This is wet.",
+      "audio_id": "u03_q27",
+      "image_ids": [
+        "int3a_opposites_old",
+        "int3a_opposites_quiet",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_old",
+        "int3a_opposites_quiet",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold"
+      ],
+      "correct": "int3a_opposites_wet",
       "why_wrong": {
-        "wide": "Not quite — try again!",
-        "long": "Not quite — try again!",
-        "tall": "Not quite — try again!"
+        "int3a_opposites_old": "That shows old, not wet.",
+        "int3a_opposites_quiet": "That shows quiet, not wet.",
+        "int3a_opposites_cold": "That shows cold, not wet."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_old": "old",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_cold": "cold"
+      }
     },
     {
       "id": "i3a_u03_q28",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "sad",
-        "fun",
-        "kind",
-        "glad"
+      "type": 1,
+      "prompt_text": "This is dry.",
+      "audio_id": "u03_q28",
+      "image_ids": [
+        "int3a_opposites_cold",
+        "int3a_opposites_old",
+        "int3a_opposites_soft",
+        "int3a_opposites_dry"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_opposites_cold",
+        "int3a_opposites_old",
+        "int3a_opposites_soft",
+        "int3a_opposites_dry"
+      ],
+      "correct": "int3a_opposites_dry",
       "why_wrong": {
-        "fun": "Not quite — try again!",
-        "kind": "Not quite — try again!",
-        "glad": "Not quite — try again!"
+        "int3a_opposites_cold": "That shows cold, not dry.",
+        "int3a_opposites_old": "That shows old, not dry.",
+        "int3a_opposites_soft": "That shows soft, not dry."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_dry": "dry"
+      }
     },
     {
       "id": "i3a_u03_q29",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "quick",
-        "soon",
-        "slow",
-        "early"
+      "type": 1,
+      "prompt_text": "That is good.",
+      "audio_id": "u03_q29",
+      "image_ids": [
+        "int3a_opposites_good",
+        "int3a_opposites_dry",
+        "int3a_opposites_small",
+        "int3a_opposites_new"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_opposites_good",
+        "int3a_opposites_dry",
+        "int3a_opposites_small",
+        "int3a_opposites_new"
+      ],
+      "correct": "int3a_opposites_good",
       "why_wrong": {
-        "quick": "Not quite — try again!",
-        "soon": "Not quite — try again!",
-        "early": "Not quite — try again!"
+        "int3a_opposites_dry": "That shows dry, not good.",
+        "int3a_opposites_small": "That shows small, not good.",
+        "int3a_opposites_new": "That shows new, not good."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_good": "good",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_new": "new"
+      }
     },
     {
       "id": "i3a_u03_q30",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "dirty",
-        "clear",
-        "fresh",
-        "neat"
+      "type": 1,
+      "prompt_text": "How is it? This is bad.",
+      "audio_id": "u03_q30",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_bad",
+        "int3a_opposites_wet",
+        "int3a_opposites_hot"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_bad",
+        "int3a_opposites_wet",
+        "int3a_opposites_hot"
+      ],
+      "correct": "int3a_opposites_bad",
       "why_wrong": {
-        "clear": "Not quite — try again!",
-        "fresh": "Not quite — try again!",
-        "neat": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not bad.",
+        "int3a_opposites_wet": "That shows wet, not bad.",
+        "int3a_opposites_hot": "That shows hot, not bad."
       },
       "unit": 3,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_hot": "hot"
+      }
     }
   ]
 }

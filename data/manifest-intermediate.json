@@ -304,7 +304,7 @@
         {
           "id": "unit01",
           "path": "staging/INT3A/unit01/questions.json",
-          "title": "Intermediate 3A Unit 1: Draw and Art",
+          "title": "Intermediate 3A Unit 1: I Can Draw a Monster",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -312,7 +312,7 @@
         {
           "id": "unit02",
           "path": "staging/INT3A/unit02/questions.json",
-          "title": "Intermediate 3A Unit 2: Asking Opinions",
+          "title": "Intermediate 3A Unit 2: What Flavor Do You Like?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -320,7 +320,7 @@
         {
           "id": "unit03",
           "path": "staging/INT3A/unit03/questions.json",
-          "title": "Intermediate 3A Unit 3: Adjectives and Opposites",
+          "title": "Intermediate 3A Unit 3: Opposites",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -328,7 +328,7 @@
         {
           "id": "unit04",
           "path": "staging/INT3A/unit04/questions.json",
-          "title": "Intermediate 3A Unit 4: Age Questions",
+          "title": "Intermediate 3A Unit 4: How Old Is He?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -336,7 +336,7 @@
         {
           "id": "unit05",
           "path": "staging/INT3A/unit05/questions.json",
-          "title": "Intermediate 3A Unit 5: Insects and Bugs",
+          "title": "Intermediate 3A Unit 5: What Is This Bug?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -344,7 +344,7 @@
         {
           "id": "unit06",
           "path": "staging/INT3A/unit06/questions.json",
-          "title": "Intermediate 3A Unit 6: Greetings",
+          "title": "Intermediate 3A Unit 6: What Is Your Name?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -352,7 +352,7 @@
         {
           "id": "unit07",
           "path": "staging/INT3A/unit07/questions.json",
-          "title": "Intermediate 3A Unit 7: Exercise and Sports",
+          "title": "Intermediate 3A Unit 7: Gym Class",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -360,7 +360,7 @@
         {
           "id": "unit08",
           "path": "staging/INT3A/unit08/questions.json",
-          "title": "Intermediate 3A Unit 8: Self Introduction",
+          "title": "Intermediate 3A Unit 8: Introduction",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -370,7 +370,7 @@
           "path": "staging/INT3A/midterm_1_4/questions.json",
           "title": "Intermediate 3A Midterm Units 1–4",
           "kind": "midterm_1_4",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -378,7 +378,7 @@
           "path": "staging/INT3A/midterm_5_8/questions.json",
           "title": "Intermediate 3A Midterm Units 5–8",
           "kind": "midterm_5_8",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -386,7 +386,7 @@
           "path": "staging/INT3A/final/questions.json",
           "title": "Intermediate 3A Final Exam",
           "kind": "final",
-          "count": 32,
+          "count": 35,
           "pass_percent": 80
         }
       ],
@@ -394,7 +394,7 @@
         "pictures": "images/int3a",
         "audio": "audio/int3a"
       },
-      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+      "staging_note": "REAL packs wired 2026-09-18. 11/11 playable. 89/89 PNGs. 278 mp3s (units+mid14); mid58/final Web Speech TTS fallback. type-1 listen_pick_picture; int3a_* ids."
     },
     {
       "id": "int3b",

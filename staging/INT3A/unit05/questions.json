@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 5: Insects and Bugs",
+    "title": "Intermediate 3A Unit 5: What Is This Bug?",
     "kind": "unit",
     "units_covered": [
       5
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u05_q01",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a bird.",
-        "It's a dog.",
-        "It's a butterfly.",
-        "It's a fish."
+      "type": 1,
+      "prompt_text": "It is a moth.",
+      "audio_id": "u05_q01",
+      "image_ids": [
+        "int3a_bug_ant",
+        "int3a_bug_spider",
+        "int3a_bug_moth",
+        "int3a_bug_silkworm"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_ant",
+        "int3a_bug_spider",
+        "int3a_bug_moth",
+        "int3a_bug_silkworm"
+      ],
+      "correct": "int3a_bug_moth",
       "why_wrong": {
-        "It's a bird.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!"
+        "int3a_bug_ant": "That shows ant, not moth.",
+        "int3a_bug_spider": "That shows spider, not moth.",
+        "int3a_bug_silkworm": "That shows silkworm, not moth."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ant": "ant",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_silkworm": "silkworm"
+      }
     },
     {
       "id": "i3a_u05_q02",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The shiny black bug.",
-        "The yellow flower.",
-        "The green leaf.",
-        "The blue sky."
+      "type": 1,
+      "prompt_text": "What is this bug? It is a centipede.",
+      "audio_id": "u05_q02",
+      "image_ids": [
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_centipede"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_centipede"
+      ],
+      "correct": "int3a_bug_centipede",
       "why_wrong": {
-        "The yellow flower.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!",
-        "The blue sky.": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not centipede.",
+        "int3a_bug_cockroach": "That shows cockroach, not centipede.",
+        "int3a_bug_silkworm": "That shows silkworm, not centipede."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_centipede": "centipede"
+      }
     },
     {
       "id": "i3a_u05_q03",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a turtle",
-        "a dolphin",
-        "a grasshopper",
-        "a rabbit"
+      "type": 1,
+      "prompt_text": "It is a mosquito.",
+      "audio_id": "u05_q03",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_moth",
+        "int3a_bug_cockroach",
+        "int3a_bug_firefly"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_moth",
+        "int3a_bug_cockroach",
+        "int3a_bug_firefly"
+      ],
+      "correct": "int3a_bug_mosquito",
       "why_wrong": {
-        "a turtle": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!",
-        "a rabbit": "Not quite — try again!"
+        "int3a_bug_moth": "That shows moth, not mosquito.",
+        "int3a_bug_cockroach": "That shows cockroach, not mosquito.",
+        "int3a_bug_firefly": "That shows firefly, not mosquito."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_firefly": "firefly"
+      }
     },
     {
       "id": "i3a_u05_q04",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "bird",
-        "insect",
-        "fish",
-        "mammal"
+      "type": 1,
+      "prompt_text": "It is a cicada.",
+      "audio_id": "u05_q04",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_cicada",
       "why_wrong": {
-        "bird": "Not quite — try again!",
-        "fish": "Not quite — try again!",
-        "mammal": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not cicada.",
+        "int3a_bug_silkworm": "That shows silkworm, not cicada.",
+        "int3a_bug_cockroach": "That shows cockroach, not cicada."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
       "id": "i3a_u05_q05",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a bee",
-        "a worm",
-        "a spider",
-        "a snail"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a spider.",
+      "audio_id": "u05_q05",
+      "image_ids": [
+        "int3a_bug_spider",
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_ant"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_spider",
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_ant"
+      ],
+      "correct": "int3a_bug_spider",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a spider": "Not quite — try again!",
-        "a snail": "Not quite — try again!"
+        "int3a_bug_cockroach": "That shows cockroach, not spider.",
+        "int3a_bug_ladybug": "That shows ladybug, not spider.",
+        "int3a_bug_ant": "That shows ant, not spider."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_spider": "spider",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_ant": "ant"
+      }
     },
     {
       "id": "i3a_u05_q06",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a dog.",
-        "It's a fish.",
-        "It's a butterfly.",
-        "It's a bird."
+      "type": 1,
+      "prompt_text": "It is a cockroach.",
+      "audio_id": "u05_q06",
+      "image_ids": [
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_moth",
+        "int3a_bug_cicada"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_moth",
+        "int3a_bug_cicada"
+      ],
+      "correct": "int3a_bug_cockroach",
       "why_wrong": {
-        "It's a dog.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!",
-        "It's a bird.": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not cockroach.",
+        "int3a_bug_moth": "That shows moth, not cockroach.",
+        "int3a_bug_cicada": "That shows cicada, not cockroach."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_cicada": "cicada"
+      }
     },
     {
       "id": "i3a_u05_q07",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The yellow flower.",
-        "The shiny black bug.",
-        "The green leaf.",
-        "The blue sky."
+      "type": 1,
+      "prompt_text": "It is an ant.",
+      "audio_id": "u05_q07",
+      "image_ids": [
+        "int3a_bug_ladybug",
+        "int3a_bug_centipede",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_ladybug",
+        "int3a_bug_centipede",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
+      ],
+      "correct": "int3a_bug_ant",
       "why_wrong": {
-        "The yellow flower.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!",
-        "The blue sky.": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not ant.",
+        "int3a_bug_centipede": "That shows centipede, not ant.",
+        "int3a_bug_mosquito": "That shows mosquito, not ant."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_ant": "ant",
+        "int3a_bug_mosquito": "mosquito"
+      }
     },
     {
       "id": "i3a_u05_q08",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a grasshopper",
-        "a turtle",
-        "a rabbit",
-        "a dolphin"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a silkworm.",
+      "audio_id": "u05_q08",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_firefly"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_firefly"
+      ],
+      "correct": "int3a_bug_silkworm",
       "why_wrong": {
-        "a turtle": "Not quite — try again!",
-        "a rabbit": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not silkworm.",
+        "int3a_bug_cockroach": "That shows cockroach, not silkworm.",
+        "int3a_bug_firefly": "That shows firefly, not silkworm."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_firefly": "firefly"
+      }
     },
     {
       "id": "i3a_u05_q09",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "bird",
-        "insect",
-        "fish",
-        "mammal"
+      "type": 1,
+      "prompt_text": "It is a butterfly.",
+      "audio_id": "u05_q09",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_butterfly",
+        "int3a_bug_spider",
+        "int3a_bug_moth"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_butterfly",
+        "int3a_bug_spider",
+        "int3a_bug_moth"
+      ],
+      "correct": "int3a_bug_butterfly",
       "why_wrong": {
-        "bird": "Not quite — try again!",
-        "fish": "Not quite — try again!",
-        "mammal": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not butterfly.",
+        "int3a_bug_spider": "That shows spider, not butterfly.",
+        "int3a_bug_moth": "That shows moth, not butterfly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_moth": "moth"
+      }
     },
     {
       "id": "i3a_u05_q10",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a worm",
-        "a spider",
-        "a bee",
-        "a snail"
+      "type": 1,
+      "prompt_text": "It is a firefly.",
+      "audio_id": "u05_q10",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_firefly",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a spider": "Not quite — try again!",
-        "a snail": "Not quite — try again!"
+        "int3a_bug_cicada": "That shows cicada, not firefly.",
+        "int3a_bug_butterfly": "That shows butterfly, not firefly.",
+        "int3a_bug_cockroach": "That shows cockroach, not firefly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
       "id": "i3a_u05_q11",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a fish.",
-        "It's a bird.",
-        "It's a dog.",
-        "It's a butterfly."
+      "type": 1,
+      "prompt_text": "What is this bug? It is a moth.",
+      "audio_id": "u05_q11",
+      "image_ids": [
+        "int3a_bug_butterfly",
+        "int3a_bug_moth",
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_butterfly",
+        "int3a_bug_moth",
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_moth",
       "why_wrong": {
-        "It's a fish.": "Not quite — try again!",
-        "It's a bird.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!"
+        "int3a_bug_butterfly": "That shows butterfly, not moth.",
+        "int3a_bug_centipede": "That shows centipede, not moth.",
+        "int3a_bug_cockroach": "That shows cockroach, not moth."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
       "id": "i3a_u05_q12",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The yellow flower.",
-        "The blue sky.",
-        "The shiny black bug.",
-        "The green leaf."
+      "type": 1,
+      "prompt_text": "It is a centipede.",
+      "audio_id": "u05_q12",
+      "image_ids": [
+        "int3a_bug_firefly",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_centipede"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_firefly",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_centipede"
+      ],
+      "correct": "int3a_bug_centipede",
       "why_wrong": {
-        "The yellow flower.": "Not quite — try again!",
-        "The blue sky.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!"
+        "int3a_bug_firefly": "That shows firefly, not centipede.",
+        "int3a_bug_spider": "That shows spider, not centipede.",
+        "int3a_bug_cicada": "That shows cicada, not centipede."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_centipede": "centipede"
+      }
     },
     {
       "id": "i3a_u05_q13",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a turtle",
-        "a grasshopper",
-        "a dolphin",
-        "a rabbit"
+      "type": 1,
+      "prompt_text": "It is a mosquito.",
+      "audio_id": "u05_q13",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_ladybug",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_ladybug",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
+      ],
+      "correct": "int3a_bug_mosquito",
       "why_wrong": {
-        "a turtle": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!",
-        "a rabbit": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not mosquito.",
+        "int3a_bug_ladybug": "That shows ladybug, not mosquito.",
+        "int3a_bug_ant": "That shows ant, not mosquito."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_ant": "ant",
+        "int3a_bug_mosquito": "mosquito"
+      }
     },
     {
       "id": "i3a_u05_q14",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "mammal",
-        "bird",
-        "insect",
-        "fish"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a cicada.",
+      "audio_id": "u05_q14",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach",
+        "int3a_bug_butterfly"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach",
+        "int3a_bug_butterfly"
+      ],
+      "correct": "int3a_bug_cicada",
       "why_wrong": {
-        "mammal": "Not quite — try again!",
-        "bird": "Not quite — try again!",
-        "fish": "Not quite — try again!"
+        "int3a_bug_firefly": "That shows firefly, not cicada.",
+        "int3a_bug_cockroach": "That shows cockroach, not cicada.",
+        "int3a_bug_butterfly": "That shows butterfly, not cicada."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_butterfly": "butterfly"
+      }
     },
     {
       "id": "i3a_u05_q15",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a snail",
-        "a worm",
-        "a spider",
-        "a bee"
+      "type": 1,
+      "prompt_text": "It is a spider.",
+      "audio_id": "u05_q15",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_spider",
+        "int3a_bug_silkworm",
+        "int3a_bug_cicada"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_spider",
+        "int3a_bug_silkworm",
+        "int3a_bug_cicada"
+      ],
+      "correct": "int3a_bug_spider",
       "why_wrong": {
-        "a snail": "Not quite — try again!",
-        "a worm": "Not quite — try again!",
-        "a spider": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not spider.",
+        "int3a_bug_silkworm": "That shows silkworm, not spider.",
+        "int3a_bug_cicada": "That shows cicada, not spider."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_cicada": "cicada"
+      }
     },
     {
       "id": "i3a_u05_q16",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a bird.",
-        "It's a dog.",
-        "It's a fish.",
-        "It's a butterfly."
+      "type": 1,
+      "prompt_text": "It is a cockroach.",
+      "audio_id": "u05_q16",
+      "image_ids": [
+        "int3a_bug_ant",
+        "int3a_bug_butterfly",
+        "int3a_bug_cockroach",
+        "int3a_bug_moth"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_ant",
+        "int3a_bug_butterfly",
+        "int3a_bug_cockroach",
+        "int3a_bug_moth"
+      ],
+      "correct": "int3a_bug_cockroach",
       "why_wrong": {
-        "It's a bird.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!"
+        "int3a_bug_ant": "That shows ant, not cockroach.",
+        "int3a_bug_butterfly": "That shows butterfly, not cockroach.",
+        "int3a_bug_moth": "That shows moth, not cockroach."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ant": "ant",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_moth": "moth"
+      }
     },
     {
       "id": "i3a_u05_q17",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The blue sky.",
-        "The green leaf.",
-        "The yellow flower.",
-        "The shiny black bug."
+      "type": 1,
+      "prompt_text": "What is this bug? It is an ant.",
+      "audio_id": "u05_q17",
+      "image_ids": [
+        "int3a_bug_ant",
+        "int3a_bug_ladybug",
+        "int3a_bug_spider",
+        "int3a_bug_mosquito"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_ant",
+        "int3a_bug_ladybug",
+        "int3a_bug_spider",
+        "int3a_bug_mosquito"
+      ],
+      "correct": "int3a_bug_ant",
       "why_wrong": {
-        "The blue sky.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!",
-        "The yellow flower.": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not ant.",
+        "int3a_bug_spider": "That shows spider, not ant.",
+        "int3a_bug_mosquito": "That shows mosquito, not ant."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ant": "ant",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_mosquito": "mosquito"
+      }
     },
     {
       "id": "i3a_u05_q18",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a rabbit",
-        "a dolphin",
-        "a grasshopper",
-        "a turtle"
+      "type": 1,
+      "prompt_text": "It is a silkworm.",
+      "audio_id": "u05_q18",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_silkworm"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_cockroach",
+        "int3a_bug_ladybug",
+        "int3a_bug_silkworm"
+      ],
+      "correct": "int3a_bug_silkworm",
       "why_wrong": {
-        "a rabbit": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!",
-        "a turtle": "Not quite — try again!"
+        "int3a_bug_cicada": "That shows cicada, not silkworm.",
+        "int3a_bug_cockroach": "That shows cockroach, not silkworm.",
+        "int3a_bug_ladybug": "That shows ladybug, not silkworm."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_silkworm": "silkworm"
+      }
     },
     {
       "id": "i3a_u05_q19",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "insect",
-        "fish",
-        "mammal",
-        "bird"
+      "type": 1,
+      "prompt_text": "It is a butterfly.",
+      "audio_id": "u05_q19",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
+      ],
+      "correct": "int3a_bug_butterfly",
       "why_wrong": {
-        "fish": "Not quite — try again!",
-        "mammal": "Not quite — try again!",
-        "bird": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not butterfly.",
+        "int3a_bug_spider": "That shows spider, not butterfly.",
+        "int3a_bug_cicada": "That shows cicada, not butterfly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly"
+      }
     },
     {
       "id": "i3a_u05_q20",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a worm",
-        "a spider",
-        "a bee",
-        "a snail"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a firefly.",
+      "audio_id": "u05_q20",
+      "image_ids": [
+        "int3a_bug_firefly",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_moth"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_firefly",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_moth"
+      ],
+      "correct": "int3a_bug_firefly",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a spider": "Not quite — try again!",
-        "a snail": "Not quite — try again!"
+        "int3a_bug_cicada": "That shows cicada, not firefly.",
+        "int3a_bug_butterfly": "That shows butterfly, not firefly.",
+        "int3a_bug_moth": "That shows moth, not firefly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_moth": "moth"
+      }
     },
     {
       "id": "i3a_u05_q21",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a fish.",
-        "It's a dog.",
-        "It's a butterfly.",
-        "It's a bird."
+      "type": 1,
+      "prompt_text": "It is a moth.",
+      "audio_id": "u05_q21",
+      "image_ids": [
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach",
+        "int3a_bug_moth"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach",
+        "int3a_bug_moth"
+      ],
+      "correct": "int3a_bug_moth",
       "why_wrong": {
-        "It's a fish.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!",
-        "It's a bird.": "Not quite — try again!"
+        "int3a_bug_butterfly": "That shows butterfly, not moth.",
+        "int3a_bug_firefly": "That shows firefly, not moth.",
+        "int3a_bug_cockroach": "That shows cockroach, not moth."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_moth": "moth"
+      }
     },
     {
       "id": "i3a_u05_q22",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The green leaf.",
-        "The yellow flower.",
-        "The blue sky.",
-        "The shiny black bug."
+      "type": 1,
+      "prompt_text": "It is a centipede.",
+      "audio_id": "u05_q22",
+      "image_ids": [
+        "int3a_bug_ladybug",
+        "int3a_bug_ant",
+        "int3a_bug_firefly",
+        "int3a_bug_centipede"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_ladybug",
+        "int3a_bug_ant",
+        "int3a_bug_firefly",
+        "int3a_bug_centipede"
+      ],
+      "correct": "int3a_bug_centipede",
       "why_wrong": {
-        "The green leaf.": "Not quite — try again!",
-        "The yellow flower.": "Not quite — try again!",
-        "The blue sky.": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not centipede.",
+        "int3a_bug_ant": "That shows ant, not centipede.",
+        "int3a_bug_firefly": "That shows firefly, not centipede."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_ant": "ant",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_centipede": "centipede"
+      }
     },
     {
       "id": "i3a_u05_q23",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a turtle",
-        "a rabbit",
-        "a dolphin",
-        "a grasshopper"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a mosquito.",
+      "audio_id": "u05_q23",
+      "image_ids": [
+        "int3a_bug_ant",
+        "int3a_bug_firefly",
+        "int3a_bug_spider",
+        "int3a_bug_mosquito"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_ant",
+        "int3a_bug_firefly",
+        "int3a_bug_spider",
+        "int3a_bug_mosquito"
+      ],
+      "correct": "int3a_bug_mosquito",
       "why_wrong": {
-        "a turtle": "Not quite — try again!",
-        "a rabbit": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!"
+        "int3a_bug_ant": "That shows ant, not mosquito.",
+        "int3a_bug_firefly": "That shows firefly, not mosquito.",
+        "int3a_bug_spider": "That shows spider, not mosquito."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ant": "ant",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_mosquito": "mosquito"
+      }
     },
     {
       "id": "i3a_u05_q24",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "fish",
-        "mammal",
-        "bird",
-        "insect"
+      "type": 1,
+      "prompt_text": "It is a cicada.",
+      "audio_id": "u05_q24",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_ant"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_ant"
+      ],
+      "correct": "int3a_bug_cicada",
       "why_wrong": {
-        "fish": "Not quite — try again!",
-        "mammal": "Not quite — try again!",
-        "bird": "Not quite — try again!"
+        "int3a_bug_silkworm": "That shows silkworm, not cicada.",
+        "int3a_bug_butterfly": "That shows butterfly, not cicada.",
+        "int3a_bug_ant": "That shows ant, not cicada."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_ant": "ant"
+      }
     },
     {
       "id": "i3a_u05_q25",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a worm",
-        "a bee",
-        "a snail",
-        "a spider"
+      "type": 1,
+      "prompt_text": "It is a spider.",
+      "audio_id": "u05_q25",
+      "image_ids": [
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_spider"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_spider"
+      ],
+      "correct": "int3a_bug_spider",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a snail": "Not quite — try again!",
-        "a spider": "Not quite — try again!"
+        "int3a_bug_silkworm": "That shows silkworm, not spider.",
+        "int3a_bug_butterfly": "That shows butterfly, not spider.",
+        "int3a_bug_firefly": "That shows firefly, not spider."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_spider": "spider"
+      }
     },
     {
       "id": "i3a_u05_q26",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a bird.",
-        "It's a dog.",
-        "It's a fish.",
-        "It's a butterfly."
+      "type": 1,
+      "prompt_text": "What is this bug? It is a cockroach.",
+      "audio_id": "u05_q26",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_butterfly",
+        "int3a_bug_cockroach",
+        "int3a_bug_ant"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_butterfly",
+        "int3a_bug_cockroach",
+        "int3a_bug_ant"
+      ],
+      "correct": "int3a_bug_cockroach",
       "why_wrong": {
-        "It's a bird.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not cockroach.",
+        "int3a_bug_butterfly": "That shows butterfly, not cockroach.",
+        "int3a_bug_ant": "That shows ant, not cockroach."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_ant": "ant"
+      }
     },
     {
       "id": "i3a_u05_q27",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The shiny black bug.",
-        "The yellow flower.",
-        "The blue sky.",
-        "The green leaf."
+      "type": 1,
+      "prompt_text": "It is an ant.",
+      "audio_id": "u05_q27",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_ant",
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_ant",
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_ant",
       "why_wrong": {
-        "The yellow flower.": "Not quite — try again!",
-        "The blue sky.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not ant.",
+        "int3a_bug_ladybug": "That shows ladybug, not ant.",
+        "int3a_bug_cockroach": "That shows cockroach, not ant."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_ant": "ant",
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
       "id": "i3a_u05_q28",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a rabbit",
-        "a turtle",
-        "a dolphin",
-        "a grasshopper"
+      "type": 1,
+      "prompt_text": "It is a silkworm.",
+      "audio_id": "u05_q28",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_spider",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_spider",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm"
+      ],
+      "correct": "int3a_bug_silkworm",
       "why_wrong": {
-        "a rabbit": "Not quite — try again!",
-        "a turtle": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not silkworm.",
+        "int3a_bug_spider": "That shows spider, not silkworm.",
+        "int3a_bug_cockroach": "That shows cockroach, not silkworm."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_silkworm": "silkworm"
+      }
     },
     {
       "id": "i3a_u05_q29",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "mammal",
-        "fish",
-        "insect",
-        "bird"
+      "type": 1,
+      "prompt_text": "What is this bug? It is a butterfly.",
+      "audio_id": "u05_q29",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
+      ],
+      "correct": "int3a_bug_butterfly",
       "why_wrong": {
-        "mammal": "Not quite — try again!",
-        "fish": "Not quite — try again!",
-        "bird": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not butterfly.",
+        "int3a_bug_cockroach": "That shows cockroach, not butterfly.",
+        "int3a_bug_cicada": "That shows cicada, not butterfly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly"
+      }
     },
     {
       "id": "i3a_u05_q30",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a worm",
-        "a snail",
-        "a spider",
-        "a bee"
+      "type": 1,
+      "prompt_text": "It is a firefly.",
+      "audio_id": "u05_q30",
+      "image_ids": [
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm"
+      ],
+      "correct": "int3a_bug_firefly",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a snail": "Not quite — try again!",
-        "a spider": "Not quite — try again!"
+        "int3a_bug_butterfly": "That shows butterfly, not firefly.",
+        "int3a_bug_mosquito": "That shows mosquito, not firefly.",
+        "int3a_bug_silkworm": "That shows silkworm, not firefly."
       },
       "unit": 5,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_silkworm": "silkworm"
+      }
     }
   ]
 }

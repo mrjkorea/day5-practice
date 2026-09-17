@@ -1,10 +1,7 @@
 # INT3A staging pack
-**Status: `ORIGIN_CLONE_FAILED`**
-Shell pack — playable via TTS until Origin import succeeds.
-## Origin source
-- Git: https://origin.cursor.com/git/wait4languages/tmp-b8b36e4ac789c6db.git
-- Branch/path: main / staging/INT3A/
-- tgz sha256: `6d637714944a1d4734392f992e0605ae931829cbcc30be5545778376ede2a69e`
-- GitHub branch: `staging-int3a`
+**Status: WIRED_REAL (2026-09-18 KST)**
 
-Import: `./scripts/import_staging_from_origin.sh INT3A`
+Real type-1 listen_pick_picture packs. Shell retired.
+PNG ids: ferry list (bc-72dc707c) — 89/89 in `images/int3a/`.
+Audio: Fish 10-pack in `audio/int3a/` (Web Speech TTS fallback for any gap).
+Curriculum lock: print-charts/i3a.txt + day6-qa (2026-09-09).

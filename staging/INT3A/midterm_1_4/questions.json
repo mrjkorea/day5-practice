@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Midterm Units 1–4",
+    "title": "Intermediate 3A Midterm Units 1\u20134",
     "kind": "midterm_1_4",
     "units_covered": [
       1,
@@ -9,7 +9,7 @@
       3,
       4
     ],
-    "count": 28,
+    "count": 34,
     "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
     "types": {
       "1": "listen_pick_picture",
@@ -20,597 +20,1099 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
-      "id": "i3a_midterm_1_4_q01",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is drawing a flower.",
-        "She is sleeping.",
-        "She is cooking.",
-        "She is running."
+      "id": "i3a_mid14_q01",
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like banana.",
+      "audio_id": "mid14_q01",
+      "image_ids": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_banana",
       "why_wrong": {
-        "She is sleeping.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!",
-        "She is running.": "Not quite — try again!"
+        "int3a_flavor_vanilla": "That shows vanilla, not banana.",
+        "int3a_flavor_red_bean": "That shows red bean, not banana.",
+        "int3a_flavor_chocolate": "That shows chocolate, not banana."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q02",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like to draw animals.",
-        "I likes to draw.",
-        "I drawing animals.",
-        "I like draw animals."
+      "id": "i3a_mid14_q02",
+      "type": 1,
+      "prompt_text": "How is it? This is soft.",
+      "audio_id": "mid14_q02",
+      "image_ids": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_soft",
+        "int3a_opposites_small",
+        "int3a_opposites_hard"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_soft",
+        "int3a_opposites_small",
+        "int3a_opposites_hard"
+      ],
+      "correct": "int3a_opposites_soft",
       "why_wrong": {
-        "I likes to draw.": "Not quite — try again!",
-        "I drawing animals.": "Not quite — try again!",
-        "I like draw animals.": "Not quite — try again!"
+        "int3a_opposites_quiet": "That shows quiet, not soft.",
+        "int3a_opposites_small": "That shows small, not soft.",
+        "int3a_opposites_hard": "That shows hard, not soft."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_hard": "hard"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q03",
-      "type": 4,
-      "prompt_text": "What did he draw?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He drawing mountain.",
-        "He draw a mountain.",
-        "He draws mountain yesterday.",
-        "He drew a mountain."
+      "id": "i3a_mid14_q03",
+      "type": 1,
+      "prompt_text": "I like mint.",
+      "audio_id": "mid14_q03",
+      "image_ids": [
+        "int3a_flavor_mint",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "He drew a mountain.",
+      "choices": [
+        "int3a_flavor_mint",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_mint",
       "why_wrong": {
-        "He drawing mountain.": "Not quite — try again!",
-        "He draw a mountain.": "Not quite — try again!",
-        "He draws mountain yesterday.": "Not quite — try again!"
+        "int3a_flavor_banana": "That shows banana, not mint.",
+        "int3a_flavor_strawberry": "That shows strawberry, not mint.",
+        "int3a_flavor_red_bean": "That shows red bean, not mint."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q04",
-      "type": 4,
-      "prompt_text": "Can you draw a map?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I can draw a simple one.",
-        "He plays.",
-        "She is tall.",
-        "I am twelve."
+      "id": "i3a_mid14_q04",
+      "type": 1,
+      "prompt_text": "How is it? This is quiet.",
+      "audio_id": "mid14_q04",
+      "image_ids": [
+        "int3a_opposites_hard",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good",
+        "int3a_opposites_small"
       ],
-      "correct": "Yes, I can draw a simple one.",
+      "choices": [
+        "int3a_opposites_hard",
+        "int3a_opposites_quiet",
+        "int3a_opposites_good",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_quiet",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3a_opposites_hard": "That shows hard, not quiet.",
+        "int3a_opposites_good": "That shows good, not quiet.",
+        "int3a_opposites_small": "That shows small, not quiet."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_good": "good",
+        "int3a_opposites_small": "small"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q05",
-      "type": 4,
-      "prompt_text": "What are they drawing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They're drawing their families.",
-        "He runs.",
-        "I like red.",
-        "We eat."
+      "id": "i3a_mid14_q05",
+      "type": 1,
+      "prompt_text": "This is hot.",
+      "audio_id": "mid14_q05",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
       ],
-      "correct": "They're drawing their families.",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
+      ],
+      "correct": "int3a_opposites_hot",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not hot.",
+        "int3a_opposites_small": "That shows small, not hot.",
+        "int3a_opposites_quiet": "That shows quiet, not hot."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_quiet": "quiet"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q06",
-      "type": 4,
-      "prompt_text": "What is she doing in art class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is drawing a flower.",
-        "She is running.",
-        "She is sleeping.",
-        "She is cooking."
+      "id": "i3a_mid14_q06",
+      "type": 1,
+      "prompt_text": "My favorite flavor is strawberry.",
+      "audio_id": "mid14_q06",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana"
       ],
-      "correct": "She is drawing a flower.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana"
+      ],
+      "correct": "int3a_flavor_strawberry",
       "why_wrong": {
-        "She is running.": "Not quite — try again!",
-        "She is sleeping.": "Not quite — try again!",
-        "She is cooking.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not strawberry.",
+        "int3a_flavor_red_bean": "That shows red bean, not strawberry.",
+        "int3a_flavor_banana": "That shows banana, not strawberry."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_banana": "banana"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q07",
-      "type": 2,
-      "prompt_text": "Choose the best sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I drawing animals.",
-        "I like draw animals.",
-        "I like to draw animals.",
-        "I likes to draw."
+      "id": "i3a_mid14_q07",
+      "type": 1,
+      "prompt_text": "How old is he? He is 77 years old.",
+      "audio_id": "mid14_q07",
+      "image_ids": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100"
       ],
-      "correct": "I like to draw animals.",
+      "choices": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_77",
       "why_wrong": {
-        "I drawing animals.": "Not quite — try again!",
-        "I like draw animals.": "Not quite — try again!",
-        "I likes to draw.": "Not quite — try again!"
+        "int3a_how-old_age_15": "That shows 15 years old, not 77 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 77 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 77 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q08",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He has a bike.",
-        "She is kind.",
-        "I think it's great."
+      "id": "i3a_mid14_q08",
+      "type": 1,
+      "prompt_text": "That is quiet.",
+      "audio_id": "mid14_q08",
+      "image_ids": [
+        "int3a_opposites_cold",
+        "int3a_opposites_quiet",
+        "int3a_opposites_hard",
+        "int3a_opposites_wet"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_opposites_cold",
+        "int3a_opposites_quiet",
+        "int3a_opposites_hard",
+        "int3a_opposites_wet"
+      ],
+      "correct": "int3a_opposites_quiet",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_opposites_cold": "That shows cold, not quiet.",
+        "int3a_opposites_hard": "That shows hard, not quiet.",
+        "int3a_opposites_wet": "That shows wet, not quiet."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_wet": "wet"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q09",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs.",
-        "I'm not sure yet.",
-        "We study."
+      "id": "i3a_mid14_q09",
+      "type": 1,
+      "prompt_text": "I like melon.",
+      "audio_id": "mid14_q09",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
+      ],
+      "correct": "int3a_flavor_melon",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_flavor_mint": "That shows mint, not melon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not melon.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not melon."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q10",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "In my opinion, we should wait.",
-        "I have a pen.",
-        "She sings.",
-        "He reads."
+      "id": "i3a_mid14_q10",
+      "type": 1,
+      "prompt_text": "How is it? This is loud.",
+      "audio_id": "mid14_q10",
+      "image_ids": [
+        "int3a_opposites_soft",
+        "int3a_opposites_hard",
+        "int3a_opposites_old",
+        "int3a_opposites_loud"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_opposites_soft",
+        "int3a_opposites_hard",
+        "int3a_opposites_old",
+        "int3a_opposites_loud"
+      ],
+      "correct": "int3a_opposites_loud",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_opposites_soft": "That shows soft, not loud.",
+        "int3a_opposites_hard": "That shows hard, not loud.",
+        "int3a_opposites_old": "That shows old, not loud."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_soft": "soft",
+        "int3a_opposites_hard": "hard",
+        "int3a_opposites_old": "old",
+        "int3a_opposites_loud": "loud"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q11",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "She swims.",
-        "I think we need more time.",
-        "He jumps."
+      "id": "i3a_mid14_q11",
+      "type": 1,
+      "prompt_text": "My favorite flavor is mint.",
+      "audio_id": "mid14_q11",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_vanilla"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_vanilla"
+      ],
+      "correct": "int3a_flavor_mint",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not mint.",
+        "int3a_flavor_melon": "That shows melon, not mint.",
+        "int3a_flavor_vanilla": "That shows vanilla, not mint."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_vanilla": "vanilla"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q12",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She eats.",
-        "He sleeps.",
-        "Yes, I think so.",
-        "I like pizza."
+      "id": "i3a_mid14_q12",
+      "type": 1,
+      "prompt_text": "I like chocolate.",
+      "audio_id": "mid14_q12",
+      "image_ids": [
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_milk"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_chocolate",
       "why_wrong": {
-        "She eats.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_flavor_banana": "That shows banana, not chocolate.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not chocolate.",
+        "int3a_flavor_milk": "That shows milk, not chocolate."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_milk": "milk"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q13",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I think it's great.",
-        "I am fine.",
-        "She is kind.",
-        "He has a bike."
+      "id": "i3a_mid14_q13",
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a flag.",
+      "audio_id": "mid14_q13",
+      "image_ids": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_flag",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3a_draw-monster_star": "That shows star, not flag.",
+        "int3a_draw-monster_poo": "That shows poo, not flag.",
+        "int3a_draw-monster_apple": "That shows apple, not flag."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q14",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I'm not sure yet.",
-        "We study.",
-        "I like cats."
+      "id": "i3a_mid14_q14",
+      "type": 1,
+      "prompt_text": "I can draw a hat.",
+      "audio_id": "mid14_q14",
+      "image_ids": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster"
+      ],
+      "correct": "int3a_draw-monster_hat",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_draw-monster_star": "That shows star, not hat.",
+        "int3a_draw-monster_dragon": "That shows dragon, not hat.",
+        "int3a_draw-monster_monster": "That shows monster, not hat."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_monster": "monster"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q15",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "bright",
-        "spicy",
-        "warm",
-        "cold"
+      "id": "i3a_mid14_q15",
+      "type": 1,
+      "prompt_text": "That is small.",
+      "audio_id": "mid14_q15",
+      "image_ids": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_hot",
+        "int3a_opposites_dry",
+        "int3a_opposites_small"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_opposites_quiet",
+        "int3a_opposites_hot",
+        "int3a_opposites_dry",
+        "int3a_opposites_small"
+      ],
+      "correct": "int3a_opposites_small",
       "why_wrong": {
-        "bright": "Not quite — try again!",
-        "spicy": "Not quite — try again!",
-        "warm": "Not quite — try again!"
+        "int3a_opposites_quiet": "That shows quiet, not small.",
+        "int3a_opposites_hot": "That shows hot, not small.",
+        "int3a_opposites_dry": "That shows dry, not small."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_small": "small"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q16",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "wide",
-        "small",
-        "long",
-        "tall"
+      "id": "i3a_mid14_q16",
+      "type": 1,
+      "prompt_text": "This is soft.",
+      "audio_id": "mid14_q16",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_wet",
+        "int3a_opposites_dry",
+        "int3a_opposites_soft"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_wet",
+        "int3a_opposites_dry",
+        "int3a_opposites_soft"
+      ],
+      "correct": "int3a_opposites_soft",
       "why_wrong": {
-        "wide": "Not quite — try again!",
-        "long": "Not quite — try again!",
-        "tall": "Not quite — try again!"
+        "int3a_opposites_loud": "That shows loud, not soft.",
+        "int3a_opposites_wet": "That shows wet, not soft.",
+        "int3a_opposites_dry": "That shows dry, not soft."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_soft": "soft"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q17",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'happy'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "kind",
-        "fun",
-        "glad",
-        "sad"
+      "id": "i3a_mid14_q17",
+      "type": 1,
+      "prompt_text": "He is 27 years old.",
+      "audio_id": "mid14_q17",
+      "image_ids": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27"
       ],
-      "correct": "sad",
+      "choices": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27"
+      ],
+      "correct": "int3a_how-old_age_27",
       "why_wrong": {
-        "kind": "Not quite — try again!",
-        "fun": "Not quite — try again!",
-        "glad": "Not quite — try again!"
+        "int3a_how-old_age_36": "That shows 36 years old, not 27 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 27 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 27 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_27": "27 years old"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q18",
-      "type": 2,
-      "prompt_text": "The opposite of 'fast' is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "early",
-        "soon",
-        "slow",
-        "quick"
+      "id": "i3a_mid14_q18",
+      "type": 1,
+      "prompt_text": "How old is he? He is 55 years old.",
+      "audio_id": "mid14_q18",
+      "image_ids": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5"
       ],
-      "correct": "slow",
+      "choices": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_55",
       "why_wrong": {
-        "early": "Not quite — try again!",
-        "soon": "Not quite — try again!",
-        "quick": "Not quite — try again!"
+        "int3a_how-old_age_77": "That shows 77 years old, not 55 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 55 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 55 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q19",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'clean'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "neat",
-        "fresh",
-        "dirty",
-        "clear"
+      "id": "i3a_mid14_q19",
+      "type": 1,
+      "prompt_text": "How old is she? She is 39 years old.",
+      "audio_id": "mid14_q19",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36"
       ],
-      "correct": "dirty",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36"
+      ],
+      "correct": "int3a_how-old_age_39",
       "why_wrong": {
-        "neat": "Not quite — try again!",
-        "fresh": "Not quite — try again!",
-        "clear": "Not quite — try again!"
+        "int3a_how-old_age_77": "That shows 77 years old, not 39 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 39 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 39 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_36": "36 years old"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q20",
-      "type": 4,
-      "prompt_text": "What is the opposite of 'hot'?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "cold",
-        "warm",
-        "spicy",
-        "bright"
+      "id": "i3a_mid14_q20",
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like red bean.",
+      "audio_id": "mid14_q20",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "cold",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_red_bean",
       "why_wrong": {
-        "warm": "Not quite — try again!",
-        "spicy": "Not quite — try again!",
-        "bright": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not red bean.",
+        "int3a_flavor_strawberry": "That shows strawberry, not red bean.",
+        "int3a_flavor_lemon": "That shows lemon, not red bean."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q21",
-      "type": 2,
-      "prompt_text": "Choose the opposite of 'big'.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "small",
-        "wide",
-        "tall",
-        "long"
+      "id": "i3a_mid14_q21",
+      "type": 1,
+      "prompt_text": "Can you draw an apple?",
+      "audio_id": "mid14_q21",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
       ],
-      "correct": "small",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_hat",
+        "int3a_draw-monster_apple"
+      ],
+      "correct": "int3a_draw-monster_apple",
       "why_wrong": {
-        "wide": "Not quite — try again!",
-        "tall": "Not quite — try again!",
-        "long": "Not quite — try again!"
+        "int3a_draw-monster_poo": "That shows poo, not apple.",
+        "int3a_draw-monster_monster": "That shows monster, not apple.",
+        "int3a_draw-monster_hat": "That shows hat, not apple."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_hat": "hat",
+        "int3a_draw-monster_apple": "apple"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q22",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I like blue.",
-        "I'm twelve years old.",
-        "I go to school."
+      "id": "i3a_mid14_q22",
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like strawberry.",
+      "audio_id": "mid14_q22",
+      "image_ids": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
+      ],
+      "correct": "int3a_flavor_strawberry",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int3a_flavor_lemon": "That shows lemon, not strawberry.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not strawberry.",
+        "int3a_flavor_vanilla": "That shows vanilla, not strawberry."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_strawberry": "strawberry"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q23",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's fifteen.",
-        "He has a dog.",
-        "He likes soccer.",
-        "He is tall."
+      "id": "i3a_mid14_q23",
+      "type": 1,
+      "prompt_text": "I can draw a poo.",
+      "audio_id": "mid14_q23",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_poo",
       "why_wrong": {
-        "He has a dog.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int3a_draw-monster_monster": "That shows monster, not poo.",
+        "int3a_draw-monster_toy": "That shows toy, not poo.",
+        "int3a_draw-monster_hat": "That shows hat, not poo."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_hat": "hat"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q24",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He runs.",
-        "I like pizza.",
-        "It's in March."
+      "id": "i3a_mid14_q24",
+      "type": 1,
+      "prompt_text": "I like lemon.",
+      "audio_id": "mid14_q24",
+      "image_ids": [
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_lemon"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_lemon"
+      ],
+      "correct": "int3a_flavor_lemon",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_flavor_milk": "That shows milk, not lemon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not lemon.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not lemon."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_lemon": "lemon"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q25",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They play.",
-        "They study.",
-        "They eat.",
-        "They're ten."
+      "id": "i3a_mid14_q25",
+      "type": 1,
+      "prompt_text": "That is good.",
+      "audio_id": "mid14_q25",
+      "image_ids": [
+        "int3a_opposites_good",
+        "int3a_opposites_dry",
+        "int3a_opposites_small",
+        "int3a_opposites_new"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_opposites_good",
+        "int3a_opposites_dry",
+        "int3a_opposites_small",
+        "int3a_opposites_new"
+      ],
+      "correct": "int3a_opposites_good",
       "why_wrong": {
-        "They play.": "Not quite — try again!",
-        "They study.": "Not quite — try again!",
-        "They eat.": "Not quite — try again!"
+        "int3a_opposites_dry": "That shows dry, not good.",
+        "int3a_opposites_small": "That shows small, not good.",
+        "int3a_opposites_new": "That shows new, not good."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_good": "good",
+        "int3a_opposites_dry": "dry",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_new": "new"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q26",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "We swim.",
-        "Yes, she's one year older.",
-        "I have a cat."
+      "id": "i3a_mid14_q26",
+      "type": 1,
+      "prompt_text": "How is it? This is new.",
+      "audio_id": "mid14_q26",
+      "image_ids": [
+        "int3a_opposites_old",
+        "int3a_opposites_new",
+        "int3a_opposites_loud",
+        "int3a_opposites_hot"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_opposites_old",
+        "int3a_opposites_new",
+        "int3a_opposites_loud",
+        "int3a_opposites_hot"
+      ],
+      "correct": "int3a_opposites_new",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We swim.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_opposites_old": "That shows old, not new.",
+        "int3a_opposites_loud": "That shows loud, not new.",
+        "int3a_opposites_hot": "That shows hot, not new."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_old": "old",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_hot": "hot"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q27",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I go to school.",
-        "I'm twelve years old.",
-        "I like blue."
+      "id": "i3a_mid14_q27",
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a monster.",
+      "audio_id": "mid14_q27",
+      "image_ids": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_korea"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_korea"
+      ],
+      "correct": "int3a_draw-monster_monster",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_draw-monster_dragon": "That shows dragon, not monster.",
+        "int3a_draw-monster_apple": "That shows apple, not monster.",
+        "int3a_draw-monster_korea": "That shows korea, not monster."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_korea": "korea"
+      }
     },
     {
-      "id": "i3a_midterm_1_4_q28",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's fifteen.",
-        "He is tall.",
-        "He likes soccer.",
-        "He has a dog."
+      "id": "i3a_mid14_q28",
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a circle.",
+      "audio_id": "mid14_q28",
+      "image_ids": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_circle",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He has a dog.": "Not quite — try again!"
+        "int3a_draw-monster_flag": "That shows flag, not circle.",
+        "int3a_draw-monster_dragon": "That shows dragon, not circle.",
+        "int3a_draw-monster_tree": "That shows tree, not circle."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_tree": "tree"
+      }
+    },
+    {
+      "id": "i3a_mid14_q29",
+      "type": 1,
+      "prompt_text": "I can draw a monster.",
+      "audio_id": "mid14_q29",
+      "image_ids": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo"
+      ],
+      "choices": [
+        "int3a_draw-monster_korea",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_poo"
+      ],
+      "correct": "int3a_draw-monster_monster",
+      "why_wrong": {
+        "int3a_draw-monster_korea": "That shows korea, not monster.",
+        "int3a_draw-monster_circle": "That shows circle, not monster.",
+        "int3a_draw-monster_poo": "That shows poo, not monster."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_korea": "korea",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_poo": "poo"
+      }
+    },
+    {
+      "id": "i3a_mid14_q30",
+      "type": 1,
+      "prompt_text": "How old is she? She is 5 years old.",
+      "audio_id": "mid14_q30",
+      "image_ids": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_5"
+      ],
+      "choices": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_5",
+      "why_wrong": {
+        "int3a_how-old_age_55": "That shows 55 years old, not 5 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 5 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 5 years old."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
+    },
+    {
+      "id": "i3a_mid14_q31",
+      "type": 1,
+      "prompt_text": "My favorite flavor is milk.",
+      "audio_id": "mid14_q31",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate"
+      ],
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_milk",
+      "why_wrong": {
+        "int3a_flavor_melon": "That shows melon, not milk.",
+        "int3a_flavor_lemon": "That shows lemon, not milk.",
+        "int3a_flavor_chocolate": "That shows chocolate, not milk."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_chocolate": "chocolate"
+      }
+    },
+    {
+      "id": "i3a_mid14_q32",
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "mid14_q32",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_1"
+      ],
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_1"
+      ],
+      "correct": "int3a_how-old_age_10",
+      "why_wrong": {
+        "int3a_how-old_age_39": "That shows 39 years old, not 10 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 10 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 10 years old."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_1": "1 year old"
+      }
+    },
+    {
+      "id": "i3a_mid14_q33",
+      "type": 1,
+      "prompt_text": "How old is he? He is 10 years old.",
+      "audio_id": "mid14_q33",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
+      ],
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
+      ],
+      "correct": "int3a_how-old_age_10",
+      "why_wrong": {
+        "int3a_how-old_age_39": "That shows 39 years old, not 10 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 10 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 10 years old."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_10": "10 years old"
+      }
+    },
+    {
+      "id": "i3a_mid14_q34",
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like mint.",
+      "audio_id": "mid14_q34",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_milk"
+      ],
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_mint",
+      "why_wrong": {
+        "int3a_flavor_melon": "That shows melon, not mint.",
+        "int3a_flavor_lemon": "That shows lemon, not mint.",
+        "int3a_flavor_milk": "That shows milk, not mint."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_milk": "milk"
+      }
     }
   ]
 }

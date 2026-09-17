@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 6: Greetings",
+    "title": "Intermediate 3A Unit 6: What Is Your Name?",
     "kind": "unit",
     "units_covered": [
       6
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u06_q01",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good morning! How are you?",
-        "See you.",
-        "I'm twelve.",
-        "Good night."
+      "type": 1,
+      "prompt_text": "My name is Rose.",
+      "audio_id": "u06_q01",
+      "image_ids": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ginger"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ginger"
+      ],
+      "correct": "int3a_what-is-your-name_rose",
       "why_wrong": {
-        "See you.": "Not quite — try again!",
-        "I'm twelve.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Rose.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Rose.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Rose."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ginger": "Ginger"
+      }
     },
     {
       "id": "i3a_u06_q02",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "Nice to meet you too.",
-        "I like red.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "I am Iris.",
+      "audio_id": "u06_q02",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_iris",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Iris.",
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Iris.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Iris."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_iris": "Iris"
+      }
     },
     {
       "id": "i3a_u06_q03",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "I am hungry.",
-        "She has a cat.",
-        "I've been well, thanks."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Hunter.",
+      "audio_id": "u06_q03",
+      "image_ids": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_iris"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_hunter",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int3a_what-is-your-name_rose": "That shows Rose, not Hunter.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Hunter.",
+        "int3a_what-is-your-name_iris": "That shows Iris, not Hunter."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_iris": "Iris"
+      }
     },
     {
       "id": "i3a_u06_q04",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He sings.",
-        "Yeah, it's been a while!",
-        "We eat."
+      "type": 1,
+      "prompt_text": "My name is Ginger.",
+      "audio_id": "u06_q04",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mike"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mike"
+      ],
+      "correct": "int3a_what-is-your-name_ginger",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ginger.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Ginger.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ginger."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_mike": "Mike"
+      }
     },
     {
       "id": "i3a_u06_q05",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I have homework.",
-        "Hi! How's it going?",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I am Ray.",
+      "audio_id": "u06_q05",
+      "image_ids": [
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_lily"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_lily"
+      ],
+      "correct": "int3a_what-is-your-name_ray",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ray.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Ray.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Ray."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_lily": "Lily"
+      }
     },
     {
       "id": "i3a_u06_q06",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve.",
-        "See you.",
-        "Good night.",
-        "Good morning! How are you?"
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Mike.",
+      "audio_id": "u06_q06",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_baker"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_baker"
+      ],
+      "correct": "int3a_what-is-your-name_mike",
       "why_wrong": {
-        "I'm twelve.": "Not quite — try again!",
-        "See you.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Mike.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Mike.",
+        "int3a_what-is-your-name_baker": "That shows Baker, not Mike."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_baker": "Baker"
+      }
     },
     {
       "id": "i3a_u06_q07",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He plays.",
-        "Nice to meet you too.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "My name is Ivy.",
+      "audio_id": "u06_q07",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_rose"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_rose"
+      ],
+      "correct": "int3a_what-is-your-name_ivy",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_what-is-your-name_baker": "That shows Baker, not Ivy.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ivy.",
+        "int3a_what-is-your-name_rose": "That shows Rose, not Ivy."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_rose": "Rose"
+      }
     },
     {
       "id": "i3a_u06_q08",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "She has a cat.",
-        "I've been well, thanks.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "I am Baker.",
+      "audio_id": "u06_q08",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mr_j"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_mr_j"
+      ],
+      "correct": "int3a_what-is-your-name_baker",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Baker.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Baker.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Baker."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_mr_j": "Mr.J"
+      }
     },
     {
       "id": "i3a_u06_q09",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "We eat.",
-        "I like blue.",
-        "Yeah, it's been a while!"
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Lily.",
+      "audio_id": "u06_q09",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_baker"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_baker"
+      ],
+      "correct": "int3a_what-is-your-name_lily",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Lily.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Lily.",
+        "int3a_what-is-your-name_baker": "That shows Baker, not Lily."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_baker": "Baker"
+      }
     },
     {
       "id": "i3a_u06_q10",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hi! How's it going?",
-        "He jumps.",
-        "I have homework.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "My name is Violet.",
+      "audio_id": "u06_q10",
+      "image_ids": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_lily"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_lily"
+      ],
+      "correct": "int3a_what-is-your-name_violet",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Violet.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Violet.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Violet."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_lily": "Lily"
+      }
     },
     {
       "id": "i3a_u06_q11",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good morning! How are you?",
-        "Good night.",
-        "See you.",
-        "I'm twelve."
+      "type": 1,
+      "prompt_text": "I am Rose.",
+      "audio_id": "u06_q11",
+      "image_ids": [
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_rose"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_rose"
+      ],
+      "correct": "int3a_what-is-your-name_rose",
       "why_wrong": {
-        "Good night.": "Not quite — try again!",
-        "See you.": "Not quite — try again!",
-        "I'm twelve.": "Not quite — try again!"
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Rose.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Rose.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Rose."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_rose": "Rose"
+      }
     },
     {
       "id": "i3a_u06_q12",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I like red.",
-        "He plays.",
-        "Nice to meet you too."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Iris.",
+      "audio_id": "u06_q12",
+      "image_ids": [
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_baker"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_baker"
+      ],
+      "correct": "int3a_what-is-your-name_iris",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Iris.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Iris.",
+        "int3a_what-is-your-name_baker": "That shows Baker, not Iris."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_iris": "Iris",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_baker": "Baker"
+      }
     },
     {
       "id": "i3a_u06_q13",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I've been well, thanks.",
-        "It is cold.",
-        "She has a cat.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "My name is Hunter.",
+      "audio_id": "u06_q13",
+      "image_ids": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_rose"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_rose"
+      ],
+      "correct": "int3a_what-is-your-name_hunter",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int3a_what-is-your-name_violet": "That shows Violet, not Hunter.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Hunter.",
+        "int3a_what-is-your-name_rose": "That shows Rose, not Hunter."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_rose": "Rose"
+      }
     },
     {
       "id": "i3a_u06_q14",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like blue.",
-        "Yeah, it's been a while!",
-        "He sings."
+      "type": 1,
+      "prompt_text": "I am Ginger.",
+      "audio_id": "u06_q14",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy"
+      ],
+      "correct": "int3a_what-is-your-name_ginger",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Ginger.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ginger.",
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Ginger."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ivy": "Ivy"
+      }
     },
     {
       "id": "i3a_u06_q15",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "I have homework.",
-        "Hi! How's it going?"
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Ray.",
+      "audio_id": "u06_q15",
+      "image_ids": [
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet"
+      ],
+      "correct": "int3a_what-is-your-name_ray",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!"
+        "int3a_what-is-your-name_rose": "That shows Rose, not Ray.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ray.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Ray."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_violet": "Violet"
+      }
     },
     {
       "id": "i3a_u06_q16",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "See you.",
-        "Good morning! How are you?",
-        "Good night.",
-        "I'm twelve."
+      "type": 1,
+      "prompt_text": "My name is Mike.",
+      "audio_id": "u06_q16",
+      "image_ids": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mike"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mike"
+      ],
+      "correct": "int3a_what-is-your-name_mike",
       "why_wrong": {
-        "See you.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!",
-        "I'm twelve.": "Not quite — try again!"
+        "int3a_what-is-your-name_violet": "That shows Violet, not Mike.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Mike.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Mike."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_mike": "Mike"
+      }
     },
     {
       "id": "i3a_u06_q17",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "Nice to meet you too.",
-        "She runs.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "I am Ivy.",
+      "audio_id": "u06_q17",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_hunter"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_hunter"
+      ],
+      "correct": "int3a_what-is-your-name_ivy",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Ivy.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ivy.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Ivy."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_hunter": "Hunter"
+      }
     },
     {
       "id": "i3a_u06_q18",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She has a cat.",
-        "I've been well, thanks.",
-        "It is cold.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Baker.",
+      "audio_id": "u06_q18",
+      "image_ids": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_lily"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_lily"
+      ],
+      "correct": "int3a_what-is-your-name_baker",
       "why_wrong": {
-        "She has a cat.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Baker.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Baker.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Baker."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_lily": "Lily"
+      }
     },
     {
       "id": "i3a_u06_q19",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like blue.",
-        "He sings.",
-        "Yeah, it's been a while!"
+      "type": 1,
+      "prompt_text": "My name is Lily.",
+      "audio_id": "u06_q19",
+      "image_ids": [
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_ray"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_ray"
+      ],
+      "correct": "int3a_what-is-your-name_lily",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Lily.",
+        "int3a_what-is-your-name_baker": "That shows Baker, not Lily.",
+        "int3a_what-is-your-name_ray": "That shows Ray, not Lily."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_ray": "Ray"
+      }
     },
     {
       "id": "i3a_u06_q20",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "Hi! How's it going?",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "I am Violet.",
+      "audio_id": "u06_q20",
+      "image_ids": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
+      ],
+      "correct": "int3a_what-is-your-name_violet",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_what-is-your-name_rose": "That shows Rose, not Violet.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Violet.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Violet."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_violet": "Violet"
+      }
     },
     {
       "id": "i3a_u06_q21",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve.",
-        "See you.",
-        "Good night.",
-        "Good morning! How are you?"
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Rose.",
+      "audio_id": "u06_q21",
+      "image_ids": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_rose"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_rose"
+      ],
+      "correct": "int3a_what-is-your-name_rose",
       "why_wrong": {
-        "I'm twelve.": "Not quite — try again!",
-        "See you.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!"
+        "int3a_what-is-your-name_violet": "That shows Violet, not Rose.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Rose.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Rose."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_rose": "Rose"
+      }
     },
     {
       "id": "i3a_u06_q22",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "Nice to meet you too.",
-        "He plays.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "My name is Iris.",
+      "audio_id": "u06_q22",
+      "image_ids": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mr_j"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mr_j"
+      ],
+      "correct": "int3a_what-is-your-name_iris",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Iris.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Iris.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Iris."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_iris": "Iris",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_mr_j": "Mr.J"
+      }
     },
     {
       "id": "i3a_u06_q23",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "I've been well, thanks.",
-        "I am hungry.",
-        "She has a cat."
+      "type": 1,
+      "prompt_text": "I am Hunter.",
+      "audio_id": "u06_q23",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_hunter",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int3a_what-is-your-name_baker": "That shows Baker, not Hunter.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Hunter.",
+        "int3a_what-is-your-name_iris": "That shows Iris, not Hunter."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_iris": "Iris"
+      }
     },
     {
       "id": "i3a_u06_q24",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Yeah, it's been a while!",
-        "He sings.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Ginger.",
+      "audio_id": "u06_q24",
+      "image_ids": [
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_baker"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_baker"
+      ],
+      "correct": "int3a_what-is-your-name_ginger",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3a_what-is-your-name_iris": "That shows Iris, not Ginger.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ginger.",
+        "int3a_what-is-your-name_baker": "That shows Baker, not Ginger."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_iris": "Iris",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_baker": "Baker"
+      }
     },
     {
       "id": "i3a_u06_q25",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "Hi! How's it going?",
-        "I have homework."
+      "type": 1,
+      "prompt_text": "My name is Ray.",
+      "audio_id": "u06_q25",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_violet"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_violet"
+      ],
+      "correct": "int3a_what-is-your-name_ray",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Ray.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Ray.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Ray."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_violet": "Violet"
+      }
     },
     {
       "id": "i3a_u06_q26",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve.",
-        "See you.",
-        "Good morning! How are you?",
-        "Good night."
+      "type": 1,
+      "prompt_text": "I am Mike.",
+      "audio_id": "u06_q26",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter"
+      ],
+      "correct": "int3a_what-is-your-name_mike",
       "why_wrong": {
-        "I'm twelve.": "Not quite — try again!",
-        "See you.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!"
+        "int3a_what-is-your-name_baker": "That shows Baker, not Mike.",
+        "int3a_what-is-your-name_rose": "That shows Rose, not Mike.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Mike."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_hunter": "Hunter"
+      }
     },
     {
       "id": "i3a_u06_q27",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He plays.",
-        "Nice to meet you too.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Ivy.",
+      "audio_id": "u06_q27",
+      "image_ids": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy"
+      ],
+      "correct": "int3a_what-is-your-name_ivy",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_what-is-your-name_rose": "That shows Rose, not Ivy.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ivy.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Ivy."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ivy": "Ivy"
+      }
     },
     {
       "id": "i3a_u06_q28",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "I am hungry.",
-        "I've been well, thanks.",
-        "She has a cat."
+      "type": 1,
+      "prompt_text": "My name is Baker.",
+      "audio_id": "u06_q28",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j"
+      ],
+      "correct": "int3a_what-is-your-name_baker",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int3a_what-is-your-name_violet": "That shows Violet, not Baker.",
+        "int3a_what-is-your-name_rose": "That shows Rose, not Baker.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Baker."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mr_j": "Mr.J"
+      }
     },
     {
       "id": "i3a_u06_q29",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "Yeah, it's been a while!",
-        "He sings.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "I am Lily.",
+      "audio_id": "u06_q29",
+      "image_ids": [
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_ray",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger"
+      ],
+      "correct": "int3a_what-is-your-name_lily",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_what-is-your-name_ray": "That shows Ray, not Lily.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Lily.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Lily."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_ray": "Ray",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_ginger": "Ginger"
+      }
     },
     {
       "id": "i3a_u06_q30",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "Hi! How's it going?",
-        "I have homework.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Violet.",
+      "audio_id": "u06_q30",
+      "image_ids": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
+      ],
+      "correct": "int3a_what-is-your-name_violet",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Violet.",
+        "int3a_what-is-your-name_iris": "That shows Iris, not Violet.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Violet."
       },
       "unit": 6,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_iris": "Iris",
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_violet": "Violet"
+      }
     }
   ]
 }

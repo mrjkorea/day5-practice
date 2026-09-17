@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 2: Asking Opinions",
+    "title": "Intermediate 3A Unit 2: What Flavor Do You Like?",
     "kind": "unit",
     "units_covered": [
       2
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u02_q01",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "I am fine.",
-        "I think it's great."
+      "type": 1,
+      "prompt_text": "I like vanilla.",
+      "audio_id": "u02_q01",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_vanilla",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3a_flavor_red_bean": "That shows red bean, not vanilla.",
+        "int3a_flavor_watermelon": "That shows watermelon, not vanilla.",
+        "int3a_flavor_chocolate": "That shows chocolate, not vanilla."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q02",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs.",
-        "I'm not sure yet.",
-        "We study."
+      "type": 1,
+      "prompt_text": "My favorite flavor is chocolate.",
+      "audio_id": "u02_q02",
+      "image_ids": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_chocolate",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_flavor_watermelon": "That shows watermelon, not chocolate.",
+        "int3a_flavor_vanilla": "That shows vanilla, not chocolate.",
+        "int3a_flavor_lemon": "That shows lemon, not chocolate."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q03",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I have a pen.",
-        "She sings.",
-        "In my opinion, we should wait."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like strawberry.",
+      "audio_id": "u02_q03",
+      "image_ids": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
+      ],
+      "correct": "int3a_flavor_strawberry",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_flavor_lemon": "That shows lemon, not strawberry.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not strawberry.",
+        "int3a_flavor_vanilla": "That shows vanilla, not strawberry."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_strawberry": "strawberry"
+      }
     },
     {
       "id": "i3a_u02_q04",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I think we need more time.",
-        "He jumps.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "I like melon.",
+      "audio_id": "u02_q04",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
+      ],
+      "correct": "int3a_flavor_melon",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_flavor_mint": "That shows mint, not melon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not melon.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not melon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy"
+      }
     },
     {
       "id": "i3a_u02_q05",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I think so.",
-        "I like pizza.",
-        "She eats.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "My favorite flavor is mint.",
+      "audio_id": "u02_q05",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_vanilla"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_vanilla"
+      ],
+      "correct": "int3a_flavor_mint",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not mint.",
+        "int3a_flavor_melon": "That shows melon, not mint.",
+        "int3a_flavor_vanilla": "That shows vanilla, not mint."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_vanilla": "vanilla"
+      }
     },
     {
       "id": "i3a_u02_q06",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I am fine.",
-        "I think it's great.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like banana.",
+      "audio_id": "u02_q06",
+      "image_ids": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_banana",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_flavor_vanilla": "That shows vanilla, not banana.",
+        "int3a_flavor_red_bean": "That shows red bean, not banana.",
+        "int3a_flavor_chocolate": "That shows chocolate, not banana."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q07",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "We study.",
-        "He runs.",
-        "I'm not sure yet."
+      "type": 1,
+      "prompt_text": "I like lemon.",
+      "audio_id": "u02_q07",
+      "image_ids": [
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_lemon"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_lemon"
+      ],
+      "correct": "int3a_flavor_lemon",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3a_flavor_milk": "That shows milk, not lemon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not lemon.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not lemon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_lemon": "lemon"
+      }
     },
     {
       "id": "i3a_u02_q08",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "She sings.",
-        "In my opinion, we should wait.",
-        "I have a pen."
+      "type": 1,
+      "prompt_text": "My favorite flavor is milk.",
+      "audio_id": "u02_q08",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_milk",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_milk",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int3a_flavor_melon": "That shows melon, not milk.",
+        "int3a_flavor_lemon": "That shows lemon, not milk.",
+        "int3a_flavor_chocolate": "That shows chocolate, not milk."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q09",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like blue.",
-        "I think we need more time.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like red bean.",
+      "audio_id": "u02_q09",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_red_bean",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not red bean.",
+        "int3a_flavor_strawberry": "That shows strawberry, not red bean.",
+        "int3a_flavor_lemon": "That shows lemon, not red bean."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
       "id": "i3a_u02_q10",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I think so.",
-        "He sleeps.",
-        "I like pizza.",
-        "She eats."
+      "type": 1,
+      "prompt_text": "I like cotton candy.",
+      "audio_id": "u02_q10",
+      "image_ids": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_cotton_candy"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_cotton_candy"
+      ],
+      "correct": "int3a_flavor_cotton_candy",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!"
+        "int3a_flavor_lemon": "That shows lemon, not cotton candy.",
+        "int3a_flavor_mint": "That shows mint, not cotton candy.",
+        "int3a_flavor_strawberry": "That shows strawberry, not cotton candy."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_cotton_candy": "cotton candy"
+      }
     },
     {
       "id": "i3a_u02_q11",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I am fine.",
-        "She is kind.",
-        "I think it's great."
+      "type": 1,
+      "prompt_text": "My favorite flavor is vanilla.",
+      "audio_id": "u02_q11",
+      "image_ids": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_melon"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_melon"
+      ],
+      "correct": "int3a_flavor_vanilla",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not vanilla.",
+        "int3a_flavor_red_bean": "That shows red bean, not vanilla.",
+        "int3a_flavor_melon": "That shows melon, not vanilla."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_melon": "melon"
+      }
     },
     {
       "id": "i3a_u02_q12",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We study.",
-        "I like cats.",
-        "I'm not sure yet."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like chocolate.",
+      "audio_id": "u02_q12",
+      "image_ids": [
+        "int3a_flavor_mint",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_watermelon"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_mint",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_watermelon"
+      ],
+      "correct": "int3a_flavor_chocolate",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_flavor_mint": "That shows mint, not chocolate.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not chocolate.",
+        "int3a_flavor_watermelon": "That shows watermelon, not chocolate."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_watermelon": "watermelon"
+      }
     },
     {
       "id": "i3a_u02_q13",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "In my opinion, we should wait.",
-        "I have a pen.",
-        "He reads.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "I like strawberry.",
+      "audio_id": "u02_q13",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_strawberry",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_flavor_red_bean": "That shows red bean, not strawberry.",
+        "int3a_flavor_lemon": "That shows lemon, not strawberry.",
+        "int3a_flavor_chocolate": "That shows chocolate, not strawberry."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q14",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I think we need more time.",
-        "She swims.",
-        "He jumps.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "My favorite flavor is melon.",
+      "audio_id": "u02_q14",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_milk",
+        "int3a_flavor_vanilla"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_milk",
+        "int3a_flavor_vanilla"
+      ],
+      "correct": "int3a_flavor_melon",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_flavor_watermelon": "That shows watermelon, not melon.",
+        "int3a_flavor_milk": "That shows milk, not melon.",
+        "int3a_flavor_vanilla": "That shows vanilla, not melon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_vanilla": "vanilla"
+      }
     },
     {
       "id": "i3a_u02_q15",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "She eats.",
-        "Yes, I think so.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like mint.",
+      "audio_id": "u02_q15",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_milk"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_lemon",
+        "int3a_flavor_mint",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_mint",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_flavor_melon": "That shows melon, not mint.",
+        "int3a_flavor_lemon": "That shows lemon, not mint.",
+        "int3a_flavor_milk": "That shows milk, not mint."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_milk": "milk"
+      }
     },
     {
       "id": "i3a_u02_q16",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "He has a bike.",
-        "I think it's great.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I like banana.",
+      "audio_id": "u02_q16",
+      "image_ids": [
+        "int3a_flavor_strawberry",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_banana"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_strawberry",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_banana"
+      ],
+      "correct": "int3a_flavor_banana",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3a_flavor_strawberry": "That shows strawberry, not banana.",
+        "int3a_flavor_chocolate": "That shows chocolate, not banana.",
+        "int3a_flavor_vanilla": "That shows vanilla, not banana."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_banana": "banana"
+      }
     },
     {
       "id": "i3a_u02_q17",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like cats.",
-        "We study.",
-        "I'm not sure yet."
+      "type": 1,
+      "prompt_text": "My favorite flavor is lemon.",
+      "audio_id": "u02_q17",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_mint",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_lemon"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_mint",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_lemon"
+      ],
+      "correct": "int3a_flavor_lemon",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not lemon.",
+        "int3a_flavor_mint": "That shows mint, not lemon.",
+        "int3a_flavor_red_bean": "That shows red bean, not lemon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_lemon": "lemon"
+      }
     },
     {
       "id": "i3a_u02_q18",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He reads.",
-        "I have a pen.",
-        "In my opinion, we should wait."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like milk.",
+      "audio_id": "u02_q18",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_milk",
+        "int3a_flavor_banana",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_milk",
+        "int3a_flavor_banana",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_milk",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int3a_flavor_melon": "That shows melon, not milk.",
+        "int3a_flavor_banana": "That shows banana, not milk.",
+        "int3a_flavor_red_bean": "That shows red bean, not milk."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
       "id": "i3a_u02_q19",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I think we need more time.",
-        "I like blue.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "I like red bean.",
+      "audio_id": "u02_q19",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_vanilla"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_vanilla"
+      ],
+      "correct": "int3a_flavor_red_bean",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not red bean.",
+        "int3a_flavor_strawberry": "That shows strawberry, not red bean.",
+        "int3a_flavor_vanilla": "That shows vanilla, not red bean."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_vanilla": "vanilla"
+      }
     },
     {
       "id": "i3a_u02_q20",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "She eats.",
-        "He sleeps.",
-        "Yes, I think so."
+      "type": 1,
+      "prompt_text": "My favorite flavor is cotton candy.",
+      "audio_id": "u02_q20",
+      "image_ids": [
+        "int3a_flavor_milk",
+        "int3a_flavor_melon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_milk",
+        "int3a_flavor_melon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry"
+      ],
+      "correct": "int3a_flavor_cotton_candy",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_flavor_milk": "That shows milk, not cotton candy.",
+        "int3a_flavor_melon": "That shows melon, not cotton candy.",
+        "int3a_flavor_strawberry": "That shows strawberry, not cotton candy."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry"
+      }
     },
     {
       "id": "i3a_u02_q21",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I think it's great.",
-        "I am fine.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like vanilla.",
+      "audio_id": "u02_q21",
+      "image_ids": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_melon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_vanilla",
+        "int3a_flavor_melon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_vanilla",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3a_flavor_melon": "That shows melon, not vanilla.",
+        "int3a_flavor_watermelon": "That shows watermelon, not vanilla.",
+        "int3a_flavor_red_bean": "That shows red bean, not vanilla."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
       "id": "i3a_u02_q22",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm not sure yet.",
-        "We study.",
-        "He runs.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "I like chocolate.",
+      "audio_id": "u02_q22",
+      "image_ids": [
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_milk"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_chocolate",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_flavor_banana": "That shows banana, not chocolate.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not chocolate.",
+        "int3a_flavor_milk": "That shows milk, not chocolate."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_milk": "milk"
+      }
     },
     {
       "id": "i3a_u02_q23",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "She sings.",
-        "He reads.",
-        "In my opinion, we should wait."
+      "type": 1,
+      "prompt_text": "My favorite flavor is strawberry.",
+      "audio_id": "u02_q23",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana"
+      ],
+      "correct": "int3a_flavor_strawberry",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not strawberry.",
+        "int3a_flavor_red_bean": "That shows red bean, not strawberry.",
+        "int3a_flavor_banana": "That shows banana, not strawberry."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_banana": "banana"
+      }
     },
     {
       "id": "i3a_u02_q24",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I think we need more time.",
-        "I like blue.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like melon.",
+      "audio_id": "u02_q24",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_milk",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_milk",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_melon",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_flavor_milk": "That shows milk, not melon.",
+        "int3a_flavor_watermelon": "That shows watermelon, not melon.",
+        "int3a_flavor_red_bean": "That shows red bean, not melon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_milk": "milk",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
       "id": "i3a_u02_q25",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "Yes, I think so.",
-        "She eats.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I like mint.",
+      "audio_id": "u02_q25",
+      "image_ids": [
+        "int3a_flavor_mint",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_mint",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_red_bean"
+      ],
+      "correct": "int3a_flavor_mint",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3a_flavor_banana": "That shows banana, not mint.",
+        "int3a_flavor_strawberry": "That shows strawberry, not mint.",
+        "int3a_flavor_red_bean": "That shows red bean, not mint."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_red_bean": "red bean"
+      }
     },
     {
       "id": "i3a_u02_q26",
-      "type": 4,
-      "prompt_text": "What do you think of this idea?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He has a bike.",
-        "She is kind.",
-        "I think it's great."
+      "type": 1,
+      "prompt_text": "My favorite flavor is banana.",
+      "audio_id": "u02_q26",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
       ],
-      "correct": "I think it's great.",
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
+      ],
+      "correct": "int3a_flavor_banana",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_flavor_red_bean": "That shows red bean, not banana.",
+        "int3a_flavor_chocolate": "That shows chocolate, not banana.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not banana."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy"
+      }
     },
     {
       "id": "i3a_u02_q27",
-      "type": 4,
-      "prompt_text": "Do you agree with them?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs.",
-        "I'm not sure yet.",
-        "We study."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like lemon.",
+      "audio_id": "u02_q27",
+      "image_ids": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
       ],
-      "correct": "I'm not sure yet.",
+      "choices": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_banana",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_lemon",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3a_flavor_watermelon": "That shows watermelon, not lemon.",
+        "int3a_flavor_banana": "That shows banana, not lemon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not lemon."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_chocolate": "chocolate"
+      }
     },
     {
       "id": "i3a_u02_q28",
-      "type": 4,
-      "prompt_text": "What's your opinion?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "In my opinion, we should wait.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "I like milk.",
+      "audio_id": "u02_q28",
+      "image_ids": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_milk"
       ],
-      "correct": "In my opinion, we should wait.",
+      "choices": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_red_bean",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_milk",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_flavor_watermelon": "That shows watermelon, not milk.",
+        "int3a_flavor_chocolate": "That shows chocolate, not milk.",
+        "int3a_flavor_red_bean": "That shows red bean, not milk."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_milk": "milk"
+      }
     },
     {
       "id": "i3a_u02_q29",
-      "type": 4,
-      "prompt_text": "How do you feel about the plan?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I think we need more time.",
-        "She swims.",
-        "He jumps.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "My favorite flavor is red bean.",
+      "audio_id": "u02_q29",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry"
       ],
-      "correct": "I think we need more time.",
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_banana",
+        "int3a_flavor_strawberry"
+      ],
+      "correct": "int3a_flavor_red_bean",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_flavor_vanilla": "That shows vanilla, not red bean.",
+        "int3a_flavor_banana": "That shows banana, not red bean.",
+        "int3a_flavor_strawberry": "That shows strawberry, not red bean."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_banana": "banana",
+        "int3a_flavor_strawberry": "strawberry"
+      }
     },
     {
       "id": "i3a_u02_q30",
-      "type": 4,
-      "prompt_text": "Do you think it's fair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I think so.",
-        "He sleeps.",
-        "I like pizza.",
-        "She eats."
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like cotton candy.",
+      "audio_id": "u02_q30",
+      "image_ids": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_milk"
       ],
-      "correct": "Yes, I think so.",
+      "choices": [
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_strawberry",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_milk"
+      ],
+      "correct": "int3a_flavor_cotton_candy",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She eats.": "Not quite — try again!"
+        "int3a_flavor_strawberry": "That shows strawberry, not cotton candy.",
+        "int3a_flavor_watermelon": "That shows watermelon, not cotton candy.",
+        "int3a_flavor_milk": "That shows milk, not cotton candy."
       },
       "unit": 2,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_strawberry": "strawberry",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_milk": "milk"
+      }
     }
   ]
 }

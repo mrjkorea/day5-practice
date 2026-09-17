@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Midterm Units 5–8",
+    "title": "Intermediate 3A Midterm Units 5\u20138",
     "kind": "midterm_5_8",
     "units_covered": [
       5,
@@ -9,7 +9,7 @@
       7,
       8
     ],
-    "count": 28,
+    "count": 34,
     "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
     "types": {
       "1": "listen_pick_picture",
@@ -20,597 +20,1099 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
-      "id": "i3a_midterm_5_8_q01",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a dog.",
-        "It's a fish.",
-        "It's a butterfly.",
-        "It's a bird."
+      "id": "i3a_mid58_q01",
+      "type": 1,
+      "prompt_text": "I am from Seoul.",
+      "audio_id": "mid58_q01",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_seoul",
+        "int3a_introduction_family_6",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_seoul",
       "why_wrong": {
-        "It's a dog.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!",
-        "It's a bird.": "Not quite — try again!"
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not Seoul.",
+        "int3a_introduction_family_6": "That shows family of 6, not Seoul.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not Seoul."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q02",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The shiny black bug.",
-        "The blue sky.",
-        "The yellow flower.",
-        "The green leaf."
+      "id": "i3a_mid58_q02",
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "mid58_q02",
+      "image_ids": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "The blue sky.": "Not quite — try again!",
-        "The yellow flower.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not 18 years old.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 18 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q03",
-      "type": 4,
-      "prompt_text": "What do we call a small jumping insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a turtle",
-        "a grasshopper",
-        "a dolphin",
-        "a rabbit"
+      "id": "i3a_mid58_q03",
+      "type": 1,
+      "prompt_text": "It is an ant.",
+      "audio_id": "mid58_q03",
+      "image_ids": [
+        "int3a_bug_ladybug",
+        "int3a_bug_centipede",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
       ],
-      "correct": "a grasshopper",
+      "choices": [
+        "int3a_bug_ladybug",
+        "int3a_bug_centipede",
+        "int3a_bug_ant",
+        "int3a_bug_mosquito"
+      ],
+      "correct": "int3a_bug_ant",
       "why_wrong": {
-        "a turtle": "Not quite — try again!",
-        "a dolphin": "Not quite — try again!",
-        "a rabbit": "Not quite — try again!"
+        "int3a_bug_ladybug": "That shows ladybug, not ant.",
+        "int3a_bug_centipede": "That shows centipede, not ant.",
+        "int3a_bug_mosquito": "That shows mosquito, not ant."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_ant": "ant",
+        "int3a_bug_mosquito": "mosquito"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q04",
-      "type": 2,
-      "prompt_text": "An ant is a kind of ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "insect",
-        "bird",
-        "mammal",
-        "fish"
+      "id": "i3a_mid58_q04",
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "mid58_q04",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
       ],
-      "correct": "insect",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_age_18",
       "why_wrong": {
-        "bird": "Not quite — try again!",
-        "mammal": "Not quite — try again!",
-        "fish": "Not quite — try again!"
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_music": "That shows music, not 18 years old.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not 18 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q05",
-      "type": 4,
-      "prompt_text": "Which bug makes honey?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "a worm",
-        "a snail",
-        "a bee",
-        "a spider"
+      "id": "i3a_mid58_q05",
+      "type": 1,
+      "prompt_text": "Clap 3 times! Thank you Sir",
+      "audio_id": "mid58_q05",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "a bee",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_clap_3",
       "why_wrong": {
-        "a worm": "Not quite — try again!",
-        "a snail": "Not quite — try again!",
-        "a spider": "Not quite — try again!"
+        "int3a_gym-class_run_around": "That shows Run around, not Clap 3 times.",
+        "int3a_gym-class_climb_up": "That shows Climb up, not Clap 3 times.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Clap 3 times."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q06",
-      "type": 4,
-      "prompt_text": "What is this insect?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a bird.",
-        "It's a fish.",
-        "It's a dog.",
-        "It's a butterfly."
+      "id": "i3a_mid58_q06",
+      "type": 1,
+      "prompt_text": "It is a butterfly.",
+      "audio_id": "mid58_q06",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
       ],
-      "correct": "It's a butterfly.",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_spider",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
+      ],
+      "correct": "int3a_bug_butterfly",
       "why_wrong": {
-        "It's a bird.": "Not quite — try again!",
-        "It's a fish.": "Not quite — try again!",
-        "It's a dog.": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not butterfly.",
+        "int3a_bug_spider": "That shows spider, not butterfly.",
+        "int3a_bug_cicada": "That shows cicada, not butterfly."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q07",
-      "type": 4,
-      "prompt_text": "Which one is a beetle?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "The blue sky.",
-        "The green leaf.",
-        "The shiny black bug.",
-        "The yellow flower."
+      "id": "i3a_mid58_q07",
+      "type": 1,
+      "prompt_text": "What do you like? I really like dogs.",
+      "audio_id": "mid58_q07",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
       ],
-      "correct": "The shiny black bug.",
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
+      ],
+      "correct": "int3a_introduction_dogs",
       "why_wrong": {
-        "The blue sky.": "Not quite — try again!",
-        "The green leaf.": "Not quite — try again!",
-        "The yellow flower.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not dogs.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not dogs.",
+        "int3a_introduction_age_11": "That shows 11 years old, not dogs."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q08",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "See you.",
-        "I'm twelve.",
-        "Good morning! How are you?",
-        "Good night."
+      "id": "i3a_mid58_q08",
+      "type": 1,
+      "prompt_text": "Lie down!",
+      "audio_id": "mid58_q08",
+      "image_ids": [
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_lie_down",
       "why_wrong": {
-        "See you.": "Not quite — try again!",
-        "I'm twelve.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!"
+        "int3a_gym-class_sit_down": "That shows Sit down, not Lie down.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Lie down.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Lie down."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_sit_down": "Sit down",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q09",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "He plays.",
-        "I like red.",
-        "Nice to meet you too."
+      "id": "i3a_mid58_q09",
+      "type": 1,
+      "prompt_text": "What is this bug? It is a moth.",
+      "audio_id": "mid58_q09",
+      "image_ids": [
+        "int3a_bug_butterfly",
+        "int3a_bug_moth",
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_bug_butterfly",
+        "int3a_bug_moth",
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_moth",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_bug_butterfly": "That shows butterfly, not moth.",
+        "int3a_bug_centipede": "That shows centipede, not moth.",
+        "int3a_bug_cockroach": "That shows cockroach, not moth."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q10",
-      "type": 4,
-      "prompt_text": "How have you been?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "She has a cat.",
-        "It is cold.",
-        "I've been well, thanks."
+      "id": "i3a_mid58_q10",
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Violet.",
+      "audio_id": "mid58_q10",
+      "image_ids": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
       ],
-      "correct": "I've been well, thanks.",
+      "choices": [
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_iris",
+        "int3a_what-is-your-name_lily",
+        "int3a_what-is-your-name_violet"
+      ],
+      "correct": "int3a_what-is-your-name_violet",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Violet.",
+        "int3a_what-is-your-name_iris": "That shows Iris, not Violet.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Violet."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_iris": "Iris",
+        "int3a_what-is-your-name_lily": "Lily",
+        "int3a_what-is-your-name_violet": "Violet"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q11",
-      "type": 4,
-      "prompt_text": "Long time no see!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "We eat.",
-        "He sings.",
-        "Yeah, it's been a while!"
+      "id": "i3a_mid58_q11",
+      "type": 1,
+      "prompt_text": "I am Ginger.",
+      "audio_id": "mid58_q11",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy"
       ],
-      "correct": "Yeah, it's been a while!",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy"
+      ],
+      "correct": "int3a_what-is-your-name_ginger",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Ginger.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ginger.",
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Ginger."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ivy": "Ivy"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q12",
-      "type": 4,
-      "prompt_text": "Hi there!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "He jumps.",
-        "She swims.",
-        "Hi! How's it going?"
+      "id": "i3a_mid58_q12",
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "mid58_q12",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
       ],
-      "correct": "Hi! How's it going?",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 11 years old.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 11 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q13",
-      "type": 4,
-      "prompt_text": "Good morning!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good morning! How are you?",
-        "See you.",
-        "Good night.",
-        "I'm twelve."
+      "id": "i3a_mid58_q13",
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "mid58_q13",
+      "image_ids": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
       ],
-      "correct": "Good morning! How are you?",
+      "choices": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_age_11",
       "why_wrong": {
-        "See you.": "Not quite — try again!",
-        "Good night.": "Not quite — try again!",
-        "I'm twelve.": "Not quite — try again!"
+        "int3a_introduction_music": "That shows music, not 11 years old.",
+        "int3a_introduction_seoul": "That shows Seoul, not 11 years old.",
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_music": "music",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q14",
-      "type": 4,
-      "prompt_text": "Hello, nice to meet you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I like red.",
-        "He plays.",
-        "Nice to meet you too."
+      "id": "i3a_mid58_q14",
+      "type": 1,
+      "prompt_text": "I go to Juklim Elementary School.",
+      "audio_id": "mid58_q14",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "Nice to meet you too.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_juklim",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3a_introduction_dogs": "That shows dogs, not Juklim Elementary.",
+        "int3a_introduction_age_18": "That shows 18 years old, not Juklim Elementary.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not Juklim Elementary."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q15",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am reading.",
-        "I'm lifting weights.",
-        "I am cooking.",
-        "I am sleeping."
+      "id": "i3a_mid58_q15",
+      "type": 1,
+      "prompt_text": "What is this bug? It is a butterfly.",
+      "audio_id": "mid58_q15",
+      "image_ids": [
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_bug_centipede",
+        "int3a_bug_cockroach",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly"
+      ],
+      "correct": "int3a_bug_butterfly",
       "why_wrong": {
-        "I am reading.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!"
+        "int3a_bug_centipede": "That shows centipede, not butterfly.",
+        "int3a_bug_cockroach": "That shows cockroach, not butterfly.",
+        "int3a_bug_cicada": "That shows cicada, not butterfly."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_centipede": "centipede",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q16",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I try to exercise three times a week.",
-        "She is kind.",
-        "I like pizza."
+      "id": "i3a_mid58_q16",
+      "type": 1,
+      "prompt_text": "Turn around! Thank you Sir",
+      "audio_id": "mid58_q16",
+      "image_ids": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_dance"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_dance"
+      ],
+      "correct": "int3a_gym-class_turn_around",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Turn around.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Turn around.",
+        "int3a_gym-class_dance": "That shows Dance, not Turn around."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_dance": "Dance"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q17",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat lunch.",
-        "I play basketball.",
-        "I like cats.",
-        "He runs home."
+      "id": "i3a_mid58_q17",
+      "type": 1,
+      "prompt_text": "It is a cicada.",
+      "audio_id": "mid58_q17",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_cicada",
       "why_wrong": {
-        "We eat lunch.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!"
+        "int3a_bug_mosquito": "That shows mosquito, not cicada.",
+        "int3a_bug_silkworm": "That shows silkworm, not cicada.",
+        "int3a_bug_cockroach": "That shows cockroach, not cicada."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q18",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "Yes, before we run.",
-        "He reads.",
-        "She sings."
+      "id": "i3a_mid58_q18",
+      "type": 1,
+      "prompt_text": "Turn around!",
+      "audio_id": "mid58_q18",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_turn_around",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Turn around.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Turn around.",
+        "int3a_gym-class_dance": "That shows Dance, not Turn around."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q19",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "She swims.",
-        "To stay healthy.",
-        "He jumps."
+      "id": "i3a_mid58_q19",
+      "type": 1,
+      "prompt_text": "How big is your family? There are six people in my family.",
+      "audio_id": "mid58_q19",
+      "image_ids": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_family_6",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not family of 6.",
+        "int3a_introduction_age_11": "That shows 11 years old, not family of 6.",
+        "int3a_introduction_age_18": "That shows 18 years old, not family of 6."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q20",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am reading.",
-        "I am sleeping.",
-        "I'm lifting weights.",
-        "I am cooking."
+      "id": "i3a_mid58_q20",
+      "type": 1,
+      "prompt_text": "It is a firefly.",
+      "audio_id": "mid58_q20",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_firefly",
       "why_wrong": {
-        "I am reading.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!"
+        "int3a_bug_cicada": "That shows cicada, not firefly.",
+        "int3a_bug_butterfly": "That shows butterfly, not firefly.",
+        "int3a_bug_cockroach": "That shows cockroach, not firefly."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cockroach": "cockroach"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q21",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "She is kind.",
-        "I try to exercise three times a week.",
-        "He has a bike."
+      "id": "i3a_mid58_q21",
+      "type": 1,
+      "prompt_text": "Jump rope!",
+      "audio_id": "mid58_q21",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_jump_rope",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Jump rope.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Jump rope.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Jump rope."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q22",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "I'm Jay and I love teaching English.",
-        "He plays.",
-        "She is tall."
+      "id": "i3a_mid58_q22",
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "mid58_q22",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_11",
+        "int3a_introduction_juklim",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_sing_dance",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3a_introduction_age_11": "That shows 11 years old, not sing and dance.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not sing and dance.",
+        "int3a_introduction_family_6": "That shows family of 6, not sing and dance."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_family_6": "family of 6"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q23",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm from Tongyeong, Korea.",
-        "I am fine.",
-        "He sings.",
-        "She runs."
+      "id": "i3a_mid58_q23",
+      "type": 1,
+      "prompt_text": "I am Iris.",
+      "audio_id": "mid58_q23",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_iris",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Iris.",
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Iris.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Iris."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_iris": "Iris"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q24",
-      "type": 4,
-      "prompt_text": "What do you like to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "He sleeps.",
-        "I like reading and swimming.",
-        "She reads."
+      "id": "i3a_mid58_q24",
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Baker.",
+      "audio_id": "mid58_q24",
+      "image_ids": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_lily"
       ],
-      "correct": "I like reading and swimming.",
+      "choices": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_lily"
+      ],
+      "correct": "int3a_what-is-your-name_baker",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int3a_what-is-your-name_mike": "That shows Mike, not Baker.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Baker.",
+        "int3a_what-is-your-name_lily": "That shows Lily, not Baker."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_lily": "Lily"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q25",
-      "type": 2,
-      "prompt_text": "Introduce yourself briefly.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like blue.",
-        "Hi, I'm Sora. I'm in grade six.",
-        "He eats."
+      "id": "i3a_mid58_q25",
+      "type": 1,
+      "prompt_text": "I like music.",
+      "audio_id": "mid58_q25",
+      "image_ids": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "Hi, I'm Sora. I'm in grade six.",
+      "choices": [
+        "int3a_introduction_seoul",
+        "int3a_introduction_music",
+        "int3a_introduction_age_18",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_music",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int3a_introduction_seoul": "That shows Seoul, not music.",
+        "int3a_introduction_age_18": "That shows 18 years old, not music.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not music."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q26",
-      "type": 4,
-      "prompt_text": "What makes you unique?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "We study.",
-        "I'm good at helping friends study.",
-        "He jumps."
+      "id": "i3a_mid58_q26",
+      "type": 1,
+      "prompt_text": "Climb up! Thank you Sir",
+      "audio_id": "mid58_q26",
+      "image_ids": [
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up"
       ],
-      "correct": "I'm good at helping friends study.",
+      "choices": [
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up"
+      ],
+      "correct": "int3a_gym-class_climb_up",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Climb up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Climb up.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Climb up."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_climb_up": "Climb up"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q27",
-      "type": 4,
-      "prompt_text": "Tell me about yourself.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "He plays.",
-        "She is tall.",
-        "I'm Jay and I love teaching English."
+      "id": "i3a_mid58_q27",
+      "type": 1,
+      "prompt_text": "Dance! Thank you Sir",
+      "audio_id": "mid58_q27",
+      "image_ids": [
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down"
       ],
-      "correct": "I'm Jay and I love teaching English.",
+      "choices": [
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down"
+      ],
+      "correct": "int3a_gym-class_dance",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Dance.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Dance.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Dance."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_lie_down": "Lie down"
+      }
     },
     {
-      "id": "i3a_midterm_5_8_q28",
-      "type": 4,
-      "prompt_text": "Where are you from?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "I am fine.",
-        "She runs.",
-        "I'm from Tongyeong, Korea."
+      "id": "i3a_mid58_q28",
+      "type": 1,
+      "prompt_text": "What do you like? I really like dogs.",
+      "audio_id": "mid58_q28",
+      "image_ids": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance"
       ],
-      "correct": "I'm from Tongyeong, Korea.",
+      "choices": [
+        "int3a_introduction_age_18",
+        "int3a_introduction_dogs",
+        "int3a_introduction_seoul",
+        "int3a_introduction_sing_dance"
+      ],
+      "correct": "int3a_introduction_dogs",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3a_introduction_age_18": "That shows 18 years old, not dogs.",
+        "int3a_introduction_seoul": "That shows Seoul, not dogs.",
+        "int3a_introduction_sing_dance": "That shows sing and dance, not dogs."
       },
-      "unit": null,
-      "level": "int3a"
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_sing_dance": "sing and dance"
+      }
+    },
+    {
+      "id": "i3a_mid58_q29",
+      "type": 1,
+      "prompt_text": "What is this bug? It is a firefly.",
+      "audio_id": "mid58_q29",
+      "image_ids": [
+        "int3a_bug_firefly",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_moth"
+      ],
+      "choices": [
+        "int3a_bug_firefly",
+        "int3a_bug_cicada",
+        "int3a_bug_butterfly",
+        "int3a_bug_moth"
+      ],
+      "correct": "int3a_bug_firefly",
+      "why_wrong": {
+        "int3a_bug_cicada": "That shows cicada, not firefly.",
+        "int3a_bug_butterfly": "That shows butterfly, not firefly.",
+        "int3a_bug_moth": "That shows moth, not firefly."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_moth": "moth"
+      }
+    },
+    {
+      "id": "i3a_mid58_q30",
+      "type": 1,
+      "prompt_text": "Do jumping jacks!",
+      "audio_id": "mid58_q30",
+      "image_ids": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
+      ],
+      "choices": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
+      ],
+      "correct": "int3a_gym-class_jumping_jacks",
+      "why_wrong": {
+        "int3a_gym-class_dance": "That shows Dance, not Do jumping jacks.",
+        "int3a_gym-class_run_around": "That shows Run around, not Do jumping jacks.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Do jumping jacks."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_clap_5": "Clap 5 times"
+      }
+    },
+    {
+      "id": "i3a_mid58_q31",
+      "type": 1,
+      "prompt_text": "It is a spider.",
+      "audio_id": "mid58_q31",
+      "image_ids": [
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_spider"
+      ],
+      "choices": [
+        "int3a_bug_silkworm",
+        "int3a_bug_butterfly",
+        "int3a_bug_firefly",
+        "int3a_bug_spider"
+      ],
+      "correct": "int3a_bug_spider",
+      "why_wrong": {
+        "int3a_bug_silkworm": "That shows silkworm, not spider.",
+        "int3a_bug_butterfly": "That shows butterfly, not spider.",
+        "int3a_bug_firefly": "That shows firefly, not spider."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_butterfly": "butterfly",
+        "int3a_bug_firefly": "firefly",
+        "int3a_bug_spider": "spider"
+      }
+    },
+    {
+      "id": "i3a_mid58_q32",
+      "type": 1,
+      "prompt_text": "My name is Mike.",
+      "audio_id": "mid58_q32",
+      "image_ids": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mike"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_mike"
+      ],
+      "correct": "int3a_what-is-your-name_mike",
+      "why_wrong": {
+        "int3a_what-is-your-name_violet": "That shows Violet, not Mike.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Mike.",
+        "int3a_what-is-your-name_hunter": "That shows Hunter, not Mike."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_mike": "Mike"
+      }
+    },
+    {
+      "id": "i3a_mid58_q33",
+      "type": 1,
+      "prompt_text": "My name is Ivy.",
+      "audio_id": "mid58_q33",
+      "image_ids": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_rose"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_baker",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_rose"
+      ],
+      "correct": "int3a_what-is-your-name_ivy",
+      "why_wrong": {
+        "int3a_what-is-your-name_baker": "That shows Baker, not Ivy.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ivy.",
+        "int3a_what-is-your-name_rose": "That shows Rose, not Ivy."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_baker": "Baker",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_rose": "Rose"
+      }
+    },
+    {
+      "id": "i3a_mid58_q34",
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "mid58_q34",
+      "image_ids": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_family_6"
+      ],
+      "choices": [
+        "int3a_introduction_age_11",
+        "int3a_introduction_dogs",
+        "int3a_introduction_age_18",
+        "int3a_introduction_family_6"
+      ],
+      "correct": "int3a_introduction_age_18",
+      "why_wrong": {
+        "int3a_introduction_age_11": "That shows 11 years old, not 18 years old.",
+        "int3a_introduction_dogs": "That shows dogs, not 18 years old.",
+        "int3a_introduction_family_6": "That shows family of 6, not 18 years old."
+      },
+      "unit": 0,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_family_6": "family of 6"
+      }
     }
   ]
 }
