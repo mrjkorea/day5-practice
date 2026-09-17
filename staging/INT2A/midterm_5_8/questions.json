@@ -2,15 +2,15 @@
   "meta": {
     "level": "int2a",
     "title": "Intermediate 2A Midterm Units 5–8",
-    "kind": "midterm_5_8",
+    "kind": "midterm",
     "units_covered": [
       5,
       6,
       7,
       8
     ],
-    "count": 28,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 29,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -20,597 +20,940 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
-      "id": "i2a_midterm_5_8_q01",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in your bag.",
-        "I like apples.",
-        "We play games.",
-        "She is kind."
+      "id": "i2a_m58_q01",
+      "type": 1,
+      "prompt_text": "Look at this gross video.",
+      "audio_id": "midterm-5-8-q01",
+      "image_ids": [
+        "int2a_space",
+        "int2a_gross",
+        "int2a_principal",
+        "int2a_phone"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_space",
+        "int2a_gross",
+        "int2a_principal",
+        "int2a_phone"
+      ],
+      "correct": "int2a_gross",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_space": "You tapped \"outer space\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_space": "outer space",
+        "int2a_gross": "gross / yucky face",
+        "int2a_principal": "principal",
+        "int2a_phone": "phone"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q02",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are on the table.",
-        "He is ten.",
-        "It is cold.",
-        "I want juice."
+      "id": "i2a_m58_q03",
+      "type": 1,
+      "prompt_text": "Maybe it is in the living room.",
+      "audio_id": "midterm-5-8-q03",
+      "image_ids": [
+        "int2a_bag",
+        "int2a_principal",
+        "int2a_relax",
+        "int2a_living_room"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_bag",
+        "int2a_principal",
+        "int2a_relax",
+        "int2a_living_room"
+      ],
+      "correct": "int2a_living_room",
       "why_wrong": {
-        "He is ten.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 5,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bag": "bag",
+        "int2a_principal": "principal",
+        "int2a_relax": "relaxing on a couch",
+        "int2a_living_room": "living room"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q03",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "They sing songs.",
-        "It's under the chair.",
-        "She reads books."
+      "id": "i2a_m58_q04",
+      "type": 1,
+      "prompt_text": "Look at this funny video.",
+      "audio_id": "midterm-5-8-q04",
+      "image_ids": [
+        "int2a_funny",
+        "int2a_library",
+        "int2a_juice",
+        "int2a_piano"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_funny",
+        "int2a_library",
+        "int2a_juice",
+        "int2a_piano"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!",
-        "She reads books.": "Not quite — try again!"
+        "int2a_library": "You tapped \"library\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_piano": "You tapped \"piano\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_funny": "funny face / laughing",
+        "int2a_library": "library",
+        "int2a_juice": "juice",
+        "int2a_piano": "piano"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q04",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's next to the cafeteria.",
-        "I have a dog.",
-        "He plays piano.",
-        "We eat lunch."
+      "id": "i2a_m58_q05",
+      "type": 1,
+      "prompt_text": "Maybe it is in the garage.",
+      "audio_id": "midterm-5-8-q05",
+      "image_ids": [
+        "int2a_crazy",
+        "int2a_bag",
+        "int2a_hail",
+        "int2a_garage"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_crazy",
+        "int2a_bag",
+        "int2a_hail",
+        "int2a_garage"
+      ],
+      "correct": "int2a_garage",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He plays piano.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 5,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_crazy": "crazy face",
+        "int2a_bag": "bag",
+        "int2a_hail": "hail",
+        "int2a_garage": "garage"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q05",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "He runs every day.",
-        "They are by the door.",
-        "She is my friend."
+      "id": "i2a_m58_q07",
+      "type": 1,
+      "prompt_text": "I play piano.",
+      "audio_id": "midterm-5-8-q07",
+      "image_ids": [
+        "int2a_piano",
+        "int2a_martial_arts",
+        "int2a_washroom",
+        "int2a_soccer"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_piano",
+        "int2a_martial_arts",
+        "int2a_washroom",
+        "int2a_soccer"
+      ],
+      "correct": "int2a_piano",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He runs every day.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!"
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_piano": "piano",
+        "int2a_martial_arts": "martial arts",
+        "int2a_washroom": "washroom",
+        "int2a_soccer": "soccer ball"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q06",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We play games.",
-        "It's in your bag.",
-        "She is kind.",
-        "I like apples."
+      "id": "i2a_m58_q08",
+      "type": 1,
+      "prompt_text": "I play computer games.",
+      "audio_id": "midterm-5-8-q08",
+      "image_ids": [
+        "int2a_computer_games",
+        "int2a_stormy",
+        "int2a_foggy",
+        "int2a_english_class"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_computer_games",
+        "int2a_stormy",
+        "int2a_foggy",
+        "int2a_english_class"
+      ],
+      "correct": "int2a_computer_games",
       "why_wrong": {
-        "We play games.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_computer_games": "computer games",
+        "int2a_stormy": "stormy weather",
+        "int2a_foggy": "foggy weather",
+        "int2a_english_class": "English class"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q07",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is ten.",
-        "They are on the table.",
-        "It is cold.",
-        "I want juice."
+      "id": "i2a_m58_q09",
+      "type": 1,
+      "prompt_text": "I don't know, maybe it is in the kitchen.",
+      "audio_id": "midterm-5-8-q09",
+      "image_ids": [
+        "int2a_juice",
+        "int2a_kitchen",
+        "int2a_water",
+        "int2a_bathroom"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_juice",
+        "int2a_kitchen",
+        "int2a_water",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_kitchen",
       "why_wrong": {
-        "He is ten.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 5,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_juice": "juice",
+        "int2a_kitchen": "kitchen",
+        "int2a_water": "water",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q08",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Me too!",
-        "Goodbye.",
-        "How old are you?",
-        "I don't know."
+      "id": "i2a_m58_q10",
+      "type": 1,
+      "prompt_text": "Look at this weird video.",
+      "audio_id": "midterm-5-8-q10",
+      "image_ids": [
+        "int2a_weird",
+        "int2a_exciting",
+        "int2a_korea",
+        "int2a_bag"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_weird",
+        "int2a_exciting",
+        "int2a_korea",
+        "int2a_bag"
+      ],
+      "correct": "int2a_weird",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_weird": "weird face",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_korea": "Korea / Korean",
+        "int2a_bag": "bag"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q09",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Open your book.",
-        "I am twelve.",
-        "I agree!",
-        "Where is it?"
+      "id": "i2a_m58_q12",
+      "type": 1,
+      "prompt_text": "Where are our classmates?",
+      "audio_id": "midterm-5-8-q12",
+      "image_ids": [
+        "int2a_china",
+        "int2a_hug",
+        "int2a_loud",
+        "int2a_classmates"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_china",
+        "int2a_hug",
+        "int2a_loud",
+        "int2a_classmates"
+      ],
+      "correct": "int2a_classmates",
       "why_wrong": {
-        "Open your book.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "Where is it?": "Not quite — try again!"
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!",
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_china": "China / Chinese",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_loud": "loud / shouting face",
+        "int2a_classmates": "classmates"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q10",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I want pizza.",
-        "Me neither... wait, I mean, I feel the same.",
-        "It's Tuesday."
+      "id": "i2a_m58_q13",
+      "type": 1,
+      "prompt_text": "He is in the office.",
+      "audio_id": "midterm-5-8-q13",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_office",
+        "int2a_australia",
+        "int2a_trees"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_windy",
+        "int2a_office",
+        "int2a_australia",
+        "int2a_trees"
+      ],
+      "correct": "int2a_office",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"He is in the office.\". The correct picture is \"office\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"He is in the office.\". The correct picture is \"office\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"He is in the office.\". The correct picture is \"office\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_office": "office",
+        "int2a_australia": "Australia",
+        "int2a_trees": "trees"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q11",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "You're right.",
-        "Let's eat.",
-        "I have a cat.",
-        "He sings well."
+      "id": "i2a_m58_q15",
+      "type": 1,
+      "prompt_text": "Yeah, it is really funny.",
+      "audio_id": "midterm-5-8-q15",
+      "image_ids": [
+        "int2a_england",
+        "int2a_gross",
+        "int2a_russia",
+        "int2a_funny"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_england",
+        "int2a_gross",
+        "int2a_russia",
+        "int2a_funny"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "Let's eat.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He sings well.": "Not quite — try again!"
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_england": "England / English",
+        "int2a_gross": "gross / yucky face",
+        "int2a_russia": "Russia / Russian",
+        "int2a_funny": "funny face / laughing"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q12",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am from Korea.",
-        "Good idea!",
-        "He is my dad.",
-        "She likes blue."
+      "id": "i2a_m58_q16",
+      "type": 1,
+      "prompt_text": "She is in the library.",
+      "audio_id": "midterm-5-8-q16",
+      "image_ids": [
+        "int2a_piano",
+        "int2a_spiders",
+        "int2a_lunch_lady",
+        "int2a_library"
       ],
-      "correct": "Good idea!",
+      "choices": [
+        "int2a_piano",
+        "int2a_spiders",
+        "int2a_lunch_lady",
+        "int2a_library"
+      ],
+      "correct": "int2a_library",
       "why_wrong": {
-        "I am from Korea.": "Not quite — try again!",
-        "He is my dad.": "Not quite — try again!",
-        "She likes blue.": "Not quite — try again!"
+        "int2a_piano": "You tapped \"piano\", but the audio said: \"She is in the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_spiders": "You tapped \"spiders\", but the audio said: \"She is in the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"She is in the library.\". The correct picture is \"library\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_piano": "piano",
+        "int2a_spiders": "spiders",
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_library": "library"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q13",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Me too!",
-        "Goodbye.",
-        "How old are you?",
-        "I don't know."
+      "id": "i2a_m58_q17",
+      "type": 1,
+      "prompt_text": "I go to English class.",
+      "audio_id": "midterm-5-8-q17",
+      "image_ids": [
+        "int2a_english_class",
+        "int2a_dining_room",
+        "int2a_classroom",
+        "int2a_martial_arts"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_english_class",
+        "int2a_dining_room",
+        "int2a_classroom",
+        "int2a_martial_arts"
+      ],
+      "correct": "int2a_english_class",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_english_class": "English class",
+        "int2a_dining_room": "dining room",
+        "int2a_classroom": "classroom",
+        "int2a_martial_arts": "martial arts"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q14",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I agree!",
-        "Where is it?",
-        "I am twelve.",
-        "Open your book."
+      "id": "i2a_m58_q18",
+      "type": 1,
+      "prompt_text": "Where is the librarian?",
+      "audio_id": "midterm-5-8-q18",
+      "image_ids": [
+        "int2a_librarian",
+        "int2a_classroom",
+        "int2a_germany",
+        "int2a_teacher"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_librarian",
+        "int2a_classroom",
+        "int2a_germany",
+        "int2a_teacher"
+      ],
+      "correct": "int2a_librarian",
       "why_wrong": {
-        "Where is it?": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "Open your book.": "Not quite — try again!"
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"Where is the librarian?\". The correct picture is \"librarian\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"Where is the librarian?\". The correct picture is \"librarian\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"Where is the librarian?\". The correct picture is \"librarian\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_librarian": "librarian",
+        "int2a_classroom": "classroom",
+        "int2a_germany": "Germany / German",
+        "int2a_teacher": "teacher"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q15",
-      "type": 4,
-      "prompt_text": "Where is the post office?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is happy.",
-        "We have class.",
-        "I like music.",
-        "It's on Main Street."
+      "id": "i2a_m58_q19",
+      "type": 1,
+      "prompt_text": "I practice martial arts.",
+      "audio_id": "midterm-5-8-q19",
+      "image_ids": [
+        "int2a_martial_arts",
+        "int2a_washroom",
+        "int2a_england",
+        "int2a_rainy"
       ],
-      "correct": "It's on Main Street.",
+      "choices": [
+        "int2a_martial_arts",
+        "int2a_washroom",
+        "int2a_england",
+        "int2a_rainy"
+      ],
+      "correct": "int2a_martial_arts",
       "why_wrong": {
-        "She is happy.": "Not quite — try again!",
-        "We have class.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!"
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_martial_arts": "martial arts",
+        "int2a_washroom": "washroom",
+        "int2a_england": "England / English",
+        "int2a_rainy": "rainy weather"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q16",
-      "type": 4,
-      "prompt_text": "Is the bank far from here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's quite close.",
-        "They play soccer.",
-        "I want water.",
-        "He is young."
+      "id": "i2a_m58_q20",
+      "type": 1,
+      "prompt_text": "They are in the gym.",
+      "audio_id": "midterm-5-8-q20",
+      "image_ids": [
+        "int2a_exciting",
+        "int2a_gym",
+        "int2a_china",
+        "int2a_scary"
       ],
-      "correct": "No, it's quite close.",
+      "choices": [
+        "int2a_exciting",
+        "int2a_gym",
+        "int2a_china",
+        "int2a_scary"
+      ],
+      "correct": "int2a_gym",
       "why_wrong": {
-        "They play soccer.": "Not quite — try again!",
-        "I want water.": "Not quite — try again!",
-        "He is young.": "Not quite — try again!"
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!",
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!",
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_gym": "gym",
+        "int2a_china": "China / Chinese",
+        "int2a_scary": "scary face / ghost"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q17",
-      "type": 4,
-      "prompt_text": "Where can I buy stamps?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads fast.",
-        "He has a bike.",
-        "I am fine.",
-        "At the post office."
+      "id": "i2a_m58_q21",
+      "type": 1,
+      "prompt_text": "Yeah, it is really scary.",
+      "audio_id": "midterm-5-8-q21",
+      "image_ids": [
+        "int2a_attic",
+        "int2a_water",
+        "int2a_watch_tv",
+        "int2a_scary"
       ],
-      "correct": "At the post office.",
+      "choices": [
+        "int2a_attic",
+        "int2a_water",
+        "int2a_watch_tv",
+        "int2a_scary"
+      ],
+      "correct": "int2a_scary",
       "why_wrong": {
-        "She reads fast.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_attic": "attic",
+        "int2a_water": "water",
+        "int2a_watch_tv": "TV",
+        "int2a_scary": "scary face / ghost"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q18",
-      "type": 4,
-      "prompt_text": "Where is the nearest subway?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study English.",
-        "It's two blocks away.",
-        "I like dogs.",
-        "She is kind."
+      "id": "i2a_m58_q22",
+      "type": 1,
+      "prompt_text": "Look at this exciting video.",
+      "audio_id": "midterm-5-8-q22",
+      "image_ids": [
+        "int2a_english_class",
+        "int2a_exciting",
+        "int2a_watch_tv",
+        "int2a_russia"
       ],
-      "correct": "It's two blocks away.",
+      "choices": [
+        "int2a_english_class",
+        "int2a_exciting",
+        "int2a_watch_tv",
+        "int2a_russia"
+      ],
+      "correct": "int2a_exciting",
       "why_wrong": {
-        "We study English.": "Not quite — try again!",
-        "I like dogs.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_english_class": "English class",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_watch_tv": "TV",
+        "int2a_russia": "Russia / Russian"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q19",
-      "type": 4,
-      "prompt_text": "Where is your classroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's on the third floor.",
-        "They are friends.",
-        "He plays games.",
-        "I eat lunch."
+      "id": "i2a_m58_q23",
+      "type": 1,
+      "prompt_text": "He is in the classroom.",
+      "audio_id": "midterm-5-8-q23",
+      "image_ids": [
+        "int2a_monster",
+        "int2a_food",
+        "int2a_classroom",
+        "int2a_russia"
       ],
-      "correct": "It's on the third floor.",
+      "choices": [
+        "int2a_monster",
+        "int2a_food",
+        "int2a_classroom",
+        "int2a_russia"
+      ],
+      "correct": "int2a_classroom",
       "why_wrong": {
-        "They are friends.": "Not quite — try again!",
-        "He plays games.": "Not quite — try again!",
-        "I eat lunch.": "Not quite — try again!"
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_food": "You tapped \"food\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 5,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_monster": "monster",
+        "int2a_food": "food",
+        "int2a_classroom": "classroom",
+        "int2a_russia": "Russia / Russian"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q20",
-      "type": 4,
-      "prompt_text": "Where is the post office?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's on Main Street.",
-        "I like music.",
-        "She is happy.",
-        "We have class."
+      "id": "i2a_m58_q24",
+      "type": 1,
+      "prompt_text": "Where is the janitor?",
+      "audio_id": "midterm-5-8-q24",
+      "image_ids": [
+        "int2a_daegu",
+        "int2a_garage",
+        "int2a_relax",
+        "int2a_janitor"
       ],
-      "correct": "It's on Main Street.",
+      "choices": [
+        "int2a_daegu",
+        "int2a_garage",
+        "int2a_relax",
+        "int2a_janitor"
+      ],
+      "correct": "int2a_janitor",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "She is happy.": "Not quite — try again!",
-        "We have class.": "Not quite — try again!"
+        "int2a_daegu": "You tapped \"Daegu city\", but the audio said: \"Where is the janitor?\". The correct picture is \"janitor\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"Where is the janitor?\". The correct picture is \"janitor\". Listen again!",
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Where is the janitor?\". The correct picture is \"janitor\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_daegu": "Daegu city",
+        "int2a_garage": "garage",
+        "int2a_relax": "relaxing on a couch",
+        "int2a_janitor": "janitor"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q21",
-      "type": 4,
-      "prompt_text": "Is the bank far from here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is young.",
-        "I want water.",
-        "They play soccer.",
-        "No, it's quite close."
+      "id": "i2a_m58_q25",
+      "type": 1,
+      "prompt_text": "Where is the principal?",
+      "audio_id": "midterm-5-8-q25",
+      "image_ids": [
+        "int2a_bedroom",
+        "int2a_scary",
+        "int2a_principal",
+        "int2a_english_class"
       ],
-      "correct": "No, it's quite close.",
+      "choices": [
+        "int2a_bedroom",
+        "int2a_scary",
+        "int2a_principal",
+        "int2a_english_class"
+      ],
+      "correct": "int2a_principal",
       "why_wrong": {
-        "He is young.": "Not quite — try again!",
-        "I want water.": "Not quite — try again!",
-        "They play soccer.": "Not quite — try again!"
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"Where is the principal?\". The correct picture is \"principal\". Listen again!",
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"Where is the principal?\". The correct picture is \"principal\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"Where is the principal?\". The correct picture is \"principal\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bedroom": "bedroom",
+        "int2a_scary": "scary face / ghost",
+        "int2a_principal": "principal",
+        "int2a_english_class": "English class"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q22",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go to piano lessons.",
-        "It is sunny.",
-        "She is tall.",
-        "I am eleven."
+      "id": "i2a_m58_q26",
+      "type": 1,
+      "prompt_text": "Where is the teacher?",
+      "audio_id": "midterm-5-8-q26",
+      "image_ids": [
+        "int2a_snowy",
+        "int2a_bike",
+        "int2a_space",
+        "int2a_teacher"
       ],
-      "correct": "I go to piano lessons.",
+      "choices": [
+        "int2a_snowy",
+        "int2a_bike",
+        "int2a_space",
+        "int2a_teacher"
+      ],
+      "correct": "int2a_teacher",
       "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!",
+        "int2a_space": "You tapped \"outer space\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snowy": "snowy weather",
+        "int2a_bike": "bicycle",
+        "int2a_space": "outer space",
+        "int2a_teacher": "teacher"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q23",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "We eat rice.",
-        "He plays soccer with friends.",
-        "She has a cat."
+      "id": "i2a_m58_q27",
+      "type": 1,
+      "prompt_text": "Look at this crazy video.",
+      "audio_id": "midterm-5-8-q27",
+      "image_ids": [
+        "int2a_cold",
+        "int2a_cafeteria",
+        "int2a_librarian",
+        "int2a_crazy"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_cold",
+        "int2a_cafeteria",
+        "int2a_librarian",
+        "int2a_crazy"
+      ],
+      "correct": "int2a_crazy",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 6,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_cold": "cold weather",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_librarian": "librarian",
+        "int2a_crazy": "crazy face"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q24",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "Yes, I join the art club.",
-        "He is my brother.",
-        "I am hungry."
+      "id": "i2a_m58_q28",
+      "type": 1,
+      "prompt_text": "I take care of my little brother.",
+      "audio_id": "midterm-5-8-q28",
+      "image_ids": [
+        "int2a_little_brother",
+        "int2a_vietnam",
+        "int2a_cafeteria",
+        "int2a_sunny"
       ],
-      "correct": "Yes, I join the art club.",
+      "choices": [
+        "int2a_little_brother",
+        "int2a_vietnam",
+        "int2a_cafeteria",
+        "int2a_sunny"
+      ],
+      "correct": "int2a_little_brother",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_little_brother": "little brother",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_sunny": "sunny weather"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q25",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "I do my homework.",
-        "He runs fast.",
-        "She sings well."
+      "id": "i2a_m58_q29",
+      "type": 1,
+      "prompt_text": "She is in the cafeteria.",
+      "audio_id": "midterm-5-8-q29",
+      "image_ids": [
+        "int2a_phone",
+        "int2a_office",
+        "int2a_english_class",
+        "int2a_cafeteria"
       ],
-      "correct": "I do my homework.",
+      "choices": [
+        "int2a_phone",
+        "int2a_office",
+        "int2a_english_class",
+        "int2a_cafeteria"
+      ],
+      "correct": "int2a_cafeteria",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He runs fast.": "Not quite — try again!",
-        "She sings well.": "Not quite — try again!"
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"She is in the cafeteria.\". The correct picture is \"cafeteria\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"She is in the cafeteria.\". The correct picture is \"cafeteria\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"She is in the cafeteria.\". The correct picture is \"cafeteria\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_phone": "phone",
+        "int2a_office": "office",
+        "int2a_english_class": "English class",
+        "int2a_cafeteria": "cafeteria"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q26",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two pens.",
-        "She is kind.",
-        "I'm meeting my friends.",
-        "He likes math."
+      "id": "i2a_m58_q30",
+      "type": 1,
+      "prompt_text": "Maybe it is in the bathroom.",
+      "audio_id": "midterm-5-8-q30",
+      "image_ids": [
+        "int2a_spain",
+        "int2a_bathroom",
+        "int2a_gross",
+        "int2a_teacher"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_spain",
+        "int2a_bathroom",
+        "int2a_gross",
+        "int2a_teacher"
+      ],
+      "correct": "int2a_bathroom",
       "why_wrong": {
-        "I have two pens.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!"
+        "int2a_spain": "You tapped \"Spain / Spanish\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 5,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spain": "Spain / Spanish",
+        "int2a_bathroom": "bathroom",
+        "int2a_gross": "gross / yucky face",
+        "int2a_teacher": "teacher"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q27",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is sunny.",
-        "She is tall.",
-        "I am eleven.",
-        "I go to piano lessons."
+      "id": "i2a_m58_q31",
+      "type": 1,
+      "prompt_text": "I just relax.",
+      "audio_id": "midterm-5-8-q31",
+      "image_ids": [
+        "int2a_loud",
+        "int2a_spiders",
+        "int2a_subtitles",
+        "int2a_relax"
       ],
-      "correct": "I go to piano lessons.",
+      "choices": [
+        "int2a_loud",
+        "int2a_spiders",
+        "int2a_subtitles",
+        "int2a_relax"
+      ],
+      "correct": "int2a_relax",
       "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_spiders": "You tapped \"spiders\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_loud": "loud / shouting face",
+        "int2a_spiders": "spiders",
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_relax": "relaxing on a couch"
+      }
     },
     {
-      "id": "i2a_midterm_5_8_q28",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer with friends.",
-        "We eat rice.",
-        "She has a cat.",
-        "I like red."
+      "id": "i2a_m58_q33",
+      "type": 1,
+      "prompt_text": "I play soccer.",
+      "audio_id": "midterm-5-8-q33",
+      "image_ids": [
+        "int2a_tongyeong",
+        "int2a_classmates",
+        "int2a_korea",
+        "int2a_soccer"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_tongyeong",
+        "int2a_classmates",
+        "int2a_korea",
+        "int2a_soccer"
+      ],
+      "correct": "int2a_soccer",
       "why_wrong": {
-        "We eat rice.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!"
       },
-      "unit": null,
-      "level": "int2a"
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_tongyeong": "Tongyeong city",
+        "int2a_classmates": "classmates",
+        "int2a_korea": "Korea / Korean",
+        "int2a_soccer": "soccer ball"
+      }
+    },
+    {
+      "id": "i2a_m58_q34",
+      "type": 1,
+      "prompt_text": "Where is the lunch lady?",
+      "audio_id": "midterm-5-8-q34",
+      "image_ids": [
+        "int2a_librarian",
+        "int2a_hug",
+        "int2a_lunch_lady",
+        "int2a_loud"
+      ],
+      "choices": [
+        "int2a_librarian",
+        "int2a_hug",
+        "int2a_lunch_lady",
+        "int2a_loud"
+      ],
+      "correct": "int2a_lunch_lady",
+      "why_wrong": {
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"Where is the lunch lady?\". The correct picture is \"lunch lady\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"Where is the lunch lady?\". The correct picture is \"lunch lady\". Listen again!",
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Where is the lunch lady?\". The correct picture is \"lunch lady\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_librarian": "librarian",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_loud": "loud / shouting face"
+      }
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 8: After-School Activities",
+    "title": "Intermediate 2A Unit 8: What Do You Do After School?",
     "kind": "unit",
     "units_covered": [
       8
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 21,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,684 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
-      "id": "i2a_u08_q01",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "It is sunny.",
-        "I am eleven.",
-        "I go to piano lessons."
-      ],
-      "correct": "I go to piano lessons.",
-      "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
       "id": "i2a_u08_q02",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She has a cat.",
-        "We eat rice.",
-        "I like red.",
-        "He plays soccer with friends."
+      "type": 1,
+      "prompt_text": "I play computer games.",
+      "audio_id": "unit-08-q02",
+      "image_ids": [
+        "int2a_library",
+        "int2a_bike",
+        "int2a_cafeteria",
+        "int2a_computer_games"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_library",
+        "int2a_bike",
+        "int2a_cafeteria",
+        "int2a_computer_games"
+      ],
+      "correct": "int2a_computer_games",
       "why_wrong": {
-        "She has a cat.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2a_library": "You tapped \"library\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_library": "library",
+        "int2a_bike": "bicycle",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_computer_games": "computer games"
+      }
     },
     {
       "id": "i2a_u08_q03",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "Yes, I join the art club.",
-        "He is my brother.",
-        "It is cold."
+      "type": 1,
+      "prompt_text": "I play soccer.",
+      "audio_id": "unit-08-q03",
+      "image_ids": [
+        "int2a_classmates",
+        "int2a_teacher",
+        "int2a_soccer",
+        "int2a_hotel"
       ],
-      "correct": "Yes, I join the art club.",
+      "choices": [
+        "int2a_classmates",
+        "int2a_teacher",
+        "int2a_soccer",
+        "int2a_hotel"
+      ],
+      "correct": "int2a_soccer",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classmates": "classmates",
+        "int2a_teacher": "teacher",
+        "int2a_soccer": "soccer ball",
+        "int2a_hotel": "hotel"
+      }
     },
     {
       "id": "i2a_u08_q04",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings well.",
-        "I like summer.",
-        "I do my homework.",
-        "He runs fast."
+      "type": 1,
+      "prompt_text": "I practice martial arts.",
+      "audio_id": "unit-08-q04",
+      "image_ids": [
+        "int2a_martial_arts",
+        "int2a_secretary",
+        "int2a_hail",
+        "int2a_ants"
       ],
-      "correct": "I do my homework.",
+      "choices": [
+        "int2a_martial_arts",
+        "int2a_secretary",
+        "int2a_hail",
+        "int2a_ants"
+      ],
+      "correct": "int2a_martial_arts",
       "why_wrong": {
-        "She sings well.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He runs fast.": "Not quite — try again!"
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_martial_arts": "martial arts",
+        "int2a_secretary": "secretary",
+        "int2a_hail": "hail",
+        "int2a_ants": "ants"
+      }
     },
     {
       "id": "i2a_u08_q05",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm meeting my friends.",
-        "She is kind.",
-        "I have two pens.",
-        "He likes math."
+      "type": 1,
+      "prompt_text": "I go to English class.",
+      "audio_id": "unit-08-q05",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_english_class",
+        "int2a_martial_arts",
+        "int2a_library"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_basement",
+        "int2a_english_class",
+        "int2a_martial_arts",
+        "int2a_library"
+      ],
+      "correct": "int2a_english_class",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I have two pens.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!"
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_english_class": "English class",
+        "int2a_martial_arts": "martial arts",
+        "int2a_library": "library"
+      }
     },
     {
       "id": "i2a_u08_q06",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "I go to piano lessons.",
-        "I am eleven.",
-        "It is sunny."
+      "type": 1,
+      "prompt_text": "I play piano.",
+      "audio_id": "unit-08-q06",
+      "image_ids": [
+        "int2a_piano",
+        "int2a_water",
+        "int2a_quiet",
+        "int2a_classroom"
       ],
-      "correct": "I go to piano lessons.",
+      "choices": [
+        "int2a_piano",
+        "int2a_water",
+        "int2a_quiet",
+        "int2a_classroom"
+      ],
+      "correct": "int2a_piano",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!"
+        "int2a_water": "You tapped \"water\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_piano": "piano",
+        "int2a_water": "water",
+        "int2a_quiet": "quiet / shh face",
+        "int2a_classroom": "classroom"
+      }
     },
     {
       "id": "i2a_u08_q07",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She has a cat.",
-        "We eat rice.",
-        "I like red.",
-        "He plays soccer with friends."
+      "type": 1,
+      "prompt_text": "I take care of my little brother.",
+      "audio_id": "unit-08-q07",
+      "image_ids": [
+        "int2a_stormy",
+        "int2a_funny",
+        "int2a_gross",
+        "int2a_little_brother"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_stormy",
+        "int2a_funny",
+        "int2a_gross",
+        "int2a_little_brother"
+      ],
+      "correct": "int2a_little_brother",
       "why_wrong": {
-        "She has a cat.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"I take care of my little brother.\". The correct picture is \"little brother\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_stormy": "stormy weather",
+        "int2a_funny": "funny face / laughing",
+        "int2a_gross": "gross / yucky face",
+        "int2a_little_brother": "little brother"
+      }
     },
     {
       "id": "i2a_u08_q08",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I join the art club.",
-        "He is my brother.",
-        "It is cold.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "I just relax.",
+      "audio_id": "unit-08-q08",
+      "image_ids": [
+        "int2a_relax",
+        "int2a_water",
+        "int2a_monster",
+        "int2a_ants"
       ],
-      "correct": "Yes, I join the art club.",
+      "choices": [
+        "int2a_relax",
+        "int2a_water",
+        "int2a_monster",
+        "int2a_ants"
+      ],
+      "correct": "int2a_relax",
       "why_wrong": {
-        "He is my brother.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2a_water": "You tapped \"water\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_relax": "relaxing on a couch",
+        "int2a_water": "water",
+        "int2a_monster": "monster",
+        "int2a_ants": "ants"
+      }
     },
     {
       "id": "i2a_u08_q09",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs fast.",
-        "I like summer.",
-        "I do my homework.",
-        "She sings well."
+      "type": 1,
+      "prompt_text": "I watch TV.",
+      "audio_id": "unit-08-q09",
+      "image_ids": [
+        "int2a_watch_tv",
+        "int2a_janitor",
+        "int2a_secretary",
+        "int2a_basement"
       ],
-      "correct": "I do my homework.",
+      "choices": [
+        "int2a_watch_tv",
+        "int2a_janitor",
+        "int2a_secretary",
+        "int2a_basement"
+      ],
+      "correct": "int2a_watch_tv",
       "why_wrong": {
-        "He runs fast.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "She sings well.": "Not quite — try again!"
+        "int2a_janitor": "You tapped \"janitor\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!",
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!",
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_watch_tv": "TV",
+        "int2a_janitor": "janitor",
+        "int2a_secretary": "secretary",
+        "int2a_basement": "basement"
+      }
     },
     {
       "id": "i2a_u08_q10",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He likes math.",
-        "I have two pens.",
-        "I'm meeting my friends.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "I ride a bike.",
+      "audio_id": "unit-08-q10",
+      "image_ids": [
+        "int2a_juice",
+        "int2a_subtitles",
+        "int2a_bike",
+        "int2a_funny"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_juice",
+        "int2a_subtitles",
+        "int2a_bike",
+        "int2a_funny"
+      ],
+      "correct": "int2a_bike",
       "why_wrong": {
-        "He likes math.": "Not quite — try again!",
-        "I have two pens.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q11",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go to piano lessons.",
-        "It is sunny.",
-        "She is tall.",
-        "I am eleven."
-      ],
-      "correct": "I go to piano lessons.",
-      "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q12",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer with friends.",
-        "She has a cat.",
-        "I like red.",
-        "We eat rice."
-      ],
-      "correct": "He plays soccer with friends.",
-      "why_wrong": {
-        "She has a cat.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q13",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It is cold.",
-        "He is my brother.",
-        "Yes, I join the art club."
-      ],
-      "correct": "Yes, I join the art club.",
-      "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q14",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings well.",
-        "I like summer.",
-        "He runs fast.",
-        "I do my homework."
-      ],
-      "correct": "I do my homework.",
-      "why_wrong": {
-        "She sings well.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He runs fast.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_juice": "juice",
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_bike": "bicycle",
+        "int2a_funny": "funny face / laughing"
+      }
     },
     {
       "id": "i2a_u08_q15",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two pens.",
-        "I'm meeting my friends.",
-        "She is kind.",
-        "He likes math."
+      "type": 1,
+      "prompt_text": "I go to the library.",
+      "audio_id": "unit-08-q15",
+      "image_ids": [
+        "int2a_quiet",
+        "int2a_medicine",
+        "int2a_library",
+        "int2a_subtitles"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_quiet",
+        "int2a_medicine",
+        "int2a_library",
+        "int2a_subtitles"
+      ],
+      "correct": "int2a_library",
       "why_wrong": {
-        "I have two pens.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!"
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_medicine": "You tapped \"medicine\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_quiet": "quiet / shh face",
+        "int2a_medicine": "medicine",
+        "int2a_library": "library",
+        "int2a_subtitles": "subtitles on a screen"
+      }
     },
     {
       "id": "i2a_u08_q16",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go to piano lessons.",
-        "I am eleven.",
-        "It is sunny.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "I play computer games.",
+      "audio_id": "unit-08-q16",
+      "image_ids": [
+        "int2a_japan",
+        "int2a_computer_games",
+        "int2a_germany",
+        "int2a_kitchen"
       ],
-      "correct": "I go to piano lessons.",
+      "choices": [
+        "int2a_japan",
+        "int2a_computer_games",
+        "int2a_germany",
+        "int2a_kitchen"
+      ],
+      "correct": "int2a_computer_games",
       "why_wrong": {
-        "I am eleven.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_japan": "Japan / Japanese",
+        "int2a_computer_games": "computer games",
+        "int2a_germany": "Germany / German",
+        "int2a_kitchen": "kitchen"
+      }
     },
     {
       "id": "i2a_u08_q17",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "We eat rice.",
-        "He plays soccer with friends.",
-        "She has a cat."
+      "type": 1,
+      "prompt_text": "I play soccer.",
+      "audio_id": "unit-08-q17",
+      "image_ids": [
+        "int2a_cold",
+        "int2a_soccer",
+        "int2a_rainy",
+        "int2a_japan"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_cold",
+        "int2a_soccer",
+        "int2a_rainy",
+        "int2a_japan"
+      ],
+      "correct": "int2a_soccer",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!"
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_cold": "cold weather",
+        "int2a_soccer": "soccer ball",
+        "int2a_rainy": "rainy weather",
+        "int2a_japan": "Japan / Japanese"
+      }
     },
     {
       "id": "i2a_u08_q18",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "I am hungry.",
-        "Yes, I join the art club.",
-        "He is my brother."
+      "type": 1,
+      "prompt_text": "I practice martial arts.",
+      "audio_id": "unit-08-q18",
+      "image_ids": [
+        "int2a_spain",
+        "int2a_hug",
+        "int2a_martial_arts",
+        "int2a_english_class"
       ],
-      "correct": "Yes, I join the art club.",
+      "choices": [
+        "int2a_spain",
+        "int2a_hug",
+        "int2a_martial_arts",
+        "int2a_english_class"
+      ],
+      "correct": "int2a_martial_arts",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!"
+        "int2a_spain": "You tapped \"Spain / Spanish\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spain": "Spain / Spanish",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_martial_arts": "martial arts",
+        "int2a_english_class": "English class"
+      }
     },
     {
       "id": "i2a_u08_q19",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I do my homework.",
-        "She sings well.",
-        "He runs fast.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "I go to English class.",
+      "audio_id": "unit-08-q19",
+      "image_ids": [
+        "int2a_stormy",
+        "int2a_english_class",
+        "int2a_monster",
+        "int2a_england"
       ],
-      "correct": "I do my homework.",
+      "choices": [
+        "int2a_stormy",
+        "int2a_english_class",
+        "int2a_monster",
+        "int2a_england"
+      ],
+      "correct": "int2a_english_class",
       "why_wrong": {
-        "She sings well.": "Not quite — try again!",
-        "He runs fast.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_stormy": "stormy weather",
+        "int2a_english_class": "English class",
+        "int2a_monster": "monster",
+        "int2a_england": "England / English"
+      }
     },
     {
       "id": "i2a_u08_q20",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm meeting my friends.",
-        "I have two pens.",
-        "She is kind.",
-        "He likes math."
+      "type": 1,
+      "prompt_text": "I play piano.",
+      "audio_id": "unit-08-q20",
+      "image_ids": [
+        "int2a_lunch_lady",
+        "int2a_piano",
+        "int2a_computer",
+        "int2a_hotel"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_lunch_lady",
+        "int2a_piano",
+        "int2a_computer",
+        "int2a_hotel"
+      ],
+      "correct": "int2a_piano",
       "why_wrong": {
-        "I have two pens.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!"
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"I play piano.\". The correct picture is \"piano\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_piano": "piano",
+        "int2a_computer": "computer",
+        "int2a_hotel": "hotel"
+      }
     },
     {
       "id": "i2a_u08_q21",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go to piano lessons.",
-        "I am eleven.",
-        "It is sunny.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "I take care of little brother.",
+      "audio_id": "unit-08-q21",
+      "image_ids": [
+        "int2a_classmates",
+        "int2a_little_brother",
+        "int2a_principal",
+        "int2a_snakes"
       ],
-      "correct": "I go to piano lessons.",
+      "choices": [
+        "int2a_classmates",
+        "int2a_little_brother",
+        "int2a_principal",
+        "int2a_snakes"
+      ],
+      "correct": "int2a_little_brother",
       "why_wrong": {
-        "I am eleven.": "Not quite — try again!",
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"I take care of little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"I take care of little brother.\". The correct picture is \"little brother\". Listen again!",
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"I take care of little brother.\". The correct picture is \"little brother\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classmates": "classmates",
+        "int2a_little_brother": "little brother",
+        "int2a_principal": "principal",
+        "int2a_snakes": "snakes"
+      }
     },
     {
       "id": "i2a_u08_q22",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer with friends.",
-        "I like red.",
-        "She has a cat.",
-        "We eat rice."
+      "type": 1,
+      "prompt_text": "I just relax.",
+      "audio_id": "unit-08-q22",
+      "image_ids": [
+        "int2a_relax",
+        "int2a_india",
+        "int2a_washroom",
+        "int2a_computer_games"
       ],
-      "correct": "He plays soccer with friends.",
+      "choices": [
+        "int2a_relax",
+        "int2a_india",
+        "int2a_washroom",
+        "int2a_computer_games"
+      ],
+      "correct": "int2a_relax",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!"
+        "int2a_india": "You tapped \"India / Hindi\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!",
+        "int2a_computer_games": "You tapped \"computer games\", but the audio said: \"I just relax.\". The correct picture is \"relaxing on a couch\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_relax": "relaxing on a couch",
+        "int2a_india": "India / Hindi",
+        "int2a_washroom": "washroom",
+        "int2a_computer_games": "computer games"
+      }
     },
     {
       "id": "i2a_u08_q23",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I join the art club.",
-        "It is cold.",
-        "I am hungry.",
-        "He is my brother."
+      "type": 1,
+      "prompt_text": "I sing.",
+      "audio_id": "unit-08-q23",
+      "image_ids": [
+        "int2a_australia",
+        "int2a_funny",
+        "int2a_sing",
+        "int2a_garage"
       ],
-      "correct": "Yes, I join the art club.",
+      "choices": [
+        "int2a_australia",
+        "int2a_funny",
+        "int2a_sing",
+        "int2a_garage"
+      ],
+      "correct": "int2a_sing",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!"
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"I sing.\". The correct picture is \"singing / microphone\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"I sing.\". The correct picture is \"singing / microphone\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"I sing.\". The correct picture is \"singing / microphone\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_australia": "Australia",
+        "int2a_funny": "funny face / laughing",
+        "int2a_sing": "singing / microphone",
+        "int2a_garage": "garage"
+      }
     },
     {
       "id": "i2a_u08_q24",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs fast.",
-        "She sings well.",
-        "I do my homework.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "I watch TV.",
+      "audio_id": "unit-08-q24",
+      "image_ids": [
+        "int2a_watch_tv",
+        "int2a_soccer",
+        "int2a_hot",
+        "int2a_classmates"
       ],
-      "correct": "I do my homework.",
+      "choices": [
+        "int2a_watch_tv",
+        "int2a_soccer",
+        "int2a_hot",
+        "int2a_classmates"
+      ],
+      "correct": "int2a_watch_tv",
       "why_wrong": {
-        "He runs fast.": "Not quite — try again!",
-        "She sings well.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!",
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!",
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"I watch TV.\". The correct picture is \"TV\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_watch_tv": "TV",
+        "int2a_soccer": "soccer ball",
+        "int2a_hot": "hot weather",
+        "int2a_classmates": "classmates"
+      }
     },
     {
       "id": "i2a_u08_q25",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two pens.",
-        "He likes math.",
-        "I'm meeting my friends.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "I ride a bike.",
+      "audio_id": "unit-08-q25",
+      "image_ids": [
+        "int2a_monster",
+        "int2a_medicine",
+        "int2a_dining_room",
+        "int2a_bike"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_monster",
+        "int2a_medicine",
+        "int2a_dining_room",
+        "int2a_bike"
+      ],
+      "correct": "int2a_bike",
       "why_wrong": {
-        "I have two pens.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!",
+        "int2a_medicine": "You tapped \"medicine\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!",
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"I ride a bike.\". The correct picture is \"bicycle\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q26",
-      "type": 4,
-      "prompt_text": "What do you do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is sunny.",
-        "She is tall.",
-        "I go to piano lessons.",
-        "I am eleven."
-      ],
-      "correct": "I go to piano lessons.",
-      "why_wrong": {
-        "It is sunny.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am eleven.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q27",
-      "type": 4,
-      "prompt_text": "What does Jay do after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer with friends.",
-        "I like red.",
-        "She has a cat.",
-        "We eat rice."
-      ],
-      "correct": "He plays soccer with friends.",
-      "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She has a cat.": "Not quite — try again!",
-        "We eat rice.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q28",
-      "type": 4,
-      "prompt_text": "Do you have clubs after school?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is my brother.",
-        "I am hungry.",
-        "It is cold.",
-        "Yes, I join the art club."
-      ],
-      "correct": "Yes, I join the art club.",
-      "why_wrong": {
-        "He is my brother.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u08_q29",
-      "type": 4,
-      "prompt_text": "What do you usually do at 4 p.m.?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings well.",
-        "I do my homework.",
-        "He runs fast.",
-        "I like summer."
-      ],
-      "correct": "I do my homework.",
-      "why_wrong": {
-        "She sings well.": "Not quite — try again!",
-        "He runs fast.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
-      },
-      "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_monster": "monster",
+        "int2a_medicine": "medicine",
+        "int2a_dining_room": "dining room",
+        "int2a_bike": "bicycle"
+      }
     },
     {
       "id": "i2a_u08_q30",
-      "type": 4,
-      "prompt_text": "What are you doing after class?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two pens.",
-        "He likes math.",
-        "I'm meeting my friends.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "I go to the library.",
+      "audio_id": "unit-08-q30",
+      "image_ids": [
+        "int2a_library",
+        "int2a_soup",
+        "int2a_russia",
+        "int2a_hail"
       ],
-      "correct": "I'm meeting my friends.",
+      "choices": [
+        "int2a_library",
+        "int2a_soup",
+        "int2a_russia",
+        "int2a_hail"
+      ],
+      "correct": "int2a_library",
       "why_wrong": {
-        "I have two pens.": "Not quite — try again!",
-        "He likes math.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!",
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"I go to the library.\". The correct picture is \"library\". Listen again!"
       },
       "unit": 8,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_library": "library",
+        "int2a_soup": "soup",
+        "int2a_russia": "Russia / Russian",
+        "int2a_hail": "hail"
+      }
     }
   ]
 }

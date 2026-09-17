@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 1: Weather in Different Regions",
+    "title": "Intermediate 2A Unit 1: How is the Weather?",
     "kind": "unit",
     "units_covered": [
       1
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 29,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,940 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
       "id": "i2a_u01_q01",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "It's snowing hard.",
-        "She is twelve.",
-        "It's sunny and warm."
+      "type": 1,
+      "prompt_text": "It is hot.",
+      "audio_id": "unit-01-q01",
+      "image_ids": [
+        "int2a_washroom",
+        "int2a_funny",
+        "int2a_bike",
+        "int2a_hot"
       ],
-      "correct": "It's sunny and warm.",
+      "choices": [
+        "int2a_washroom",
+        "int2a_funny",
+        "int2a_bike",
+        "int2a_hot"
+      ],
+      "correct": "int2a_hot",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "It's snowing hard.": "Not quite — try again!",
-        "She is twelve.": "Not quite — try again!"
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_washroom": "washroom",
+        "int2a_funny": "funny face / laughing",
+        "int2a_bike": "bicycle",
+        "int2a_hot": "hot weather"
+      }
     },
     {
       "id": "i2a_u01_q02",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Open the window.",
-        "He plays soccer.",
-        "It's rainy and cloudy.",
-        "I have a red bag."
+      "type": 1,
+      "prompt_text": "It is cold.",
+      "audio_id": "unit-01-q02",
+      "image_ids": [
+        "int2a_canada",
+        "int2a_vietnam",
+        "int2a_martial_arts",
+        "int2a_cold"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_canada",
+        "int2a_vietnam",
+        "int2a_martial_arts",
+        "int2a_cold"
+      ],
+      "correct": "int2a_cold",
       "why_wrong": {
-        "Open the window.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I have a red bag.": "Not quite — try again!"
+        "int2a_canada": "You tapped \"Canada\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_canada": "Canada",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_martial_arts": "martial arts",
+        "int2a_cold": "cold weather"
+      }
     },
     {
       "id": "i2a_u01_q03",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I am tired.",
-        "They are at school.",
-        "She draws pictures.",
-        "Yes, it's very hot."
+      "type": 1,
+      "prompt_text": "It is windy.",
+      "audio_id": "unit-01-q03",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_crazy",
+        "int2a_attic",
+        "int2a_windy"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_scary",
+        "int2a_crazy",
+        "int2a_attic",
+        "int2a_windy"
+      ],
+      "correct": "int2a_windy",
       "why_wrong": {
-        "No, I am tired.": "Not quite — try again!",
-        "They are at school.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_crazy": "crazy face",
+        "int2a_attic": "attic",
+        "int2a_windy": "windy weather"
+      }
     },
     {
       "id": "i2a_u01_q04",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want some juice.",
-        "He is my brother.",
-        "It's windy and cool.",
-        "We study English."
+      "type": 1,
+      "prompt_text": "It is sunny.",
+      "audio_id": "unit-01-q04",
+      "image_ids": [
+        "int2a_sunny",
+        "int2a_phone",
+        "int2a_stormy",
+        "int2a_dining_room"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_sunny",
+        "int2a_phone",
+        "int2a_stormy",
+        "int2a_dining_room"
+      ],
+      "correct": "int2a_sunny",
       "why_wrong": {
-        "I want some juice.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!",
-        "We study English.": "Not quite — try again!"
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sunny": "sunny weather",
+        "int2a_phone": "phone",
+        "int2a_stormy": "stormy weather",
+        "int2a_dining_room": "dining room"
+      }
     },
     {
       "id": "i2a_u01_q05",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go home at four.",
-        "She likes music.",
-        "They have two cats.",
-        "It's below zero."
+      "type": 1,
+      "prompt_text": "It is snowy here.",
+      "audio_id": "unit-01-q05",
+      "image_ids": [
+        "int2a_snowy",
+        "int2a_hot",
+        "int2a_loud",
+        "int2a_england"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_snowy",
+        "int2a_hot",
+        "int2a_loud",
+        "int2a_england"
+      ],
+      "correct": "int2a_snowy",
       "why_wrong": {
-        "I go home at four.": "Not quite — try again!",
-        "She likes music.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"It is snowy here.\". The correct picture is \"snowy weather\". Listen again!",
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"It is snowy here.\". The correct picture is \"snowy weather\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"It is snowy here.\". The correct picture is \"snowy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snowy": "snowy weather",
+        "int2a_hot": "hot weather",
+        "int2a_loud": "loud / shouting face",
+        "int2a_england": "England / English"
+      }
     },
     {
       "id": "i2a_u01_q06",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's snowing hard.",
-        "She is twelve.",
-        "I like pizza.",
-        "It's sunny and warm."
+      "type": 1,
+      "prompt_text": "Hey google, How is the weather in Daegu, South Korea?",
+      "audio_id": "unit-01-q06",
+      "image_ids": [
+        "int2a_spain",
+        "int2a_bike",
+        "int2a_bees",
+        "int2a_daegu"
       ],
-      "correct": "It's sunny and warm.",
+      "choices": [
+        "int2a_spain",
+        "int2a_bike",
+        "int2a_bees",
+        "int2a_daegu"
+      ],
+      "correct": "int2a_daegu",
       "why_wrong": {
-        "It's snowing hard.": "Not quite — try again!",
-        "She is twelve.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2a_spain": "You tapped \"Spain / Spanish\", but the audio said: \"Hey google, How is the weather in Daegu, South Korea?\". The correct picture is \"Daegu city\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Hey google, How is the weather in Daegu, South Korea?\". The correct picture is \"Daegu city\". Listen again!",
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"Hey google, How is the weather in Daegu, South Korea?\". The correct picture is \"Daegu city\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spain": "Spain / Spanish",
+        "int2a_bike": "bicycle",
+        "int2a_bees": "bees",
+        "int2a_daegu": "Daegu city"
+      }
     },
     {
       "id": "i2a_u01_q07",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer.",
-        "I have a red bag.",
-        "It's rainy and cloudy.",
-        "Open the window."
+      "type": 1,
+      "prompt_text": "How is the weather in Tongyeong?",
+      "audio_id": "unit-01-q07",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_russia",
+        "int2a_hug",
+        "int2a_tongyeong"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_windy",
+        "int2a_russia",
+        "int2a_hug",
+        "int2a_tongyeong"
+      ],
+      "correct": "int2a_tongyeong",
       "why_wrong": {
-        "He plays soccer.": "Not quite — try again!",
-        "I have a red bag.": "Not quite — try again!",
-        "Open the window.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_russia": "Russia / Russian",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_tongyeong": "Tongyeong city"
+      }
     },
     {
       "id": "i2a_u01_q08",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I am tired.",
-        "They are at school.",
-        "Yes, it's very hot.",
-        "She draws pictures."
+      "type": 1,
+      "prompt_text": "How is the weather in space?",
+      "audio_id": "unit-01-q08",
+      "image_ids": [
+        "int2a_tongyeong",
+        "int2a_russia",
+        "int2a_funny",
+        "int2a_space"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_tongyeong",
+        "int2a_russia",
+        "int2a_funny",
+        "int2a_space"
+      ],
+      "correct": "int2a_space",
       "why_wrong": {
-        "No, I am tired.": "Not quite — try again!",
-        "They are at school.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_tongyeong": "Tongyeong city",
+        "int2a_russia": "Russia / Russian",
+        "int2a_funny": "funny face / laughing",
+        "int2a_space": "outer space"
+      }
     },
     {
       "id": "i2a_u01_q09",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's windy and cool.",
-        "He is my brother.",
-        "I want some juice.",
-        "We study English."
+      "type": 1,
+      "prompt_text": "How is the weather in Australia?",
+      "audio_id": "unit-01-q09",
+      "image_ids": [
+        "int2a_boring",
+        "int2a_australia",
+        "int2a_subtitles",
+        "int2a_bathroom"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_boring",
+        "int2a_australia",
+        "int2a_subtitles",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_australia",
       "why_wrong": {
-        "He is my brother.": "Not quite — try again!",
-        "I want some juice.": "Not quite — try again!",
-        "We study English.": "Not quite — try again!"
+        "int2a_boring": "You tapped \"bored face\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_boring": "bored face",
+        "int2a_australia": "Australia",
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
       "id": "i2a_u01_q10",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes music.",
-        "They have two cats.",
-        "It's below zero.",
-        "I go home at four."
+      "type": 1,
+      "prompt_text": "How is the weather in Canada?",
+      "audio_id": "unit-01-q10",
+      "image_ids": [
+        "int2a_canada",
+        "int2a_ants",
+        "int2a_bees",
+        "int2a_vietnam"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_canada",
+        "int2a_ants",
+        "int2a_bees",
+        "int2a_vietnam"
+      ],
+      "correct": "int2a_canada",
       "why_wrong": {
-        "She likes music.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!",
-        "I go home at four.": "Not quite — try again!"
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!",
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!",
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u01_q11",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "It's snowing hard.",
-        "She is twelve.",
-        "It's sunny and warm."
-      ],
-      "correct": "It's sunny and warm.",
-      "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "It's snowing hard.": "Not quite — try again!",
-        "She is twelve.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_canada": "Canada",
+        "int2a_ants": "ants",
+        "int2a_bees": "bees",
+        "int2a_vietnam": "Vietnam / Vietnamese"
+      }
     },
     {
       "id": "i2a_u01_q12",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Open the window.",
-        "He plays soccer.",
-        "I have a red bag.",
-        "It's rainy and cloudy."
+      "type": 1,
+      "prompt_text": "It is humid.",
+      "audio_id": "unit-01-q12",
+      "image_ids": [
+        "int2a_juice",
+        "int2a_blanket",
+        "int2a_germany",
+        "int2a_humid"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_juice",
+        "int2a_blanket",
+        "int2a_germany",
+        "int2a_humid"
+      ],
+      "correct": "int2a_humid",
       "why_wrong": {
-        "Open the window.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I have a red bag.": "Not quite — try again!"
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!",
+        "int2a_blanket": "You tapped \"blanket\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_juice": "juice",
+        "int2a_blanket": "blanket",
+        "int2a_germany": "Germany / German",
+        "int2a_humid": "humid weather"
+      }
     },
     {
       "id": "i2a_u01_q13",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are at school.",
-        "No, I am tired.",
-        "Yes, it's very hot.",
-        "She draws pictures."
+      "type": 1,
+      "prompt_text": "It is stormy.",
+      "audio_id": "unit-01-q13",
+      "image_ids": [
+        "int2a_bathroom",
+        "int2a_secretary",
+        "int2a_stormy",
+        "int2a_snakes"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_bathroom",
+        "int2a_secretary",
+        "int2a_stormy",
+        "int2a_snakes"
+      ],
+      "correct": "int2a_stormy",
       "why_wrong": {
-        "They are at school.": "Not quite — try again!",
-        "No, I am tired.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!",
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!",
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bathroom": "bathroom",
+        "int2a_secretary": "secretary",
+        "int2a_stormy": "stormy weather",
+        "int2a_snakes": "snakes"
+      }
     },
     {
       "id": "i2a_u01_q14",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is my brother.",
-        "We study English.",
-        "I want some juice.",
-        "It's windy and cool."
+      "type": 1,
+      "prompt_text": "It is rainy.",
+      "audio_id": "unit-01-q14",
+      "image_ids": [
+        "int2a_librarian",
+        "int2a_garage",
+        "int2a_rainy",
+        "int2a_classroom"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_librarian",
+        "int2a_garage",
+        "int2a_rainy",
+        "int2a_classroom"
+      ],
+      "correct": "int2a_rainy",
       "why_wrong": {
-        "He is my brother.": "Not quite — try again!",
-        "We study English.": "Not quite — try again!",
-        "I want some juice.": "Not quite — try again!"
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_librarian": "librarian",
+        "int2a_garage": "garage",
+        "int2a_rainy": "rainy weather",
+        "int2a_classroom": "classroom"
+      }
     },
     {
       "id": "i2a_u01_q15",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's below zero.",
-        "I go home at four.",
-        "They have two cats.",
-        "She likes music."
+      "type": 1,
+      "prompt_text": "It is foggy.",
+      "audio_id": "unit-01-q15",
+      "image_ids": [
+        "int2a_english_class",
+        "int2a_foggy",
+        "int2a_daegu",
+        "int2a_windy"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_english_class",
+        "int2a_foggy",
+        "int2a_daegu",
+        "int2a_windy"
+      ],
+      "correct": "int2a_foggy",
       "why_wrong": {
-        "I go home at four.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!",
-        "She likes music.": "Not quite — try again!"
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!",
+        "int2a_daegu": "You tapped \"Daegu city\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!",
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_english_class": "English class",
+        "int2a_foggy": "foggy weather",
+        "int2a_daegu": "Daegu city",
+        "int2a_windy": "windy weather"
+      }
     },
     {
       "id": "i2a_u01_q16",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is twelve.",
-        "It's sunny and warm.",
-        "I like pizza.",
-        "It's snowing hard."
+      "type": 1,
+      "prompt_text": "It is hail.",
+      "audio_id": "unit-01-q16",
+      "image_ids": [
+        "int2a_phone",
+        "int2a_teacher",
+        "int2a_hail",
+        "int2a_attic"
       ],
-      "correct": "It's sunny and warm.",
+      "choices": [
+        "int2a_phone",
+        "int2a_teacher",
+        "int2a_hail",
+        "int2a_attic"
+      ],
+      "correct": "int2a_hail",
       "why_wrong": {
-        "She is twelve.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "It's snowing hard.": "Not quite — try again!"
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_phone": "phone",
+        "int2a_teacher": "teacher",
+        "int2a_hail": "hail",
+        "int2a_attic": "attic"
+      }
     },
     {
       "id": "i2a_u01_q17",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a red bag.",
-        "Open the window.",
-        "He plays soccer.",
-        "It's rainy and cloudy."
+      "type": 1,
+      "prompt_text": "How is the weather in Australia?",
+      "audio_id": "unit-01-q17",
+      "image_ids": [
+        "int2a_teacher",
+        "int2a_hotel",
+        "int2a_martial_arts",
+        "int2a_australia"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_teacher",
+        "int2a_hotel",
+        "int2a_martial_arts",
+        "int2a_australia"
+      ],
+      "correct": "int2a_australia",
       "why_wrong": {
-        "I have a red bag.": "Not quite — try again!",
-        "Open the window.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"How is the weather in Australia?\". The correct picture is \"Australia\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_teacher": "teacher",
+        "int2a_hotel": "hotel",
+        "int2a_martial_arts": "martial arts",
+        "int2a_australia": "Australia"
+      }
     },
     {
       "id": "i2a_u01_q18",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I am tired.",
-        "They are at school.",
-        "Yes, it's very hot.",
-        "She draws pictures."
+      "type": 1,
+      "prompt_text": "How is the weather in Canada?",
+      "audio_id": "unit-01-q18",
+      "image_ids": [
+        "int2a_canada",
+        "int2a_russia",
+        "int2a_school",
+        "int2a_medicine"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_canada",
+        "int2a_russia",
+        "int2a_school",
+        "int2a_medicine"
+      ],
+      "correct": "int2a_canada",
       "why_wrong": {
-        "No, I am tired.": "Not quite — try again!",
-        "They are at school.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!",
+        "int2a_medicine": "You tapped \"medicine\", but the audio said: \"How is the weather in Canada?\". The correct picture is \"Canada\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_canada": "Canada",
+        "int2a_russia": "Russia / Russian",
+        "int2a_school": "elementary school building",
+        "int2a_medicine": "medicine"
+      }
     },
     {
       "id": "i2a_u01_q19",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study English.",
-        "He is my brother.",
-        "I want some juice.",
-        "It's windy and cool."
+      "type": 1,
+      "prompt_text": "How is the weather in space?",
+      "audio_id": "unit-01-q19",
+      "image_ids": [
+        "int2a_japan",
+        "int2a_sunny",
+        "int2a_lunch_lady",
+        "int2a_space"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_japan",
+        "int2a_sunny",
+        "int2a_lunch_lady",
+        "int2a_space"
+      ],
+      "correct": "int2a_space",
       "why_wrong": {
-        "We study English.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!",
-        "I want some juice.": "Not quite — try again!"
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!",
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!",
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"How is the weather in space?\". The correct picture is \"outer space\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_japan": "Japan / Japanese",
+        "int2a_sunny": "sunny weather",
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_space": "outer space"
+      }
     },
     {
       "id": "i2a_u01_q20",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's below zero.",
-        "I go home at four.",
-        "She likes music.",
-        "They have two cats."
+      "type": 1,
+      "prompt_text": "It is hot.",
+      "audio_id": "unit-01-q20",
+      "image_ids": [
+        "int2a_hot",
+        "int2a_france",
+        "int2a_sing",
+        "int2a_korea"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_hot",
+        "int2a_france",
+        "int2a_sing",
+        "int2a_korea"
+      ],
+      "correct": "int2a_hot",
       "why_wrong": {
-        "I go home at four.": "Not quite — try again!",
-        "She likes music.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!"
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hot": "hot weather",
+        "int2a_france": "France / French",
+        "int2a_sing": "singing / microphone",
+        "int2a_korea": "Korea / Korean"
+      }
     },
     {
       "id": "i2a_u01_q21",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's sunny and warm.",
-        "I like pizza.",
-        "She is twelve.",
-        "It's snowing hard."
+      "type": 1,
+      "prompt_text": "It is cold.",
+      "audio_id": "unit-01-q21",
+      "image_ids": [
+        "int2a_cold",
+        "int2a_watch_tv",
+        "int2a_crazy",
+        "int2a_hotel"
       ],
-      "correct": "It's sunny and warm.",
+      "choices": [
+        "int2a_cold",
+        "int2a_watch_tv",
+        "int2a_crazy",
+        "int2a_hotel"
+      ],
+      "correct": "int2a_cold",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She is twelve.": "Not quite — try again!",
-        "It's snowing hard.": "Not quite — try again!"
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_cold": "cold weather",
+        "int2a_watch_tv": "TV",
+        "int2a_crazy": "crazy face",
+        "int2a_hotel": "hotel"
+      }
     },
     {
       "id": "i2a_u01_q22",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's rainy and cloudy.",
-        "Open the window.",
-        "He plays soccer.",
-        "I have a red bag."
+      "type": 1,
+      "prompt_text": "It is windy.",
+      "audio_id": "unit-01-q22",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_crazy",
+        "int2a_soccer",
+        "int2a_library"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_windy",
+        "int2a_crazy",
+        "int2a_soccer",
+        "int2a_library"
+      ],
+      "correct": "int2a_windy",
       "why_wrong": {
-        "Open the window.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I have a red bag.": "Not quite — try again!"
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_crazy": "crazy face",
+        "int2a_soccer": "soccer ball",
+        "int2a_library": "library"
+      }
     },
     {
       "id": "i2a_u01_q23",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I am tired.",
-        "They are at school.",
-        "She draws pictures.",
-        "Yes, it's very hot."
+      "type": 1,
+      "prompt_text": "It is sunny.",
+      "audio_id": "unit-01-q23",
+      "image_ids": [
+        "int2a_sunny",
+        "int2a_want_water",
+        "int2a_boring",
+        "int2a_classroom"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_sunny",
+        "int2a_want_water",
+        "int2a_boring",
+        "int2a_classroom"
+      ],
+      "correct": "int2a_sunny",
       "why_wrong": {
-        "No, I am tired.": "Not quite — try again!",
-        "They are at school.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_boring": "You tapped \"bored face\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sunny": "sunny weather",
+        "int2a_want_water": "water bottle",
+        "int2a_boring": "bored face",
+        "int2a_classroom": "classroom"
+      }
     },
     {
       "id": "i2a_u01_q24",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is my brother.",
-        "We study English.",
-        "It's windy and cool.",
-        "I want some juice."
+      "type": 1,
+      "prompt_text": "It is snowy.",
+      "audio_id": "unit-01-q24",
+      "image_ids": [
+        "int2a_snowy",
+        "int2a_garage",
+        "int2a_india",
+        "int2a_sunny"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_snowy",
+        "int2a_garage",
+        "int2a_india",
+        "int2a_sunny"
+      ],
+      "correct": "int2a_snowy",
       "why_wrong": {
-        "He is my brother.": "Not quite — try again!",
-        "We study English.": "Not quite — try again!",
-        "I want some juice.": "Not quite — try again!"
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"It is snowy.\". The correct picture is \"snowy weather\". Listen again!",
+        "int2a_india": "You tapped \"India / Hindi\", but the audio said: \"It is snowy.\". The correct picture is \"snowy weather\". Listen again!",
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"It is snowy.\". The correct picture is \"snowy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snowy": "snowy weather",
+        "int2a_garage": "garage",
+        "int2a_india": "India / Hindi",
+        "int2a_sunny": "sunny weather"
+      }
     },
     {
       "id": "i2a_u01_q25",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes music.",
-        "It's below zero.",
-        "I go home at four.",
-        "They have two cats."
+      "type": 1,
+      "prompt_text": "It is humid.",
+      "audio_id": "unit-01-q25",
+      "image_ids": [
+        "int2a_classroom",
+        "int2a_humid",
+        "int2a_tongyeong",
+        "int2a_quiet"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_classroom",
+        "int2a_humid",
+        "int2a_tongyeong",
+        "int2a_quiet"
+      ],
+      "correct": "int2a_humid",
       "why_wrong": {
-        "She likes music.": "Not quite — try again!",
-        "I go home at four.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!"
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!",
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"It is humid.\". The correct picture is \"humid weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classroom": "classroom",
+        "int2a_humid": "humid weather",
+        "int2a_tongyeong": "Tongyeong city",
+        "int2a_quiet": "quiet / shh face"
+      }
     },
     {
       "id": "i2a_u01_q26",
-      "type": 4,
-      "prompt_text": "How is the weather in Seoul?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's snowing hard.",
-        "She is twelve.",
-        "It's sunny and warm.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "It is stormy.",
+      "audio_id": "unit-01-q26",
+      "image_ids": [
+        "int2a_little_brother",
+        "int2a_office",
+        "int2a_ants",
+        "int2a_stormy"
       ],
-      "correct": "It's sunny and warm.",
+      "choices": [
+        "int2a_little_brother",
+        "int2a_office",
+        "int2a_ants",
+        "int2a_stormy"
+      ],
+      "correct": "int2a_stormy",
       "why_wrong": {
-        "It's snowing hard.": "Not quite — try again!",
-        "She is twelve.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2a_little_brother": "You tapped \"little brother\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"It is stormy.\". The correct picture is \"stormy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_little_brother": "little brother",
+        "int2a_office": "office",
+        "int2a_ants": "ants",
+        "int2a_stormy": "stormy weather"
+      }
     },
     {
       "id": "i2a_u01_q27",
-      "type": 4,
-      "prompt_text": "What's the weather like in London?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Open the window.",
-        "He plays soccer.",
-        "I have a red bag.",
-        "It's rainy and cloudy."
+      "type": 1,
+      "prompt_text": "It is rainy.",
+      "audio_id": "unit-01-q27",
+      "image_ids": [
+        "int2a_washroom",
+        "int2a_rainy",
+        "int2a_principal",
+        "int2a_windy"
       ],
-      "correct": "It's rainy and cloudy.",
+      "choices": [
+        "int2a_washroom",
+        "int2a_rainy",
+        "int2a_principal",
+        "int2a_windy"
+      ],
+      "correct": "int2a_rainy",
       "why_wrong": {
-        "Open the window.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I have a red bag.": "Not quite — try again!"
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!",
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"It is rainy.\". The correct picture is \"rainy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_washroom": "washroom",
+        "int2a_rainy": "rainy weather",
+        "int2a_principal": "principal",
+        "int2a_windy": "windy weather"
+      }
     },
     {
       "id": "i2a_u01_q28",
-      "type": 4,
-      "prompt_text": "Is it hot in Dubai?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, I am tired.",
-        "They are at school.",
-        "Yes, it's very hot.",
-        "She draws pictures."
+      "type": 1,
+      "prompt_text": "It is foggy.",
+      "audio_id": "unit-01-q28",
+      "image_ids": [
+        "int2a_subtitles",
+        "int2a_kitchen",
+        "int2a_english_class",
+        "int2a_foggy"
       ],
-      "correct": "Yes, it's very hot.",
+      "choices": [
+        "int2a_subtitles",
+        "int2a_kitchen",
+        "int2a_english_class",
+        "int2a_foggy"
+      ],
+      "correct": "int2a_foggy",
       "why_wrong": {
-        "No, I am tired.": "Not quite — try again!",
-        "They are at school.": "Not quite — try again!",
-        "She draws pictures.": "Not quite — try again!"
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"It is foggy.\". The correct picture is \"foggy weather\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_kitchen": "kitchen",
+        "int2a_english_class": "English class",
+        "int2a_foggy": "foggy weather"
+      }
     },
     {
       "id": "i2a_u01_q29",
-      "type": 4,
-      "prompt_text": "How's the weather today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study English.",
-        "I want some juice.",
-        "It's windy and cool.",
-        "He is my brother."
+      "type": 1,
+      "prompt_text": "It is hail.",
+      "audio_id": "unit-01-q29",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_hotel",
+        "int2a_hail",
+        "int2a_bedroom"
       ],
-      "correct": "It's windy and cool.",
+      "choices": [
+        "int2a_scary",
+        "int2a_hotel",
+        "int2a_hail",
+        "int2a_bedroom"
+      ],
+      "correct": "int2a_hail",
       "why_wrong": {
-        "We study English.": "Not quite — try again!",
-        "I want some juice.": "Not quite — try again!",
-        "He is my brother.": "Not quite — try again!"
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!",
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"It is hail.\". The correct picture is \"hail\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_hotel": "hotel",
+        "int2a_hail": "hail",
+        "int2a_bedroom": "bedroom"
+      }
     },
     {
       "id": "i2a_u01_q30",
-      "type": 4,
-      "prompt_text": "What's the temperature in winter?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's below zero.",
-        "I go home at four.",
-        "She likes music.",
-        "They have two cats."
+      "type": 1,
+      "prompt_text": "How is the weather in Tongyeong?",
+      "audio_id": "unit-01-q30",
+      "image_ids": [
+        "int2a_soup",
+        "int2a_computer",
+        "int2a_australia",
+        "int2a_tongyeong"
       ],
-      "correct": "It's below zero.",
+      "choices": [
+        "int2a_soup",
+        "int2a_computer",
+        "int2a_australia",
+        "int2a_tongyeong"
+      ],
+      "correct": "int2a_tongyeong",
       "why_wrong": {
-        "I go home at four.": "Not quite — try again!",
-        "She likes music.": "Not quite — try again!",
-        "They have two cats.": "Not quite — try again!"
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"How is the weather in Tongyeong?\". The correct picture is \"Tongyeong city\". Listen again!"
       },
       "unit": 1,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soup": "soup",
+        "int2a_computer": "computer",
+        "int2a_australia": "Australia",
+        "int2a_tongyeong": "Tongyeong city"
+      }
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 2: There Is / There Are",
+    "title": "Intermediate 2A Unit 2: There are Snakes!",
     "kind": "unit",
     "units_covered": [
       2
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 24,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,780 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
       "id": "i2a_u02_q01",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is books on the desk.",
-        "There is a book on the desk.",
-        "There have a book.",
-        "There are a book on the desk."
+      "type": 1,
+      "prompt_text": "There are snakes!",
+      "audio_id": "unit-02-q01",
+      "image_ids": [
+        "int2a_gym",
+        "int2a_snakes",
+        "int2a_australia",
+        "int2a_library"
       ],
-      "correct": "There is a book on the desk.",
+      "choices": [
+        "int2a_gym",
+        "int2a_snakes",
+        "int2a_australia",
+        "int2a_library"
+      ],
+      "correct": "int2a_snakes",
       "why_wrong": {
-        "There is books on the desk.": "Not quite — try again!",
-        "There have a book.": "Not quite — try again!",
-        "There are a book on the desk.": "Not quite — try again!"
+        "int2a_gym": "You tapped \"gym\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q02",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are three chairs in the room.",
-        "There is many chairs.",
-        "There are chair in the room.",
-        "There is three chairs."
-      ],
-      "correct": "There are three chairs in the room.",
-      "why_wrong": {
-        "There is many chairs.": "Not quite — try again!",
-        "There are chair in the room.": "Not quite — try again!",
-        "There is three chairs.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_gym": "gym",
+        "int2a_snakes": "snakes",
+        "int2a_australia": "Australia",
+        "int2a_library": "library"
+      }
     },
     {
       "id": "i2a_u02_q03",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There isn't any milk.",
-        "There isn't some milk.",
-        "There aren't any milk.",
-        "There not is milk."
+      "type": 1,
+      "prompt_text": "There is water!",
+      "audio_id": "unit-02-q03",
+      "image_ids": [
+        "int2a_water",
+        "int2a_windy",
+        "int2a_australia",
+        "int2a_japan"
       ],
-      "correct": "There isn't any milk.",
+      "choices": [
+        "int2a_water",
+        "int2a_windy",
+        "int2a_australia",
+        "int2a_japan"
+      ],
+      "correct": "int2a_water",
       "why_wrong": {
-        "There isn't some milk.": "Not quite — try again!",
-        "There aren't any milk.": "Not quite — try again!",
-        "There not is milk.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q04",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is many students.",
-        "There have students.",
-        "There are many students here.",
-        "There are a student."
-      ],
-      "correct": "There are many students here.",
-      "why_wrong": {
-        "There is many students.": "Not quite — try again!",
-        "There have students.": "Not quite — try again!",
-        "There are a student.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_water": "water",
+        "int2a_windy": "windy weather",
+        "int2a_australia": "Australia",
+        "int2a_japan": "Japan / Japanese"
+      }
     },
     {
       "id": "i2a_u02_q05",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are a park.",
-        "There is parks.",
-        "There is a park near my house.",
-        "There have park."
+      "type": 1,
+      "prompt_text": "There are bees!",
+      "audio_id": "unit-02-q05",
+      "image_ids": [
+        "int2a_bees",
+        "int2a_china",
+        "int2a_little_brother",
+        "int2a_france"
       ],
-      "correct": "There is a park near my house.",
+      "choices": [
+        "int2a_bees",
+        "int2a_china",
+        "int2a_little_brother",
+        "int2a_france"
+      ],
+      "correct": "int2a_bees",
       "why_wrong": {
-        "There are a park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!",
-        "There have park.": "Not quite — try again!"
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_little_brother": "You tapped \"little brother\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bees": "bees",
+        "int2a_china": "China / Chinese",
+        "int2a_little_brother": "little brother",
+        "int2a_france": "France / French"
+      }
     },
     {
       "id": "i2a_u02_q06",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are a book on the desk.",
-        "There is books on the desk.",
-        "There have a book.",
-        "There is a book on the desk."
+      "type": 1,
+      "prompt_text": "There is food!",
+      "audio_id": "unit-02-q06",
+      "image_ids": [
+        "int2a_food",
+        "int2a_washroom",
+        "int2a_janitor",
+        "int2a_subtitles"
       ],
-      "correct": "There is a book on the desk.",
+      "choices": [
+        "int2a_food",
+        "int2a_washroom",
+        "int2a_janitor",
+        "int2a_subtitles"
+      ],
+      "correct": "int2a_food",
       "why_wrong": {
-        "There are a book on the desk.": "Not quite — try again!",
-        "There is books on the desk.": "Not quite — try again!",
-        "There have a book.": "Not quite — try again!"
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_janitor": "You tapped \"janitor\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_food": "food",
+        "int2a_washroom": "washroom",
+        "int2a_janitor": "janitor",
+        "int2a_subtitles": "subtitles on a screen"
+      }
     },
     {
       "id": "i2a_u02_q07",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is three chairs.",
-        "There are three chairs in the room.",
-        "There are chair in the room.",
-        "There is many chairs."
+      "type": 1,
+      "prompt_text": "There are ants!",
+      "audio_id": "unit-02-q07",
+      "image_ids": [
+        "int2a_lunch_lady",
+        "int2a_ants",
+        "int2a_dining_room",
+        "int2a_tongyeong"
       ],
-      "correct": "There are three chairs in the room.",
+      "choices": [
+        "int2a_lunch_lady",
+        "int2a_ants",
+        "int2a_dining_room",
+        "int2a_tongyeong"
+      ],
+      "correct": "int2a_ants",
       "why_wrong": {
-        "There is three chairs.": "Not quite — try again!",
-        "There are chair in the room.": "Not quite — try again!",
-        "There is many chairs.": "Not quite — try again!"
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!",
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!",
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_ants": "ants",
+        "int2a_dining_room": "dining room",
+        "int2a_tongyeong": "Tongyeong city"
+      }
     },
     {
       "id": "i2a_u02_q08",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There isn't any milk.",
-        "There aren't any milk.",
-        "There isn't some milk.",
-        "There not is milk."
+      "type": 1,
+      "prompt_text": "There is a hotel!",
+      "audio_id": "unit-02-q08",
+      "image_ids": [
+        "int2a_hotel",
+        "int2a_want_water",
+        "int2a_classroom",
+        "int2a_book"
       ],
-      "correct": "There isn't any milk.",
+      "choices": [
+        "int2a_hotel",
+        "int2a_want_water",
+        "int2a_classroom",
+        "int2a_book"
+      ],
+      "correct": "int2a_hotel",
       "why_wrong": {
-        "There aren't any milk.": "Not quite — try again!",
-        "There isn't some milk.": "Not quite — try again!",
-        "There not is milk.": "Not quite — try again!"
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hotel": "hotel",
+        "int2a_want_water": "water bottle",
+        "int2a_classroom": "classroom",
+        "int2a_book": "book"
+      }
     },
     {
       "id": "i2a_u02_q09",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is many students.",
-        "There are many students here.",
-        "There have students.",
-        "There are a student."
+      "type": 1,
+      "prompt_text": "There are spiders!",
+      "audio_id": "unit-02-q09",
+      "image_ids": [
+        "int2a_australia",
+        "int2a_librarian",
+        "int2a_sunny",
+        "int2a_spiders"
       ],
-      "correct": "There are many students here.",
+      "choices": [
+        "int2a_australia",
+        "int2a_librarian",
+        "int2a_sunny",
+        "int2a_spiders"
+      ],
+      "correct": "int2a_spiders",
       "why_wrong": {
-        "There is many students.": "Not quite — try again!",
-        "There have students.": "Not quite — try again!",
-        "There are a student.": "Not quite — try again!"
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!",
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!",
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_australia": "Australia",
+        "int2a_librarian": "librarian",
+        "int2a_sunny": "sunny weather",
+        "int2a_spiders": "spiders"
+      }
     },
     {
       "id": "i2a_u02_q10",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have park.",
-        "There are a park.",
-        "There is parks.",
-        "There is a park near my house."
+      "type": 1,
+      "prompt_text": "There is a washroom!",
+      "audio_id": "unit-02-q10",
+      "image_ids": [
+        "int2a_trees",
+        "int2a_office",
+        "int2a_cold",
+        "int2a_washroom"
       ],
-      "correct": "There is a park near my house.",
+      "choices": [
+        "int2a_trees",
+        "int2a_office",
+        "int2a_cold",
+        "int2a_washroom"
+      ],
+      "correct": "int2a_washroom",
       "why_wrong": {
-        "There have park.": "Not quite — try again!",
-        "There are a park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!"
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!",
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_trees": "trees",
+        "int2a_office": "office",
+        "int2a_cold": "cold weather",
+        "int2a_washroom": "washroom"
+      }
     },
     {
       "id": "i2a_u02_q11",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have a book.",
-        "There are a book on the desk.",
-        "There is a book on the desk.",
-        "There is books on the desk."
+      "type": 1,
+      "prompt_text": "There is a monster!",
+      "audio_id": "unit-02-q11",
+      "image_ids": [
+        "int2a_soup",
+        "int2a_monster",
+        "int2a_bag",
+        "int2a_sad"
       ],
-      "correct": "There is a book on the desk.",
+      "choices": [
+        "int2a_soup",
+        "int2a_monster",
+        "int2a_bag",
+        "int2a_sad"
+      ],
+      "correct": "int2a_monster",
       "why_wrong": {
-        "There have a book.": "Not quite — try again!",
-        "There are a book on the desk.": "Not quite — try again!",
-        "There is books on the desk.": "Not quite — try again!"
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!",
+        "int2a_sad": "You tapped \"sad face\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q12",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are chair in the room.",
-        "There is three chairs.",
-        "There are three chairs in the room.",
-        "There is many chairs."
-      ],
-      "correct": "There are three chairs in the room.",
-      "why_wrong": {
-        "There are chair in the room.": "Not quite — try again!",
-        "There is three chairs.": "Not quite — try again!",
-        "There is many chairs.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q13",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There not is milk.",
-        "There isn't some milk.",
-        "There aren't any milk.",
-        "There isn't any milk."
-      ],
-      "correct": "There isn't any milk.",
-      "why_wrong": {
-        "There not is milk.": "Not quite — try again!",
-        "There isn't some milk.": "Not quite — try again!",
-        "There aren't any milk.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soup": "soup",
+        "int2a_monster": "monster",
+        "int2a_bag": "bag",
+        "int2a_sad": "sad face"
+      }
     },
     {
       "id": "i2a_u02_q14",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have students.",
-        "There are many students here.",
-        "There are a student.",
-        "There is many students."
+      "type": 1,
+      "prompt_text": "There are snakes!",
+      "audio_id": "unit-02-q14",
+      "image_ids": [
+        "int2a_snakes",
+        "int2a_windy",
+        "int2a_library",
+        "int2a_rainy"
       ],
-      "correct": "There are many students here.",
+      "choices": [
+        "int2a_snakes",
+        "int2a_windy",
+        "int2a_library",
+        "int2a_rainy"
+      ],
+      "correct": "int2a_snakes",
       "why_wrong": {
-        "There have students.": "Not quite — try again!",
-        "There are a student.": "Not quite — try again!",
-        "There is many students.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snakes": "snakes",
+        "int2a_windy": "windy weather",
+        "int2a_library": "library",
+        "int2a_rainy": "rainy weather"
+      }
     },
     {
       "id": "i2a_u02_q15",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are a park.",
-        "There is a park near my house.",
-        "There have park.",
-        "There is parks."
+      "type": 1,
+      "prompt_text": "There is water!",
+      "audio_id": "unit-02-q15",
+      "image_ids": [
+        "int2a_librarian",
+        "int2a_monster",
+        "int2a_windy",
+        "int2a_water"
       ],
-      "correct": "There is a park near my house.",
+      "choices": [
+        "int2a_librarian",
+        "int2a_monster",
+        "int2a_windy",
+        "int2a_water"
+      ],
+      "correct": "int2a_water",
       "why_wrong": {
-        "There are a park.": "Not quite — try again!",
-        "There have park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!"
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_librarian": "librarian",
+        "int2a_monster": "monster",
+        "int2a_windy": "windy weather",
+        "int2a_water": "water"
+      }
     },
     {
       "id": "i2a_u02_q16",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is books on the desk.",
-        "There is a book on the desk.",
-        "There have a book.",
-        "There are a book on the desk."
+      "type": 1,
+      "prompt_text": "There are bees!",
+      "audio_id": "unit-02-q16",
+      "image_ids": [
+        "int2a_secretary",
+        "int2a_washroom",
+        "int2a_ants",
+        "int2a_bees"
       ],
-      "correct": "There is a book on the desk.",
+      "choices": [
+        "int2a_secretary",
+        "int2a_washroom",
+        "int2a_ants",
+        "int2a_bees"
+      ],
+      "correct": "int2a_bees",
       "why_wrong": {
-        "There is books on the desk.": "Not quite — try again!",
-        "There have a book.": "Not quite — try again!",
-        "There are a book on the desk.": "Not quite — try again!"
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_secretary": "secretary",
+        "int2a_washroom": "washroom",
+        "int2a_ants": "ants",
+        "int2a_bees": "bees"
+      }
     },
     {
       "id": "i2a_u02_q17",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is many chairs.",
-        "There is three chairs.",
-        "There are chair in the room.",
-        "There are three chairs in the room."
+      "type": 1,
+      "prompt_text": "There is food!",
+      "audio_id": "unit-02-q17",
+      "image_ids": [
+        "int2a_food",
+        "int2a_principal",
+        "int2a_bag",
+        "int2a_ants"
       ],
-      "correct": "There are three chairs in the room.",
+      "choices": [
+        "int2a_food",
+        "int2a_principal",
+        "int2a_bag",
+        "int2a_ants"
+      ],
+      "correct": "int2a_food",
       "why_wrong": {
-        "There is many chairs.": "Not quite — try again!",
-        "There is three chairs.": "Not quite — try again!",
-        "There are chair in the room.": "Not quite — try again!"
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_food": "food",
+        "int2a_principal": "principal",
+        "int2a_bag": "bag",
+        "int2a_ants": "ants"
+      }
     },
     {
       "id": "i2a_u02_q18",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There isn't some milk.",
-        "There aren't any milk.",
-        "There isn't any milk.",
-        "There not is milk."
+      "type": 1,
+      "prompt_text": "There are ants!",
+      "audio_id": "unit-02-q18",
+      "image_ids": [
+        "int2a_principal",
+        "int2a_bag",
+        "int2a_ants",
+        "int2a_bathroom"
       ],
-      "correct": "There isn't any milk.",
+      "choices": [
+        "int2a_principal",
+        "int2a_bag",
+        "int2a_ants",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_ants",
       "why_wrong": {
-        "There isn't some milk.": "Not quite — try again!",
-        "There aren't any milk.": "Not quite — try again!",
-        "There not is milk.": "Not quite — try again!"
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"There are ants!\". The correct picture is \"ants\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_principal": "principal",
+        "int2a_bag": "bag",
+        "int2a_ants": "ants",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
       "id": "i2a_u02_q19",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have students.",
-        "There are many students here.",
-        "There is many students.",
-        "There are a student."
+      "type": 1,
+      "prompt_text": "There is a hotel!",
+      "audio_id": "unit-02-q19",
+      "image_ids": [
+        "int2a_trees",
+        "int2a_exciting",
+        "int2a_office",
+        "int2a_hotel"
       ],
-      "correct": "There are many students here.",
+      "choices": [
+        "int2a_trees",
+        "int2a_exciting",
+        "int2a_office",
+        "int2a_hotel"
+      ],
+      "correct": "int2a_hotel",
       "why_wrong": {
-        "There have students.": "Not quite — try again!",
-        "There is many students.": "Not quite — try again!",
-        "There are a student.": "Not quite — try again!"
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"There is a hotel!\". The correct picture is \"hotel\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_trees": "trees",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_office": "office",
+        "int2a_hotel": "hotel"
+      }
     },
     {
       "id": "i2a_u02_q20",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are a park.",
-        "There is parks.",
-        "There have park.",
-        "There is a park near my house."
+      "type": 1,
+      "prompt_text": "There are spiders!",
+      "audio_id": "unit-02-q20",
+      "image_ids": [
+        "int2a_spiders",
+        "int2a_school",
+        "int2a_sing",
+        "int2a_kitchen"
       ],
-      "correct": "There is a park near my house.",
+      "choices": [
+        "int2a_spiders",
+        "int2a_school",
+        "int2a_sing",
+        "int2a_kitchen"
+      ],
+      "correct": "int2a_spiders",
       "why_wrong": {
-        "There are a park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!",
-        "There have park.": "Not quite — try again!"
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!",
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"There are spiders!\". The correct picture is \"spiders\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spiders": "spiders",
+        "int2a_school": "elementary school building",
+        "int2a_sing": "singing / microphone",
+        "int2a_kitchen": "kitchen"
+      }
     },
     {
       "id": "i2a_u02_q21",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have a book.",
-        "There are a book on the desk.",
-        "There is books on the desk.",
-        "There is a book on the desk."
+      "type": 1,
+      "prompt_text": "There is a washroom!",
+      "audio_id": "unit-02-q21",
+      "image_ids": [
+        "int2a_sad",
+        "int2a_washroom",
+        "int2a_trees",
+        "int2a_australia"
       ],
-      "correct": "There is a book on the desk.",
+      "choices": [
+        "int2a_sad",
+        "int2a_washroom",
+        "int2a_trees",
+        "int2a_australia"
+      ],
+      "correct": "int2a_washroom",
       "why_wrong": {
-        "There have a book.": "Not quite — try again!",
-        "There are a book on the desk.": "Not quite — try again!",
-        "There is books on the desk.": "Not quite — try again!"
+        "int2a_sad": "You tapped \"sad face\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There is a washroom!\". The correct picture is \"washroom\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sad": "sad face",
+        "int2a_washroom": "washroom",
+        "int2a_trees": "trees",
+        "int2a_australia": "Australia"
+      }
     },
     {
       "id": "i2a_u02_q22",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is three chairs.",
-        "There is many chairs.",
-        "There are chair in the room.",
-        "There are three chairs in the room."
+      "type": 1,
+      "prompt_text": "There are trees!",
+      "audio_id": "unit-02-q22",
+      "image_ids": [
+        "int2a_garage",
+        "int2a_england",
+        "int2a_trees",
+        "int2a_water"
       ],
-      "correct": "There are three chairs in the room.",
+      "choices": [
+        "int2a_garage",
+        "int2a_england",
+        "int2a_trees",
+        "int2a_water"
+      ],
+      "correct": "int2a_trees",
       "why_wrong": {
-        "There is three chairs.": "Not quite — try again!",
-        "There is many chairs.": "Not quite — try again!",
-        "There are chair in the room.": "Not quite — try again!"
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"There are trees!\". The correct picture is \"trees\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"There are trees!\". The correct picture is \"trees\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"There are trees!\". The correct picture is \"trees\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_garage": "garage",
+        "int2a_england": "England / English",
+        "int2a_trees": "trees",
+        "int2a_water": "water"
+      }
     },
     {
       "id": "i2a_u02_q23",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There isn't any milk.",
-        "There not is milk.",
-        "There aren't any milk.",
-        "There isn't some milk."
+      "type": 1,
+      "prompt_text": "There is a teacher!",
+      "audio_id": "unit-02-q23",
+      "image_ids": [
+        "int2a_teacher",
+        "int2a_office",
+        "int2a_spiders",
+        "int2a_snakes"
       ],
-      "correct": "There isn't any milk.",
+      "choices": [
+        "int2a_teacher",
+        "int2a_office",
+        "int2a_spiders",
+        "int2a_snakes"
+      ],
+      "correct": "int2a_teacher",
       "why_wrong": {
-        "There not is milk.": "Not quite — try again!",
-        "There aren't any milk.": "Not quite — try again!",
-        "There isn't some milk.": "Not quite — try again!"
+        "int2a_office": "You tapped \"office\", but the audio said: \"There is a teacher!\". The correct picture is \"teacher\". Listen again!",
+        "int2a_spiders": "You tapped \"spiders\", but the audio said: \"There is a teacher!\". The correct picture is \"teacher\". Listen again!",
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"There is a teacher!\". The correct picture is \"teacher\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_teacher": "teacher",
+        "int2a_office": "office",
+        "int2a_spiders": "spiders",
+        "int2a_snakes": "snakes"
+      }
     },
     {
       "id": "i2a_u02_q24",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are many students here.",
-        "There are a student.",
-        "There have students.",
-        "There is many students."
+      "type": 1,
+      "prompt_text": "There is a monster!",
+      "audio_id": "unit-02-q24",
+      "image_ids": [
+        "int2a_classroom",
+        "int2a_monster",
+        "int2a_book",
+        "int2a_russia"
       ],
-      "correct": "There are many students here.",
+      "choices": [
+        "int2a_classroom",
+        "int2a_monster",
+        "int2a_book",
+        "int2a_russia"
+      ],
+      "correct": "int2a_monster",
       "why_wrong": {
-        "There are a student.": "Not quite — try again!",
-        "There have students.": "Not quite — try again!",
-        "There is many students.": "Not quite — try again!"
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"There is a monster!\". The correct picture is \"monster\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q25",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have park.",
-        "There is a park near my house.",
-        "There is parks.",
-        "There are a park."
-      ],
-      "correct": "There is a park near my house.",
-      "why_wrong": {
-        "There have park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!",
-        "There are a park.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u02_q26",
-      "type": 2,
-      "prompt_text": "Choose the correct sentence.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There is a book on the desk.",
-        "There have a book.",
-        "There are a book on the desk.",
-        "There is books on the desk."
-      ],
-      "correct": "There is a book on the desk.",
-      "why_wrong": {
-        "There have a book.": "Not quite — try again!",
-        "There are a book on the desk.": "Not quite — try again!",
-        "There is books on the desk.": "Not quite — try again!"
-      },
-      "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classroom": "classroom",
+        "int2a_monster": "monster",
+        "int2a_book": "book",
+        "int2a_russia": "Russia / Russian"
+      }
     },
     {
       "id": "i2a_u02_q27",
-      "type": 4,
-      "prompt_text": "What can you say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are three chairs in the room.",
-        "There is three chairs.",
-        "There are chair in the room.",
-        "There is many chairs."
+      "type": 1,
+      "prompt_text": "There are snakes!",
+      "audio_id": "unit-02-q27",
+      "image_ids": [
+        "int2a_bag",
+        "int2a_librarian",
+        "int2a_snakes",
+        "int2a_foggy"
       ],
-      "correct": "There are three chairs in the room.",
+      "choices": [
+        "int2a_bag",
+        "int2a_librarian",
+        "int2a_snakes",
+        "int2a_foggy"
+      ],
+      "correct": "int2a_snakes",
       "why_wrong": {
-        "There is three chairs.": "Not quite — try again!",
-        "There are chair in the room.": "Not quite — try again!",
-        "There is many chairs.": "Not quite — try again!"
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bag": "bag",
+        "int2a_librarian": "librarian",
+        "int2a_snakes": "snakes",
+        "int2a_foggy": "foggy weather"
+      }
     },
     {
       "id": "i2a_u02_q28",
-      "type": 2,
-      "prompt_text": "Pick the right answer.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There isn't some milk.",
-        "There aren't any milk.",
-        "There not is milk.",
-        "There isn't any milk."
+      "type": 1,
+      "prompt_text": "There is water!",
+      "audio_id": "unit-02-q28",
+      "image_ids": [
+        "int2a_washroom",
+        "int2a_water",
+        "int2a_dining_room",
+        "int2a_quiet"
       ],
-      "correct": "There isn't any milk.",
+      "choices": [
+        "int2a_washroom",
+        "int2a_water",
+        "int2a_dining_room",
+        "int2a_quiet"
+      ],
+      "correct": "int2a_water",
       "why_wrong": {
-        "There isn't some milk.": "Not quite — try again!",
-        "There aren't any milk.": "Not quite — try again!",
-        "There not is milk.": "Not quite — try again!"
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_washroom": "washroom",
+        "int2a_water": "water",
+        "int2a_dining_room": "dining room",
+        "int2a_quiet": "quiet / shh face"
+      }
     },
     {
       "id": "i2a_u02_q29",
-      "type": 2,
-      "prompt_text": "Complete the idea.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There are a student.",
-        "There have students.",
-        "There is many students.",
-        "There are many students here."
+      "type": 1,
+      "prompt_text": "There are bees!",
+      "audio_id": "unit-02-q29",
+      "image_ids": [
+        "int2a_spiders",
+        "int2a_scary",
+        "int2a_bees",
+        "int2a_france"
       ],
-      "correct": "There are many students here.",
+      "choices": [
+        "int2a_spiders",
+        "int2a_scary",
+        "int2a_bees",
+        "int2a_france"
+      ],
+      "correct": "int2a_bees",
       "why_wrong": {
-        "There are a student.": "Not quite — try again!",
-        "There have students.": "Not quite — try again!",
-        "There is many students.": "Not quite — try again!"
+        "int2a_spiders": "You tapped \"spiders\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spiders": "spiders",
+        "int2a_scary": "scary face / ghost",
+        "int2a_bees": "bees",
+        "int2a_france": "France / French"
+      }
     },
     {
       "id": "i2a_u02_q30",
-      "type": 4,
-      "prompt_text": "Which is correct?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "There have park.",
-        "There is a park near my house.",
-        "There is parks.",
-        "There are a park."
+      "type": 1,
+      "prompt_text": "There is food!",
+      "audio_id": "unit-02-q30",
+      "image_ids": [
+        "int2a_vietnam",
+        "int2a_computer_games",
+        "int2a_spain",
+        "int2a_food"
       ],
-      "correct": "There is a park near my house.",
+      "choices": [
+        "int2a_vietnam",
+        "int2a_computer_games",
+        "int2a_spain",
+        "int2a_food"
+      ],
+      "correct": "int2a_food",
       "why_wrong": {
-        "There have park.": "Not quite — try again!",
-        "There is parks.": "Not quite — try again!",
-        "There are a park.": "Not quite — try again!"
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_computer_games": "You tapped \"computer games\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_spain": "You tapped \"Spain / Spanish\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!"
       },
       "unit": 2,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_computer_games": "computer games",
+        "int2a_spain": "Spain / Spanish",
+        "int2a_food": "food"
+      }
     }
   ]
 }
