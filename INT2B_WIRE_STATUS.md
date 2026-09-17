@@ -54,7 +54,7 @@ Real type-1 listen_pick_picture packs (`staging/INT2B/`, `generated: false`). **
 
 - Wire PR: https://github.com/mrjkorea/day5-practice/pull/13 — **merged** to `main`
 - Re-wire PR: https://github.com/mrjkorea/day5-practice/pull/17 — **merged** to `main`
-- Gate/docs PR: (this commit) — clear `images_partial`, expand status
+- Gate/docs PR: https://github.com/mrjkorea/day5-practice/pull/19 — **merged** to `main`
 - Pages status: **built** (2026-09-18 KST)
 - Verified live (HTTP 200): intermediate hub, `staging/INT2B/unit01/questions.json` (generated=false, type 1, count 24), `images/int2b/int2b_monday.png`
 - Playable assessments: **10 / 11**; pack PNG missing: **0**; questions: **222**
