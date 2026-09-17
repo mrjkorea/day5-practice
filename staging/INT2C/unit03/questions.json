@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2c",
-    "title": "Intermediate 2C Unit 3: Whose Is It?",
+    "title": "Intermediate 2C Unit 3: Is This Yours?",
     "kind": "unit",
     "units_covered": [
       3
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,972 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2c-ready"
   },
   "questions": [
     {
       "id": "i2c_u03_q01",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "He plays.",
-        "She is kind.",
-        "It's Jake's."
+      "type": 1,
+      "prompt_text": "Whose candy is this?",
+      "audio_id": "unit-03-q01",
+      "image_ids": [
+        "int2c_perfume",
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_nose"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_perfume",
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_nose"
+      ],
+      "correct": "int2c_candy",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_perfume": "perfume",
+        "int2c_candy": "candy",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_nose": "bloody nose"
+      }
     },
     {
       "id": "i2c_u03_q02",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "No, it's Maria's.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Whose money is this?",
+      "audio_id": "unit-03-q02",
+      "image_ids": [
+        "int2c_fever",
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_money"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_fever",
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_money"
+      ],
+      "correct": "int2c_money",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fever": "fever thermometer",
+        "int2c_throat": "sore throat",
+        "int2c_proud": "proud face",
+        "int2c_money": "money"
+      }
     },
     {
       "id": "i2c_u03_q03",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "She sings.",
-        "I think it's ours.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Whose phone is this?",
+      "audio_id": "unit-03-q03",
+      "image_ids": [
+        "int2c_phone",
+        "int2c_skate",
+        "int2c_bike",
+        "int2c_suitcase"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_phone",
+        "int2c_skate",
+        "int2c_bike",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_phone",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_skate": "You tapped \"ice skate\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_phone": "phone",
+        "int2c_skate": "ice skate",
+        "int2c_bike": "bike",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u03_q04",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "herself",
-        "she",
-        "her",
-        "she's"
+      "type": 1,
+      "prompt_text": "Whose garbage is this?",
+      "audio_id": "unit-03-q04",
+      "image_ids": [
+        "int2c_hockey",
+        "int2c_fruit_stall",
+        "int2c_gimbap",
+        "int2c_garbage"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_hockey",
+        "int2c_fruit_stall",
+        "int2c_gimbap",
+        "int2c_garbage"
+      ],
+      "correct": "int2c_garbage",
       "why_wrong": {
-        "herself": "Not quite — try again!",
-        "she": "Not quite — try again!",
-        "she's": "Not quite — try again!"
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_hockey": "ice hockey",
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_gimbap": "Gimbap",
+        "int2c_garbage": "garbage"
+      }
     },
     {
       "id": "i2c_u03_q05",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "I like red.",
-        "It's his."
+      "type": 1,
+      "prompt_text": "Whose watch is this?",
+      "audio_id": "unit-03-q05",
+      "image_ids": [
+        "int2c_watch",
+        "int2c_toothbrush",
+        "int2c_fishing",
+        "int2c_jinhae"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_watch",
+        "int2c_toothbrush",
+        "int2c_fishing",
+        "int2c_jinhae"
+      ],
+      "correct": "int2c_watch",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!",
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_watch": "watch",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_fishing": "fishing",
+        "int2c_jinhae": "Jinhae"
+      }
     },
     {
       "id": "i2c_u03_q06",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "It's Jake's.",
-        "I am fine.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Whose car is this?",
+      "audio_id": "unit-03-q06",
+      "image_ids": [
+        "int2c_car",
+        "int2c_toothbrush",
+        "int2c_wave",
+        "int2c_camera"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_car",
+        "int2c_toothbrush",
+        "int2c_wave",
+        "int2c_camera"
+      ],
+      "correct": "int2c_car",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!",
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_car": "car",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_camera": "camera / taking a picture"
+      }
     },
     {
       "id": "i2c_u03_q07",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's Maria's.",
-        "I like cats.",
-        "He runs.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Whose jacket is this?",
+      "audio_id": "unit-03-q07",
+      "image_ids": [
+        "int2c_nervous",
+        "int2c_jacket",
+        "int2c_veg_stall",
+        "int2c_gum"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_nervous",
+        "int2c_jacket",
+        "int2c_veg_stall",
+        "int2c_gum"
+      ],
+      "correct": "int2c_jacket",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!",
+        "int2c_veg_stall": "You tapped \"vegetable stall\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!",
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nervous": "nervous face",
+        "int2c_jacket": "jacket",
+        "int2c_veg_stall": "vegetable stall",
+        "int2c_gum": "gum"
+      }
     },
     {
       "id": "i2c_u03_q08",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "She sings.",
-        "I have a pen.",
-        "I think it's ours."
+      "type": 1,
+      "prompt_text": "Whose laptop is this?",
+      "audio_id": "unit-03-q08",
+      "image_ids": [
+        "int2c_laptop",
+        "int2c_naejangsan",
+        "int2c_telephone",
+        "int2c_bike"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_laptop",
+        "int2c_naejangsan",
+        "int2c_telephone",
+        "int2c_bike"
+      ],
+      "correct": "int2c_laptop",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!",
+        "int2c_telephone": "You tapped \"telephone\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_laptop": "laptop",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_telephone": "telephone",
+        "int2c_bike": "bike"
+      }
     },
     {
       "id": "i2c_u03_q09",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "she",
-        "she's",
-        "herself",
-        "her"
+      "type": 1,
+      "prompt_text": "Whose sunglasses are these?",
+      "audio_id": "unit-03-q09",
+      "image_ids": [
+        "int2c_candy",
+        "int2c_sunglasses",
+        "int2c_money",
+        "int2c_fever"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_candy",
+        "int2c_sunglasses",
+        "int2c_money",
+        "int2c_fever"
+      ],
+      "correct": "int2c_sunglasses",
       "why_wrong": {
-        "she": "Not quite — try again!",
-        "she's": "Not quite — try again!",
-        "herself": "Not quite — try again!"
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!",
+        "int2c_money": "You tapped \"money\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_candy": "candy",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_money": "money",
+        "int2c_fever": "fever thermometer"
+      }
     },
     {
       "id": "i2c_u03_q10",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like red.",
-        "He jumps.",
-        "It's his."
+      "type": 1,
+      "prompt_text": "Whose headphones are these?",
+      "audio_id": "unit-03-q10",
+      "image_ids": [
+        "int2c_ankle",
+        "int2c_studying",
+        "int2c_headphones",
+        "int2c_tongyeong"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_ankle",
+        "int2c_studying",
+        "int2c_headphones",
+        "int2c_tongyeong"
+      ],
+      "correct": "int2c_headphones",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ankle": "sprained ankle",
+        "int2c_studying": "student studying",
+        "int2c_headphones": "headphones",
+        "int2c_tongyeong": "Tongyeong City"
+      }
     },
     {
       "id": "i2c_u03_q11",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "It's Jake's.",
-        "He plays.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Whose perfume is this?",
+      "audio_id": "unit-03-q11",
+      "image_ids": [
+        "int2c_fall_leaves",
+        "int2c_stomach",
+        "int2c_perfume",
+        "int2c_guilty"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_fall_leaves",
+        "int2c_stomach",
+        "int2c_perfume",
+        "int2c_guilty"
+      ],
+      "correct": "int2c_perfume",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!",
+        "int2c_guilty": "You tapped \"guilty face\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_stomach": "stomachache",
+        "int2c_perfume": "perfume",
+        "int2c_guilty": "guilty face"
+      }
     },
     {
       "id": "i2c_u03_q12",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like cats.",
-        "We eat.",
-        "No, it's Maria's."
+      "type": 1,
+      "prompt_text": "Whose bike is this?",
+      "audio_id": "unit-03-q12",
+      "image_ids": [
+        "int2c_kimchi",
+        "int2c_blue",
+        "int2c_bike",
+        "int2c_nose"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_kimchi",
+        "int2c_blue",
+        "int2c_bike",
+        "int2c_nose"
+      ],
+      "correct": "int2c_bike",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_kimchi": "kimchi",
+        "int2c_blue": "blue color swatch",
+        "int2c_bike": "bike",
+        "int2c_nose": "bloody nose"
+      }
     },
     {
       "id": "i2c_u03_q13",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "She sings.",
-        "I have a pen.",
-        "I think it's ours."
+      "type": 1,
+      "prompt_text": "Whose pen is this?",
+      "audio_id": "unit-03-q13",
+      "image_ids": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_sleeping",
+        "int2c_dogs"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_sleeping",
+        "int2c_dogs"
+      ],
+      "correct": "int2c_pen",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!",
+        "int2c_sleeping": "You tapped \"person sleeping\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!",
+        "int2c_dogs": "You tapped \"dogs\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nose": "bloody nose",
+        "int2c_pen": "pen",
+        "int2c_sleeping": "person sleeping",
+        "int2c_dogs": "dogs"
+      }
     },
     {
       "id": "i2c_u03_q14",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "herself",
-        "she's",
-        "her",
-        "she"
+      "type": 1,
+      "prompt_text": "Whose gum is this?",
+      "audio_id": "unit-03-q14",
+      "image_ids": [
+        "int2c_gum",
+        "int2c_fantastic",
+        "int2c_islands",
+        "int2c_knee"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_gum",
+        "int2c_fantastic",
+        "int2c_islands",
+        "int2c_knee"
+      ],
+      "correct": "int2c_gum",
       "why_wrong": {
-        "herself": "Not quite — try again!",
-        "she's": "Not quite — try again!",
-        "she": "Not quite — try again!"
+        "int2c_fantastic": "You tapped \"fantastic / star-eyed face\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!",
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!",
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_gum": "gum",
+        "int2c_fantastic": "fantastic / star-eyed face",
+        "int2c_islands": "islands",
+        "int2c_knee": "knee"
+      }
     },
     {
       "id": "i2c_u03_q15",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's his.",
-        "He jumps.",
-        "I like red.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Whose chair is this?",
+      "audio_id": "unit-03-q15",
+      "image_ids": [
+        "int2c_pen",
+        "int2c_money",
+        "int2c_chair",
+        "int2c_naejangsan"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_pen",
+        "int2c_money",
+        "int2c_chair",
+        "int2c_naejangsan"
+      ],
+      "correct": "int2c_chair",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!",
+        "int2c_money": "You tapped \"money\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_pen": "pen",
+        "int2c_money": "money",
+        "int2c_chair": "chair",
+        "int2c_naejangsan": "Naejangsan National Park"
+      }
     },
     {
       "id": "i2c_u03_q16",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "It's Jake's.",
-        "I am fine.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Whose candy is this?",
+      "audio_id": "unit-03-q16",
+      "image_ids": [
+        "int2c_candy",
+        "int2c_hockey",
+        "int2c_fall_leaves",
+        "int2c_fantastic"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_candy",
+        "int2c_hockey",
+        "int2c_fall_leaves",
+        "int2c_fantastic"
+      ],
+      "correct": "int2c_candy",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_fantastic": "You tapped \"fantastic / star-eyed face\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_candy": "candy",
+        "int2c_hockey": "ice hockey",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_fantastic": "fantastic / star-eyed face"
+      }
     },
     {
       "id": "i2c_u03_q17",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's Maria's.",
-        "We eat.",
-        "He runs.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Whose money is this?",
+      "audio_id": "unit-03-q17",
+      "image_ids": [
+        "int2c_money",
+        "int2c_fruit_stall",
+        "int2c_autumn",
+        "int2c_kart"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_money",
+        "int2c_fruit_stall",
+        "int2c_autumn",
+        "int2c_kart"
+      ],
+      "correct": "int2c_money",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_money": "money",
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_autumn": "autumn / fall",
+        "int2c_kart": "Kart Rider game"
+      }
     },
     {
       "id": "i2c_u03_q18",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I have a pen.",
-        "He reads.",
-        "I think it's ours."
+      "type": 1,
+      "prompt_text": "Whose phone is this?",
+      "audio_id": "unit-03-q18",
+      "image_ids": [
+        "int2c_headphones",
+        "int2c_phone",
+        "int2c_tongyeong",
+        "int2c_back"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_headphones",
+        "int2c_phone",
+        "int2c_tongyeong",
+        "int2c_back"
+      ],
+      "correct": "int2c_phone",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_headphones": "headphones",
+        "int2c_phone": "phone",
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_back": "back / spine"
+      }
     },
     {
       "id": "i2c_u03_q19",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "she's",
-        "her",
-        "herself",
-        "she"
+      "type": 1,
+      "prompt_text": "Whose garbage is this?",
+      "audio_id": "unit-03-q19",
+      "image_ids": [
+        "int2c_studying",
+        "int2c_garbage",
+        "int2c_candy",
+        "int2c_blue"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_studying",
+        "int2c_garbage",
+        "int2c_candy",
+        "int2c_blue"
+      ],
+      "correct": "int2c_garbage",
       "why_wrong": {
-        "she's": "Not quite — try again!",
-        "herself": "Not quite — try again!",
-        "she": "Not quite — try again!"
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_studying": "student studying",
+        "int2c_garbage": "garbage",
+        "int2c_candy": "candy",
+        "int2c_blue": "blue color swatch"
+      }
     },
     {
       "id": "i2c_u03_q20",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like red.",
-        "He jumps.",
-        "It's his."
+      "type": 1,
+      "prompt_text": "Whose watch is this?",
+      "audio_id": "unit-03-q20",
+      "image_ids": [
+        "int2c_tongyeong",
+        "int2c_fishing",
+        "int2c_ankle",
+        "int2c_watch"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_tongyeong",
+        "int2c_fishing",
+        "int2c_ankle",
+        "int2c_watch"
+      ],
+      "correct": "int2c_watch",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!",
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"Whose watch is this?\". The correct picture is \"watch\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tongyeong": "Tongyeong City",
+        "int2c_fishing": "fishing",
+        "int2c_ankle": "sprained ankle",
+        "int2c_watch": "watch"
+      }
     },
     {
       "id": "i2c_u03_q21",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's Jake's.",
-        "I am fine.",
-        "She is kind.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Whose car is this?",
+      "audio_id": "unit-03-q21",
+      "image_ids": [
+        "int2c_headphones",
+        "int2c_worried",
+        "int2c_car",
+        "int2c_ankle"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_headphones",
+        "int2c_worried",
+        "int2c_car",
+        "int2c_ankle"
+      ],
+      "correct": "int2c_car",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!",
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"Whose car is this?\". The correct picture is \"car\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_headphones": "headphones",
+        "int2c_worried": "worried face",
+        "int2c_car": "car",
+        "int2c_ankle": "sprained ankle"
+      }
     },
     {
       "id": "i2c_u03_q22",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs.",
-        "No, it's Maria's.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Whose jacket is this?",
+      "audio_id": "unit-03-q22",
+      "image_ids": [
+        "int2c_fishing",
+        "int2c_jacket",
+        "int2c_hockey",
+        "int2c_garbage"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_fishing",
+        "int2c_jacket",
+        "int2c_hockey",
+        "int2c_garbage"
+      ],
+      "correct": "int2c_jacket",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!",
+        "int2c_garbage": "You tapped \"garbage\", but the audio said: \"Whose jacket is this?\". The correct picture is \"jacket\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fishing": "fishing",
+        "int2c_jacket": "jacket",
+        "int2c_hockey": "ice hockey",
+        "int2c_garbage": "garbage"
+      }
     },
     {
       "id": "i2c_u03_q23",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I think it's ours.",
-        "I have a pen.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Whose laptop is this?",
+      "audio_id": "unit-03-q23",
+      "image_ids": [
+        "int2c_laptop",
+        "int2c_nose",
+        "int2c_blue",
+        "int2c_science"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_laptop",
+        "int2c_nose",
+        "int2c_blue",
+        "int2c_science"
+      ],
+      "correct": "int2c_laptop",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"Whose laptop is this?\". The correct picture is \"laptop\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_laptop": "laptop",
+        "int2c_nose": "bloody nose",
+        "int2c_blue": "blue color swatch",
+        "int2c_science": "science"
+      }
     },
     {
       "id": "i2c_u03_q24",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "she",
-        "she's",
-        "her",
-        "herself"
+      "type": 1,
+      "prompt_text": "Whose sunglasses are these?",
+      "audio_id": "unit-03-q24",
+      "image_ids": [
+        "int2c_sunglasses",
+        "int2c_stomach",
+        "int2c_swim",
+        "int2c_tooth"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_sunglasses",
+        "int2c_stomach",
+        "int2c_swim",
+        "int2c_tooth"
+      ],
+      "correct": "int2c_sunglasses",
       "why_wrong": {
-        "she": "Not quite — try again!",
-        "she's": "Not quite — try again!",
-        "herself": "Not quite — try again!"
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!",
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!",
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"Whose sunglasses are these?\". The correct picture is \"sunglasses\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sunglasses": "sunglasses",
+        "int2c_stomach": "stomachache",
+        "int2c_swim": "swimming",
+        "int2c_tooth": "tooth"
+      }
     },
     {
       "id": "i2c_u03_q25",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "I like red.",
-        "She swims.",
-        "It's his."
+      "type": 1,
+      "prompt_text": "Whose headphones are these?",
+      "audio_id": "unit-03-q25",
+      "image_ids": [
+        "int2c_tooth",
+        "int2c_watch",
+        "int2c_gum",
+        "int2c_headphones"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_tooth",
+        "int2c_watch",
+        "int2c_gum",
+        "int2c_headphones"
+      ],
+      "correct": "int2c_headphones",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!",
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"Whose headphones are these?\". The correct picture is \"headphones\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_tooth": "tooth",
+        "int2c_watch": "watch",
+        "int2c_gum": "gum",
+        "int2c_headphones": "headphones"
+      }
     },
     {
       "id": "i2c_u03_q26",
-      "type": 4,
-      "prompt_text": "Whose jacket is on the chair?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She is kind.",
-        "He plays.",
-        "It's Jake's."
+      "type": 1,
+      "prompt_text": "Whose perfume is this?",
+      "audio_id": "unit-03-q26",
+      "image_ids": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_perfume",
+        "int2c_suitcase"
       ],
-      "correct": "It's Jake's.",
+      "choices": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_perfume",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_perfume",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"Whose perfume is this?\". The correct picture is \"perfume\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nose": "bloody nose",
+        "int2c_pen": "pen",
+        "int2c_perfume": "perfume",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u03_q27",
-      "type": 4,
-      "prompt_text": "Is this your umbrella?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs.",
-        "We eat.",
-        "No, it's Maria's."
+      "type": 1,
+      "prompt_text": "Whose bike is this?",
+      "audio_id": "unit-03-q27",
+      "image_ids": [
+        "int2c_phone",
+        "int2c_candy",
+        "int2c_fishing",
+        "int2c_bike"
       ],
-      "correct": "No, it's Maria's.",
+      "choices": [
+        "int2c_phone",
+        "int2c_candy",
+        "int2c_fishing",
+        "int2c_bike"
+      ],
+      "correct": "int2c_bike",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"Whose bike is this?\". The correct picture is \"bike\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_phone": "phone",
+        "int2c_candy": "candy",
+        "int2c_fishing": "fishing",
+        "int2c_bike": "bike"
+      }
     },
     {
       "id": "i2c_u03_q28",
-      "type": 4,
-      "prompt_text": "Whose notebook is this?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "I think it's ours.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Whose pen is this?",
+      "audio_id": "unit-03-q28",
+      "image_ids": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_hockey",
+        "int2c_jealous"
       ],
-      "correct": "I think it's ours.",
+      "choices": [
+        "int2c_nose",
+        "int2c_pen",
+        "int2c_hockey",
+        "int2c_jealous"
+      ],
+      "correct": "int2c_pen",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!",
+        "int2c_jealous": "You tapped \"jealous face\", but the audio said: \"Whose pen is this?\". The correct picture is \"pen\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nose": "bloody nose",
+        "int2c_pen": "pen",
+        "int2c_hockey": "ice hockey",
+        "int2c_jealous": "jealous face"
+      }
     },
     {
       "id": "i2c_u03_q29",
-      "type": 2,
-      "prompt_text": "This is ___ bike.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "she's",
-        "her",
-        "herself",
-        "she"
+      "type": 1,
+      "prompt_text": "Whose gum is this?",
+      "audio_id": "unit-03-q29",
+      "image_ids": [
+        "int2c_naejangsan",
+        "int2c_proud",
+        "int2c_kimchi",
+        "int2c_gum"
       ],
-      "correct": "her",
+      "choices": [
+        "int2c_naejangsan",
+        "int2c_proud",
+        "int2c_kimchi",
+        "int2c_gum"
+      ],
+      "correct": "int2c_gum",
       "why_wrong": {
-        "she's": "Not quite — try again!",
-        "herself": "Not quite — try again!",
-        "she": "Not quite — try again!"
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"Whose gum is this?\". The correct picture is \"gum\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_proud": "proud face",
+        "int2c_kimchi": "kimchi",
+        "int2c_gum": "gum"
+      }
     },
     {
       "id": "i2c_u03_q30",
-      "type": 4,
-      "prompt_text": "Whose phone is ringing?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "It's his.",
-        "I like red.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Whose chair is this?",
+      "audio_id": "unit-03-q30",
+      "image_ids": [
+        "int2c_studying",
+        "int2c_chair",
+        "int2c_hockey",
+        "int2c_kart"
       ],
-      "correct": "It's his.",
+      "choices": [
+        "int2c_studying",
+        "int2c_chair",
+        "int2c_hockey",
+        "int2c_kart"
+      ],
+      "correct": "int2c_chair",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"Whose chair is this?\". The correct picture is \"chair\". Listen again!"
       },
       "unit": 3,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_studying": "student studying",
+        "int2c_chair": "chair",
+        "int2c_hockey": "ice hockey",
+        "int2c_kart": "Kart Rider game"
+      }
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2c",
-    "title": "Intermediate 2C Unit 8: Saying Goodbye",
+    "title": "Intermediate 2C Unit 8: I'll Miss You",
     "kind": "unit",
     "units_covered": [
       8
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,972 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2c-ready"
   },
   "questions": [
     {
       "id": "i2c_u08_q01",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "He has a bike.",
-        "I am hungry.",
-        "See you!"
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q01",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_cherry",
+        "int2c_dogs",
+        "int2c_pen"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_wave",
+        "int2c_cherry",
+        "int2c_dogs",
+        "int2c_pen"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2c_cherry": "You tapped \"cherry blossoms\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_dogs": "You tapped \"dogs\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_cherry": "cherry blossoms",
+        "int2c_dogs": "dogs",
+        "int2c_pen": "pen"
+      }
     },
     {
       "id": "i2c_u08_q02",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I like blue.",
-        "He sings.",
-        "Okay, take care!"
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q02",
+      "image_ids": [
+        "int2c_money",
+        "int2c_wave",
+        "int2c_autumn",
+        "int2c_studying"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_money",
+        "int2c_wave",
+        "int2c_autumn",
+        "int2c_studying"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int2c_money": "You tapped \"money\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_money": "money",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_autumn": "autumn / fall",
+        "int2c_studying": "student studying"
+      }
     },
     {
       "id": "i2c_u08_q03",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "You too!",
-        "She reads.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q03",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_suitcase",
+        "int2c_winter",
+        "int2c_spring"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_swim",
+        "int2c_suitcase",
+        "int2c_winter",
+        "int2c_spring"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_winter": "winter",
+        "int2c_spring": "spring"
+      }
     },
     {
       "id": "i2c_u08_q04",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Likewise!",
-        "She swims.",
-        "I like pizza.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q04",
+      "image_ids": [
+        "int2c_back",
+        "int2c_islands",
+        "int2c_garbage",
+        "int2c_wave"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_back",
+        "int2c_islands",
+        "int2c_garbage",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_garbage": "You tapped \"garbage\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_back": "back / spine",
+        "int2c_islands": "islands",
+        "int2c_garbage": "garbage",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q05",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She jumps.",
-        "He runs.",
-        "Thanks, bye!"
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q05",
+      "image_ids": [
+        "int2c_gimbap",
+        "int2c_wave",
+        "int2c_nose",
+        "int2c_gangwon"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_gimbap",
+        "int2c_wave",
+        "int2c_nose",
+        "int2c_gangwon"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_gimbap": "Gimbap",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_nose": "bloody nose",
+        "int2c_gangwon": "Gangwon Province"
+      }
     },
     {
       "id": "i2c_u08_q06",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "He has a bike.",
-        "See you!",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q06",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_gum",
+        "int2c_hockey",
+        "int2c_suitcase"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_wave",
+        "int2c_gum",
+        "int2c_hockey",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_gum": "gum",
+        "int2c_hockey": "ice hockey",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u08_q07",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Okay, take care!",
-        "She runs.",
-        "I like blue.",
-        "He sings."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q07",
+      "image_ids": [
+        "int2c_guilty",
+        "int2c_gangwon",
+        "int2c_shower",
+        "int2c_wave"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_guilty",
+        "int2c_gangwon",
+        "int2c_shower",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int2c_guilty": "You tapped \"guilty face\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_gangwon": "You tapped \"Gangwon Province\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_guilty": "guilty face",
+        "int2c_gangwon": "Gangwon Province",
+        "int2c_shower": "shower",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q08",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "You too!",
-        "She reads.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q08",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_sleeping",
+        "int2c_laptop",
+        "int2c_blue"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_wave",
+        "int2c_sleeping",
+        "int2c_laptop",
+        "int2c_blue"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_sleeping": "You tapped \"person sleeping\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_blue": "You tapped \"blue color swatch\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_sleeping": "person sleeping",
+        "int2c_laptop": "laptop",
+        "int2c_blue": "blue color swatch"
+      }
     },
     {
       "id": "i2c_u08_q09",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like pizza.",
-        "Likewise!",
-        "She swims."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q09",
+      "image_ids": [
+        "int2c_sleeping",
+        "int2c_throat",
+        "int2c_suitcase",
+        "int2c_fever"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_sleeping",
+        "int2c_throat",
+        "int2c_suitcase",
+        "int2c_fever"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_sleeping": "You tapped \"person sleeping\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sleeping": "person sleeping",
+        "int2c_throat": "sore throat",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_fever": "fever thermometer"
+      }
     },
     {
       "id": "i2c_u08_q10",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "She jumps.",
-        "I am fine.",
-        "Thanks, bye!"
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q10",
+      "image_ids": [
+        "int2c_winter",
+        "int2c_phone",
+        "int2c_wave",
+        "int2c_suitcase"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_winter",
+        "int2c_phone",
+        "int2c_wave",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_winter": "winter",
+        "int2c_phone": "phone",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u08_q11",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "She is kind.",
-        "He has a bike.",
-        "See you!"
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q11",
+      "image_ids": [
+        "int2c_surprised",
+        "int2c_phone",
+        "int2c_jacket",
+        "int2c_wave"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_surprised",
+        "int2c_phone",
+        "int2c_jacket",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2c_surprised": "You tapped \"surprised face\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_surprised": "surprised face",
+        "int2c_phone": "phone",
+        "int2c_jacket": "jacket",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q12",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Okay, take care!",
-        "He sings.",
-        "I like blue.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q12",
+      "image_ids": [
+        "int2c_jacket",
+        "int2c_chair",
+        "int2c_suitcase",
+        "int2c_embarrassed"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_jacket",
+        "int2c_chair",
+        "int2c_suitcase",
+        "int2c_embarrassed"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_chair": "You tapped \"chair\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_embarrassed": "You tapped \"embarrassed face\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jacket": "jacket",
+        "int2c_chair": "chair",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_embarrassed": "embarrassed face"
+      }
     },
     {
       "id": "i2c_u08_q13",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "I have a cat.",
-        "You too!",
-        "He plays."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q13",
+      "image_ids": [
+        "int2c_car",
+        "int2c_wave",
+        "int2c_bowing",
+        "int2c_cold_illness"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_car",
+        "int2c_wave",
+        "int2c_bowing",
+        "int2c_cold_illness"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2c_car": "You tapped \"car\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_bowing": "You tapped \"person bowing\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_car": "car",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_bowing": "person bowing",
+        "int2c_cold_illness": "person with a cold"
+      }
     },
     {
       "id": "i2c_u08_q14",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Likewise!",
-        "I like pizza.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q14",
+      "image_ids": [
+        "int2c_embarrassed",
+        "int2c_worried",
+        "int2c_camera",
+        "int2c_wave"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_embarrassed",
+        "int2c_worried",
+        "int2c_camera",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_embarrassed": "You tapped \"embarrassed face\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_embarrassed": "embarrassed face",
+        "int2c_worried": "worried face",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q15",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Thanks, bye!",
-        "I am fine.",
-        "She jumps.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q15",
+      "image_ids": [
+        "int2c_sunglasses",
+        "int2c_proud",
+        "int2c_kimchi",
+        "int2c_suitcase"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_sunglasses",
+        "int2c_proud",
+        "int2c_kimchi",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sunglasses": "sunglasses",
+        "int2c_proud": "proud face",
+        "int2c_kimchi": "kimchi",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u08_q16",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "I am hungry.",
-        "See you!",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q16",
+      "image_ids": [
+        "int2c_ankle",
+        "int2c_bike",
+        "int2c_science",
+        "int2c_wave"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_ankle",
+        "int2c_bike",
+        "int2c_science",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ankle": "sprained ankle",
+        "int2c_bike": "bike",
+        "int2c_science": "science",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q17",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He sings.",
-        "She runs.",
-        "Okay, take care!"
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q17",
+      "image_ids": [
+        "int2c_proud",
+        "int2c_wave",
+        "int2c_fall_leaves",
+        "int2c_kimchi"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_proud",
+        "int2c_wave",
+        "int2c_fall_leaves",
+        "int2c_kimchi"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_fall_leaves": "You tapped \"fall leaves\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_kimchi": "You tapped \"kimchi\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_proud": "proud face",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_fall_leaves": "fall leaves",
+        "int2c_kimchi": "kimchi"
+      }
     },
     {
       "id": "i2c_u08_q18",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He plays.",
-        "I have a cat.",
-        "You too!"
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q18",
+      "image_ids": [
+        "int2c_islands",
+        "int2c_kart",
+        "int2c_suitcase",
+        "int2c_sunglasses"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_islands",
+        "int2c_kart",
+        "int2c_suitcase",
+        "int2c_sunglasses"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_islands": "islands",
+        "int2c_kart": "Kart Rider game",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_sunglasses": "sunglasses"
+      }
     },
     {
       "id": "i2c_u08_q19",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Likewise!",
-        "She swims.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q19",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_laptop",
+        "int2c_tooth",
+        "int2c_kart"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_wave",
+        "int2c_laptop",
+        "int2c_tooth",
+        "int2c_kart"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_kart": "You tapped \"Kart Rider game\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_laptop": "laptop",
+        "int2c_tooth": "tooth",
+        "int2c_kart": "Kart Rider game"
+      }
     },
     {
       "id": "i2c_u08_q20",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Thanks, bye!",
-        "She jumps.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q20",
+      "image_ids": [
+        "int2c_ankle",
+        "int2c_knee",
+        "int2c_gimbap",
+        "int2c_wave"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_ankle",
+        "int2c_knee",
+        "int2c_gimbap",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2c_ankle": "You tapped \"sprained ankle\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_ankle": "sprained ankle",
+        "int2c_knee": "knee",
+        "int2c_gimbap": "Gimbap",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q21",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "See you!",
-        "I am hungry.",
-        "He has a bike.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q21",
+      "image_ids": [
+        "int2c_autumn",
+        "int2c_bowing",
+        "int2c_hockey",
+        "int2c_suitcase"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_autumn",
+        "int2c_bowing",
+        "int2c_hockey",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_bowing": "You tapped \"person bowing\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_autumn": "autumn / fall",
+        "int2c_bowing": "person bowing",
+        "int2c_hockey": "ice hockey",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u08_q22",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "I like blue.",
-        "Okay, take care!",
-        "He sings."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q22",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_watch",
+        "int2c_cold_illness",
+        "int2c_computer_games"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_wave",
+        "int2c_watch",
+        "int2c_cold_illness",
+        "int2c_computer_games"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_computer_games": "You tapped \"computer games\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_watch": "watch",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_computer_games": "computer games"
+      }
     },
     {
       "id": "i2c_u08_q23",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He plays.",
-        "You too!",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q23",
+      "image_ids": [
+        "int2c_nose",
+        "int2c_headphones",
+        "int2c_shower",
+        "int2c_wave"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_nose",
+        "int2c_headphones",
+        "int2c_shower",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_shower": "You tapped \"shower\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_nose": "bloody nose",
+        "int2c_headphones": "headphones",
+        "int2c_shower": "shower",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q24",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "She swims.",
-        "Likewise!",
-        "He eats."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q24",
+      "image_ids": [
+        "int2c_stomach",
+        "int2c_headache",
+        "int2c_phone",
+        "int2c_suitcase"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_stomach",
+        "int2c_headache",
+        "int2c_phone",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_phone": "You tapped \"phone\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_stomach": "stomachache",
+        "int2c_headache": "head with headache",
+        "int2c_phone": "phone",
+        "int2c_suitcase": "suitcase (leaving)"
+      }
     },
     {
       "id": "i2c_u08_q25",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Thanks, bye!",
-        "I am fine.",
-        "She jumps.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q25",
+      "image_ids": [
+        "int2c_chair",
+        "int2c_camera",
+        "int2c_wave",
+        "int2c_jinhae"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_chair",
+        "int2c_camera",
+        "int2c_wave",
+        "int2c_jinhae"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_chair": "You tapped \"chair\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_camera": "You tapped \"camera / taking a picture\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_jinhae": "You tapped \"Jinhae\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_chair": "chair",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_jinhae": "Jinhae"
+      }
     },
     {
       "id": "i2c_u08_q26",
-      "type": 4,
-      "prompt_text": "See you tomorrow!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "She is kind.",
-        "See you!",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q26",
+      "image_ids": [
+        "int2c_sunglasses",
+        "int2c_toothbrush",
+        "int2c_wave",
+        "int2c_hockey"
       ],
-      "correct": "See you!",
+      "choices": [
+        "int2c_sunglasses",
+        "int2c_toothbrush",
+        "int2c_wave",
+        "int2c_hockey"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_sunglasses": "sunglasses",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_hockey": "ice hockey"
+      }
     },
     {
       "id": "i2c_u08_q27",
-      "type": 2,
-      "prompt_text": "I have to go now.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "Okay, take care!",
-        "He sings.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q27",
+      "image_ids": [
+        "int2c_autumn",
+        "int2c_suitcase",
+        "int2c_cold_illness",
+        "int2c_islands"
       ],
-      "correct": "Okay, take care!",
+      "choices": [
+        "int2c_autumn",
+        "int2c_suitcase",
+        "int2c_cold_illness",
+        "int2c_islands"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_cold_illness": "You tapped \"person with a cold\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_autumn": "autumn / fall",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_cold_illness": "person with a cold",
+        "int2c_islands": "islands"
+      }
     },
     {
       "id": "i2c_u08_q28",
-      "type": 4,
-      "prompt_text": "Goodbye! Have a nice weekend!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "He plays.",
-        "She reads.",
-        "You too!"
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q28",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_winter",
+        "int2c_sunglasses",
+        "int2c_hockey"
       ],
-      "correct": "You too!",
+      "choices": [
+        "int2c_wave",
+        "int2c_winter",
+        "int2c_sunglasses",
+        "int2c_hockey"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_winter": "winter",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_hockey": "ice hockey"
+      }
     },
     {
       "id": "i2c_u08_q29",
-      "type": 2,
-      "prompt_text": "It was nice talking to you.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "Likewise!",
-        "I like pizza.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q29",
+      "image_ids": [
+        "int2c_spring",
+        "int2c_worried",
+        "int2c_suitcase",
+        "int2c_wave"
       ],
-      "correct": "Likewise!",
+      "choices": [
+        "int2c_spring",
+        "int2c_worried",
+        "int2c_suitcase",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_spring": "spring",
+        "int2c_worried": "worried face",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_wave": "waving goodbye hand"
+      }
     },
     {
       "id": "i2c_u08_q30",
-      "type": 2,
-      "prompt_text": "Bye! Drive safely.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She jumps.",
-        "I am fine.",
-        "Thanks, bye!",
-        "He runs."
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q30",
+      "image_ids": [
+        "int2c_money",
+        "int2c_suitcase",
+        "int2c_toothbrush",
+        "int2c_knee"
       ],
-      "correct": "Thanks, bye!",
+      "choices": [
+        "int2c_money",
+        "int2c_suitcase",
+        "int2c_toothbrush",
+        "int2c_knee"
+      ],
+      "correct": "int2c_suitcase",
       "why_wrong": {
-        "She jumps.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2c_money": "You tapped \"money\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_toothbrush": "You tapped \"toothbrush\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
       },
       "unit": 8,
-      "level": "int2c"
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_money": "money",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_toothbrush": "toothbrush",
+        "int2c_knee": "knee"
+      }
     }
   ]
 }

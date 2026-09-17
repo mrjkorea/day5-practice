@@ -207,7 +207,7 @@
         {
           "id": "unit01",
           "path": "staging/INT2C/unit01/questions.json",
-          "title": "Intermediate 2C Unit 1: Favorite Seasons",
+          "title": "Intermediate 2C Unit 1: I Love Summer",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -223,7 +223,7 @@
         {
           "id": "unit03",
           "path": "staging/INT2C/unit03/questions.json",
-          "title": "Intermediate 2C Unit 3: Whose Is It?",
+          "title": "Intermediate 2C Unit 3: Is This Yours?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -231,7 +231,7 @@
         {
           "id": "unit04",
           "path": "staging/INT2C/unit04/questions.json",
-          "title": "Intermediate 2C Unit 4: Likes and Preferences",
+          "title": "Intermediate 2C Unit 4: What's Your Favorite Subject?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -239,7 +239,7 @@
         {
           "id": "unit05",
           "path": "staging/INT2C/unit05/questions.json",
-          "title": "Intermediate 2C Unit 5: Feelings and Emotions",
+          "title": "Intermediate 2C Unit 5: How Are You Feeling Today?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -247,7 +247,7 @@
         {
           "id": "unit06",
           "path": "staging/INT2C/unit06/questions.json",
-          "title": "Intermediate 2C Unit 6: Body and Health",
+          "title": "Intermediate 2C Unit 6: What's Wrong?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -255,15 +255,15 @@
         {
           "id": "unit07",
           "path": "staging/INT2C/unit07/questions.json",
-          "title": "Intermediate 2C Unit 7: Phone Conversations",
+          "title": "Intermediate 2C Unit 7: Phone English 1",
           "kind": "unit",
-          "count": 30,
+          "count": 0,
           "pass_percent": 80
         },
         {
           "id": "unit08",
           "path": "staging/INT2C/unit08/questions.json",
-          "title": "Intermediate 2C Unit 8: Saying Goodbye",
+          "title": "Intermediate 2C Unit 8: I'll Miss You",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -273,7 +273,7 @@
           "path": "staging/INT2C/midterm_1_4/questions.json",
           "title": "Intermediate 2C Midterm Units 1–4",
           "kind": "midterm_1_4",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -281,7 +281,7 @@
           "path": "staging/INT2C/midterm_5_8/questions.json",
           "title": "Intermediate 2C Midterm Units 5–8",
           "kind": "midterm_5_8",
-          "count": 28,
+          "count": 33,
           "pass_percent": 80
         },
         {
@@ -289,7 +289,7 @@
           "path": "staging/INT2C/final/questions.json",
           "title": "Intermediate 2C Final Exam",
           "kind": "final",
-          "count": 32,
+          "count": 35,
           "pass_percent": 80
         }
       ],
@@ -297,7 +297,8 @@
         "pictures": "images/int2c",
         "audio": "audio/int2c"
       },
-      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import"
+      "staging_note": "wired-real",
+      "total_questions": 312
     },
     {
       "id": "int3a",
