@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 8: Telling Time",
+    "title": "What Time Is It?",
     "kind": "unit",
     "units_covered": [
       8
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-08-what-time.json"
   },
   "questions": [
     {
       "id": "i3c_u08_q01",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "It's a quarter to five.",
-        "I am fine.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Detention!",
+      "audio_id": "u08_q01",
+      "image_ids": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_no_way"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_no_way"
+      ],
+      "correct": "int3c_u08_what_time_detention",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_no_way": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_no_way": "No Way"
+      }
     },
     {
       "id": "i3c_u08_q02",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like blue.",
-        "We eat.",
-        "It starts at nine o'clock."
+      "type": 1,
+      "prompt_text": "What time is it?",
+      "audio_id": "u08_q02",
+      "image_ids": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_what_time_is_it"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_what_time_is_it"
+      ],
+      "correct": "int3c_u08_what_time_what_time_is_it",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u08_what_time_detention": "Look at the clock again.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It"
+      }
     },
     {
       "id": "i3c_u08_q03",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Thirty three.",
-        "Half three past.",
-        "Half past three.",
-        "Three past half."
+      "type": 1,
+      "prompt_text": "It is five o'clock.",
+      "audio_id": "u08_q03",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_five_oclock",
       "why_wrong": {
-        "Thirty three.": "Not quite — try again!",
-        "Half three past.": "Not quite — try again!",
-        "Three past half.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_eleven_oclock": "That clock is not eleven o'clock.",
+        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_eleven_oclock": "Wrong Eleven Oclock",
+        "int3c_u08_what_time_five_oclock": "Five Oclock",
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock"
+      }
     },
     {
       "id": "i3c_u08_q04",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Around seven p.m.",
-        "She sings.",
-        "He sleeps.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "It is six o'clock.",
+      "audio_id": "u08_q04",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_six_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_six_oclock"
+      ],
+      "correct": "int3c_u08_what_time_six_oclock",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock.",
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_six_oclock": "Six Oclock"
+      }
     },
     {
       "id": "i3c_u08_q05",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like pizza.",
-        "He jumps.",
-        "No, it's only nine forty-five."
+      "type": 1,
+      "prompt_text": "It is seven o'clock.",
+      "audio_id": "u08_q05",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_seven_oclock"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_seven_oclock"
+      ],
+      "correct": "int3c_u08_what_time_seven_oclock",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_five_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_five_oclock": "Five Oclock",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock"
+      }
     },
     {
       "id": "i3c_u08_q06",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a quarter to five.",
-        "He plays.",
-        "I am fine.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "It is eight o'clock.",
+      "audio_id": "u08_q06",
+      "image_ids": [
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_six_oclock"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_six_oclock"
+      ],
+      "correct": "int3c_u08_what_time_eight_oclock",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3c_u08_what_time_five_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_three_oclock": "That clock is not three o'clock.",
+        "int3c_u08_what_time_six_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_five_oclock": "Five Oclock",
+        "int3c_u08_what_time_wrong_three_oclock": "Wrong Three Oclock",
+        "int3c_u08_what_time_eight_oclock": "Eight Oclock",
+        "int3c_u08_what_time_six_oclock": "Six Oclock"
+      }
     },
     {
       "id": "i3c_u08_q07",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "I like blue.",
-        "It starts at nine o'clock."
+      "type": 1,
+      "prompt_text": "It is nine o'clock.",
+      "audio_id": "u08_q07",
+      "image_ids": [
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_wrong_six_oclock"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_wrong_six_oclock"
+      ],
+      "correct": "int3c_u08_what_time_nine_oclock",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_two_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_two_oclock": "Two Oclock",
+        "int3c_u08_what_time_nine_oclock": "Nine Oclock",
+        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock"
+      }
     },
     {
       "id": "i3c_u08_q08",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Half three past.",
-        "Half past three.",
-        "Three past half.",
-        "Thirty three."
+      "type": 1,
+      "prompt_text": "It is ten o'clock.",
+      "audio_id": "u08_q08",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_ten_oclock"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_ten_oclock",
       "why_wrong": {
-        "Half three past.": "Not quite — try again!",
-        "Three past half.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock"
+      }
     },
     {
       "id": "i3c_u08_q09",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "I have a cat.",
-        "She sings.",
-        "Around seven p.m."
+      "type": 1,
+      "prompt_text": "It is eleven o'clock.",
+      "audio_id": "u08_q09",
+      "image_ids": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_seven_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_seven_oclock"
+      ],
+      "correct": "int3c_u08_what_time_eleven_oclock",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_what_time_is_it": "Look at the clock again.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock"
+      }
     },
     {
       "id": "i3c_u08_q10",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's only nine forty-five.",
-        "I like pizza.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "It is midnight.",
+      "audio_id": "u08_q10",
+      "image_ids": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_detention"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_detention"
+      ],
+      "correct": "int3c_u08_what_time_midnight",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_eleven_oclock": "That clock is not eleven o'clock.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_detention": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_wrong_eleven_oclock": "Wrong Eleven Oclock",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_detention": "Detention"
+      }
     },
     {
       "id": "i3c_u08_q11",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "It's a quarter to five.",
-        "She is tall.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Can we go home?",
+      "audio_id": "u08_q11",
+      "image_ids": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_can_we_go_home"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_can_we_go_home"
+      ],
+      "correct": "int3c_u08_what_time_can_we_go_home",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u08_what_time_midnight": "Look at the clock again.",
+        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_can_we_go_home": "Can We Go Home"
+      }
     },
     {
       "id": "i3c_u08_q12",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He runs.",
-        "We eat.",
-        "It starts at nine o'clock."
+      "type": 1,
+      "prompt_text": "No!",
+      "audio_id": "u08_q12",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_no_exclamation"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_no_exclamation"
+      ],
+      "correct": "int3c_u08_what_time_no_exclamation",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock.",
+        "int3c_u08_what_time_detention": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation"
+      }
     },
     {
       "id": "i3c_u08_q13",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Half past three.",
-        "Three past half.",
-        "Thirty three.",
-        "Half three past."
+      "type": 1,
+      "prompt_text": "Can we go home please?",
+      "audio_id": "u08_q13",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_can_we_go_home_please"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_can_we_go_home_please"
+      ],
+      "correct": "int3c_u08_what_time_can_we_go_home_please",
       "why_wrong": {
-        "Three past half.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!",
-        "Half three past.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock.",
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_two_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_two_oclock": "Two Oclock",
+        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please"
+      }
     },
     {
       "id": "i3c_u08_q14",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Around seven p.m.",
-        "I have a cat.",
-        "She sings.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "No way!",
+      "audio_id": "u08_q14",
+      "image_ids": [
+        "int3c_u08_what_time_no_way",
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_no_way",
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_no_way",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_one_oclock": "That clock is not one o'clock.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_no_way": "No Way",
+        "int3c_u08_what_time_wrong_one_oclock": "Wrong One Oclock",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock"
+      }
     },
     {
       "id": "i3c_u08_q15",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's only nine forty-five.",
-        "I like pizza.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "It is one o'clock.",
+      "audio_id": "u08_q15",
+      "image_ids": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_one_oclock"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_one_oclock"
+      ],
+      "correct": "int3c_u08_what_time_one_oclock",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_one_oclock": "One Oclock"
+      }
     },
     {
       "id": "i3c_u08_q16",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a quarter to five.",
-        "He plays.",
-        "She is tall.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "It is two o'clock.",
+      "audio_id": "u08_q16",
+      "image_ids": [
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_six_oclock"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_no_exclamation",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_six_oclock"
+      ],
+      "correct": "int3c_u08_what_time_two_oclock",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_six_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_two_oclock": "Two Oclock",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_six_oclock": "Six Oclock"
+      }
     },
     {
       "id": "i3c_u08_q17",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "It starts at nine o'clock.",
-        "I like blue.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "It is three o'clock.",
+      "audio_id": "u08_q17",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_three_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_wrong_five_oclock"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_three_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_wrong_five_oclock"
+      ],
+      "correct": "int3c_u08_what_time_three_oclock",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock.",
+        "int3c_u08_what_time_what_time_is_it": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_five_oclock": "That clock is not five o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
+        "int3c_u08_what_time_three_oclock": "Three Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It",
+        "int3c_u08_what_time_wrong_five_oclock": "Wrong Five Oclock"
+      }
     },
     {
       "id": "i3c_u08_q18",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Half past three.",
-        "Half three past.",
-        "Thirty three.",
-        "Three past half."
+      "type": 1,
+      "prompt_text": "It is four o'clock.",
+      "audio_id": "u08_q18",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_four_oclock"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_four_oclock"
+      ],
+      "correct": "int3c_u08_what_time_four_oclock",
       "why_wrong": {
-        "Half three past.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!",
-        "Three past half.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_three_oclock": "That clock is not three o'clock.",
+        "int3c_u08_what_time_what_time_is_it": "Look at the clock again.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_three_oclock": "Wrong Three Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_four_oclock": "Four Oclock"
+      }
     },
     {
       "id": "i3c_u08_q19",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She sings.",
-        "Around seven p.m.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "It is twelve o'clock.",
+      "audio_id": "u08_q19",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_twelve_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_twelve_oclock"
+      ],
+      "correct": "int3c_u08_what_time_twelve_oclock",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock.",
+        "int3c_u08_what_time_six_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock",
+        "int3c_u08_what_time_six_oclock": "Six Oclock",
+        "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
+        "int3c_u08_what_time_twelve_oclock": "Twelve Oclock"
+      }
     },
     {
       "id": "i3c_u08_q20",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He jumps.",
-        "I like pizza.",
-        "No, it's only nine forty-five."
+      "type": 1,
+      "prompt_text": "Tap five o'clock.",
+      "audio_id": "u08_q20",
+      "image_ids": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_seven_oclock",
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_five_oclock"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_seven_oclock",
+        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_five_oclock"
+      ],
+      "correct": "int3c_u08_what_time_five_oclock",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u08_what_time_six_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_seven_oclock": "That clock is not seven o'clock.",
+        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_six_oclock": "Six Oclock",
+        "int3c_u08_what_time_wrong_seven_oclock": "Wrong Seven Oclock",
+        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock",
+        "int3c_u08_what_time_five_oclock": "Five Oclock"
+      }
     },
     {
       "id": "i3c_u08_q21",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a quarter to five.",
-        "He plays.",
-        "She is tall.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Tap six o'clock.",
+      "audio_id": "u08_q21",
+      "image_ids": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_no_exclamation"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_no_exclamation"
+      ],
+      "correct": "int3c_u08_what_time_six_oclock",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_can_we_go_home_please": "Look at the clock again.",
+        "int3c_u08_what_time_no_exclamation": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_six_oclock": "Six Oclock",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please",
+        "int3c_u08_what_time_no_exclamation": "No Exclamation"
+      }
     },
     {
       "id": "i3c_u08_q22",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like blue.",
-        "It starts at nine o'clock.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Tap seven o'clock.",
+      "audio_id": "u08_q22",
+      "image_ids": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_seven_oclock"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_wrong_one_oclock",
+        "int3c_u08_what_time_seven_oclock"
+      ],
+      "correct": "int3c_u08_what_time_seven_oclock",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u08_what_time_detention": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_three_oclock": "That clock is not three o'clock.",
+        "int3c_u08_what_time_wrong_one_oclock": "That clock is not one o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_wrong_three_oclock": "Wrong Three Oclock",
+        "int3c_u08_what_time_wrong_one_oclock": "Wrong One Oclock",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock"
+      }
     },
     {
       "id": "i3c_u08_q23",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Three past half.",
-        "Half past three.",
-        "Half three past.",
-        "Thirty three."
+      "type": 1,
+      "prompt_text": "Tap eight o'clock.",
+      "audio_id": "u08_q23",
+      "image_ids": [
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_can_we_go_home_please"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_eight_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_can_we_go_home_please"
+      ],
+      "correct": "int3c_u08_what_time_eight_oclock",
       "why_wrong": {
-        "Three past half.": "Not quite — try again!",
-        "Half three past.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!"
+        "int3c_u08_what_time_midnight": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock.",
+        "int3c_u08_what_time_can_we_go_home_please": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_eight_oclock": "Eight Oclock",
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please"
+      }
     },
     {
       "id": "i3c_u08_q24",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "He sleeps.",
-        "She sings.",
-        "Around seven p.m."
+      "type": 1,
+      "prompt_text": "Tap nine o'clock.",
+      "audio_id": "u08_q24",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_five_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_what_time_is_it",
+        "int3c_u08_what_time_nine_oclock",
+        "int3c_u08_what_time_five_oclock"
+      ],
+      "correct": "int3c_u08_what_time_nine_oclock",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_five_oclock": "That clock is not five o'clock.",
+        "int3c_u08_what_time_what_time_is_it": "Look at the clock again.",
+        "int3c_u08_what_time_five_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_five_oclock": "Wrong Five Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It",
+        "int3c_u08_what_time_nine_oclock": "Nine Oclock",
+        "int3c_u08_what_time_five_oclock": "Five Oclock"
+      }
     },
     {
       "id": "i3c_u08_q25",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "No, it's only nine forty-five.",
-        "I like pizza.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Tap ten o'clock.",
+      "audio_id": "u08_q25",
+      "image_ids": [
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_can_we_go_home"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_twelve_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_can_we_go_home"
+      ],
+      "correct": "int3c_u08_what_time_ten_oclock",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_twelve_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_can_we_go_home": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_twelve_oclock": "Twelve Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_can_we_go_home": "Can We Go Home"
+      }
     },
     {
       "id": "i3c_u08_q26",
-      "type": 4,
-      "prompt_text": "What time is it?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's a quarter to five.",
-        "He plays.",
-        "I am fine.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Tap eleven o'clock.",
+      "audio_id": "u08_q26",
+      "image_ids": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_wrong_five_oclock"
       ],
-      "correct": "It's a quarter to five.",
+      "choices": [
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_wrong_five_oclock"
+      ],
+      "correct": "int3c_u08_what_time_eleven_oclock",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3c_u08_what_time_midnight": "Look at the clock again.",
+        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_five_oclock": "That clock is not five o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_wrong_five_oclock": "Wrong Five Oclock"
+      }
     },
     {
       "id": "i3c_u08_q27",
-      "type": 4,
-      "prompt_text": "When does class start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like blue.",
-        "We eat.",
-        "It starts at nine o'clock."
+      "type": 1,
+      "prompt_text": "Tap midnight.",
+      "audio_id": "u08_q27",
+      "image_ids": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_three_oclock"
       ],
-      "correct": "It starts at nine o'clock.",
+      "choices": [
+        "int3c_u08_what_time_six_oclock",
+        "int3c_u08_what_time_midnight",
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_three_oclock"
+      ],
+      "correct": "int3c_u08_what_time_midnight",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u08_what_time_six_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_three_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_six_oclock": "Six Oclock",
+        "int3c_u08_what_time_midnight": "Midnight",
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_three_oclock": "Three Oclock"
+      }
     },
     {
       "id": "i3c_u08_q28",
-      "type": 4,
-      "prompt_text": "How do you say 3:30?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Half three past.",
-        "Half past three.",
-        "Three past half.",
-        "Thirty three."
+      "type": 1,
+      "prompt_text": "What time is it?",
+      "audio_id": "u08_q28",
+      "image_ids": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_what_time_is_it"
       ],
-      "correct": "Half past three.",
+      "choices": [
+        "int3c_u08_what_time_eleven_oclock",
+        "int3c_u08_what_time_two_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_what_time_is_it"
+      ],
+      "correct": "int3c_u08_what_time_what_time_is_it",
       "why_wrong": {
-        "Half three past.": "Not quite — try again!",
-        "Three past half.": "Not quite — try again!",
-        "Thirty three.": "Not quite — try again!"
+        "int3c_u08_what_time_eleven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_two_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_five_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_eleven_oclock": "Eleven Oclock",
+        "int3c_u08_what_time_two_oclock": "Two Oclock",
+        "int3c_u08_what_time_five_oclock": "Five Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It"
+      }
     },
     {
       "id": "i3c_u08_q29",
-      "type": 4,
-      "prompt_text": "What time do you eat dinner?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He sleeps.",
-        "Around seven p.m.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "Can we go home?",
+      "audio_id": "u08_q29",
+      "image_ids": [
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_can_we_go_home",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_ten_oclock"
       ],
-      "correct": "Around seven p.m.",
+      "choices": [
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_can_we_go_home",
+        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_can_we_go_home",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_can_we_go_home_please": "Look at the clock again.",
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_can_we_go_home": "Can We Go Home",
+        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock"
+      }
     },
     {
       "id": "i3c_u08_q30",
-      "type": 4,
-      "prompt_text": "Is it ten o'clock yet?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's only nine forty-five.",
-        "I like pizza.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "No way!",
+      "audio_id": "u08_q30",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_no_way"
       ],
-      "correct": "No, it's only nine forty-five.",
+      "choices": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_no_way"
+      ],
+      "correct": "int3c_u08_what_time_no_way",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock.",
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock."
       },
       "unit": 8,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_no_way": "No Way"
+      }
     }
   ]
 }

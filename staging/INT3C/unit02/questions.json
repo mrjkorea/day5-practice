@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 2: Don't Do That",
+    "title": "Do Not Yell",
     "kind": "unit",
     "units_covered": [
       2
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-02-do-not-yell.json"
   },
   "questions": [
     {
       "id": "i3c_u02_q01",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "You shouldn't touch it.",
-        "I am fine.",
-        "Touch it quickly."
+      "type": 1,
+      "prompt_text": "Do not run.",
+      "audio_id": "u02_q01",
+      "image_ids": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_fight_ok"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_fight_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_run",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "Touch it quickly.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "Do Not Touch Sign",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok"
+      }
     },
     {
       "id": "i3c_u02_q02",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "Sorry, I won't.",
-        "We eat.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Do not yell.",
+      "audio_id": "u02_q02",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_yell",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_draw_here": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell"
+      }
     },
     {
       "id": "i3c_u02_q03",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't talk during the test.",
-        "Talk loudly.",
-        "She sleeps.",
-        "I have homework."
+      "type": 1,
+      "prompt_text": "Do not open it.",
+      "audio_id": "u02_q03",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_open_it",
+        "int3c_u02_do_not_yell_throw_ok"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_open_it",
+        "int3c_u02_do_not_yell_throw_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_open_it",
       "why_wrong": {
-        "Talk loudly.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_throw_that": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_do_not_open_it": "Do Not Open It",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok"
+      }
     },
     {
       "id": "i3c_u02_q04",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Feed the animals.",
-        "Don't feed the animals.",
-        "I like pizza.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Do not pull it.",
+      "audio_id": "u02_q04",
+      "image_ids": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_pull_it",
       "why_wrong": {
-        "Feed the animals.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_pull_it": "Do Not Pull It",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "Do Not Throw Sign"
+      }
     },
     {
       "id": "i3c_u02_q05",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "runs",
-        "running",
-        "ran",
-        "run"
+      "type": 1,
+      "prompt_text": "Do not sleep.",
+      "audio_id": "u02_q05",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_sleep",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_draw_here_ok"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_sleep",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_draw_here_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_sleep",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "running": "Not quite — try again!",
-        "ran": "Not quite — try again!"
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_sleep": "Do Not Sleep",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "Do Not Pull Sign",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok"
+      }
     },
     {
       "id": "i3c_u02_q06",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Touch it quickly.",
-        "You shouldn't touch it.",
-        "She runs.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Do not throw that.",
+      "audio_id": "u02_q06",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_throw_that",
       "why_wrong": {
-        "Touch it quickly.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_run": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That"
+      }
     },
     {
       "id": "i3c_u02_q07",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like cats.",
-        "Sorry, I won't.",
-        "He sings."
+      "type": 1,
+      "prompt_text": "Do not draw here.",
+      "audio_id": "u02_q07",
+      "image_ids": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_do_not_pull_it"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_do_not_pull_it"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_draw_here",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_pull_it": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here",
+        "int3c_u02_do_not_yell_do_not_pull_it": "Do Not Pull It"
+      }
     },
     {
       "id": "i3c_u02_q08",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't talk during the test.",
-        "Talk loudly.",
-        "I have homework.",
-        "She sleeps."
+      "type": 1,
+      "prompt_text": "Do not fight.",
+      "audio_id": "u02_q08",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_fight",
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_fight",
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_fight",
       "why_wrong": {
-        "Talk loudly.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight.",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_do_not_yell": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_fight": "Do Not Fight",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell"
+      }
     },
     {
       "id": "i3c_u02_q09",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Feed the animals.",
-        "I like pizza.",
-        "Don't feed the animals.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Do not touch.",
+      "audio_id": "u02_q09",
+      "image_ids": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_touch",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_touch",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_touch",
       "why_wrong": {
-        "Feed the animals.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
+        "int3c_u02_do_not_yell_do_not_run_sign": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_do_not_touch": "Do Not Touch",
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_do_not_run_sign": "Do Not Run Sign"
+      }
     },
     {
       "id": "i3c_u02_q10",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "run",
-        "runs",
-        "running",
-        "ran"
+      "type": 1,
+      "prompt_text": "Please, do not cry.",
+      "audio_id": "u02_q10",
+      "image_ids": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_please_do_not_cry"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_please_do_not_cry"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_do_not_cry",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "running": "Not quite — try again!",
-        "ran": "Not quite — try again!"
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_please_do_not_go": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go",
+        "int3c_u02_do_not_yell_please_do_not_cry": "Please Do Not Cry"
+      }
     },
     {
       "id": "i3c_u02_q11",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Touch it quickly.",
-        "You shouldn't touch it.",
-        "She runs.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Please do not go.",
+      "audio_id": "u02_q11",
+      "image_ids": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_draw_sign",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_touch_ok"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_draw_sign",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_touch_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_do_not_go",
       "why_wrong": {
-        "Touch it quickly.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_do_not_draw_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_touch_ok": "Do not touch."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_draw_sign": "Do Not Draw Sign",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go",
+        "int3c_u02_do_not_yell_touch_ok": "Touch Ok"
+      }
     },
     {
       "id": "i3c_u02_q12",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "We eat.",
-        "He sings.",
-        "Sorry, I won't."
+      "type": 1,
+      "prompt_text": "Sorry.",
+      "audio_id": "u02_q12",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_yell_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_sorry"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_yell_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_sorry"
+      ],
+      "correct": "int3c_u02_do_not_yell_sorry",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_yell_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_touch_ok": "Do not touch.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_yell_sign": "Do Not Yell Sign",
+        "int3c_u02_do_not_yell_touch_ok": "Touch Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_sorry": "Sorry"
+      }
     },
     {
       "id": "i3c_u02_q13",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't talk during the test.",
-        "I have homework.",
-        "Talk loudly.",
-        "She sleeps."
+      "type": 1,
+      "prompt_text": "Do not run.",
+      "audio_id": "u02_q13",
+      "image_ids": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_run"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_run_sign",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_run"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_run_sign",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "Talk loudly.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_run": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_run_sign": "Do Not Run Sign",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run"
+      }
     },
     {
       "id": "i3c_u02_q14",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "Don't feed the animals.",
-        "Feed the animals.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Do not yell.",
+      "audio_id": "u02_q14",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_yell_sign",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "Feed the animals.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_draw_here": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign": "Do Not Yell Sign"
+      }
     },
     {
       "id": "i3c_u02_q15",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "running",
-        "run",
-        "ran",
-        "runs"
+      "type": 1,
+      "prompt_text": "Do not open it.",
+      "audio_id": "u02_q15",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_pull_it_ok"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_pull_it_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_open_sign",
       "why_wrong": {
-        "running": "Not quite — try again!",
-        "ran": "Not quite — try again!",
-        "runs": "Not quite — try again!"
+        "int3c_u02_do_not_yell_please_do_not_go": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_open_sign": "Do Not Open Sign",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok"
+      }
     },
     {
       "id": "i3c_u02_q16",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs.",
-        "Touch it quickly.",
-        "I am fine.",
-        "You shouldn't touch it."
+      "type": 1,
+      "prompt_text": "Do not pull it.",
+      "audio_id": "u02_q16",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_fight_ok"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_fight_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_pull_sign",
       "why_wrong": {
-        "She runs.": "Not quite — try again!",
-        "Touch it quickly.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_please_do_not_cry": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_pull_sign": "Do Not Pull Sign",
+        "int3c_u02_do_not_yell_please_do_not_cry": "Please Do Not Cry",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok"
+      }
     },
     {
       "id": "i3c_u02_q17",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "Sorry, I won't.",
-        "We eat.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Do not sleep.",
+      "audio_id": "u02_q17",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_touch",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_sleep_sign"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_touch",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_sleep_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_sleep_sign",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_touch": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_touch": "Do Not Touch",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_sleep_sign": "Do Not Sleep Sign"
+      }
     },
     {
       "id": "i3c_u02_q18",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have homework.",
-        "Talk loudly.",
-        "Don't talk during the test.",
-        "She sleeps."
+      "type": 1,
+      "prompt_text": "Do not throw that.",
+      "audio_id": "u02_q18",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign",
+        "int3c_u02_do_not_yell_throw_ok"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign",
+        "int3c_u02_do_not_yell_throw_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_throw_sign",
       "why_wrong": {
-        "I have homework.": "Not quite — try again!",
-        "Talk loudly.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_throw_that": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "Do Not Throw Sign",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok"
+      }
     },
     {
       "id": "i3c_u02_q19",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Don't feed the animals.",
-        "He jumps.",
-        "I like pizza.",
-        "Feed the animals."
+      "type": 1,
+      "prompt_text": "Do not draw here.",
+      "audio_id": "u02_q19",
+      "image_ids": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign",
+        "int3c_u02_do_not_yell_do_not_draw_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign",
+        "int3c_u02_do_not_yell_do_not_draw_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_draw_sign",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "Feed the animals.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_do_not_yell_sign": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_yell_sign": "Do Not Yell Sign",
+        "int3c_u02_do_not_yell_do_not_draw_sign": "Do Not Draw Sign"
+      }
     },
     {
       "id": "i3c_u02_q20",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "run",
-        "runs",
-        "running",
-        "ran"
+      "type": 1,
+      "prompt_text": "Do not fight.",
+      "audio_id": "u02_q20",
+      "image_ids": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_please_do_not_go",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_fight_sign",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "running": "Not quite — try again!",
-        "ran": "Not quite — try again!"
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_please_do_not_go": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_do_not_fight_sign": "Do Not Fight Sign"
+      }
     },
     {
       "id": "i3c_u02_q21",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Touch it quickly.",
-        "I am fine.",
-        "She runs.",
-        "You shouldn't touch it."
+      "type": 1,
+      "prompt_text": "Do not touch.",
+      "audio_id": "u02_q21",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_fight_ok"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_fight_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_touch_sign",
       "why_wrong": {
-        "Touch it quickly.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_draw_here": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_touch_sign": "Do Not Touch Sign",
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok"
+      }
     },
     {
       "id": "i3c_u02_q22",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He sings.",
-        "We eat.",
-        "Sorry, I won't."
+      "type": 1,
+      "prompt_text": "Please, do not cry.",
+      "audio_id": "u02_q22",
+      "image_ids": [
+        "int3c_u02_do_not_yell_please_cry_sign",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_yelling_ok"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_please_cry_sign",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_do_not_open_sign",
+        "int3c_u02_do_not_yell_yelling_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_cry_sign",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_do_not_open_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_do_not_open_sign": "Do Not Open Sign",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok"
+      }
     },
     {
       "id": "i3c_u02_q23",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Talk loudly.",
-        "I have homework.",
-        "She sleeps.",
-        "Don't talk during the test."
+      "type": 1,
+      "prompt_text": "Do not yell.",
+      "audio_id": "u02_q23",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_yell",
+        "int3c_u02_do_not_yell_please_cry_sign",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_pull_it_ok"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_yell",
+        "int3c_u02_do_not_yell_please_cry_sign",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_pull_it_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_yell",
       "why_wrong": {
-        "Talk loudly.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_please_cry_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell",
+        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok"
+      }
     },
     {
       "id": "i3c_u02_q24",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Feed the animals.",
-        "I like pizza.",
-        "Don't feed the animals.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Do not run.",
+      "audio_id": "u02_q24",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_pull_it_ok",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_run",
       "why_wrong": {
-        "Feed the animals.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_do_not_yell": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell"
+      }
     },
     {
       "id": "i3c_u02_q25",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "runs",
-        "running",
-        "ran",
-        "run"
+      "type": 1,
+      "prompt_text": "Do not fight.",
+      "audio_id": "u02_q25",
+      "image_ids": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_sorry",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_fight"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_sorry",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_fight"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_fight",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "running": "Not quite — try again!",
-        "ran": "Not quite — try again!"
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_sorry": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_sorry": "Sorry",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_do_not_fight": "Do Not Fight"
+      }
     },
     {
       "id": "i3c_u02_q26",
-      "type": 4,
-      "prompt_text": "What does 'Don't touch' mean?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "You shouldn't touch it.",
-        "Touch it quickly.",
-        "I am fine.",
-        "She runs."
+      "type": 1,
+      "prompt_text": "Do not touch.",
+      "audio_id": "u02_q26",
+      "image_ids": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_touch"
       ],
-      "correct": "You shouldn't touch it.",
+      "choices": [
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign",
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_touch"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_touch",
       "why_wrong": {
-        "Touch it quickly.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She runs.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight.",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_touch_ok": "Do not touch."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok",
+        "int3c_u02_do_not_yell_do_not_pull_sign": "Do Not Pull Sign",
+        "int3c_u02_do_not_yell_touch_ok": "Touch Ok",
+        "int3c_u02_do_not_yell_do_not_touch": "Do Not Touch"
+      }
     },
     {
       "id": "i3c_u02_q27",
-      "type": 2,
-      "prompt_text": "Don't run here!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings.",
-        "We eat.",
-        "I like cats.",
-        "Sorry, I won't."
+      "type": 1,
+      "prompt_text": "Do not throw that.",
+      "audio_id": "u02_q27",
+      "image_ids": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that"
       ],
-      "correct": "Sorry, I won't.",
+      "choices": [
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_do_not_throw_that"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_throw_that",
       "why_wrong": {
-        "He sings.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that.",
+        "int3c_u02_do_not_yell_please_do_not_cry": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_please_do_not_cry": "Please Do Not Cry",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That"
+      }
     },
     {
       "id": "i3c_u02_q28",
-      "type": 2,
-      "prompt_text": "Choose the best warning.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Talk loudly.",
-        "I have homework.",
-        "She sleeps.",
-        "Don't talk during the test."
+      "type": 1,
+      "prompt_text": "Do not draw here.",
+      "audio_id": "u02_q28",
+      "image_ids": [
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_draw_here"
       ],
-      "correct": "Don't talk during the test.",
+      "choices": [
+        "int3c_u02_do_not_yell_touch_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign",
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_do_not_draw_here"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_draw_here",
       "why_wrong": {
-        "Talk loudly.": "Not quite — try again!",
-        "I have homework.": "Not quite — try again!",
-        "She sleeps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_touch_ok": "Do not touch.",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_touch_ok": "Touch Ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "Do Not Throw Sign",
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here"
+      }
     },
     {
       "id": "i3c_u02_q29",
-      "type": 4,
-      "prompt_text": "What should the sign say?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "Feed the animals.",
-        "Don't feed the animals.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Please, do not cry.",
+      "audio_id": "u02_q29",
+      "image_ids": [
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
       ],
-      "correct": "Don't feed the animals.",
+      "choices": [
+        "int3c_u02_do_not_yell_please_do_not_cry",
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_do_not_cry",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "Feed the animals.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "That is not the correct answer. Listen again!"
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_please_do_not_cry": "Please Do Not Cry",
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "Do Not Throw Sign"
+      }
     },
     {
       "id": "i3c_u02_q30",
-      "type": 2,
-      "prompt_text": "Don't ___ near the pool.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "runs",
-        "ran",
-        "running",
-        "run"
+      "type": 1,
+      "prompt_text": "Please do not go.",
+      "audio_id": "u02_q30",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_sleep",
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_go"
       ],
-      "correct": "run",
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_sleep",
+        "int3c_u02_do_not_yell_fight_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_please_do_not_go"
+      ],
+      "correct": "int3c_u02_do_not_yell_please_do_not_go",
       "why_wrong": {
-        "runs": "Not quite — try again!",
-        "ran": "Not quite — try again!",
-        "running": "Not quite — try again!"
+        "int3c_u02_do_not_yell_do_not_sleep": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
       },
       "unit": 2,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_sleep": "Do Not Sleep",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_please_do_not_go": "Please Do Not Go"
+      }
     }
   ]
 }

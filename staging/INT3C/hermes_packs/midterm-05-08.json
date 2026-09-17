@@ -1,0 +1,1404 @@
+{
+  "book": "INT3C",
+  "id": "m58",
+  "title": "Midterm 05 08",
+  "type": "midterm",
+  "pass_percent": 80,
+  "question_count": 34,
+  "questions": [
+    {
+      "id": "m58_q01",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you no i can not?",
+      "prompt_audio": "audio/int3c/m58_q01.mp3",
+      "audio_spec": {
+        "file": "m58_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap: Can you no i can not?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_run.png",
+          "label": "Can You Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_no_i_can_not",
+          "image": "images/int3c/int3c_u07_can_you_fly_no_i_can_not.png",
+          "label": "No I Can Not",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q02",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many volcanoes.",
+      "prompt_audio": "audio/int3c/m58_q02.mp3",
+      "audio_spec": {
+        "file": "m58_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap the answer: how many volcanoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_people.png",
+          "label": "How Many People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "m58_q03",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap what time is it.",
+      "prompt_audio": "audio/int3c/m58_q03.mp3",
+      "audio_spec": {
+        "file": "m58_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap what time is it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_midnight",
+          "image": "images/int3c/int3c_u08_what_time_midnight.png",
+          "label": "Midnight",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_what_time_is_it",
+          "image": "images/int3c/int3c_u08_what_time_what_time_is_it.png",
+          "label": "What Time Is It",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_twelve_oclock",
+          "image": "images/int3c/int3c_u08_what_time_twelve_oclock.png",
+          "label": "Twelve Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "m58_q04",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap ten oclock.",
+      "prompt_audio": "audio/int3c/m58_q04.mp3",
+      "audio_spec": {
+        "file": "m58_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap ten oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_wrong_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_one_oclock.png",
+          "label": "Wrong One Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not one o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_seven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_seven_oclock.png",
+          "label": "Seven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_three_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_three_oclock.png",
+          "label": "Wrong Three Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not three o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_ten_oclock",
+          "image": "images/int3c/int3c_u08_what_time_ten_oclock.png",
+          "label": "Ten Oclock",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q05",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you walk?",
+      "prompt_audio": "audio/int3c/m58_q05.mp3",
+      "audio_spec": {
+        "file": "m58_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap: Can you walk?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_walk.png",
+          "label": "Walk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q06",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap cup.",
+      "prompt_audio": "audio/int3c/m58_q06.mp3",
+      "audio_spec": {
+        "file": "m58_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap cup."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_puzzle.png",
+          "label": "I Have Puzzle",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cup.png",
+          "label": "Cup",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        }
+      ]
+    },
+    {
+      "id": "m58_q07",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: tigers.",
+      "prompt_audio": "audio/int3c/m58_q07.mp3",
+      "audio_spec": {
+        "file": "m58_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap the answer: tigers."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_my_mom",
+          "image": "images/int3c/int3c_u06_how_many_cities_my_mom.png",
+          "label": "My Mom",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_tigers",
+          "image": "images/int3c/int3c_u06_how_many_cities_tigers.png",
+          "label": "Tigers",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "m58_q08",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you drink?",
+      "prompt_audio": "audio/int3c/m58_q08.mp3",
+      "audio_spec": {
+        "file": "m58_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap: Can you drink?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_drink",
+          "image": "images/int3c/int3c_u07_can_you_fly_drink.png",
+          "label": "Drink",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_sing.png",
+          "label": "Can You Sing",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m58_q09",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: count 22 parks.",
+      "prompt_audio": "audio/int3c/m58_q09.mp3",
+      "audio_spec": {
+        "file": "m58_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap the answer: count 22 parks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "m58_q10",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you love?",
+      "prompt_audio": "audio/int3c/m58_q10.mp3",
+      "audio_spec": {
+        "file": "m58_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap: Can you love?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_love.png",
+          "label": "Love",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m58_q11",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have chess board.",
+      "prompt_audio": "audio/int3c/m58_q11.mp3",
+      "audio_spec": {
+        "file": "m58_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap i have chess board."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_earphones",
+          "image": "images/int3c/int3c_u05_what_do_you_have_earphones.png",
+          "label": "Earphones",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_chess_board.png",
+          "label": "I Have Chess Board",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q12",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have hat.",
+      "prompt_audio": "audio/int3c/m58_q12.mp3",
+      "audio_spec": {
+        "file": "m58_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap i have hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_what_do_you_have",
+          "image": "images/int3c/int3c_u05_what_do_you_have_what_do_you_have.png",
+          "label": "What Do You Have",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m58_q13",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have phone.",
+      "prompt_audio": "audio/int3c/m58_q13.mp3",
+      "audio_spec": {
+        "file": "m58_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap i have phone."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_book.png",
+          "label": "I Have Book",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_phone.png",
+          "label": "I Have Phone",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q14",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap what do you have.",
+      "prompt_audio": "audio/int3c/m58_q14.mp3",
+      "audio_spec": {
+        "file": "m58_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap what do you have."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_what_do_you_have",
+          "image": "images/int3c/int3c_u05_what_do_you_have_what_do_you_have.png",
+          "label": "What Do You Have",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil_case",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil_case.png",
+          "label": "Pencil Case",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m58_q15",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap twelve oclock.",
+      "prompt_audio": "audio/int3c/m58_q15.mp3",
+      "audio_spec": {
+        "file": "m58_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap twelve oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_wrong_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_eleven_oclock.png",
+          "label": "Wrong Eleven Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not eleven o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_twelve_oclock",
+          "image": "images/int3c/int3c_u08_what_time_twelve_oclock.png",
+          "label": "Twelve Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_five_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_five_oclock.png",
+          "label": "Wrong Five Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not five o'clock."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_wrong_one_oclock.png",
+          "label": "Wrong One Oclock",
+          "correct": false,
+          "why_wrong": "That clock is not one o'clock."
+        }
+      ]
+    },
+    {
+      "id": "m58_q16",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap eleven oclock.",
+      "prompt_audio": "audio/int3c/m58_q16.mp3",
+      "audio_spec": {
+        "file": "m58_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap eleven oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_three_oclock",
+          "image": "images/int3c/int3c_u08_what_time_three_oclock.png",
+          "label": "Three Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_no_exclamation",
+          "image": "images/int3c/int3c_u08_what_time_no_exclamation.png",
+          "label": "No Exclamation",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_wrong_midnight",
+          "image": "images/int3c/int3c_u08_what_time_wrong_midnight.png",
+          "label": "Wrong Midnight",
+          "correct": false,
+          "why_wrong": "That is not midnight."
+        }
+      ]
+    },
+    {
+      "id": "m58_q17",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have cup.",
+      "prompt_audio": "audio/int3c/m58_q17.mp3",
+      "audio_spec": {
+        "file": "m58_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap i have cup."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_chess_board.png",
+          "label": "I Have Chess Board",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_forest",
+          "image": "images/int3c/int3c_u05_what_do_you_have_forest.png",
+          "label": "Forest",
+          "correct": false,
+          "why_wrong": "A forest is not something you have."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_cup.png",
+          "label": "I Have Cup",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "m58_q18",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you can you love?",
+      "prompt_audio": "audio/int3c/m58_q18.mp3",
+      "audio_spec": {
+        "file": "m58_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap: Can you can you love?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        }
+      ]
+    },
+    {
+      "id": "m58_q19",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you dance?",
+      "prompt_audio": "audio/int3c/m58_q19.mp3",
+      "audio_spec": {
+        "file": "m58_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap: Can you dance?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_type.png",
+          "label": "Type",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q20",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap one oclock.",
+      "prompt_audio": "audio/int3c/m58_q20.mp3",
+      "audio_spec": {
+        "file": "m58_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap one oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_wrong_midnight",
+          "image": "images/int3c/int3c_u08_what_time_wrong_midnight.png",
+          "label": "Wrong Midnight",
+          "correct": false,
+          "why_wrong": "That is not midnight."
+        },
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_one_oclock.png",
+          "label": "One Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_ten_oclock",
+          "image": "images/int3c/int3c_u08_what_time_ten_oclock.png",
+          "label": "Ten Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "m58_q21",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap i have book.",
+      "prompt_audio": "audio/int3c/m58_q21.mp3",
+      "audio_spec": {
+        "file": "m58_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap i have book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_nothing",
+          "image": "images/int3c/int3c_u05_what_do_you_have_nothing.png",
+          "label": "Nothing",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_book.png",
+          "label": "I Have Book",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        }
+      ]
+    },
+    {
+      "id": "m58_q22",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many parks.",
+      "prompt_audio": "audio/int3c/m58_q22.mp3",
+      "audio_spec": {
+        "file": "m58_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap the answer: how many parks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_0_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_0_parks.png",
+          "label": "Wrong 0 Parks",
+          "correct": false,
+          "why_wrong": "There are 22 national parks, not 0."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "m58_q23",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you type?",
+      "prompt_audio": "audio/int3c/m58_q23.mp3",
+      "audio_spec": {
+        "file": "m58_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap: Can you type?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_type.png",
+          "label": "Type",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_no_i_can_not",
+          "image": "images/int3c/int3c_u07_can_you_fly_no_i_can_not.png",
+          "label": "No I Can Not",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "m58_q24",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: count 52000000 people.",
+      "prompt_audio": "audio/int3c/m58_q24.mp3",
+      "audio_spec": {
+        "file": "m58_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap the answer: count 52000000 people."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_22_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_22_volcanoes.png",
+          "label": "Wrong 22 Volcanoes",
+          "correct": false,
+          "why_wrong": "There are 2 volcanoes, not 22."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_provinces.png",
+          "label": "How Many Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q25",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap detention.",
+      "prompt_audio": "audio/int3c/m58_q25.mp3",
+      "audio_spec": {
+        "file": "m58_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap detention."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_wrong_midnight",
+          "image": "images/int3c/int3c_u08_what_time_wrong_midnight.png",
+          "label": "Wrong Midnight",
+          "correct": false,
+          "why_wrong": "That is not midnight."
+        },
+        {
+          "id": "int3c_u08_what_time_nine_oclock",
+          "image": "images/int3c/int3c_u08_what_time_nine_oclock.png",
+          "label": "Nine Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_twelve_oclock",
+          "image": "images/int3c/int3c_u08_what_time_twelve_oclock.png",
+          "label": "Twelve Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_detention",
+          "image": "images/int3c/int3c_u08_what_time_detention.png",
+          "label": "Detention",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q26",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many people.",
+      "prompt_audio": "audio/int3c/m58_q26.mp3",
+      "audio_spec": {
+        "file": "m58_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap the answer: how many people."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_people.png",
+          "label": "How Many People",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_9_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_9_cities.png",
+          "label": "Wrong 9 Cities",
+          "correct": false,
+          "why_wrong": "There are 125 cities in Korea, not 9."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "m58_q27",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: count 2 volcanoes.",
+      "prompt_audio": "audio/int3c/m58_q27.mp3",
+      "audio_spec": {
+        "file": "m58_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap the answer: count 2 volcanoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_2_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_2_volcanoes.png",
+          "label": "Count 2 Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        }
+      ]
+    },
+    {
+      "id": "m58_q28",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap newspaper.",
+      "prompt_audio": "audio/int3c/m58_q28.mp3",
+      "audio_spec": {
+        "file": "m58_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap newspaper."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_puzzle.png",
+          "label": "Puzzle",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q29",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap no way.",
+      "prompt_audio": "audio/int3c/m58_q29.mp3",
+      "audio_spec": {
+        "file": "m58_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap no way."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_eleven_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eleven_oclock.png",
+          "label": "Eleven Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_eight_oclock",
+          "image": "images/int3c/int3c_u08_what_time_eight_oclock.png",
+          "label": "Eight Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_midnight",
+          "image": "images/int3c/int3c_u08_what_time_midnight.png",
+          "label": "Midnight",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_no_way",
+          "image": "images/int3c/int3c_u08_what_time_no_way.png",
+          "label": "No Way",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "m58_q30",
+      "unit": "u08_what_time",
+      "prompt_text": "Tap nine oclock.",
+      "prompt_audio": "audio/int3c/m58_q30.mp3",
+      "audio_spec": {
+        "file": "m58_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap nine oclock."
+      },
+      "choices": [
+        {
+          "id": "int3c_u08_what_time_no_exclamation",
+          "image": "images/int3c/int3c_u08_what_time_no_exclamation.png",
+          "label": "No Exclamation",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_can_we_go_home_please",
+          "image": "images/int3c/int3c_u08_what_time_can_we_go_home_please.png",
+          "label": "Can We Go Home Please",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        },
+        {
+          "id": "int3c_u08_what_time_nine_oclock",
+          "image": "images/int3c/int3c_u08_what_time_nine_oclock.png",
+          "label": "Nine Oclock",
+          "correct": true
+        },
+        {
+          "id": "int3c_u08_what_time_one_oclock",
+          "image": "images/int3c/int3c_u08_what_time_one_oclock.png",
+          "label": "One Oclock",
+          "correct": false,
+          "why_wrong": "Look at the clock again."
+        }
+      ]
+    },
+    {
+      "id": "m58_q31",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap book.",
+      "prompt_audio": "audio/int3c/m58_q31.mp3",
+      "audio_spec": {
+        "file": "m58_q31.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil.png",
+          "label": "Pencil",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        }
+      ]
+    },
+    {
+      "id": "m58_q32",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap pillow.",
+      "prompt_audio": "audio/int3c/m58_q32.mp3",
+      "audio_spec": {
+        "file": "m58_q32.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap pillow."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_puzzle.png",
+          "label": "Puzzle",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pillow",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pillow.png",
+          "label": "Pillow",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        }
+      ]
+    },
+    {
+      "id": "m58_q33",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap: Can you can you fight?",
+      "prompt_audio": "audio/int3c/m58_q33.mp3",
+      "audio_spec": {
+        "file": "m58_q33.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap: Can you can you fight?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_fight.png",
+          "label": "Can You Fight",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        }
+      ]
+    },
+    {
+      "id": "m58_q34",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap the answer: how many islands.",
+      "prompt_audio": "audio/int3c/m58_q34.mp3",
+      "audio_spec": {
+        "file": "m58_q34.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap the answer: how many islands."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_22_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_22_volcanoes.png",
+          "label": "Wrong 22 Volcanoes",
+          "correct": false,
+          "why_wrong": "There are 2 volcanoes, not 22."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    }
+  ]
+}

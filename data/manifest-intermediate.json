@@ -494,12 +494,12 @@
         "pictures": "images/int3c",
         "audio": "audio/int3c"
       },
-      "staging_note": "ORIGIN_CLONE_FAILED — shell until Origin import",
+      "staging_note": "REAL packs wired 2026-09-18 from Hermes (bc-3888b75c). 11/11 playable. 242/242 pack choice PNGs + 343 mp3s. type-1 listen_pick_picture; int3c_* ids.",
       "assessments": [
         {
           "id": "unit01",
           "path": "staging/INT3C/unit01/questions.json",
-          "title": "Intermediate 3C Unit 1: Food and Recommendations",
+          "title": "Intermediate 3C Unit 1: Do You Like Sweet Food?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -507,7 +507,7 @@
         {
           "id": "unit02",
           "path": "staging/INT3C/unit02/questions.json",
-          "title": "Intermediate 3C Unit 2: Don't Do That",
+          "title": "Intermediate 3C Unit 2: Do Not Yell",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -515,7 +515,7 @@
         {
           "id": "unit03",
           "path": "staging/INT3C/unit03/questions.json",
-          "title": "Intermediate 3C Unit 3: Asking Permission",
+          "title": "Intermediate 3C Unit 3: Can I Play Outside?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -523,7 +523,7 @@
         {
           "id": "unit04",
           "path": "staging/INT3C/unit04/questions.json",
-          "title": "Intermediate 3C Unit 4: Invitations",
+          "title": "Intermediate 3C Unit 4: Let's Play an RPG",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -531,7 +531,7 @@
         {
           "id": "unit05",
           "path": "staging/INT3C/unit05/questions.json",
-          "title": "Intermediate 3C Unit 5: Have and Possessions",
+          "title": "Intermediate 3C Unit 5: What Do You Have?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -539,7 +539,7 @@
         {
           "id": "unit06",
           "path": "staging/INT3C/unit06/questions.json",
-          "title": "Intermediate 3C Unit 6: Introducing Korea",
+          "title": "Intermediate 3C Unit 6: How Many Cities?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -547,7 +547,7 @@
         {
           "id": "unit07",
           "path": "staging/INT3C/unit07/questions.json",
-          "title": "Intermediate 3C Unit 7: Can Questions",
+          "title": "Intermediate 3C Unit 7: Can You Fly?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -555,7 +555,7 @@
         {
           "id": "unit08",
           "path": "staging/INT3C/unit08/questions.json",
-          "title": "Intermediate 3C Unit 8: Telling Time",
+          "title": "Intermediate 3C Unit 8: What Time Is It?",
           "kind": "unit",
           "count": 30,
           "pass_percent": 80
@@ -565,7 +565,7 @@
           "path": "staging/INT3C/midterm_1_4/questions.json",
           "title": "Intermediate 3C Midterm Units 1–4",
           "kind": "midterm_1_4",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -573,7 +573,7 @@
           "path": "staging/INT3C/midterm_5_8/questions.json",
           "title": "Intermediate 3C Midterm Units 5–8",
           "kind": "midterm_5_8",
-          "count": 28,
+          "count": 34,
           "pass_percent": 80
         },
         {
@@ -581,7 +581,7 @@
           "path": "staging/INT3C/final/questions.json",
           "title": "Intermediate 3C Final Exam",
           "kind": "final",
-          "count": 32,
+          "count": 35,
           "pass_percent": 80
         }
       ]

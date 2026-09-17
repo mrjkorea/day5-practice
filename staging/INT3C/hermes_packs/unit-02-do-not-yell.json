@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u02",
+  "title": "Do Not Yell",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u02_q01",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not run.",
+      "prompt_audio": "audio/int3c/u02_q01.mp3",
+      "audio_spec": {
+        "file": "u02_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Do not run."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch_sign.png",
+          "label": "Do Not Touch Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        }
+      ]
+    },
+    {
+      "id": "u02_q02",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not yell.",
+      "prompt_audio": "audio/int3c/u02_q02.mp3",
+      "audio_spec": {
+        "file": "u02_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Do not yell."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_here",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_here.png",
+          "label": "Do Not Draw Here",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell.png",
+          "label": "Do Not Yell",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q03",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not open it.",
+      "prompt_audio": "audio/int3c/u02_q03.mp3",
+      "audio_spec": {
+        "file": "u02_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Do not open it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_open_it",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_open_it.png",
+          "label": "Do Not Open It",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        }
+      ]
+    },
+    {
+      "id": "u02_q04",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not pull it.",
+      "prompt_audio": "audio/int3c/u02_q04.mp3",
+      "audio_spec": {
+        "file": "u02_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Do not pull it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_it",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_it.png",
+          "label": "Do Not Pull It",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_sign.png",
+          "label": "Do Not Throw Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q05",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not sleep.",
+      "prompt_audio": "audio/int3c/u02_q05.mp3",
+      "audio_spec": {
+        "file": "u02_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Do not sleep."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_sleep",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_sleep.png",
+          "label": "Do Not Sleep",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_sign.png",
+          "label": "Do Not Pull Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        }
+      ]
+    },
+    {
+      "id": "u02_q06",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not throw that.",
+      "prompt_audio": "audio/int3c/u02_q06.mp3",
+      "audio_spec": {
+        "file": "u02_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Do not throw that."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q07",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not draw here.",
+      "prompt_audio": "audio/int3c/u02_q07.mp3",
+      "audio_spec": {
+        "file": "u02_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Do not draw here."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_here",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_here.png",
+          "label": "Do Not Draw Here",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_it",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_it.png",
+          "label": "Do Not Pull It",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q08",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not fight.",
+      "prompt_audio": "audio/int3c/u02_q08.mp3",
+      "audio_spec": {
+        "file": "u02_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Do not fight."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_fight",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_fight.png",
+          "label": "Do Not Fight",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell.png",
+          "label": "Do Not Yell",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q09",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not touch.",
+      "prompt_audio": "audio/int3c/u02_q09.mp3",
+      "audio_spec": {
+        "file": "u02_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Do not touch."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch.png",
+          "label": "Do Not Touch",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q10",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Please, do not cry.",
+      "prompt_audio": "audio/int3c/u02_q10.mp3",
+      "audio_spec": {
+        "file": "u02_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Please, do not cry."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_cry",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_cry.png",
+          "label": "Please Do Not Cry",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q11",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Please do not go.",
+      "prompt_audio": "audio/int3c/u02_q11.mp3",
+      "audio_spec": {
+        "file": "u02_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Please do not go."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_sign.png",
+          "label": "Do Not Draw Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_touch_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_touch_ok.png",
+          "label": "Touch Ok",
+          "correct": false,
+          "why_wrong": "Do not touch."
+        }
+      ]
+    },
+    {
+      "id": "u02_q12",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Sorry.",
+      "prompt_audio": "audio/int3c/u02_q12.mp3",
+      "audio_spec": {
+        "file": "u02_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Sorry."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell_sign.png",
+          "label": "Do Not Yell Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_touch_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_touch_ok.png",
+          "label": "Touch Ok",
+          "correct": false,
+          "why_wrong": "Do not touch."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sorry",
+          "image": "images/int3c/int3c_u02_do_not_yell_sorry.png",
+          "label": "Sorry",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q13",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not run.",
+      "prompt_audio": "audio/int3c/u02_q13.mp3",
+      "audio_spec": {
+        "file": "u02_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Do not run."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run_sign.png",
+          "label": "Do Not Run Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q14",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not yell.",
+      "prompt_audio": "audio/int3c/u02_q14.mp3",
+      "audio_spec": {
+        "file": "u02_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Do not yell."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_here",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_here.png",
+          "label": "Do Not Draw Here",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell_sign.png",
+          "label": "Do Not Yell Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q15",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not open it.",
+      "prompt_audio": "audio/int3c/u02_q15.mp3",
+      "audio_spec": {
+        "file": "u02_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Do not open it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_open_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_open_sign.png",
+          "label": "Do Not Open Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        }
+      ]
+    },
+    {
+      "id": "u02_q16",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not pull it.",
+      "prompt_audio": "audio/int3c/u02_q16.mp3",
+      "audio_spec": {
+        "file": "u02_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Do not pull it."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_sign.png",
+          "label": "Do Not Pull Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_cry",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_cry.png",
+          "label": "Please Do Not Cry",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        }
+      ]
+    },
+    {
+      "id": "u02_q17",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not sleep.",
+      "prompt_audio": "audio/int3c/u02_q17.mp3",
+      "audio_spec": {
+        "file": "u02_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Do not sleep."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch.png",
+          "label": "Do Not Touch",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_sleep_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_sleep_sign.png",
+          "label": "Do Not Sleep Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q18",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not throw that.",
+      "prompt_audio": "audio/int3c/u02_q18.mp3",
+      "audio_spec": {
+        "file": "u02_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Do not throw that."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_sign.png",
+          "label": "Do Not Throw Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        }
+      ]
+    },
+    {
+      "id": "u02_q19",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not draw here.",
+      "prompt_audio": "audio/int3c/u02_q19.mp3",
+      "audio_spec": {
+        "file": "u02_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Do not draw here."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell_sign.png",
+          "label": "Do Not Yell Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_sign.png",
+          "label": "Do Not Draw Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q20",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not fight.",
+      "prompt_audio": "audio/int3c/u02_q20.mp3",
+      "audio_spec": {
+        "file": "u02_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Do not fight."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_fight_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_fight_sign.png",
+          "label": "Do Not Fight Sign",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q21",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not touch.",
+      "prompt_audio": "audio/int3c/u02_q21.mp3",
+      "audio_spec": {
+        "file": "u02_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Do not touch."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch_sign.png",
+          "label": "Do Not Touch Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_here",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_here.png",
+          "label": "Do Not Draw Here",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        }
+      ]
+    },
+    {
+      "id": "u02_q22",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Please, do not cry.",
+      "prompt_audio": "audio/int3c/u02_q22.mp3",
+      "audio_spec": {
+        "file": "u02_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Please, do not cry."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_please_cry_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_cry_sign.png",
+          "label": "Please Cry Sign",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_open_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_open_sign.png",
+          "label": "Do Not Open Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        }
+      ]
+    },
+    {
+      "id": "u02_q23",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not yell.",
+      "prompt_audio": "audio/int3c/u02_q23.mp3",
+      "audio_spec": {
+        "file": "u02_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Do not yell."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell.png",
+          "label": "Do Not Yell",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_cry_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_cry_sign.png",
+          "label": "Please Cry Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        }
+      ]
+    },
+    {
+      "id": "u02_q24",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not run.",
+      "prompt_audio": "audio/int3c/u02_q24.mp3",
+      "audio_spec": {
+        "file": "u02_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Do not run."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_run",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_run.png",
+          "label": "Do Not Run",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_pull_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_pull_it_ok.png",
+          "label": "Pull It Ok",
+          "correct": false,
+          "why_wrong": "Do not pull it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_yell",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_yell.png",
+          "label": "Do Not Yell",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q25",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not fight.",
+      "prompt_audio": "audio/int3c/u02_q25.mp3",
+      "audio_spec": {
+        "file": "u02_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Do not fight."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_running_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_running_ok.png",
+          "label": "Running Ok",
+          "correct": false,
+          "why_wrong": "Do not run — running is not allowed here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sorry",
+          "image": "images/int3c/int3c_u02_do_not_yell_sorry.png",
+          "label": "Sorry",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_fight",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_fight.png",
+          "label": "Do Not Fight",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q26",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not touch.",
+      "prompt_audio": "audio/int3c/u02_q26.mp3",
+      "audio_spec": {
+        "file": "u02_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Do not touch."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_pull_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_pull_sign.png",
+          "label": "Do Not Pull Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_touch_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_touch_ok.png",
+          "label": "Touch Ok",
+          "correct": false,
+          "why_wrong": "Do not touch."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_touch",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_touch.png",
+          "label": "Do Not Touch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q27",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not throw that.",
+      "prompt_audio": "audio/int3c/u02_q27.mp3",
+      "audio_spec": {
+        "file": "u02_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Do not throw that."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_cry",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_cry.png",
+          "label": "Please Do Not Cry",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_open_it_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_open_it_ok.png",
+          "label": "Open It Ok",
+          "correct": false,
+          "why_wrong": "Do not open it."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_that",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_that.png",
+          "label": "Do Not Throw That",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q28",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Do not draw here.",
+      "prompt_audio": "audio/int3c/u02_q28.mp3",
+      "audio_spec": {
+        "file": "u02_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Do not draw here."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_touch_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_touch_ok.png",
+          "label": "Touch Ok",
+          "correct": false,
+          "why_wrong": "Do not touch."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_sign.png",
+          "label": "Do Not Throw Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_sleep_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_sleep_ok.png",
+          "label": "Sleep Ok",
+          "correct": false,
+          "why_wrong": "Do not sleep here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_draw_here",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_draw_here.png",
+          "label": "Do Not Draw Here",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u02_q29",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Please, do not cry.",
+      "prompt_audio": "audio/int3c/u02_q29.mp3",
+      "audio_spec": {
+        "file": "u02_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Please, do not cry."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_cry",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_cry.png",
+          "label": "Please Do Not Cry",
+          "correct": true
+        },
+        {
+          "id": "int3c_u02_do_not_yell_yelling_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_yelling_ok.png",
+          "label": "Yelling Ok",
+          "correct": false,
+          "why_wrong": "Do not yell — use a quiet voice."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_draw_here_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_draw_here_ok.png",
+          "label": "Draw Here Ok",
+          "correct": false,
+          "why_wrong": "Do not draw here."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_do_not_throw_sign",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_throw_sign.png",
+          "label": "Do Not Throw Sign",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u02_q30",
+      "unit": "u02_do_not_yell",
+      "prompt_text": "Please do not go.",
+      "prompt_audio": "audio/int3c/u02_q30.mp3",
+      "audio_spec": {
+        "file": "u02_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Please do not go."
+      },
+      "choices": [
+        {
+          "id": "int3c_u02_do_not_yell_do_not_sleep",
+          "image": "images/int3c/int3c_u02_do_not_yell_do_not_sleep.png",
+          "label": "Do Not Sleep",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u02_do_not_yell_fight_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_fight_ok.png",
+          "label": "Fight Ok",
+          "correct": false,
+          "why_wrong": "Do not fight."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_throw_ok",
+          "image": "images/int3c/int3c_u02_do_not_yell_throw_ok.png",
+          "label": "Throw Ok",
+          "correct": false,
+          "why_wrong": "Do not throw that."
+        },
+        {
+          "id": "int3c_u02_do_not_yell_please_do_not_go",
+          "image": "images/int3c/int3c_u02_do_not_yell_please_do_not_go.png",
+          "label": "Please Do Not Go",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

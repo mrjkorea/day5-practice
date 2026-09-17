@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u06",
+  "title": "How Many Cities?",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u06_q01",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "This is my mom.",
+      "prompt_audio": "audio/int3c/u06_q01.mp3",
+      "audio_spec": {
+        "file": "u06_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] This is my mom."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_my_mom",
+          "image": "images/int3c/int3c_u06_how_many_cities_my_mom.png",
+          "label": "My Mom",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_tigers",
+          "image": "images/int3c/int3c_u06_how_many_cities_tigers.png",
+          "label": "Tigers",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q02",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "She is a professor.",
+      "prompt_audio": "audio/int3c/u06_q02.mp3",
+      "audio_spec": {
+        "file": "u06_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] She is a professor."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_professor.png",
+          "label": "Professor",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_provinces.png",
+          "label": "How Many Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q03",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "A professor? Great!",
+      "prompt_audio": "audio/int3c/u06_q03.mp3",
+      "audio_spec": {
+        "file": "u06_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] A professor? Great!"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_professor.png",
+          "label": "Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q04",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many cities are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q04.mp3",
+      "audio_spec": {
+        "file": "u06_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] How many cities are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_125_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_125_cities.png",
+          "label": "Count 125 Cities",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_people.png",
+          "label": "How Many People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q05",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many provinces are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q05.mp3",
+      "audio_spec": {
+        "file": "u06_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] How many provinces are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_125_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_125_provinces.png",
+          "label": "Wrong 125 Provinces",
+          "correct": false,
+          "why_wrong": "There are 9 provinces, not 125."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_22_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_22_volcanoes.png",
+          "label": "Wrong 22 Volcanoes",
+          "correct": false,
+          "why_wrong": "There are 2 volcanoes, not 22."
+        }
+      ]
+    },
+    {
+      "id": "u06_q06",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many national parks are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q06.mp3",
+      "audio_spec": {
+        "file": "u06_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] How many national parks are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3_cities.png",
+          "label": "Wrong 3 Cities",
+          "correct": false,
+          "why_wrong": "There are 125 cities in Korea."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_she_is_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_she_is_professor.png",
+          "label": "She Is Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q07",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many islands are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q07.mp3",
+      "audio_spec": {
+        "file": "u06_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] How many islands are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q08",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many volcanoes are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q08.mp3",
+      "audio_spec": {
+        "file": "u06_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] How many volcanoes are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_professor.png",
+          "label": "Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_2_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_2_volcanoes.png",
+          "label": "Count 2 Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_my_mom",
+          "image": "images/int3c/int3c_u06_how_many_cities_my_mom.png",
+          "label": "My Mom",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q09",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many deserts are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q09.mp3",
+      "audio_spec": {
+        "file": "u06_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] How many deserts are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_125_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_125_provinces.png",
+          "label": "Wrong 125 Provinces",
+          "correct": false,
+          "why_wrong": "There are 9 provinces, not 125."
+        }
+      ]
+    },
+    {
+      "id": "u06_q10",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many people are there in Korea?",
+      "prompt_audio": "audio/int3c/u06_q10.mp3",
+      "audio_spec": {
+        "file": "u06_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] How many people are there in Korea?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_9_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_9_cities.png",
+          "label": "Wrong 9 Cities",
+          "correct": false,
+          "why_wrong": "There are 125 cities in Korea, not 9."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q11",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Pardon?",
+      "prompt_audio": "audio/int3c/u06_q11.mp3",
+      "audio_spec": {
+        "file": "u06_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Pardon?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_22_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_22_volcanoes.png",
+          "label": "Wrong 22 Volcanoes",
+          "correct": false,
+          "why_wrong": "There are 2 volcanoes, not 22."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_provinces.png",
+          "label": "How Many Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q12",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "125 cities.",
+      "prompt_audio": "audio/int3c/u06_q12.mp3",
+      "audio_spec": {
+        "file": "u06_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] 125 cities."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_125_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_125_cities.png",
+          "label": "Count 125 Cities",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q13",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Nine provinces.",
+      "prompt_audio": "audio/int3c/u06_q13.mp3",
+      "audio_spec": {
+        "file": "u06_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Nine provinces."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_mountains",
+          "image": "images/int3c/int3c_u06_how_many_cities_mountains.png",
+          "label": "Mountains",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q14",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "22 national parks.",
+      "prompt_audio": "audio/int3c/u06_q14.mp3",
+      "audio_spec": {
+        "file": "u06_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] 22 national parks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_125_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_125_provinces.png",
+          "label": "Wrong 125 Provinces",
+          "correct": false,
+          "why_wrong": "There are 9 provinces, not 125."
+        }
+      ]
+    },
+    {
+      "id": "u06_q15",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "3,358 islands.",
+      "prompt_audio": "audio/int3c/u06_q15.mp3",
+      "audio_spec": {
+        "file": "u06_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] 3,358 islands."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_cities.png",
+          "label": "How Many Cities",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q16",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Two volcanoes.",
+      "prompt_audio": "audio/int3c/u06_q16.mp3",
+      "audio_spec": {
+        "file": "u06_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Two volcanoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_2_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_2_volcanoes.png",
+          "label": "Count 2 Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_mountains",
+          "image": "images/int3c/int3c_u06_how_many_cities_mountains.png",
+          "label": "Mountains",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q17",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Zero deserts.",
+      "prompt_audio": "audio/int3c/u06_q17.mp3",
+      "audio_spec": {
+        "file": "u06_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Zero deserts."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u06_q18",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Almost 52,000,000 people.",
+      "prompt_audio": "audio/int3c/u06_q18.mp3",
+      "audio_spec": {
+        "file": "u06_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Almost 52,000,000 people."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_a_professor_great",
+          "image": "images/int3c/int3c_u06_how_many_cities_a_professor_great.png",
+          "label": "A Professor Great",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q19",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many cities?",
+      "prompt_audio": "audio/int3c/u06_q19.mp3",
+      "audio_spec": {
+        "file": "u06_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] How many cities?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_cities.png",
+          "label": "How Many Cities",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_52000000_volcanoes.png",
+          "label": "Wrong 52000000 Volcanoes",
+          "correct": false,
+          "why_wrong": "That is the people count, not volcanoes."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_she_is_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_she_is_professor.png",
+          "label": "She Is Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q20",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many provinces?",
+      "prompt_audio": "audio/int3c/u06_q20.mp3",
+      "audio_spec": {
+        "file": "u06_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] How many provinces?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_people.png",
+          "label": "How Many People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_125_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_125_cities.png",
+          "label": "Count 125 Cities",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_provinces.png",
+          "label": "How Many Provinces",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u06_q21",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many national parks?",
+      "prompt_audio": "audio/int3c/u06_q21.mp3",
+      "audio_spec": {
+        "file": "u06_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] How many national parks?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_125_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_125_provinces.png",
+          "label": "Wrong 125 Provinces",
+          "correct": false,
+          "why_wrong": "There are 9 provinces, not 125."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_parks.png",
+          "label": "How Many Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q22",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many islands?",
+      "prompt_audio": "audio/int3c/u06_q22.mp3",
+      "audio_spec": {
+        "file": "u06_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] How many islands?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_tigers",
+          "image": "images/int3c/int3c_u06_how_many_cities_tigers.png",
+          "label": "Tigers",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_islands.png",
+          "label": "How Many Islands",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q23",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many volcanoes?",
+      "prompt_audio": "audio/int3c/u06_q23.mp3",
+      "audio_spec": {
+        "file": "u06_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] How many volcanoes?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_volcanoes.png",
+          "label": "How Many Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_tigers",
+          "image": "images/int3c/int3c_u06_how_many_cities_tigers.png",
+          "label": "Tigers",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_9_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_9_cities.png",
+          "label": "Wrong 9 Cities",
+          "correct": false,
+          "why_wrong": "There are 125 cities in Korea, not 9."
+        }
+      ]
+    },
+    {
+      "id": "u06_q24",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many deserts?",
+      "prompt_audio": "audio/int3c/u06_q24.mp3",
+      "audio_spec": {
+        "file": "u06_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] How many deserts?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_deserts.png",
+          "label": "How Many Deserts",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_my_mom",
+          "image": "images/int3c/int3c_u06_how_many_cities_my_mom.png",
+          "label": "My Mom",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_students",
+          "image": "images/int3c/int3c_u06_how_many_cities_students.png",
+          "label": "Students",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_tigers",
+          "image": "images/int3c/int3c_u06_how_many_cities_tigers.png",
+          "label": "Tigers",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q25",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "How many people?",
+      "prompt_audio": "audio/int3c/u06_q25.mp3",
+      "audio_spec": {
+        "file": "u06_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] How many people?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_how_many_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_people.png",
+          "label": "How Many People",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_professor.png",
+          "label": "Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_3358_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_3358_islands.png",
+          "label": "Count 3358 Islands",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        }
+      ]
+    },
+    {
+      "id": "u06_q26",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap 125 cities.",
+      "prompt_audio": "audio/int3c/u06_q26.mp3",
+      "audio_spec": {
+        "file": "u06_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap 125 cities."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_wrong_52000000_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_52000000_volcanoes.png",
+          "label": "Wrong 52000000 Volcanoes",
+          "correct": false,
+          "why_wrong": "That is the people count, not volcanoes."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_22_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_22_volcanoes.png",
+          "label": "Wrong 22 Volcanoes",
+          "correct": false,
+          "why_wrong": "There are 2 volcanoes, not 22."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_125_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_125_cities.png",
+          "label": "Count 125 Cities",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u06_q27",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap 9 provinces.",
+      "prompt_audio": "audio/int3c/u06_q27.mp3",
+      "audio_spec": {
+        "file": "u06_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap 9 provinces."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_pardon",
+          "image": "images/int3c/int3c_u06_how_many_cities_pardon.png",
+          "label": "Pardon",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_how_many_cities",
+          "image": "images/int3c/int3c_u06_how_many_cities_how_many_cities.png",
+          "label": "How Many Cities",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q28",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap 22 national parks.",
+      "prompt_audio": "audio/int3c/u06_q28.mp3",
+      "audio_spec": {
+        "file": "u06_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap 22 national parks."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_9_provinces",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_9_provinces.png",
+          "label": "Count 9 Provinces",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_22_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_22_parks.png",
+          "label": "Count 22 Parks",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_3358_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_3358_deserts.png",
+          "label": "Wrong 3358 Deserts",
+          "correct": false,
+          "why_wrong": "There are zero deserts, not 3,358."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_my_mom",
+          "image": "images/int3c/int3c_u06_how_many_cities_my_mom.png",
+          "label": "My Mom",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q29",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap 2 volcanoes.",
+      "prompt_audio": "audio/int3c/u06_q29.mp3",
+      "audio_spec": {
+        "file": "u06_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap 2 volcanoes."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_count_2_volcanoes",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_2_volcanoes.png",
+          "label": "Count 2 Volcanoes",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_52000000_people",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_52000000_people.png",
+          "label": "Count 52000000 People",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_she_is_professor",
+          "image": "images/int3c/int3c_u06_how_many_cities_she_is_professor.png",
+          "label": "She Is Professor",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        }
+      ]
+    },
+    {
+      "id": "u06_q30",
+      "unit": "u06_how_many_cities",
+      "prompt_text": "Tap zero deserts.",
+      "prompt_audio": "audio/int3c/u06_q30.mp3",
+      "audio_spec": {
+        "file": "u06_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap zero deserts."
+      },
+      "choices": [
+        {
+          "id": "int3c_u06_how_many_cities_mountains",
+          "image": "images/int3c/int3c_u06_how_many_cities_mountains.png",
+          "label": "Mountains",
+          "correct": false,
+          "why_wrong": "That is not the correct Korea count."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_0_parks",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_0_parks.png",
+          "label": "Wrong 0 Parks",
+          "correct": false,
+          "why_wrong": "There are 22 national parks, not 0."
+        },
+        {
+          "id": "int3c_u06_how_many_cities_count_0_deserts",
+          "image": "images/int3c/int3c_u06_how_many_cities_count_0_deserts.png",
+          "label": "Count 0 Deserts",
+          "correct": true
+        },
+        {
+          "id": "int3c_u06_how_many_cities_wrong_2_islands",
+          "image": "images/int3c/int3c_u06_how_many_cities_wrong_2_islands.png",
+          "label": "Wrong 2 Islands",
+          "correct": false,
+          "why_wrong": "There are 3,358 islands, not 2."
+        }
+      ]
+    }
+  ]
+}

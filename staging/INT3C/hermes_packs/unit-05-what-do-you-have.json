@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u05",
+  "title": "What Do You Have?",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u05_q01",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Study!",
+      "prompt_audio": "audio/int3c/u05_q01.mp3",
+      "audio_spec": {
+        "file": "u05_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Study!"
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_earphones",
+          "image": "images/int3c/int3c_u05_what_do_you_have_earphones.png",
+          "label": "Earphones",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_study",
+          "image": "images/int3c/int3c_u05_what_do_you_have_study.png",
+          "label": "Study",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q02",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "What do you have?",
+      "prompt_audio": "audio/int3c/u05_q02.mp3",
+      "audio_spec": {
+        "file": "u05_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] What do you have?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_forest",
+          "image": "images/int3c/int3c_u05_what_do_you_have_forest.png",
+          "label": "Forest",
+          "correct": false,
+          "why_wrong": "A forest is not something you have."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_what_do_you_have",
+          "image": "images/int3c/int3c_u05_what_do_you_have_what_do_you_have.png",
+          "label": "What Do You Have",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q03",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Nothing.",
+      "prompt_audio": "audio/int3c/u05_q03.mp3",
+      "audio_spec": {
+        "file": "u05_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Nothing."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_book.png",
+          "label": "I Have Book",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_nothing",
+          "image": "images/int3c/int3c_u05_what_do_you_have_nothing.png",
+          "label": "Nothing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q04",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Do not lie.",
+      "prompt_audio": "audio/int3c/u05_q04.mp3",
+      "audio_spec": {
+        "file": "u05_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Do not lie."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_chess_board.png",
+          "label": "Chess Board",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_do_not_lie",
+          "image": "images/int3c/int3c_u05_what_do_you_have_do_not_lie.png",
+          "label": "Do Not Lie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q05",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a book.",
+      "prompt_audio": "audio/int3c/u05_q05.mp3",
+      "audio_spec": {
+        "file": "u05_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] I have a book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_chess_board.png",
+          "label": "Chess Board",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        }
+      ]
+    },
+    {
+      "id": "u05_q06",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a puzzle.",
+      "prompt_audio": "audio/int3c/u05_q06.mp3",
+      "audio_spec": {
+        "file": "u05_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] I have a puzzle."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_chess_board.png",
+          "label": "Chess Board",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_forest",
+          "image": "images/int3c/int3c_u05_what_do_you_have_forest.png",
+          "label": "Forest",
+          "correct": false,
+          "why_wrong": "A forest is not something you have."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_puzzle.png",
+          "label": "Puzzle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q07",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a chess board.",
+      "prompt_audio": "audio/int3c/u05_q07.mp3",
+      "audio_spec": {
+        "file": "u05_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] I have a chess board."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_chess_board.png",
+          "label": "Chess Board",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        }
+      ]
+    },
+    {
+      "id": "u05_q08",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have my phone.",
+      "prompt_audio": "audio/int3c/u05_q08.mp3",
+      "audio_spec": {
+        "file": "u05_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] I have my phone."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_phone.png",
+          "label": "I Have Phone",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_phone.png",
+          "label": "Phone",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q09",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the pencil.",
+      "prompt_audio": "audio/int3c/u05_q09.mp3",
+      "audio_spec": {
+        "file": "u05_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap the pencil."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil.png",
+          "label": "Pencil",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_study",
+          "image": "images/int3c/int3c_u05_what_do_you_have_study.png",
+          "label": "Study",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u05_q10",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the hat.",
+      "prompt_audio": "audio/int3c/u05_q10.mp3",
+      "audio_spec": {
+        "file": "u05_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap the hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_hat.png",
+          "label": "Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        }
+      ]
+    },
+    {
+      "id": "u05_q11",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the pencil case.",
+      "prompt_audio": "audio/int3c/u05_q11.mp3",
+      "audio_spec": {
+        "file": "u05_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Tap the pencil case."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_phone.png",
+          "label": "Phone",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil_case",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil_case.png",
+          "label": "Pencil Case",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "u05_q12",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the newspaper.",
+      "prompt_audio": "audio/int3c/u05_q12.mp3",
+      "audio_spec": {
+        "file": "u05_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap the newspaper."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_forest",
+          "image": "images/int3c/int3c_u05_what_do_you_have_forest.png",
+          "label": "Forest",
+          "correct": false,
+          "why_wrong": "A forest is not something you have."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "u05_q13",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the pillow.",
+      "prompt_audio": "audio/int3c/u05_q13.mp3",
+      "audio_spec": {
+        "file": "u05_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap the pillow."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_forest",
+          "image": "images/int3c/int3c_u05_what_do_you_have_forest.png",
+          "label": "Forest",
+          "correct": false,
+          "why_wrong": "A forest is not something you have."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pillow",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pillow.png",
+          "label": "Pillow",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_hat.png",
+          "label": "Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u05_q14",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the cup.",
+      "prompt_audio": "audio/int3c/u05_q14.mp3",
+      "audio_spec": {
+        "file": "u05_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap the cup."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_pillow",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pillow.png",
+          "label": "Pillow",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cup.png",
+          "label": "Cup",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "u05_q15",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the earphones.",
+      "prompt_audio": "audio/int3c/u05_q15.mp3",
+      "audio_spec": {
+        "file": "u05_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap the earphones."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pencil_case",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil_case.png",
+          "label": "Pencil Case",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_earphones",
+          "image": "images/int3c/int3c_u05_what_do_you_have_earphones.png",
+          "label": "Earphones",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        }
+      ]
+    },
+    {
+      "id": "u05_q16",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a pencil.",
+      "prompt_audio": "audio/int3c/u05_q16.mp3",
+      "audio_spec": {
+        "file": "u05_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] I have a pencil."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_pencil",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_pencil.png",
+          "label": "I Have Pencil",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        }
+      ]
+    },
+    {
+      "id": "u05_q17",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a hat.",
+      "prompt_audio": "audio/int3c/u05_q17.mp3",
+      "audio_spec": {
+        "file": "u05_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] I have a hat."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cup.png",
+          "label": "Cup",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "u05_q18",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a cup.",
+      "prompt_audio": "audio/int3c/u05_q18.mp3",
+      "audio_spec": {
+        "file": "u05_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] I have a cup."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_hat",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_hat.png",
+          "label": "I Have Hat",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_cup.png",
+          "label": "I Have Cup",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        }
+      ]
+    },
+    {
+      "id": "u05_q19",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a book.",
+      "prompt_audio": "audio/int3c/u05_q19.mp3",
+      "audio_spec": {
+        "file": "u05_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] I have a book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_earphones",
+          "image": "images/int3c/int3c_u05_what_do_you_have_earphones.png",
+          "label": "Earphones",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_book.png",
+          "label": "I Have Book",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q20",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a puzzle.",
+      "prompt_audio": "audio/int3c/u05_q20.mp3",
+      "audio_spec": {
+        "file": "u05_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] I have a puzzle."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_puzzle.png",
+          "label": "I Have Puzzle",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        }
+      ]
+    },
+    {
+      "id": "u05_q21",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a chess board.",
+      "prompt_audio": "audio/int3c/u05_q21.mp3",
+      "audio_spec": {
+        "file": "u05_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] I have a chess board."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_ocean",
+          "image": "images/int3c/int3c_u05_what_do_you_have_ocean.png",
+          "label": "Ocean",
+          "correct": false,
+          "why_wrong": "An ocean is too huge."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_what_do_you_have",
+          "image": "images/int3c/int3c_u05_what_do_you_have_what_do_you_have.png",
+          "label": "What Do You Have",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_chess_board.png",
+          "label": "I Have Chess Board",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q22",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have my phone.",
+      "prompt_audio": "audio/int3c/u05_q22.mp3",
+      "audio_spec": {
+        "file": "u05_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] I have my phone."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_pencil_case",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pencil_case.png",
+          "label": "Pencil Case",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_phone.png",
+          "label": "I Have Phone",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u05_q23",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "What do you have?",
+      "prompt_audio": "audio/int3c/u05_q23.mp3",
+      "audio_spec": {
+        "file": "u05_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] What do you have?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_what_do_you_have",
+          "image": "images/int3c/int3c_u05_what_do_you_have_what_do_you_have.png",
+          "label": "What Do You Have",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_chess_board",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_chess_board.png",
+          "label": "I Have Chess Board",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        }
+      ]
+    },
+    {
+      "id": "u05_q24",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Study!",
+      "prompt_audio": "audio/int3c/u05_q24.mp3",
+      "audio_spec": {
+        "file": "u05_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Study!"
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_star",
+          "image": "images/int3c/int3c_u05_what_do_you_have_star.png",
+          "label": "Star",
+          "correct": false,
+          "why_wrong": "Stars are too far to hold."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_study",
+          "image": "images/int3c/int3c_u05_what_do_you_have_study.png",
+          "label": "Study",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_pillow",
+          "image": "images/int3c/int3c_u05_what_do_you_have_pillow.png",
+          "label": "Pillow",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        }
+      ]
+    },
+    {
+      "id": "u05_q25",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the book.",
+      "prompt_audio": "audio/int3c/u05_q25.mp3",
+      "audio_spec": {
+        "file": "u05_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap the book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_do_not_lie",
+          "image": "images/int3c/int3c_u05_what_do_you_have_do_not_lie.png",
+          "label": "Do Not Lie",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u05_q26",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the puzzle.",
+      "prompt_audio": "audio/int3c/u05_q26.mp3",
+      "audio_spec": {
+        "file": "u05_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap the puzzle."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_puzzle.png",
+          "label": "Puzzle",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_cup",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_cup.png",
+          "label": "I Have Cup",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u05_q27",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Tap the phone.",
+      "prompt_audio": "audio/int3c/u05_q27.mp3",
+      "audio_spec": {
+        "file": "u05_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap the phone."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_phone",
+          "image": "images/int3c/int3c_u05_what_do_you_have_phone.png",
+          "label": "Phone",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_earphones",
+          "image": "images/int3c/int3c_u05_what_do_you_have_earphones.png",
+          "label": "Earphones",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_river",
+          "image": "images/int3c/int3c_u05_what_do_you_have_river.png",
+          "label": "River",
+          "correct": false,
+          "why_wrong": "You cannot have a river in your bag."
+        }
+      ]
+    },
+    {
+      "id": "u05_q28",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Nothing.",
+      "prompt_audio": "audio/int3c/u05_q28.mp3",
+      "audio_spec": {
+        "file": "u05_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Nothing."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_nothing",
+          "image": "images/int3c/int3c_u05_what_do_you_have_nothing.png",
+          "label": "Nothing",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_i_have_pencil",
+          "image": "images/int3c/int3c_u05_what_do_you_have_i_have_pencil.png",
+          "label": "I Have Pencil",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u05_q29",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "Do not lie.",
+      "prompt_audio": "audio/int3c/u05_q29.mp3",
+      "audio_spec": {
+        "file": "u05_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Do not lie."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_newspaper",
+          "image": "images/int3c/int3c_u05_what_do_you_have_newspaper.png",
+          "label": "Newspaper",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_moon",
+          "image": "images/int3c/int3c_u05_what_do_you_have_moon.png",
+          "label": "Moon",
+          "correct": false,
+          "why_wrong": "The moon is far away."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_do_not_lie",
+          "image": "images/int3c/int3c_u05_what_do_you_have_do_not_lie.png",
+          "label": "Do Not Lie",
+          "correct": true
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_cloud",
+          "image": "images/int3c/int3c_u05_what_do_you_have_cloud.png",
+          "label": "Cloud",
+          "correct": false,
+          "why_wrong": "You cannot hold a cloud."
+        }
+      ]
+    },
+    {
+      "id": "u05_q30",
+      "unit": "u05_what_do_you_have",
+      "prompt_text": "I have a book.",
+      "prompt_audio": "audio/int3c/u05_q30.mp3",
+      "audio_spec": {
+        "file": "u05_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] I have a book."
+      },
+      "choices": [
+        {
+          "id": "int3c_u05_what_do_you_have_puzzle",
+          "image": "images/int3c/int3c_u05_what_do_you_have_puzzle.png",
+          "label": "Puzzle",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_volcano",
+          "image": "images/int3c/int3c_u05_what_do_you_have_volcano.png",
+          "label": "Volcano",
+          "correct": false,
+          "why_wrong": "A volcano is not something you carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_mountain",
+          "image": "images/int3c/int3c_u05_what_do_you_have_mountain.png",
+          "label": "Mountain",
+          "correct": false,
+          "why_wrong": "A mountain is too big to carry."
+        },
+        {
+          "id": "int3c_u05_what_do_you_have_book",
+          "image": "images/int3c/int3c_u05_what_do_you_have_book.png",
+          "label": "Book",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u07",
+  "title": "Can You Fly?",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u07_q01",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you dance?",
+      "prompt_audio": "audio/int3c/u07_q01.mp3",
+      "audio_spec": {
+        "file": "u07_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Can you dance?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_run.png",
+          "label": "Can You Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q02",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Yes, I can.",
+      "prompt_audio": "audio/int3c/u07_q02.mp3",
+      "audio_spec": {
+        "file": "u07_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Yes, I can."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_yes_i_can",
+          "image": "images/int3c/int3c_u07_can_you_fly_yes_i_can.png",
+          "label": "Yes I Can",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        }
+      ]
+    },
+    {
+      "id": "u07_q03",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you jump?",
+      "prompt_audio": "audio/int3c/u07_q03.mp3",
+      "audio_spec": {
+        "file": "u07_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Can you jump?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_jump.png",
+          "label": "Jump",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_cook.png",
+          "label": "Can You Cook",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        }
+      ]
+    },
+    {
+      "id": "u07_q04",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you sing?",
+      "prompt_audio": "audio/int3c/u07_q04.mp3",
+      "audio_spec": {
+        "file": "u07_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Can you sing?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_sing.png",
+          "label": "Sing",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_cook.png",
+          "label": "Can You Cook",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q05",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you fight?",
+      "prompt_audio": "audio/int3c/u07_q05.mp3",
+      "audio_spec": {
+        "file": "u07_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Can you fight?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_jump.png",
+          "label": "Jump",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_fight.png",
+          "label": "Fight",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q06",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you type?",
+      "prompt_audio": "audio/int3c/u07_q06.mp3",
+      "audio_spec": {
+        "file": "u07_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Can you type?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_type.png",
+          "label": "Type",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_walk.png",
+          "label": "Walk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        }
+      ]
+    },
+    {
+      "id": "u07_q07",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you walk?",
+      "prompt_audio": "audio/int3c/u07_q07.mp3",
+      "audio_spec": {
+        "file": "u07_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Can you walk?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_walk.png",
+          "label": "Walk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_cook.png",
+          "label": "Can You Cook",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q08",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you cook?",
+      "prompt_audio": "audio/int3c/u07_q08.mp3",
+      "audio_spec": {
+        "file": "u07_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Can you cook?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_cook.png",
+          "label": "Cook",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q09",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you fly?",
+      "prompt_audio": "audio/int3c/u07_q09.mp3",
+      "audio_spec": {
+        "file": "u07_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Can you fly?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_fly.png",
+          "label": "Fly",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_fight.png",
+          "label": "Fight",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q10",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you love?",
+      "prompt_audio": "audio/int3c/u07_q10.mp3",
+      "audio_spec": {
+        "file": "u07_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Can you love?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_fly.png",
+          "label": "Fly",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_love.png",
+          "label": "Love",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q11",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you run?",
+      "prompt_audio": "audio/int3c/u07_q11.mp3",
+      "audio_spec": {
+        "file": "u07_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Can you run?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_drink",
+          "image": "images/int3c/int3c_u07_can_you_fly_drink.png",
+          "label": "Drink",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q12",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "No, I can not.",
+      "prompt_audio": "audio/int3c/u07_q12.mp3",
+      "audio_spec": {
+        "file": "u07_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] No, I can not."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_jump.png",
+          "label": "Can You Jump",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_no_i_can_not",
+          "image": "images/int3c/int3c_u07_can_you_fly_no_i_can_not.png",
+          "label": "No I Can Not",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q13",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you dance?",
+      "prompt_audio": "audio/int3c/u07_q13.mp3",
+      "audio_spec": {
+        "file": "u07_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Can you dance?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_love.png",
+          "label": "Love",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_dance.png",
+          "label": "Can You Dance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q14",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you jump?",
+      "prompt_audio": "audio/int3c/u07_q14.mp3",
+      "audio_spec": {
+        "file": "u07_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Can you jump?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_drink",
+          "image": "images/int3c/int3c_u07_can_you_fly_drink.png",
+          "label": "Drink",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_jump.png",
+          "label": "Can You Jump",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        }
+      ]
+    },
+    {
+      "id": "u07_q15",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you sing?",
+      "prompt_audio": "audio/int3c/u07_q15.mp3",
+      "audio_spec": {
+        "file": "u07_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Can you sing?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_sing.png",
+          "label": "Can You Sing",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q16",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you fight?",
+      "prompt_audio": "audio/int3c/u07_q16.mp3",
+      "audio_spec": {
+        "file": "u07_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Can you fight?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_fight.png",
+          "label": "Can You Fight",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q17",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you type?",
+      "prompt_audio": "audio/int3c/u07_q17.mp3",
+      "audio_spec": {
+        "file": "u07_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Can you type?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_fly.png",
+          "label": "Fly",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_type.png",
+          "label": "Can You Type",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q18",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you walk?",
+      "prompt_audio": "audio/int3c/u07_q18.mp3",
+      "audio_spec": {
+        "file": "u07_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Can you walk?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_no_i_can_not",
+          "image": "images/int3c/int3c_u07_can_you_fly_no_i_can_not.png",
+          "label": "No I Can Not",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_walk.png",
+          "label": "Can You Walk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q19",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you cook?",
+      "prompt_audio": "audio/int3c/u07_q19.mp3",
+      "audio_spec": {
+        "file": "u07_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Can you cook?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_cook.png",
+          "label": "Can You Cook",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_jump.png",
+          "label": "Jump",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q20",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you fly?",
+      "prompt_audio": "audio/int3c/u07_q20.mp3",
+      "audio_spec": {
+        "file": "u07_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Can you fly?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_fly.png",
+          "label": "Can You Fly",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_fight.png",
+          "label": "Fight",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q21",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you love?",
+      "prompt_audio": "audio/int3c/u07_q21.mp3",
+      "audio_spec": {
+        "file": "u07_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Can you love?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_love",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_love.png",
+          "label": "Can You Love",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        }
+      ]
+    },
+    {
+      "id": "u07_q22",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Can you run?",
+      "prompt_audio": "audio/int3c/u07_q22.mp3",
+      "audio_spec": {
+        "file": "u07_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Can you run?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_drink",
+          "image": "images/int3c/int3c_u07_can_you_fly_drink.png",
+          "label": "Drink",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_run.png",
+          "label": "Can You Run",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q23",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap dance.",
+      "prompt_audio": "audio/int3c/u07_q23.mp3",
+      "audio_spec": {
+        "file": "u07_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap dance."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_dance.png",
+          "label": "Can You Dance",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_dance",
+          "image": "images/int3c/int3c_u07_can_you_fly_dance.png",
+          "label": "Dance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q24",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap jump.",
+      "prompt_audio": "audio/int3c/u07_q24.mp3",
+      "audio_spec": {
+        "file": "u07_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap jump."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_jump.png",
+          "label": "Jump",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_type.png",
+          "label": "Can You Type",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q25",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap sing.",
+      "prompt_audio": "audio/int3c/u07_q25.mp3",
+      "audio_spec": {
+        "file": "u07_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap sing."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_jump",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_jump.png",
+          "label": "Can You Jump",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_sing",
+          "image": "images/int3c/int3c_u07_can_you_fly_sing.png",
+          "label": "Sing",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_airplane",
+          "image": "images/int3c/int3c_u07_can_you_fly_airplane.png",
+          "label": "Airplane",
+          "correct": false,
+          "why_wrong": "An airplane flies — Can you fly means the verb fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q26",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap fly.",
+      "prompt_audio": "audio/int3c/u07_q26.mp3",
+      "audio_spec": {
+        "file": "u07_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap fly."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fly",
+          "image": "images/int3c/int3c_u07_can_you_fly_fly.png",
+          "label": "Fly",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q27",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap cook.",
+      "prompt_audio": "audio/int3c/u07_q27.mp3",
+      "audio_spec": {
+        "file": "u07_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap cook."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_helicopter",
+          "image": "images/int3c/int3c_u07_can_you_fly_helicopter.png",
+          "label": "Helicopter",
+          "correct": false,
+          "why_wrong": "A helicopter is a machine, not Can you fly?"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_fight",
+          "image": "images/int3c/int3c_u07_can_you_fly_fight.png",
+          "label": "Fight",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_cook",
+          "image": "images/int3c/int3c_u07_can_you_fly_cook.png",
+          "label": "Cook",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u07_q28",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap run.",
+      "prompt_audio": "audio/int3c/u07_q28.mp3",
+      "audio_spec": {
+        "file": "u07_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap run."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_can_you_walk",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_walk.png",
+          "label": "Can You Walk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bicycle",
+          "image": "images/int3c/int3c_u07_can_you_fly_bicycle.png",
+          "label": "Bicycle",
+          "correct": false,
+          "why_wrong": "Bicycles roll on the ground."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_car",
+          "image": "images/int3c/int3c_u07_can_you_fly_car.png",
+          "label": "Car",
+          "correct": false,
+          "why_wrong": "Cars cannot fly."
+        }
+      ]
+    },
+    {
+      "id": "u07_q29",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Tap drink.",
+      "prompt_audio": "audio/int3c/u07_q29.mp3",
+      "audio_spec": {
+        "file": "u07_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap drink."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_butterfly",
+          "image": "images/int3c/int3c_u07_can_you_fly_butterfly.png",
+          "label": "Butterfly",
+          "correct": false,
+          "why_wrong": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_drink",
+          "image": "images/int3c/int3c_u07_can_you_fly_drink.png",
+          "label": "Drink",
+          "correct": true
+        },
+        {
+          "id": "int3c_u07_can_you_fly_bird",
+          "image": "images/int3c/int3c_u07_can_you_fly_bird.png",
+          "label": "Bird",
+          "correct": false,
+          "why_wrong": "A bird can fly — tap the action word fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_run",
+          "image": "images/int3c/int3c_u07_can_you_fly_run.png",
+          "label": "Run",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u07_q30",
+      "unit": "u07_can_you_fly",
+      "prompt_text": "Yes, I can.",
+      "prompt_audio": "audio/int3c/u07_q30.mp3",
+      "audio_spec": {
+        "file": "u07_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Yes, I can."
+      },
+      "choices": [
+        {
+          "id": "int3c_u07_can_you_fly_rock",
+          "image": "images/int3c/int3c_u07_can_you_fly_rock.png",
+          "label": "Rock",
+          "correct": false,
+          "why_wrong": "Rocks cannot fly."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_can_you_type",
+          "image": "images/int3c/int3c_u07_can_you_fly_can_you_type.png",
+          "label": "Can You Type",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u07_can_you_fly_train",
+          "image": "images/int3c/int3c_u07_can_you_fly_train.png",
+          "label": "Train",
+          "correct": false,
+          "why_wrong": "Trains stay on tracks."
+        },
+        {
+          "id": "int3c_u07_can_you_fly_yes_i_can",
+          "image": "images/int3c/int3c_u07_can_you_fly_yes_i_can.png",
+          "label": "Yes I Can",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

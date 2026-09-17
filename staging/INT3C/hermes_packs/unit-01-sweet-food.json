@@ -1,0 +1,1240 @@
+{
+  "book": "INT3C",
+  "id": "u01",
+  "title": "Do You Like Sweet Food?",
+  "type": "unit",
+  "pass_percent": 80,
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "u01_q01",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like sweet food?",
+      "prompt_audio": "audio/int3c/u01_q01.mp3",
+      "audio_spec": {
+        "file": "u01_q01.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Do you like sweet food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_bitter",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_bitter.png",
+          "label": "Do You Like Bitter",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        }
+      ]
+    },
+    {
+      "id": "u01_q02",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Yes, I do.",
+      "prompt_audio": "audio/int3c/u01_q02.mp3",
+      "audio_spec": {
+        "file": "u01_q02.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Yes, I do."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_soy_paste_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_soy_paste_stew.png",
+          "label": "Soy Paste Stew",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_yes_i_do",
+          "image": "images/int3c/int3c_u01_sweet_food_yes_i_do.png",
+          "label": "Yes I Do",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q03",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try ddeok.",
+      "prompt_audio": "audio/int3c/u01_q03.mp3",
+      "audio_spec": {
+        "file": "u01_q03.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Try ddeok."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_what_is_it",
+          "image": "images/int3c/int3c_u01_sweet_food_what_is_it.png",
+          "label": "What Is It",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_ddeok.png",
+          "label": "Ddeok",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q04",
+      "unit": "u01_sweet_food",
+      "prompt_text": "It is a sticky rice dessert.",
+      "prompt_audio": "audio/int3c/u01_q04.mp3",
+      "audio_spec": {
+        "file": "u01_q04.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] It is a sticky rice dessert."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sauteed_bellflower_root",
+          "image": "images/int3c/int3c_u01_sweet_food_sauteed_bellflower_root.png",
+          "label": "Sauteed Bellflower Root",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q05",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like salty food?",
+      "prompt_audio": "audio/int3c/u01_q05.mp3",
+      "audio_spec": {
+        "file": "u01_q05.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Do you like salty food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_salty_food",
+          "image": "images/int3c/int3c_u01_sweet_food_salty_food.png",
+          "label": "Salty Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_cities",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_cities.png",
+          "label": "Wrong Food Cities",
+          "correct": false,
+          "why_wrong": "Cities are from Unit 6."
+        },
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q06",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try doenjang guk.",
+      "prompt_audio": "audio/int3c/u01_q06.mp3",
+      "audio_spec": {
+        "file": "u01_q06.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Try doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_doenjang_guk.png",
+          "label": "Doenjang Guk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_salty_food",
+          "image": "images/int3c/int3c_u01_sweet_food_salty_food.png",
+          "label": "Salty Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q07",
+      "unit": "u01_sweet_food",
+      "prompt_text": "It is soy paste stew.",
+      "prompt_audio": "audio/int3c/u01_q07.mp3",
+      "audio_spec": {
+        "file": "u01_q07.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] It is soy paste stew."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_soy_paste_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_soy_paste_stew.png",
+          "label": "Soy Paste Stew",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q08",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like bitter food?",
+      "prompt_audio": "audio/int3c/u01_q08.mp3",
+      "audio_spec": {
+        "file": "u01_q08.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Do you like bitter food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_bitter_food",
+          "image": "images/int3c/int3c_u01_sweet_food_bitter_food.png",
+          "label": "Bitter Food",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q09",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try doraji namul.",
+      "prompt_audio": "audio/int3c/u01_q09.mp3",
+      "audio_spec": {
+        "file": "u01_q09.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Try doraji namul."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sour_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sour_food.png",
+          "label": "Sour Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q10",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Sautéed bellflower root.",
+      "prompt_audio": "audio/int3c/u01_q10.mp3",
+      "audio_spec": {
+        "file": "u01_q10.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Sautéed bellflower root."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_sauteed_bellflower_root",
+          "image": "images/int3c/int3c_u01_sweet_food_sauteed_bellflower_root.png",
+          "label": "Sauteed Bellflower Root",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q11",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like sour food?",
+      "prompt_audio": "audio/int3c/u01_q11.mp3",
+      "audio_spec": {
+        "file": "u01_q11.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Do you like sour food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doenjang_guk.png",
+          "label": "Try Doenjang Guk",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_sour_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sour_food.png",
+          "label": "Sour Food",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q12",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try this.",
+      "prompt_audio": "audio/int3c/u01_q12.mp3",
+      "audio_spec": {
+        "file": "u01_q12.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Try this."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_this",
+          "image": "images/int3c/int3c_u01_sweet_food_try_this.png",
+          "label": "Try This",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sour_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sour_food.png",
+          "label": "Sour Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q13",
+      "unit": "u01_sweet_food",
+      "prompt_text": "What is it?",
+      "prompt_audio": "audio/int3c/u01_q13.mp3",
+      "audio_spec": {
+        "file": "u01_q13.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] What is it?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_what_is_it",
+          "image": "images/int3c/int3c_u01_sweet_food_what_is_it.png",
+          "label": "What Is It",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_i_do_not_know",
+          "image": "images/int3c/int3c_u01_sweet_food_i_do_not_know.png",
+          "label": "I Do Not Know",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q14",
+      "unit": "u01_sweet_food",
+      "prompt_text": "I do not know.",
+      "prompt_audio": "audio/int3c/u01_q14.mp3",
+      "audio_spec": {
+        "file": "u01_q14.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] I do not know."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_i_do_not_know",
+          "image": "images/int3c/int3c_u01_sweet_food_i_do_not_know.png",
+          "label": "I Do Not Know",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q15",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try ddeok.",
+      "prompt_audio": "audio/int3c/u01_q15.mp3",
+      "audio_spec": {
+        "file": "u01_q15.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Try ddeok."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_sour",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_sour.png",
+          "label": "Do You Like Sour",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_try_ddeok.png",
+          "label": "Try Ddeok",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q16",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try doenjang guk.",
+      "prompt_audio": "audio/int3c/u01_q16.mp3",
+      "audio_spec": {
+        "file": "u01_q16.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Try doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_spicy_food",
+          "image": "images/int3c/int3c_u01_sweet_food_spicy_food.png",
+          "label": "Spicy Food",
+          "correct": false,
+          "why_wrong": "Bibimbap is spicy — that is an example, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doenjang_guk.png",
+          "label": "Try Doenjang Guk",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_sour",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_sour.png",
+          "label": "Do You Like Sour",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q17",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Try doraji namul.",
+      "prompt_audio": "audio/int3c/u01_q17.mp3",
+      "audio_spec": {
+        "file": "u01_q17.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Try doraji namul."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_try_this",
+          "image": "images/int3c/int3c_u01_sweet_food_try_this.png",
+          "label": "Try This",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q18",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like sweet food?",
+      "prompt_audio": "audio/int3c/u01_q18.mp3",
+      "audio_spec": {
+        "file": "u01_q18.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Do you like sweet food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_sweet",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_sweet.png",
+          "label": "Do You Like Sweet",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_bitter_food",
+          "image": "images/int3c/int3c_u01_sweet_food_bitter_food.png",
+          "label": "Bitter Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q19",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like salty food?",
+      "prompt_audio": "audio/int3c/u01_q19.mp3",
+      "audio_spec": {
+        "file": "u01_q19.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Do you like salty food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_cities",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_cities.png",
+          "label": "Wrong Food Cities",
+          "correct": false,
+          "why_wrong": "Cities are from Unit 6."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_salty",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_salty.png",
+          "label": "Do You Like Salty",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_soy_paste_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_soy_paste_stew.png",
+          "label": "Soy Paste Stew",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q20",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like bitter food?",
+      "prompt_audio": "audio/int3c/u01_q20.mp3",
+      "audio_spec": {
+        "file": "u01_q20.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Do you like bitter food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_salty_food",
+          "image": "images/int3c/int3c_u01_sweet_food_salty_food.png",
+          "label": "Salty Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_bitter",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_bitter.png",
+          "label": "Do You Like Bitter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q21",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Do you like sour food?",
+      "prompt_audio": "audio/int3c/u01_q21.mp3",
+      "audio_spec": {
+        "file": "u01_q21.mp3",
+        "emotion": "happy",
+        "fish_voice": "fish01",
+        "text": "[happy] Do you like sour food?"
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_do_you_like_sour",
+          "image": "images/int3c/int3c_u01_sweet_food_do_you_like_sour.png",
+          "label": "Do You Like Sour",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q22",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap ddeok.",
+      "prompt_audio": "audio/int3c/u01_q22.mp3",
+      "audio_spec": {
+        "file": "u01_q22.mp3",
+        "emotion": "excited",
+        "fish_voice": "fish02",
+        "text": "[excited] Tap ddeok."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_cities",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_cities.png",
+          "label": "Wrong Food Cities",
+          "correct": false,
+          "why_wrong": "Cities are from Unit 6."
+        },
+        {
+          "id": "int3c_u01_sweet_food_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_ddeok.png",
+          "label": "Ddeok",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q23",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap doenjang guk.",
+      "prompt_audio": "audio/int3c/u01_q23.mp3",
+      "audio_spec": {
+        "file": "u01_q23.mp3",
+        "emotion": "calm",
+        "fish_voice": "fish03",
+        "text": "[calm] Tap doenjang guk."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_doenjang_guk",
+          "image": "images/int3c/int3c_u01_sweet_food_doenjang_guk.png",
+          "label": "Doenjang Guk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "u01_q24",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap doraji namul.",
+      "prompt_audio": "audio/int3c/u01_q24.mp3",
+      "audio_spec": {
+        "file": "u01_q24.mp3",
+        "emotion": "curious",
+        "fish_voice": "fish04",
+        "text": "[curious] Tap doraji namul."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_doraji_namul.png",
+          "label": "Doraji Namul",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_yell",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_yell.png",
+          "label": "Wrong Food Yell",
+          "correct": false,
+          "why_wrong": "Do not yell is from Unit 2, not food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_yes_i_do",
+          "image": "images/int3c/int3c_u01_sweet_food_yes_i_do.png",
+          "label": "Yes I Do",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q25",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap bibimbap.",
+      "prompt_audio": "audio/int3c/u01_q25.mp3",
+      "audio_spec": {
+        "file": "u01_q25.mp3",
+        "emotion": "surprised",
+        "fish_voice": "fish05",
+        "text": "[surprised] Tap bibimbap."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_yes_i_do",
+          "image": "images/int3c/int3c_u01_sweet_food_yes_i_do.png",
+          "label": "Yes I Do",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_shirt",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_shirt.png",
+          "label": "Wrong Food Shirt",
+          "correct": false,
+          "why_wrong": "A shirt is clothes from Unit 3."
+        },
+        {
+          "id": "int3c_u01_sweet_food_bibimbap",
+          "image": "images/int3c/int3c_u01_sweet_food_bibimbap.png",
+          "label": "Bibimbap",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q26",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sweet food.",
+      "prompt_audio": "audio/int3c/u01_q26.mp3",
+      "audio_spec": {
+        "file": "u01_q26.mp3",
+        "emotion": "gentle",
+        "fish_voice": "fish06",
+        "text": "[gentle] Tap sweet food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q27",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap salty food.",
+      "prompt_audio": "audio/int3c/u01_q27.mp3",
+      "audio_spec": {
+        "file": "u01_q27.mp3",
+        "emotion": "playful",
+        "fish_voice": "fish07",
+        "text": "[playful] Tap salty food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_salty_food",
+          "image": "images/int3c/int3c_u01_sweet_food_salty_food.png",
+          "label": "Salty Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        }
+      ]
+    },
+    {
+      "id": "u01_q28",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap bitter food.",
+      "prompt_audio": "audio/int3c/u01_q28.mp3",
+      "audio_spec": {
+        "file": "u01_q28.mp3",
+        "emotion": "cheerful",
+        "fish_voice": "fish08",
+        "text": "[cheerful] Tap bitter food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_bitter_food",
+          "image": "images/int3c/int3c_u01_sweet_food_bitter_food.png",
+          "label": "Bitter Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_doraji_namul",
+          "image": "images/int3c/int3c_u01_sweet_food_try_doraji_namul.png",
+          "label": "Try Doraji Namul",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_salty_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_salty_ddeok.png",
+          "label": "Wrong Salty Ddeok",
+          "correct": false,
+          "why_wrong": "Ddeok is a sweet sticky rice dessert, not salty food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q29",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sour food.",
+      "prompt_audio": "audio/int3c/u01_q29.mp3",
+      "audio_spec": {
+        "file": "u01_q29.mp3",
+        "emotion": "warm",
+        "fish_voice": "fish09",
+        "text": "[warm] Tap sour food."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_food_dance",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_food_dance.png",
+          "label": "Wrong Food Dance",
+          "correct": false,
+          "why_wrong": "Dance is from Unit 7."
+        },
+        {
+          "id": "int3c_u01_sweet_food_try_ddeok",
+          "image": "images/int3c/int3c_u01_sweet_food_try_ddeok.png",
+          "label": "Try Ddeok",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_sour_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sour_food.png",
+          "label": "Sour Food",
+          "correct": true
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_bitter_candy",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_bitter_candy.png",
+          "label": "Wrong Bitter Candy",
+          "correct": false,
+          "why_wrong": "Sweet food is not the same as bitter food."
+        }
+      ]
+    },
+    {
+      "id": "u01_q30",
+      "unit": "u01_sweet_food",
+      "prompt_text": "Tap sticky rice dessert.",
+      "prompt_audio": "audio/int3c/u01_q30.mp3",
+      "audio_spec": {
+        "file": "u01_q30.mp3",
+        "emotion": "friendly",
+        "fish_voice": "fish10",
+        "text": "[friendly] Tap sticky rice dessert."
+      },
+      "choices": [
+        {
+          "id": "int3c_u01_sweet_food_wrong_sweet_doenjang",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sweet_doenjang.png",
+          "label": "Wrong Sweet Doenjang",
+          "correct": false,
+          "why_wrong": "Doenjang guk is salty soy paste stew, not sweet food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sweet_food",
+          "image": "images/int3c/int3c_u01_sweet_food_sweet_food.png",
+          "label": "Sweet Food",
+          "correct": false,
+          "why_wrong": "That is not the correct answer. Listen again!"
+        },
+        {
+          "id": "int3c_u01_sweet_food_wrong_sour_stew",
+          "image": "images/int3c/int3c_u01_sweet_food_wrong_sour_stew.png",
+          "label": "Wrong Sour Stew",
+          "correct": false,
+          "why_wrong": "Soy paste stew is salty, not sour food."
+        },
+        {
+          "id": "int3c_u01_sweet_food_sticky_rice_dessert",
+          "image": "images/int3c/int3c_u01_sweet_food_sticky_rice_dessert.png",
+          "label": "Sticky Rice Dessert",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

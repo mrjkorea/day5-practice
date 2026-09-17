@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 4: Invitations",
+    "title": "Let's Play an RPG",
     "kind": "unit",
     "units_covered": [
       4
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-04-rpg.json"
   },
   "questions": [
     {
       "id": "i3c_u04_q01",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "Sure, that sounds fun!",
-        "She is kind.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "I am bored.",
+      "audio_id": "u04_q01",
+      "image_ids": [
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_im_bored",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_not_hungry"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_im_bored",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "correct": "int3c_u04_rpg_im_bored",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u04_rpg_lets_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_play_rpg": "Lets Play Rpg",
+        "int3c_u04_rpg_im_bored": "Im Bored",
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_not_hungry": "Not Hungry"
+      }
     },
     {
       "id": "i3c_u04_q02",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "I like cats.",
-        "Great idea!",
-        "He runs home."
+      "type": 1,
+      "prompt_text": "Let's sing karaoke.",
+      "audio_id": "u04_q02",
+      "image_ids": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_talk"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_talk"
+      ],
+      "correct": "int3c_u04_rpg_sing_karaoke",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!"
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_lets_talk": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_lets_talk": "Lets Talk"
+      }
     },
     {
       "id": "i3c_u04_q03",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I have a pen.",
-        "He reads.",
-        "Yes, I'd love to!"
+      "type": 1,
+      "prompt_text": "Let's play soccer.",
+      "audio_id": "u04_q03",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_not_hungry"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "correct": "int3c_u04_rpg_play_soccer",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_sing_karaoke": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke",
+        "int3c_u04_rpg_play_soccer": "Play Soccer",
+        "int3c_u04_rpg_not_hungry": "Not Hungry"
+      }
     },
     {
       "id": "i3c_u04_q04",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Okay, let's do it.",
-        "He eats.",
-        "I like pizza.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Let's climb the jungle gym.",
+      "audio_id": "u04_q04",
+      "image_ids": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_climb_jungle_gym"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "correct": "int3c_u04_rpg_climb_jungle_gym",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_cook": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_cook": "Cook",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym"
+      }
     },
     {
       "id": "i3c_u04_q05",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "She jumps.",
-        "He plays.",
-        "Good plan!"
+      "type": 1,
+      "prompt_text": "Let's watch TV.",
+      "audio_id": "u04_q05",
+      "image_ids": [
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_dont_like_sports"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_dont_like_sports"
+      ],
+      "correct": "int3c_u04_rpg_watch_tv",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_lets_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_watch_tv": "Watch Tv",
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_lets_play_rpg": "Lets Play Rpg",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports"
+      }
     },
     {
       "id": "i3c_u04_q06",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I am fine.",
-        "Sure, that sounds fun!",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Let's cook.",
+      "audio_id": "u04_q06",
+      "image_ids": [
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_talk"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_talk"
+      ],
+      "correct": "int3c_u04_rpg_cook",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_talk": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cook": "Cook",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_talk": "Talk"
+      }
     },
     {
       "id": "i3c_u04_q07",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs home.",
-        "We eat.",
-        "I like cats.",
-        "Great idea!"
+      "type": 1,
+      "prompt_text": "Let's talk.",
+      "audio_id": "u04_q07",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_talk",
+        "int3c_u04_rpg_im_bored"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_talk",
+        "int3c_u04_rpg_im_bored"
+      ],
+      "correct": "int3c_u04_rpg_talk",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_im_bored": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_talk": "Talk",
+        "int3c_u04_rpg_im_bored": "Im Bored"
+      }
     },
     {
       "id": "i3c_u04_q08",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "Yes, I'd love to!",
-        "He reads.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Let's ride bikes.",
+      "audio_id": "u04_q08",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_ride_bikes"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_ride_bikes"
+      ],
+      "correct": "int3c_u04_rpg_ride_bikes",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_lets_play_soccer": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_lets_play_soccer": "Lets Play Soccer",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_ride_bikes": "Ride Bikes"
+      }
     },
     {
       "id": "i3c_u04_q09",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He eats.",
-        "Okay, let's do it.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Let's play an RPG.",
+      "audio_id": "u04_q09",
+      "image_ids": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_dont_like_tv"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_dont_like_tv"
+      ],
+      "correct": "int3c_u04_rpg_play_rpg",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u04_rpg_good_idea": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_good_idea": "Good Idea",
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_play_rpg": "Play Rpg",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv"
+      }
     },
     {
       "id": "i3c_u04_q10",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "Good plan!",
-        "She jumps.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Good idea.",
+      "audio_id": "u04_q10",
+      "image_ids": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_throat_hurts"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_throat_hurts"
+      ],
+      "correct": "int3c_u04_rpg_good_idea",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_lets_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_good_idea": "Good Idea",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_play_rpg": "Lets Play Rpg",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts"
+      }
     },
     {
       "id": "i3c_u04_q11",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sure, that sounds fun!",
-        "She is kind.",
-        "He has a bike.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Let's go to school.",
+      "audio_id": "u04_q11",
+      "image_ids": [
+        "int3c_u04_rpg_go_to_school",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_go_to_school",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke"
+      ],
+      "correct": "int3c_u04_rpg_go_to_school",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_sing_karaoke": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_go_to_school": "Go To School",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke"
+      }
     },
     {
       "id": "i3c_u04_q12",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "He runs home.",
-        "Great idea!",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Let's study.",
+      "audio_id": "u04_q12",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_study"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_study"
+      ],
+      "correct": "int3c_u04_rpg_study",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_lets_ride_bikes": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_lets_ride_bikes": "Lets Ride Bikes",
+        "int3c_u04_rpg_study": "Study"
+      }
     },
     {
       "id": "i3c_u04_q13",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I have a pen.",
-        "Yes, I'd love to!",
-        "She sings."
+      "type": 1,
+      "prompt_text": "No thanks.",
+      "audio_id": "u04_q13",
+      "image_ids": [
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_lets_sing_karaoke",
+        "int3c_u04_rpg_no_thanks"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_lets_sing_karaoke",
+        "int3c_u04_rpg_no_thanks"
+      ],
+      "correct": "int3c_u04_rpg_no_thanks",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_lets_sing_karaoke": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_lets_sing_karaoke": "Lets Sing Karaoke",
+        "int3c_u04_rpg_no_thanks": "No Thanks"
+      }
     },
     {
       "id": "i3c_u04_q14",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "I like pizza.",
-        "She swims.",
-        "Okay, let's do it."
+      "type": 1,
+      "prompt_text": "Let's sing karaoke.",
+      "audio_id": "u04_q14",
+      "image_ids": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_lets_sing_karaoke"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_lets_sing_karaoke"
+      ],
+      "correct": "int3c_u04_rpg_lets_sing_karaoke",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_lets_cook": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_lets_cook": "Lets Cook",
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_lets_sing_karaoke": "Lets Sing Karaoke"
+      }
     },
     {
       "id": "i3c_u04_q15",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "I am ten.",
-        "Good plan!",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Let's play soccer.",
+      "audio_id": "u04_q15",
+      "image_ids": [
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_too_scary"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_too_scary"
+      ],
+      "correct": "int3c_u04_rpg_lets_play_soccer",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "int3c_u04_rpg_lets_study": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_play_soccer": "Lets Play Soccer",
+        "int3c_u04_rpg_lets_study": "Lets Study",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_too_scary": "Too Scary"
+      }
     },
     {
       "id": "i3c_u04_q16",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "Sure, that sounds fun!",
-        "She is kind.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Let's climb the jungle gym.",
+      "audio_id": "u04_q16",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym",
+        "int3c_u04_rpg_talk"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym",
+        "int3c_u04_rpg_talk"
+      ],
+      "correct": "int3c_u04_rpg_lets_climb_jungle_gym",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_talk": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym": "Lets Climb Jungle Gym",
+        "int3c_u04_rpg_talk": "Talk"
+      }
     },
     {
       "id": "i3c_u04_q17",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs home.",
-        "Great idea!",
-        "We eat.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Let's watch TV.",
+      "audio_id": "u04_q17",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_cook"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_cook"
+      ],
+      "correct": "int3c_u04_rpg_lets_watch_tv",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_cook": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_watch_tv": "Lets Watch Tv",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_cook": "Cook"
+      }
     },
     {
       "id": "i3c_u04_q18",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "Yes, I'd love to!",
-        "I have a pen.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Let's cook.",
+      "audio_id": "u04_q18",
+      "image_ids": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_legs_short"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_lets_cook",
+        "int3c_u04_rpg_play_rpg",
+        "int3c_u04_rpg_legs_short"
+      ],
+      "correct": "int3c_u04_rpg_lets_cook",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_lets_cook": "Lets Cook",
+        "int3c_u04_rpg_play_rpg": "Play Rpg",
+        "int3c_u04_rpg_legs_short": "Legs Short"
+      }
     },
     {
       "id": "i3c_u04_q19",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "She swims.",
-        "Okay, let's do it.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Let's talk.",
+      "audio_id": "u04_q19",
+      "image_ids": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_climb_jungle_gym",
+        "int3c_u04_rpg_lets_talk"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_climb_jungle_gym",
+        "int3c_u04_rpg_lets_talk"
+      ],
+      "correct": "int3c_u04_rpg_lets_talk",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_climb_jungle_gym": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym",
+        "int3c_u04_rpg_lets_talk": "Lets Talk"
+      }
     },
     {
       "id": "i3c_u04_q20",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good plan!",
-        "He plays.",
-        "I am ten.",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Let's ride bikes.",
+      "audio_id": "u04_q20",
+      "image_ids": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_climb_jungle_gym"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_ride_bikes",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "correct": "int3c_u04_rpg_lets_ride_bikes",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_climb_jungle_gym": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_ride_bikes": "Lets Ride Bikes",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym"
+      }
     },
     {
       "id": "i3c_u04_q21",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I am fine.",
-        "He has a bike.",
-        "Sure, that sounds fun!"
+      "type": 1,
+      "prompt_text": "Let's play an RPG.",
+      "audio_id": "u04_q21",
+      "image_ids": [
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_dont_like_sports"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_dont_like_sports"
+      ],
+      "correct": "int3c_u04_rpg_lets_play_rpg",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3c_u04_rpg_watch_tv": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_watch_tv": "Watch Tv",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_lets_play_rpg": "Lets Play Rpg",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports"
+      }
     },
     {
       "id": "i3c_u04_q22",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Great idea!",
-        "He runs home.",
-        "I like cats.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Let's go to school.",
+      "audio_id": "u04_q22",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_go_to_school",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_study"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_go_to_school",
+        "int3c_u04_rpg_not_hungry",
+        "int3c_u04_rpg_study"
+      ],
+      "correct": "int3c_u04_rpg_lets_go_to_school",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook.",
+        "int3c_u04_rpg_study": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_go_to_school": "Lets Go To School",
+        "int3c_u04_rpg_not_hungry": "Not Hungry",
+        "int3c_u04_rpg_study": "Study"
+      }
     },
     {
       "id": "i3c_u04_q23",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I'd love to!",
-        "She sings.",
-        "He reads.",
-        "I have a pen."
+      "type": 1,
+      "prompt_text": "Let's study.",
+      "audio_id": "u04_q23",
+      "image_ids": [
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym",
+        "int3c_u04_rpg_cannot_sing"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_lets_study",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym",
+        "int3c_u04_rpg_cannot_sing"
+      ],
+      "correct": "int3c_u04_rpg_lets_study",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_lets_climb_jungle_gym": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_study": "Lets Study",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_lets_climb_jungle_gym": "Lets Climb Jungle Gym",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing"
+      }
     },
     {
       "id": "i3c_u04_q24",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "He eats.",
-        "I like pizza.",
-        "Okay, let's do it."
+      "type": 1,
+      "prompt_text": "Tap sing karaoke.",
+      "audio_id": "u04_q24",
+      "image_ids": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_sing_karaoke"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_lets_watch_tv",
+        "int3c_u04_rpg_sing_karaoke"
+      ],
+      "correct": "int3c_u04_rpg_sing_karaoke",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_lets_watch_tv": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_lets_watch_tv": "Lets Watch Tv",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke"
+      }
     },
     {
       "id": "i3c_u04_q25",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good plan!",
-        "I am ten.",
-        "He plays.",
-        "She jumps."
+      "type": 1,
+      "prompt_text": "Tap play soccer.",
+      "audio_id": "u04_q25",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_cook"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_cook"
+      ],
+      "correct": "int3c_u04_rpg_play_soccer",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym.",
+        "int3c_u04_rpg_cook": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_play_soccer": "Play Soccer",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_cook": "Cook"
+      }
     },
     {
       "id": "i3c_u04_q26",
-      "type": 4,
-      "prompt_text": "Would you like to join us?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "Sure, that sounds fun!",
-        "He has a bike.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "Tap play an RPG.",
+      "audio_id": "u04_q26",
+      "image_ids": [
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_play_rpg"
       ],
-      "correct": "Sure, that sounds fun!",
+      "choices": [
+        "int3c_u04_rpg_lets_play_soccer",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_too_scary",
+        "int3c_u04_rpg_play_rpg"
+      ],
+      "correct": "int3c_u04_rpg_play_rpg",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3c_u04_rpg_lets_play_soccer": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_play_soccer": "Lets Play Soccer",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_too_scary": "Too Scary",
+        "int3c_u04_rpg_play_rpg": "Play Rpg"
+      }
     },
     {
       "id": "i3c_u04_q27",
-      "type": 4,
-      "prompt_text": "Let's play soccer after school.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs home.",
-        "We eat.",
-        "Great idea!",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Tap ride bikes.",
+      "audio_id": "u04_q27",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_ride_bikes",
+        "int3c_u04_rpg_climb_jungle_gym",
+        "int3c_u04_rpg_cannot_sing"
       ],
-      "correct": "Great idea!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_sports",
+        "int3c_u04_rpg_ride_bikes",
+        "int3c_u04_rpg_climb_jungle_gym",
+        "int3c_u04_rpg_cannot_sing"
+      ],
+      "correct": "int3c_u04_rpg_ride_bikes",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_sports": "I do not like sports — not Let's play soccer.",
+        "int3c_u04_rpg_climb_jungle_gym": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_sports": "Dont Like Sports",
+        "int3c_u04_rpg_ride_bikes": "Ride Bikes",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing"
+      }
     },
     {
       "id": "i3c_u04_q28",
-      "type": 4,
-      "prompt_text": "Do you want to come to my party?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Yes, I'd love to!",
-        "She sings.",
-        "I have a pen."
+      "type": 1,
+      "prompt_text": "Tap watch TV.",
+      "audio_id": "u04_q28",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_ride_bikes",
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_too_scary"
       ],
-      "correct": "Yes, I'd love to!",
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_ride_bikes",
+        "int3c_u04_rpg_watch_tv",
+        "int3c_u04_rpg_too_scary"
+      ],
+      "correct": "int3c_u04_rpg_watch_tv",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_ride_bikes": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_too_scary": "It is too scary — not climb the jungle gym."
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_ride_bikes": "Ride Bikes",
+        "int3c_u04_rpg_watch_tv": "Watch Tv",
+        "int3c_u04_rpg_too_scary": "Too Scary"
+      }
     },
     {
       "id": "i3c_u04_q29",
-      "type": 4,
-      "prompt_text": "How about watching a movie?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He eats.",
-        "She swims.",
-        "Okay, let's do it."
+      "type": 1,
+      "prompt_text": "Tap cook.",
+      "audio_id": "u04_q29",
+      "image_ids": [
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_ride_bikes"
       ],
-      "correct": "Okay, let's do it.",
+      "choices": [
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_lets_ride_bikes"
+      ],
+      "correct": "int3c_u04_rpg_cook",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_lets_ride_bikes": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cook": "Cook",
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_lets_ride_bikes": "Lets Ride Bikes"
+      }
     },
     {
       "id": "i3c_u04_q30",
-      "type": 4,
-      "prompt_text": "Shall we study together?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "Good plan!",
-        "She jumps.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "Tap study.",
+      "audio_id": "u04_q30",
+      "image_ids": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_study"
       ],
-      "correct": "Good plan!",
+      "choices": [
+        "int3c_u04_rpg_dont_like_tv",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_good_idea",
+        "int3c_u04_rpg_study"
+      ],
+      "correct": "int3c_u04_rpg_study",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She jumps.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3c_u04_rpg_dont_like_tv": "I do not like TV — not Let's watch TV.",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_good_idea": "That is not the correct answer. Listen again!"
       },
       "unit": 4,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_dont_like_tv": "Dont Like Tv",
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_good_idea": "Good Idea",
+        "int3c_u04_rpg_study": "Study"
+      }
     }
   ]
 }

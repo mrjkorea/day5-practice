@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int3c",
-    "title": "Intermediate 3C Unit 3: Asking Permission",
+    "title": "Can I Play Outside?",
     "kind": "unit",
     "units_covered": [
       3
     ],
     "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Converted from Hermes INT3C packs (transcript bc-3888b75c); type-1 listen_pick_picture with int3c_* choice PNGs.",
+    "pass_percent": 80,
+    "source_pack": "unit-03-play-outside.json"
   },
   "questions": [
     {
       "id": "i3c_u03_q01",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "Sure, here you go.",
-        "He plays.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Can I play outside?",
+      "audio_id": "u03_q01",
+      "image_ids": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_can_i_play_outside",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "Not Yet Put On Gloves"
+      }
     },
     {
       "id": "i3c_u03_q02",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Yes, you may.",
-        "We eat.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Not yet, put on your shirt.",
+      "audio_id": "u03_q02",
+      "image_ids": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_shirt"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_shirt"
+      ],
+      "correct": "int3c_u03_play_outside_shirt",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u03_play_outside_gloves": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_gloves": "Gloves",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_shirt": "Shirt"
+      }
     },
     {
       "id": "i3c_u03_q03",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He reads.",
-        "I have a dog.",
-        "Sorry, not right now."
+      "type": 1,
+      "prompt_text": "Not yet, put on your pants.",
+      "audio_id": "u03_q03",
+      "image_ids": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_pants",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!"
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_put_on_hat": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_pants": "Pants",
+        "int3c_u03_play_outside_put_on_hat": "Put On Hat",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
       "id": "i3c_u03_q04",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "Of course.",
-        "She swims.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Not yet, put on your socks.",
+      "audio_id": "u03_q04",
+      "image_ids": [
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt"
+      ],
+      "correct": "int3c_u03_play_outside_socks",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u03_play_outside_shorts": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_socks": "Socks",
+        "int3c_u03_play_outside_shorts": "Shorts",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_shirt": "No Shirt"
+      }
     },
     {
       "id": "i3c_u03_q05",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "We study.",
-        "He sleeps.",
-        "No, go ahead."
+      "type": 1,
+      "prompt_text": "Not yet, put on your jacket.",
+      "audio_id": "u03_q05",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_socks"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_socks"
+      ],
+      "correct": "int3c_u03_play_outside_jacket",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_shirt": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_shirt": "Not Yet Put On Shirt",
+        "int3c_u03_play_outside_jacket": "Jacket",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_no_socks": "No Socks"
+      }
     },
     {
       "id": "i3c_u03_q06",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "She is tall.",
-        "Sure, here you go.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "Not yet, put on your gloves.",
+      "audio_id": "u03_q06",
+      "image_ids": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_gloves"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_gloves",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_shorts": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_shorts": "Shorts",
+        "int3c_u03_play_outside_gloves": "Gloves"
+      }
     },
     {
       "id": "i3c_u03_q07",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat.",
-        "Yes, you may.",
-        "He runs.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "Not yet, put on your shoes.",
+      "audio_id": "u03_q07",
+      "image_ids": [
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_gloves"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_shoes",
       "why_wrong": {
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u03_play_outside_put_on_glasses": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_shoes": "Shoes",
+        "int3c_u03_play_outside_put_on_glasses": "Put On Glasses",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_no_gloves": "No Gloves"
+      }
     },
     {
       "id": "i3c_u03_q08",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "Sorry, not right now.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Okay! Have fun.",
+      "audio_id": "u03_q08",
+      "image_ids": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_put_on_dress"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_put_on_dress"
+      ],
+      "correct": "int3c_u03_play_outside_okay_have_fun",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_put_on_dress": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_okay_have_fun": "Okay Have Fun",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_put_on_dress": "Put On Dress"
+      }
     },
     {
       "id": "i3c_u03_q09",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Of course.",
-        "I like red.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "It is too cold. Can I watch TV?",
+      "audio_id": "u03_q09",
+      "image_ids": [
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_too_cold_watch_tv",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_barefoot"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_too_cold_watch_tv",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_barefoot"
+      ],
+      "correct": "int3c_u03_play_outside_too_cold_watch_tv",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u03_play_outside_dress": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket.",
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_dress": "Dress",
+        "int3c_u03_play_outside_too_cold_watch_tv": "Too Cold Watch Tv",
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_barefoot": "Barefoot"
+      }
     },
     {
       "id": "i3c_u03_q10",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "He sleeps.",
-        "No, go ahead.",
-        "We study."
+      "type": 1,
+      "prompt_text": "Put on your dress.",
+      "audio_id": "u03_q10",
+      "image_ids": [
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_no_jacket"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_no_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_dress",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_gloves": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_gloves": "Gloves",
+        "int3c_u03_play_outside_dress": "Dress",
+        "int3c_u03_play_outside_no_jacket": "No Jacket"
+      }
     },
     {
       "id": "i3c_u03_q11",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sure, here you go.",
-        "He plays.",
-        "She is tall.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Put on your skirt.",
+      "audio_id": "u03_q11",
+      "image_ids": [
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_no_pants"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_no_pants"
+      ],
+      "correct": "int3c_u03_play_outside_skirt",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_put_on_glasses": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_skirt": "Skirt",
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_put_on_glasses": "Put On Glasses",
+        "int3c_u03_play_outside_no_pants": "No Pants"
+      }
     },
     {
       "id": "i3c_u03_q12",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Yes, you may.",
-        "We eat.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Put on your hat.",
+      "audio_id": "u03_q12",
+      "image_ids": [
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_no_gloves"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_no_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_hat",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_skirt": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_hat": "Hat",
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_skirt": "Skirt",
+        "int3c_u03_play_outside_no_gloves": "No Gloves"
+      }
     },
     {
       "id": "i3c_u03_q13",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sorry, not right now.",
-        "She sings.",
-        "I have a dog.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Put on your glasses.",
+      "audio_id": "u03_q13",
+      "image_ids": [
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_not_yet_put_on_gloves",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_not_yet_put_on_gloves",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_glasses",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_glasses": "Glasses",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "Not Yet Put On Gloves",
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
       "id": "i3c_u03_q14",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Of course.",
-        "He jumps.",
-        "I like red.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Put on your shorts.",
+      "audio_id": "u03_q14",
+      "image_ids": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_gloves"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_shoes",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_shorts",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_shoes": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_shoes": "Shoes",
+        "int3c_u03_play_outside_shorts": "Shorts",
+        "int3c_u03_play_outside_no_gloves": "No Gloves"
+      }
     },
     {
       "id": "i3c_u03_q15",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, go ahead.",
-        "I like music.",
-        "He sleeps.",
-        "We study."
+      "type": 1,
+      "prompt_text": "Not yet, put on your shirt.",
+      "audio_id": "u03_q15",
+      "image_ids": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_shirt",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_jacket": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_not_yet_put_on_shirt": "Not Yet Put On Shirt",
+        "int3c_u03_play_outside_jacket": "Jacket"
+      }
     },
     {
       "id": "i3c_u03_q16",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "Sure, here you go.",
-        "She is tall.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Not yet, put on your pants.",
+      "audio_id": "u03_q16",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_dress"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_dress"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_pants",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_dress": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_pants": "Not Yet Put On Pants",
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_dress": "Dress"
+      }
     },
     {
       "id": "i3c_u03_q17",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, you may.",
-        "I like blue.",
-        "He runs.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "Not yet, put on your socks.",
+      "audio_id": "u03_q17",
+      "image_ids": [
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_socks"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_socks"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_socks",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_put_on_hat": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_put_on_hat": "Put On Hat",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_not_yet_put_on_socks": "Not Yet Put On Socks"
+      }
     },
     {
       "id": "i3c_u03_q18",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sorry, not right now.",
-        "He reads.",
-        "I have a dog.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Not yet, put on your jacket.",
+      "audio_id": "u03_q18",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_shirt"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_not_yet_put_on_pants",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_shirt"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_jacket",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_pants": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket",
+        "int3c_u03_play_outside_not_yet_put_on_pants": "Not Yet Put On Pants",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_no_shirt": "No Shirt"
+      }
     },
     {
       "id": "i3c_u03_q19",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "She swims.",
-        "Of course.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "Not yet, put on your gloves.",
+      "audio_id": "u03_q19",
+      "image_ids": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_gloves",
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_gloves"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_gloves",
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_gloves",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_can_i_play_outside": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "Not Yet Put On Gloves",
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside",
+        "int3c_u03_play_outside_no_gloves": "No Gloves"
+      }
     },
     {
       "id": "i3c_u03_q20",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like music.",
-        "No, go ahead.",
-        "We study.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "Not yet, put on your shoes.",
+      "audio_id": "u03_q20",
+      "image_ids": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_no_pants"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_no_pants"
+      ],
+      "correct": "int3c_u03_play_outside_not_yet_put_on_shoes",
       "why_wrong": {
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3c_u03_play_outside_okay_have_fun": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_okay_have_fun": "Okay Have Fun",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_not_yet_put_on_shoes": "Not Yet Put On Shoes",
+        "int3c_u03_play_outside_no_pants": "No Pants"
+      }
     },
     {
       "id": "i3c_u03_q21",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "Sure, here you go.",
-        "He plays.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Tap your shirt.",
+      "audio_id": "u03_q21",
+      "image_ids": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_barefoot"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_dress",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_barefoot"
+      ],
+      "correct": "int3c_u03_play_outside_shirt",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_dress": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_dress": "Dress",
+        "int3c_u03_play_outside_shirt": "Shirt",
+        "int3c_u03_play_outside_barefoot": "Barefoot"
+      }
     },
     {
       "id": "i3c_u03_q22",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "We eat.",
-        "Yes, you may.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Tap your pants.",
+      "audio_id": "u03_q22",
+      "image_ids": [
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_glasses",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_pants",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket.",
+        "int3c_u03_play_outside_put_on_glasses": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_pants": "Pants",
+        "int3c_u03_play_outside_put_on_glasses": "Put On Glasses",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
       "id": "i3c_u03_q23",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I have a dog.",
-        "Sorry, not right now.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Tap your socks.",
+      "audio_id": "u03_q23",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_jacket",
+        "int3c_u03_play_outside_no_socks",
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_socks",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks.",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket",
+        "int3c_u03_play_outside_no_socks": "No Socks",
+        "int3c_u03_play_outside_socks": "Socks",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
       "id": "i3c_u03_q24",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "Of course.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Tap your jacket.",
+      "audio_id": "u03_q24",
+      "image_ids": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_no_shoes"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_not_yet_put_on_shirt",
+        "int3c_u03_play_outside_jacket",
+        "int3c_u03_play_outside_no_shoes"
+      ],
+      "correct": "int3c_u03_play_outside_jacket",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_not_yet_put_on_shirt": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_not_yet_put_on_shirt": "Not Yet Put On Shirt",
+        "int3c_u03_play_outside_jacket": "Jacket",
+        "int3c_u03_play_outside_no_shoes": "No Shoes"
+      }
     },
     {
       "id": "i3c_u03_q25",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "No, go ahead.",
-        "I like music.",
-        "We study."
+      "type": 1,
+      "prompt_text": "Tap your gloves.",
+      "audio_id": "u03_q25",
+      "image_ids": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_tv_only"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_shirt",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_gloves",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_shirt": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_gloves": "Gloves",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_shirt": "Shirt",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      }
     },
     {
       "id": "i3c_u03_q26",
-      "type": 4,
-      "prompt_text": "Can I borrow your eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Sure, here you go.",
-        "She is tall.",
-        "He plays.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Tap your shoes.",
+      "audio_id": "u03_q26",
+      "image_ids": [
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_shoes"
       ],
-      "correct": "Sure, here you go.",
+      "choices": [
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_shoes"
+      ],
+      "correct": "int3c_u03_play_outside_shoes",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int3c_u03_play_outside_shorts": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_shorts": "Shorts",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_shoes": "Shoes"
+      }
     },
     {
       "id": "i3c_u03_q27",
-      "type": 4,
-      "prompt_text": "May I go to the restroom?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "Yes, you may.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "Tap your dress.",
+      "audio_id": "u03_q27",
+      "image_ids": [
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_dress"
       ],
-      "correct": "Yes, you may.",
+      "choices": [
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_skirt",
+        "int3c_u03_play_outside_dress"
+      ],
+      "correct": "int3c_u03_play_outside_dress",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_skirt": "That is not the correct answer. Listen again!"
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_skirt": "Skirt",
+        "int3c_u03_play_outside_dress": "Dress"
+      }
     },
     {
       "id": "i3c_u03_q28",
-      "type": 4,
-      "prompt_text": "Could I use your phone?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "I have a dog.",
-        "Sorry, not right now.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Tap your hat.",
+      "audio_id": "u03_q28",
+      "image_ids": [
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_no_socks"
       ],
-      "correct": "Sorry, not right now.",
+      "choices": [
+        "int3c_u03_play_outside_hat",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_no_socks"
+      ],
+      "correct": "int3c_u03_play_outside_hat",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_put_on_hat": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_socks": "Not yet — put on your socks."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_hat": "Hat",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_put_on_hat": "Put On Hat",
+        "int3c_u03_play_outside_no_socks": "No Socks"
+      }
     },
     {
       "id": "i3c_u03_q29",
-      "type": 4,
-      "prompt_text": "Is it okay if I sit here?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "Of course.",
-        "She swims.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Can I play outside?",
+      "audio_id": "u03_q29",
+      "image_ids": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_no_pants"
       ],
-      "correct": "Of course.",
+      "choices": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_tv_only",
+        "int3c_u03_play_outside_glasses",
+        "int3c_u03_play_outside_no_pants"
+      ],
+      "correct": "int3c_u03_play_outside_can_i_play_outside",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
+        "int3c_u03_play_outside_glasses": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside",
+        "int3c_u03_play_outside_tv_only": "Tv Only",
+        "int3c_u03_play_outside_glasses": "Glasses",
+        "int3c_u03_play_outside_no_pants": "No Pants"
+      }
     },
     {
       "id": "i3c_u03_q30",
-      "type": 4,
-      "prompt_text": "Do you mind if I open the window?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "No, go ahead.",
-        "I like music.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "Okay! Have fun.",
+      "audio_id": "u03_q30",
+      "image_ids": [
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_jacket"
       ],
-      "correct": "No, go ahead.",
+      "choices": [
+        "int3c_u03_play_outside_not_yet_put_on_shoes",
+        "int3c_u03_play_outside_okay_have_fun",
+        "int3c_u03_play_outside_no_shirt",
+        "int3c_u03_play_outside_no_jacket"
+      ],
+      "correct": "int3c_u03_play_outside_okay_have_fun",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I like music.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int3c_u03_play_outside_not_yet_put_on_shoes": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket."
       },
       "unit": 3,
-      "level": "int3c"
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_not_yet_put_on_shoes": "Not Yet Put On Shoes",
+        "int3c_u03_play_outside_okay_have_fun": "Okay Have Fun",
+        "int3c_u03_play_outside_no_shirt": "No Shirt",
+        "int3c_u03_play_outside_no_jacket": "No Jacket"
+      }
     }
   ]
 }
