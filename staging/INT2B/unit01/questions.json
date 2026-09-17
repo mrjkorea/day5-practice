@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2b",
-    "title": "Intermediate 2B Unit 1: Store Hours and Days",
+    "title": "Intermediate 2B Unit 1: Hello, This is Pizza Land",
     "kind": "unit",
     "units_covered": [
       1
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 24,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,780 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
       "id": "i2b_u01_q01",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer.",
-        "I like apples.",
-        "She is ten.",
-        "It's open from Monday to Friday."
+      "type": 1,
+      "prompt_text": "What day is it today? It is Monday.",
+      "audio_id": "u1_q01",
+      "image_ids": [
+        "int2b_monday",
+        "int2b_president",
+        "int2b_ring",
+        "int2b_english_book"
       ],
-      "correct": "It's open from Monday to Friday.",
+      "choices": [
+        "int2b_monday",
+        "int2b_president",
+        "int2b_ring",
+        "int2b_english_book"
+      ],
+      "correct": "int2b_monday",
       "why_wrong": {
-        "He plays soccer.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!",
-        "She is ten.": "Not quite — try again!"
+        "int2b_president": "You tapped \"president\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_ring": "You tapped \"ring\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_monday": "Monday calendar",
+        "int2b_president": "president",
+        "int2b_ring": "ring",
+        "int2b_english_book": "English book"
+      }
     },
     {
       "id": "i2b_u01_q02",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She has a dog.",
-        "It's Wednesday.",
-        "They swim.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "It is Tuesday.",
+      "audio_id": "u1_q02",
+      "image_ids": [
+        "int2b_bed",
+        "int2b_tuesday",
+        "int2b_clock_330",
+        "int2b_wallet"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_bed",
+        "int2b_tuesday",
+        "int2b_clock_330",
+        "int2b_wallet"
+      ],
+      "correct": "int2b_tuesday",
       "why_wrong": {
-        "She has a dog.": "Not quite — try again!",
-        "They swim.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_bed": "bed / bedtime",
+        "int2b_tuesday": "Tuesday calendar",
+        "int2b_clock_330": "clock 3:30",
+        "int2b_wallet": "wallet"
+      }
     },
     {
       "id": "i2b_u01_q03",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's closed on Sunday.",
-        "He is tall.",
-        "We study.",
-        "I want juice."
+      "type": 1,
+      "prompt_text": "It is Wednesday.",
+      "audio_id": "u1_q03",
+      "image_ids": [
+        "int2b_holiday",
+        "int2b_history",
+        "int2b_wednesday",
+        "int2b_doctor"
       ],
-      "correct": "No, it's closed on Sunday.",
+      "choices": [
+        "int2b_holiday",
+        "int2b_history",
+        "int2b_wednesday",
+        "int2b_doctor"
+      ],
+      "correct": "int2b_wednesday",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_holiday": "holiday / party flag",
+        "int2b_history": "history / scroll",
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_doctor": "doctor"
+      }
     },
     {
       "id": "i2b_u01_q04",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "Tuesday through Saturday.",
-        "I like blue.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "It is Thursday.",
+      "audio_id": "u1_q04",
+      "image_ids": [
+        "int2b_president",
+        "int2b_fat",
+        "int2b_thursday",
+        "int2b_tall"
       ],
-      "correct": "Tuesday through Saturday.",
+      "choices": [
+        "int2b_president",
+        "int2b_fat",
+        "int2b_thursday",
+        "int2b_tall"
+      ],
+      "correct": "int2b_thursday",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2b_president": "You tapped \"president\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_president": "president",
+        "int2b_fat": "fat person (kind cartoon)",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_tall": "tall person"
+      }
     },
     {
       "id": "i2b_u01_q05",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "It starts on Monday.",
-        "I have a cat.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "It is Friday.",
+      "audio_id": "u1_q05",
+      "image_ids": [
+        "int2b_house",
+        "int2b_friday",
+        "int2b_ring",
+        "int2b_music"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_house",
+        "int2b_friday",
+        "int2b_ring",
+        "int2b_music"
+      ],
+      "correct": "int2b_friday",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_house": "You tapped \"house\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!",
+        "int2b_ring": "You tapped \"ring\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!",
+        "int2b_music": "You tapped \"music / notes\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_house": "house",
+        "int2b_friday": "Friday calendar",
+        "int2b_ring": "ring",
+        "int2b_music": "music / notes"
+      }
     },
     {
       "id": "i2b_u01_q06",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays soccer.",
-        "She is ten.",
-        "I like apples.",
-        "It's open from Monday to Friday."
+      "type": 1,
+      "prompt_text": "It is Saturday.",
+      "audio_id": "u1_q06",
+      "image_ids": [
+        "int2b_laptop_class",
+        "int2b_breakfast",
+        "int2b_saturday",
+        "int2b_japanese_book"
       ],
-      "correct": "It's open from Monday to Friday.",
+      "choices": [
+        "int2b_laptop_class",
+        "int2b_breakfast",
+        "int2b_saturday",
+        "int2b_japanese_book"
+      ],
+      "correct": "int2b_saturday",
       "why_wrong": {
-        "He plays soccer.": "Not quite — try again!",
-        "She is ten.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!",
+        "int2b_breakfast": "You tapped \"breakfast\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_breakfast": "breakfast",
+        "int2b_saturday": "Saturday calendar",
+        "int2b_japanese_book": "Japanese book"
+      }
     },
     {
       "id": "i2b_u01_q07",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's Wednesday.",
-        "I am fine.",
-        "They swim.",
-        "She has a dog."
+      "type": 1,
+      "prompt_text": "It is Sunday.",
+      "audio_id": "u1_q07",
+      "image_ids": [
+        "int2b_doctor",
+        "int2b_bike",
+        "int2b_sunday",
+        "int2b_poor"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_doctor",
+        "int2b_bike",
+        "int2b_sunday",
+        "int2b_poor"
+      ],
+      "correct": "int2b_sunday",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "They swim.": "Not quite — try again!",
-        "She has a dog.": "Not quite — try again!"
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!",
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_doctor": "doctor",
+        "int2b_bike": "bicycle",
+        "int2b_sunday": "Sunday calendar",
+        "int2b_poor": "poor person with empty pockets"
+      }
     },
     {
       "id": "i2b_u01_q08",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "No, it's closed on Sunday.",
-        "We study.",
-        "I want juice.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "Today is a holiday.",
+      "audio_id": "u1_q08",
+      "image_ids": [
+        "int2b_work_day",
+        "int2b_clock_710",
+        "int2b_holiday",
+        "int2b_math"
       ],
-      "correct": "No, it's closed on Sunday.",
+      "choices": [
+        "int2b_work_day",
+        "int2b_clock_710",
+        "int2b_holiday",
+        "int2b_math"
+      ],
+      "correct": "int2b_holiday",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!",
+        "int2b_clock_710": "You tapped \"clock 7:10\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!",
+        "int2b_math": "You tapped \"math / numbers\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_work_day": "office building (work day)",
+        "int2b_clock_710": "clock 7:10",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_math": "math / numbers"
+      }
     },
     {
       "id": "i2b_u01_q09",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tuesday through Saturday.",
-        "She reads.",
-        "He runs.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "Today is a school day.",
+      "audio_id": "u1_q09",
+      "image_ids": [
+        "int2b_rich",
+        "int2b_shoes",
+        "int2b_doctor",
+        "int2b_school_day"
       ],
-      "correct": "Tuesday through Saturday.",
+      "choices": [
+        "int2b_rich",
+        "int2b_shoes",
+        "int2b_doctor",
+        "int2b_school_day"
+      ],
+      "correct": "int2b_school_day",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!",
+        "int2b_shoes": "You tapped \"shoes\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_rich": "rich person with money",
+        "int2b_shoes": "shoes",
+        "int2b_doctor": "doctor",
+        "int2b_school_day": "school building (school day)"
+      }
     },
     {
       "id": "i2b_u01_q10",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I have a cat.",
-        "He eats.",
-        "It starts on Monday."
+      "type": 1,
+      "prompt_text": "Today is a work day.",
+      "audio_id": "u1_q10",
+      "image_ids": [
+        "int2b_game_controller",
+        "int2b_clock_11am",
+        "int2b_doctor",
+        "int2b_work_day"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_game_controller",
+        "int2b_clock_11am",
+        "int2b_doctor",
+        "int2b_work_day"
+      ],
+      "correct": "int2b_work_day",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!",
+        "int2b_clock_11am": "You tapped \"clock 11:00 a.m.\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q11",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's open from Monday to Friday.",
-        "I like apples.",
-        "He plays soccer.",
-        "She is ten."
-      ],
-      "correct": "It's open from Monday to Friday.",
-      "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "She is ten.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_game_controller": "game controller",
+        "int2b_clock_11am": "clock 11:00 a.m.",
+        "int2b_doctor": "doctor",
+        "int2b_work_day": "office building (work day)"
+      }
     },
     {
       "id": "i2b_u01_q12",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They swim.",
-        "I am fine.",
-        "It's Wednesday.",
-        "She has a dog."
+      "type": 1,
+      "prompt_text": "We close every Monday.",
+      "audio_id": "u1_q12",
+      "image_ids": [
+        "int2b_closed_sign",
+        "int2b_transit_card",
+        "int2b_bike",
+        "int2b_tall"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_closed_sign",
+        "int2b_transit_card",
+        "int2b_bike",
+        "int2b_tall"
+      ],
+      "correct": "int2b_closed_sign",
       "why_wrong": {
-        "They swim.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She has a dog.": "Not quite — try again!"
+        "int2b_transit_card": "You tapped \"transit card\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q13",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want juice.",
-        "We study.",
-        "No, it's closed on Sunday.",
-        "He is tall."
-      ],
-      "correct": "No, it's closed on Sunday.",
-      "why_wrong": {
-        "I want juice.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q14",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "Tuesday through Saturday.",
-        "I like blue.",
-        "He runs."
-      ],
-      "correct": "Tuesday through Saturday.",
-      "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_transit_card": "transit card",
+        "int2b_bike": "bicycle",
+        "int2b_tall": "tall person"
+      }
     },
     {
       "id": "i2b_u01_q15",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "He eats.",
-        "It starts on Monday.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "We close every Monday.",
+      "audio_id": "u1_q15",
+      "image_ids": [
+        "int2b_transit_card",
+        "int2b_art",
+        "int2b_actor",
+        "int2b_closed_sign"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_transit_card",
+        "int2b_art",
+        "int2b_actor",
+        "int2b_closed_sign"
+      ],
+      "correct": "int2b_closed_sign",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2b_transit_card": "You tapped \"transit card\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_art": "You tapped \"art / paintbrush\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_transit_card": "transit card",
+        "int2b_art": "art / paintbrush",
+        "int2b_actor": "actor / actress",
+        "int2b_closed_sign": "CLOSED sign"
+      }
     },
     {
       "id": "i2b_u01_q16",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "It's open from Monday to Friday.",
-        "He plays soccer.",
-        "She is ten."
+      "type": 1,
+      "prompt_text": "What day is it today? It is Monday.",
+      "audio_id": "u1_q16",
+      "image_ids": [
+        "int2b_hacker",
+        "int2b_good_looking",
+        "int2b_korean_book",
+        "int2b_monday"
       ],
-      "correct": "It's open from Monday to Friday.",
+      "choices": [
+        "int2b_hacker",
+        "int2b_good_looking",
+        "int2b_korean_book",
+        "int2b_monday"
+      ],
+      "correct": "int2b_monday",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "She is ten.": "Not quite — try again!"
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hacker": "computer hacker",
+        "int2b_good_looking": "good-looking person",
+        "int2b_korean_book": "Korean book",
+        "int2b_monday": "Monday calendar"
+      }
     },
     {
       "id": "i2b_u01_q17",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "They swim.",
-        "She has a dog.",
-        "It's Wednesday."
+      "type": 1,
+      "prompt_text": "It is Tuesday.",
+      "audio_id": "u1_q17",
+      "image_ids": [
+        "int2b_glasses",
+        "int2b_work_day",
+        "int2b_rich",
+        "int2b_tuesday"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_glasses",
+        "int2b_work_day",
+        "int2b_rich",
+        "int2b_tuesday"
+      ],
+      "correct": "int2b_tuesday",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "They swim.": "Not quite — try again!",
-        "She has a dog.": "Not quite — try again!"
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_glasses": "glasses",
+        "int2b_work_day": "office building (work day)",
+        "int2b_rich": "rich person with money",
+        "int2b_tuesday": "Tuesday calendar"
+      }
     },
     {
       "id": "i2b_u01_q18",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "No, it's closed on Sunday.",
-        "I want juice.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "It is Wednesday.",
+      "audio_id": "u1_q18",
+      "image_ids": [
+        "int2b_old",
+        "int2b_car",
+        "int2b_laptop_class",
+        "int2b_wednesday"
       ],
-      "correct": "No, it's closed on Sunday.",
+      "choices": [
+        "int2b_old",
+        "int2b_car",
+        "int2b_laptop_class",
+        "int2b_wednesday"
+      ],
+      "correct": "int2b_wednesday",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2b_old": "You tapped \"old person\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_car": "You tapped \"car\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_old": "old person",
+        "int2b_car": "car",
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_wednesday": "Wednesday calendar"
+      }
     },
     {
       "id": "i2b_u01_q19",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "Tuesday through Saturday.",
-        "He runs.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "It is Thursday.",
+      "audio_id": "u1_q19",
+      "image_ids": [
+        "int2b_pencil_case",
+        "int2b_game_controller",
+        "int2b_thursday",
+        "int2b_bed"
       ],
-      "correct": "Tuesday through Saturday.",
+      "choices": [
+        "int2b_pencil_case",
+        "int2b_game_controller",
+        "int2b_thursday",
+        "int2b_bed"
+      ],
+      "correct": "int2b_thursday",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_pencil_case": "pencil case",
+        "int2b_game_controller": "game controller",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_bed": "bed / bedtime"
+      }
     },
     {
       "id": "i2b_u01_q20",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He eats.",
-        "She sings.",
-        "I have a cat.",
-        "It starts on Monday."
+      "type": 1,
+      "prompt_text": "It is Friday.",
+      "audio_id": "u1_q20",
+      "image_ids": [
+        "int2b_poor",
+        "int2b_old",
+        "int2b_friday",
+        "int2b_clock_10pm"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_poor",
+        "int2b_old",
+        "int2b_friday",
+        "int2b_clock_10pm"
+      ],
+      "correct": "int2b_friday",
       "why_wrong": {
-        "He eats.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!",
+        "int2b_old": "You tapped \"old person\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!",
+        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"It is Friday.\". The correct picture is \"Friday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_old": "old person",
+        "int2b_friday": "Friday calendar",
+        "int2b_clock_10pm": "clock 10:00 p.m."
+      }
     },
     {
       "id": "i2b_u01_q21",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "She is ten.",
-        "It's open from Monday to Friday.",
-        "He plays soccer."
+      "type": 1,
+      "prompt_text": "It is Saturday.",
+      "audio_id": "u1_q21",
+      "image_ids": [
+        "int2b_poor",
+        "int2b_wednesday",
+        "int2b_saturday",
+        "int2b_scientist"
       ],
-      "correct": "It's open from Monday to Friday.",
+      "choices": [
+        "int2b_poor",
+        "int2b_wednesday",
+        "int2b_saturday",
+        "int2b_scientist"
+      ],
+      "correct": "int2b_saturday",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "She is ten.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!"
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!",
+        "int2b_wednesday": "You tapped \"Wednesday calendar\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!",
+        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"It is Saturday.\". The correct picture is \"Saturday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_saturday": "Saturday calendar",
+        "int2b_scientist": "scientist"
+      }
     },
     {
       "id": "i2b_u01_q22",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's Wednesday.",
-        "They swim.",
-        "She has a dog.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "It is Sunday.",
+      "audio_id": "u1_q22",
+      "image_ids": [
+        "int2b_thin",
+        "int2b_sunday",
+        "int2b_game_controller",
+        "int2b_actor"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_thin",
+        "int2b_sunday",
+        "int2b_game_controller",
+        "int2b_actor"
+      ],
+      "correct": "int2b_sunday",
       "why_wrong": {
-        "They swim.": "Not quite — try again!",
-        "She has a dog.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2b_thin": "You tapped \"thin person\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!",
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"It is Sunday.\". The correct picture is \"Sunday calendar\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_thin": "thin person",
+        "int2b_sunday": "Sunday calendar",
+        "int2b_game_controller": "game controller",
+        "int2b_actor": "actor / actress"
+      }
     },
     {
       "id": "i2b_u01_q23",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I want juice.",
-        "No, it's closed on Sunday.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "Today is a holiday.",
+      "audio_id": "u1_q23",
+      "image_ids": [
+        "int2b_holiday",
+        "int2b_monday",
+        "int2b_tuesday",
+        "int2b_saturday"
       ],
-      "correct": "No, it's closed on Sunday.",
+      "choices": [
+        "int2b_holiday",
+        "int2b_monday",
+        "int2b_tuesday",
+        "int2b_saturday"
+      ],
+      "correct": "int2b_holiday",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!",
+        "int2b_tuesday": "You tapped \"Tuesday calendar\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!",
+        "int2b_saturday": "You tapped \"Saturday calendar\", but the audio said: \"Today is a holiday.\". The correct picture is \"holiday / party flag\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_holiday": "holiday / party flag",
+        "int2b_monday": "Monday calendar",
+        "int2b_tuesday": "Tuesday calendar",
+        "int2b_saturday": "Saturday calendar"
+      }
     },
     {
       "id": "i2b_u01_q24",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tuesday through Saturday.",
-        "She reads.",
-        "I like blue.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "Today is a school day.",
+      "audio_id": "u1_q24",
+      "image_ids": [
+        "int2b_smart",
+        "int2b_school_day",
+        "int2b_closed_sign",
+        "int2b_social"
       ],
-      "correct": "Tuesday through Saturday.",
+      "choices": [
+        "int2b_smart",
+        "int2b_school_day",
+        "int2b_closed_sign",
+        "int2b_social"
+      ],
+      "correct": "int2b_school_day",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!",
+        "int2b_closed_sign": "You tapped \"CLOSED sign\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!",
+        "int2b_social": "You tapped \"social studies globe\", but the audio said: \"Today is a school day.\". The correct picture is \"school building (school day)\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_smart": "smart student with book",
+        "int2b_school_day": "school building (school day)",
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_social": "social studies globe"
+      }
     },
     {
       "id": "i2b_u01_q25",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He eats.",
-        "I have a cat.",
-        "It starts on Monday."
+      "type": 1,
+      "prompt_text": "Today is a work day.",
+      "audio_id": "u1_q25",
+      "image_ids": [
+        "int2b_glasses",
+        "int2b_stairs",
+        "int2b_work_day",
+        "int2b_ugly"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_glasses",
+        "int2b_stairs",
+        "int2b_work_day",
+        "int2b_ugly"
+      ],
+      "correct": "int2b_work_day",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!",
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!",
+        "int2b_ugly": "You tapped \"ugly face (cartoon)\", but the audio said: \"Today is a work day.\". The correct picture is \"office building (work day)\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q26",
-      "type": 4,
-      "prompt_text": "When is the store open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is ten.",
-        "He plays soccer.",
-        "It's open from Monday to Friday.",
-        "I like apples."
-      ],
-      "correct": "It's open from Monday to Friday.",
-      "why_wrong": {
-        "She is ten.": "Not quite — try again!",
-        "He plays soccer.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_glasses": "glasses",
+        "int2b_stairs": "stairs",
+        "int2b_work_day": "office building (work day)",
+        "int2b_ugly": "ugly face (cartoon)"
+      }
     },
     {
       "id": "i2b_u01_q27",
-      "type": 4,
-      "prompt_text": "What day is it today?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They swim.",
-        "I am fine.",
-        "It's Wednesday.",
-        "She has a dog."
+      "type": 1,
+      "prompt_text": "We close every Monday.",
+      "audio_id": "u1_q27",
+      "image_ids": [
+        "int2b_president",
+        "int2b_house",
+        "int2b_desk",
+        "int2b_closed_sign"
       ],
-      "correct": "It's Wednesday.",
+      "choices": [
+        "int2b_president",
+        "int2b_house",
+        "int2b_desk",
+        "int2b_closed_sign"
+      ],
+      "correct": "int2b_closed_sign",
       "why_wrong": {
-        "They swim.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "She has a dog.": "Not quite — try again!"
+        "int2b_president": "You tapped \"president\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_house": "You tapped \"house\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q28",
-      "type": 4,
-      "prompt_text": "Is the shop open on Sunday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is tall.",
-        "We study.",
-        "I want juice.",
-        "No, it's closed on Sunday."
-      ],
-      "correct": "No, it's closed on Sunday.",
-      "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u01_q29",
-      "type": 4,
-      "prompt_text": "Which days is the library open?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Tuesday through Saturday.",
-        "She reads.",
-        "I like blue.",
-        "He runs."
-      ],
-      "correct": "Tuesday through Saturday.",
-      "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
-      },
-      "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_president": "president",
+        "int2b_house": "house",
+        "int2b_desk": "desk",
+        "int2b_closed_sign": "CLOSED sign"
+      }
     },
     {
       "id": "i2b_u01_q30",
-      "type": 4,
-      "prompt_text": "When does school start?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It starts on Monday.",
-        "I have a cat.",
-        "She sings.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "We close every Monday.",
+      "audio_id": "u1_q30",
+      "image_ids": [
+        "int2b_clock_710",
+        "int2b_fat",
+        "int2b_recess",
+        "int2b_closed_sign"
       ],
-      "correct": "It starts on Monday.",
+      "choices": [
+        "int2b_clock_710",
+        "int2b_fat",
+        "int2b_recess",
+        "int2b_closed_sign"
+      ],
+      "correct": "int2b_closed_sign",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_clock_710": "You tapped \"clock 7:10\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!",
+        "int2b_recess": "You tapped \"recess playground\", but the audio said: \"We close every Monday.\". The correct picture is \"CLOSED sign\". Listen again!"
       },
       "unit": 1,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_710": "clock 7:10",
+        "int2b_fat": "fat person (kind cartoon)",
+        "int2b_recess": "recess playground",
+        "int2b_closed_sign": "CLOSED sign"
+      }
     }
   ]
 }

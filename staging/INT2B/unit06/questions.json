@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2b",
-    "title": "Intermediate 2B Unit 6: Introducing Teachers",
+    "title": "Intermediate 2B Unit 6: Welcome to Parent's Night",
     "kind": "unit",
     "units_covered": [
       6
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 24,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,780 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
-      "id": "i2b_u06_q01",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "I am hungry.",
-        "It is cold.",
-        "Nice to meet you."
-      ],
-      "correct": "Nice to meet you.",
-      "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
-    },
-    {
       "id": "i2b_u06_q02",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We study.",
-        "I have a cat.",
-        "Pleased to meet you."
+      "type": 1,
+      "prompt_text": "This is my English teacher, Mr. Jay.",
+      "audio_id": "u6_q02",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_breakfast",
+        "int2b_pro_gamer",
+        "int2b_won_coin"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_english_book",
+        "int2b_breakfast",
+        "int2b_pro_gamer",
+        "int2b_won_coin"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2b_breakfast": "You tapped \"breakfast\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_breakfast": "breakfast",
+        "int2b_pro_gamer": "pro-gamer",
+        "int2b_won_coin": "Korean won coins"
+      }
     },
     {
       "id": "i2b_u06_q03",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hello, everyone!",
-        "She sings.",
-        "I like blue.",
-        "He plays."
+      "type": 1,
+      "prompt_text": "This is my math teacher.",
+      "audio_id": "u6_q03",
+      "image_ids": [
+        "int2b_doctor",
+        "int2b_glasses",
+        "int2b_tall",
+        "int2b_math"
       ],
-      "correct": "Hello, everyone!",
+      "choices": [
+        "int2b_doctor",
+        "int2b_glasses",
+        "int2b_tall",
+        "int2b_math"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_doctor": "doctor",
+        "int2b_glasses": "glasses",
+        "int2b_tall": "tall person",
+        "int2b_math": "math / numbers"
+      }
     },
     {
       "id": "i2b_u06_q04",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "How do you do?",
-        "He eats.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "This is my science teacher.",
+      "audio_id": "u6_q04",
+      "image_ids": [
+        "int2b_food_critic",
+        "int2b_science",
+        "int2b_pro_gamer",
+        "int2b_game_controller"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_food_critic",
+        "int2b_science",
+        "int2b_pro_gamer",
+        "int2b_game_controller"
+      ],
+      "correct": "int2b_science",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_food_critic": "food critic",
+        "int2b_science": "science / flask",
+        "int2b_pro_gamer": "pro-gamer",
+        "int2b_game_controller": "game controller"
+      }
     },
     {
       "id": "i2b_u06_q05",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Welcome to our home.",
-        "She swims.",
-        "He jumps.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "This is my history teacher.",
+      "audio_id": "u6_q05",
+      "image_ids": [
+        "int2b_history",
+        "int2b_won_coin",
+        "int2b_socks",
+        "int2b_wednesday"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_history",
+        "int2b_won_coin",
+        "int2b_socks",
+        "int2b_wednesday"
+      ],
+      "correct": "int2b_history",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!",
+        "int2b_socks": "You tapped \"socks\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!",
+        "int2b_wednesday": "You tapped \"Wednesday calendar\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_history": "history / scroll",
+        "int2b_won_coin": "Korean won coins",
+        "int2b_socks": "socks",
+        "int2b_wednesday": "Wednesday calendar"
+      }
     },
     {
       "id": "i2b_u06_q06",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It is cold.",
-        "Nice to meet you.",
-        "She likes red."
+      "type": 1,
+      "prompt_text": "This is my music teacher.",
+      "audio_id": "u6_q06",
+      "image_ids": [
+        "int2b_music",
+        "int2b_english_teacher",
+        "int2b_actor",
+        "int2b_convenience"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_music",
+        "int2b_english_teacher",
+        "int2b_actor",
+        "int2b_convenience"
+      ],
+      "correct": "int2b_music",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_music": "music / notes",
+        "int2b_english_teacher": "English teacher",
+        "int2b_actor": "actor / actress",
+        "int2b_convenience": "convenience store"
+      }
     },
     {
       "id": "i2b_u06_q07",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Pleased to meet you.",
-        "I have a cat.",
-        "We study.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "This is my art teacher.",
+      "audio_id": "u6_q07",
+      "image_ids": [
+        "int2b_art",
+        "int2b_stairs",
+        "int2b_sunday",
+        "int2b_school"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_art",
+        "int2b_stairs",
+        "int2b_sunday",
+        "int2b_school"
+      ],
+      "correct": "int2b_art",
       "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_sunday": "You tapped \"Sunday calendar\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_school": "You tapped \"school\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_art": "art / paintbrush",
+        "int2b_stairs": "stairs",
+        "int2b_sunday": "Sunday calendar",
+        "int2b_school": "school"
+      }
     },
     {
       "id": "i2b_u06_q08",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He plays.",
-        "Hello, everyone!",
-        "She sings."
+      "type": 1,
+      "prompt_text": "This is my gym teacher.",
+      "audio_id": "u6_q08",
+      "image_ids": [
+        "int2b_actor",
+        "int2b_convenience",
+        "int2b_gym_subj",
+        "int2b_bus_stop"
       ],
-      "correct": "Hello, everyone!",
+      "choices": [
+        "int2b_actor",
+        "int2b_convenience",
+        "int2b_gym_subj",
+        "int2b_bus_stop"
+      ],
+      "correct": "int2b_gym_subj",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!",
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_actor": "actor / actress",
+        "int2b_convenience": "convenience store",
+        "int2b_gym_subj": "gym class",
+        "int2b_bus_stop": "bus stop"
+      }
     },
     {
       "id": "i2b_u06_q09",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "How do you do?",
-        "I am ten.",
-        "She reads.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "This is my Korean teacher.",
+      "audio_id": "u6_q09",
+      "image_ids": [
+        "int2b_doctor",
+        "int2b_bed",
+        "int2b_korean_book",
+        "int2b_recess"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_doctor",
+        "int2b_bed",
+        "int2b_korean_book",
+        "int2b_recess"
+      ],
+      "correct": "int2b_korean_book",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!",
+        "int2b_recess": "You tapped \"recess playground\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_doctor": "doctor",
+        "int2b_bed": "bed / bedtime",
+        "int2b_korean_book": "Korean book",
+        "int2b_recess": "recess playground"
+      }
     },
     {
       "id": "i2b_u06_q10",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "I like summer.",
-        "Welcome to our home."
+      "type": 1,
+      "prompt_text": "This is my social studies teacher.",
+      "audio_id": "u6_q10",
+      "image_ids": [
+        "int2b_open_sign",
+        "int2b_social",
+        "int2b_old",
+        "int2b_clock_10am"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_open_sign",
+        "int2b_social",
+        "int2b_old",
+        "int2b_clock_10am"
+      ],
+      "correct": "int2b_social",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_old": "You tapped \"old person\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_clock_10am": "You tapped \"clock 10:00 a.m.\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_open_sign": "OPEN sign",
+        "int2b_social": "social studies globe",
+        "int2b_old": "old person",
+        "int2b_clock_10am": "clock 10:00 a.m."
+      }
     },
     {
       "id": "i2b_u06_q11",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "She likes red.",
-        "Nice to meet you.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "This is my Japanese teacher.",
+      "audio_id": "u6_q11",
+      "image_ids": [
+        "int2b_japanese_book",
+        "int2b_english_teacher",
+        "int2b_pencil_case",
+        "int2b_english_book"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_japanese_book",
+        "int2b_english_teacher",
+        "int2b_pencil_case",
+        "int2b_english_book"
+      ],
+      "correct": "int2b_japanese_book",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u06_q12",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a cat.",
-        "He runs.",
-        "Pleased to meet you.",
-        "We study."
-      ],
-      "correct": "Pleased to meet you.",
-      "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u06_q13",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "She sings.",
-        "Hello, everyone!",
-        "I like blue."
-      ],
-      "correct": "Hello, everyone!",
-      "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_japanese_book": "Japanese book",
+        "int2b_english_teacher": "English teacher",
+        "int2b_pencil_case": "pencil case",
+        "int2b_english_book": "English book"
+      }
     },
     {
       "id": "i2b_u06_q14",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "He eats.",
-        "How do you do?",
-        "She reads."
+      "type": 1,
+      "prompt_text": "This is Mr. Jay, my English teacher.",
+      "audio_id": "u6_q14",
+      "image_ids": [
+        "int2b_closed_sign",
+        "int2b_clock_12",
+        "int2b_english_book",
+        "int2b_tall"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_closed_sign",
+        "int2b_clock_12",
+        "int2b_english_book",
+        "int2b_tall"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_closed_sign": "You tapped \"CLOSED sign\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_closed_sign": "CLOSED sign",
+        "int2b_clock_12": "clock 12:00",
+        "int2b_english_book": "English book",
+        "int2b_tall": "tall person"
+      }
     },
     {
       "id": "i2b_u06_q15",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "Welcome to our home.",
-        "He jumps.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "This is Ms. Gwohok, my math teacher.",
+      "audio_id": "u6_q15",
+      "image_ids": [
+        "int2b_keys",
+        "int2b_thursday",
+        "int2b_sunday",
+        "int2b_math"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_keys",
+        "int2b_thursday",
+        "int2b_sunday",
+        "int2b_math"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_sunday": "You tapped \"Sunday calendar\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u06_q16",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It is cold.",
-        "Nice to meet you.",
-        "She likes red."
-      ],
-      "correct": "Nice to meet you.",
-      "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_keys": "keys",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_sunday": "Sunday calendar",
+        "int2b_math": "math / numbers"
+      }
     },
     {
       "id": "i2b_u06_q17",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "Pleased to meet you.",
-        "He runs.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "This is my English teacher, Mr. Jay.",
+      "audio_id": "u6_q17",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_food_critic",
+        "int2b_thursday",
+        "int2b_clock_10pm"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_english_book",
+        "int2b_food_critic",
+        "int2b_thursday",
+        "int2b_clock_10pm"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!",
+        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"This is my English teacher, Mr. Jay.\". The correct picture is \"English book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_food_critic": "food critic",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_clock_10pm": "clock 10:00 p.m."
+      }
     },
     {
       "id": "i2b_u06_q18",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I like blue.",
-        "Hello, everyone!",
-        "He plays."
+      "type": 1,
+      "prompt_text": "This is my math teacher.",
+      "audio_id": "u6_q18",
+      "image_ids": [
+        "int2b_wallet",
+        "int2b_glasses",
+        "int2b_math",
+        "int2b_bus_stop"
       ],
-      "correct": "Hello, everyone!",
+      "choices": [
+        "int2b_wallet",
+        "int2b_glasses",
+        "int2b_math",
+        "int2b_bus_stop"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"This is my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_wallet": "wallet",
+        "int2b_glasses": "glasses",
+        "int2b_math": "math / numbers",
+        "int2b_bus_stop": "bus stop"
+      }
     },
     {
       "id": "i2b_u06_q19",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "How do you do?",
-        "He eats.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "This is my science teacher.",
+      "audio_id": "u6_q19",
+      "image_ids": [
+        "int2b_science",
+        "int2b_pencil_case",
+        "int2b_old",
+        "int2b_hamburger"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_science",
+        "int2b_pencil_case",
+        "int2b_old",
+        "int2b_hamburger"
+      ],
+      "correct": "int2b_science",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_old": "You tapped \"old person\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!",
+        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"This is my science teacher.\". The correct picture is \"science / flask\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_science": "science / flask",
+        "int2b_pencil_case": "pencil case",
+        "int2b_old": "old person",
+        "int2b_hamburger": "hamburger"
+      }
     },
     {
       "id": "i2b_u06_q20",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Welcome to our home.",
-        "I like summer.",
-        "She swims.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "This is my history teacher.",
+      "audio_id": "u6_q20",
+      "image_ids": [
+        "int2b_shoes",
+        "int2b_socks",
+        "int2b_history",
+        "int2b_open_sign"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_shoes",
+        "int2b_socks",
+        "int2b_history",
+        "int2b_open_sign"
+      ],
+      "correct": "int2b_history",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_shoes": "You tapped \"shoes\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!",
+        "int2b_socks": "You tapped \"socks\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!",
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"This is my history teacher.\". The correct picture is \"history / scroll\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_shoes": "shoes",
+        "int2b_socks": "socks",
+        "int2b_history": "history / scroll",
+        "int2b_open_sign": "OPEN sign"
+      }
     },
     {
       "id": "i2b_u06_q21",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It is cold.",
-        "Nice to meet you.",
-        "She likes red."
+      "type": 1,
+      "prompt_text": "This is my music teacher.",
+      "audio_id": "u6_q21",
+      "image_ids": [
+        "int2b_actor",
+        "int2b_music",
+        "int2b_rich",
+        "int2b_hacker"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_actor",
+        "int2b_music",
+        "int2b_rich",
+        "int2b_hacker"
+      ],
+      "correct": "int2b_music",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!",
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"This is my music teacher.\". The correct picture is \"music / notes\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_actor": "actor / actress",
+        "int2b_music": "music / notes",
+        "int2b_rich": "rich person with money",
+        "int2b_hacker": "computer hacker"
+      }
     },
     {
       "id": "i2b_u06_q22",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "Pleased to meet you.",
-        "I have a cat.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "This is my art teacher.",
+      "audio_id": "u6_q22",
+      "image_ids": [
+        "int2b_rich",
+        "int2b_food_critic",
+        "int2b_art",
+        "int2b_clock_330"
       ],
-      "correct": "Pleased to meet you.",
+      "choices": [
+        "int2b_rich",
+        "int2b_food_critic",
+        "int2b_art",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_art",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int2b_rich": "You tapped \"rich person with money\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"This is my art teacher.\". The correct picture is \"art / paintbrush\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_rich": "rich person with money",
+        "int2b_food_critic": "food critic",
+        "int2b_art": "art / paintbrush",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
       "id": "i2b_u06_q23",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Hello, everyone!",
-        "I like blue.",
-        "He plays.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "This is my gym teacher.",
+      "audio_id": "u6_q23",
+      "image_ids": [
+        "int2b_judge",
+        "int2b_gym_subj",
+        "int2b_pencil_case",
+        "int2b_glasses"
       ],
-      "correct": "Hello, everyone!",
+      "choices": [
+        "int2b_judge",
+        "int2b_gym_subj",
+        "int2b_pencil_case",
+        "int2b_glasses"
+      ],
+      "correct": "int2b_gym_subj",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2b_judge": "You tapped \"judge\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!",
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!",
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"This is my gym teacher.\". The correct picture is \"gym class\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_judge": "judge",
+        "int2b_gym_subj": "gym class",
+        "int2b_pencil_case": "pencil case",
+        "int2b_glasses": "glasses"
+      }
     },
     {
       "id": "i2b_u06_q24",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "How do you do?",
-        "She reads.",
-        "I am ten.",
-        "He eats."
+      "type": 1,
+      "prompt_text": "This is my Korean teacher.",
+      "audio_id": "u6_q24",
+      "image_ids": [
+        "int2b_house",
+        "int2b_young",
+        "int2b_keys",
+        "int2b_korean_book"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_house",
+        "int2b_young",
+        "int2b_keys",
+        "int2b_korean_book"
+      ],
+      "correct": "int2b_korean_book",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!"
+        "int2b_house": "You tapped \"house\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!",
+        "int2b_young": "You tapped \"young person\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!",
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"This is my Korean teacher.\". The correct picture is \"Korean book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_house": "house",
+        "int2b_young": "young person",
+        "int2b_keys": "keys",
+        "int2b_korean_book": "Korean book"
+      }
     },
     {
       "id": "i2b_u06_q25",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like summer.",
-        "She swims.",
-        "Welcome to our home.",
-        "He jumps."
+      "type": 1,
+      "prompt_text": "This is my social studies teacher.",
+      "audio_id": "u6_q25",
+      "image_ids": [
+        "int2b_english_teacher",
+        "int2b_social",
+        "int2b_bike",
+        "int2b_keys"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_english_teacher",
+        "int2b_social",
+        "int2b_bike",
+        "int2b_keys"
+      ],
+      "correct": "int2b_social",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!",
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"This is my social studies teacher.\". The correct picture is \"social studies globe\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_teacher": "English teacher",
+        "int2b_social": "social studies globe",
+        "int2b_bike": "bicycle",
+        "int2b_keys": "keys"
+      }
     },
     {
       "id": "i2b_u06_q26",
-      "type": 4,
-      "prompt_text": "Mom, this is my English teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "Nice to meet you.",
-        "She likes red.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "This is my Japanese teacher.",
+      "audio_id": "u6_q26",
+      "image_ids": [
+        "int2b_won_coin",
+        "int2b_japanese_book",
+        "int2b_judge",
+        "int2b_social"
       ],
-      "correct": "Nice to meet you.",
+      "choices": [
+        "int2b_won_coin",
+        "int2b_japanese_book",
+        "int2b_judge",
+        "int2b_social"
+      ],
+      "correct": "int2b_japanese_book",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_judge": "You tapped \"judge\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!",
+        "int2b_social": "You tapped \"social studies globe\", but the audio said: \"This is my Japanese teacher.\". The correct picture is \"Japanese book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u06_q27",
-      "type": 2,
-      "prompt_text": "Let me introduce Mr. Kim.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "Pleased to meet you.",
-        "I have a cat.",
-        "We study."
-      ],
-      "correct": "Pleased to meet you.",
-      "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u06_q28",
-      "type": 2,
-      "prompt_text": "These are my teachers.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He plays.",
-        "I like blue.",
-        "Hello, everyone!"
-      ],
-      "correct": "Hello, everyone!",
-      "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_won_coin": "Korean won coins",
+        "int2b_japanese_book": "Japanese book",
+        "int2b_judge": "judge",
+        "int2b_social": "social studies globe"
+      }
     },
     {
       "id": "i2b_u06_q29",
-      "type": 4,
-      "prompt_text": "Dad, meet my science teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "How do you do?",
-        "She reads.",
-        "He eats.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "This is Mr. Jay, my English teacher.",
+      "audio_id": "u6_q29",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_pocket",
+        "int2b_wallet",
+        "int2b_socks"
       ],
-      "correct": "How do you do?",
+      "choices": [
+        "int2b_english_book",
+        "int2b_pocket",
+        "int2b_wallet",
+        "int2b_socks"
+      ],
+      "correct": "int2b_english_book",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He eats.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int2b_pocket": "You tapped \"pocket\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!",
+        "int2b_socks": "You tapped \"socks\", but the audio said: \"This is Mr. Jay, my English teacher.\". The correct picture is \"English book\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_pocket": "pocket",
+        "int2b_wallet": "wallet",
+        "int2b_socks": "socks"
+      }
     },
     {
       "id": "i2b_u06_q30",
-      "type": 2,
-      "prompt_text": "This is Ms. Park, my homeroom teacher.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "Welcome to our home.",
-        "He jumps.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "This is Ms. Gwohok, my math teacher.",
+      "audio_id": "u6_q30",
+      "image_ids": [
+        "int2b_english_book",
+        "int2b_math",
+        "int2b_clock_730",
+        "int2b_bed"
       ],
-      "correct": "Welcome to our home.",
+      "choices": [
+        "int2b_english_book",
+        "int2b_math",
+        "int2b_clock_730",
+        "int2b_bed"
+      ],
+      "correct": "int2b_math",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_clock_730": "You tapped \"clock 7:30\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"This is Ms. Gwohok, my math teacher.\". The correct picture is \"math / numbers\". Listen again!"
       },
       "unit": 6,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_book": "English book",
+        "int2b_math": "math / numbers",
+        "int2b_clock_730": "clock 7:30",
+        "int2b_bed": "bed / bedtime"
+      }
     }
   ]
 }

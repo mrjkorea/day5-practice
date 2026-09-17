@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2b",
-    "title": "Intermediate 2B Unit 3: Future Dreams",
+    "title": "Intermediate 2B Unit 3: What Do You Want to be in the Future?",
     "kind": "unit",
     "units_covered": [
       3
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 22,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,716 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2b-ready"
   },
   "questions": [
     {
       "id": "i2b_u03_q01",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "She is my friend.",
-        "It is cold.",
-        "I want to be a doctor."
+      "type": 1,
+      "prompt_text": "I want to be a pro-gamer.",
+      "audio_id": "u3_q01",
+      "image_ids": [
+        "int2b_actor",
+        "int2b_old",
+        "int2b_monday",
+        "int2b_pro_gamer"
       ],
-      "correct": "I want to be a doctor.",
+      "choices": [
+        "int2b_actor",
+        "int2b_old",
+        "int2b_monday",
+        "int2b_pro_gamer"
+      ],
+      "correct": "int2b_pro_gamer",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_old": "You tapped \"old person\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_actor": "actor / actress",
+        "int2b_old": "old person",
+        "int2b_monday": "Monday calendar",
+        "int2b_pro_gamer": "pro-gamer"
+      }
     },
     {
       "id": "i2b_u03_q02",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She wants to be a teacher.",
-        "He runs.",
-        "I like cats.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "I want to be an actor.",
+      "audio_id": "u3_q02",
+      "image_ids": [
+        "int2b_hamburger",
+        "int2b_laptop_class",
+        "int2b_game_controller",
+        "int2b_actor"
       ],
-      "correct": "She wants to be a teacher.",
+      "choices": [
+        "int2b_hamburger",
+        "int2b_laptop_class",
+        "int2b_game_controller",
+        "int2b_actor"
+      ],
+      "correct": "int2b_actor",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hamburger": "hamburger",
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_game_controller": "game controller",
+        "int2b_actor": "actor / actress"
+      }
     },
     {
       "id": "i2b_u03_q03",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He sleeps.",
-        "I have a pen.",
-        "He hopes to be an engineer."
+      "type": 1,
+      "prompt_text": "I want to be a food critic.",
+      "audio_id": "u3_q03",
+      "image_ids": [
+        "int2b_thursday",
+        "int2b_food_critic",
+        "int2b_police",
+        "int2b_smart"
       ],
-      "correct": "He hopes to be an engineer.",
+      "choices": [
+        "int2b_thursday",
+        "int2b_food_critic",
+        "int2b_police",
+        "int2b_smart"
+      ],
+      "correct": "int2b_food_critic",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_police": "You tapped \"police officer\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_thursday": "Thursday calendar",
+        "int2b_food_critic": "food critic",
+        "int2b_police": "police officer",
+        "int2b_smart": "smart student with book"
+      }
     },
     {
       "id": "i2b_u03_q04",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays.",
-        "I like blue.",
-        "She reads.",
-        "I dream of being a scientist."
+      "type": 1,
+      "prompt_text": "I want to be an English teacher.",
+      "audio_id": "u3_q04",
+      "image_ids": [
+        "int2b_english_teacher",
+        "int2b_wallet",
+        "int2b_bike",
+        "int2b_desk"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_english_teacher",
+        "int2b_wallet",
+        "int2b_bike",
+        "int2b_desk"
+      ],
+      "correct": "int2b_english_teacher",
       "why_wrong": {
-        "He plays.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_teacher": "English teacher",
+        "int2b_wallet": "wallet",
+        "int2b_bike": "bicycle",
+        "int2b_desk": "desk"
+      }
     },
     {
       "id": "i2b_u03_q05",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "She wants to travel the world.",
-        "He is tall.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I want to be a police officer.",
+      "audio_id": "u3_q05",
+      "image_ids": [
+        "int2b_english_teacher",
+        "int2b_house",
+        "int2b_police",
+        "int2b_sunday"
       ],
-      "correct": "She wants to travel the world.",
+      "choices": [
+        "int2b_english_teacher",
+        "int2b_house",
+        "int2b_police",
+        "int2b_sunday"
+      ],
+      "correct": "int2b_police",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!",
+        "int2b_house": "You tapped \"house\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!",
+        "int2b_sunday": "You tapped \"Sunday calendar\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_teacher": "English teacher",
+        "int2b_house": "house",
+        "int2b_police": "police officer",
+        "int2b_sunday": "Sunday calendar"
+      }
     },
     {
       "id": "i2b_u03_q06",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my friend.",
-        "It is cold.",
-        "I am hungry.",
-        "I want to be a doctor."
+      "type": 1,
+      "prompt_text": "I want to be a scientist.",
+      "audio_id": "u3_q06",
+      "image_ids": [
+        "int2b_ring",
+        "int2b_president",
+        "int2b_scientist",
+        "int2b_thursday"
       ],
-      "correct": "I want to be a doctor.",
+      "choices": [
+        "int2b_ring",
+        "int2b_president",
+        "int2b_scientist",
+        "int2b_thursday"
+      ],
+      "correct": "int2b_scientist",
       "why_wrong": {
-        "She is my friend.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2b_ring": "You tapped \"ring\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!",
+        "int2b_president": "You tapped \"president\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!",
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_ring": "ring",
+        "int2b_president": "president",
+        "int2b_scientist": "scientist",
+        "int2b_thursday": "Thursday calendar"
+      }
     },
     {
       "id": "i2b_u03_q07",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "She wants to be a teacher.",
-        "He runs.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "I want to be a doctor.",
+      "audio_id": "u3_q07",
+      "image_ids": [
+        "int2b_won_coin",
+        "int2b_convenience",
+        "int2b_work_day",
+        "int2b_doctor"
       ],
-      "correct": "She wants to be a teacher.",
+      "choices": [
+        "int2b_won_coin",
+        "int2b_convenience",
+        "int2b_work_day",
+        "int2b_doctor"
+      ],
+      "correct": "int2b_doctor",
       "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!",
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_won_coin": "Korean won coins",
+        "int2b_convenience": "convenience store",
+        "int2b_work_day": "office building (work day)",
+        "int2b_doctor": "doctor"
+      }
     },
     {
       "id": "i2b_u03_q08",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He hopes to be an engineer.",
-        "I have a pen.",
-        "She sings.",
-        "He sleeps."
+      "type": 1,
+      "prompt_text": "I want to be a judge.",
+      "audio_id": "u3_q08",
+      "image_ids": [
+        "int2b_car",
+        "int2b_scientist",
+        "int2b_judge",
+        "int2b_keys"
       ],
-      "correct": "He hopes to be an engineer.",
+      "choices": [
+        "int2b_car",
+        "int2b_scientist",
+        "int2b_judge",
+        "int2b_keys"
+      ],
+      "correct": "int2b_judge",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
+        "int2b_car": "You tapped \"car\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!",
+        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!",
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_car": "car",
+        "int2b_scientist": "scientist",
+        "int2b_judge": "judge",
+        "int2b_keys": "keys"
+      }
     },
     {
       "id": "i2b_u03_q09",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "I like blue.",
-        "He plays.",
-        "I dream of being a scientist."
+      "type": 1,
+      "prompt_text": "I want to be the president.",
+      "audio_id": "u3_q09",
+      "image_ids": [
+        "int2b_monday",
+        "int2b_snack",
+        "int2b_president",
+        "int2b_saturday"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_monday",
+        "int2b_snack",
+        "int2b_president",
+        "int2b_saturday"
+      ],
+      "correct": "int2b_president",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!"
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!",
+        "int2b_snack": "You tapped \"snack\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!",
+        "int2b_saturday": "You tapped \"Saturday calendar\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_monday": "Monday calendar",
+        "int2b_snack": "snack",
+        "int2b_president": "president",
+        "int2b_saturday": "Saturday calendar"
+      }
     },
     {
       "id": "i2b_u03_q10",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "He is tall.",
-        "She wants to travel the world.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I want to be a computer hacker.",
+      "audio_id": "u3_q10",
+      "image_ids": [
+        "int2b_hacker",
+        "int2b_gym_subj",
+        "int2b_pizza",
+        "int2b_bike"
       ],
-      "correct": "She wants to travel the world.",
+      "choices": [
+        "int2b_hacker",
+        "int2b_gym_subj",
+        "int2b_pizza",
+        "int2b_bike"
+      ],
+      "correct": "int2b_hacker",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2b_gym_subj": "You tapped \"gym class\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!",
+        "int2b_pizza": "You tapped \"pizza / Pizza Land\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q11",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want to be a doctor.",
-        "I am hungry.",
-        "She is my friend.",
-        "It is cold."
-      ],
-      "correct": "I want to be a doctor.",
-      "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q12",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She wants to be a teacher.",
-        "I like cats.",
-        "He runs.",
-        "We eat."
-      ],
-      "correct": "She wants to be a teacher.",
-      "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q13",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He hopes to be an engineer.",
-        "I have a pen.",
-        "She sings.",
-        "He sleeps."
-      ],
-      "correct": "He hopes to be an engineer.",
-      "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hacker": "computer hacker",
+        "int2b_gym_subj": "gym class",
+        "int2b_pizza": "pizza / Pizza Land",
+        "int2b_bike": "bicycle"
+      }
     },
     {
       "id": "i2b_u03_q14",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "He plays.",
-        "She reads.",
-        "I dream of being a scientist."
+      "type": 1,
+      "prompt_text": "I want to be a carpenter.",
+      "audio_id": "u3_q14",
+      "image_ids": [
+        "int2b_holiday",
+        "int2b_won_coin",
+        "int2b_desk",
+        "int2b_car"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_holiday",
+        "int2b_won_coin",
+        "int2b_desk",
+        "int2b_car"
+      ],
+      "correct": "int2b_car",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q15",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She wants to travel the world.",
-        "He is tall.",
-        "We study.",
-        "I am fine."
-      ],
-      "correct": "She wants to travel the world.",
-      "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "We study.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_holiday": "holiday / party flag",
+        "int2b_won_coin": "Korean won coins",
+        "int2b_desk": "desk",
+        "int2b_car": "car"
+      }
     },
     {
       "id": "i2b_u03_q16",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want to be a doctor.",
-        "It is cold.",
-        "She is my friend.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "I want to be a pro-gamer.",
+      "audio_id": "u3_q16",
+      "image_ids": [
+        "int2b_books",
+        "int2b_police",
+        "int2b_pro_gamer",
+        "int2b_pencil_case"
       ],
-      "correct": "I want to be a doctor.",
+      "choices": [
+        "int2b_books",
+        "int2b_police",
+        "int2b_pro_gamer",
+        "int2b_pencil_case"
+      ],
+      "correct": "int2b_pro_gamer",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2b_books": "You tapped \"books\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_police": "You tapped \"police officer\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_books": "books",
+        "int2b_police": "police officer",
+        "int2b_pro_gamer": "pro-gamer",
+        "int2b_pencil_case": "pencil case"
+      }
     },
     {
       "id": "i2b_u03_q17",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She wants to be a teacher.",
-        "He runs.",
-        "I like cats.",
-        "We eat."
+      "type": 1,
+      "prompt_text": "I want to be an actor.",
+      "audio_id": "u3_q17",
+      "image_ids": [
+        "int2b_scientist",
+        "int2b_actor",
+        "int2b_stairs",
+        "int2b_smart"
       ],
-      "correct": "She wants to be a teacher.",
+      "choices": [
+        "int2b_scientist",
+        "int2b_actor",
+        "int2b_stairs",
+        "int2b_smart"
+      ],
+      "correct": "int2b_actor",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!"
+        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_scientist": "scientist",
+        "int2b_actor": "actor / actress",
+        "int2b_stairs": "stairs",
+        "int2b_smart": "smart student with book"
+      }
     },
     {
       "id": "i2b_u03_q18",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sleeps.",
-        "She sings.",
-        "I have a pen.",
-        "He hopes to be an engineer."
+      "type": 1,
+      "prompt_text": "I want to be a food critic.",
+      "audio_id": "u3_q18",
+      "image_ids": [
+        "int2b_food_critic",
+        "int2b_english_teacher",
+        "int2b_english_book",
+        "int2b_shoes"
       ],
-      "correct": "He hopes to be an engineer.",
+      "choices": [
+        "int2b_food_critic",
+        "int2b_english_teacher",
+        "int2b_english_book",
+        "int2b_shoes"
+      ],
+      "correct": "int2b_food_critic",
       "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
+        "int2b_english_teacher": "You tapped \"English teacher\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_shoes": "You tapped \"shoes\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_food_critic": "food critic",
+        "int2b_english_teacher": "English teacher",
+        "int2b_english_book": "English book",
+        "int2b_shoes": "shoes"
+      }
     },
     {
       "id": "i2b_u03_q19",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I dream of being a scientist.",
-        "I like blue.",
-        "He plays.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "I want to be an English teacher.",
+      "audio_id": "u3_q19",
+      "image_ids": [
+        "int2b_doctor",
+        "int2b_convenience",
+        "int2b_english_teacher",
+        "int2b_english_book"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_doctor",
+        "int2b_convenience",
+        "int2b_english_teacher",
+        "int2b_english_book"
+      ],
+      "correct": "int2b_english_teacher",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_doctor": "doctor",
+        "int2b_convenience": "convenience store",
+        "int2b_english_teacher": "English teacher",
+        "int2b_english_book": "English book"
+      }
     },
     {
       "id": "i2b_u03_q20",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I am fine.",
-        "She wants to travel the world.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "I want to be a police officer.",
+      "audio_id": "u3_q20",
+      "image_ids": [
+        "int2b_lunch",
+        "int2b_poor",
+        "int2b_police",
+        "int2b_music"
       ],
-      "correct": "She wants to travel the world.",
+      "choices": [
+        "int2b_lunch",
+        "int2b_poor",
+        "int2b_police",
+        "int2b_music"
+      ],
+      "correct": "int2b_police",
       "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!",
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!",
+        "int2b_music": "You tapped \"music / notes\", but the audio said: \"I want to be a police officer.\". The correct picture is \"police officer\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_lunch": "lunch",
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_police": "police officer",
+        "int2b_music": "music / notes"
+      }
     },
     {
       "id": "i2b_u03_q21",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It is cold.",
-        "She is my friend.",
-        "I want to be a doctor."
+      "type": 1,
+      "prompt_text": "I want to be a scientist.",
+      "audio_id": "u3_q21",
+      "image_ids": [
+        "int2b_ugly",
+        "int2b_scientist",
+        "int2b_fat",
+        "int2b_gym_subj"
       ],
-      "correct": "I want to be a doctor.",
+      "choices": [
+        "int2b_ugly",
+        "int2b_scientist",
+        "int2b_fat",
+        "int2b_gym_subj"
+      ],
+      "correct": "int2b_scientist",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!"
+        "int2b_ugly": "You tapped \"ugly face (cartoon)\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!",
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!",
+        "int2b_gym_subj": "You tapped \"gym class\", but the audio said: \"I want to be a scientist.\". The correct picture is \"scientist\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_ugly": "ugly face (cartoon)",
+        "int2b_scientist": "scientist",
+        "int2b_fat": "fat person (kind cartoon)",
+        "int2b_gym_subj": "gym class"
+      }
     },
     {
       "id": "i2b_u03_q22",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "We eat.",
-        "I like cats.",
-        "She wants to be a teacher."
+      "type": 1,
+      "prompt_text": "I want to be a doctor.",
+      "audio_id": "u3_q22",
+      "image_ids": [
+        "int2b_doctor",
+        "int2b_stairs",
+        "int2b_bed",
+        "int2b_clock_12"
       ],
-      "correct": "She wants to be a teacher.",
+      "choices": [
+        "int2b_doctor",
+        "int2b_stairs",
+        "int2b_bed",
+        "int2b_clock_12"
+      ],
+      "correct": "int2b_doctor",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"I want to be a doctor.\". The correct picture is \"doctor\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_doctor": "doctor",
+        "int2b_stairs": "stairs",
+        "int2b_bed": "bed / bedtime",
+        "int2b_clock_12": "clock 12:00"
+      }
     },
     {
       "id": "i2b_u03_q23",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a pen.",
-        "He sleeps.",
-        "He hopes to be an engineer.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "I want to be a judge.",
+      "audio_id": "u3_q23",
+      "image_ids": [
+        "int2b_tuesday",
+        "int2b_art",
+        "int2b_glasses",
+        "int2b_judge"
       ],
-      "correct": "He hopes to be an engineer.",
+      "choices": [
+        "int2b_tuesday",
+        "int2b_art",
+        "int2b_glasses",
+        "int2b_judge"
+      ],
+      "correct": "int2b_judge",
       "why_wrong": {
-        "I have a pen.": "Not quite — try again!",
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int2b_tuesday": "You tapped \"Tuesday calendar\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!",
+        "int2b_art": "You tapped \"art / paintbrush\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!",
+        "int2b_glasses": "You tapped \"glasses\", but the audio said: \"I want to be a judge.\". The correct picture is \"judge\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_tuesday": "Tuesday calendar",
+        "int2b_art": "art / paintbrush",
+        "int2b_glasses": "glasses",
+        "int2b_judge": "judge"
+      }
     },
     {
       "id": "i2b_u03_q24",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "I dream of being a scientist.",
-        "He plays.",
-        "She reads."
+      "type": 1,
+      "prompt_text": "I want to be the president.",
+      "audio_id": "u3_q24",
+      "image_ids": [
+        "int2b_lunch",
+        "int2b_stairs",
+        "int2b_tuesday",
+        "int2b_president"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_lunch",
+        "int2b_stairs",
+        "int2b_tuesday",
+        "int2b_president"
+      ],
+      "correct": "int2b_president",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "She reads.": "Not quite — try again!"
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!",
+        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!",
+        "int2b_tuesday": "You tapped \"Tuesday calendar\", but the audio said: \"I want to be the president.\". The correct picture is \"president\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_lunch": "lunch",
+        "int2b_stairs": "stairs",
+        "int2b_tuesday": "Tuesday calendar",
+        "int2b_president": "president"
+      }
     },
     {
       "id": "i2b_u03_q25",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She wants to travel the world.",
-        "He is tall.",
-        "I am fine.",
-        "We study."
+      "type": 1,
+      "prompt_text": "I want to be a computer hacker.",
+      "audio_id": "u3_q25",
+      "image_ids": [
+        "int2b_food_critic",
+        "int2b_work_day",
+        "int2b_hacker",
+        "int2b_clock_330"
       ],
-      "correct": "She wants to travel the world.",
+      "choices": [
+        "int2b_food_critic",
+        "int2b_work_day",
+        "int2b_hacker",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_hacker",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "We study.": "Not quite — try again!"
+        "int2b_food_critic": "You tapped \"food critic\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!",
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"I want to be a computer hacker.\". The correct picture is \"computer hacker\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q26",
-      "type": 4,
-      "prompt_text": "What do you want to be?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my friend.",
-        "It is cold.",
-        "I am hungry.",
-        "I want to be a doctor."
-      ],
-      "correct": "I want to be a doctor.",
-      "why_wrong": {
-        "She is my friend.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q27",
-      "type": 4,
-      "prompt_text": "What is her dream job?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like cats.",
-        "We eat.",
-        "She wants to be a teacher.",
-        "He runs."
-      ],
-      "correct": "She wants to be a teacher.",
-      "why_wrong": {
-        "I like cats.": "Not quite — try again!",
-        "We eat.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q28",
-      "type": 4,
-      "prompt_text": "What does he hope to become?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He hopes to be an engineer.",
-        "He sleeps.",
-        "She sings.",
-        "I have a pen."
-      ],
-      "correct": "He hopes to be an engineer.",
-      "why_wrong": {
-        "He sleeps.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I have a pen.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_food_critic": "food critic",
+        "int2b_work_day": "office building (work day)",
+        "int2b_hacker": "computer hacker",
+        "int2b_clock_330": "clock 3:30"
+      }
     },
     {
       "id": "i2b_u03_q29",
-      "type": 4,
-      "prompt_text": "What is your future dream?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads.",
-        "He plays.",
-        "I dream of being a scientist.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "I want to be a carpenter.",
+      "audio_id": "u3_q29",
+      "image_ids": [
+        "int2b_keys",
+        "int2b_bed",
+        "int2b_japanese_book",
+        "int2b_car"
       ],
-      "correct": "I dream of being a scientist.",
+      "choices": [
+        "int2b_keys",
+        "int2b_bed",
+        "int2b_japanese_book",
+        "int2b_car"
+      ],
+      "correct": "int2b_car",
       "why_wrong": {
-        "She reads.": "Not quite — try again!",
-        "He plays.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!"
       },
       "unit": 3,
-      "level": "int2b"
-    },
-    {
-      "id": "i2b_u03_q30",
-      "type": 4,
-      "prompt_text": "What does she want to do someday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study.",
-        "I am fine.",
-        "She wants to travel the world.",
-        "He is tall."
-      ],
-      "correct": "She wants to travel the world.",
-      "why_wrong": {
-        "We study.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2b"
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_keys": "keys",
+        "int2b_bed": "bed / bedtime",
+        "int2b_japanese_book": "Japanese book",
+        "int2b_car": "car"
+      }
     }
   ]
 }
