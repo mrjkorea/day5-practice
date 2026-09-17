@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 6: Agreeing and Responding",
+    "title": "Intermediate 2A Unit 6: Look at This Funny Video",
     "kind": "unit",
     "units_covered": [
       6
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 27,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,876 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
       "id": "i2a_u06_q01",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Me too!",
-        "How old are you?",
-        "Goodbye.",
-        "I don't know."
+      "type": 1,
+      "prompt_text": "Look at this funny video.",
+      "audio_id": "unit-06-q01",
+      "image_ids": [
+        "int2a_loud",
+        "int2a_attic",
+        "int2a_funny",
+        "int2a_trees"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_loud",
+        "int2a_attic",
+        "int2a_funny",
+        "int2a_trees"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "How old are you?": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_loud": "loud / shouting face",
+        "int2a_attic": "attic",
+        "int2a_funny": "funny face / laughing",
+        "int2a_trees": "trees"
+      }
     },
     {
       "id": "i2a_u06_q02",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Open your book.",
-        "I agree!",
-        "Where is it?",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Look at this scary video.",
+      "audio_id": "unit-06-q02",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_germany",
+        "int2a_loud",
+        "int2a_garage"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_scary",
+        "int2a_germany",
+        "int2a_loud",
+        "int2a_garage"
+      ],
+      "correct": "int2a_scary",
       "why_wrong": {
-        "Open your book.": "Not quite — try again!",
-        "Where is it?": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_germany": "Germany / German",
+        "int2a_loud": "loud / shouting face",
+        "int2a_garage": "garage"
+      }
     },
     {
       "id": "i2a_u06_q03",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Me neither... wait, I mean, I feel the same.",
-        "I want pizza.",
-        "It's Tuesday.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Look at this gross video.",
+      "audio_id": "unit-06-q03",
+      "image_ids": [
+        "int2a_bedroom",
+        "int2a_gross",
+        "int2a_windy",
+        "int2a_english_class"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_bedroom",
+        "int2a_gross",
+        "int2a_windy",
+        "int2a_english_class"
+      ],
+      "correct": "int2a_gross",
       "why_wrong": {
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bedroom": "bedroom",
+        "int2a_gross": "gross / yucky face",
+        "int2a_windy": "windy weather",
+        "int2a_english_class": "English class"
+      }
     },
     {
       "id": "i2a_u06_q04",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings well.",
-        "I have a cat.",
-        "Let's eat.",
-        "You're right."
+      "type": 1,
+      "prompt_text": "Look at this sad video.",
+      "audio_id": "unit-06-q04",
+      "image_ids": [
+        "int2a_sad",
+        "int2a_english_class",
+        "int2a_scary",
+        "int2a_windy"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_sad",
+        "int2a_english_class",
+        "int2a_scary",
+        "int2a_windy"
+      ],
+      "correct": "int2a_sad",
       "why_wrong": {
-        "He sings well.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "Let's eat.": "Not quite — try again!"
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sad": "sad face",
+        "int2a_english_class": "English class",
+        "int2a_scary": "scary face / ghost",
+        "int2a_windy": "windy weather"
+      }
     },
     {
       "id": "i2a_u06_q05",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is my dad.",
-        "She likes blue.",
-        "Good idea!",
-        "I am from Korea."
+      "type": 1,
+      "prompt_text": "Look at this weird video.",
+      "audio_id": "unit-06-q05",
+      "image_ids": [
+        "int2a_japan",
+        "int2a_weird",
+        "int2a_book",
+        "int2a_bike"
       ],
-      "correct": "Good idea!",
+      "choices": [
+        "int2a_japan",
+        "int2a_weird",
+        "int2a_book",
+        "int2a_bike"
+      ],
+      "correct": "int2a_weird",
       "why_wrong": {
-        "He is my dad.": "Not quite — try again!",
-        "She likes blue.": "Not quite — try again!",
-        "I am from Korea.": "Not quite — try again!"
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_japan": "Japan / Japanese",
+        "int2a_weird": "weird face",
+        "int2a_book": "book",
+        "int2a_bike": "bicycle"
+      }
     },
     {
       "id": "i2a_u06_q06",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I don't know.",
-        "Goodbye.",
-        "How old are you?",
-        "Me too!"
+      "type": 1,
+      "prompt_text": "Look at this exciting video.",
+      "audio_id": "unit-06-q06",
+      "image_ids": [
+        "int2a_vietnam",
+        "int2a_loud",
+        "int2a_monster",
+        "int2a_exciting"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_vietnam",
+        "int2a_loud",
+        "int2a_monster",
+        "int2a_exciting"
+      ],
+      "correct": "int2a_exciting",
       "why_wrong": {
-        "I don't know.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!"
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_loud": "loud / shouting face",
+        "int2a_monster": "monster",
+        "int2a_exciting": "exciting / thrilled face"
+      }
     },
     {
       "id": "i2a_u06_q07",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve.",
-        "I agree!",
-        "Where is it?",
-        "Open your book."
+      "type": 1,
+      "prompt_text": "Yeah, it is really funny.",
+      "audio_id": "unit-06-q07",
+      "image_ids": [
+        "int2a_sunny",
+        "int2a_funny",
+        "int2a_relax",
+        "int2a_snakes"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_sunny",
+        "int2a_funny",
+        "int2a_relax",
+        "int2a_snakes"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "I am twelve.": "Not quite — try again!",
-        "Where is it?": "Not quite — try again!",
-        "Open your book.": "Not quite — try again!"
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sunny": "sunny weather",
+        "int2a_funny": "funny face / laughing",
+        "int2a_relax": "relaxing on a couch",
+        "int2a_snakes": "snakes"
+      }
     },
     {
       "id": "i2a_u06_q08",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "Me neither... wait, I mean, I feel the same.",
-        "I want pizza.",
-        "It's Tuesday."
+      "type": 1,
+      "prompt_text": "Yeah, it is really scary.",
+      "audio_id": "unit-06-q08",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_snakes",
+        "int2a_sad",
+        "int2a_book"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_scary",
+        "int2a_snakes",
+        "int2a_sad",
+        "int2a_book"
+      ],
+      "correct": "int2a_scary",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!"
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_sad": "You tapped \"sad face\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_snakes": "snakes",
+        "int2a_sad": "sad face",
+        "int2a_book": "book"
+      }
     },
     {
       "id": "i2a_u06_q09",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "You're right.",
-        "He sings well.",
-        "I have a cat.",
-        "Let's eat."
+      "type": 1,
+      "prompt_text": "Look at this crazy video.",
+      "audio_id": "unit-06-q09",
+      "image_ids": [
+        "int2a_snowy",
+        "int2a_foggy",
+        "int2a_crazy",
+        "int2a_school"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_snowy",
+        "int2a_foggy",
+        "int2a_crazy",
+        "int2a_school"
+      ],
+      "correct": "int2a_crazy",
       "why_wrong": {
-        "He sings well.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "Let's eat.": "Not quite — try again!"
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u06_q10",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is my dad.",
-        "She likes blue.",
-        "Good idea!",
-        "I am from Korea."
-      ],
-      "correct": "Good idea!",
-      "why_wrong": {
-        "He is my dad.": "Not quite — try again!",
-        "She likes blue.": "Not quite — try again!",
-        "I am from Korea.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snowy": "snowy weather",
+        "int2a_foggy": "foggy weather",
+        "int2a_crazy": "crazy face",
+        "int2a_school": "elementary school building"
+      }
     },
     {
       "id": "i2a_u06_q11",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Goodbye.",
-        "How old are you?",
-        "I don't know.",
-        "Me too!"
+      "type": 1,
+      "prompt_text": "Look at this loud video.",
+      "audio_id": "unit-06-q11",
+      "image_ids": [
+        "int2a_rainy",
+        "int2a_ants",
+        "int2a_loud",
+        "int2a_secretary"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_rainy",
+        "int2a_ants",
+        "int2a_loud",
+        "int2a_secretary"
+      ],
+      "correct": "int2a_loud",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"Look at this loud video.\". The correct picture is \"loud / shouting face\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"Look at this loud video.\". The correct picture is \"loud / shouting face\". Listen again!",
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"Look at this loud video.\". The correct picture is \"loud / shouting face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_rainy": "rainy weather",
+        "int2a_ants": "ants",
+        "int2a_loud": "loud / shouting face",
+        "int2a_secretary": "secretary"
+      }
     },
     {
       "id": "i2a_u06_q12",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I agree!",
-        "Open your book.",
-        "Where is it?",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Yeah, it is really funny.",
+      "audio_id": "unit-06-q12",
+      "image_ids": [
+        "int2a_funny",
+        "int2a_korea",
+        "int2a_teacher",
+        "int2a_weird"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_funny",
+        "int2a_korea",
+        "int2a_teacher",
+        "int2a_weird"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "Open your book.": "Not quite — try again!",
-        "Where is it?": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"Yeah, it is really funny.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_funny": "funny face / laughing",
+        "int2a_korea": "Korea / Korean",
+        "int2a_teacher": "teacher",
+        "int2a_weird": "weird face"
+      }
     },
     {
       "id": "i2a_u06_q13",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want pizza.",
-        "It's Tuesday.",
-        "She is tall.",
-        "Me neither... wait, I mean, I feel the same."
+      "type": 1,
+      "prompt_text": "Look at this scary video.",
+      "audio_id": "unit-06-q13",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_relax",
+        "int2a_lounge",
+        "int2a_garage"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_scary",
+        "int2a_relax",
+        "int2a_lounge",
+        "int2a_garage"
+      ],
+      "correct": "int2a_scary",
       "why_wrong": {
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_lounge": "You tapped \"lounge\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"Look at this scary video.\". The correct picture is \"scary face / ghost\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_relax": "relaxing on a couch",
+        "int2a_lounge": "lounge",
+        "int2a_garage": "garage"
+      }
     },
     {
       "id": "i2a_u06_q14",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings well.",
-        "Let's eat.",
-        "I have a cat.",
-        "You're right."
+      "type": 1,
+      "prompt_text": "Yeah, it is really gross.",
+      "audio_id": "unit-06-q14",
+      "image_ids": [
+        "int2a_want_water",
+        "int2a_bees",
+        "int2a_weird",
+        "int2a_gross"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_want_water",
+        "int2a_bees",
+        "int2a_weird",
+        "int2a_gross"
+      ],
+      "correct": "int2a_gross",
       "why_wrong": {
-        "He sings well.": "Not quite — try again!",
-        "Let's eat.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"Yeah, it is really gross.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"Yeah, it is really gross.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"Yeah, it is really gross.\". The correct picture is \"gross / yucky face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_want_water": "water bottle",
+        "int2a_bees": "bees",
+        "int2a_weird": "weird face",
+        "int2a_gross": "gross / yucky face"
+      }
     },
     {
       "id": "i2a_u06_q15",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good idea!",
-        "I am from Korea.",
-        "She likes blue.",
-        "He is my dad."
+      "type": 1,
+      "prompt_text": "Look at this sad video.",
+      "audio_id": "unit-06-q15",
+      "image_ids": [
+        "int2a_living_room",
+        "int2a_snowy",
+        "int2a_humid",
+        "int2a_sad"
       ],
-      "correct": "Good idea!",
+      "choices": [
+        "int2a_living_room",
+        "int2a_snowy",
+        "int2a_humid",
+        "int2a_sad"
+      ],
+      "correct": "int2a_sad",
       "why_wrong": {
-        "I am from Korea.": "Not quite — try again!",
-        "She likes blue.": "Not quite — try again!",
-        "He is my dad.": "Not quite — try again!"
+        "int2a_living_room": "You tapped \"living room\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_humid": "You tapped \"humid weather\", but the audio said: \"Look at this sad video.\". The correct picture is \"sad face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_living_room": "living room",
+        "int2a_snowy": "snowy weather",
+        "int2a_humid": "humid weather",
+        "int2a_sad": "sad face"
+      }
     },
     {
       "id": "i2a_u06_q16",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Me too!",
-        "I don't know.",
-        "Goodbye.",
-        "How old are you?"
+      "type": 1,
+      "prompt_text": "Yeah, it is really weird.",
+      "audio_id": "unit-06-q16",
+      "image_ids": [
+        "int2a_france",
+        "int2a_funny",
+        "int2a_book",
+        "int2a_weird"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_france",
+        "int2a_funny",
+        "int2a_book",
+        "int2a_weird"
+      ],
+      "correct": "int2a_weird",
       "why_wrong": {
-        "I don't know.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!"
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"Yeah, it is really weird.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"Yeah, it is really weird.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"Yeah, it is really weird.\". The correct picture is \"weird face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_france": "France / French",
+        "int2a_funny": "funny face / laughing",
+        "int2a_book": "book",
+        "int2a_weird": "weird face"
+      }
     },
     {
       "id": "i2a_u06_q17",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Where is it?",
-        "I am twelve.",
-        "I agree!",
-        "Open your book."
+      "type": 1,
+      "prompt_text": "Look at this exciting video.",
+      "audio_id": "unit-06-q17",
+      "image_ids": [
+        "int2a_librarian",
+        "int2a_cold",
+        "int2a_exciting",
+        "int2a_medicine"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_librarian",
+        "int2a_cold",
+        "int2a_exciting",
+        "int2a_medicine"
+      ],
+      "correct": "int2a_exciting",
       "why_wrong": {
-        "Where is it?": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "Open your book.": "Not quite — try again!"
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_medicine": "You tapped \"medicine\", but the audio said: \"Look at this exciting video.\". The correct picture is \"exciting / thrilled face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_librarian": "librarian",
+        "int2a_cold": "cold weather",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_medicine": "medicine"
+      }
     },
     {
       "id": "i2a_u06_q18",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is tall.",
-        "Me neither... wait, I mean, I feel the same.",
-        "I want pizza.",
-        "It's Tuesday."
+      "type": 1,
+      "prompt_text": "Yeah, it is really crazy.",
+      "audio_id": "unit-06-q18",
+      "image_ids": [
+        "int2a_india",
+        "int2a_bike",
+        "int2a_crazy",
+        "int2a_monster"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_india",
+        "int2a_bike",
+        "int2a_crazy",
+        "int2a_monster"
+      ],
+      "correct": "int2a_crazy",
       "why_wrong": {
-        "She is tall.": "Not quite — try again!",
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!"
+        "int2a_india": "You tapped \"India / Hindi\", but the audio said: \"Yeah, it is really crazy.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Yeah, it is really crazy.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Yeah, it is really crazy.\". The correct picture is \"crazy face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u06_q19",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "You're right.",
-        "I have a cat.",
-        "Let's eat.",
-        "He sings well."
-      ],
-      "correct": "You're right.",
-      "why_wrong": {
-        "I have a cat.": "Not quite — try again!",
-        "Let's eat.": "Not quite — try again!",
-        "He sings well.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_india": "India / Hindi",
+        "int2a_bike": "bicycle",
+        "int2a_crazy": "crazy face",
+        "int2a_monster": "monster"
+      }
     },
     {
       "id": "i2a_u06_q20",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Good idea!",
-        "She likes blue.",
-        "He is my dad.",
-        "I am from Korea."
+      "type": 1,
+      "prompt_text": "Yeah, it is really quiet.",
+      "audio_id": "unit-06-q20",
+      "image_ids": [
+        "int2a_quiet",
+        "int2a_humid",
+        "int2a_stormy",
+        "int2a_sing"
       ],
-      "correct": "Good idea!",
+      "choices": [
+        "int2a_quiet",
+        "int2a_humid",
+        "int2a_stormy",
+        "int2a_sing"
+      ],
+      "correct": "int2a_quiet",
       "why_wrong": {
-        "She likes blue.": "Not quite — try again!",
-        "He is my dad.": "Not quite — try again!",
-        "I am from Korea.": "Not quite — try again!"
+        "int2a_humid": "You tapped \"humid weather\", but the audio said: \"Yeah, it is really quiet.\". The correct picture is \"quiet / shh face\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"Yeah, it is really quiet.\". The correct picture is \"quiet / shh face\". Listen again!",
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"Yeah, it is really quiet.\". The correct picture is \"quiet / shh face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_quiet": "quiet / shh face",
+        "int2a_humid": "humid weather",
+        "int2a_stormy": "stormy weather",
+        "int2a_sing": "singing / microphone"
+      }
     },
     {
       "id": "i2a_u06_q21",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "How old are you?",
-        "I don't know.",
-        "Goodbye.",
-        "Me too!"
+      "type": 1,
+      "prompt_text": "Look at this boring video.",
+      "audio_id": "unit-06-q21",
+      "image_ids": [
+        "int2a_computer",
+        "int2a_school",
+        "int2a_boring",
+        "int2a_rainy"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_computer",
+        "int2a_school",
+        "int2a_boring",
+        "int2a_rainy"
+      ],
+      "correct": "int2a_boring",
       "why_wrong": {
-        "How old are you?": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!",
-        "Goodbye.": "Not quite — try again!"
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"Look at this boring video.\". The correct picture is \"bored face\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"Look at this boring video.\". The correct picture is \"bored face\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"Look at this boring video.\". The correct picture is \"bored face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_computer": "computer",
+        "int2a_school": "elementary school building",
+        "int2a_boring": "bored face",
+        "int2a_rainy": "rainy weather"
+      }
     },
     {
       "id": "i2a_u06_q22",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I agree!",
-        "Where is it?",
-        "Open your book.",
-        "I am twelve."
+      "type": 1,
+      "prompt_text": "Yeah, it is really loud.",
+      "audio_id": "unit-06-q22",
+      "image_ids": [
+        "int2a_loud",
+        "int2a_trees",
+        "int2a_germany",
+        "int2a_book"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_loud",
+        "int2a_trees",
+        "int2a_germany",
+        "int2a_book"
+      ],
+      "correct": "int2a_loud",
       "why_wrong": {
-        "Where is it?": "Not quite — try again!",
-        "Open your book.": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!"
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"Yeah, it is really loud.\". The correct picture is \"loud / shouting face\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"Yeah, it is really loud.\". The correct picture is \"loud / shouting face\". Listen again!",
+        "int2a_book": "You tapped \"book\", but the audio said: \"Yeah, it is really loud.\". The correct picture is \"loud / shouting face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_loud": "loud / shouting face",
+        "int2a_trees": "trees",
+        "int2a_germany": "Germany / German",
+        "int2a_book": "book"
+      }
     },
     {
       "id": "i2a_u06_q23",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want pizza.",
-        "Me neither... wait, I mean, I feel the same.",
-        "It's Tuesday.",
-        "She is tall."
+      "type": 1,
+      "prompt_text": "Look at this funny video.",
+      "audio_id": "unit-06-q23",
+      "image_ids": [
+        "int2a_soccer",
+        "int2a_living_room",
+        "int2a_lunch_lady",
+        "int2a_funny"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_soccer",
+        "int2a_living_room",
+        "int2a_lunch_lady",
+        "int2a_funny"
+      ],
+      "correct": "int2a_funny",
       "why_wrong": {
-        "I want pizza.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!"
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_living_room": "You tapped \"living room\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!",
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"Look at this funny video.\". The correct picture is \"funny face / laughing\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soccer": "soccer ball",
+        "int2a_living_room": "living room",
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_funny": "funny face / laughing"
+      }
     },
     {
       "id": "i2a_u06_q24",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Let's eat.",
-        "He sings well.",
-        "You're right.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "Yeah, it is really scary.",
+      "audio_id": "unit-06-q24",
+      "image_ids": [
+        "int2a_hot",
+        "int2a_scary",
+        "int2a_ants",
+        "int2a_classroom"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_hot",
+        "int2a_scary",
+        "int2a_ants",
+        "int2a_classroom"
+      ],
+      "correct": "int2a_scary",
       "why_wrong": {
-        "Let's eat.": "Not quite — try again!",
-        "He sings well.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!",
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"Yeah, it is really scary.\". The correct picture is \"scary face / ghost\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hot": "hot weather",
+        "int2a_scary": "scary face / ghost",
+        "int2a_ants": "ants",
+        "int2a_classroom": "classroom"
+      }
     },
     {
       "id": "i2a_u06_q25",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am from Korea.",
-        "Good idea!",
-        "She likes blue.",
-        "He is my dad."
+      "type": 1,
+      "prompt_text": "Look at this gross video.",
+      "audio_id": "unit-06-q25",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_gross",
+        "int2a_vietnam",
+        "int2a_lunch_lady"
       ],
-      "correct": "Good idea!",
+      "choices": [
+        "int2a_windy",
+        "int2a_gross",
+        "int2a_vietnam",
+        "int2a_lunch_lady"
+      ],
+      "correct": "int2a_gross",
       "why_wrong": {
-        "I am from Korea.": "Not quite — try again!",
-        "She likes blue.": "Not quite — try again!",
-        "He is my dad.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!",
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"Look at this gross video.\". The correct picture is \"gross / yucky face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_gross": "gross / yucky face",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_lunch_lady": "lunch lady"
+      }
     },
     {
       "id": "i2a_u06_q26",
-      "type": 2,
-      "prompt_text": "I love this song!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Goodbye.",
-        "How old are you?",
-        "Me too!",
-        "I don't know."
+      "type": 1,
+      "prompt_text": "Yeah, it is really sad.",
+      "audio_id": "unit-06-q26",
+      "image_ids": [
+        "int2a_principal",
+        "int2a_sad",
+        "int2a_want_water",
+        "int2a_subtitles"
       ],
-      "correct": "Me too!",
+      "choices": [
+        "int2a_principal",
+        "int2a_sad",
+        "int2a_want_water",
+        "int2a_subtitles"
+      ],
+      "correct": "int2a_sad",
       "why_wrong": {
-        "Goodbye.": "Not quite — try again!",
-        "How old are you?": "Not quite — try again!",
-        "I don't know.": "Not quite — try again!"
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"Yeah, it is really sad.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"Yeah, it is really sad.\". The correct picture is \"sad face\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"Yeah, it is really sad.\". The correct picture is \"sad face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_principal": "principal",
+        "int2a_sad": "sad face",
+        "int2a_want_water": "water bottle",
+        "int2a_subtitles": "subtitles on a screen"
+      }
     },
     {
       "id": "i2a_u06_q27",
-      "type": 2,
-      "prompt_text": "That movie was amazing!",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I agree!",
-        "Where is it?",
-        "I am twelve.",
-        "Open your book."
+      "type": 1,
+      "prompt_text": "Look at this weird video.",
+      "audio_id": "unit-06-q27",
+      "image_ids": [
+        "int2a_weird",
+        "int2a_humid",
+        "int2a_computer",
+        "int2a_english_class"
       ],
-      "correct": "I agree!",
+      "choices": [
+        "int2a_weird",
+        "int2a_humid",
+        "int2a_computer",
+        "int2a_english_class"
+      ],
+      "correct": "int2a_weird",
       "why_wrong": {
-        "Where is it?": "Not quite — try again!",
-        "I am twelve.": "Not quite — try again!",
-        "Open your book.": "Not quite — try again!"
+        "int2a_humid": "You tapped \"humid weather\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!",
+        "int2a_english_class": "You tapped \"English class\", but the audio said: \"Look at this weird video.\". The correct picture is \"weird face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_weird": "weird face",
+        "int2a_humid": "humid weather",
+        "int2a_computer": "computer",
+        "int2a_english_class": "English class"
+      }
     },
     {
       "id": "i2a_u06_q28",
-      "type": 2,
-      "prompt_text": "I'm so tired today.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want pizza.",
-        "She is tall.",
-        "Me neither... wait, I mean, I feel the same.",
-        "It's Tuesday."
+      "type": 1,
+      "prompt_text": "Yeah, it is really exciting.",
+      "audio_id": "unit-06-q28",
+      "image_ids": [
+        "int2a_monster",
+        "int2a_exciting",
+        "int2a_tongyeong",
+        "int2a_phone"
       ],
-      "correct": "Me neither... wait, I mean, I feel the same.",
+      "choices": [
+        "int2a_monster",
+        "int2a_exciting",
+        "int2a_tongyeong",
+        "int2a_phone"
+      ],
+      "correct": "int2a_exciting",
       "why_wrong": {
-        "I want pizza.": "Not quite — try again!",
-        "She is tall.": "Not quite — try again!",
-        "It's Tuesday.": "Not quite — try again!"
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Yeah, it is really exciting.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"Yeah, it is really exciting.\". The correct picture is \"exciting / thrilled face\". Listen again!",
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"Yeah, it is really exciting.\". The correct picture is \"exciting / thrilled face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_monster": "monster",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_tongyeong": "Tongyeong city",
+        "int2a_phone": "phone"
+      }
     },
     {
       "id": "i2a_u06_q29",
-      "type": 2,
-      "prompt_text": "This homework is hard.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He sings well.",
-        "You're right.",
-        "I have a cat.",
-        "Let's eat."
+      "type": 1,
+      "prompt_text": "Look at this crazy video.",
+      "audio_id": "unit-06-q29",
+      "image_ids": [
+        "int2a_space",
+        "int2a_crazy",
+        "int2a_rainy",
+        "int2a_bees"
       ],
-      "correct": "You're right.",
+      "choices": [
+        "int2a_space",
+        "int2a_crazy",
+        "int2a_rainy",
+        "int2a_bees"
+      ],
+      "correct": "int2a_crazy",
       "why_wrong": {
-        "He sings well.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!",
-        "Let's eat.": "Not quite — try again!"
+        "int2a_space": "You tapped \"outer space\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!",
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"Look at this crazy video.\". The correct picture is \"crazy face\". Listen again!"
       },
       "unit": 6,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u06_q30",
-      "type": 2,
-      "prompt_text": "I think we should rest.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes blue.",
-        "Good idea!",
-        "I am from Korea.",
-        "He is my dad."
-      ],
-      "correct": "Good idea!",
-      "why_wrong": {
-        "She likes blue.": "Not quite — try again!",
-        "I am from Korea.": "Not quite — try again!",
-        "He is my dad.": "Not quite — try again!"
-      },
-      "unit": 6,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_space": "outer space",
+        "int2a_crazy": "crazy face",
+        "int2a_rainy": "rainy weather",
+        "int2a_bees": "bees"
+      }
     }
   ]
 }

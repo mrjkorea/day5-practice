@@ -1,0 +1,378 @@
+[
+  {
+    "id": "int2a_attic",
+    "file": "int2a_attic.png",
+    "label_en": "attic",
+    "path": "images/int2a/int2a_attic.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of attic, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_australia",
+    "file": "int2a_australia.png",
+    "label_en": "Australia",
+    "path": "images/int2a/int2a_australia.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Australia, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_basement",
+    "file": "int2a_basement.png",
+    "label_en": "basement",
+    "path": "images/int2a/int2a_basement.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of basement, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_bathroom",
+    "file": "int2a_bathroom.png",
+    "label_en": "bathroom",
+    "path": "images/int2a/int2a_bathroom.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of bathroom, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_bees",
+    "file": "int2a_bees.png",
+    "label_en": "bees",
+    "path": "images/int2a/int2a_bees.png",
+    "kind": "animal",
+    "prompt_hint": "cute simple flat cartoon animal illustration of bees, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_cafeteria",
+    "file": "int2a_cafeteria.png",
+    "label_en": "cafeteria",
+    "path": "images/int2a/int2a_cafeteria.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of cafeteria, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_classmates",
+    "file": "int2a_classmates.png",
+    "label_en": "classmates",
+    "path": "images/int2a/int2a_classmates.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of classmates, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_daegu",
+    "file": "int2a_daegu.png",
+    "label_en": "Daegu city",
+    "path": "images/int2a/int2a_daegu.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Daegu city, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_english_class",
+    "file": "int2a_english_class.png",
+    "label_en": "English class",
+    "path": "images/int2a/int2a_english_class.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of English class, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_foggy",
+    "file": "int2a_foggy.png",
+    "label_en": "foggy weather",
+    "path": "images/int2a/int2a_foggy.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of foggy weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_france",
+    "file": "int2a_france.png",
+    "label_en": "France / French",
+    "path": "images/int2a/int2a_france.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of France / French, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_funny",
+    "file": "int2a_funny.png",
+    "label_en": "funny face / laughing",
+    "path": "images/int2a/int2a_funny.png",
+    "kind": "emotion",
+    "prompt_hint": "cute simple flat cartoon emotion illustration of funny face / laughing, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_garage",
+    "file": "int2a_garage.png",
+    "label_en": "garage",
+    "path": "images/int2a/int2a_garage.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of garage, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_germany",
+    "file": "int2a_germany.png",
+    "label_en": "Germany / German",
+    "path": "images/int2a/int2a_germany.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Germany / German, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_hail",
+    "file": "int2a_hail.png",
+    "label_en": "hail",
+    "path": "images/int2a/int2a_hail.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of hail, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_hotel",
+    "file": "int2a_hotel.png",
+    "label_en": "hotel",
+    "path": "images/int2a/int2a_hotel.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of hotel, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_hug",
+    "file": "int2a_hug.png",
+    "label_en": "hug (two people hugging)",
+    "path": "images/int2a/int2a_hug.png",
+    "kind": "action-icon",
+    "prompt_hint": "cute simple flat cartoon action-icon illustration of hug (two people hugging), kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_humid",
+    "file": "int2a_humid.png",
+    "label_en": "humid weather",
+    "path": "images/int2a/int2a_humid.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of humid weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_india",
+    "file": "int2a_india.png",
+    "label_en": "India / Hindi",
+    "path": "images/int2a/int2a_india.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of India / Hindi, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_janitor",
+    "file": "int2a_janitor.png",
+    "label_en": "janitor",
+    "path": "images/int2a/int2a_janitor.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of janitor, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_juice",
+    "file": "int2a_juice.png",
+    "label_en": "juice",
+    "path": "images/int2a/int2a_juice.png",
+    "kind": "food",
+    "prompt_hint": "cute simple flat cartoon food illustration of juice, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_kitchen",
+    "file": "int2a_kitchen.png",
+    "label_en": "kitchen",
+    "path": "images/int2a/int2a_kitchen.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of kitchen, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_librarian",
+    "file": "int2a_librarian.png",
+    "label_en": "librarian",
+    "path": "images/int2a/int2a_librarian.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of librarian, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_library",
+    "file": "int2a_library.png",
+    "label_en": "library",
+    "path": "images/int2a/int2a_library.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of library, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_lounge",
+    "file": "int2a_lounge.png",
+    "label_en": "lounge",
+    "path": "images/int2a/int2a_lounge.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of lounge, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_lunch_lady",
+    "file": "int2a_lunch_lady.png",
+    "label_en": "lunch lady",
+    "path": "images/int2a/int2a_lunch_lady.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of lunch lady, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_martial_arts",
+    "file": "int2a_martial_arts.png",
+    "label_en": "martial arts",
+    "path": "images/int2a/int2a_martial_arts.png",
+    "kind": "activity",
+    "prompt_hint": "cute simple flat cartoon activity illustration of martial arts, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_medicine",
+    "file": "int2a_medicine.png",
+    "label_en": "medicine",
+    "path": "images/int2a/int2a_medicine.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of medicine, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_nurse",
+    "file": "int2a_nurse.png",
+    "label_en": "nurse",
+    "path": "images/int2a/int2a_nurse.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of nurse, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_principal",
+    "file": "int2a_principal.png",
+    "label_en": "principal",
+    "path": "images/int2a/int2a_principal.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of principal, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_rainy",
+    "file": "int2a_rainy.png",
+    "label_en": "rainy weather",
+    "path": "images/int2a/int2a_rainy.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of rainy weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_relax",
+    "file": "int2a_relax.png",
+    "label_en": "relaxing on a couch",
+    "path": "images/int2a/int2a_relax.png",
+    "kind": "activity",
+    "prompt_hint": "cute simple flat cartoon activity illustration of relaxing on a couch, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_russia",
+    "file": "int2a_russia.png",
+    "label_en": "Russia / Russian",
+    "path": "images/int2a/int2a_russia.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Russia / Russian, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_secretary",
+    "file": "int2a_secretary.png",
+    "label_en": "secretary",
+    "path": "images/int2a/int2a_secretary.png",
+    "kind": "person",
+    "prompt_hint": "cute simple flat cartoon person illustration of secretary, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_snakes",
+    "file": "int2a_snakes.png",
+    "label_en": "snakes",
+    "path": "images/int2a/int2a_snakes.png",
+    "kind": "animal",
+    "prompt_hint": "cute simple flat cartoon animal illustration of snakes, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_snowy",
+    "file": "int2a_snowy.png",
+    "label_en": "snowy weather",
+    "path": "images/int2a/int2a_snowy.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of snowy weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_soup",
+    "file": "int2a_soup.png",
+    "label_en": "soup",
+    "path": "images/int2a/int2a_soup.png",
+    "kind": "food",
+    "prompt_hint": "cute simple flat cartoon food illustration of soup, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_space",
+    "file": "int2a_space.png",
+    "label_en": "outer space",
+    "path": "images/int2a/int2a_space.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of outer space, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_spain",
+    "file": "int2a_spain.png",
+    "label_en": "Spain / Spanish",
+    "path": "images/int2a/int2a_spain.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Spain / Spanish, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_spiders",
+    "file": "int2a_spiders.png",
+    "label_en": "spiders",
+    "path": "images/int2a/int2a_spiders.png",
+    "kind": "animal",
+    "prompt_hint": "cute simple flat cartoon animal illustration of spiders, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_stormy",
+    "file": "int2a_stormy.png",
+    "label_en": "stormy weather",
+    "path": "images/int2a/int2a_stormy.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of stormy weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_subtitles",
+    "file": "int2a_subtitles.png",
+    "label_en": "subtitles on a screen",
+    "path": "images/int2a/int2a_subtitles.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of subtitles on a screen, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_sunny",
+    "file": "int2a_sunny.png",
+    "label_en": "sunny weather",
+    "path": "images/int2a/int2a_sunny.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of sunny weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_trees",
+    "file": "int2a_trees.png",
+    "label_en": "trees",
+    "path": "images/int2a/int2a_trees.png",
+    "kind": "object",
+    "prompt_hint": "cute simple flat cartoon object illustration of trees, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_vietnam",
+    "file": "int2a_vietnam.png",
+    "label_en": "Vietnam / Vietnamese",
+    "path": "images/int2a/int2a_vietnam.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of Vietnam / Vietnamese, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_washroom",
+    "file": "int2a_washroom.png",
+    "label_en": "washroom",
+    "path": "images/int2a/int2a_washroom.png",
+    "kind": "place",
+    "prompt_hint": "cute simple flat cartoon place illustration of washroom, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  },
+  {
+    "id": "int2a_windy",
+    "file": "int2a_windy.png",
+    "label_en": "windy weather",
+    "path": "images/int2a/int2a_windy.png",
+    "kind": "weather",
+    "prompt_hint": "cute simple flat cartoon weather illustration of windy weather, kid-friendly ESL flashcard icon, white background, no text, no letters, no watermark"
+  }
+]

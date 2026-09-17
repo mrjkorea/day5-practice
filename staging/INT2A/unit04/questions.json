@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 4: What Do You Want?",
+    "title": "Intermediate 2A Unit 4: What do you Want?",
     "kind": "unit",
     "units_covered": [
       4
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 24,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,780 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
-      "id": "i2a_u04_q01",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my teacher.",
-        "I want a sandwich.",
-        "It is raining.",
-        "I am twelve years old."
-      ],
-      "correct": "I want a sandwich.",
-      "why_wrong": {
-        "She is my teacher.": "Not quite — try again!",
-        "It is raining.": "Not quite — try again!",
-        "I am twelve years old.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
-    },
-    {
       "id": "i2a_u04_q02",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are happy.",
-        "He is tall.",
-        "I go to school.",
-        "I'd like some water, please."
+      "type": 1,
+      "prompt_text": "I want medicine.",
+      "audio_id": "unit-04-q02",
+      "image_ids": [
+        "int2a_medicine",
+        "int2a_weird",
+        "int2a_hug",
+        "int2a_exciting"
       ],
-      "correct": "I'd like some water, please.",
+      "choices": [
+        "int2a_medicine",
+        "int2a_weird",
+        "int2a_hug",
+        "int2a_exciting"
+      ],
+      "correct": "int2a_medicine",
       "why_wrong": {
-        "They are happy.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_medicine": "medicine",
+        "int2a_weird": "weird face",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_exciting": "exciting / thrilled face"
+      }
     },
     {
       "id": "i2a_u04_q03",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She likes red.",
-        "I have two brothers.",
-        "I want to play outside.",
-        "It is Monday."
+      "type": 1,
+      "prompt_text": "I want a blanket.",
+      "audio_id": "unit-04-q03",
+      "image_ids": [
+        "int2a_secretary",
+        "int2a_blanket",
+        "int2a_foggy",
+        "int2a_stormy"
       ],
-      "correct": "I want to play outside.",
+      "choices": [
+        "int2a_secretary",
+        "int2a_blanket",
+        "int2a_foggy",
+        "int2a_stormy"
+      ],
+      "correct": "int2a_blanket",
       "why_wrong": {
-        "She likes red.": "Not quite — try again!",
-        "I have two brothers.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!"
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_secretary": "secretary",
+        "int2a_blanket": "blanket",
+        "int2a_foggy": "foggy weather",
+        "int2a_stormy": "stormy weather"
+      }
     },
     {
       "id": "i2a_u04_q04",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want a chocolate muffin.",
-        "Yes, I can swim.",
-        "He is at home.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I want tissue paper.",
+      "audio_id": "unit-04-q04",
+      "image_ids": [
+        "int2a_want_water",
+        "int2a_basement",
+        "int2a_hot",
+        "int2a_tissue"
       ],
-      "correct": "I want a chocolate muffin.",
+      "choices": [
+        "int2a_want_water",
+        "int2a_basement",
+        "int2a_hot",
+        "int2a_tissue"
+      ],
+      "correct": "int2a_tissue",
       "why_wrong": {
-        "Yes, I can swim.": "Not quite — try again!",
-        "He is at home.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_want_water": "water bottle",
+        "int2a_basement": "basement",
+        "int2a_hot": "hot weather",
+        "int2a_tissue": "tissue paper"
+      }
     },
     {
       "id": "i2a_u04_q05",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want ice cream.",
-        "She runs fast.",
-        "We study math.",
-        "I live in Busan."
+      "type": 1,
+      "prompt_text": "I want soup.",
+      "audio_id": "unit-04-q05",
+      "image_ids": [
+        "int2a_soup",
+        "int2a_snakes",
+        "int2a_soccer",
+        "int2a_quiet"
       ],
-      "correct": "I want ice cream.",
+      "choices": [
+        "int2a_soup",
+        "int2a_snakes",
+        "int2a_soccer",
+        "int2a_quiet"
+      ],
+      "correct": "int2a_soup",
       "why_wrong": {
-        "She runs fast.": "Not quite — try again!",
-        "We study math.": "Not quite — try again!",
-        "I live in Busan.": "Not quite — try again!"
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soup": "soup",
+        "int2a_snakes": "snakes",
+        "int2a_soccer": "soccer ball",
+        "int2a_quiet": "quiet / shh face"
+      }
     },
     {
       "id": "i2a_u04_q06",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is raining.",
-        "I want a sandwich.",
-        "I am twelve years old.",
-        "She is my teacher."
+      "type": 1,
+      "prompt_text": "I want juice.",
+      "audio_id": "unit-04-q06",
+      "image_ids": [
+        "int2a_juice",
+        "int2a_windy",
+        "int2a_phone",
+        "int2a_england"
       ],
-      "correct": "I want a sandwich.",
+      "choices": [
+        "int2a_juice",
+        "int2a_windy",
+        "int2a_phone",
+        "int2a_england"
+      ],
+      "correct": "int2a_juice",
       "why_wrong": {
-        "It is raining.": "Not quite — try again!",
-        "I am twelve years old.": "Not quite — try again!",
-        "She is my teacher.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!",
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_juice": "juice",
+        "int2a_windy": "windy weather",
+        "int2a_phone": "phone",
+        "int2a_england": "England / English"
+      }
     },
     {
       "id": "i2a_u04_q07",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is tall.",
-        "They are happy.",
-        "I go to school.",
-        "I'd like some water, please."
+      "type": 1,
+      "prompt_text": "I want water.",
+      "audio_id": "unit-04-q07",
+      "image_ids": [
+        "int2a_australia",
+        "int2a_want_water",
+        "int2a_office",
+        "int2a_bag"
       ],
-      "correct": "I'd like some water, please.",
+      "choices": [
+        "int2a_australia",
+        "int2a_want_water",
+        "int2a_office",
+        "int2a_bag"
+      ],
+      "correct": "int2a_want_water",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "They are happy.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_australia": "Australia",
+        "int2a_want_water": "water bottle",
+        "int2a_office": "office",
+        "int2a_bag": "bag"
+      }
     },
     {
       "id": "i2a_u04_q08",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two brothers.",
-        "She likes red.",
-        "It is Monday.",
-        "I want to play outside."
+      "type": 1,
+      "prompt_text": "I want my phone.",
+      "audio_id": "unit-04-q08",
+      "image_ids": [
+        "int2a_phone",
+        "int2a_bathroom",
+        "int2a_water",
+        "int2a_martial_arts"
       ],
-      "correct": "I want to play outside.",
+      "choices": [
+        "int2a_phone",
+        "int2a_bathroom",
+        "int2a_water",
+        "int2a_martial_arts"
+      ],
+      "correct": "int2a_phone",
       "why_wrong": {
-        "I have two brothers.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!"
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u04_q09",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is at home.",
-        "I am fine.",
-        "I want a chocolate muffin.",
-        "Yes, I can swim."
-      ],
-      "correct": "I want a chocolate muffin.",
-      "why_wrong": {
-        "He is at home.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "Yes, I can swim.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_phone": "phone",
+        "int2a_bathroom": "bathroom",
+        "int2a_water": "water",
+        "int2a_martial_arts": "martial arts"
+      }
     },
     {
       "id": "i2a_u04_q10",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study math.",
-        "I live in Busan.",
-        "She runs fast.",
-        "I want ice cream."
+      "type": 1,
+      "prompt_text": "I want a hug.",
+      "audio_id": "unit-04-q10",
+      "image_ids": [
+        "int2a_weird",
+        "int2a_hot",
+        "int2a_hug",
+        "int2a_lunch_lady"
       ],
-      "correct": "I want ice cream.",
+      "choices": [
+        "int2a_weird",
+        "int2a_hot",
+        "int2a_hug",
+        "int2a_lunch_lady"
+      ],
+      "correct": "int2a_hug",
       "why_wrong": {
-        "We study math.": "Not quite — try again!",
-        "I live in Busan.": "Not quite — try again!",
-        "She runs fast.": "Not quite — try again!"
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!",
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!",
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_weird": "weird face",
+        "int2a_hot": "hot weather",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_lunch_lady": "lunch lady"
+      }
     },
     {
       "id": "i2a_u04_q11",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my teacher.",
-        "I am twelve years old.",
-        "I want a sandwich.",
-        "It is raining."
+      "type": 1,
+      "prompt_text": "I want book.",
+      "audio_id": "unit-04-q11",
+      "image_ids": [
+        "int2a_watch_tv",
+        "int2a_book",
+        "int2a_france",
+        "int2a_lounge"
       ],
-      "correct": "I want a sandwich.",
+      "choices": [
+        "int2a_watch_tv",
+        "int2a_book",
+        "int2a_france",
+        "int2a_lounge"
+      ],
+      "correct": "int2a_book",
       "why_wrong": {
-        "She is my teacher.": "Not quite — try again!",
-        "I am twelve years old.": "Not quite — try again!",
-        "It is raining.": "Not quite — try again!"
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!",
+        "int2a_lounge": "You tapped \"lounge\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u04_q12",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I go to school.",
-        "I'd like some water, please.",
-        "They are happy.",
-        "He is tall."
-      ],
-      "correct": "I'd like some water, please.",
-      "why_wrong": {
-        "I go to school.": "Not quite — try again!",
-        "They are happy.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u04_q13",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two brothers.",
-        "I want to play outside.",
-        "She likes red.",
-        "It is Monday."
-      ],
-      "correct": "I want to play outside.",
-      "why_wrong": {
-        "I have two brothers.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_watch_tv": "TV",
+        "int2a_book": "book",
+        "int2a_france": "France / French",
+        "int2a_lounge": "lounge"
+      }
     },
     {
       "id": "i2a_u04_q14",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, I can swim.",
-        "I want a chocolate muffin.",
-        "He is at home.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "I want medicine.",
+      "audio_id": "unit-04-q14",
+      "image_ids": [
+        "int2a_classroom",
+        "int2a_snakes",
+        "int2a_medicine",
+        "int2a_computer"
       ],
-      "correct": "I want a chocolate muffin.",
+      "choices": [
+        "int2a_classroom",
+        "int2a_snakes",
+        "int2a_medicine",
+        "int2a_computer"
+      ],
+      "correct": "int2a_medicine",
       "why_wrong": {
-        "Yes, I can swim.": "Not quite — try again!",
-        "He is at home.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2a_classroom": "You tapped \"classroom\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classroom": "classroom",
+        "int2a_snakes": "snakes",
+        "int2a_medicine": "medicine",
+        "int2a_computer": "computer"
+      }
     },
     {
       "id": "i2a_u04_q15",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I live in Busan.",
-        "She runs fast.",
-        "We study math.",
-        "I want ice cream."
+      "type": 1,
+      "prompt_text": "I want a blanket.",
+      "audio_id": "unit-04-q15",
+      "image_ids": [
+        "int2a_dining_room",
+        "int2a_weird",
+        "int2a_blanket",
+        "int2a_school"
       ],
-      "correct": "I want ice cream.",
+      "choices": [
+        "int2a_dining_room",
+        "int2a_weird",
+        "int2a_blanket",
+        "int2a_school"
+      ],
+      "correct": "int2a_blanket",
       "why_wrong": {
-        "I live in Busan.": "Not quite — try again!",
-        "She runs fast.": "Not quite — try again!",
-        "We study math.": "Not quite — try again!"
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_dining_room": "dining room",
+        "int2a_weird": "weird face",
+        "int2a_blanket": "blanket",
+        "int2a_school": "elementary school building"
+      }
     },
     {
       "id": "i2a_u04_q16",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my teacher.",
-        "I want a sandwich.",
-        "I am twelve years old.",
-        "It is raining."
+      "type": 1,
+      "prompt_text": "I want tissue paper.",
+      "audio_id": "unit-04-q16",
+      "image_ids": [
+        "int2a_school",
+        "int2a_tissue",
+        "int2a_bag",
+        "int2a_food"
       ],
-      "correct": "I want a sandwich.",
+      "choices": [
+        "int2a_school",
+        "int2a_tissue",
+        "int2a_bag",
+        "int2a_food"
+      ],
+      "correct": "int2a_tissue",
       "why_wrong": {
-        "She is my teacher.": "Not quite — try again!",
-        "I am twelve years old.": "Not quite — try again!",
-        "It is raining.": "Not quite — try again!"
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_food": "You tapped \"food\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_school": "elementary school building",
+        "int2a_tissue": "tissue paper",
+        "int2a_bag": "bag",
+        "int2a_food": "food"
+      }
     },
     {
       "id": "i2a_u04_q17",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are happy.",
-        "I go to school.",
-        "I'd like some water, please.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "I want soup.",
+      "audio_id": "unit-04-q17",
+      "image_ids": [
+        "int2a_bike",
+        "int2a_kitchen",
+        "int2a_soup",
+        "int2a_quiet"
       ],
-      "correct": "I'd like some water, please.",
+      "choices": [
+        "int2a_bike",
+        "int2a_kitchen",
+        "int2a_soup",
+        "int2a_quiet"
+      ],
+      "correct": "int2a_soup",
       "why_wrong": {
-        "They are happy.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bike": "bicycle",
+        "int2a_kitchen": "kitchen",
+        "int2a_soup": "soup",
+        "int2a_quiet": "quiet / shh face"
+      }
     },
     {
       "id": "i2a_u04_q18",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is Monday.",
-        "I want to play outside.",
-        "I have two brothers.",
-        "She likes red."
+      "type": 1,
+      "prompt_text": "I want juice.",
+      "audio_id": "unit-04-q18",
+      "image_ids": [
+        "int2a_hot",
+        "int2a_bathroom",
+        "int2a_juice",
+        "int2a_stormy"
       ],
-      "correct": "I want to play outside.",
+      "choices": [
+        "int2a_hot",
+        "int2a_bathroom",
+        "int2a_juice",
+        "int2a_stormy"
+      ],
+      "correct": "int2a_juice",
       "why_wrong": {
-        "It is Monday.": "Not quite — try again!",
-        "I have two brothers.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I want juice.\". The correct picture is \"juice\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hot": "hot weather",
+        "int2a_bathroom": "bathroom",
+        "int2a_juice": "juice",
+        "int2a_stormy": "stormy weather"
+      }
     },
     {
       "id": "i2a_u04_q19",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is at home.",
-        "I am fine.",
-        "Yes, I can swim.",
-        "I want a chocolate muffin."
+      "type": 1,
+      "prompt_text": "I want water.",
+      "audio_id": "unit-04-q19",
+      "image_ids": [
+        "int2a_japan",
+        "int2a_want_water",
+        "int2a_kitchen",
+        "int2a_weird"
       ],
-      "correct": "I want a chocolate muffin.",
+      "choices": [
+        "int2a_japan",
+        "int2a_want_water",
+        "int2a_kitchen",
+        "int2a_weird"
+      ],
+      "correct": "int2a_want_water",
       "why_wrong": {
-        "He is at home.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "Yes, I can swim.": "Not quite — try again!"
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!",
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want water.\". The correct picture is \"water bottle\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_japan": "Japan / Japanese",
+        "int2a_want_water": "water bottle",
+        "int2a_kitchen": "kitchen",
+        "int2a_weird": "weird face"
+      }
     },
     {
       "id": "i2a_u04_q20",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I live in Busan.",
-        "She runs fast.",
-        "I want ice cream.",
-        "We study math."
+      "type": 1,
+      "prompt_text": "I want my phone.",
+      "audio_id": "unit-04-q20",
+      "image_ids": [
+        "int2a_bike",
+        "int2a_trees",
+        "int2a_phone",
+        "int2a_australia"
       ],
-      "correct": "I want ice cream.",
+      "choices": [
+        "int2a_bike",
+        "int2a_trees",
+        "int2a_phone",
+        "int2a_australia"
+      ],
+      "correct": "int2a_phone",
       "why_wrong": {
-        "I live in Busan.": "Not quite — try again!",
-        "She runs fast.": "Not quite — try again!",
-        "We study math.": "Not quite — try again!"
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"I want my phone.\". The correct picture is \"phone\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bike": "bicycle",
+        "int2a_trees": "trees",
+        "int2a_phone": "phone",
+        "int2a_australia": "Australia"
+      }
     },
     {
       "id": "i2a_u04_q21",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my teacher.",
-        "I am twelve years old.",
-        "I want a sandwich.",
-        "It is raining."
+      "type": 1,
+      "prompt_text": "I want a hug.",
+      "audio_id": "unit-04-q21",
+      "image_ids": [
+        "int2a_hug",
+        "int2a_foggy",
+        "int2a_stormy",
+        "int2a_water"
       ],
-      "correct": "I want a sandwich.",
+      "choices": [
+        "int2a_hug",
+        "int2a_foggy",
+        "int2a_stormy",
+        "int2a_water"
+      ],
+      "correct": "int2a_hug",
       "why_wrong": {
-        "She is my teacher.": "Not quite — try again!",
-        "I am twelve years old.": "Not quite — try again!",
-        "It is raining.": "Not quite — try again!"
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"I want a hug.\". The correct picture is \"hug (two people hugging)\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_foggy": "foggy weather",
+        "int2a_stormy": "stormy weather",
+        "int2a_water": "water"
+      }
     },
     {
       "id": "i2a_u04_q22",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'd like some water, please.",
-        "They are happy.",
-        "He is tall.",
-        "I go to school."
+      "type": 1,
+      "prompt_text": "I want bag.",
+      "audio_id": "unit-04-q22",
+      "image_ids": [
+        "int2a_bag",
+        "int2a_principal",
+        "int2a_soup",
+        "int2a_france"
       ],
-      "correct": "I'd like some water, please.",
+      "choices": [
+        "int2a_bag",
+        "int2a_principal",
+        "int2a_soup",
+        "int2a_france"
+      ],
+      "correct": "int2a_bag",
       "why_wrong": {
-        "They are happy.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"I want bag.\". The correct picture is \"bag\". Listen again!",
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"I want bag.\". The correct picture is \"bag\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"I want bag.\". The correct picture is \"bag\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bag": "bag",
+        "int2a_principal": "principal",
+        "int2a_soup": "soup",
+        "int2a_france": "France / French"
+      }
     },
     {
       "id": "i2a_u04_q23",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two brothers.",
-        "I want to play outside.",
-        "It is Monday.",
-        "She likes red."
+      "type": 1,
+      "prompt_text": "I want computer.",
+      "audio_id": "unit-04-q23",
+      "image_ids": [
+        "int2a_computer",
+        "int2a_hot",
+        "int2a_stormy",
+        "int2a_office"
       ],
-      "correct": "I want to play outside.",
+      "choices": [
+        "int2a_computer",
+        "int2a_hot",
+        "int2a_stormy",
+        "int2a_office"
+      ],
+      "correct": "int2a_computer",
       "why_wrong": {
-        "I have two brothers.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I want computer.\". The correct picture is \"computer\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I want computer.\". The correct picture is \"computer\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"I want computer.\". The correct picture is \"computer\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_computer": "computer",
+        "int2a_hot": "hot weather",
+        "int2a_stormy": "stormy weather",
+        "int2a_office": "office"
+      }
     },
     {
       "id": "i2a_u04_q24",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "Yes, I can swim.",
-        "He is at home.",
-        "I want a chocolate muffin."
+      "type": 1,
+      "prompt_text": "I want book.",
+      "audio_id": "unit-04-q24",
+      "image_ids": [
+        "int2a_garage",
+        "int2a_monster",
+        "int2a_book",
+        "int2a_gross"
       ],
-      "correct": "I want a chocolate muffin.",
+      "choices": [
+        "int2a_garage",
+        "int2a_monster",
+        "int2a_book",
+        "int2a_gross"
+      ],
+      "correct": "int2a_book",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "Yes, I can swim.": "Not quite — try again!",
-        "He is at home.": "Not quite — try again!"
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"I want book.\". The correct picture is \"book\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u04_q25",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We study math.",
-        "She runs fast.",
-        "I live in Busan.",
-        "I want ice cream."
-      ],
-      "correct": "I want ice cream.",
-      "why_wrong": {
-        "We study math.": "Not quite — try again!",
-        "She runs fast.": "Not quite — try again!",
-        "I live in Busan.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u04_q26",
-      "type": 4,
-      "prompt_text": "What do you want for lunch?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am twelve years old.",
-        "It is raining.",
-        "I want a sandwich.",
-        "She is my teacher."
-      ],
-      "correct": "I want a sandwich.",
-      "why_wrong": {
-        "I am twelve years old.": "Not quite — try again!",
-        "It is raining.": "Not quite — try again!",
-        "She is my teacher.": "Not quite — try again!"
-      },
-      "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_garage": "garage",
+        "int2a_monster": "monster",
+        "int2a_book": "book",
+        "int2a_gross": "gross / yucky face"
+      }
     },
     {
       "id": "i2a_u04_q27",
-      "type": 4,
-      "prompt_text": "What would you like to drink?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are happy.",
-        "I'd like some water, please.",
-        "I go to school.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "I want medicine.",
+      "audio_id": "unit-04-q27",
+      "image_ids": [
+        "int2a_secretary",
+        "int2a_medicine",
+        "int2a_germany",
+        "int2a_attic"
       ],
-      "correct": "I'd like some water, please.",
+      "choices": [
+        "int2a_secretary",
+        "int2a_medicine",
+        "int2a_germany",
+        "int2a_attic"
+      ],
+      "correct": "int2a_medicine",
       "why_wrong": {
-        "They are happy.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_secretary": "secretary",
+        "int2a_medicine": "medicine",
+        "int2a_germany": "Germany / German",
+        "int2a_attic": "attic"
+      }
     },
     {
       "id": "i2a_u04_q28",
-      "type": 4,
-      "prompt_text": "What do you want to do?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have two brothers.",
-        "She likes red.",
-        "I want to play outside.",
-        "It is Monday."
+      "type": 1,
+      "prompt_text": "I want a blanket.",
+      "audio_id": "unit-04-q28",
+      "image_ids": [
+        "int2a_blanket",
+        "int2a_want_water",
+        "int2a_gross",
+        "int2a_principal"
       ],
-      "correct": "I want to play outside.",
+      "choices": [
+        "int2a_blanket",
+        "int2a_want_water",
+        "int2a_gross",
+        "int2a_principal"
+      ],
+      "correct": "int2a_blanket",
       "why_wrong": {
-        "I have two brothers.": "Not quite — try again!",
-        "She likes red.": "Not quite — try again!",
-        "It is Monday.": "Not quite — try again!"
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_blanket": "blanket",
+        "int2a_want_water": "water bottle",
+        "int2a_gross": "gross / yucky face",
+        "int2a_principal": "principal"
+      }
     },
     {
       "id": "i2a_u04_q29",
-      "type": 4,
-      "prompt_text": "May I help you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is at home.",
-        "Yes, I can swim.",
-        "I am fine.",
-        "I want a chocolate muffin."
+      "type": 1,
+      "prompt_text": "I want tissue paper.",
+      "audio_id": "unit-04-q29",
+      "image_ids": [
+        "int2a_soccer",
+        "int2a_weird",
+        "int2a_rainy",
+        "int2a_tissue"
       ],
-      "correct": "I want a chocolate muffin.",
+      "choices": [
+        "int2a_soccer",
+        "int2a_weird",
+        "int2a_rainy",
+        "int2a_tissue"
+      ],
+      "correct": "int2a_tissue",
       "why_wrong": {
-        "He is at home.": "Not quite — try again!",
-        "Yes, I can swim.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soccer": "soccer ball",
+        "int2a_weird": "weird face",
+        "int2a_rainy": "rainy weather",
+        "int2a_tissue": "tissue paper"
+      }
     },
     {
       "id": "i2a_u04_q30",
-      "type": 4,
-      "prompt_text": "What do you want for dessert?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She runs fast.",
-        "We study math.",
-        "I want ice cream.",
-        "I live in Busan."
+      "type": 1,
+      "prompt_text": "I want soup.",
+      "audio_id": "unit-04-q30",
+      "image_ids": [
+        "int2a_soup",
+        "int2a_monster",
+        "int2a_bedroom",
+        "int2a_office"
       ],
-      "correct": "I want ice cream.",
+      "choices": [
+        "int2a_soup",
+        "int2a_monster",
+        "int2a_bedroom",
+        "int2a_office"
+      ],
+      "correct": "int2a_soup",
       "why_wrong": {
-        "She runs fast.": "Not quite — try again!",
-        "We study math.": "Not quite — try again!",
-        "I live in Busan.": "Not quite — try again!"
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!"
       },
       "unit": 4,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soup": "soup",
+        "int2a_monster": "monster",
+        "int2a_bedroom": "bedroom",
+        "int2a_office": "office"
+      }
     }
   ]
 }

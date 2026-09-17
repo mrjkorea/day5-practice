@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 5: Finding Object Locations",
+    "title": "Intermediate 2A Unit 5: Where is My Phone?",
     "kind": "unit",
     "units_covered": [
       5
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 24,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,780 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
-      "id": "i2a_u05_q01",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "It's in your bag.",
-        "We play games.",
-        "I like apples."
-      ],
-      "correct": "It's in your bag.",
-      "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
-    },
-    {
       "id": "i2a_u05_q02",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are on the table.",
-        "It is cold.",
-        "I want juice.",
-        "He is ten."
+      "type": 1,
+      "prompt_text": "I don't know, maybe it is in the kitchen.",
+      "audio_id": "unit-05-q02",
+      "image_ids": [
+        "int2a_hot",
+        "int2a_blanket",
+        "int2a_kitchen",
+        "int2a_water"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_hot",
+        "int2a_blanket",
+        "int2a_kitchen",
+        "int2a_water"
+      ],
+      "correct": "int2a_kitchen",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!",
-        "He is ten.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_blanket": "You tapped \"blanket\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_water": "You tapped \"water\", but the audio said: \"I don't know, maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hot": "hot weather",
+        "int2a_blanket": "blanket",
+        "int2a_kitchen": "kitchen",
+        "int2a_water": "water"
+      }
     },
     {
       "id": "i2a_u05_q03",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am hungry.",
-        "It's under the chair.",
-        "They sing songs.",
-        "She reads books."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bathroom.",
+      "audio_id": "unit-05-q03",
+      "image_ids": [
+        "int2a_living_room",
+        "int2a_janitor",
+        "int2a_principal",
+        "int2a_bathroom"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_living_room",
+        "int2a_janitor",
+        "int2a_principal",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_bathroom",
       "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!",
-        "She reads books.": "Not quite — try again!"
+        "int2a_living_room": "You tapped \"living room\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_janitor": "You tapped \"janitor\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_principal": "You tapped \"principal\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_living_room": "living room",
+        "int2a_janitor": "janitor",
+        "int2a_principal": "principal",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
       "id": "i2a_u05_q04",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "We eat lunch.",
-        "It's next to the cafeteria.",
-        "He plays piano."
+      "type": 1,
+      "prompt_text": "Maybe it is in the living room.",
+      "audio_id": "unit-05-q04",
+      "image_ids": [
+        "int2a_lunch_lady",
+        "int2a_england",
+        "int2a_bees",
+        "int2a_living_room"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_lunch_lady",
+        "int2a_england",
+        "int2a_bees",
+        "int2a_living_room"
+      ],
+      "correct": "int2a_living_room",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!",
-        "He plays piano.": "Not quite — try again!"
+        "int2a_lunch_lady": "You tapped \"lunch lady\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_lunch_lady": "lunch lady",
+        "int2a_england": "England / English",
+        "int2a_bees": "bees",
+        "int2a_living_room": "living room"
+      }
     },
     {
       "id": "i2a_u05_q05",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my friend.",
-        "I like summer.",
-        "They are by the door.",
-        "He runs every day."
+      "type": 1,
+      "prompt_text": "Maybe it is in the garage.",
+      "audio_id": "unit-05-q05",
+      "image_ids": [
+        "int2a_office",
+        "int2a_france",
+        "int2a_australia",
+        "int2a_garage"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_office",
+        "int2a_france",
+        "int2a_australia",
+        "int2a_garage"
+      ],
+      "correct": "int2a_garage",
       "why_wrong": {
-        "She is my friend.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He runs every day.": "Not quite — try again!"
+        "int2a_office": "You tapped \"office\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_office": "office",
+        "int2a_france": "France / French",
+        "int2a_australia": "Australia",
+        "int2a_garage": "garage"
+      }
     },
     {
       "id": "i2a_u05_q06",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "We play games.",
-        "It's in your bag.",
-        "I like apples."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bedroom.",
+      "audio_id": "unit-05-q06",
+      "image_ids": [
+        "int2a_hotel",
+        "int2a_bedroom",
+        "int2a_bathroom",
+        "int2a_spain"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_hotel",
+        "int2a_bedroom",
+        "int2a_bathroom",
+        "int2a_spain"
+      ],
+      "correct": "int2a_bedroom",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!",
-        "I like apples.": "Not quite — try again!"
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_spain": "You tapped \"Spain / Spanish\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u05_q07",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "They are on the table.",
-        "He is ten.",
-        "I want juice."
-      ],
-      "correct": "They are on the table.",
-      "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "He is ten.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hotel": "hotel",
+        "int2a_bedroom": "bedroom",
+        "int2a_bathroom": "bathroom",
+        "int2a_spain": "Spain / Spanish"
+      }
     },
     {
       "id": "i2a_u05_q08",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads books.",
-        "They sing songs.",
-        "It's under the chair.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "Maybe it is in the dining room.",
+      "audio_id": "unit-05-q08",
+      "image_ids": [
+        "int2a_phone",
+        "int2a_juice",
+        "int2a_bathroom",
+        "int2a_dining_room"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_phone",
+        "int2a_juice",
+        "int2a_bathroom",
+        "int2a_dining_room"
+      ],
+      "correct": "int2a_dining_room",
       "why_wrong": {
-        "She reads books.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!",
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_phone": "phone",
+        "int2a_juice": "juice",
+        "int2a_bathroom": "bathroom",
+        "int2a_dining_room": "dining room"
+      }
     },
     {
       "id": "i2a_u05_q09",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's next to the cafeteria.",
-        "He plays piano.",
-        "I have a dog.",
-        "We eat lunch."
+      "type": 1,
+      "prompt_text": "Maybe it is in the classroom.",
+      "audio_id": "unit-05-q09",
+      "image_ids": [
+        "int2a_sing",
+        "int2a_vietnam",
+        "int2a_classroom",
+        "int2a_korea"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_sing",
+        "int2a_vietnam",
+        "int2a_classroom",
+        "int2a_korea"
+      ],
+      "correct": "int2a_classroom",
       "why_wrong": {
-        "He plays piano.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sing": "singing / microphone",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_classroom": "classroom",
+        "int2a_korea": "Korea / Korean"
+      }
     },
     {
       "id": "i2a_u05_q10",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs every day.",
-        "She is my friend.",
-        "I like summer.",
-        "They are by the door."
+      "type": 1,
+      "prompt_text": "Maybe it is in the lounge.",
+      "audio_id": "unit-05-q10",
+      "image_ids": [
+        "int2a_bag",
+        "int2a_snowy",
+        "int2a_scary",
+        "int2a_lounge"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_bag",
+        "int2a_snowy",
+        "int2a_scary",
+        "int2a_lounge"
+      ],
+      "correct": "int2a_lounge",
       "why_wrong": {
-        "He runs every day.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!",
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!",
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u05_q11",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in your bag.",
-        "I like apples.",
-        "She is kind.",
-        "We play games."
-      ],
-      "correct": "It's in your bag.",
-      "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u05_q12",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I want juice.",
-        "He is ten.",
-        "It is cold.",
-        "They are on the table."
-      ],
-      "correct": "They are on the table.",
-      "why_wrong": {
-        "I want juice.": "Not quite — try again!",
-        "He is ten.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bag": "bag",
+        "int2a_snowy": "snowy weather",
+        "int2a_scary": "scary face / ghost",
+        "int2a_lounge": "lounge"
+      }
     },
     {
       "id": "i2a_u05_q13",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's under the chair.",
-        "She reads books.",
-        "They sing songs.",
-        "I am hungry."
+      "type": 1,
+      "prompt_text": "Maybe it is in the kitchen.",
+      "audio_id": "unit-05-q13",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_kitchen",
+        "int2a_korea",
+        "int2a_monster"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_windy",
+        "int2a_kitchen",
+        "int2a_korea",
+        "int2a_monster"
+      ],
+      "correct": "int2a_kitchen",
       "why_wrong": {
-        "She reads books.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_kitchen": "kitchen",
+        "int2a_korea": "Korea / Korean",
+        "int2a_monster": "monster"
+      }
     },
     {
       "id": "i2a_u05_q14",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He plays piano.",
-        "I have a dog.",
-        "We eat lunch.",
-        "It's next to the cafeteria."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bathroom.",
+      "audio_id": "unit-05-q14",
+      "image_ids": [
+        "int2a_bathroom",
+        "int2a_hot",
+        "int2a_soup",
+        "int2a_hail"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_bathroom",
+        "int2a_hot",
+        "int2a_soup",
+        "int2a_hail"
+      ],
+      "correct": "int2a_bathroom",
       "why_wrong": {
-        "He plays piano.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bathroom": "bathroom",
+        "int2a_hot": "hot weather",
+        "int2a_soup": "soup",
+        "int2a_hail": "hail"
+      }
     },
     {
       "id": "i2a_u05_q15",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are by the door.",
-        "I like summer.",
-        "He runs every day.",
-        "She is my friend."
+      "type": 1,
+      "prompt_text": "Maybe it is in the living room.",
+      "audio_id": "unit-05-q15",
+      "image_ids": [
+        "int2a_martial_arts",
+        "int2a_living_room",
+        "int2a_monster",
+        "int2a_ants"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_martial_arts",
+        "int2a_living_room",
+        "int2a_monster",
+        "int2a_ants"
+      ],
+      "correct": "int2a_living_room",
       "why_wrong": {
-        "I like summer.": "Not quite — try again!",
-        "He runs every day.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!"
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_martial_arts": "martial arts",
+        "int2a_living_room": "living room",
+        "int2a_monster": "monster",
+        "int2a_ants": "ants"
+      }
     },
     {
       "id": "i2a_u05_q16",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "It's in your bag.",
-        "She is kind.",
-        "We play games."
+      "type": 1,
+      "prompt_text": "Maybe it is in the garage.",
+      "audio_id": "unit-05-q16",
+      "image_ids": [
+        "int2a_garage",
+        "int2a_hail",
+        "int2a_france",
+        "int2a_japan"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_garage",
+        "int2a_hail",
+        "int2a_france",
+        "int2a_japan"
+      ],
+      "correct": "int2a_garage",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!"
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_garage": "garage",
+        "int2a_hail": "hail",
+        "int2a_france": "France / French",
+        "int2a_japan": "Japan / Japanese"
+      }
     },
     {
       "id": "i2a_u05_q17",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is ten.",
-        "They are on the table.",
-        "I want juice.",
-        "It is cold."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bedroom.",
+      "audio_id": "unit-05-q17",
+      "image_ids": [
+        "int2a_water",
+        "int2a_bathroom",
+        "int2a_hotel",
+        "int2a_bedroom"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_water",
+        "int2a_bathroom",
+        "int2a_hotel",
+        "int2a_bedroom"
+      ],
+      "correct": "int2a_bedroom",
       "why_wrong": {
-        "He is ten.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!",
-        "It is cold.": "Not quite — try again!"
+        "int2a_water": "You tapped \"water\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_water": "water",
+        "int2a_bathroom": "bathroom",
+        "int2a_hotel": "hotel",
+        "int2a_bedroom": "bedroom"
+      }
     },
     {
       "id": "i2a_u05_q18",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads books.",
-        "I am hungry.",
-        "It's under the chair.",
-        "They sing songs."
+      "type": 1,
+      "prompt_text": "Maybe it is in the attic.",
+      "audio_id": "unit-05-q18",
+      "image_ids": [
+        "int2a_england",
+        "int2a_soup",
+        "int2a_secretary",
+        "int2a_attic"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_england",
+        "int2a_soup",
+        "int2a_secretary",
+        "int2a_attic"
+      ],
+      "correct": "int2a_attic",
       "why_wrong": {
-        "She reads books.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!"
+        "int2a_england": "You tapped \"England / English\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!",
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!",
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_england": "England / English",
+        "int2a_soup": "soup",
+        "int2a_secretary": "secretary",
+        "int2a_attic": "attic"
+      }
     },
     {
       "id": "i2a_u05_q19",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I have a dog.",
-        "We eat lunch.",
-        "He plays piano.",
-        "It's next to the cafeteria."
+      "type": 1,
+      "prompt_text": "Maybe it is in the basement.",
+      "audio_id": "unit-05-q19",
+      "image_ids": [
+        "int2a_russia",
+        "int2a_basement",
+        "int2a_china",
+        "int2a_washroom"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_russia",
+        "int2a_basement",
+        "int2a_china",
+        "int2a_washroom"
+      ],
+      "correct": "int2a_basement",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!",
-        "He plays piano.": "Not quite — try again!"
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Maybe it is in the basement.\". The correct picture is \"basement\". Listen again!",
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"Maybe it is in the basement.\". The correct picture is \"basement\". Listen again!",
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"Maybe it is in the basement.\". The correct picture is \"basement\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_russia": "Russia / Russian",
+        "int2a_basement": "basement",
+        "int2a_china": "China / Chinese",
+        "int2a_washroom": "washroom"
+      }
     },
     {
       "id": "i2a_u05_q20",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs every day.",
-        "They are by the door.",
-        "I like summer.",
-        "She is my friend."
+      "type": 1,
+      "prompt_text": "Maybe it is in the dining room.",
+      "audio_id": "unit-05-q20",
+      "image_ids": [
+        "int2a_computer",
+        "int2a_sunny",
+        "int2a_bag",
+        "int2a_dining_room"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_computer",
+        "int2a_sunny",
+        "int2a_bag",
+        "int2a_dining_room"
+      ],
+      "correct": "int2a_dining_room",
       "why_wrong": {
-        "He runs every day.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "She is my friend.": "Not quite — try again!"
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!",
+        "int2a_sunny": "You tapped \"sunny weather\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the dining room.\". The correct picture is \"dining room\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_computer": "computer",
+        "int2a_sunny": "sunny weather",
+        "int2a_bag": "bag",
+        "int2a_dining_room": "dining room"
+      }
     },
     {
       "id": "i2a_u05_q21",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's in your bag.",
-        "I like apples.",
-        "We play games.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Maybe it is in the classroom.",
+      "audio_id": "unit-05-q21",
+      "image_ids": [
+        "int2a_bedroom",
+        "int2a_japan",
+        "int2a_classroom",
+        "int2a_canada"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_bedroom",
+        "int2a_japan",
+        "int2a_classroom",
+        "int2a_canada"
+      ],
+      "correct": "int2a_classroom",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_canada": "You tapped \"Canada\", but the audio said: \"Maybe it is in the classroom.\". The correct picture is \"classroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bedroom": "bedroom",
+        "int2a_japan": "Japan / Japanese",
+        "int2a_classroom": "classroom",
+        "int2a_canada": "Canada"
+      }
     },
     {
       "id": "i2a_u05_q22",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "He is ten.",
-        "I want juice.",
-        "They are on the table."
+      "type": 1,
+      "prompt_text": "Maybe it is in the lounge.",
+      "audio_id": "unit-05-q22",
+      "image_ids": [
+        "int2a_bees",
+        "int2a_lounge",
+        "int2a_attic",
+        "int2a_gross"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_bees",
+        "int2a_lounge",
+        "int2a_attic",
+        "int2a_gross"
+      ],
+      "correct": "int2a_lounge",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "He is ten.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
+        "int2a_bees": "You tapped \"bees\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"Maybe it is in the lounge.\". The correct picture is \"lounge\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u05_q23",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's under the chair.",
-        "I am hungry.",
-        "She reads books.",
-        "They sing songs."
-      ],
-      "correct": "It's under the chair.",
-      "why_wrong": {
-        "I am hungry.": "Not quite — try again!",
-        "She reads books.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u05_q24",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's next to the cafeteria.",
-        "We eat lunch.",
-        "I have a dog.",
-        "He plays piano."
-      ],
-      "correct": "It's next to the cafeteria.",
-      "why_wrong": {
-        "We eat lunch.": "Not quite — try again!",
-        "I have a dog.": "Not quite — try again!",
-        "He plays piano.": "Not quite — try again!"
-      },
-      "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bees": "bees",
+        "int2a_lounge": "lounge",
+        "int2a_attic": "attic",
+        "int2a_gross": "gross / yucky face"
+      }
     },
     {
       "id": "i2a_u05_q25",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is my friend.",
-        "He runs every day.",
-        "They are by the door.",
-        "I like summer."
+      "type": 1,
+      "prompt_text": "Maybe it is in the kitchen.",
+      "audio_id": "unit-05-q25",
+      "image_ids": [
+        "int2a_vietnam",
+        "int2a_hug",
+        "int2a_kitchen",
+        "int2a_washroom"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_vietnam",
+        "int2a_hug",
+        "int2a_kitchen",
+        "int2a_washroom"
+      ],
+      "correct": "int2a_kitchen",
       "why_wrong": {
-        "She is my friend.": "Not quite — try again!",
-        "He runs every day.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!"
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!",
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"Maybe it is in the kitchen.\". The correct picture is \"kitchen\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_kitchen": "kitchen",
+        "int2a_washroom": "washroom"
+      }
     },
     {
       "id": "i2a_u05_q26",
-      "type": 4,
-      "prompt_text": "Where is my pencil?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like apples.",
-        "It's in your bag.",
-        "She is kind.",
-        "We play games."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bathroom.",
+      "audio_id": "unit-05-q26",
+      "image_ids": [
+        "int2a_book",
+        "int2a_computer",
+        "int2a_bag",
+        "int2a_bathroom"
       ],
-      "correct": "It's in your bag.",
+      "choices": [
+        "int2a_book",
+        "int2a_computer",
+        "int2a_bag",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_bathroom",
       "why_wrong": {
-        "I like apples.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "We play games.": "Not quite — try again!"
+        "int2a_book": "You tapped \"book\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the bathroom.\". The correct picture is \"bathroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_book": "book",
+        "int2a_computer": "computer",
+        "int2a_bag": "bag",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
       "id": "i2a_u05_q27",
-      "type": 4,
-      "prompt_text": "Where are the keys?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It is cold.",
-        "They are on the table.",
-        "He is ten.",
-        "I want juice."
+      "type": 1,
+      "prompt_text": "Maybe it is in the living room.",
+      "audio_id": "unit-05-q27",
+      "image_ids": [
+        "int2a_living_room",
+        "int2a_attic",
+        "int2a_computer",
+        "int2a_exciting"
       ],
-      "correct": "They are on the table.",
+      "choices": [
+        "int2a_living_room",
+        "int2a_attic",
+        "int2a_computer",
+        "int2a_exciting"
+      ],
+      "correct": "int2a_living_room",
       "why_wrong": {
-        "It is cold.": "Not quite — try again!",
-        "He is ten.": "Not quite — try again!",
-        "I want juice.": "Not quite — try again!"
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_computer": "You tapped \"computer\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"Maybe it is in the living room.\". The correct picture is \"living room\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_living_room": "living room",
+        "int2a_attic": "attic",
+        "int2a_computer": "computer",
+        "int2a_exciting": "exciting / thrilled face"
+      }
     },
     {
       "id": "i2a_u05_q28",
-      "type": 4,
-      "prompt_text": "Can you find the eraser?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She reads books.",
-        "It's under the chair.",
-        "I am hungry.",
-        "They sing songs."
+      "type": 1,
+      "prompt_text": "Maybe it is in the garage.",
+      "audio_id": "unit-05-q28",
+      "image_ids": [
+        "int2a_cold",
+        "int2a_stormy",
+        "int2a_garage",
+        "int2a_exciting"
       ],
-      "correct": "It's under the chair.",
+      "choices": [
+        "int2a_cold",
+        "int2a_stormy",
+        "int2a_garage",
+        "int2a_exciting"
+      ],
+      "correct": "int2a_garage",
       "why_wrong": {
-        "She reads books.": "Not quite — try again!",
-        "I am hungry.": "Not quite — try again!",
-        "They sing songs.": "Not quite — try again!"
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"Maybe it is in the garage.\". The correct picture is \"garage\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_cold": "cold weather",
+        "int2a_stormy": "stormy weather",
+        "int2a_garage": "garage",
+        "int2a_exciting": "exciting / thrilled face"
+      }
     },
     {
       "id": "i2a_u05_q29",
-      "type": 4,
-      "prompt_text": "Where is the library?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "It's next to the cafeteria.",
-        "I have a dog.",
-        "He plays piano.",
-        "We eat lunch."
+      "type": 1,
+      "prompt_text": "Maybe it is in the bedroom.",
+      "audio_id": "unit-05-q29",
+      "image_ids": [
+        "int2a_korea",
+        "int2a_bag",
+        "int2a_kitchen",
+        "int2a_bedroom"
       ],
-      "correct": "It's next to the cafeteria.",
+      "choices": [
+        "int2a_korea",
+        "int2a_bag",
+        "int2a_kitchen",
+        "int2a_bedroom"
+      ],
+      "correct": "int2a_bedroom",
       "why_wrong": {
-        "I have a dog.": "Not quite — try again!",
-        "He plays piano.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_bag": "You tapped \"bag\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"Maybe it is in the bedroom.\". The correct picture is \"bedroom\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_korea": "Korea / Korean",
+        "int2a_bag": "bag",
+        "int2a_kitchen": "kitchen",
+        "int2a_bedroom": "bedroom"
+      }
     },
     {
       "id": "i2a_u05_q30",
-      "type": 4,
-      "prompt_text": "Where are my shoes?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They are by the door.",
-        "She is my friend.",
-        "I like summer.",
-        "He runs every day."
+      "type": 1,
+      "prompt_text": "Maybe it is in the attic.",
+      "audio_id": "unit-05-q30",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_office",
+        "int2a_attic",
+        "int2a_sad"
       ],
-      "correct": "They are by the door.",
+      "choices": [
+        "int2a_basement",
+        "int2a_office",
+        "int2a_attic",
+        "int2a_sad"
+      ],
+      "correct": "int2a_attic",
       "why_wrong": {
-        "She is my friend.": "Not quite — try again!",
-        "I like summer.": "Not quite — try again!",
-        "He runs every day.": "Not quite — try again!"
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!",
+        "int2a_office": "You tapped \"office\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!",
+        "int2a_sad": "You tapped \"sad face\", but the audio said: \"Maybe it is in the attic.\". The correct picture is \"attic\". Listen again!"
       },
       "unit": 5,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_office": "office",
+        "int2a_attic": "attic",
+        "int2a_sad": "sad face"
+      }
     }
   ]
 }

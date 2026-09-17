@@ -1,13 +1,13 @@
 {
   "meta": {
     "level": "int2a",
-    "title": "Intermediate 2A Unit 3: Country Languages",
+    "title": "Intermediate 2A Unit 3: Can You Speak Chinese?",
     "kind": "unit",
     "units_covered": [
       3
     ],
-    "count": 30,
-    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "count": 25,
+    "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
       "2": "listen_pick_word",
@@ -17,639 +17,812 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
+    "images_partial": true,
+    "concrete_nouns_only": true,
+    "normalized_from": "int2a-ready"
   },
   "questions": [
     {
       "id": "i2a_u03_q01",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "France",
-        "Franc",
-        "Franch",
-        "French"
+      "type": 1,
+      "prompt_text": "Can you speak Chinese?",
+      "audio_id": "unit-03-q01",
+      "image_ids": [
+        "int2a_china",
+        "int2a_cafeteria",
+        "int2a_watch_tv",
+        "int2a_nurse"
       ],
-      "correct": "French",
+      "choices": [
+        "int2a_china",
+        "int2a_cafeteria",
+        "int2a_watch_tv",
+        "int2a_nurse"
+      ],
+      "correct": "int2a_china",
       "why_wrong": {
-        "France": "Not quite — try again!",
-        "Franc": "Not quite — try again!",
-        "Franch": "Not quite — try again!"
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_nurse": "You tapped \"nurse\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u03_q02",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japans",
-        "Japaneese",
-        "Japanese",
-        "Japan"
-      ],
-      "correct": "Japanese",
-      "why_wrong": {
-        "Japans": "Not quite — try again!",
-        "Japaneese": "Not quite — try again!",
-        "Japan": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_china": "China / Chinese",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_watch_tv": "TV",
+        "int2a_nurse": "nurse"
+      }
     },
     {
       "id": "i2a_u03_q03",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korea",
-        "Koreish",
-        "Korean",
-        "Koreans"
+      "type": 1,
+      "prompt_text": "It has subtitles.",
+      "audio_id": "unit-03-q03",
+      "image_ids": [
+        "int2a_subtitles",
+        "int2a_australia",
+        "int2a_trees",
+        "int2a_crazy"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int2a_subtitles",
+        "int2a_australia",
+        "int2a_trees",
+        "int2a_crazy"
+      ],
+      "correct": "int2a_subtitles",
       "why_wrong": {
-        "Korea": "Not quite — try again!",
-        "Koreish": "Not quite — try again!",
-        "Koreans": "Not quite — try again!"
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_australia": "Australia",
+        "int2a_trees": "trees",
+        "int2a_crazy": "crazy face"
+      }
     },
     {
       "id": "i2a_u03_q04",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spanish",
-        "Spain",
-        "Spains",
-        "Spaneesh"
+      "type": 1,
+      "prompt_text": "Can you speak Japanese?",
+      "audio_id": "unit-03-q04",
+      "image_ids": [
+        "int2a_relax",
+        "int2a_librarian",
+        "int2a_japan",
+        "int2a_hug"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_relax",
+        "int2a_librarian",
+        "int2a_japan",
+        "int2a_hug"
+      ],
+      "correct": "int2a_japan",
       "why_wrong": {
-        "Spain": "Not quite — try again!",
-        "Spains": "Not quite — try again!",
-        "Spaneesh": "Not quite — try again!"
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_relax": "relaxing on a couch",
+        "int2a_librarian": "librarian",
+        "int2a_japan": "Japan / Japanese",
+        "int2a_hug": "hug (two people hugging)"
+      }
     },
     {
       "id": "i2a_u03_q05",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Chinas",
-        "Chinese",
-        "Chineese",
-        "China"
+      "type": 1,
+      "prompt_text": "Can you speak French?",
+      "audio_id": "unit-03-q05",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_france",
+        "int2a_russia",
+        "int2a_germany"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_basement",
+        "int2a_france",
+        "int2a_russia",
+        "int2a_germany"
+      ],
+      "correct": "int2a_france",
       "why_wrong": {
-        "Chinas": "Not quite — try again!",
-        "Chineese": "Not quite — try again!",
-        "China": "Not quite — try again!"
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_france": "France / French",
+        "int2a_russia": "Russia / Russian",
+        "int2a_germany": "Germany / German"
+      }
     },
     {
       "id": "i2a_u03_q06",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Franc",
-        "France",
-        "French",
-        "Franch"
+      "type": 1,
+      "prompt_text": "Can you speak German?",
+      "audio_id": "unit-03-q06",
+      "image_ids": [
+        "int2a_germany",
+        "int2a_hotel",
+        "int2a_bike",
+        "int2a_stormy"
       ],
-      "correct": "French",
+      "choices": [
+        "int2a_germany",
+        "int2a_hotel",
+        "int2a_bike",
+        "int2a_stormy"
+      ],
+      "correct": "int2a_germany",
       "why_wrong": {
-        "Franc": "Not quite — try again!",
-        "France": "Not quite — try again!",
-        "Franch": "Not quite — try again!"
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_germany": "Germany / German",
+        "int2a_hotel": "hotel",
+        "int2a_bike": "bicycle",
+        "int2a_stormy": "stormy weather"
+      }
     },
     {
       "id": "i2a_u03_q07",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japan",
-        "Japaneese",
-        "Japanese",
-        "Japans"
+      "type": 1,
+      "prompt_text": "Can you speak Spanish?",
+      "audio_id": "unit-03-q07",
+      "image_ids": [
+        "int2a_spain",
+        "int2a_korea",
+        "int2a_watch_tv",
+        "int2a_garage"
       ],
-      "correct": "Japanese",
+      "choices": [
+        "int2a_spain",
+        "int2a_korea",
+        "int2a_watch_tv",
+        "int2a_garage"
+      ],
+      "correct": "int2a_spain",
       "why_wrong": {
-        "Japan": "Not quite — try again!",
-        "Japaneese": "Not quite — try again!",
-        "Japans": "Not quite — try again!"
+        "int2a_korea": "You tapped \"Korea / Korean\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!",
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spain": "Spain / Spanish",
+        "int2a_korea": "Korea / Korean",
+        "int2a_watch_tv": "TV",
+        "int2a_garage": "garage"
+      }
     },
     {
       "id": "i2a_u03_q08",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreish",
-        "Korea",
-        "Koreans",
-        "Korean"
+      "type": 1,
+      "prompt_text": "Can you speak Hindi?",
+      "audio_id": "unit-03-q08",
+      "image_ids": [
+        "int2a_russia",
+        "int2a_soup",
+        "int2a_india",
+        "int2a_tongyeong"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int2a_russia",
+        "int2a_soup",
+        "int2a_india",
+        "int2a_tongyeong"
+      ],
+      "correct": "int2a_india",
       "why_wrong": {
-        "Koreish": "Not quite — try again!",
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!"
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!",
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!",
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_russia": "Russia / Russian",
+        "int2a_soup": "soup",
+        "int2a_india": "India / Hindi",
+        "int2a_tongyeong": "Tongyeong city"
+      }
     },
     {
       "id": "i2a_u03_q09",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spanish",
-        "Spains",
-        "Spain",
-        "Spaneesh"
+      "type": 1,
+      "prompt_text": "Can you speak Vietnamese?",
+      "audio_id": "unit-03-q09",
+      "image_ids": [
+        "int2a_secretary",
+        "int2a_food",
+        "int2a_vietnam",
+        "int2a_sing"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_secretary",
+        "int2a_food",
+        "int2a_vietnam",
+        "int2a_sing"
+      ],
+      "correct": "int2a_vietnam",
       "why_wrong": {
-        "Spains": "Not quite — try again!",
-        "Spain": "Not quite — try again!",
-        "Spaneesh": "Not quite — try again!"
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!",
+        "int2a_food": "You tapped \"food\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!",
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_secretary": "secretary",
+        "int2a_food": "food",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_sing": "singing / microphone"
+      }
     },
     {
       "id": "i2a_u03_q10",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "China",
-        "Chinese",
-        "Chineese",
-        "Chinas"
+      "type": 1,
+      "prompt_text": "Can you speak Korean?",
+      "audio_id": "unit-03-q10",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_computer_games",
+        "int2a_blanket",
+        "int2a_korea"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_basement",
+        "int2a_computer_games",
+        "int2a_blanket",
+        "int2a_korea"
+      ],
+      "correct": "int2a_korea",
       "why_wrong": {
-        "China": "Not quite — try again!",
-        "Chineese": "Not quite — try again!",
-        "Chinas": "Not quite — try again!"
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!",
+        "int2a_computer_games": "You tapped \"computer games\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!",
+        "int2a_blanket": "You tapped \"blanket\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u03_q11",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Franc",
-        "France",
-        "Franch",
-        "French"
-      ],
-      "correct": "French",
-      "why_wrong": {
-        "Franc": "Not quite — try again!",
-        "France": "Not quite — try again!",
-        "Franch": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_computer_games": "computer games",
+        "int2a_blanket": "blanket",
+        "int2a_korea": "Korea / Korean"
+      }
     },
     {
       "id": "i2a_u03_q12",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japan",
-        "Japans",
-        "Japanese",
-        "Japaneese"
+      "type": 1,
+      "prompt_text": "only English",
+      "audio_id": "unit-03-q12",
+      "image_ids": [
+        "int2a_vietnam",
+        "int2a_canada",
+        "int2a_england",
+        "int2a_soup"
       ],
-      "correct": "Japanese",
+      "choices": [
+        "int2a_vietnam",
+        "int2a_canada",
+        "int2a_england",
+        "int2a_soup"
+      ],
+      "correct": "int2a_england",
       "why_wrong": {
-        "Japan": "Not quite — try again!",
-        "Japans": "Not quite — try again!",
-        "Japaneese": "Not quite — try again!"
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_canada": "You tapped \"Canada\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_soup": "You tapped \"soup\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u03_q13",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Koreans",
-        "Koreish",
-        "Korean",
-        "Korea"
-      ],
-      "correct": "Korean",
-      "why_wrong": {
-        "Koreans": "Not quite — try again!",
-        "Koreish": "Not quite — try again!",
-        "Korea": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_canada": "Canada",
+        "int2a_england": "England / English",
+        "int2a_soup": "soup"
+      }
     },
     {
       "id": "i2a_u03_q14",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spaneesh",
-        "Spanish",
-        "Spains",
-        "Spain"
+      "type": 1,
+      "prompt_text": "only English",
+      "audio_id": "unit-03-q14",
+      "image_ids": [
+        "int2a_attic",
+        "int2a_juice",
+        "int2a_nurse",
+        "int2a_england"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_attic",
+        "int2a_juice",
+        "int2a_nurse",
+        "int2a_england"
+      ],
+      "correct": "int2a_england",
       "why_wrong": {
-        "Spaneesh": "Not quite — try again!",
-        "Spains": "Not quite — try again!",
-        "Spain": "Not quite — try again!"
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_juice": "You tapped \"juice\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_nurse": "You tapped \"nurse\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_attic": "attic",
+        "int2a_juice": "juice",
+        "int2a_nurse": "nurse",
+        "int2a_england": "England / English"
+      }
     },
     {
       "id": "i2a_u03_q15",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Chinas",
-        "Chinese",
-        "China",
-        "Chineese"
+      "type": 1,
+      "prompt_text": "Can you speak Chinese?",
+      "audio_id": "unit-03-q15",
+      "image_ids": [
+        "int2a_foggy",
+        "int2a_hotel",
+        "int2a_china",
+        "int2a_rainy"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_foggy",
+        "int2a_hotel",
+        "int2a_china",
+        "int2a_rainy"
+      ],
+      "correct": "int2a_china",
       "why_wrong": {
-        "Chinas": "Not quite — try again!",
-        "China": "Not quite — try again!",
-        "Chineese": "Not quite — try again!"
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_rainy": "You tapped \"rainy weather\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_foggy": "foggy weather",
+        "int2a_hotel": "hotel",
+        "int2a_china": "China / Chinese",
+        "int2a_rainy": "rainy weather"
+      }
     },
     {
       "id": "i2a_u03_q16",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Franc",
-        "Franch",
-        "France",
-        "French"
+      "type": 1,
+      "prompt_text": "Can you speak Japanese?",
+      "audio_id": "unit-03-q16",
+      "image_ids": [
+        "int2a_weird",
+        "int2a_snowy",
+        "int2a_japan",
+        "int2a_cafeteria"
       ],
-      "correct": "French",
+      "choices": [
+        "int2a_weird",
+        "int2a_snowy",
+        "int2a_japan",
+        "int2a_cafeteria"
+      ],
+      "correct": "int2a_japan",
       "why_wrong": {
-        "Franc": "Not quite — try again!",
-        "Franch": "Not quite — try again!",
-        "France": "Not quite — try again!"
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_weird": "weird face",
+        "int2a_snowy": "snowy weather",
+        "int2a_japan": "Japan / Japanese",
+        "int2a_cafeteria": "cafeteria"
+      }
     },
     {
       "id": "i2a_u03_q17",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japan",
-        "Japans",
-        "Japaneese",
-        "Japanese"
+      "type": 1,
+      "prompt_text": "Can you speak French?",
+      "audio_id": "unit-03-q17",
+      "image_ids": [
+        "int2a_cafeteria",
+        "int2a_phone",
+        "int2a_cold",
+        "int2a_france"
       ],
-      "correct": "Japanese",
+      "choices": [
+        "int2a_cafeteria",
+        "int2a_phone",
+        "int2a_cold",
+        "int2a_france"
+      ],
+      "correct": "int2a_france",
       "why_wrong": {
-        "Japan": "Not quite — try again!",
-        "Japans": "Not quite — try again!",
-        "Japaneese": "Not quite — try again!"
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_cafeteria": "cafeteria",
+        "int2a_phone": "phone",
+        "int2a_cold": "cold weather",
+        "int2a_france": "France / French"
+      }
     },
     {
       "id": "i2a_u03_q18",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korea",
-        "Koreans",
-        "Koreish",
-        "Korean"
+      "type": 1,
+      "prompt_text": "Can you speak German?",
+      "audio_id": "unit-03-q18",
+      "image_ids": [
+        "int2a_germany",
+        "int2a_india",
+        "int2a_school",
+        "int2a_bathroom"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int2a_germany",
+        "int2a_india",
+        "int2a_school",
+        "int2a_bathroom"
+      ],
+      "correct": "int2a_germany",
       "why_wrong": {
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!",
-        "Koreish": "Not quite — try again!"
+        "int2a_india": "You tapped \"India / Hindi\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!",
+        "int2a_bathroom": "You tapped \"bathroom\", but the audio said: \"Can you speak German?\". The correct picture is \"Germany / German\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_germany": "Germany / German",
+        "int2a_india": "India / Hindi",
+        "int2a_school": "elementary school building",
+        "int2a_bathroom": "bathroom"
+      }
     },
     {
       "id": "i2a_u03_q19",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spanish",
-        "Spaneesh",
-        "Spain",
-        "Spains"
+      "type": 1,
+      "prompt_text": "Can you speak Spanish?",
+      "audio_id": "unit-03-q19",
+      "image_ids": [
+        "int2a_little_brother",
+        "int2a_living_room",
+        "int2a_spain",
+        "int2a_computer_games"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_little_brother",
+        "int2a_living_room",
+        "int2a_spain",
+        "int2a_computer_games"
+      ],
+      "correct": "int2a_spain",
       "why_wrong": {
-        "Spaneesh": "Not quite — try again!",
-        "Spain": "Not quite — try again!",
-        "Spains": "Not quite — try again!"
+        "int2a_little_brother": "You tapped \"little brother\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!",
+        "int2a_living_room": "You tapped \"living room\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!",
+        "int2a_computer_games": "You tapped \"computer games\", but the audio said: \"Can you speak Spanish?\". The correct picture is \"Spain / Spanish\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_little_brother": "little brother",
+        "int2a_living_room": "living room",
+        "int2a_spain": "Spain / Spanish",
+        "int2a_computer_games": "computer games"
+      }
     },
     {
       "id": "i2a_u03_q20",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Chineese",
-        "Chinese",
-        "Chinas",
-        "China"
+      "type": 1,
+      "prompt_text": "Can you speak Hindi?",
+      "audio_id": "unit-03-q20",
+      "image_ids": [
+        "int2a_india",
+        "int2a_funny",
+        "int2a_gym",
+        "int2a_basement"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_india",
+        "int2a_funny",
+        "int2a_gym",
+        "int2a_basement"
+      ],
+      "correct": "int2a_india",
       "why_wrong": {
-        "Chineese": "Not quite — try again!",
-        "Chinas": "Not quite — try again!",
-        "China": "Not quite — try again!"
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!",
+        "int2a_gym": "You tapped \"gym\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!",
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"Can you speak Hindi?\". The correct picture is \"India / Hindi\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_india": "India / Hindi",
+        "int2a_funny": "funny face / laughing",
+        "int2a_gym": "gym",
+        "int2a_basement": "basement"
+      }
     },
     {
       "id": "i2a_u03_q21",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Franc",
-        "French",
-        "Franch",
-        "France"
+      "type": 1,
+      "prompt_text": "Can you speak Vietnamese?",
+      "audio_id": "unit-03-q21",
+      "image_ids": [
+        "int2a_spiders",
+        "int2a_vietnam",
+        "int2a_japan",
+        "int2a_canada"
       ],
-      "correct": "French",
+      "choices": [
+        "int2a_spiders",
+        "int2a_vietnam",
+        "int2a_japan",
+        "int2a_canada"
+      ],
+      "correct": "int2a_vietnam",
       "why_wrong": {
-        "Franc": "Not quite — try again!",
-        "Franch": "Not quite — try again!",
-        "France": "Not quite — try again!"
+        "int2a_spiders": "You tapped \"spiders\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!",
+        "int2a_canada": "You tapped \"Canada\", but the audio said: \"Can you speak Vietnamese?\". The correct picture is \"Vietnam / Vietnamese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_spiders": "spiders",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_japan": "Japan / Japanese",
+        "int2a_canada": "Canada"
+      }
     },
     {
       "id": "i2a_u03_q22",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japanese",
-        "Japaneese",
-        "Japan",
-        "Japans"
+      "type": 1,
+      "prompt_text": "Can you speak Korean?",
+      "audio_id": "unit-03-q22",
+      "image_ids": [
+        "int2a_windy",
+        "int2a_tongyeong",
+        "int2a_korea",
+        "int2a_boring"
       ],
-      "correct": "Japanese",
+      "choices": [
+        "int2a_windy",
+        "int2a_tongyeong",
+        "int2a_korea",
+        "int2a_boring"
+      ],
+      "correct": "int2a_korea",
       "why_wrong": {
-        "Japaneese": "Not quite — try again!",
-        "Japan": "Not quite — try again!",
-        "Japans": "Not quite — try again!"
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!",
+        "int2a_tongyeong": "You tapped \"Tongyeong city\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!",
+        "int2a_boring": "You tapped \"bored face\", but the audio said: \"Can you speak Korean?\". The correct picture is \"Korea / Korean\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_windy": "windy weather",
+        "int2a_tongyeong": "Tongyeong city",
+        "int2a_korea": "Korea / Korean",
+        "int2a_boring": "bored face"
+      }
     },
     {
       "id": "i2a_u03_q23",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korean",
-        "Koreish",
-        "Korea",
-        "Koreans"
+      "type": 1,
+      "prompt_text": "Can you speak English?",
+      "audio_id": "unit-03-q23",
+      "image_ids": [
+        "int2a_england",
+        "int2a_cold",
+        "int2a_australia",
+        "int2a_school"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int2a_england",
+        "int2a_cold",
+        "int2a_australia",
+        "int2a_school"
+      ],
+      "correct": "int2a_england",
       "why_wrong": {
-        "Koreish": "Not quite — try again!",
-        "Korea": "Not quite — try again!",
-        "Koreans": "Not quite — try again!"
+        "int2a_cold": "You tapped \"cold weather\", but the audio said: \"Can you speak English?\". The correct picture is \"England / English\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"Can you speak English?\". The correct picture is \"England / English\". Listen again!",
+        "int2a_school": "You tapped \"elementary school building\", but the audio said: \"Can you speak English?\". The correct picture is \"England / English\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_england": "England / English",
+        "int2a_cold": "cold weather",
+        "int2a_australia": "Australia",
+        "int2a_school": "elementary school building"
+      }
     },
     {
       "id": "i2a_u03_q24",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spaneesh",
-        "Spains",
-        "Spanish",
-        "Spain"
+      "type": 1,
+      "prompt_text": "Can you speak Russian?",
+      "audio_id": "unit-03-q24",
+      "image_ids": [
+        "int2a_loud",
+        "int2a_kitchen",
+        "int2a_russia",
+        "int2a_bike"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_loud",
+        "int2a_kitchen",
+        "int2a_russia",
+        "int2a_bike"
+      ],
+      "correct": "int2a_russia",
       "why_wrong": {
-        "Spaneesh": "Not quite — try again!",
-        "Spains": "Not quite — try again!",
-        "Spain": "Not quite — try again!"
+        "int2a_loud": "You tapped \"loud / shouting face\", but the audio said: \"Can you speak Russian?\". The correct picture is \"Russia / Russian\". Listen again!",
+        "int2a_kitchen": "You tapped \"kitchen\", but the audio said: \"Can you speak Russian?\". The correct picture is \"Russia / Russian\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"Can you speak Russian?\". The correct picture is \"Russia / Russian\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_loud": "loud / shouting face",
+        "int2a_kitchen": "kitchen",
+        "int2a_russia": "Russia / Russian",
+        "int2a_bike": "bicycle"
+      }
     },
     {
       "id": "i2a_u03_q25",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Chinas",
-        "Chineese",
-        "Chinese",
-        "China"
+      "type": 1,
+      "prompt_text": "subtitles",
+      "audio_id": "unit-03-q25",
+      "image_ids": [
+        "int2a_bedroom",
+        "int2a_subtitles",
+        "int2a_basement",
+        "int2a_snowy"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_bedroom",
+        "int2a_subtitles",
+        "int2a_basement",
+        "int2a_snowy"
+      ],
+      "correct": "int2a_subtitles",
       "why_wrong": {
-        "Chinas": "Not quite — try again!",
-        "Chineese": "Not quite — try again!",
-        "China": "Not quite — try again!"
+        "int2a_bedroom": "You tapped \"bedroom\", but the audio said: \"subtitles\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"subtitles\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_snowy": "You tapped \"snowy weather\", but the audio said: \"subtitles\". The correct picture is \"subtitles on a screen\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u03_q26",
-      "type": 2,
-      "prompt_text": "People in France speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "France",
-        "Franch",
-        "French",
-        "Franc"
-      ],
-      "correct": "French",
-      "why_wrong": {
-        "France": "Not quite — try again!",
-        "Franch": "Not quite — try again!",
-        "Franc": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2a"
-    },
-    {
-      "id": "i2a_u03_q27",
-      "type": 2,
-      "prompt_text": "The language of Japan is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Japan",
-        "Japanese",
-        "Japaneese",
-        "Japans"
-      ],
-      "correct": "Japanese",
-      "why_wrong": {
-        "Japan": "Not quite — try again!",
-        "Japaneese": "Not quite — try again!",
-        "Japans": "Not quite — try again!"
-      },
-      "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bedroom": "bedroom",
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_basement": "basement",
+        "int2a_snowy": "snowy weather"
+      }
     },
     {
       "id": "i2a_u03_q28",
-      "type": 2,
-      "prompt_text": "In Korea, people speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Korea",
-        "Koreish",
-        "Koreans",
-        "Korean"
+      "type": 1,
+      "prompt_text": "only English",
+      "audio_id": "unit-03-q28",
+      "image_ids": [
+        "int2a_snakes",
+        "int2a_library",
+        "int2a_gross",
+        "int2a_england"
       ],
-      "correct": "Korean",
+      "choices": [
+        "int2a_snakes",
+        "int2a_library",
+        "int2a_gross",
+        "int2a_england"
+      ],
+      "correct": "int2a_england",
       "why_wrong": {
-        "Korea": "Not quite — try again!",
-        "Koreish": "Not quite — try again!",
-        "Koreans": "Not quite — try again!"
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!",
+        "int2a_gross": "You tapped \"gross / yucky face\", but the audio said: \"only English\". The correct picture is \"England / English\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_snakes": "snakes",
+        "int2a_library": "library",
+        "int2a_gross": "gross / yucky face",
+        "int2a_england": "England / English"
+      }
     },
     {
       "id": "i2a_u03_q29",
-      "type": 2,
-      "prompt_text": "People in Spain speak ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Spains",
-        "Spaneesh",
-        "Spanish",
-        "Spain"
+      "type": 1,
+      "prompt_text": "Can you speak Chinese?",
+      "audio_id": "unit-03-q29",
+      "image_ids": [
+        "int2a_garage",
+        "int2a_monster",
+        "int2a_china",
+        "int2a_classmates"
       ],
-      "correct": "Spanish",
+      "choices": [
+        "int2a_garage",
+        "int2a_monster",
+        "int2a_china",
+        "int2a_classmates"
+      ],
+      "correct": "int2a_china",
       "why_wrong": {
-        "Spains": "Not quite — try again!",
-        "Spaneesh": "Not quite — try again!",
-        "Spain": "Not quite — try again!"
+        "int2a_garage": "You tapped \"garage\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_monster": "You tapped \"monster\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_garage": "garage",
+        "int2a_monster": "monster",
+        "int2a_china": "China / Chinese",
+        "int2a_classmates": "classmates"
+      }
     },
     {
       "id": "i2a_u03_q30",
-      "type": 2,
-      "prompt_text": "The language of China is ___.",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Chineese",
-        "Chinese",
-        "Chinas",
-        "China"
+      "type": 1,
+      "prompt_text": "Can you speak Japanese?",
+      "audio_id": "unit-03-q30",
+      "image_ids": [
+        "int2a_japan",
+        "int2a_hotel",
+        "int2a_sing",
+        "int2a_australia"
       ],
-      "correct": "Chinese",
+      "choices": [
+        "int2a_japan",
+        "int2a_hotel",
+        "int2a_sing",
+        "int2a_australia"
+      ],
+      "correct": "int2a_japan",
       "why_wrong": {
-        "Chineese": "Not quite — try again!",
-        "Chinas": "Not quite — try again!",
-        "China": "Not quite — try again!"
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_sing": "You tapped \"singing / microphone\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!"
       },
       "unit": 3,
-      "level": "int2a"
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_japan": "Japan / Japanese",
+        "int2a_hotel": "hotel",
+        "int2a_sing": "singing / microphone",
+        "int2a_australia": "Australia"
+      }
     }
   ]
 }
