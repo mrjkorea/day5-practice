@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 4: Age Questions",
+    "title": "Intermediate 3A Unit 4: How Old Is He?",
     "kind": "unit",
     "units_covered": [
       4
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u04_q01",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve years old.",
-        "I like blue.",
-        "I am fine.",
-        "I go to school."
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "u04_q01",
+      "image_ids": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "correct": "int3a_how-old_age_1",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 1 year old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 1 year old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 1 year old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_39": "39 years old"
+      }
     },
     {
       "id": "i3a_u04_q02",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He likes soccer.",
-        "He is tall.",
-        "He has a dog.",
-        "He's fifteen."
+      "type": 1,
+      "prompt_text": "She is 5 years old.",
+      "audio_id": "u04_q02",
+      "image_ids": [
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "correct": "int3a_how-old_age_5",
       "why_wrong": {
-        "He likes soccer.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!",
-        "He has a dog.": "Not quite — try again!"
+        "int3a_how-old_age_15": "That shows 15 years old, not 5 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 5 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 5 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_39": "39 years old"
+      }
     },
     {
       "id": "i3a_u04_q03",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "I like pizza.",
-        "It's in March.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "How old is he? He is 10 years old.",
+      "audio_id": "u04_q03",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
+      ],
+      "correct": "int3a_how-old_age_10",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3a_how-old_age_39": "That shows 39 years old, not 10 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 10 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 10 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_10": "10 years old"
+      }
     },
     {
       "id": "i3a_u04_q04",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They study.",
-        "They're ten.",
-        "They eat.",
-        "They play."
+      "type": 1,
+      "prompt_text": "How old is she?",
+      "audio_id": "u04_q04",
+      "image_ids": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15"
+      ],
+      "correct": "int3a_how-old_age_15",
       "why_wrong": {
-        "They study.": "Not quite — try again!",
-        "They eat.": "Not quite — try again!",
-        "They play.": "Not quite — try again!"
+        "int3a_how-old_age_100": "That shows 100 years old, not 15 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 15 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 15 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_15": "15 years old"
+      }
     },
     {
       "id": "i3a_u04_q05",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We swim.",
-        "He reads.",
-        "I have a cat.",
-        "Yes, she's one year older."
+      "type": 1,
+      "prompt_text": "He is 27 years old.",
+      "audio_id": "u04_q05",
+      "image_ids": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27"
+      ],
+      "correct": "int3a_how-old_age_27",
       "why_wrong": {
-        "We swim.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_36": "That shows 36 years old, not 27 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 27 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 27 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_27": "27 years old"
+      }
     },
     {
       "id": "i3a_u04_q06",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve years old.",
-        "I am fine.",
-        "I like blue.",
-        "I go to school."
+      "type": 1,
+      "prompt_text": "How old is she? She is 30 years old.",
+      "audio_id": "u04_q06",
+      "image_ids": [
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_5"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_30",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int3a_how-old_age_15": "That shows 15 years old, not 30 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 30 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 30 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
       "id": "i3a_u04_q07",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's fifteen.",
-        "He is tall.",
-        "He has a dog.",
-        "He likes soccer."
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "u04_q07",
+      "image_ids": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_77"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_77"
+      ],
+      "correct": "int3a_how-old_age_36",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "He has a dog.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!"
+        "int3a_how-old_age_30": "That shows 30 years old, not 36 years old.",
+        "int3a_how-old_age_15": "That shows 15 years old, not 36 years old.",
+        "int3a_how-old_age_77": "That shows 77 years old, not 36 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_77": "77 years old"
+      }
     },
     {
       "id": "i3a_u04_q08",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "It's in March.",
-        "I like pizza.",
-        "He runs."
+      "type": 1,
+      "prompt_text": "She is 39 years old.",
+      "audio_id": "u04_q08",
+      "image_ids": [
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_10"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_10"
+      ],
+      "correct": "int3a_how-old_age_39",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!"
+        "int3a_how-old_age_27": "That shows 27 years old, not 39 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 39 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 39 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_10": "10 years old"
+      }
     },
     {
       "id": "i3a_u04_q09",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They eat.",
-        "They study.",
-        "They play.",
-        "They're ten."
+      "type": 1,
+      "prompt_text": "How old is he? He is 55 years old.",
+      "audio_id": "u04_q09",
+      "image_ids": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_55",
       "why_wrong": {
-        "They eat.": "Not quite — try again!",
-        "They study.": "Not quite — try again!",
-        "They play.": "Not quite — try again!"
+        "int3a_how-old_age_77": "That shows 77 years old, not 55 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 55 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 55 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
       "id": "i3a_u04_q10",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "We swim.",
-        "I have a cat.",
-        "Yes, she's one year older."
+      "type": 1,
+      "prompt_text": "How old is she?",
+      "audio_id": "u04_q10",
+      "image_ids": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_1"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_1"
+      ],
+      "correct": "int3a_how-old_age_77",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We swim.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 77 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 77 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 77 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_1": "1 year old"
+      }
     },
     {
       "id": "i3a_u04_q11",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm twelve years old.",
-        "I am fine.",
-        "I like blue.",
-        "I go to school."
+      "type": 1,
+      "prompt_text": "He is 100 years old.",
+      "audio_id": "u04_q11",
+      "image_ids": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_100"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_100",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 100 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 100 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 100 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
       "id": "i3a_u04_q12",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a dog.",
-        "He likes soccer.",
-        "He's fifteen.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "How old is she? She is 1 year old.",
+      "audio_id": "u04_q12",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_5"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_1",
       "why_wrong": {
-        "He has a dog.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int3a_how-old_age_39": "That shows 39 years old, not 1 year old.",
+        "int3a_how-old_age_15": "That shows 15 years old, not 1 year old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 1 year old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
       "id": "i3a_u04_q13",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "It's in March.",
-        "She sings.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "u04_q13",
+      "image_ids": [
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_5"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_5",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_how-old_age_15": "That shows 15 years old, not 5 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 5 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 5 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
       "id": "i3a_u04_q14",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They play.",
-        "They're ten.",
-        "They study.",
-        "They eat."
+      "type": 1,
+      "prompt_text": "She is 10 years old.",
+      "audio_id": "u04_q14",
+      "image_ids": [
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_36"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_36"
+      ],
+      "correct": "int3a_how-old_age_10",
       "why_wrong": {
-        "They play.": "Not quite — try again!",
-        "They study.": "Not quite — try again!",
-        "They eat.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 10 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 10 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 10 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_36": "36 years old"
+      }
     },
     {
       "id": "i3a_u04_q15",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, she's one year older.",
-        "We swim.",
-        "He reads.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "How old is he? He is 15 years old.",
+      "audio_id": "u04_q15",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_100"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_15",
       "why_wrong": {
-        "We swim.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_39": "That shows 39 years old, not 15 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 15 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 15 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
       "id": "i3a_u04_q16",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I go to school.",
-        "I'm twelve years old.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "How old is she?",
+      "audio_id": "u04_q16",
+      "image_ids": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27"
+      ],
+      "correct": "int3a_how-old_age_27",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 27 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 27 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 27 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_27": "27 years old"
+      }
     },
     {
       "id": "i3a_u04_q17",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He's fifteen.",
-        "He has a dog.",
-        "He likes soccer.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "He is 30 years old.",
+      "audio_id": "u04_q17",
+      "image_ids": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_15"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_15"
+      ],
+      "correct": "int3a_how-old_age_30",
       "why_wrong": {
-        "He has a dog.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int3a_how-old_age_10": "That shows 10 years old, not 30 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 30 years old.",
+        "int3a_how-old_age_15": "That shows 15 years old, not 30 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_15": "15 years old"
+      }
     },
     {
       "id": "i3a_u04_q18",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "It's in March.",
-        "He runs.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "How old is she? She is 36 years old.",
+      "audio_id": "u04_q18",
+      "image_ids": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_30"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_30"
+      ],
+      "correct": "int3a_how-old_age_36",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_how-old_age_100": "That shows 100 years old, not 36 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 36 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 36 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_30": "30 years old"
+      }
     },
     {
       "id": "i3a_u04_q19",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They play.",
-        "They're ten.",
-        "They study.",
-        "They eat."
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "u04_q19",
+      "image_ids": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_100"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_39",
       "why_wrong": {
-        "They play.": "Not quite — try again!",
-        "They study.": "Not quite — try again!",
-        "They eat.": "Not quite — try again!"
+        "int3a_how-old_age_36": "That shows 36 years old, not 39 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 39 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 39 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
       "id": "i3a_u04_q20",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, she's one year older.",
-        "He reads.",
-        "We swim.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "She is 55 years old.",
+      "audio_id": "u04_q20",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_55"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_55"
+      ],
+      "correct": "int3a_how-old_age_55",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We swim.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_39": "That shows 39 years old, not 55 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 55 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 55 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_55": "55 years old"
+      }
     },
     {
       "id": "i3a_u04_q21",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like blue.",
-        "I'm twelve years old.",
-        "I go to school.",
-        "I am fine."
+      "type": 1,
+      "prompt_text": "How old is he? He is 77 years old.",
+      "audio_id": "u04_q21",
+      "image_ids": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_77",
       "why_wrong": {
-        "I like blue.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "I am fine.": "Not quite — try again!"
+        "int3a_how-old_age_15": "That shows 15 years old, not 77 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 77 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 77 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
       "id": "i3a_u04_q22",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He is tall.",
-        "He likes soccer.",
-        "He has a dog.",
-        "He's fifteen."
+      "type": 1,
+      "prompt_text": "How old is she?",
+      "audio_id": "u04_q22",
+      "image_ids": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_100"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_100"
+      ],
+      "correct": "int3a_how-old_age_100",
       "why_wrong": {
-        "He is tall.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He has a dog.": "Not quite — try again!"
+        "int3a_how-old_age_1": "That shows 1 year old, not 100 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 100 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 100 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_100": "100 years old"
+      }
     },
     {
       "id": "i3a_u04_q23",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He runs.",
-        "It's in March.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "He is 1 year old.",
+      "audio_id": "u04_q23",
+      "image_ids": [
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_30"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_30"
+      ],
+      "correct": "int3a_how-old_age_1",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_how-old_age_10": "That shows 10 years old, not 1 year old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 1 year old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 1 year old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_30": "30 years old"
+      }
     },
     {
       "id": "i3a_u04_q24",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They eat.",
-        "They study.",
-        "They play.",
-        "They're ten."
+      "type": 1,
+      "prompt_text": "How old is she? She is 5 years old.",
+      "audio_id": "u04_q24",
+      "image_ids": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_5"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_5"
+      ],
+      "correct": "int3a_how-old_age_5",
       "why_wrong": {
-        "They eat.": "Not quite — try again!",
-        "They study.": "Not quite — try again!",
-        "They play.": "Not quite — try again!"
+        "int3a_how-old_age_55": "That shows 55 years old, not 5 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 5 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 5 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_5": "5 years old"
+      }
     },
     {
       "id": "i3a_u04_q25",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Yes, she's one year older.",
-        "We swim.",
-        "I have a cat."
+      "type": 1,
+      "prompt_text": "How old is he?",
+      "audio_id": "u04_q25",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_1"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_1"
+      ],
+      "correct": "int3a_how-old_age_10",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "We swim.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_39": "That shows 39 years old, not 10 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 10 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 10 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_1": "1 year old"
+      }
     },
     {
       "id": "i3a_u04_q26",
-      "type": 4,
-      "prompt_text": "How old are you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am fine.",
-        "I go to school.",
-        "I'm twelve years old.",
-        "I like blue."
+      "type": 1,
+      "prompt_text": "She is 15 years old.",
+      "audio_id": "u04_q26",
+      "image_ids": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_55"
       ],
-      "correct": "I'm twelve years old.",
+      "choices": [
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_55"
+      ],
+      "correct": "int3a_how-old_age_15",
       "why_wrong": {
-        "I am fine.": "Not quite — try again!",
-        "I go to school.": "Not quite — try again!",
-        "I like blue.": "Not quite — try again!"
+        "int3a_how-old_age_30": "That shows 30 years old, not 15 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 15 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 15 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_55": "55 years old"
+      }
     },
     {
       "id": "i3a_u04_q27",
-      "type": 4,
-      "prompt_text": "How old is your brother?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a dog.",
-        "He's fifteen.",
-        "He likes soccer.",
-        "He is tall."
+      "type": 1,
+      "prompt_text": "How old is he? He is 27 years old.",
+      "audio_id": "u04_q27",
+      "image_ids": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_1"
       ],
-      "correct": "He's fifteen.",
+      "choices": [
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_1"
+      ],
+      "correct": "int3a_how-old_age_27",
       "why_wrong": {
-        "He has a dog.": "Not quite — try again!",
-        "He likes soccer.": "Not quite — try again!",
-        "He is tall.": "Not quite — try again!"
+        "int3a_how-old_age_36": "That shows 36 years old, not 27 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 27 years old.",
+        "int3a_how-old_age_1": "That shows 1 year old, not 27 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_1": "1 year old"
+      }
     },
     {
       "id": "i3a_u04_q28",
-      "type": 4,
-      "prompt_text": "When is your birthday?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs.",
-        "I like pizza.",
-        "She sings.",
-        "It's in March."
+      "type": 1,
+      "prompt_text": "How old is she?",
+      "audio_id": "u04_q28",
+      "image_ids": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10"
       ],
-      "correct": "It's in March.",
+      "choices": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_10"
+      ],
+      "correct": "int3a_how-old_age_30",
       "why_wrong": {
-        "He runs.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_how-old_age_1": "That shows 1 year old, not 30 years old.",
+        "int3a_how-old_age_77": "That shows 77 years old, not 30 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 30 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_10": "10 years old"
+      }
     },
     {
       "id": "i3a_u04_q29",
-      "type": 4,
-      "prompt_text": "How old are they?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "They study.",
-        "They eat.",
-        "They play.",
-        "They're ten."
+      "type": 1,
+      "prompt_text": "He is 36 years old.",
+      "audio_id": "u04_q29",
+      "image_ids": [
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_39"
       ],
-      "correct": "They're ten.",
+      "choices": [
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_36",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_39"
+      ],
+      "correct": "int3a_how-old_age_36",
       "why_wrong": {
-        "They study.": "Not quite — try again!",
-        "They eat.": "Not quite — try again!",
-        "They play.": "Not quite — try again!"
+        "int3a_how-old_age_27": "That shows 27 years old, not 36 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 36 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 36 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_36": "36 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_39": "39 years old"
+      }
     },
     {
       "id": "i3a_u04_q30",
-      "type": 4,
-      "prompt_text": "Is she older than you?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We swim.",
-        "He reads.",
-        "I have a cat.",
-        "Yes, she's one year older."
+      "type": 1,
+      "prompt_text": "How old is she? She is 39 years old.",
+      "audio_id": "u04_q30",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36"
       ],
-      "correct": "Yes, she's one year older.",
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_77",
+        "int3a_how-old_age_30",
+        "int3a_how-old_age_36"
+      ],
+      "correct": "int3a_how-old_age_39",
       "why_wrong": {
-        "We swim.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I have a cat.": "Not quite — try again!"
+        "int3a_how-old_age_77": "That shows 77 years old, not 39 years old.",
+        "int3a_how-old_age_30": "That shows 30 years old, not 39 years old.",
+        "int3a_how-old_age_36": "That shows 36 years old, not 39 years old."
       },
       "unit": 4,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_77": "77 years old",
+        "int3a_how-old_age_30": "30 years old",
+        "int3a_how-old_age_36": "36 years old"
+      }
     }
   ]
 }

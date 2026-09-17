@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Unit 7: Exercise and Sports",
+    "title": "Intermediate 3A Unit 7: Gym Class",
     "kind": "unit",
     "units_covered": [
       7
@@ -17,639 +17,971 @@
       "6": "spelling_pick",
       "7": "listen_pick_sentence"
     },
-    "generated": true,
-    "note": "Shell pack — replace with staging assets when available."
+    "generated": false,
+    "note": "Rebuilt 2026-09-18 from curriculum lock + ferry PNG id list (bc-72dc707c). Original Origin tgz/intermediate-int3a branch not recoverable on this box. PNGs NEED_NEW for Picture Maker. Audio baked via Fish 10-pack.",
+    "pass_percent": 80,
+    "curriculum_lock": "print-charts/i3a.txt + day6-qa.json (2026-09-09); ferry PNG ids from bc-72dc707c"
   },
   "questions": [
     {
       "id": "i3a_u07_q01",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am sleeping.",
-        "I am cooking.",
-        "I am reading.",
-        "I'm lifting weights."
+      "type": 1,
+      "prompt_text": "Stand up!",
+      "audio_id": "u07_q01",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_stand_up",
       "why_wrong": {
-        "I am sleeping.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!",
-        "I am reading.": "Not quite — try again!"
+        "int3a_gym-class_run_around": "That shows Run around, not Stand up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Stand up.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Stand up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
       "id": "i3a_u07_q02",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I try to exercise three times a week.",
-        "He has a bike.",
-        "I like pizza.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Run around! Thank you Sir",
+      "audio_id": "u07_q02",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_run_around",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_gym-class_lie_down": "That shows Lie down, not Run around.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Run around.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Run around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q03",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat lunch.",
-        "I like cats.",
-        "He runs home.",
-        "I play basketball."
+      "type": 1,
+      "prompt_text": "Jump rope!",
+      "audio_id": "u07_q03",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_jump_rope",
       "why_wrong": {
-        "We eat lunch.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Jump rope.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Jump rope.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Jump rope."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q04",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She sings.",
-        "He reads.",
-        "I am ten.",
-        "Yes, before we run."
+      "type": 1,
+      "prompt_text": "Climb up!",
+      "audio_id": "u07_q04",
+      "image_ids": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
+      ],
+      "correct": "int3a_gym-class_climb_up",
       "why_wrong": {
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Climb up.",
+        "int3a_gym-class_run_around": "That shows Run around, not Climb up.",
+        "int3a_gym-class_sit_down": "That shows Sit down, not Climb up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_sit_down": "Sit down"
+      }
     },
     {
       "id": "i3a_u07_q05",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "To stay healthy.",
-        "She swims.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Clap 3 times! Thank you Sir",
+      "audio_id": "u07_q05",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_clap_3",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_gym-class_run_around": "That shows Run around, not Clap 3 times.",
+        "int3a_gym-class_climb_up": "That shows Climb up, not Clap 3 times.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Clap 3 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q06",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am reading.",
-        "I am sleeping.",
-        "I am cooking.",
-        "I'm lifting weights."
+      "type": 1,
+      "prompt_text": "Clap 5 times!",
+      "audio_id": "u07_q06",
+      "image_ids": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_clap_5"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_clap_5"
+      ],
+      "correct": "int3a_gym-class_clap_5",
       "why_wrong": {
-        "I am reading.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!"
+        "int3a_gym-class_dance": "That shows Dance, not Clap 5 times.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Clap 5 times.",
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Clap 5 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_clap_5": "Clap 5 times"
+      }
     },
     {
       "id": "i3a_u07_q07",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I try to exercise three times a week.",
-        "I like pizza.",
-        "He has a bike.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Turn around!",
+      "audio_id": "u07_q07",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_turn_around",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Turn around.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Turn around.",
+        "int3a_gym-class_dance": "That shows Dance, not Turn around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
       "id": "i3a_u07_q08",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I play basketball.",
-        "He runs home.",
-        "I like cats.",
-        "We eat lunch."
+      "type": 1,
+      "prompt_text": "Dance! Thank you Sir",
+      "audio_id": "u07_q08",
+      "image_ids": [
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down"
+      ],
+      "correct": "int3a_gym-class_dance",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Dance.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Dance.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Dance."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_lie_down": "Lie down"
+      }
     },
     {
       "id": "i3a_u07_q09",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, before we run.",
-        "I am ten.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Sit down!",
+      "audio_id": "u07_q09",
+      "image_ids": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_lie_down"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_lie_down"
+      ],
+      "correct": "int3a_gym-class_sit_down",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Sit down.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Sit down.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Sit down."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_sit_down": "Sit down",
+        "int3a_gym-class_lie_down": "Lie down"
+      }
     },
     {
       "id": "i3a_u07_q10",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "I like red.",
-        "He jumps.",
-        "To stay healthy."
+      "type": 1,
+      "prompt_text": "Lie down!",
+      "audio_id": "u07_q10",
+      "image_ids": [
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_lie_down",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!"
+        "int3a_gym-class_sit_down": "That shows Sit down, not Lie down.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Lie down.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Lie down."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_sit_down": "Sit down",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
       "id": "i3a_u07_q11",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am cooking.",
-        "I am reading.",
-        "I'm lifting weights.",
-        "I am sleeping."
+      "type": 1,
+      "prompt_text": "Do jumping jacks! Thank you Sir",
+      "audio_id": "u07_q11",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
+      ],
+      "correct": "int3a_gym-class_jumping_jacks",
       "why_wrong": {
-        "I am cooking.": "Not quite — try again!",
-        "I am reading.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!"
+        "int3a_gym-class_run_around": "That shows Run around, not Do jumping jacks.",
+        "int3a_gym-class_dance": "That shows Dance, not Do jumping jacks.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Do jumping jacks."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_clap_5": "Clap 5 times"
+      }
     },
     {
       "id": "i3a_u07_q12",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He has a bike.",
-        "She is kind.",
-        "I like pizza.",
-        "I try to exercise three times a week."
+      "type": 1,
+      "prompt_text": "Stand up!",
+      "audio_id": "u07_q12",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_turn_around"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_stand_up",
       "why_wrong": {
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_gym-class_climb_up": "That shows Climb up, not Stand up.",
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Stand up.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Stand up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_turn_around": "Turn around"
+      }
     },
     {
       "id": "i3a_u07_q13",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He runs home.",
-        "We eat lunch.",
-        "I play basketball.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Run around!",
+      "audio_id": "u07_q13",
+      "image_ids": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
+      ],
+      "correct": "int3a_gym-class_run_around",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Run around.",
+        "int3a_gym-class_climb_up": "That shows Climb up, not Run around.",
+        "int3a_gym-class_sit_down": "That shows Sit down, not Run around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_sit_down": "Sit down"
+      }
     },
     {
       "id": "i3a_u07_q14",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Yes, before we run.",
-        "I am ten.",
-        "She sings."
+      "type": 1,
+      "prompt_text": "Jump rope! Thank you Sir",
+      "audio_id": "u07_q14",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_stand_up"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_stand_up"
+      ],
+      "correct": "int3a_gym-class_jump_rope",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!"
+        "int3a_gym-class_run_around": "That shows Run around, not Jump rope.",
+        "int3a_gym-class_dance": "That shows Dance, not Jump rope.",
+        "int3a_gym-class_stand_up": "That shows Stand up, not Jump rope."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_stand_up": "Stand up"
+      }
     },
     {
       "id": "i3a_u07_q15",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "To stay healthy.",
-        "He jumps.",
-        "I like red.",
-        "She swims."
+      "type": 1,
+      "prompt_text": "Climb up!",
+      "audio_id": "u07_q15",
+      "image_ids": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jumping_jacks"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_jumping_jacks"
+      ],
+      "correct": "int3a_gym-class_climb_up",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Climb up.",
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Climb up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Climb up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks"
+      }
     },
     {
       "id": "i3a_u07_q16",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am sleeping.",
-        "I'm lifting weights.",
-        "I am reading.",
-        "I am cooking."
+      "type": 1,
+      "prompt_text": "Clap 3 times!",
+      "audio_id": "u07_q16",
+      "image_ids": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_clap_3",
       "why_wrong": {
-        "I am sleeping.": "Not quite — try again!",
-        "I am reading.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!"
+        "int3a_gym-class_climb_up": "That shows Climb up, not Clap 3 times.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Clap 3 times.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Clap 3 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q17",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "He has a bike.",
-        "I try to exercise three times a week.",
-        "I like pizza."
+      "type": 1,
+      "prompt_text": "Clap 5 times! Thank you Sir",
+      "audio_id": "u07_q17",
+      "image_ids": [
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_clap_5",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!"
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Clap 5 times.",
+        "int3a_gym-class_run_around": "That shows Run around, not Clap 5 times.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Clap 5 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q18",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I play basketball.",
-        "He runs home.",
-        "I like cats.",
-        "We eat lunch."
+      "type": 1,
+      "prompt_text": "Turn around!",
+      "audio_id": "u07_q18",
+      "image_ids": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_jumping_jacks"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_sit_down",
+        "int3a_gym-class_jumping_jacks"
+      ],
+      "correct": "int3a_gym-class_turn_around",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!"
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Turn around.",
+        "int3a_gym-class_sit_down": "That shows Sit down, not Turn around.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Turn around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_sit_down": "Sit down",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks"
+      }
     },
     {
       "id": "i3a_u07_q19",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am ten.",
-        "Yes, before we run.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Dance!",
+      "audio_id": "u07_q19",
+      "image_ids": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_clap_5"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_clap_5"
+      ],
+      "correct": "int3a_gym-class_dance",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_gym-class_lie_down": "That shows Lie down, not Dance.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Dance.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Dance."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_clap_5": "Clap 5 times"
+      }
     },
     {
       "id": "i3a_u07_q20",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She swims.",
-        "To stay healthy.",
-        "He jumps.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Sit down! Thank you Sir",
+      "audio_id": "u07_q20",
+      "image_ids": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_sit_down"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_sit_down"
+      ],
+      "correct": "int3a_gym-class_sit_down",
       "why_wrong": {
-        "She swims.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Sit down.",
+        "int3a_gym-class_run_around": "That shows Run around, not Sit down.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Sit down."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_sit_down": "Sit down"
+      }
     },
     {
       "id": "i3a_u07_q21",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I'm lifting weights.",
-        "I am reading.",
-        "I am cooking.",
-        "I am sleeping."
+      "type": 1,
+      "prompt_text": "Lie down!",
+      "audio_id": "u07_q21",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_lie_down",
       "why_wrong": {
-        "I am reading.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Lie down.",
+        "int3a_gym-class_run_around": "That shows Run around, not Lie down.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Lie down."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q22",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like pizza.",
-        "He has a bike.",
-        "I try to exercise three times a week.",
-        "She is kind."
+      "type": 1,
+      "prompt_text": "Do jumping jacks!",
+      "audio_id": "u07_q22",
+      "image_ids": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_clap_5"
+      ],
+      "correct": "int3a_gym-class_jumping_jacks",
       "why_wrong": {
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!",
-        "She is kind.": "Not quite — try again!"
+        "int3a_gym-class_dance": "That shows Dance, not Do jumping jacks.",
+        "int3a_gym-class_run_around": "That shows Run around, not Do jumping jacks.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Do jumping jacks."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_clap_5": "Clap 5 times"
+      }
     },
     {
       "id": "i3a_u07_q23",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "We eat lunch.",
-        "He runs home.",
-        "I like cats.",
-        "I play basketball."
+      "type": 1,
+      "prompt_text": "Stand up! Yes sir!",
+      "audio_id": "u07_q23",
+      "image_ids": [
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up"
+      ],
+      "correct": "int3a_gym-class_stand_up",
       "why_wrong": {
-        "We eat lunch.": "Not quite — try again!",
-        "He runs home.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Stand up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Stand up.",
+        "int3a_gym-class_run_around": "That shows Run around, not Stand up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_stand_up": "Stand up"
+      }
     },
     {
       "id": "i3a_u07_q24",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He reads.",
-        "Yes, before we run.",
-        "She sings.",
-        "I am ten."
+      "type": 1,
+      "prompt_text": "Run around!",
+      "audio_id": "u07_q24",
+      "image_ids": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_run_around"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_run_around"
+      ],
+      "correct": "int3a_gym-class_run_around",
       "why_wrong": {
-        "He reads.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "I am ten.": "Not quite — try again!"
+        "int3a_gym-class_lie_down": "That shows Lie down, not Run around.",
+        "int3a_gym-class_dance": "That shows Dance, not Run around.",
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Run around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_run_around": "Run around"
+      }
     },
     {
       "id": "i3a_u07_q25",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "He jumps.",
-        "She swims.",
-        "To stay healthy.",
-        "I like red."
+      "type": 1,
+      "prompt_text": "Jump rope!",
+      "audio_id": "u07_q25",
+      "image_ids": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_dance",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_jump_rope",
       "why_wrong": {
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!",
-        "I like red.": "Not quite — try again!"
+        "int3a_gym-class_lie_down": "That shows Lie down, not Jump rope.",
+        "int3a_gym-class_climb_up": "That shows Climb up, not Jump rope.",
+        "int3a_gym-class_dance": "That shows Dance, not Jump rope."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      }
     },
     {
       "id": "i3a_u07_q26",
-      "type": 4,
-      "prompt_text": "What are you doing at the gym?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I am reading.",
-        "I am cooking.",
-        "I am sleeping.",
-        "I'm lifting weights."
+      "type": 1,
+      "prompt_text": "Climb up! Thank you Sir",
+      "audio_id": "u07_q26",
+      "image_ids": [
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up"
       ],
-      "correct": "I'm lifting weights.",
+      "choices": [
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_climb_up"
+      ],
+      "correct": "int3a_gym-class_climb_up",
       "why_wrong": {
-        "I am reading.": "Not quite — try again!",
-        "I am cooking.": "Not quite — try again!",
-        "I am sleeping.": "Not quite — try again!"
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Climb up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Climb up.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Climb up."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_climb_up": "Climb up"
+      }
     },
     {
       "id": "i3a_u07_q27",
-      "type": 4,
-      "prompt_text": "Do you exercise every day?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "She is kind.",
-        "I like pizza.",
-        "I try to exercise three times a week.",
-        "He has a bike."
+      "type": 1,
+      "prompt_text": "Clap 3 times!",
+      "audio_id": "u07_q27",
+      "image_ids": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jumping_jacks"
       ],
-      "correct": "I try to exercise three times a week.",
+      "choices": [
+        "int3a_gym-class_clap_3",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jumping_jacks"
+      ],
+      "correct": "int3a_gym-class_clap_3",
       "why_wrong": {
-        "She is kind.": "Not quite — try again!",
-        "I like pizza.": "Not quite — try again!",
-        "He has a bike.": "Not quite — try again!"
+        "int3a_gym-class_lie_down": "That shows Lie down, not Clap 3 times.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Clap 3 times.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Clap 3 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_clap_3": "Clap 3 times",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks"
+      }
     },
     {
       "id": "i3a_u07_q28",
-      "type": 4,
-      "prompt_text": "What sport do you play?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I play basketball.",
-        "He runs home.",
-        "We eat lunch.",
-        "I like cats."
+      "type": 1,
+      "prompt_text": "Clap 5 times!",
+      "audio_id": "u07_q28",
+      "image_ids": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_stand_up"
       ],
-      "correct": "I play basketball.",
+      "choices": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_stand_up"
+      ],
+      "correct": "int3a_gym-class_clap_5",
       "why_wrong": {
-        "He runs home.": "Not quite — try again!",
-        "We eat lunch.": "Not quite — try again!",
-        "I like cats.": "Not quite — try again!"
+        "int3a_gym-class_dance": "That shows Dance, not Clap 5 times.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Clap 5 times.",
+        "int3a_gym-class_stand_up": "That shows Stand up, not Clap 5 times."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_stand_up": "Stand up"
+      }
     },
     {
       "id": "i3a_u07_q29",
-      "type": 4,
-      "prompt_text": "Are you stretching?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "Yes, before we run.",
-        "I am ten.",
-        "She sings.",
-        "He reads."
+      "type": 1,
+      "prompt_text": "Turn around! Thank you Sir",
+      "audio_id": "u07_q29",
+      "image_ids": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_dance"
       ],
-      "correct": "Yes, before we run.",
+      "choices": [
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_5",
+        "int3a_gym-class_jump_rope",
+        "int3a_gym-class_dance"
+      ],
+      "correct": "int3a_gym-class_turn_around",
       "why_wrong": {
-        "I am ten.": "Not quite — try again!",
-        "She sings.": "Not quite — try again!",
-        "He reads.": "Not quite — try again!"
+        "int3a_gym-class_clap_5": "That shows Clap 5 times, not Turn around.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Turn around.",
+        "int3a_gym-class_dance": "That shows Dance, not Turn around."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_clap_5": "Clap 5 times",
+        "int3a_gym-class_jump_rope": "Jump rope",
+        "int3a_gym-class_dance": "Dance"
+      }
     },
     {
       "id": "i3a_u07_q30",
-      "type": 4,
-      "prompt_text": "Why do you exercise?",
-      "audio_id": null,
-      "image_ids": [],
-      "choices": [
-        "I like red.",
-        "He jumps.",
-        "She swims.",
-        "To stay healthy."
+      "type": 1,
+      "prompt_text": "Dance!",
+      "audio_id": "u07_q30",
+      "image_ids": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_3"
       ],
-      "correct": "To stay healthy.",
+      "choices": [
+        "int3a_gym-class_dance",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_clap_3"
+      ],
+      "correct": "int3a_gym-class_dance",
       "why_wrong": {
-        "I like red.": "Not quite — try again!",
-        "He jumps.": "Not quite — try again!",
-        "She swims.": "Not quite — try again!"
+        "int3a_gym-class_stand_up": "That shows Stand up, not Dance.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Dance.",
+        "int3a_gym-class_clap_3": "That shows Clap 3 times, not Dance."
       },
       "unit": 7,
-      "level": "int3a"
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_dance": "Dance",
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_clap_3": "Clap 3 times"
+      }
     }
   ]
 }
