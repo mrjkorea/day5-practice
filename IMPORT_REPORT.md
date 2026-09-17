@@ -1,45 +1,61 @@
 # Intermediate Day 5 — Origin harvest import report
 
-**Jay GO 2026-09-17** · Cloud agent `bc-3a0e5181-e3d6-5932-ad51-9210a419a7b0`
+**Last updated:** 2026-09-17 (post–INT3B ferry completion notice)
 
 ## Result summary
 
-| Book | Origin remote | Expected branch(es) | GitHub `staging-int*` | `staging/INT*/` on PR #1 | `images/*` PNG | `audio/*` MP3 | Status |
-|------|---------------|---------------------|-------------------------|---------------------------|----------------|---------------|--------|
-| INT2A | [tmp-a4c737e…](https://origin.cursor.com/git/wait4languages/tmp-a4c737e083236982.git) | `main`, `intermediate-int2a` | shell only | shell (66 assessments wired) | 0 | 0 | **ORIGIN_CLONE_FAILED** |
-| INT2B | [tmp-8b71226a…](https://origin.cursor.com/git/wait4languages/tmp-8b71226a906aee3d.git) | `main`, `intermediate-int2b` | shell only | shell | 0 | 0 | **ORIGIN_CLONE_FAILED** |
-| INT2C | [tmp-0a5450fe…](https://origin.cursor.com/git/wait4languages/tmp-0a5450fe7d08e1b2.git) | `main`, `intermediate-int2c` | shell only | shell | 0 | 0 | **ORIGIN_CLONE_FAILED** |
-| INT3A | [tmp-b8b36e4a…](https://origin.cursor.com/git/wait4languages/tmp-b8b36e4ac789c6db.git) | `main`, `intermediate-int3a` | shell only | shell | 0 | 0 | **ORIGIN_CLONE_FAILED** |
-| INT3B | [tmp-6027b482…](https://origin.cursor.com/git/wait4languages/tmp-6027b4826ea45356.git) | `main`, `intermediate-int3b` | shell only | shell | 0 | 0 | **ORIGIN_CLONE_FAILED** |
-| INT3C | [tmp-5845cb28…](https://origin.cursor.com/git/wait4languages/tmp-5845cb284c61d453.git) | `cos-ferry-int3c`, `intermediate-int3c` | shell only | shell | 0 | 0 | **ORIGIN_CLONE_FAILED** |
+| Book | Harvest on Origin | Imported to GitHub | Status |
+|------|-------------------|--------------------|--------|
+| INT2A | Yes (`intermediate-int2a`, export tgz) | No | **ORIGIN_CLONE_FAILED** |
+| INT2B | Yes (`intermediate-int2b`, export tgz) | No | **ORIGIN_CLONE_FAILED** |
+| INT2C | Yes (`intermediate-int2c`, export tgz) | No | **ORIGIN_CLONE_FAILED** |
+| INT3A | Unknown / not in this update | No | **ORIGIN_CLONE_FAILED** |
+| INT3B | **Yes** — harvest on `main`, ferry `cursor/int3b-day5-ferry-e372`, `INT3B-day5.tgz` sha256 `febd99df…` | No | **ORIGIN_CLONE_FAILED** |
+| INT3C | Pending prior ferry | No | **ORIGIN_CLONE_FAILED** |
 
-**Books landed with real harvest assets on GitHub: none (0/6).**
+**Real harvest packs on GitHub: 0/6.** All `staging/INT*/` on PR #1 remain **shell** JSON (TTS-only). **Do not merge PR #1 as content-complete.**
 
-Shell packs remain playable on the PR branch (text + browser TTS, 80% pass). They are **not** a substitute for harvested listen-and-tap PNG/audio packs. **Do not merge PR #1 as “content complete.”**
+## Blocker
 
-## What was tried (2026-09-17)
+Cloud VM has **GitHub** credentials (`gh` push works) but **no Cursor Origin session**:
 
-1. `git clone` (depth 1) for all six `https://origin.cursor.com/git/wait4languages/tmp-*.git` URLs → `fatal: could not read Username for 'https://origin.cursor.com'`.
-2. `git ls-remote` for `intermediate-int2a` … `intermediate-int3c` on each remote → same auth failure.
-3. `origin auth status` → **Not logged in**.
-4. `origin auth login` (browser deep link) → **timed out** waiting for human completion on the cloud VM.
-5. GitHub `staging-int2a` … `staging-int3c` → still **shell** `questions.json` (no `int2a_*` / `int2b_*` PNGs under `images/int*/`).
+- `origin auth status` → not logged in
+- `git clone https://origin.cursor.com/git/wait4languages/tmp-*.git` → no username/password
+- `CURSOR_AUTH_TOKEN` / `CURSOR_API_KEY` not set in environment
+- Browser `origin auth login` opened; login not completed on the agent desktop
 
-## Unblock (Wait for Languages harvest → GitHub)
+## INT3B Origin pointers (bc-3cae94ea)
 
-On a machine with Origin auth (`origin auth login` complete):
+| Field | Value |
+|-------|--------|
+| Remote | https://origin.cursor.com/git/wait4languages/tmp-6027b4826ea45356.git |
+| Harvest | `main` |
+| Ferry | `cursor/int3b-day5-ferry-e372` |
+| Artifact | `export/INT3B-day5.tgz` |
+| sha256 | `febd99df16367d13cda93ae1cb72ff7d9d9e0ba4067f3749d5be9ab910ad76bf` |
+
+## Unblock → import → push
+
+**Option A — Origin auth on this environment**
+
+1. Add environment secret `CURSOR_API_KEY` (or complete `origin auth login` on the agent desktop).
+2. Re-run this agent or:
 
 ```bash
-git clone https://github.com/mrjkorea/day5-practice
-cd day5-practice
-git checkout cursor/intermediate-day5-practice-c003   # or main after merge scaffolding
 ./scripts/import_staging_from_origin.sh INT2A
-# repeat INT2B … INT3C
-git add staging/ images/ audio/ data/manifest-intermediate.json
-git commit -m "Import real INT2A harvest from Origin"
-git push -u origin staging-int2a   # or one branch for PR #1
+./scripts/import_staging_from_origin.sh INT2B
+./scripts/import_staging_from_origin.sh INT2C
+./scripts/import_staging_from_origin.sh INT3B
+git add staging/ images/ audio/ && git commit -m "Import real INT2A–INT3B harvest from Origin"
+git push -u origin cursor/intermediate-day5-practice-c003
 ```
 
-Verify after import: `questions.json` should reference `audio_id` / `pic_*` choices; `images/int2a/*.png` (etc.) should be non-empty. tgz sha256 targets are in `staging/ORIGIN_STATUS.md`.
+**Option B — manual tgz** (from Origin `export/` after download)
 
-Brand for published copy: **Wait for Languages** (not LAL).
+```bash
+./scripts/import_staging_from_tgz.sh INT3B ./INT3B-day5.tgz
+```
+
+Verify real packs: `questions.json` has `audio_id` / `pic_*` choices; `images/int3b/*.png` non-empty; meta should **not** say `Shell pack`.
+
+Brand: **Wait for Languages** (not LAL).

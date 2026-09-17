@@ -1,6 +1,6 @@
 # Blocker: Cursor Origin unreachable from GitHub cloud VMs
 
-**Status:** `ORIGIN_CLONE_FAILED` — **all six books** (last full retry **2026-09-17**, Jay GO)
+**Status:** `ORIGIN_CLONE_FAILED` — **all six books** on GitHub (last retry **2026-09-17**). **INT2A–INT3B harvest exists on Origin** but cannot be cloned without `origin auth` / `CURSOR_API_KEY`. INT3B harvest confirmed on Origin `main` (ferry branch `cursor/int3b-day5-ferry-e372`, tgz `febd99df…`).
 
 ## What was tried
 

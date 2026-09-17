@@ -43,9 +43,9 @@ ORIGIN_SOURCES = {
     },
     "INT3B": {
         "git": "https://origin.cursor.com/git/wait4languages/tmp-6027b4826ea45356.git",
-        "branch": "main",
+        "branch": "main (harvest); cursor/int3b-day5-ferry-e372 (ferry)",
         "path": "main",
-        "sha256": "f3a34700218610368994c221476d5288c4e88706cd1e0659836542645bccc8da",
+        "sha256": "febd99df16367d13cda93ae1cb72ff7d9d9e0ba4067f3749d5be9ab910ad76bf",
     },
     "INT3C": {
         "git": "https://origin.cursor.com/git/wait4languages/tmp-5845cb284c61d453.git",

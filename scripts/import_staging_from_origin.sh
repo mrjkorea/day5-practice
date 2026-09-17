@@ -32,7 +32,7 @@ STAGING_BRANCH[INT3A]="staging-int3a"
 ORIGIN_GIT[INT3B]="https://origin.cursor.com/git/wait4languages/tmp-6027b4826ea45356.git"
 ORIGIN_BRANCH[INT3B]="main"
 ORIGIN_SUBPATH[INT3B]="."
-ORIGIN_SHA[INT3B]="f3a34700218610368994c221476d5288c4e88706cd1e0659836542645bccc8da"
+ORIGIN_SHA[INT3B]="febd99df16367d13cda93ae1cb72ff7d9d9e0ba4067f3749d5be9ab910ad76bf"
 STAGING_BRANCH[INT3B]="staging-int3b"
 
 ORIGIN_GIT[INT3C]="https://origin.cursor.com/git/wait4languages/tmp-5845cb284c61d453.git"
