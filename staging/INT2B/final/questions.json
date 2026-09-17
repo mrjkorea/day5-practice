@@ -25,8 +25,8 @@
       "7": "listen_pick_sentence"
     },
     "generated": false,
-    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
-    "images_partial": true,
+    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped. PNGs complete (83/83 Picture Maker GenerateImage).",
+    "images_partial": false,
     "concrete_nouns_only": true,
     "normalized_from": "int2b-ready"
   },
