@@ -57,4 +57,7 @@ Branch `intermediate-int3c` → PR → merge `main`. Pages deploy from **main**.
 
 ## Deploy confirmation
 
-(filled after merge)
+- PR: https://github.com/mrjkorea/day5-practice/pull/3 — **merged** to `main` (2026-09-18 KST)
+- Pages status: **built**
+- Verified live (HTTP 200): intermediate hub, `staging/INT3C/unit01/questions.json` (generated=false, type 1), `images/int3c/int3c_u01_sweet_food_sweet_food.png`, `audio/int3c/u01_q01.mp3`
+- Playable assessments: **11 / 11**; pack PNG missing: **0**; questions: **343**
