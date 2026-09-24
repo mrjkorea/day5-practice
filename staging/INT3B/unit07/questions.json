@@ -1,14 +1,653 @@
 {
   "meta": {
     "level": "int3b",
-    "title": "Don't Forget (INCOMPLETE \u2014 not published)",
+    "title": "Intermediate 3B Unit 7: Don't Forget Your Transit Card",
     "kind": "unit",
     "units_covered": [
       7
     ],
-    "count": 0,
-    "status": "SKIPPED_INCOMPLETE",
-    "note": "Source missing q18\u2013q21; shell filler not published."
+    "count": 22,
+    "schema": "day5-practice",
+    "types": {
+      "1": "listen_pick_picture",
+      "2": "listen_pick_word",
+      "3": "picture_pick_word",
+      "4": "dialog_pick_reply",
+      "5": "cue_pick_english",
+      "6": "spelling_pick",
+      "7": "listen_pick_sentence"
+    },
+    "generated": false,
+    "built": "2026-09-25 from Day 4 sentences + Day 6 Q&A (unit vocabulary only)",
+    "note": "Audio sentence hidden on screen (speak_text = TTS fallback). Types 4/7/5 test the key expression; type 1 only where real art exists."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "i3b_u07_q01",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your transit card.",
+      "audio_id": "unit7-q01",
+      "image_ids": [
+        "i3b_umbrella",
+        "i3b_money",
+        "i3b_transit_card",
+        "i3b_coat"
+      ],
+      "choices": [
+        "i3b_umbrella",
+        "i3b_money",
+        "i3b_transit_card",
+        "i3b_coat"
+      ],
+      "correct": "i3b_transit_card",
+      "why_wrong": {
+        "i3b_umbrella": "Not this one. The picture was \"transit card\". Listen again!",
+        "i3b_money": "Not this one. The picture was \"transit card\". Listen again!",
+        "i3b_coat": "Not this one. The picture was \"transit card\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_umbrella": "umbrella",
+        "i3b_money": "money",
+        "i3b_transit_card": "transit card",
+        "i3b_coat": "coat"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q02",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your hat.",
+      "audio_id": "unit7-q02",
+      "image_ids": [
+        "i3b_hat",
+        "i3b_coat",
+        "i3b_lunch",
+        "i3b_sister"
+      ],
+      "choices": [
+        "i3b_hat",
+        "i3b_coat",
+        "i3b_lunch",
+        "i3b_sister"
+      ],
+      "correct": "i3b_hat",
+      "why_wrong": {
+        "i3b_coat": "Not this one. The picture was \"hat\". Listen again!",
+        "i3b_lunch": "Not this one. The picture was \"hat\". Listen again!",
+        "i3b_sister": "Not this one. The picture was \"hat\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_hat": "hat",
+        "i3b_coat": "coat",
+        "i3b_lunch": "lunch",
+        "i3b_sister": "little sister"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q03",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your coat.",
+      "audio_id": "unit7-q03",
+      "image_ids": [
+        "i3b_textbook",
+        "i3b_phone",
+        "i3b_hat",
+        "i3b_coat"
+      ],
+      "choices": [
+        "i3b_textbook",
+        "i3b_phone",
+        "i3b_hat",
+        "i3b_coat"
+      ],
+      "correct": "i3b_coat",
+      "why_wrong": {
+        "i3b_textbook": "Not this one. The picture was \"coat\". Listen again!",
+        "i3b_phone": "Not this one. The picture was \"coat\". Listen again!",
+        "i3b_hat": "Not this one. The picture was \"coat\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_textbook": "textbook",
+        "i3b_phone": "phone",
+        "i3b_hat": "hat",
+        "i3b_coat": "coat"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q04",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your money.",
+      "audio_id": "unit7-q04",
+      "image_ids": [
+        "i3b_hat",
+        "i3b_sister",
+        "i3b_money",
+        "i3b_lunch"
+      ],
+      "choices": [
+        "i3b_hat",
+        "i3b_sister",
+        "i3b_money",
+        "i3b_lunch"
+      ],
+      "correct": "i3b_money",
+      "why_wrong": {
+        "i3b_hat": "Not this one. The picture was \"money\". Listen again!",
+        "i3b_sister": "Not this one. The picture was \"money\". Listen again!",
+        "i3b_lunch": "Not this one. The picture was \"money\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_hat": "hat",
+        "i3b_sister": "little sister",
+        "i3b_money": "money",
+        "i3b_lunch": "lunch"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q05",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your phone.",
+      "audio_id": "unit7-q05",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_jacket",
+        "i3b_phone",
+        "i3b_umbrella"
+      ],
+      "choices": [
+        "i3b_sister",
+        "i3b_jacket",
+        "i3b_phone",
+        "i3b_umbrella"
+      ],
+      "correct": "i3b_phone",
+      "why_wrong": {
+        "i3b_sister": "Not this one. The picture was \"phone\". Listen again!",
+        "i3b_jacket": "Not this one. The picture was \"phone\". Listen again!",
+        "i3b_umbrella": "Not this one. The picture was \"phone\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_sister": "little sister",
+        "i3b_jacket": "jacket",
+        "i3b_phone": "phone",
+        "i3b_umbrella": "umbrella"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q06",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your backpack.",
+      "audio_id": "unit7-q06",
+      "image_ids": [
+        "i3b_schoolbag",
+        "i3b_transit_card",
+        "i3b_phone",
+        "i3b_textbook"
+      ],
+      "choices": [
+        "i3b_schoolbag",
+        "i3b_transit_card",
+        "i3b_phone",
+        "i3b_textbook"
+      ],
+      "correct": "i3b_schoolbag",
+      "why_wrong": {
+        "i3b_transit_card": "Not this one. The picture was \"backpack / school bag\". Listen again!",
+        "i3b_phone": "Not this one. The picture was \"backpack / school bag\". Listen again!",
+        "i3b_textbook": "Not this one. The picture was \"backpack / school bag\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_schoolbag": "backpack / school bag",
+        "i3b_transit_card": "transit card",
+        "i3b_phone": "phone",
+        "i3b_textbook": "textbook"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q07",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your lunch.",
+      "audio_id": "unit7-q07",
+      "image_ids": [
+        "i3b_phone",
+        "i3b_transit_card",
+        "i3b_coat",
+        "i3b_lunch"
+      ],
+      "choices": [
+        "i3b_phone",
+        "i3b_transit_card",
+        "i3b_coat",
+        "i3b_lunch"
+      ],
+      "correct": "i3b_lunch",
+      "why_wrong": {
+        "i3b_phone": "Not this one. The picture was \"lunch\". Listen again!",
+        "i3b_transit_card": "Not this one. The picture was \"lunch\". Listen again!",
+        "i3b_coat": "Not this one. The picture was \"lunch\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_phone": "phone",
+        "i3b_transit_card": "transit card",
+        "i3b_coat": "coat",
+        "i3b_lunch": "lunch"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q08",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your little sister.",
+      "audio_id": "unit7-q08",
+      "image_ids": [
+        "i3b_coat",
+        "i3b_schoolbag",
+        "i3b_sister",
+        "i3b_transit_card"
+      ],
+      "choices": [
+        "i3b_coat",
+        "i3b_schoolbag",
+        "i3b_sister",
+        "i3b_transit_card"
+      ],
+      "correct": "i3b_sister",
+      "why_wrong": {
+        "i3b_coat": "Not this one. The picture was \"little sister\". Listen again!",
+        "i3b_schoolbag": "Not this one. The picture was \"little sister\". Listen again!",
+        "i3b_transit_card": "Not this one. The picture was \"little sister\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_coat": "coat",
+        "i3b_schoolbag": "backpack / school bag",
+        "i3b_sister": "little sister",
+        "i3b_transit_card": "transit card"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q09",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your umbrella.",
+      "audio_id": "unit7-q09",
+      "image_ids": [
+        "i3b_lunch",
+        "i3b_umbrella",
+        "i3b_schoolbag",
+        "i3b_jacket"
+      ],
+      "choices": [
+        "i3b_lunch",
+        "i3b_umbrella",
+        "i3b_schoolbag",
+        "i3b_jacket"
+      ],
+      "correct": "i3b_umbrella",
+      "why_wrong": {
+        "i3b_lunch": "Not this one. The picture was \"umbrella\". Listen again!",
+        "i3b_schoolbag": "Not this one. The picture was \"umbrella\". Listen again!",
+        "i3b_jacket": "Not this one. The picture was \"umbrella\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_lunch": "lunch",
+        "i3b_umbrella": "umbrella",
+        "i3b_schoolbag": "backpack / school bag",
+        "i3b_jacket": "jacket"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q10",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your textbook.",
+      "audio_id": "unit7-q10",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_textbook",
+        "i3b_money",
+        "i3b_transit_card"
+      ],
+      "choices": [
+        "i3b_sister",
+        "i3b_textbook",
+        "i3b_money",
+        "i3b_transit_card"
+      ],
+      "correct": "i3b_textbook",
+      "why_wrong": {
+        "i3b_sister": "Not this one. The picture was \"textbook\". Listen again!",
+        "i3b_money": "Not this one. The picture was \"textbook\". Listen again!",
+        "i3b_transit_card": "Not this one. The picture was \"textbook\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_sister": "little sister",
+        "i3b_textbook": "textbook",
+        "i3b_money": "money",
+        "i3b_transit_card": "transit card"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q11",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Do not forget your jacket!",
+      "audio_id": "unit7-q11",
+      "image_ids": [
+        "i3b_jacket",
+        "i3b_hat",
+        "i3b_phone",
+        "i3b_money"
+      ],
+      "choices": [
+        "i3b_jacket",
+        "i3b_hat",
+        "i3b_phone",
+        "i3b_money"
+      ],
+      "correct": "i3b_jacket",
+      "why_wrong": {
+        "i3b_hat": "Not this one. The picture was \"jacket\". Listen again!",
+        "i3b_phone": "Not this one. The picture was \"jacket\". Listen again!",
+        "i3b_money": "Not this one. The picture was \"jacket\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_jacket": "jacket",
+        "i3b_hat": "hat",
+        "i3b_phone": "phone",
+        "i3b_money": "money"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day6"
+    },
+    {
+      "id": "i3b_u07_q12",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Don't forget your transit card.",
+      "audio_id": "unit7-q12",
+      "image_ids": [],
+      "choices": [
+        "Don't forget my transit card.",
+        "Don't forget your transit card.",
+        "Don't forget your textbook.",
+        "Forget your transit card."
+      ],
+      "correct": "Don't forget your transit card.",
+      "why_wrong": {
+        "Don't forget my transit card.": "Listen again. You heard: \"Don't forget your transit card.\"",
+        "Don't forget your textbook.": "Listen again. You heard: \"Don't forget your transit card.\"",
+        "Forget your transit card.": "Listen again. You heard: \"Don't forget your transit card.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q13",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Don't forget your umbrella.",
+      "audio_id": "unit7-q13",
+      "image_ids": [],
+      "choices": [
+        "Forget your umbrella.",
+        "Don't forget my umbrella.",
+        "Don't forget your umbrella.",
+        "Don't forget your lunch."
+      ],
+      "correct": "Don't forget your umbrella.",
+      "why_wrong": {
+        "Forget your umbrella.": "Listen again. You heard: \"Don't forget your umbrella.\"",
+        "Don't forget my umbrella.": "Listen again. You heard: \"Don't forget your umbrella.\"",
+        "Don't forget your lunch.": "Listen again. You heard: \"Don't forget your umbrella.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q14",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Don't forget your backpack.",
+      "audio_id": "unit7-q14",
+      "image_ids": [],
+      "choices": [
+        "Your backpack, don't forget.",
+        "Don't forget your backpack.",
+        "Don't forget your lunch.",
+        "Don't forget my backpack."
+      ],
+      "correct": "Don't forget your backpack.",
+      "why_wrong": {
+        "Your backpack, don't forget.": "Listen again. You heard: \"Don't forget your backpack.\"",
+        "Don't forget your lunch.": "Listen again. You heard: \"Don't forget your backpack.\"",
+        "Don't forget my backpack.": "Listen again. You heard: \"Don't forget your backpack.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q15",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Okay. I will not forget!",
+      "audio_id": "unit7-q15",
+      "image_ids": [],
+      "choices": [
+        "Okay. I will not forget!",
+        "Okay. I will not forget your lunch!",
+        "Okay. Will I not forget?",
+        "Okay. I will forget!"
+      ],
+      "correct": "Okay. I will not forget!",
+      "why_wrong": {
+        "Okay. I will not forget your lunch!": "Listen again. You heard: \"Okay. I will not forget!\"",
+        "Okay. Will I not forget?": "Listen again. You heard: \"Okay. I will not forget!\"",
+        "Okay. I will forget!": "Listen again. You heard: \"Okay. I will not forget!\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day6"
+    },
+    {
+      "id": "i3b_u07_q16",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Do not forget your money!",
+      "audio_id": "unit7-q16",
+      "image_ids": [],
+      "choices": [
+        "Do not forget my money!",
+        "Do not forget your phone!",
+        "Do forget your money!",
+        "Do not forget your money!"
+      ],
+      "correct": "Do not forget your money!",
+      "why_wrong": {
+        "Do not forget my money!": "Listen again. You heard: \"Do not forget your money!\"",
+        "Do not forget your phone!": "Listen again. You heard: \"Do not forget your money!\"",
+        "Do forget your money!": "Listen again. You heard: \"Do not forget your money!\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day6"
+    },
+    {
+      "id": "i3b_u07_q17",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Do not forget your hat!",
+      "audio_id": "unit7-q17",
+      "image_ids": [],
+      "choices": [
+        "Do not forget my hat!",
+        "Do not forget your jacket!",
+        "Do not forget your hat!",
+        "Do forget your hat!"
+      ],
+      "correct": "Do not forget your hat!",
+      "why_wrong": {
+        "Do not forget my hat!": "Listen again. You heard: \"Do not forget your hat!\"",
+        "Do not forget your jacket!": "Listen again. You heard: \"Do not forget your hat!\"",
+        "Do forget your hat!": "Listen again. You heard: \"Do not forget your hat!\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day6"
+    },
+    {
+      "id": "i3b_u07_q18",
+      "type": 5,
+      "prompt_text": "Cue: 우산 잊지 마!  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Your umbrella don't forget.",
+        "Don't forget your umbrella.",
+        "Don't forget your textbook.",
+        "Forget your umbrella."
+      ],
+      "correct": "Don't forget your umbrella.",
+      "why_wrong": {
+        "Your umbrella don't forget.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\"",
+        "Don't forget your textbook.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\"",
+        "Forget your umbrella.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q19",
+      "type": 5,
+      "prompt_text": "Cue: 점심 잊지 마!  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't forget your lunch.",
+        "Forget your lunch.",
+        "Don't your lunch forget.",
+        "Don't forget your money."
+      ],
+      "correct": "Don't forget your lunch.",
+      "why_wrong": {
+        "Forget your lunch.": "Not this one. \"점심 잊지 마!\" = \"Don't forget your lunch.\"",
+        "Don't your lunch forget.": "Not this one. \"점심 잊지 마!\" = \"Don't forget your lunch.\"",
+        "Don't forget your money.": "Not this one. \"점심 잊지 마!\" = \"Don't forget your lunch.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q20",
+      "type": 5,
+      "prompt_text": "Cue: 교과서 잊지 마!  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Don't your forget textbook.",
+        "Forget don't your textbook.",
+        "Don't forget your textbook.",
+        "Your textbook forget don't."
+      ],
+      "correct": "Don't forget your textbook.",
+      "why_wrong": {
+        "Don't your forget textbook.": "Not this one. \"교과서 잊지 마!\" = \"Don't forget your textbook.\"",
+        "Forget don't your textbook.": "Not this one. \"교과서 잊지 마!\" = \"Don't forget your textbook.\"",
+        "Your textbook forget don't.": "Not this one. \"교과서 잊지 마!\" = \"Don't forget your textbook.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q21",
+      "type": 5,
+      "prompt_text": "Cue: 여동생 잊지 마!  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Forget your little sister.",
+        "Don't forget your hat.",
+        "Don't forget your little textbook.",
+        "Don't forget your little sister."
+      ],
+      "correct": "Don't forget your little sister.",
+      "why_wrong": {
+        "Forget your little sister.": "Not this one. \"여동생 잊지 마!\" = \"Don't forget your little sister.\"",
+        "Don't forget your hat.": "Not this one. \"여동생 잊지 마!\" = \"Don't forget your little sister.\"",
+        "Don't forget your little textbook.": "Not this one. \"여동생 잊지 마!\" = \"Don't forget your little sister.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4"
+    },
+    {
+      "id": "i3b_u07_q22",
+      "type": 5,
+      "prompt_text": "Cue: 알았어. 잊지 않을게!  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Okay. I will forget!",
+        "Oh my god, sorry!",
+        "Do not forget your phone!",
+        "Okay. I will not forget!"
+      ],
+      "correct": "Okay. I will not forget!",
+      "why_wrong": {
+        "Okay. I will forget!": "Not this one. \"알았어. 잊지 않을게!\" = \"Okay. I will not forget!\"",
+        "Oh my god, sorry!": "Not this one. \"알았어. 잊지 않을게!\" = \"Okay. I will not forget!\"",
+        "Do not forget your phone!": "Not this one. \"알았어. 잊지 않을게!\" = \"Okay. I will not forget!\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day6"
+    }
+  ]
 }

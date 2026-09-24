@@ -164,6 +164,8 @@
   }
 
   function currentQ() { return quizData.questions[qi]; }
+  // Optional speak_text: the line to speak (TTS fallback) when prompt_text is only an on-screen instruction.
+  function spokenText(q) { return Object.prototype.hasOwnProperty.call(q, 'speak_text') ? q.speak_text : q.prompt_text; }
 
   function renderQ() {
     const q = currentQ();
@@ -207,7 +209,7 @@
       els.choices.appendChild(b);
     });
 
-    playAudio(q.audio_id, q.prompt_text);
+    playAudio(q.audio_id, spokenText(q));
   }
 
   function pick(choice, btn) {
@@ -303,7 +305,7 @@
   });
   els.speakBtn.addEventListener('click', () => {
     const q = currentQ();
-    if (q) playAudio(q.audio_id, q.prompt_text);
+    if (q) playAudio(q.audio_id, spokenText(q));
   });
 
   async function route() {

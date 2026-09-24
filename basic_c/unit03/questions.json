@@ -49,7 +49,7 @@
       "id": "bc_u03_q02",
       "type": 1,
       "prompt_text": "Listen. Click the matching picture.",
-      "audio_id": "bc_u03_aud_word_May_I_start?",
+      "audio_id": "bc_u03_aud_word_May_I_start",
       "image_ids": [
         "pic_spell_cat",
         "pic_see_you_monday",
@@ -124,7 +124,7 @@
       "id": "bc_u03_q05",
       "type": 2,
       "prompt_text": "Listen. Click the correct word.",
-      "audio_id": "bc_u03_aud_listen_May_I_start?",
+      "audio_id": "bc_u03_aud_listen_May_I_start",
       "image_ids": [
         "pic_may_i_start"
       ],

@@ -631,7 +631,7 @@
     {
       "id": "i3b_midterm1_4_q20",
       "type": 1,
-      "prompt_text": "Yes, it is!",
+      "prompt_text": "Is this a gayageum? Yes, it is!",
       "audio_id": "midterm1-4-q20",
       "image_ids": [
         "i3b_gayageum",
@@ -647,9 +647,9 @@
       ],
       "correct": "i3b_gayageum",
       "why_wrong": {
-        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
-        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
-        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_guitar": "You tapped \"guitar\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": null,
       "level": "int3b",
@@ -658,7 +658,8 @@
         "i3b_uncle": "uncle",
         "i3b_g4": "the fourth grade",
         "i3b_guitar": "guitar"
-      }
+      },
+      "fix_note": "2026-09-25 key fix: audio \"Yes, it is!\" alone could not identify the gayageum"
     },
     {
       "id": "i3b_midterm1_4_q21",

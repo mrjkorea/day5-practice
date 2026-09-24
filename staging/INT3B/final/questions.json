@@ -631,7 +631,7 @@
     {
       "id": "i3b_final_q20",
       "type": 1,
-      "prompt_text": "Yes, it is!",
+      "prompt_text": "Is this a gayageum? Yes, it is!",
       "audio_id": "final-q20",
       "image_ids": [
         "i3b_g3",
@@ -647,9 +647,9 @@
       ],
       "correct": "i3b_gayageum",
       "why_wrong": {
-        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
-        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
-        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
+        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!",
+        "i3b_okdad": "You tapped \"okay dad\", but the audio said: \"Is this a gayageum? Yes, it is!\". The correct picture is \"gayageum\". Listen again!"
       },
       "unit": null,
       "level": "int3b",
@@ -658,7 +658,8 @@
         "i3b_gayageum": "gayageum",
         "i3b_slowdown": "slow down",
         "i3b_okdad": "okay dad"
-      }
+      },
+      "fix_note": "2026-09-25 key fix: audio \"Yes, it is!\" alone could not identify the gayageum"
     },
     {
       "id": "i3b_final_q21",

@@ -226,30 +226,31 @@
       "audio_id": "u4_q08",
       "image_ids": [
         "int2b_police",
-        "int2b_house",
-        "int2b_won_coin",
-        "int2b_scientist"
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
       ],
       "choices": [
         "int2b_police",
-        "int2b_house",
-        "int2b_won_coin",
-        "int2b_scientist"
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_1000_won",
       "why_wrong": {
-        "int2b_police": "You tapped \"police officer\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_house": "You tapped \"house\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_scientist": "You tapped \"scientist\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_police": "You tapped \"police officer\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
         "int2b_police": "police officer",
-        "int2b_house": "house",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_scientist": "scientist"
-      }
+        "int2b_1000_won": "1000 won bill",
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_1000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_m14_q09",
@@ -578,30 +579,31 @@
       "audio_id": "u4_q24",
       "image_ids": [
         "int2b_car",
-        "int2b_won_coin",
-        "int2b_hamburger",
-        "int2b_president"
+        "int2b_500_won",
+        "int2b_1000_won",
+        "int2b_5000_won"
       ],
       "choices": [
         "int2b_car",
-        "int2b_won_coin",
-        "int2b_hamburger",
-        "int2b_president"
+        "int2b_500_won",
+        "int2b_1000_won",
+        "int2b_5000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_5000_won",
       "why_wrong": {
-        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_president": "You tapped \"president\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
         "int2b_car": "car",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_hamburger": "hamburger",
-        "int2b_president": "president"
-      }
+        "int2b_500_won": "500 won coin",
+        "int2b_1000_won": "1000 won bill",
+        "int2b_5000_won": "5000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_m14_q25",
