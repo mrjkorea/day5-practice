@@ -6,7 +6,7 @@
     "units_covered": [
       8
     ],
-    "count": 0,
+    "count": 22,
     "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
@@ -18,10 +18,517 @@
       "7": "listen_pick_sentence"
     },
     "generated": false,
-    "note": "Concrete-noun listen/tap from Fish soft texts; phrase-only lines skipped.",
-    "images_partial": true,
-    "concrete_nouns_only": true,
-    "normalized_from": "int2b-ready"
+    "built": "2026-09-25 from Day 4 sentences + Day 6 Q&A (unit vocabulary only)",
+    "note": "Audio sentence hidden on screen (speak_text = TTS fallback). Types 4/7/5 test the key expression; type 1 only where real art exists."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "i2b_u08_q01",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Thank you.",
+      "audio_id": "u8_q01",
+      "image_ids": [],
+      "choices": [
+        "What about mine?",
+        "It is not mine.",
+        "You are welcome.",
+        "These are not yours."
+      ],
+      "correct": "You are welcome.",
+      "why_wrong": {
+        "What about mine?": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\"",
+        "It is not mine.": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\"",
+        "These are not yours.": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day6"
+    },
+    {
+      "id": "i2b_u08_q02",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "What about mine?",
+      "audio_id": "u8_q02",
+      "image_ids": [],
+      "choices": [
+        "You are welcome.",
+        "This is for you.",
+        "Thank you.",
+        "It is ours."
+      ],
+      "correct": "This is for you.",
+      "why_wrong": {
+        "You are welcome.": "That does not answer \"What about mine?\". Best reply: \"This is for you.\"",
+        "Thank you.": "That does not answer \"What about mine?\". Best reply: \"This is for you.\"",
+        "It is ours.": "That does not answer \"What about mine?\". Best reply: \"This is for you.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day6"
+    },
+    {
+      "id": "i2b_u08_q03",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "This is for you.",
+      "audio_id": "u8_q03",
+      "image_ids": [],
+      "choices": [
+        "It is not yours.",
+        "Thank you.",
+        "You are welcome.",
+        "These are not yours."
+      ],
+      "correct": "Thank you.",
+      "why_wrong": {
+        "It is not yours.": "That does not answer \"This is for you.\". Best reply: \"Thank you.\"",
+        "You are welcome.": "That does not answer \"This is for you.\". Best reply: \"Thank you.\"",
+        "These are not yours.": "That does not answer \"This is for you.\". Best reply: \"Thank you.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day6"
+    },
+    {
+      "id": "i2b_u08_q04",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "This is yours.",
+      "audio_id": "u8_q04",
+      "image_ids": [],
+      "choices": [
+        "These are not yours.",
+        "You are welcome.",
+        "Thank you.",
+        "What about mine?"
+      ],
+      "correct": "Thank you.",
+      "why_wrong": {
+        "These are not yours.": "That does not answer \"This is yours.\". Best reply: \"Thank you.\"",
+        "You are welcome.": "That does not answer \"This is yours.\". Best reply: \"Thank you.\"",
+        "What about mine?": "That does not answer \"This is yours.\". Best reply: \"Thank you.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q05",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "You are welcome. Share next time!",
+      "audio_id": "u8_q05",
+      "image_ids": [],
+      "choices": [
+        "What about mine?",
+        "They are not theirs.",
+        "This is for you.",
+        "Okay. Thank you."
+      ],
+      "correct": "Okay. Thank you.",
+      "why_wrong": {
+        "What about mine?": "That does not answer \"You are welcome. Share next time!\". Best reply: \"Okay. Thank you.\"",
+        "They are not theirs.": "That does not answer \"You are welcome. Share next time!\". Best reply: \"Okay. Thank you.\"",
+        "This is for you.": "That does not answer \"You are welcome. Share next time!\". Best reply: \"Okay. Thank you.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day6"
+    },
+    {
+      "id": "i2b_u08_q06",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "This is mine.",
+      "audio_id": "u8_q06",
+      "image_ids": [],
+      "choices": [
+        "This is hers.",
+        "This is mine.",
+        "This is his.",
+        "This is yours."
+      ],
+      "correct": "This is mine.",
+      "why_wrong": {
+        "This is hers.": "Listen again. You heard: \"This is mine.\"",
+        "This is his.": "Listen again. You heard: \"This is mine.\"",
+        "This is yours.": "Listen again. You heard: \"This is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q07",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "It is not yours. It is mine.",
+      "audio_id": "u8_q07",
+      "image_ids": [],
+      "choices": [
+        "It is not his. It is mine.",
+        "It is not mine. It is yours.",
+        "It is not yours. It is ours.",
+        "It is not yours. It is mine."
+      ],
+      "correct": "It is not yours. It is mine.",
+      "why_wrong": {
+        "It is not his. It is mine.": "Listen again. You heard: \"It is not yours. It is mine.\"",
+        "It is not mine. It is yours.": "Listen again. You heard: \"It is not yours. It is mine.\"",
+        "It is not yours. It is ours.": "Listen again. You heard: \"It is not yours. It is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q08",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "It is not mine. It is ours.",
+      "audio_id": "u8_q08",
+      "image_ids": [],
+      "choices": [
+        "It is not mine. It is his.",
+        "It is not mine. It is ours.",
+        "It is not ours. It is mine.",
+        "It is not yours. It is ours."
+      ],
+      "correct": "It is not mine. It is ours.",
+      "why_wrong": {
+        "It is not mine. It is his.": "Listen again. You heard: \"It is not mine. It is ours.\"",
+        "It is not ours. It is mine.": "Listen again. You heard: \"It is not mine. It is ours.\"",
+        "It is not yours. It is ours.": "Listen again. You heard: \"It is not mine. It is ours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q09",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "This is not yours, it is hers.",
+      "audio_id": "u8_q09",
+      "image_ids": [],
+      "choices": [
+        "This is not yours, it is his.",
+        "This is not his, it is hers.",
+        "This is not yours, it is hers.",
+        "This is not hers, it is yours."
+      ],
+      "correct": "This is not yours, it is hers.",
+      "why_wrong": {
+        "This is not yours, it is his.": "Listen again. You heard: \"This is not yours, it is hers.\"",
+        "This is not his, it is hers.": "Listen again. You heard: \"This is not yours, it is hers.\"",
+        "This is not hers, it is yours.": "Listen again. You heard: \"This is not yours, it is hers.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q10",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "These are not yours.",
+      "audio_id": "u8_q10",
+      "image_ids": [],
+      "choices": [
+        "These are not ours.",
+        "These are not yours.",
+        "These are not mine.",
+        "These are not theirs."
+      ],
+      "correct": "These are not yours.",
+      "why_wrong": {
+        "These are not ours.": "Listen again. You heard: \"These are not yours.\"",
+        "These are not mine.": "Listen again. You heard: \"These are not yours.\"",
+        "These are not theirs.": "Listen again. You heard: \"These are not yours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q11",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "They are not theirs. They are mine.",
+      "audio_id": "u8_q11",
+      "image_ids": [],
+      "choices": [
+        "They are not yours. They are mine.",
+        "They are not mine. They are theirs.",
+        "They are not theirs. They are ours.",
+        "They are not theirs. They are mine."
+      ],
+      "correct": "They are not theirs. They are mine.",
+      "why_wrong": {
+        "They are not yours. They are mine.": "Listen again. You heard: \"They are not theirs. They are mine.\"",
+        "They are not mine. They are theirs.": "Listen again. You heard: \"They are not theirs. They are mine.\"",
+        "They are not theirs. They are ours.": "Listen again. You heard: \"They are not theirs. They are mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q12",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "It is not yours, it is his.",
+      "audio_id": "u8_q12",
+      "image_ids": [],
+      "choices": [
+        "It is not yours, it is hers.",
+        "It is not his, it is yours.",
+        "It is not yours, it is his.",
+        "It is not mine, it is his."
+      ],
+      "correct": "It is not yours, it is his.",
+      "why_wrong": {
+        "It is not yours, it is hers.": "Listen again. You heard: \"It is not yours, it is his.\"",
+        "It is not his, it is yours.": "Listen again. You heard: \"It is not yours, it is his.\"",
+        "It is not mine, it is his.": "Listen again. You heard: \"It is not yours, it is his.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q13",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "What about mine?",
+      "audio_id": "u8_q13",
+      "image_ids": [],
+      "choices": [
+        "What about mine?",
+        "What about hers?",
+        "What about his?",
+        "What about yours?"
+      ],
+      "correct": "What about mine?",
+      "why_wrong": {
+        "What about hers?": "Listen again. You heard: \"What about mine?\"",
+        "What about his?": "Listen again. You heard: \"What about mine?\"",
+        "What about yours?": "Listen again. You heard: \"What about mine?\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q14",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "This is mine and this is mine and this is mine.",
+      "audio_id": "u8_q14",
+      "image_ids": [],
+      "choices": [
+        "This is yours and this is mine and this is mine.",
+        "This is mine and this is mine and this is mine.",
+        "This is mine and this is yours and this is mine.",
+        "This is mine and this is mine and this is yours."
+      ],
+      "correct": "This is mine and this is mine and this is mine.",
+      "why_wrong": {
+        "This is yours and this is mine and this is mine.": "Listen again. You heard: \"This is mine and this is mine and this is mine.\"",
+        "This is mine and this is yours and this is mine.": "Listen again. You heard: \"This is mine and this is mine and this is mine.\"",
+        "This is mine and this is mine and this is yours.": "Listen again. You heard: \"This is mine and this is mine and this is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q15",
+      "type": 5,
+      "prompt_text": "Cue: 이것은 내 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [
+        "int2b_this_is_mine"
+      ],
+      "choices": [
+        "This is mine.",
+        "This is yours.",
+        "This is his.",
+        "This is ours."
+      ],
+      "correct": "This is mine.",
+      "why_wrong": {
+        "This is yours.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\"",
+        "This is his.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\"",
+        "This is ours.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q16",
+      "type": 5,
+      "prompt_text": "Cue: 이것은 네 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "These are yours.",
+        "This is yours.",
+        "This is mine.",
+        "This is hers."
+      ],
+      "correct": "This is yours.",
+      "why_wrong": {
+        "These are yours.": "Not this one. \"이것은 네 것입니다\" = \"This is yours.\"",
+        "This is mine.": "Not this one. \"이것은 네 것입니다\" = \"This is yours.\"",
+        "This is hers.": "Not this one. \"이것은 네 것입니다\" = \"This is yours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q17",
+      "type": 5,
+      "prompt_text": "Cue: 그것은 네 것이 아닙니다. 그것은 내 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is not mine. It is yours.",
+        "It is not his. It is mine.",
+        "It is yours. It is not mine.",
+        "It is not yours. It is mine."
+      ],
+      "correct": "It is not yours. It is mine.",
+      "why_wrong": {
+        "It is not mine. It is yours.": "Not this one. \"그것은 네 것이 아닙니다. 그것은 내 것입니다\" = \"It is not yours. It is mine.\"",
+        "It is not his. It is mine.": "Not this one. \"그것은 네 것이 아닙니다. 그것은 내 것입니다\" = \"It is not yours. It is mine.\"",
+        "It is yours. It is not mine.": "Not this one. \"그것은 네 것이 아닙니다. 그것은 내 것입니다\" = \"It is not yours. It is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q18",
+      "type": 5,
+      "prompt_text": "Cue: 이것은 네 것이 아니라 그녀의 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "This is not mine, it is hers.",
+        "This is not hers, it is yours.",
+        "This is not yours, it is hers.",
+        "This is not yours, it is his."
+      ],
+      "correct": "This is not yours, it is hers.",
+      "why_wrong": {
+        "This is not mine, it is hers.": "Not this one. \"이것은 네 것이 아니라 그녀의 것입니다\" = \"This is not yours, it is hers.\"",
+        "This is not hers, it is yours.": "Not this one. \"이것은 네 것이 아니라 그녀의 것입니다\" = \"This is not yours, it is hers.\"",
+        "This is not yours, it is his.": "Not this one. \"이것은 네 것이 아니라 그녀의 것입니다\" = \"This is not yours, it is hers.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q19",
+      "type": 5,
+      "prompt_text": "Cue: 이것들은 네 것이 아닙니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "These are not theirs.",
+        "These are not yours.",
+        "These are yours.",
+        "These are not mine."
+      ],
+      "correct": "These are not yours.",
+      "why_wrong": {
+        "These are not theirs.": "Not this one. \"이것들은 네 것이 아닙니다\" = \"These are not yours.\"",
+        "These are yours.": "Not this one. \"이것들은 네 것이 아닙니다\" = \"These are not yours.\"",
+        "These are not mine.": "Not this one. \"이것들은 네 것이 아닙니다\" = \"These are not yours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q20",
+      "type": 5,
+      "prompt_text": "Cue: 그것은 내 것이 아닙니다. 그것은 우리 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is not mine. It is ours.",
+        "It is not ours. It is mine.",
+        "It is mine. It is not ours.",
+        "It is not mine. It is theirs."
+      ],
+      "correct": "It is not mine. It is ours.",
+      "why_wrong": {
+        "It is not ours. It is mine.": "Not this one. \"그것은 내 것이 아닙니다. 그것은 우리 것입니다\" = \"It is not mine. It is ours.\"",
+        "It is mine. It is not ours.": "Not this one. \"그것은 내 것이 아닙니다. 그것은 우리 것입니다\" = \"It is not mine. It is ours.\"",
+        "It is not mine. It is theirs.": "Not this one. \"그것은 내 것이 아닙니다. 그것은 우리 것입니다\" = \"It is not mine. It is ours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q21",
+      "type": 5,
+      "prompt_text": "Cue: 그것은 네 것이 아닙니다  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "It is yours not.",
+        "Not it is yours.",
+        "It not is yours.",
+        "It is not yours."
+      ],
+      "correct": "It is not yours.",
+      "why_wrong": {
+        "It is yours not.": "Not this one. \"그것은 네 것이 아닙니다\" = \"It is not yours.\"",
+        "Not it is yours.": "Not this one. \"그것은 네 것이 아닙니다\" = \"It is not yours.\"",
+        "It not is yours.": "Not this one. \"그것은 네 것이 아닙니다\" = \"It is not yours.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q22",
+      "type": 5,
+      "prompt_text": "Cue: 그것들은 그들의 것이 아닙니다  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Theirs are not they.",
+        "They not are theirs.",
+        "They are not theirs.",
+        "They are theirs not."
+      ],
+      "correct": "They are not theirs.",
+      "why_wrong": {
+        "Theirs are not they.": "Not this one. \"그것들은 그들의 것이 아닙니다\" = \"They are not theirs.\"",
+        "They not are theirs.": "Not this one. \"그것들은 그들의 것이 아닙니다\" = \"They are not theirs.\"",
+        "They are theirs not.": "Not this one. \"그것들은 그들의 것이 아닙니다\" = \"They are not theirs.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4"
+    }
+  ]
 }

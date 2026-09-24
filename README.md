@@ -11,7 +11,9 @@ Static GitHub Pages app for Conversation Basic and Intermediate Day 5 unit tests
 
 Pages source: **Deploy from branch `main` / root**.
 
-- **INT3B (real packs):** https://mrjkorea.github.io/day5-practice/intermediate/#/int3b — unit07 skipped (incomplete). Audio via Web Speech TTS until mp3s land.
+- **INT3B (real packs):** https://mrjkorea.github.io/day5-practice/intermediate/#/int3b — all 11 packs incl. unit07 (built 2026-09-25); Fish mp3s baked for every question.
+- Optional question field `speak_text`: the line spoken (TTS fallback) when `prompt_text` is only an on-screen instruction, so the audio sentence is not printed.
+- Live inventory: see `/workspace/day5-audit/INVENTORY.md` on the build box.
 
 
 ## Intermediate staging (Origin → GitHub)

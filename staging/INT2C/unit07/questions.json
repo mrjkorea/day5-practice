@@ -6,7 +6,7 @@
     "units_covered": [
       7
     ],
-    "count": 0,
+    "count": 21,
     "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
@@ -18,10 +18,494 @@
       "7": "listen_pick_sentence"
     },
     "generated": false,
-    "note": "Concrete-noun listen/tap from UNIT_VOCAB; phrase-only asks omitted.",
-    "images_partial": true,
-    "concrete_nouns_only": true,
-    "normalized_from": "int2c-ready"
+    "built": "2026-09-25 from Day 4 sentences + Day 6 Q&A (unit vocabulary only)",
+    "note": "Audio sentence hidden on screen (speak_text = TTS fallback). Types 4/7/5 test the key expression; type 1 only where real art exists."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "i2c_u07_q01",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Hello.",
+      "audio_id": "unit-07-q01",
+      "image_ids": [],
+      "choices": [
+        "Hello. Is Beomjun there?",
+        "Sorry, he is out.",
+        "His phone number is 010 3457 7543.",
+        "Okay, thank you."
+      ],
+      "correct": "Hello. Is Beomjun there?",
+      "why_wrong": {
+        "Sorry, he is out.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\"",
+        "His phone number is 010 3457 7543.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\"",
+        "Okay, thank you.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q02",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Is Beomjun there?",
+      "audio_id": "unit-07-q02",
+      "image_ids": [],
+      "choices": [
+        "Sorry, he is out.",
+        "Okay, thank you.",
+        "What is his phone number?",
+        "Hello, Mr. Jay."
+      ],
+      "correct": "Sorry, he is out.",
+      "why_wrong": {
+        "Okay, thank you.": "That does not answer \"Is Beomjun there?\". Best reply: \"Sorry, he is out.\"",
+        "What is his phone number?": "That does not answer \"Is Beomjun there?\". Best reply: \"Sorry, he is out.\"",
+        "Hello, Mr. Jay.": "That does not answer \"Is Beomjun there?\". Best reply: \"Sorry, he is out.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day6"
+    },
+    {
+      "id": "i2c_u07_q03",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Who is this?",
+      "audio_id": "unit-07-q03",
+      "image_ids": [],
+      "choices": [
+        "Sorry, he is out.",
+        "This is Mr. Jay.",
+        "Okay, thank you.",
+        "What is his phone number?"
+      ],
+      "correct": "This is Mr. Jay.",
+      "why_wrong": {
+        "Sorry, he is out.": "That does not answer \"Who is this?\". Best reply: \"This is Mr. Jay.\"",
+        "Okay, thank you.": "That does not answer \"Who is this?\". Best reply: \"This is Mr. Jay.\"",
+        "What is his phone number?": "That does not answer \"Who is this?\". Best reply: \"This is Mr. Jay.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q04",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "This is Mr. Jay.",
+      "audio_id": "unit-07-q04",
+      "image_ids": [],
+      "choices": [
+        "Hello, Mr. Jay.",
+        "His phone number is 010 3457 7543.",
+        "Okay, thank you.",
+        "Who is this?"
+      ],
+      "correct": "Hello, Mr. Jay.",
+      "why_wrong": {
+        "His phone number is 010 3457 7543.": "That does not answer \"This is Mr. Jay.\". Best reply: \"Hello, Mr. Jay.\"",
+        "Okay, thank you.": "That does not answer \"This is Mr. Jay.\". Best reply: \"Hello, Mr. Jay.\"",
+        "Who is this?": "That does not answer \"This is Mr. Jay.\". Best reply: \"Hello, Mr. Jay.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q05",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Sorry, he is out.",
+      "audio_id": "unit-07-q05",
+      "image_ids": [],
+      "choices": [
+        "His phone number is 010 3457 7543.",
+        "Hello.",
+        "This is Mr. Jay.",
+        "Okay, thank you."
+      ],
+      "correct": "Okay, thank you.",
+      "why_wrong": {
+        "His phone number is 010 3457 7543.": "That does not answer \"Sorry, he is out.\". Best reply: \"Okay, thank you.\"",
+        "Hello.": "That does not answer \"Sorry, he is out.\". Best reply: \"Okay, thank you.\"",
+        "This is Mr. Jay.": "That does not answer \"Sorry, he is out.\". Best reply: \"Okay, thank you.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day6"
+    },
+    {
+      "id": "i2c_u07_q06",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "What is his phone number?",
+      "audio_id": "unit-07-q06",
+      "image_ids": [],
+      "choices": [
+        "This is Mr. Jay.",
+        "Hello.",
+        "His phone number is 010 3457 7543.",
+        "Sorry, he is out."
+      ],
+      "correct": "His phone number is 010 3457 7543.",
+      "why_wrong": {
+        "This is Mr. Jay.": "That does not answer \"What is his phone number?\". Best reply: \"His phone number is 010 3457 7543.\"",
+        "Hello.": "That does not answer \"What is his phone number?\". Best reply: \"His phone number is 010 3457 7543.\"",
+        "Sorry, he is out.": "That does not answer \"What is his phone number?\". Best reply: \"His phone number is 010 3457 7543.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q07",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Please call his friend Taehwan.",
+      "audio_id": "unit-07-q07",
+      "image_ids": [],
+      "choices": [
+        "Hello, Mr. Jay.",
+        "What is his phone number?",
+        "Is Beomjun there?",
+        "Who is this?"
+      ],
+      "correct": "What is his phone number?",
+      "why_wrong": {
+        "Hello, Mr. Jay.": "That does not answer \"Please call his friend Taehwan.\". Best reply: \"What is his phone number?\"",
+        "Is Beomjun there?": "That does not answer \"Please call his friend Taehwan.\". Best reply: \"What is his phone number?\"",
+        "Who is this?": "That does not answer \"Please call his friend Taehwan.\". Best reply: \"What is his phone number?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q08",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Is this 010 3457 7544?",
+      "audio_id": "unit-07-q08",
+      "image_ids": [],
+      "choices": [
+        "This is Mr. Jay.",
+        "Wrong number. Sorry!",
+        "Please call his friend Taehwan.",
+        "Hello, Mr. Jay."
+      ],
+      "correct": "Wrong number. Sorry!",
+      "why_wrong": {
+        "This is Mr. Jay.": "That does not answer \"Is this 010 3457 7544?\". Best reply: \"Wrong number. Sorry!\"",
+        "Please call his friend Taehwan.": "That does not answer \"Is this 010 3457 7544?\". Best reply: \"Wrong number. Sorry!\"",
+        "Hello, Mr. Jay.": "That does not answer \"Is this 010 3457 7544?\". Best reply: \"Wrong number. Sorry!\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day6"
+    },
+    {
+      "id": "i2c_u07_q09",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "His phone number is 010 3457 7543.",
+      "audio_id": "unit-07-q09",
+      "image_ids": [],
+      "choices": [
+        "His phone number is 010 3457 7544.",
+        "His phone number is 010 3457 7543.",
+        "His phone number is 010 4558 9231.",
+        "His phone number is 010 6616 2558."
+      ],
+      "correct": "His phone number is 010 3457 7543.",
+      "why_wrong": {
+        "His phone number is 010 3457 7544.": "Listen again. You heard: \"His phone number is 010 3457 7543.\"",
+        "His phone number is 010 4558 9231.": "Listen again. You heard: \"His phone number is 010 3457 7543.\"",
+        "His phone number is 010 6616 2558.": "Listen again. You heard: \"His phone number is 010 3457 7543.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q10",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Is Beomjun there?",
+      "audio_id": "unit-07-q10",
+      "image_ids": [],
+      "choices": [
+        "Is Taehwan there?",
+        "Is Beomjun there?",
+        "Is Jinho there?",
+        "Is Jessica there?"
+      ],
+      "correct": "Is Beomjun there?",
+      "why_wrong": {
+        "Is Taehwan there?": "Listen again. You heard: \"Is Beomjun there?\"",
+        "Is Jinho there?": "Listen again. You heard: \"Is Beomjun there?\"",
+        "Is Jessica there?": "Listen again. You heard: \"Is Beomjun there?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q11",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Please call his friend Taehwan.",
+      "audio_id": "unit-07-q11",
+      "image_ids": [],
+      "choices": [
+        "Please call his friend Jinho.",
+        "Please call her friend Taehwan.",
+        "Please call his friend Beomjun.",
+        "Please call his friend Taehwan."
+      ],
+      "correct": "Please call his friend Taehwan.",
+      "why_wrong": {
+        "Please call his friend Jinho.": "Listen again. You heard: \"Please call his friend Taehwan.\"",
+        "Please call her friend Taehwan.": "Listen again. You heard: \"Please call his friend Taehwan.\"",
+        "Please call his friend Beomjun.": "Listen again. You heard: \"Please call his friend Taehwan.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q12",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Sorry, he is out.",
+      "audio_id": "unit-07-q12",
+      "image_ids": [],
+      "choices": [
+        "Okay, he is out.",
+        "Sorry, she is out.",
+        "Sorry, he is home.",
+        "Sorry, he is out."
+      ],
+      "correct": "Sorry, he is out.",
+      "why_wrong": {
+        "Okay, he is out.": "Listen again. You heard: \"Sorry, he is out.\"",
+        "Sorry, she is out.": "Listen again. You heard: \"Sorry, he is out.\"",
+        "Sorry, he is home.": "Listen again. You heard: \"Sorry, he is out.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q13",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "What is his phone number?",
+      "audio_id": "unit-07-q13",
+      "image_ids": [],
+      "choices": [
+        "What is his phone number?",
+        "What is his friend's number?",
+        "What is my phone number?",
+        "What is her phone number?"
+      ],
+      "correct": "What is his phone number?",
+      "why_wrong": {
+        "What is his friend's number?": "Listen again. You heard: \"What is his phone number?\"",
+        "What is my phone number?": "Listen again. You heard: \"What is his phone number?\"",
+        "What is her phone number?": "Listen again. You heard: \"What is his phone number?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q14",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "This is Mr. Jay.",
+      "audio_id": "unit-07-q14",
+      "image_ids": [],
+      "choices": [
+        "Is this Mr. Jay?",
+        "Who is Mr. Jay?",
+        "Hello, Mr. Jay.",
+        "This is Mr. Jay."
+      ],
+      "correct": "This is Mr. Jay.",
+      "why_wrong": {
+        "Is this Mr. Jay?": "Listen again. You heard: \"This is Mr. Jay.\"",
+        "Who is Mr. Jay?": "Listen again. You heard: \"This is Mr. Jay.\"",
+        "Hello, Mr. Jay.": "Listen again. You heard: \"This is Mr. Jay.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q15",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Is this 010 6616 2558?",
+      "audio_id": "unit-07-q15",
+      "image_ids": [],
+      "choices": [
+        "Is this 010 4558 9231?",
+        "Is this 010 6616 2558?",
+        "This is 010 6616 2558.",
+        "Is this 010 3457 7543?"
+      ],
+      "correct": "Is this 010 6616 2558?",
+      "why_wrong": {
+        "Is this 010 4558 9231?": "Listen again. You heard: \"Is this 010 6616 2558?\"",
+        "This is 010 6616 2558.": "Listen again. You heard: \"Is this 010 6616 2558?\"",
+        "Is this 010 3457 7543?": "Listen again. You heard: \"Is this 010 6616 2558?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day6"
+    },
+    {
+      "id": "i2c_u07_q16",
+      "type": 5,
+      "prompt_text": "Cue: 여보세요  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [
+        "int2c_telephone"
+      ],
+      "choices": [
+        "Okay, thank you.",
+        "Hello.",
+        "Sorry, he is out.",
+        "Who is this?"
+      ],
+      "correct": "Hello.",
+      "why_wrong": {
+        "Okay, thank you.": "Not this one. \"여보세요\" = \"Hello.\"",
+        "Sorry, he is out.": "Not this one. \"여보세요\" = \"Hello.\"",
+        "Who is this?": "Not this one. \"여보세요\" = \"Hello.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q17",
+      "type": 5,
+      "prompt_text": "Cue: 누구십니까?  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "What is his phone number?",
+        "Is Beomjun there?",
+        "Who is this?",
+        "This is Mr. Jay."
+      ],
+      "correct": "Who is this?",
+      "why_wrong": {
+        "What is his phone number?": "Not this one. \"누구십니까?\" = \"Who is this?\"",
+        "Is Beomjun there?": "Not this one. \"누구십니까?\" = \"Who is this?\"",
+        "This is Mr. Jay.": "Not this one. \"누구십니까?\" = \"Who is this?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q18",
+      "type": 5,
+      "prompt_text": "Cue: 거기 범준 있습니까?  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Is there Beomjun?",
+        "There is Beomjun?",
+        "Beomjun is there.",
+        "Is Beomjun there?"
+      ],
+      "correct": "Is Beomjun there?",
+      "why_wrong": {
+        "Is there Beomjun?": "Not this one. \"거기 범준 있습니까?\" = \"Is Beomjun there?\"",
+        "There is Beomjun?": "Not this one. \"거기 범준 있습니까?\" = \"Is Beomjun there?\"",
+        "Beomjun is there.": "Not this one. \"거기 범준 있습니까?\" = \"Is Beomjun there?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q19",
+      "type": 5,
+      "prompt_text": "Cue: 죄송하지만 그는 외출 중입니다  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Sorry, out he is.",
+        "He sorry is out.",
+        "Sorry, is he out?",
+        "Sorry, he is out."
+      ],
+      "correct": "Sorry, he is out.",
+      "why_wrong": {
+        "Sorry, out he is.": "Not this one. \"죄송하지만 그는 외출 중입니다\" = \"Sorry, he is out.\"",
+        "He sorry is out.": "Not this one. \"죄송하지만 그는 외출 중입니다\" = \"Sorry, he is out.\"",
+        "Sorry, is he out?": "Not this one. \"죄송하지만 그는 외출 중입니다\" = \"Sorry, he is out.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q20",
+      "type": 5,
+      "prompt_text": "Cue: 그의 전화번호는 무엇입니까?  → Pick the English in the right order.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "What is his phone number?",
+        "What is phone his number?",
+        "What his phone number is?",
+        "His phone number is 010 3457 7543."
+      ],
+      "correct": "What is his phone number?",
+      "why_wrong": {
+        "What is phone his number?": "Not this one. \"그의 전화번호는 무엇입니까?\" = \"What is his phone number?\"",
+        "What his phone number is?": "Not this one. \"그의 전화번호는 무엇입니까?\" = \"What is his phone number?\"",
+        "His phone number is 010 3457 7543.": "Not this one. \"그의 전화번호는 무엇입니까?\" = \"What is his phone number?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q21",
+      "type": 5,
+      "prompt_text": "Cue: 알겠습니다, 감사합니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Who is this?",
+        "Hello.",
+        "Okay, thank you.",
+        "Sorry, he is out."
+      ],
+      "correct": "Okay, thank you.",
+      "why_wrong": {
+        "Who is this?": "Not this one. \"알겠습니다, 감사합니다\" = \"Okay, thank you.\"",
+        "Hello.": "Not this one. \"알겠습니다, 감사합니다\" = \"Okay, thank you.\"",
+        "Sorry, he is out.": "Not this one. \"알겠습니다, 감사합니다\" = \"Okay, thank you.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4"
+    }
+  ]
 }

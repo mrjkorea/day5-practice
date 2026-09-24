@@ -1,7 +1,7 @@
 {
   "meta": {
     "level": "int3a",
-    "title": "Intermediate 3A Midterm Units 1\u20134",
+    "title": "Intermediate 3A Midterm Units 1–4",
     "kind": "midterm_1_4",
     "units_covered": [
       1,
@@ -1021,7 +1021,7 @@
     {
       "id": "i3a_mid14_q32",
       "type": 1,
-      "prompt_text": "How old is he?",
+      "prompt_text": "How old is he? He is 10 years old.",
       "audio_id": "mid14_q32",
       "image_ids": [
         "int3a_how-old_age_39",
@@ -1048,7 +1048,8 @@
         "int3a_how-old_age_36": "36 years old",
         "int3a_how-old_age_10": "10 years old",
         "int3a_how-old_age_1": "1 year old"
-      }
+      },
+      "fix_note": "2026-09-25 key fix: audio was only \"How old is he?\" (age never said); now says the age"
     },
     {
       "id": "i3a_mid14_q33",

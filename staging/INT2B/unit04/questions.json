@@ -63,30 +63,31 @@
       "audio_id": "u4_q07",
       "image_ids": [
         "int2b_convenience",
-        "int2b_won_coin",
-        "int2b_school",
-        "int2b_monday"
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
       ],
       "choices": [
         "int2b_convenience",
-        "int2b_won_coin",
-        "int2b_school",
-        "int2b_monday"
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_500_won",
       "why_wrong": {
-        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_school": "You tapped \"school\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
         "int2b_convenience": "convenience store",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_school": "school",
-        "int2b_monday": "Monday calendar"
-      }
+        "int2b_1000_won": "1000 won bill",
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_500_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q08",
@@ -94,31 +95,32 @@
       "prompt_text": "What is about 1000 won?",
       "audio_id": "u4_q08",
       "image_ids": [
+        "int2b_500_won",
+        "int2b_5000_won",
         "int2b_holiday",
-        "int2b_music",
-        "int2b_won_coin",
-        "int2b_clock_555"
+        "int2b_1000_won"
       ],
       "choices": [
+        "int2b_500_won",
+        "int2b_5000_won",
         "int2b_holiday",
-        "int2b_music",
-        "int2b_won_coin",
-        "int2b_clock_555"
+        "int2b_1000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_1000_won",
       "why_wrong": {
-        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_music": "You tapped \"music / notes\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill",
         "int2b_holiday": "holiday / party flag",
-        "int2b_music": "music / notes",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_clock_555": "clock 5:55"
-      }
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_1000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q09",
@@ -126,31 +128,32 @@
       "prompt_text": "What is about 5000 won?",
       "audio_id": "u4_q09",
       "image_ids": [
+        "int2b_500_won",
+        "int2b_5000_won",
         "int2b_good_looking",
-        "int2b_young",
-        "int2b_old",
-        "int2b_won_coin"
+        "int2b_1000_won"
       ],
       "choices": [
+        "int2b_500_won",
+        "int2b_5000_won",
         "int2b_good_looking",
-        "int2b_young",
-        "int2b_old",
-        "int2b_won_coin"
+        "int2b_1000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_5000_won",
       "why_wrong": {
-        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_young": "You tapped \"young person\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_old": "You tapped \"old person\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill",
         "int2b_good_looking": "good-looking person",
-        "int2b_young": "young person",
-        "int2b_old": "old person",
-        "int2b_won_coin": "Korean won coins"
-      }
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q10",
@@ -158,31 +161,32 @@
       "prompt_text": "Everything here is cheap!",
       "audio_id": "u4_q10",
       "image_ids": [
-        "int2b_clock_10pm",
-        "int2b_friday",
+        "int2b_everything_cheap",
         "int2b_tall",
-        "int2b_thin"
+        "int2b_clock_10pm",
+        "int2b_friday"
       ],
       "choices": [
-        "int2b_clock_10pm",
-        "int2b_friday",
+        "int2b_everything_cheap",
         "int2b_tall",
-        "int2b_thin"
+        "int2b_clock_10pm",
+        "int2b_friday"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_everything_cheap",
       "why_wrong": {
-        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!",
-        "int2b_friday": "You tapped \"Friday calendar\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!",
-        "int2b_tall": "You tapped \"tall person\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!"
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!",
+        "int2b_clock_10pm": "You tapped \"clock 10:00 p.m.\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!",
+        "int2b_friday": "You tapped \"Friday calendar\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
-        "int2b_clock_10pm": "clock 10:00 p.m.",
-        "int2b_friday": "Friday calendar",
+        "int2b_everything_cheap": "shop where everything is cheap",
         "int2b_tall": "tall person",
-        "int2b_thin": "thin person"
-      }
+        "int2b_clock_10pm": "clock 10:00 p.m.",
+        "int2b_friday": "Friday calendar"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_thin (audit: keyed wrong); now real int2b_everything_cheap art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q12",
@@ -254,31 +258,32 @@
       "prompt_text": "A house is about 5000 won in Canada.",
       "audio_id": "u4_q15",
       "image_ids": [
-        "int2b_won_coin",
-        "int2b_thin",
-        "int2b_clock_555",
-        "int2b_school"
+        "int2b_1000_won",
+        "int2b_5000_won",
+        "int2b_500_won",
+        "int2b_thin"
       ],
       "choices": [
-        "int2b_won_coin",
-        "int2b_thin",
-        "int2b_clock_555",
-        "int2b_school"
+        "int2b_1000_won",
+        "int2b_5000_won",
+        "int2b_500_won",
+        "int2b_thin"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_5000_won",
       "why_wrong": {
-        "int2b_thin": "You tapped \"thin person\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_school": "You tapped \"school\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_thin": "You tapped \"thin person\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
-        "int2b_won_coin": "Korean won coins",
-        "int2b_thin": "thin person",
-        "int2b_clock_555": "clock 5:55",
-        "int2b_school": "school"
-      }
+        "int2b_1000_won": "1000 won bill",
+        "int2b_5000_won": "5000 won bill",
+        "int2b_500_won": "500 won coin",
+        "int2b_thin": "thin person"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q21",
@@ -318,31 +323,32 @@
       "prompt_text": "What is about 500 won?",
       "audio_id": "u4_q22",
       "image_ids": [
-        "int2b_won_coin",
+        "int2b_5000_won",
         "int2b_phone",
-        "int2b_police",
-        "int2b_stairs"
+        "int2b_500_won",
+        "int2b_1000_won"
       ],
       "choices": [
-        "int2b_won_coin",
+        "int2b_5000_won",
         "int2b_phone",
-        "int2b_police",
-        "int2b_stairs"
+        "int2b_500_won",
+        "int2b_1000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_500_won",
       "why_wrong": {
-        "int2b_phone": "You tapped \"phone\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_police": "You tapped \"police officer\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_stairs": "You tapped \"stairs\", but the audio said: \"What is about 500 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_phone": "You tapped \"phone\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
-        "int2b_won_coin": "Korean won coins",
+        "int2b_5000_won": "5000 won bill",
         "int2b_phone": "phone",
-        "int2b_police": "police officer",
-        "int2b_stairs": "stairs"
-      }
+        "int2b_500_won": "500 won coin",
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_500_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q23",
@@ -350,31 +356,32 @@
       "prompt_text": "What is about 1000 won?",
       "audio_id": "u4_q23",
       "image_ids": [
+        "int2b_500_won",
         "int2b_phone",
-        "int2b_won_coin",
-        "int2b_monday",
-        "int2b_socks"
+        "int2b_5000_won",
+        "int2b_1000_won"
       ],
       "choices": [
+        "int2b_500_won",
         "int2b_phone",
-        "int2b_won_coin",
-        "int2b_monday",
-        "int2b_socks"
+        "int2b_5000_won",
+        "int2b_1000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_1000_won",
       "why_wrong": {
-        "int2b_phone": "You tapped \"phone\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_socks": "You tapped \"socks\", but the audio said: \"What is about 1000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_phone": "You tapped \"phone\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
+        "int2b_500_won": "500 won coin",
         "int2b_phone": "phone",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_monday": "Monday calendar",
-        "int2b_socks": "socks"
-      }
+        "int2b_5000_won": "5000 won bill",
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_1000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q24",
@@ -383,30 +390,31 @@
       "audio_id": "u4_q24",
       "image_ids": [
         "int2b_dinner",
-        "int2b_won_coin",
-        "int2b_pro_gamer",
-        "int2b_car"
+        "int2b_5000_won",
+        "int2b_1000_won",
+        "int2b_500_won"
       ],
       "choices": [
         "int2b_dinner",
-        "int2b_won_coin",
-        "int2b_pro_gamer",
-        "int2b_car"
+        "int2b_5000_won",
+        "int2b_1000_won",
+        "int2b_500_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_5000_won",
       "why_wrong": {
-        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 5000 won?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
         "int2b_dinner": "dinner",
-        "int2b_won_coin": "Korean won coins",
-        "int2b_pro_gamer": "pro-gamer",
-        "int2b_car": "car"
-      }
+        "int2b_5000_won": "5000 won bill",
+        "int2b_1000_won": "1000 won bill",
+        "int2b_500_won": "500 won coin"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q25",
@@ -414,31 +422,32 @@
       "prompt_text": "Everything here is cheap!",
       "audio_id": "u4_q25",
       "image_ids": [
-        "int2b_judge",
         "int2b_car",
         "int2b_school_day",
-        "int2b_thin"
+        "int2b_judge",
+        "int2b_everything_cheap"
       ],
       "choices": [
-        "int2b_judge",
         "int2b_car",
         "int2b_school_day",
-        "int2b_thin"
+        "int2b_judge",
+        "int2b_everything_cheap"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_everything_cheap",
       "why_wrong": {
-        "int2b_judge": "You tapped \"judge\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!",
-        "int2b_car": "You tapped \"car\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!",
-        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"Everything here is cheap!\". The correct picture is \"thin person\". Listen again!"
+        "int2b_car": "You tapped \"car\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!",
+        "int2b_judge": "You tapped \"judge\", but the audio said: \"Everything here is cheap!\". The correct picture is \"shop where everything is cheap\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
-        "int2b_judge": "judge",
         "int2b_car": "car",
         "int2b_school_day": "school building (school day)",
-        "int2b_thin": "thin person"
-      }
+        "int2b_judge": "judge",
+        "int2b_everything_cheap": "shop where everything is cheap"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_thin (audit: keyed wrong); now real int2b_everything_cheap art from Picture Maker new-pics"
     },
     {
       "id": "i2b_u04_q27",
@@ -510,31 +519,32 @@
       "prompt_text": "A house is about 5000 won in Canada.",
       "audio_id": "u4_q30",
       "image_ids": [
+        "int2b_500_won",
         "int2b_school_day",
-        "int2b_open_sign",
-        "int2b_old",
-        "int2b_won_coin"
+        "int2b_1000_won",
+        "int2b_5000_won"
       ],
       "choices": [
+        "int2b_500_won",
         "int2b_school_day",
-        "int2b_open_sign",
-        "int2b_old",
-        "int2b_won_coin"
+        "int2b_1000_won",
+        "int2b_5000_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_5000_won",
       "why_wrong": {
-        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_old": "You tapped \"old person\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"A house is about 5000 won in Canada.\". The correct picture is \"5000 won bill\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
       "choice_labels": {
+        "int2b_500_won": "500 won coin",
         "int2b_school_day": "school building (school day)",
-        "int2b_open_sign": "OPEN sign",
-        "int2b_old": "old person",
-        "int2b_won_coin": "Korean won coins"
-      }
+        "int2b_1000_won": "1000 won bill",
+        "int2b_5000_won": "5000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics"
     }
   ]
 }

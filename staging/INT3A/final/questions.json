@@ -129,7 +129,7 @@
     {
       "id": "i3a_final_q04",
       "type": 1,
-      "prompt_text": "How old is he?",
+      "prompt_text": "How old is he? He is 36 years old.",
       "audio_id": "final_q04",
       "image_ids": [
         "int3a_how-old_age_30",
@@ -156,7 +156,8 @@
         "int3a_how-old_age_36": "36 years old",
         "int3a_how-old_age_15": "15 years old",
         "int3a_how-old_age_77": "77 years old"
-      }
+      },
+      "fix_note": "2026-09-25 key fix: audio was only \"How old is he?\" (age never said); now says the age"
     },
     {
       "id": "i3a_final_q05",

@@ -165,7 +165,7 @@
           "path": "staging/INT2B/unit08/questions.json",
           "title": "Intermediate 2B Unit 8: This is Mine!",
           "kind": "unit",
-          "count": 0,
+          "count": 22,
           "pass_percent": 80
         },
         {
@@ -257,7 +257,7 @@
           "path": "staging/INT2C/unit07/questions.json",
           "title": "Intermediate 2C Unit 7: Phone English 1",
           "kind": "unit",
-          "count": 0,
+          "count": 21,
           "pass_percent": 80
         },
         {
@@ -449,6 +449,14 @@
           "title": "Intermediate 3B Unit 6: WHAT FRUIT ARE THESE?",
           "kind": "unit",
           "count": 30,
+          "pass_percent": 80
+        },
+        {
+          "id": "unit07",
+          "path": "staging/INT3B/unit07/questions.json",
+          "title": "Intermediate 3B Unit 7: Don't Forget Your Transit Card",
+          "kind": "unit",
+          "count": 22,
           "pass_percent": 80
         },
         {
