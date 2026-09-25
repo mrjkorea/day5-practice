@@ -191,29 +191,30 @@
       "image_ids": [
         "int3c_u01_sweet_food_doenjang_guk",
         "int3c_u01_sweet_food_salty_food",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_food_yell",
         "int3c_u01_sweet_food_wrong_bitter_candy"
       ],
       "choices": [
         "int3c_u01_sweet_food_doenjang_guk",
         "int3c_u01_sweet_food_salty_food",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_food_yell",
         "int3c_u01_sweet_food_wrong_bitter_candy"
       ],
       "correct": "int3c_u01_sweet_food_doenjang_guk",
       "why_wrong": {
-        "int3c_u01_sweet_food_salty_food": "That is not the correct answer. Listen again!",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
-        "int3c_u01_sweet_food_wrong_bitter_candy": "Sweet food is not the same as bitter food."
+        "int3c_u01_sweet_food_salty_food": "You tapped \"Salty Food\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_food_yell": "You tapped \"int3c_u01_sweet_food_wrong_food_yell\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "You tapped \"Wrong Bitter Candy\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!"
       },
       "unit": 1,
       "level": "int3c",
       "choice_labels": {
         "int3c_u01_sweet_food_doenjang_guk": "Doenjang Guk",
         "int3c_u01_sweet_food_salty_food": "Salty Food",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_wrong_food_yell": "int3c_u01_sweet_food_wrong_food_yell",
         "int3c_u01_sweet_food_wrong_bitter_candy": "Wrong Bitter Candy"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u01_sweet_food_wrong_sweet_doenjang looked like the key/another option in this question -> int3c_u01_sweet_food_wrong_food_yell"
     },
     {
       "id": "i3c_u01_q07",
@@ -511,29 +512,30 @@
       "image_ids": [
         "int3c_u01_sweet_food_spicy_food",
         "int3c_u01_sweet_food_try_doenjang_guk",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_do_you_like_sour"
       ],
       "choices": [
         "int3c_u01_sweet_food_spicy_food",
         "int3c_u01_sweet_food_try_doenjang_guk",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_do_you_like_sour"
       ],
       "correct": "int3c_u01_sweet_food_try_doenjang_guk",
       "why_wrong": {
-        "int3c_u01_sweet_food_spicy_food": "Bibimbap is spicy — that is an example, not sweet food.",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
-        "int3c_u01_sweet_food_do_you_like_sour": "That is not the correct answer. Listen again!"
+        "int3c_u01_sweet_food_spicy_food": "You tapped \"Spicy Food\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Try Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "You tapped \"int3c_u01_sweet_food_wrong_salty_ddeok\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Try Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_do_you_like_sour": "You tapped \"Do You Like Sour\", but the audio said: \"Try doenjang guk.\". The correct picture is \"Try Doenjang Guk\". Listen again!"
       },
       "unit": 1,
       "level": "int3c",
       "choice_labels": {
         "int3c_u01_sweet_food_spicy_food": "Spicy Food",
         "int3c_u01_sweet_food_try_doenjang_guk": "Try Doenjang Guk",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_do_you_like_sour": "Do You Like Sour"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u01_sweet_food_wrong_sweet_doenjang looked like the key/another option in this question -> int3c_u01_sweet_food_wrong_salty_ddeok"
     },
     {
       "id": "i3c_u01_q17",
@@ -734,30 +736,31 @@
       "audio_id": "u01_q23",
       "image_ids": [
         "int3c_u01_sweet_food_doraji_namul",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_wrong_bitter_candy",
         "int3c_u01_sweet_food_doenjang_guk"
       ],
       "choices": [
         "int3c_u01_sweet_food_doraji_namul",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_wrong_bitter_candy",
         "int3c_u01_sweet_food_doenjang_guk"
       ],
       "correct": "int3c_u01_sweet_food_doenjang_guk",
       "why_wrong": {
-        "int3c_u01_sweet_food_doraji_namul": "That is not the correct answer. Listen again!",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
-        "int3c_u01_sweet_food_wrong_bitter_candy": "Sweet food is not the same as bitter food."
+        "int3c_u01_sweet_food_doraji_namul": "You tapped \"Doraji Namul\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "You tapped \"int3c_u01_sweet_food_wrong_salty_ddeok\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "You tapped \"Wrong Bitter Candy\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!"
       },
       "unit": 1,
       "level": "int3c",
       "choice_labels": {
         "int3c_u01_sweet_food_doraji_namul": "Doraji Namul",
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "int3c_u01_sweet_food_wrong_salty_ddeok",
         "int3c_u01_sweet_food_wrong_bitter_candy": "Wrong Bitter Candy",
         "int3c_u01_sweet_food_doenjang_guk": "Doenjang Guk"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u01_sweet_food_wrong_sweet_doenjang looked like the key/another option in this question -> int3c_u01_sweet_food_wrong_salty_ddeok"
     },
     {
       "id": "i3c_u01_q24",

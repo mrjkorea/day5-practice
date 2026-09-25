@@ -6,7 +6,7 @@
     "units_covered": [
       8
     ],
-    "count": 22,
+    "count": 27,
     "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
@@ -529,6 +529,176 @@
       "unit": 8,
       "level": "int2b",
       "source": "day4"
+    },
+    {
+      "id": "i2b_u08_q23",
+      "type": 1,
+      "prompt_text": "This is yours.",
+      "audio_id": "u8_q04",
+      "image_ids": [
+        "int2b_it_is_ours",
+        "int2b_this_is_yours",
+        "int2b_it_is_his",
+        "int2b_this_is_mine"
+      ],
+      "choices": [
+        "int2b_it_is_ours",
+        "int2b_this_is_yours",
+        "int2b_it_is_his",
+        "int2b_this_is_mine"
+      ],
+      "correct": "int2b_this_is_yours",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_it_is_ours": "it is ours",
+        "int2b_this_is_yours": "this is yours",
+        "int2b_it_is_his": "it is his",
+        "int2b_this_is_mine": "this is mine"
+      },
+      "why_wrong": {
+        "int2b_it_is_ours": "You tapped \"it is ours\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!",
+        "int2b_it_is_his": "You tapped \"it is his\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!",
+        "int2b_this_is_mine": "You tapped \"this is mine\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!"
+      }
+    },
+    {
+      "id": "i2b_u08_q24",
+      "type": 1,
+      "prompt_text": "This is not yours, it is hers.",
+      "audio_id": "u8_q09",
+      "image_ids": [
+        "int2b_it_is_hers",
+        "int2b_it_is_his",
+        "int2b_this_is_yours",
+        "int2b_it_is_ours"
+      ],
+      "choices": [
+        "int2b_it_is_hers",
+        "int2b_it_is_his",
+        "int2b_this_is_yours",
+        "int2b_it_is_ours"
+      ],
+      "correct": "int2b_it_is_hers",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_it_is_hers": "it is hers",
+        "int2b_it_is_his": "it is his",
+        "int2b_this_is_yours": "this is yours",
+        "int2b_it_is_ours": "it is ours"
+      },
+      "why_wrong": {
+        "int2b_it_is_his": "You tapped \"it is his\", but the audio said: \"This is not yours, it is hers.\". The correct picture is \"it is hers\". Listen again!",
+        "int2b_this_is_yours": "You tapped \"this is yours\", but the audio said: \"This is not yours, it is hers.\". The correct picture is \"it is hers\". Listen again!",
+        "int2b_it_is_ours": "You tapped \"it is ours\", but the audio said: \"This is not yours, it is hers.\". The correct picture is \"it is hers\". Listen again!"
+      }
+    },
+    {
+      "id": "i2b_u08_q25",
+      "type": 1,
+      "prompt_text": "It is not yours, it is his.",
+      "audio_id": "u8_q12",
+      "image_ids": [
+        "int2b_this_is_mine",
+        "int2b_it_is_hers",
+        "int2b_it_is_his",
+        "int2b_it_is_ours"
+      ],
+      "choices": [
+        "int2b_this_is_mine",
+        "int2b_it_is_hers",
+        "int2b_it_is_his",
+        "int2b_it_is_ours"
+      ],
+      "correct": "int2b_it_is_his",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_this_is_mine": "this is mine",
+        "int2b_it_is_hers": "it is hers",
+        "int2b_it_is_his": "it is his",
+        "int2b_it_is_ours": "it is ours"
+      },
+      "why_wrong": {
+        "int2b_this_is_mine": "You tapped \"this is mine\", but the audio said: \"It is not yours, it is his.\". The correct picture is \"it is his\". Listen again!",
+        "int2b_it_is_hers": "You tapped \"it is hers\", but the audio said: \"It is not yours, it is his.\". The correct picture is \"it is his\". Listen again!",
+        "int2b_it_is_ours": "You tapped \"it is ours\", but the audio said: \"It is not yours, it is his.\". The correct picture is \"it is his\". Listen again!"
+      }
+    },
+    {
+      "id": "i2b_u08_q26",
+      "type": 1,
+      "prompt_text": "It is not mine. It is ours.",
+      "audio_id": "u8_q08",
+      "image_ids": [
+        "int2b_it_is_hers",
+        "int2b_this_is_yours",
+        "int2b_they_are_theirs",
+        "int2b_it_is_ours"
+      ],
+      "choices": [
+        "int2b_it_is_hers",
+        "int2b_this_is_yours",
+        "int2b_they_are_theirs",
+        "int2b_it_is_ours"
+      ],
+      "correct": "int2b_it_is_ours",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_it_is_hers": "it is hers",
+        "int2b_this_is_yours": "this is yours",
+        "int2b_they_are_theirs": "they are mine (not theirs)",
+        "int2b_it_is_ours": "it is ours"
+      },
+      "why_wrong": {
+        "int2b_it_is_hers": "You tapped \"it is hers\", but the audio said: \"It is not mine. It is ours.\". The correct picture is \"it is ours\". Listen again!",
+        "int2b_this_is_yours": "You tapped \"this is yours\", but the audio said: \"It is not mine. It is ours.\". The correct picture is \"it is ours\". Listen again!",
+        "int2b_they_are_theirs": "You tapped \"they are mine (not theirs)\", but the audio said: \"It is not mine. It is ours.\". The correct picture is \"it is ours\". Listen again!"
+      }
+    },
+    {
+      "id": "i2b_u08_q27",
+      "type": 1,
+      "prompt_text": "They are not theirs. They are mine.",
+      "audio_id": "u8_q11",
+      "image_ids": [
+        "int2b_they_are_theirs",
+        "int2b_it_is_his",
+        "int2b_it_is_ours",
+        "int2b_this_is_yours"
+      ],
+      "choices": [
+        "int2b_they_are_theirs",
+        "int2b_it_is_his",
+        "int2b_it_is_ours",
+        "int2b_this_is_yours"
+      ],
+      "correct": "int2b_they_are_theirs",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_they_are_theirs": "they are mine (not theirs)",
+        "int2b_it_is_his": "it is his",
+        "int2b_it_is_ours": "it is ours",
+        "int2b_this_is_yours": "this is yours"
+      },
+      "why_wrong": {
+        "int2b_it_is_his": "You tapped \"it is his\", but the audio said: \"They are not theirs. They are mine.\". The correct picture is \"they are mine (not theirs)\". Listen again!",
+        "int2b_it_is_ours": "You tapped \"it is ours\", but the audio said: \"They are not theirs. They are mine.\". The correct picture is \"they are mine (not theirs)\". Listen again!",
+        "int2b_this_is_yours": "You tapped \"this is yours\", but the audio said: \"They are not theirs. They are mine.\". The correct picture is \"they are mine (not theirs)\". Listen again!"
+      }
     }
   ]
 }

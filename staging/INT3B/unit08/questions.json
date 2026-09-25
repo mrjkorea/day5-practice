@@ -637,19 +637,19 @@
       "audio_id": "unit8-q20",
       "image_ids": [
         "i3b_secret",
-        "i3b_gfsecret",
+        "i3b_why",
         "i3b_how",
         "i3b_where"
       ],
       "choices": [
         "i3b_secret",
-        "i3b_gfsecret",
+        "i3b_why",
         "i3b_how",
         "i3b_where"
       ],
       "correct": "i3b_secret",
       "why_wrong": {
-        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
+        "i3b_why": "You tapped \"i3b_why\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
         "i3b_how": "You tapped \"How\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!",
         "i3b_where": "You tapped \"Where\", but the audio said: \"How much do you weigh? That is a secret!\". The correct picture is \"secret\". Listen again!"
       },
@@ -657,10 +657,11 @@
       "level": "int3b",
       "choice_labels": {
         "i3b_secret": "secret",
-        "i3b_gfsecret": "girlfriend secret",
+        "i3b_why": "i3b_why",
         "i3b_how": "How",
         "i3b_where": "Where"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: i3b_gfsecret looked like the key/another option in this question -> i3b_why"
     },
     {
       "id": "i3b_u08_q21",

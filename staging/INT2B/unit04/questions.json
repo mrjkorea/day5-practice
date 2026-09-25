@@ -33,19 +33,19 @@
         "int2b_bus_stop",
         "int2b_pro_gamer",
         "int2b_car",
-        "int2b_won_coin"
+        "int2b_100_won"
       ],
       "choices": [
         "int2b_bus_stop",
         "int2b_pro_gamer",
         "int2b_car",
-        "int2b_won_coin"
+        "int2b_100_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_100_won",
       "why_wrong": {
-        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
@@ -53,8 +53,9 @@
         "int2b_bus_stop": "bus stop",
         "int2b_pro_gamer": "pro-gamer",
         "int2b_car": "car",
-        "int2b_won_coin": "Korean won coins"
-      }
+        "int2b_100_won": "100 won coin"
+      },
+      "fix_note": "2026-09-25 key fix: 100 won was keyed to generic coins; now 100-won coin art"
     },
     {
       "id": "i2b_u04_q07",
@@ -294,19 +295,19 @@
         "int2b_open_sign",
         "int2b_hacker",
         "int2b_coffee",
-        "int2b_won_coin"
+        "int2b_100_won"
       ],
       "choices": [
         "int2b_open_sign",
         "int2b_hacker",
         "int2b_coffee",
-        "int2b_won_coin"
+        "int2b_100_won"
       ],
-      "correct": "int2b_won_coin",
+      "correct": "int2b_100_won",
       "why_wrong": {
-        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!",
-        "int2b_coffee": "You tapped \"coffee\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"Korean won coins\". Listen again!"
+        "int2b_open_sign": "You tapped \"OPEN sign\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_coffee": "You tapped \"coffee\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!"
       },
       "unit": 4,
       "level": "int2b",
@@ -314,8 +315,9 @@
         "int2b_open_sign": "OPEN sign",
         "int2b_hacker": "computer hacker",
         "int2b_coffee": "coffee",
-        "int2b_won_coin": "Korean won coins"
-      }
+        "int2b_100_won": "100 won coin"
+      },
+      "fix_note": "2026-09-25 key fix: 100 won was keyed to generic coins; now 100-won coin art"
     },
     {
       "id": "i2b_u04_q22",

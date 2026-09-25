@@ -6,7 +6,7 @@
     "units_covered": [
       7
     ],
-    "count": 21,
+    "count": 24,
     "schema": "day5-practice",
     "types": {
       "1": "listen_pick_picture",
@@ -506,6 +506,108 @@
       "unit": 7,
       "level": "int2c",
       "source": "day4"
+    },
+    {
+      "id": "i2c_u07_q22",
+      "type": 1,
+      "prompt_text": "Hello. Is Beomjun there?",
+      "audio_id": "unit-07-q10",
+      "image_ids": [
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "choices": [
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "correct": "int2c_is_beomjun_there",
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2c_sorry_he_is_out": "Sorry, he is out",
+        "int2c_is_beomjun_there": "calling: Is Beomjun there?",
+        "int2c_laptop": "laptop",
+        "int2c_phone_number": "phone number 010 3457 7543"
+      },
+      "why_wrong": {
+        "int2c_sorry_he_is_out": "You tapped \"Sorry, he is out\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!",
+        "int2c_phone_number": "You tapped \"phone number 010 3457 7543\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!"
+      }
+    },
+    {
+      "id": "i2c_u07_q23",
+      "type": 1,
+      "prompt_text": "Sorry, he is out.",
+      "audio_id": "unit-07-q12",
+      "image_ids": [
+        "int2c_phone_number",
+        "int2c_laptop",
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there"
+      ],
+      "choices": [
+        "int2c_phone_number",
+        "int2c_laptop",
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there"
+      ],
+      "correct": "int2c_sorry_he_is_out",
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2c_phone_number": "phone number 010 3457 7543",
+        "int2c_laptop": "laptop",
+        "int2c_sorry_he_is_out": "Sorry, he is out",
+        "int2c_is_beomjun_there": "calling: Is Beomjun there?"
+      },
+      "why_wrong": {
+        "int2c_phone_number": "You tapped \"phone number 010 3457 7543\", but the audio said: \"Sorry, he is out.\". The correct picture is \"Sorry, he is out\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"Sorry, he is out.\". The correct picture is \"Sorry, he is out\". Listen again!",
+        "int2c_is_beomjun_there": "You tapped \"calling: Is Beomjun there?\", but the audio said: \"Sorry, he is out.\". The correct picture is \"Sorry, he is out\". Listen again!"
+      }
+    },
+    {
+      "id": "i2c_u07_q24",
+      "type": 1,
+      "prompt_text": "His phone number is 010 3457 7543.",
+      "audio_id": "unit-07-q09",
+      "image_ids": [
+        "int2c_is_beomjun_there",
+        "int2c_sorry_he_is_out",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "choices": [
+        "int2c_is_beomjun_there",
+        "int2c_sorry_he_is_out",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "correct": "int2c_phone_number",
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2c_is_beomjun_there": "calling: Is Beomjun there?",
+        "int2c_sorry_he_is_out": "Sorry, he is out",
+        "int2c_laptop": "laptop",
+        "int2c_phone_number": "phone number 010 3457 7543"
+      },
+      "why_wrong": {
+        "int2c_is_beomjun_there": "You tapped \"calling: Is Beomjun there?\", but the audio said: \"His phone number is 010 3457 7543.\". The correct picture is \"phone number 010 3457 7543\". Listen again!",
+        "int2c_sorry_he_is_out": "You tapped \"Sorry, he is out\", but the audio said: \"His phone number is 010 3457 7543.\". The correct picture is \"phone number 010 3457 7543\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"His phone number is 010 3457 7543.\". The correct picture is \"phone number 010 3457 7543\". Listen again!"
+      }
     }
   ]
 }

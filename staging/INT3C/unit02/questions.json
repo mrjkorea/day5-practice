@@ -714,18 +714,19 @@
       ],
       "correct": "int3c_u02_do_not_yell_please_cry_sign",
       "why_wrong": {
-        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it.",
-        "int3c_u02_do_not_yell_do_not_open_sign": "That is not the correct answer. Listen again!",
-        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice."
+        "int3c_u02_do_not_yell_pull_it_ok": "You tapped \"Pull It Ok\", but the audio said: \"Please, do not cry.\". The correct picture is \"Do Not Cry Sign\". Listen again!",
+        "int3c_u02_do_not_yell_do_not_open_sign": "You tapped \"Do Not Open Sign\", but the audio said: \"Please, do not cry.\". The correct picture is \"Do Not Cry Sign\". Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "You tapped \"Yelling Ok\", but the audio said: \"Please, do not cry.\". The correct picture is \"Do Not Cry Sign\". Listen again!"
       },
       "unit": 2,
       "level": "int3c",
       "choice_labels": {
-        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign",
+        "int3c_u02_do_not_yell_please_cry_sign": "Do Not Cry Sign",
         "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok",
         "int3c_u02_do_not_yell_do_not_open_sign": "Do Not Open Sign",
         "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok"
-      }
+      },
+      "fix_note": "2026-09-25 label fix: \"Please Cry Sign\" -> \"Do Not Cry Sign\" (new no-crying sign art)"
     },
     {
       "id": "i3c_u02_q23",
@@ -746,18 +747,19 @@
       ],
       "correct": "int3c_u02_do_not_yell_do_not_yell",
       "why_wrong": {
-        "int3c_u02_do_not_yell_please_cry_sign": "That is not the correct answer. Listen again!",
-        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
-        "int3c_u02_do_not_yell_pull_it_ok": "Do not pull it."
+        "int3c_u02_do_not_yell_please_cry_sign": "You tapped \"Do Not Cry Sign\", but the audio said: \"Do not yell.\". The correct picture is \"Do Not Yell\". Listen again!",
+        "int3c_u02_do_not_yell_yelling_ok": "You tapped \"Yelling Ok\", but the audio said: \"Do not yell.\". The correct picture is \"Do Not Yell\". Listen again!",
+        "int3c_u02_do_not_yell_pull_it_ok": "You tapped \"Pull It Ok\", but the audio said: \"Do not yell.\". The correct picture is \"Do Not Yell\". Listen again!"
       },
       "unit": 2,
       "level": "int3c",
       "choice_labels": {
         "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell",
-        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign",
+        "int3c_u02_do_not_yell_please_cry_sign": "Do Not Cry Sign",
         "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
         "int3c_u02_do_not_yell_pull_it_ok": "Pull It Ok"
-      }
+      },
+      "fix_note": "2026-09-25 label fix: \"Please Cry Sign\" -> \"Do Not Cry Sign\" (new no-crying sign art)"
     },
     {
       "id": "i3c_u02_q24",
