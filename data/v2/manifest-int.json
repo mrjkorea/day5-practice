@@ -19,7 +19,7 @@
   {
    "id": "int3a",
    "label": "Intermediate 3A",
-   "legacy": "legacy/intermediate.html#/int3a"
+   "file": "data/v2/int3a.json"
   },
   {
    "id": "int3b",
