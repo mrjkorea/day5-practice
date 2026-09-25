@@ -1,324 +1,300 @@
+/* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
 (function () {
-  const PASS = 80;
-  const root = document.documentElement.dataset.siteRoot || '';
-  const manifestFile = document.documentElement.dataset.manifest || 'data/manifest.json';
-  const base = root || (function () {
-    // Support GitHub project pages /day5-practice/ and local root.
-    const path = location.pathname.replace(/\/index\.html?$/, '/');
-    if (path.endsWith('/')) return path;
-    return path.replace(/[^/]+$/, '');
-  })();
-
-  const els = {
-    home: document.getElementById('view-home'),
-    level: document.getElementById('view-level'),
-    quiz: document.getElementById('view-quiz'),
-    levelGrid: document.getElementById('level-grid'),
-    levelTitle: document.getElementById('level-title'),
-    levelLead: document.getElementById('level-lead'),
-    assessList: document.getElementById('assess-list'),
-    quizTitle: document.getElementById('quiz-title'),
-    quizMeta: document.getElementById('quiz-meta'),
-    backLevel: document.getElementById('back-level'),
-    resultBack: document.getElementById('result-back'),
-    progress: document.getElementById('progress'),
-    qnum: document.getElementById('qnum'),
-    qtext: document.getElementById('qtext'),
-    promptPic: document.getElementById('prompt-pic'),
-    choices: document.getElementById('choices'),
-    why: document.getElementById('why'),
-    stage: document.getElementById('stage'),
-    result: document.getElementById('result'),
-    scoreline: document.getElementById('scoreline'),
-    passline: document.getElementById('passline'),
-    chart: document.getElementById('chart'),
-    review: document.getElementById('review'),
-    replay: document.getElementById('replay'),
-    speakBtn: document.getElementById('speakBtn'),
+  'use strict';
+  var html = document.documentElement;
+  var ROOT = html.dataset.siteRoot || '';
+  var MANIFEST = html.dataset.manifest || 'data/v2/manifest-basic.json';
+  var app = document.getElementById('app');
+  var SAY = {
+    1: 'Listen to the question. Tap the best answer.',
+    2: 'Look and listen. Tap the best answer.',
+    3: 'Listen. Tap the right picture.',
+    4: 'Listen. Tap the words in order.',
+    5: 'Listen. Tap the right word.',
+    6: 'Listen. Tap the missing word.',
+    7: 'Listen. Spell the word.',
+    8: 'Listen to the talk. Then answer.',
+    9: 'Listen to the answer. What was the question?',
+    10: 'Look and listen. Is it right?'
   };
+  var MAX_REPLAYS = 2;
+  var manifest = null, books = {}, st = null, player = null, playToken = 0;
 
-  let manifest = null;
-  let currentLevel = null;
-  let currentAssess = null;
-  let quizData = null;
-  let qi = 0;
-  let answers = [];
-  let audio = null;
+  function url(p) { return ROOT + p; }
+  function $(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function rnd(n) { return Math.floor(Math.random() * n); }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function load(p) { return fetch(url(p), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); }); }
+  function key(b, t) { return 'd5v2-' + b + '-' + t; }
+  function best(b, t) { var v = localStorage.getItem(key(b, t)); return v == null ? null : +v; }
+  function lockOf(b) { return localStorage.getItem('d5v2-lock-' + b); }
+  function setLock(b, t) { if (t) localStorage.setItem('d5v2-lock-' + b, t); else localStorage.removeItem('d5v2-lock-' + b); }
 
-  function asset(p) { return base + p.replace(/^\//, ''); }
-  function levelAssetDir(kind) {
-    const p = currentLevel && currentLevel.asset_prefix;
-    if (p && p[kind]) return p[kind];
-    return kind === 'pictures' ? 'pictures' : 'audio';
+  // ---------- audio ----------
+  function stop() { playToken++; if (player) { try { player.pause(); } catch (e) {} player = null; } }
+  function playList(list, done) {
+    stop();
+    var tok = playToken, i = 0;
+    list = list || [];
+    function next() {
+      if (tok !== playToken) return;
+      if (i >= list.length) { if (done) done(true); return; }
+      player = new Audio(url(list[i++]));
+      player.onended = function () { setTimeout(next, 350); };
+      player.onerror = function () { setTimeout(next, 50); };
+      var p = player.play();
+      if (p && p.catch) p.catch(function () { if (tok === playToken && done) done(false); tok = -1; });
+    }
+    next();
   }
-  function storageKey(levelId, assessId) {
-    return 'mrj-day5-' + levelId + '-' + assessId;
+
+  // ---------- data ----------
+  function getBook(id) {
+    var b = manifest.books.filter(function (x) { return x.id === id; })[0];
+    if (!b) return Promise.resolve(null);
+    if (b.legacy) { location.replace(url(b.legacy)); return new Promise(function () {}); }
+    if (books[id]) return Promise.resolve(books[id]);
+    return load(b.file).then(function (d) { d.id = id; books[id] = d; return d; });
   }
-  function loadHistory(levelId, assessId) {
-    try { return JSON.parse(localStorage.getItem(storageKey(levelId, assessId)) || '{"attempts":[]}'); }
-    catch (e) { return { attempts: [] }; }
-  }
-  function saveHistory(levelId, assessId, h) {
-    localStorage.setItem(storageKey(levelId, assessId), JSON.stringify(h));
-  }
-  function bestPct(levelId, assessId) {
-    const h = loadHistory(levelId, assessId);
-    if (!h.attempts.length) return null;
-    return Math.max.apply(null, h.attempts.map(a => a.pct));
-  }
-  function passedCount(level) {
-    let n = 0;
-    level.assessments.forEach(a => {
-      const b = bestPct(level.id, a.id);
-      if (b != null && b >= PASS) n++;
+
+  // Draw one attempt: per-type counts from the pool, spread over units, then shuffle everything.
+  function draw(book, test) {
+    var bp = test.bp, picked = [];
+    Object.keys(bp.types).forEach(function (t) {
+      var need = bp.types[t];
+      var byUnit = test.units.map(function (u) {
+        return shuffle(book.units[u].items.filter(function (it) { return String(it.t) === t; }));
+      });
+      var order = shuffle(byUnit.map(function (_, i) { return i; }));
+      var got = [], guard = 0;
+      while (got.length < need && guard++ < 1000) {
+        var progress = false;
+        order.forEach(function (ui) { if (got.length < need && byUnit[ui].length) { got.push(byUnit[ui].shift()); progress = true; } });
+        if (!progress) break;
+      }
+      picked = picked.concat(got);
     });
-    return n;
+    return shuffle(picked).map(prepare);
   }
-
-  function show(view) {
-    els.home.classList.toggle('hidden', view !== 'home');
-    els.level.classList.toggle('hidden', view !== 'level');
-    els.quiz.classList.toggle('hidden', view !== 'quiz');
+  // Shuffle choices / tiles for this attempt, remembering where the answer went.
+  function prepare(it) {
+    var q = { src: it, t: it.t };
+    if (it.ch) {
+      var idx = shuffle(it.ch.map(function (_, i) { return i; }));
+      if (it.t === 10) idx = [0, 1]; // ✓ always left, ✗ always right; the answer itself varies per item
+      q.ch = idx.map(function (i) { return it.ch[i]; });
+      q.k = idx.indexOf(it.k);
+    }
+    if (it.tiles) {
+      var all = it.tiles.map(function (w, i) { return { w: w, i: i }; }).concat((it.xt || []).map(function (w) { return { w: w, i: -1 }; }));
+      var s, tries = 0;
+      do { s = shuffle(all); tries++; } while (tries < 20 && s.slice(0, it.tiles.length).every(function (x, i) { return x.i === i; }));
+      q.pool = s;
+    }
+    return q;
   }
+  function isGate(t) { return t === 1 || t === 2 || t === 8; }
 
-  function parseHash() {
-    const h = (location.hash || '#/').replace(/^#\/?/, '');
-    const parts = h.split('/').filter(Boolean);
-    return { levelId: parts[0] || null, assessId: parts[1] || null };
-  }
-
-  async function ensureManifest() {
-    if (manifest) return manifest;
-    const res = await fetch(asset(manifestFile));
-    manifest = await res.json();
-    return manifest;
+  // ---------- views ----------
+  function header(back, backText) {
+    var h = $('div', 'top');
+    if (back) { var a = $('a', 'back', backText || '← Back'); a.href = back; h.appendChild(a); }
+    var brand = $('div', 'brand', 'MRJ Day 5');
+    h.appendChild(brand);
+    return h;
   }
 
   function renderHome() {
-    show('home');
-    els.levelGrid.innerHTML = '';
-    manifest.levels.forEach(level => {
-      const passed = passedCount(level);
-      const art = document.createElement('article');
-      art.className = 'card';
-      art.innerHTML =
-        '<h2>' + level.label + '</h2>' +
-        '<p class="meta">' + level.assessments.length + ' tests · ' + passed + '/' + level.assessments.length + ' passed</p>' +
-        '<a class="btn" href="#/' + level.id + '">Open</a>';
-      els.levelGrid.appendChild(art);
+    stop();
+    app.innerHTML = '';
+    app.appendChild(header(null));
+    app.appendChild($('h1', null, manifest.title));
+    app.appendChild($('p', 'lead', 'Listen and tap. You need 80% to pass.'));
+    var g = $('div', 'grid');
+    manifest.books.forEach(function (b) {
+      var a = $('a', 'bigbtn book', b.label); a.href = b.legacy ? url(b.legacy) : '#/' + b.id; g.appendChild(a);
     });
+    app.appendChild(g);
+    if (manifest.other) { var o = $('a', 'link', manifest.other.label); o.href = url(manifest.other.href); app.appendChild(o); }
   }
 
-  function renderLevel(levelId) {
-    const level = manifest.levels.find(l => l.id === levelId);
-    if (!level) { location.hash = '#/'; return; }
-    currentLevel = level;
-    show('level');
-    els.levelTitle.textContent = level.label;
-    els.levelLead.textContent = '8 units + 2 midterms + final. Need ' + PASS + '% to pass.';
-    els.assessList.innerHTML = '';
-    level.assessments.forEach(a => {
-      const best = bestPct(level.id, a.id);
-      const status = best == null ? 'Not tried' : (best >= PASS ? ('Passed · best ' + best + '%') : ('Best ' + best + '% · need ' + PASS + '%'));
-      const art = document.createElement('article');
-      art.className = 'card toc-item';
-      art.innerHTML =
-        '<div><h2>' + escapeHtml(a.title) + '</h2>' +
-        '<p class="meta">' + a.count + ' questions · ' + status + '</p></div>' +
-        '<a class="btn" href="#/' + level.id + '/' + a.id + '">Start</a>';
-      els.assessList.appendChild(art);
+  function renderBook(book) {
+    stop();
+    app.innerHTML = '';
+    app.appendChild(header('#/', '← Books'));
+    app.appendChild($('h1', null, book.label));
+    var lock = lockOf(book.id);
+    if (lock) app.appendChild($('p', 'note', 'Finish your test first. Pass it to open the others.'));
+    var list = $('div', 'list');
+    book.tests.forEach(function (t) {
+      var b = best(book.id, t.id);
+      var a = $('a', 'row' + (b != null && b >= 80 ? ' done' : '') + (lock && lock !== t.id ? ' locked' : ''));
+      a.appendChild($('span', 'rt', t.title));
+      a.appendChild($('span', 'rs', b != null && b >= 80 ? '⭐ Passed' : (lock === t.id ? '▶ Try again' : '')));
+      if (!lock || lock === t.id) a.href = '#/' + book.id + '/' + t.id;
+      else a.setAttribute('aria-disabled', 'true');
+      list.appendChild(a);
     });
+    app.appendChild(list);
   }
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function renderStart(book, test) {
+    stop();
+    app.innerHTML = '';
+    var lock = lockOf(book.id);
+    app.appendChild(header(lock === test.id ? null : '#/' + book.id, '← Tests'));
+    app.appendChild($('h1', null, test.title));
+    var bp = test.bp;
+    app.appendChild($('p', 'lead', bp.n + ' questions. Pass: ' + bp.pass + ' right, and ' + bp.gateNeed + ' of the ' + bp.gateN + ' talk questions (💬).'));
+    var go = $('button', 'bigbtn go', '▶ Start');
+    go.onclick = function () { startQuiz(book, test); };
+    app.appendChild(go);
   }
 
-  function isPictureChoice(choice) {
-    // pic_* (Basic) + int* (e.g. int3c_*) + i2*/i3* (e.g. i3b_g1) intermediate ids
-    if (typeof choice !== 'string') return false;
-    if (choice.indexOf('pic_') === 0 || choice.indexOf('int') === 0) return true;
-    return /^i[23][abc]?_/.test(choice);
+  function startQuiz(book, test) {
+    st = { book: book, test: test, qs: draw(book, test), i: 0, right: 0, gateRight: 0, gateN: 0, answered: false };
+    renderQ();
   }
-
-  function stopAudio() {
-    try { if (audio) { audio.pause(); audio = null; } } catch (e) {}
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
-  }
-
-  function playAudio(audioId, fallbackText) {
-    stopAudio();
-    if (audioId) {
-      audio = new Audio(asset(levelAssetDir('audio') + '/' + audioId + '.mp3'));
-      audio.play().catch(() => speakText(fallbackText || ''));
-      return;
-    }
-    speakText(fallbackText || '');
-  }
-
-  function speakText(text) {
-    if (!text || !window.speechSynthesis) return;
-    const u = new SpeechSynthesisUtterance(text);
-    u.rate = 0.95;
-    window.speechSynthesis.speak(u);
-  }
-
-  function currentQ() { return quizData.questions[qi]; }
-  // Optional speak_text: the line to speak (TTS fallback) when prompt_text is only an on-screen instruction.
-  function spokenText(q) { return Object.prototype.hasOwnProperty.call(q, 'speak_text') ? q.speak_text : q.prompt_text; }
 
   function renderQ() {
-    const q = currentQ();
-    const total = quizData.questions.length;
-    els.progress.style.width = ((qi / total) * 100) + '%';
-    els.qnum.textContent = 'Question ' + (qi + 1) + ' of ' + total;
-    els.qtext.textContent = q.prompt_text || '';
-    els.why.classList.add('hidden');
-    els.why.textContent = '';
+    var q = st.qs[st.i], it = q.src;
+    st.answered = false;
+    app.innerHTML = '';
+    var top = $('div', 'qtop');
+    top.appendChild($('span', 'count', (st.i + 1) + ' / ' + st.qs.length));
+    if (isGate(q.t)) top.appendChild($('span', 'talk', '💬'));
+    var bar = $('div', 'bar'); var fill = $('span'); fill.style.width = (100 * st.i / st.qs.length) + '%'; bar.appendChild(fill);
+    top.appendChild(bar);
+    app.appendChild(top);
 
-    const imgs = q.image_ids || [];
-    const picChoices = (q.choices || []).every(isPictureChoice);
-    if (!picChoices && imgs.length === 1) {
-      els.promptPic.src = asset(levelAssetDir('pictures') + '/' + imgs[0] + '.png');
-      els.promptPic.classList.remove('hidden');
-      els.promptPic.onerror = function () { els.promptPic.classList.add('hidden'); };
-    } else {
-      els.promptPic.classList.add('hidden');
-      els.promptPic.removeAttribute('src');
-    }
-
-    els.choices.className = 'choices' + (picChoices ? ' pics' : '');
-    els.choices.innerHTML = '';
-    const letters = 'ABCD';
-    (q.choices || []).forEach((choice, idx) => {
-      const b = document.createElement('button');
-      b.type = 'button';
-      if (picChoices) {
-        b.className = 'pic-choice';
-        const img = document.createElement('img');
-        img.className = 'choice-pic';
-        img.alt = choice;
-        img.src = asset(levelAssetDir('pictures') + '/' + choice + '.png');
-        img.onerror = function () { img.replaceWith(document.createTextNode(choice)); };
-        b.appendChild(img);
-      } else {
-        b.className = 'choice';
-        b.innerHTML = '<span class="letter">' + letters[idx] + '</span><span>' + escapeHtml(choice) + '</span>';
-      }
-      b.addEventListener('click', () => pick(choice, b));
-      els.choices.appendChild(b);
-    });
-
-    playAudio(q.audio_id, spokenText(q));
+    var card = $('section', 'card q t' + q.t);
+    card.appendChild($('p', 'say', it.say || SAY[q.t]));
+    var replays = MAX_REPLAYS;
+    var hear = $('button', 'hear', '🔊');
+    var left = $('span', 'left', '');
+    function upd() { left.textContent = replays > 0 ? '×' + replays : ''; hear.disabled = replays <= 0; }
+    hear.onclick = function () { if (replays <= 0) return; replays--; upd(); playList(it.a); };
+    var hw = $('div', 'hearwrap'); hw.appendChild(hear); hw.appendChild(left); card.appendChild(hw);
+    if (it.pic) { var im = $('img', 'qpic'); im.src = url(it.pic); im.alt = 'picture'; card.appendChild(im); }
+    if (it.fr) card.appendChild($('p', 'frame', it.fr));
+    var body = $('div', 'body');
+    card.appendChild(body);
+    app.appendChild(card);
+    if (q.ch) renderChoices(q, body); else renderTiles(q, body);
+    upd();
+    playList(it.a, function (ok) { if (!ok) { replays = MAX_REPLAYS + 1; upd(); } });
   }
 
-  function pick(choice, btn) {
-    const q = currentQ();
-    const ok = choice === q.correct;
-    [...els.choices.children].forEach(c => { c.disabled = true; });
-    btn.classList.add(ok ? 'correct' : 'wrong');
-    if (!ok) {
-      [...els.choices.children].forEach(c => {
-        // mark correct if we can match by text content / alt
+  function renderChoices(q, body) {
+    var pics = q.ch.every(function (c) { return c.i; });
+    var wrap = $('div', 'choices' + (pics ? ' pics n' + q.ch.length : '') + (q.t === 10 ? ' tf' : ''));
+    q.ch.forEach(function (c, idx) {
+      var b = $('button', 'choice');
+      b.type = 'button';
+      if (c.i) { var im = $('img'); im.src = url(c.i); im.alt = 'choice ' + (idx + 1); b.appendChild(im); }
+      if (c.x) b.appendChild($('span', 'ctext', c.x));
+      if (c.a) {
+        var s = $('span', 'cspk', '🔊');
+        s.setAttribute('role', 'button');
+        s.onclick = function (ev) { ev.stopPropagation(); playList([c.a]); };
+        b.insertBefore(s, b.firstChild);
+      }
+      b.onclick = function () { answer(idx === q.k, b, wrap, q.k); };
+      wrap.appendChild(b);
+    });
+    body.appendChild(wrap);
+  }
+
+  function renderTiles(q, body) {
+    var it = q.src, n = it.tiles.length, letters = q.t === 7;
+    var line = $('div', 'line' + (letters ? ' letters' : ''));
+    var tray = $('div', 'tray' + (letters ? ' letters' : ''));
+    var chosen = [];
+    var check = $('button', 'bigbtn check', '✔ Check');
+    check.disabled = true;
+    function draw() {
+      line.innerHTML = ''; tray.innerHTML = '';
+      for (var s = 0; s < n; s++) {
+        var slot = $('button', 'tile slot' + (chosen[s] ? ' full' : ''), chosen[s] ? chosen[s].w : (letters ? '_' : ' '));
+        (function (s) { slot.onclick = function () { if (chosen[s] && !st.answered) { chosen.splice(s, 1); draw(); } }; })(s);
+        line.appendChild(slot);
+      }
+      q.pool.forEach(function (t) {
+        if (chosen.indexOf(t) >= 0) return;
+        var b = $('button', 'tile', t.w);
+        b.onclick = function () { if (chosen.length < n && !st.answered) { chosen.push(t); draw(); } };
+        tray.appendChild(b);
       });
-      const tip = (q.why_wrong && q.why_wrong[choice]) || ('Right answer: ' + q.correct);
-      els.why.textContent = tip;
-      els.why.classList.remove('hidden');
+      check.disabled = chosen.length !== n;
     }
-    answers.push({ i: qi, choice: choice, ok: ok, correct: q.correct, tip: (q.why_wrong && q.why_wrong[choice]) || null, prompt: q.prompt_text });
-    setTimeout(() => {
-      qi++;
-      if (qi >= quizData.questions.length) finish();
-      else renderQ();
-    }, ok ? 350 : 900);
+    check.onclick = function () {
+      var ok = chosen.every(function (t, i) { return t.w === it.tiles[i]; });
+      answer(ok, line, null, -1);
+    };
+    draw();
+    body.appendChild(line); body.appendChild(tray); body.appendChild(check);
+  }
+
+  function answer(ok, el, wrap, k) {
+    if (st.answered) return;
+    st.answered = true;
+    var q = st.qs[st.i];
+    if (st.i === 0) setLock(st.book.id, st.test.id); // once started, this test must be passed
+    if (ok) st.right++;
+    if (isGate(q.t)) { st.gateN++; if (ok) st.gateRight++; }
+    el.classList.add(ok ? 'ok' : 'bad');
+    if (wrap) [].forEach.call(wrap.children, function (c, i) { c.disabled = true; if (i === k) c.classList.add('ok'); });
+    document.querySelectorAll('.tile,.check').forEach(function (b) { b.disabled = true; });
+    stop();
+    setTimeout(function () { st.i++; if (st.i >= st.qs.length) finish(); else renderQ(); }, ok ? 700 : 1300);
   }
 
   function finish() {
-    stopAudio();
-    const score = answers.filter(a => a.ok).length;
-    const total = quizData.questions.length;
-    const pct = Math.round(100 * score / total);
-    const hist = loadHistory(currentLevel.id, currentAssess.id);
-    hist.attempts.push({ t: Date.now(), score: score, total: total, pct: pct });
-    saveHistory(currentLevel.id, currentAssess.id, hist);
+    stop();
+    var bp = st.test.bp, pass = st.right >= bp.pass && st.gateRight >= bp.gateNeed;
+    var pct = Math.round(100 * st.right / st.qs.length);
+    var bk = st.book.id, tid = st.test.id;
+    if (pass) { setLock(bk, null); var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), pct); }
+    app.innerHTML = '';
+    var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
+    card.appendChild($('div', 'emoji', pass ? '🎉' : '💪'));
+    card.appendChild($('h1', null, pass ? 'You passed!' : 'Not yet. Try again!'));
+    card.appendChild($('p', 'score', st.right + ' / ' + st.qs.length));
+    card.appendChild($('p', 'meta', '💬 Talk questions: ' + st.gateRight + ' / ' + st.gateN + ' (need ' + bp.gateNeed + ')  ·  Need ' + bp.pass + ' / ' + bp.n));
+    var btn;
+    if (pass) { btn = $('a', 'bigbtn go', 'OK ⭐'); btn.href = '#/' + bk; }
+    else { btn = $('button', 'bigbtn go', '🔁 Try again'); btn.onclick = function () { startQuiz(st.book, st.test); }; }
+    card.appendChild(btn);
+    app.appendChild(card);
+    st = null;
+    window.__d5done = pass ? 'pass' : 'fail';
+  }
 
-    els.stage.classList.add('hidden');
-    els.result.classList.remove('hidden');
-    els.scoreline.textContent = score + ' / ' + total + ' (' + pct + '%)';
-    if (pct >= PASS) {
-      els.passline.innerHTML = '<span class="pass">Passed</span> · need ' + PASS + '%';
-      els.replay.textContent = 'Practice again';
-    } else {
-      els.passline.innerHTML = '<span class="fail">Not yet</span> · need ' + PASS + '% to pass';
-      els.replay.textContent = 'Try again (need ' + PASS + '%)';
-    }
-
-    els.chart.innerHTML = '';
-    hist.attempts.slice(-12).forEach((a, idx) => {
-      const d = document.createElement('div');
-      d.className = 'bar';
-      d.style.height = Math.max(8, a.pct) + '%';
-      d.innerHTML = '<span>' + a.pct + '%</span>';
-      d.title = 'Attempt ' + (idx + 1);
-      els.chart.appendChild(d);
-    });
-
-    els.review.innerHTML = '';
-    answers.forEach(a => {
-      const li = document.createElement('li');
-      if (a.ok) {
-        li.innerHTML = '<span class="good">✓</span> Q' + (a.i + 1) + ': correct';
-      } else {
-        li.innerHTML = '<span class="bad">✗</span> Q' + (a.i + 1) + ': you chose <strong>' + escapeHtml(String(a.choice)) +
-          '</strong>. Correct: <strong>' + escapeHtml(String(a.correct)) + '</strong>' +
-          (a.tip ? (' — ' + escapeHtml(a.tip)) : '');
+  // ---------- router ----------
+  function route() {
+    var parts = (location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean);
+    if (!parts.length) return renderHome();
+    getBook(parts[0]).then(function (book) {
+      if (!book) { location.hash = '#/'; return; }
+      var lock = lockOf(book.id);
+      var tid = parts[1];
+      if (tid && !book.tests.some(function (t) { return t.id === tid; })) tid = null;
+      if (lock && tid && tid !== lock) { location.replace('#/' + book.id + '/' + lock); return; }
+      if (!tid) {
+        if (st && st.book.id === book.id) { location.replace('#/' + book.id + '/' + st.test.id); return; }
+        return renderBook(book);
       }
-      els.review.appendChild(li);
-    });
+      if (st && st.test.id === tid && st.book.id === book.id) return; // in the middle of a test: stay
+      renderStart(book, book.tests.filter(function (t) { return t.id === tid; })[0]);
+    }).catch(fail);
   }
-
-  async function startQuiz(levelId, assessId) {
-    const level = manifest.levels.find(l => l.id === levelId);
-    if (!level) { location.hash = '#/'; return; }
-    const assess = level.assessments.find(a => a.id === assessId);
-    if (!assess) { location.hash = '#/' + levelId; return; }
-    currentLevel = level;
-    currentAssess = assess;
-    show('quiz');
-    els.quizTitle.textContent = assess.title;
-    els.quizMeta.textContent = assess.count + ' questions · pass at ' + PASS + '%';
-    els.backLevel.href = '#/' + levelId;
-    els.resultBack.href = '#/' + levelId;
-    els.stage.classList.remove('hidden');
-    els.result.classList.add('hidden');
-    qi = 0; answers = [];
-    const res = await fetch(asset(assess.path));
-    quizData = await res.json();
-    renderQ();
-  }
-
-  els.replay.addEventListener('click', () => {
-    els.stage.classList.remove('hidden');
-    els.result.classList.add('hidden');
-    qi = 0; answers = [];
-    renderQ();
+  function fail(e) { app.innerHTML = ''; app.appendChild($('p', 'note', 'Could not load. Please refresh. (' + e + ')')); }
+  window.addEventListener('hashchange', function () {
+    // Back button in the middle of a test keeps you in the test.
+    if (st) { var want = '#/' + st.book.id + '/' + st.test.id; if (location.hash !== want) { history.pushState(null, '', want); return; } }
+    route();
   });
-  els.speakBtn.addEventListener('click', () => {
-    const q = currentQ();
-    if (q) playAudio(q.audio_id, spokenText(q));
-  });
-
-  async function route() {
-    await ensureManifest();
-    const { levelId, assessId } = parseHash();
-    stopAudio();
-    if (!levelId) renderHome();
-    else if (!assessId) renderLevel(levelId);
-    else startQuiz(levelId, assessId);
-  }
-
-  window.addEventListener('hashchange', route);
-  route().catch(err => {
-    document.body.insertAdjacentHTML('beforeend', '<p class="wrap" style="color:#fb7185">Failed to load: ' + escapeHtml(String(err)) + '</p>');
-  });
+  load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
+  // test hooks (used by the automated checks only)
+  window.__d5 = { draw: draw, getBook: getBook, lockOf: lockOf, state: function () { return st; } };
 })();

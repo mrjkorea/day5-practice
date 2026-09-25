@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-site-root="../" data-manifest="data/manifest.json">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MRJ Day 5 — Unit Practice</title>
+  <link rel="stylesheet" href="app-legacy.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div><strong>MRJ Korea</strong><div class="pill">Day 5 unit practice</div></div>
+    </div>
+
+    <div id="view-home">
+      <h1>Day 5 practice</h1>
+      <p class="lead">Pick Basic A, B, or C. Listen, look at pictures, and tap the answer. Need 80% to pass. Scores stay on this device only.</p>
+      <p class="crumb"><a href="intermediate.html">Intermediate 2A–2C &amp; 3A–3C →</a></p>
+      <div class="level-grid" id="level-grid"></div>
+    </div>
+
+    <div id="view-level" class="hidden">
+      <p class="crumb"><a href="#/" id="back-home">← All levels</a></p>
+      <h1 id="level-title">Level</h1>
+      <p class="lead" id="level-lead">Choose a unit test.</p>
+      <div id="assess-list"></div>
+    </div>
+
+    <div id="view-quiz" class="hidden">
+      <p class="crumb"><a href="#" id="back-level">← Back</a></p>
+      <h1 id="quiz-title">Quiz</h1>
+      <p class="meta" id="quiz-meta"></p>
+      <section id="stage" class="card">
+        <div class="progress"><span id="progress"></span></div>
+        <div class="pill" id="qnum"></div>
+        <p class="qtext" id="qtext"></p>
+        <img id="prompt-pic" class="prompt-pic hidden" alt="" />
+        <div class="toolbar">
+          <button type="button" class="ghost" id="speakBtn">🔊 Hear</button>
+        </div>
+        <div class="choices" id="choices"></div>
+        <p class="why hidden" id="why"></p>
+      </section>
+      <section id="result" class="card hidden">
+        <h2>Your score</h2>
+        <p id="scoreline" class="qtext"></p>
+        <p id="passline" class="meta"></p>
+        <p class="meta">Attempt history (this device)</p>
+        <div class="chart" id="chart"></div>
+        <h3>Review</h3>
+        <ul class="review" id="review"></ul>
+        <div class="toolbar">
+          <button type="button" class="primary" id="replay">Try again</button>
+          <a class="btn" href="#" id="result-back">Back to list</a>
+        </div>
+      </section>
+    </div>
+
+    <p class="footer">No login. Free practice for MRJ Conversation Basic A / B / C Day 5. <a href="intermediate.html">Intermediate books</a></p>
+  </main>
+  <script src="app-legacy.js"></script>
+</body>
+</html>

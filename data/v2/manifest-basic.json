@@ -1,0 +1,24 @@
+{
+ "title": "Day 5 Unit Tests",
+ "books": [
+  {
+   "id": "basic_a",
+   "label": "Basic A",
+   "file": "data/v2/basic_a.json"
+  },
+  {
+   "id": "basic_b",
+   "label": "Basic B",
+   "legacy": "legacy/index.html#/basic_b"
+  },
+  {
+   "id": "basic_c",
+   "label": "Basic C",
+   "legacy": "legacy/index.html#/basic_c"
+  }
+ ],
+ "other": {
+  "label": "Intermediate 2A\u20133C \u2192",
+  "href": "intermediate/"
+ }
+}

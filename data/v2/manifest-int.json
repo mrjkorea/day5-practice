@@ -1,0 +1,39 @@
+{
+ "title": "Day 5 Unit Tests \u00b7 Intermediate",
+ "books": [
+  {
+   "id": "int2a",
+   "label": "Intermediate 2A",
+   "legacy": "legacy/intermediate.html#/int2a"
+  },
+  {
+   "id": "int2b",
+   "label": "Intermediate 2B",
+   "legacy": "legacy/intermediate.html#/int2b"
+  },
+  {
+   "id": "int2c",
+   "label": "Intermediate 2C",
+   "legacy": "legacy/intermediate.html#/int2c"
+  },
+  {
+   "id": "int3a",
+   "label": "Intermediate 3A",
+   "legacy": "legacy/intermediate.html#/int3a"
+  },
+  {
+   "id": "int3b",
+   "label": "Intermediate 3B",
+   "legacy": "legacy/intermediate.html#/int3b"
+  },
+  {
+   "id": "int3c",
+   "label": "Intermediate 3C",
+   "legacy": "legacy/intermediate.html#/int3c"
+  }
+ ],
+ "other": {
+  "label": "\u2190 Basic A / B / C",
+  "href": ""
+ }
+}
