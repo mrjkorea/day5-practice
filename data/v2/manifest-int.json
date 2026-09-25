@@ -14,7 +14,7 @@
   {
    "id": "int2c",
    "label": "Intermediate 2C",
-   "legacy": "legacy/intermediate.html#/int2c"
+   "file": "data/v2/int2c.json"
   },
   {
    "id": "int3a",
