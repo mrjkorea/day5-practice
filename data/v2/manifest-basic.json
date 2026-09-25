@@ -14,7 +14,7 @@
   {
    "id": "basic_c",
    "label": "Basic C",
-   "legacy": "legacy/index.html#/basic_c"
+   "file": "data/v2/basic_c.json"
   }
  ],
  "other": {
