@@ -29,7 +29,7 @@
   {
    "id": "int3c",
    "label": "Intermediate 3C",
-   "legacy": "legacy/intermediate.html#/int3c"
+   "file": "data/v2/int3c.json"
   }
  ],
  "other": {
