@@ -579,19 +579,19 @@
         "int3c_u03_play_outside_jacket",
         "int3c_u03_play_outside_tv_only",
         "int3c_u03_play_outside_no_shirt",
-        "int3c_u03_play_outside_not_yet_put_on_jacket"
+        "int3c_u03_play_outside_hat"
       ],
       "choices": [
         "int3c_u03_play_outside_jacket",
         "int3c_u03_play_outside_tv_only",
         "int3c_u03_play_outside_no_shirt",
-        "int3c_u03_play_outside_not_yet_put_on_jacket"
+        "int3c_u03_play_outside_hat"
       ],
       "correct": "int3c_u03_play_outside_jacket",
       "why_wrong": {
-        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?",
-        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt.",
-        "int3c_u03_play_outside_not_yet_put_on_jacket": "That is not the correct answer. Listen again!"
+        "int3c_u03_play_outside_tv_only": "You tapped \"Tv Only\", but the audio said: \"Tap jacket.\". The correct picture is \"Jacket\". Listen again!",
+        "int3c_u03_play_outside_no_shirt": "You tapped \"No Shirt\", but the audio said: \"Tap jacket.\". The correct picture is \"Jacket\". Listen again!",
+        "int3c_u03_play_outside_hat": "You tapped \"int3c_u03_play_outside_hat\", but the audio said: \"Tap jacket.\". The correct picture is \"Jacket\". Listen again!"
       },
       "unit": 3,
       "level": "int3c",
@@ -599,8 +599,9 @@
         "int3c_u03_play_outside_jacket": "Jacket",
         "int3c_u03_play_outside_tv_only": "Tv Only",
         "int3c_u03_play_outside_no_shirt": "No Shirt",
-        "int3c_u03_play_outside_not_yet_put_on_jacket": "Not Yet Put On Jacket"
-      }
+        "int3c_u03_play_outside_hat": "int3c_u03_play_outside_hat"
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u03_play_outside_not_yet_put_on_jacket looked like the key/another option in this question -> int3c_u03_play_outside_hat"
     },
     {
       "id": "i3c_m14_q19",
@@ -736,31 +737,32 @@
       "prompt_text": "Tap doenjang guk.",
       "audio_id": "m14_q23",
       "image_ids": [
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
         "int3c_u01_sweet_food_what_is_it",
         "int3c_u01_sweet_food_wrong_food_dance",
         "int3c_u01_sweet_food_doenjang_guk"
       ],
       "choices": [
-        "int3c_u01_sweet_food_wrong_sweet_doenjang",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
         "int3c_u01_sweet_food_what_is_it",
         "int3c_u01_sweet_food_wrong_food_dance",
         "int3c_u01_sweet_food_doenjang_guk"
       ],
       "correct": "int3c_u01_sweet_food_doenjang_guk",
       "why_wrong": {
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Doenjang guk is salty soy paste stew, not sweet food.",
-        "int3c_u01_sweet_food_what_is_it": "That is not the correct answer. Listen again!",
-        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7."
+        "int3c_u01_sweet_food_wrong_bitter_candy": "You tapped \"int3c_u01_sweet_food_wrong_bitter_candy\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_what_is_it": "You tapped \"What Is It\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!",
+        "int3c_u01_sweet_food_wrong_food_dance": "You tapped \"Wrong Food Dance\", but the audio said: \"Tap doenjang guk.\". The correct picture is \"Doenjang Guk\". Listen again!"
       },
       "unit": 1,
       "level": "int3c",
       "choice_labels": {
-        "int3c_u01_sweet_food_wrong_sweet_doenjang": "Wrong Sweet Doenjang",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "int3c_u01_sweet_food_wrong_bitter_candy",
         "int3c_u01_sweet_food_what_is_it": "What Is It",
         "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance",
         "int3c_u01_sweet_food_doenjang_guk": "Doenjang Guk"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u01_sweet_food_wrong_sweet_doenjang looked like the key/another option in this question -> int3c_u01_sweet_food_wrong_bitter_candy"
     },
     {
       "id": "i3c_m14_q24",
@@ -781,9 +783,9 @@
       ],
       "correct": "int3c_u02_do_not_yell_please_cry_sign",
       "why_wrong": {
-        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
-        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
-        "int3c_u02_do_not_yell_do_not_throw_that": "That is not the correct answer. Listen again!"
+        "int3c_u02_do_not_yell_yelling_ok": "You tapped \"Yelling Ok\", but the audio said: \"Tap: please cry sign.\". The correct picture is \"Do Not Cry Sign\". Listen again!",
+        "int3c_u02_do_not_yell_sleep_ok": "You tapped \"Sleep Ok\", but the audio said: \"Tap: please cry sign.\". The correct picture is \"Do Not Cry Sign\". Listen again!",
+        "int3c_u02_do_not_yell_do_not_throw_that": "You tapped \"Do Not Throw That\", but the audio said: \"Tap: please cry sign.\". The correct picture is \"Do Not Cry Sign\". Listen again!"
       },
       "unit": 2,
       "level": "int3c",
@@ -791,8 +793,9 @@
         "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
         "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
         "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That",
-        "int3c_u02_do_not_yell_please_cry_sign": "Please Cry Sign"
-      }
+        "int3c_u02_do_not_yell_please_cry_sign": "Do Not Cry Sign"
+      },
+      "fix_note": "2026-09-25 label fix: \"Please Cry Sign\" -> \"Do Not Cry Sign\" (new no-crying sign art)"
     },
     {
       "id": "i3c_m14_q25",

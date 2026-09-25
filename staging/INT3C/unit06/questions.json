@@ -94,30 +94,31 @@
       "audio_id": "u06_q03",
       "image_ids": [
         "int3c_u06_how_many_cities_a_professor_great",
-        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_0_deserts",
         "int3c_u06_how_many_cities_wrong_2_islands",
         "int3c_u06_how_many_cities_how_many_islands"
       ],
       "choices": [
         "int3c_u06_how_many_cities_a_professor_great",
-        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_count_0_deserts",
         "int3c_u06_how_many_cities_wrong_2_islands",
         "int3c_u06_how_many_cities_how_many_islands"
       ],
       "correct": "int3c_u06_how_many_cities_a_professor_great",
       "why_wrong": {
-        "int3c_u06_how_many_cities_professor": "That is not the correct Korea count.",
-        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
-        "int3c_u06_how_many_cities_how_many_islands": "That is not the correct Korea count."
+        "int3c_u06_how_many_cities_count_0_deserts": "You tapped \"int3c_u06_how_many_cities_count_0_deserts\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!",
+        "int3c_u06_how_many_cities_wrong_2_islands": "You tapped \"Wrong 2 Islands\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!",
+        "int3c_u06_how_many_cities_how_many_islands": "You tapped \"How Many Islands\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!"
       },
       "unit": 6,
       "level": "int3c",
       "choice_labels": {
         "int3c_u06_how_many_cities_a_professor_great": "A Professor Great",
-        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_count_0_deserts": "int3c_u06_how_many_cities_count_0_deserts",
         "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
         "int3c_u06_how_many_cities_how_many_islands": "How Many Islands"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u06_how_many_cities_professor looked like the key/another option in this question -> int3c_u06_how_many_cities_count_0_deserts"
     },
     {
       "id": "i3c_u06_q04",
@@ -543,29 +544,30 @@
       "image_ids": [
         "int3c_u06_how_many_cities_how_many_parks",
         "int3c_u06_how_many_cities_wrong_2_islands",
-        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
         "int3c_u06_how_many_cities_count_0_deserts"
       ],
       "choices": [
         "int3c_u06_how_many_cities_how_many_parks",
         "int3c_u06_how_many_cities_wrong_2_islands",
-        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes",
         "int3c_u06_how_many_cities_count_0_deserts"
       ],
       "correct": "int3c_u06_how_many_cities_count_0_deserts",
       "why_wrong": {
-        "int3c_u06_how_many_cities_how_many_parks": "That is not the correct Korea count.",
-        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
-        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count."
+        "int3c_u06_how_many_cities_how_many_parks": "You tapped \"How Many Parks\", but the audio said: \"Zero deserts.\". The correct picture is \"Count 0 Deserts\". Listen again!",
+        "int3c_u06_how_many_cities_wrong_2_islands": "You tapped \"Wrong 2 Islands\", but the audio said: \"Zero deserts.\". The correct picture is \"Count 0 Deserts\". Listen again!",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "You tapped \"int3c_u06_how_many_cities_wrong_22_volcanoes\", but the audio said: \"Zero deserts.\". The correct picture is \"Count 0 Deserts\". Listen again!"
       },
       "unit": 6,
       "level": "int3c",
       "choice_labels": {
         "int3c_u06_how_many_cities_how_many_parks": "How Many Parks",
         "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
-        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_wrong_22_volcanoes": "int3c_u06_how_many_cities_wrong_22_volcanoes",
         "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u06_how_many_cities_how_many_deserts looked like the key/another option in this question -> int3c_u06_how_many_cities_wrong_22_volcanoes"
     },
     {
       "id": "i3c_u06_q18",

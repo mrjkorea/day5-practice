@@ -411,34 +411,35 @@
     {
       "id": "i2b_u05_q14",
       "type": 1,
-      "prompt_text": "Oh wait! I think he is a she.",
-      "audio_id": "u5_q14",
+      "prompt_text": "He is very rich.",
+      "audio_id": "u5_q12",
       "image_ids": [
         "int2b_car",
-        "int2b_thin",
+        "int2b_rich",
         "int2b_korean_book",
         "int2b_math"
       ],
       "choices": [
         "int2b_car",
-        "int2b_thin",
+        "int2b_rich",
         "int2b_korean_book",
         "int2b_math"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_rich",
       "why_wrong": {
-        "int2b_car": "You tapped \"car\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_math": "You tapped \"math / numbers\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!"
+        "int2b_car": "You tapped \"car\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!",
+        "int2b_math": "You tapped \"math / numbers\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!"
       },
       "unit": 5,
       "level": "int2b",
       "choice_labels": {
         "int2b_car": "car",
-        "int2b_thin": "thin person",
+        "int2b_rich": "rich person with money",
         "int2b_korean_book": "Korean book",
         "int2b_math": "math / numbers"
-      }
+      },
+      "fix_note": "2026-09-25 replaced unpicturable \"I think he is a she\" (keyed to thin) with key expression \"He is very rich.\""
     },
     {
       "id": "i2b_u05_q15",
@@ -859,34 +860,35 @@
     {
       "id": "i2b_u05_q29",
       "type": 1,
-      "prompt_text": "Oh wait! I think he is a she.",
-      "audio_id": "u5_q29",
+      "prompt_text": "He is very smart.",
+      "audio_id": "u5_q07",
       "image_ids": [
         "int2b_saturday",
         "int2b_korean_book",
-        "int2b_thin",
+        "int2b_smart",
         "int2b_clock_330"
       ],
       "choices": [
         "int2b_saturday",
         "int2b_korean_book",
-        "int2b_thin",
+        "int2b_smart",
         "int2b_clock_330"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_smart",
       "why_wrong": {
-        "int2b_saturday": "You tapped \"Saturday calendar\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!"
+        "int2b_saturday": "You tapped \"Saturday calendar\", but the audio said: \"He is very smart.\". The correct picture is \"smart student with book\". Listen again!",
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"He is very smart.\". The correct picture is \"smart student with book\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"He is very smart.\". The correct picture is \"smart student with book\". Listen again!"
       },
       "unit": 5,
       "level": "int2b",
       "choice_labels": {
         "int2b_saturday": "Saturday calendar",
         "int2b_korean_book": "Korean book",
-        "int2b_thin": "thin person",
+        "int2b_smart": "smart student with book",
         "int2b_clock_330": "clock 3:30"
-      }
+      },
+      "fix_note": "2026-09-25 replaced unpicturable \"I think he is a she\" (keyed to thin) with key expression \"He is very smart.\""
     },
     {
       "id": "i2b_u05_q30",

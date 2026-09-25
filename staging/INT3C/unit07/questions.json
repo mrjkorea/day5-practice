@@ -735,29 +735,30 @@
       "image_ids": [
         "int3c_u07_can_you_fly_train",
         "int3c_u07_can_you_fly_rock",
-        "int3c_u07_can_you_fly_can_you_dance",
+        "int3c_u07_can_you_fly_airplane",
         "int3c_u07_can_you_fly_dance"
       ],
       "choices": [
         "int3c_u07_can_you_fly_train",
         "int3c_u07_can_you_fly_rock",
-        "int3c_u07_can_you_fly_can_you_dance",
+        "int3c_u07_can_you_fly_airplane",
         "int3c_u07_can_you_fly_dance"
       ],
       "correct": "int3c_u07_can_you_fly_dance",
       "why_wrong": {
-        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
-        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
-        "int3c_u07_can_you_fly_can_you_dance": "That is not the correct answer. Listen again!"
+        "int3c_u07_can_you_fly_train": "You tapped \"Train\", but the audio said: \"Tap dance.\". The correct picture is \"Dance\". Listen again!",
+        "int3c_u07_can_you_fly_rock": "You tapped \"Rock\", but the audio said: \"Tap dance.\". The correct picture is \"Dance\". Listen again!",
+        "int3c_u07_can_you_fly_airplane": "You tapped \"int3c_u07_can_you_fly_airplane\", but the audio said: \"Tap dance.\". The correct picture is \"Dance\". Listen again!"
       },
       "unit": 7,
       "level": "int3c",
       "choice_labels": {
         "int3c_u07_can_you_fly_train": "Train",
         "int3c_u07_can_you_fly_rock": "Rock",
-        "int3c_u07_can_you_fly_can_you_dance": "Can You Dance",
+        "int3c_u07_can_you_fly_airplane": "int3c_u07_can_you_fly_airplane",
         "int3c_u07_can_you_fly_dance": "Dance"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u07_can_you_fly_can_you_dance looked like the key/another option in this question -> int3c_u07_can_you_fly_airplane"
     },
     {
       "id": "i3c_u07_q24",

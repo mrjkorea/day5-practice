@@ -126,30 +126,31 @@
       "audio_id": "u08_q04",
       "image_ids": [
         "int3c_u08_what_time_wrong_nine_oclock",
-        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock",
         "int3c_u08_what_time_six_oclock"
       ],
       "choices": [
         "int3c_u08_what_time_wrong_nine_oclock",
-        "int3c_u08_what_time_wrong_ten_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock",
         "int3c_u08_what_time_six_oclock"
       ],
       "correct": "int3c_u08_what_time_six_oclock",
       "why_wrong": {
-        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock.",
-        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock.",
-        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
+        "int3c_u08_what_time_wrong_nine_oclock": "You tapped \"Wrong Nine Oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!",
+        "int3c_u08_what_time_wrong_three_oclock": "You tapped \"int3c_u08_what_time_wrong_three_oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!",
+        "int3c_u08_what_time_ten_oclock": "You tapped \"Ten Oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
         "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
-        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock",
+        "int3c_u08_what_time_wrong_three_oclock": "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock": "Ten Oclock",
         "int3c_u08_what_time_six_oclock": "Six Oclock"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_ten_oclock looked like the key/another option in this question -> int3c_u08_what_time_wrong_three_oclock"
     },
     {
       "id": "i3c_u08_q05",
@@ -351,29 +352,30 @@
       "image_ids": [
         "int3c_u08_what_time_midnight",
         "int3c_u08_what_time_one_oclock",
-        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_wrong_seven_oclock",
         "int3c_u08_what_time_can_we_go_home"
       ],
       "choices": [
         "int3c_u08_what_time_midnight",
         "int3c_u08_what_time_one_oclock",
-        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_wrong_seven_oclock",
         "int3c_u08_what_time_can_we_go_home"
       ],
       "correct": "int3c_u08_what_time_can_we_go_home",
       "why_wrong": {
-        "int3c_u08_what_time_midnight": "Look at the clock again.",
-        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
-        "int3c_u08_what_time_wrong_midnight": "That is not midnight."
+        "int3c_u08_what_time_midnight": "You tapped \"Midnight\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!",
+        "int3c_u08_what_time_one_oclock": "You tapped \"One Oclock\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!",
+        "int3c_u08_what_time_wrong_seven_oclock": "You tapped \"int3c_u08_what_time_wrong_seven_oclock\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
         "int3c_u08_what_time_midnight": "Midnight",
         "int3c_u08_what_time_one_oclock": "One Oclock",
-        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_wrong_seven_oclock": "int3c_u08_what_time_wrong_seven_oclock",
         "int3c_u08_what_time_can_we_go_home": "Can We Go Home"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_midnight looked like the key/another option in this question -> int3c_u08_what_time_wrong_seven_oclock"
     },
     {
       "id": "i3c_u08_q12",
@@ -605,31 +607,32 @@
       "prompt_text": "It is twelve o'clock.",
       "audio_id": "u08_q19",
       "image_ids": [
-        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_wrong_eleven_oclock",
         "int3c_u08_what_time_six_oclock",
         "int3c_u08_what_time_wrong_nine_oclock",
         "int3c_u08_what_time_twelve_oclock"
       ],
       "choices": [
-        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_wrong_eleven_oclock",
         "int3c_u08_what_time_six_oclock",
         "int3c_u08_what_time_wrong_nine_oclock",
         "int3c_u08_what_time_twelve_oclock"
       ],
       "correct": "int3c_u08_what_time_twelve_oclock",
       "why_wrong": {
-        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock.",
-        "int3c_u08_what_time_six_oclock": "Look at the clock again.",
-        "int3c_u08_what_time_wrong_nine_oclock": "That clock is not nine o'clock."
+        "int3c_u08_what_time_wrong_eleven_oclock": "You tapped \"int3c_u08_what_time_wrong_eleven_oclock\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"Twelve Oclock\". Listen again!",
+        "int3c_u08_what_time_six_oclock": "You tapped \"Six Oclock\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"Twelve Oclock\". Listen again!",
+        "int3c_u08_what_time_wrong_nine_oclock": "You tapped \"Wrong Nine Oclock\", but the audio said: \"It is twelve o'clock.\". The correct picture is \"Twelve Oclock\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
-        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock",
+        "int3c_u08_what_time_wrong_eleven_oclock": "int3c_u08_what_time_wrong_eleven_oclock",
         "int3c_u08_what_time_six_oclock": "Six Oclock",
         "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
         "int3c_u08_what_time_twelve_oclock": "Twelve Oclock"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_six_oclock looked like the key/another option in this question -> int3c_u08_what_time_wrong_eleven_oclock"
     },
     {
       "id": "i3c_u08_q20",
@@ -639,29 +642,30 @@
       "image_ids": [
         "int3c_u08_what_time_six_oclock",
         "int3c_u08_what_time_wrong_seven_oclock",
-        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_wrong_one_oclock",
         "int3c_u08_what_time_five_oclock"
       ],
       "choices": [
         "int3c_u08_what_time_six_oclock",
         "int3c_u08_what_time_wrong_seven_oclock",
-        "int3c_u08_what_time_wrong_six_oclock",
+        "int3c_u08_what_time_wrong_one_oclock",
         "int3c_u08_what_time_five_oclock"
       ],
       "correct": "int3c_u08_what_time_five_oclock",
       "why_wrong": {
-        "int3c_u08_what_time_six_oclock": "Look at the clock again.",
-        "int3c_u08_what_time_wrong_seven_oclock": "That clock is not seven o'clock.",
-        "int3c_u08_what_time_wrong_six_oclock": "That clock is not six o'clock."
+        "int3c_u08_what_time_six_oclock": "You tapped \"Six Oclock\", but the audio said: \"Tap five o'clock.\". The correct picture is \"Five Oclock\". Listen again!",
+        "int3c_u08_what_time_wrong_seven_oclock": "You tapped \"Wrong Seven Oclock\", but the audio said: \"Tap five o'clock.\". The correct picture is \"Five Oclock\". Listen again!",
+        "int3c_u08_what_time_wrong_one_oclock": "You tapped \"int3c_u08_what_time_wrong_one_oclock\", but the audio said: \"Tap five o'clock.\". The correct picture is \"Five Oclock\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
         "int3c_u08_what_time_six_oclock": "Six Oclock",
         "int3c_u08_what_time_wrong_seven_oclock": "Wrong Seven Oclock",
-        "int3c_u08_what_time_wrong_six_oclock": "Wrong Six Oclock",
+        "int3c_u08_what_time_wrong_one_oclock": "int3c_u08_what_time_wrong_one_oclock",
         "int3c_u08_what_time_five_oclock": "Five Oclock"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_six_oclock looked like the key/another option in this question -> int3c_u08_what_time_wrong_one_oclock"
     },
     {
       "id": "i3c_u08_q21",
@@ -765,31 +769,32 @@
       "prompt_text": "Tap nine o'clock.",
       "audio_id": "u08_q24",
       "image_ids": [
-        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock",
         "int3c_u08_what_time_what_time_is_it",
         "int3c_u08_what_time_nine_oclock",
         "int3c_u08_what_time_five_oclock"
       ],
       "choices": [
-        "int3c_u08_what_time_wrong_five_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock",
         "int3c_u08_what_time_what_time_is_it",
         "int3c_u08_what_time_nine_oclock",
         "int3c_u08_what_time_five_oclock"
       ],
       "correct": "int3c_u08_what_time_nine_oclock",
       "why_wrong": {
-        "int3c_u08_what_time_wrong_five_oclock": "That clock is not five o'clock.",
-        "int3c_u08_what_time_what_time_is_it": "Look at the clock again.",
-        "int3c_u08_what_time_five_oclock": "Look at the clock again."
+        "int3c_u08_what_time_wrong_ten_oclock": "You tapped \"int3c_u08_what_time_wrong_ten_oclock\", but the audio said: \"Tap nine o'clock.\". The correct picture is \"Nine Oclock\". Listen again!",
+        "int3c_u08_what_time_what_time_is_it": "You tapped \"What Time Is It\", but the audio said: \"Tap nine o'clock.\". The correct picture is \"Nine Oclock\". Listen again!",
+        "int3c_u08_what_time_five_oclock": "You tapped \"Five Oclock\", but the audio said: \"Tap nine o'clock.\". The correct picture is \"Nine Oclock\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
-        "int3c_u08_what_time_wrong_five_oclock": "Wrong Five Oclock",
+        "int3c_u08_what_time_wrong_ten_oclock": "int3c_u08_what_time_wrong_ten_oclock",
         "int3c_u08_what_time_what_time_is_it": "What Time Is It",
         "int3c_u08_what_time_nine_oclock": "Nine Oclock",
         "int3c_u08_what_time_five_oclock": "Five Oclock"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_five_oclock looked like the key/another option in this question -> int3c_u08_what_time_wrong_ten_oclock"
     },
     {
       "id": "i3c_u08_q25",
@@ -927,29 +932,30 @@
       "image_ids": [
         "int3c_u08_what_time_four_oclock",
         "int3c_u08_what_time_can_we_go_home",
-        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock"
       ],
       "choices": [
         "int3c_u08_what_time_four_oclock",
         "int3c_u08_what_time_can_we_go_home",
-        "int3c_u08_what_time_can_we_go_home_please",
+        "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock"
       ],
       "correct": "int3c_u08_what_time_can_we_go_home",
       "why_wrong": {
-        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
-        "int3c_u08_what_time_can_we_go_home_please": "Look at the clock again.",
-        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
+        "int3c_u08_what_time_four_oclock": "You tapped \"Four Oclock\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!",
+        "int3c_u08_what_time_wrong_three_oclock": "You tapped \"int3c_u08_what_time_wrong_three_oclock\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!",
+        "int3c_u08_what_time_ten_oclock": "You tapped \"Ten Oclock\", but the audio said: \"Can we go home?\". The correct picture is \"Can We Go Home\". Listen again!"
       },
       "unit": 8,
       "level": "int3c",
       "choice_labels": {
         "int3c_u08_what_time_four_oclock": "Four Oclock",
         "int3c_u08_what_time_can_we_go_home": "Can We Go Home",
-        "int3c_u08_what_time_can_we_go_home_please": "Can We Go Home Please",
+        "int3c_u08_what_time_wrong_three_oclock": "int3c_u08_what_time_wrong_three_oclock",
         "int3c_u08_what_time_ten_oclock": "Ten Oclock"
-      }
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_can_we_go_home_please looked like the key/another option in this question -> int3c_u08_what_time_wrong_three_oclock"
     },
     {
       "id": "i3c_u08_q30",

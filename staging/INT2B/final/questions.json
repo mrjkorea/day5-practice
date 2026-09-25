@@ -578,25 +578,25 @@
     {
       "id": "i2b_fin_q29",
       "type": 1,
-      "prompt_text": "Oh wait! I think he is a she.",
-      "audio_id": "u5_q29",
+      "prompt_text": "He is very rich.",
+      "audio_id": "u5_q12",
       "image_ids": [
         "int2b_work_day",
         "int2b_school_day",
         "int2b_good_looking",
-        "int2b_thin"
+        "int2b_rich"
       ],
       "choices": [
         "int2b_work_day",
         "int2b_school_day",
         "int2b_good_looking",
-        "int2b_thin"
+        "int2b_rich"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_rich",
       "why_wrong": {
-        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!"
+        "int2b_work_day": "You tapped \"office building (work day)\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!",
+        "int2b_school_day": "You tapped \"school building (school day)\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!",
+        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"He is very rich.\". The correct picture is \"rich person with money\". Listen again!"
       },
       "unit": 5,
       "level": "int2b",
@@ -604,8 +604,9 @@
         "int2b_work_day": "office building (work day)",
         "int2b_school_day": "school building (school day)",
         "int2b_good_looking": "good-looking person",
-        "int2b_thin": "thin person"
-      }
+        "int2b_rich": "rich person with money"
+      },
+      "fix_note": "2026-09-25 replaced unpicturable \"I think he is a she\" (keyed to thin) with key expression \"He is very rich.\""
     },
     {
       "id": "i2b_fin_q30",

@@ -510,25 +510,25 @@
     {
       "id": "i2b_m58_q29",
       "type": 1,
-      "prompt_text": "Oh wait! I think he is a she.",
-      "audio_id": "u5_q29",
+      "prompt_text": "Is he poor?",
+      "audio_id": "u5_q11",
       "image_ids": [
         "int2b_fat",
         "int2b_laptop_class",
         "int2b_clock_12",
-        "int2b_thin"
+        "int2b_poor"
       ],
       "choices": [
         "int2b_fat",
         "int2b_laptop_class",
         "int2b_clock_12",
-        "int2b_thin"
+        "int2b_poor"
       ],
-      "correct": "int2b_thin",
+      "correct": "int2b_poor",
       "why_wrong": {
-        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!",
-        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"Oh wait! I think he is a she.\". The correct picture is \"thin person\". Listen again!"
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"Is he poor?\". The correct picture is \"poor person with empty pockets\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"Is he poor?\". The correct picture is \"poor person with empty pockets\". Listen again!",
+        "int2b_clock_12": "You tapped \"clock 12:00\", but the audio said: \"Is he poor?\". The correct picture is \"poor person with empty pockets\". Listen again!"
       },
       "unit": 5,
       "level": "int2b",
@@ -536,8 +536,9 @@
         "int2b_fat": "fat person (kind cartoon)",
         "int2b_laptop_class": "laptop (online class)",
         "int2b_clock_12": "clock 12:00",
-        "int2b_thin": "thin person"
-      }
+        "int2b_poor": "poor person with empty pockets"
+      },
+      "fix_note": "2026-09-25 replaced unpicturable \"I think he is a she\" (keyed to thin) with key expression \"Is he poor?\""
     },
     {
       "id": "i2b_m58_q30",

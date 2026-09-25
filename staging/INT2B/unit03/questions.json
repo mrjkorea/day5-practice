@@ -353,19 +353,19 @@
         "int2b_holiday",
         "int2b_won_coin",
         "int2b_desk",
-        "int2b_car"
+        "int2b_carpenter"
       ],
       "choices": [
         "int2b_holiday",
         "int2b_won_coin",
         "int2b_desk",
-        "int2b_car"
+        "int2b_carpenter"
       ],
-      "correct": "int2b_car",
+      "correct": "int2b_carpenter",
       "why_wrong": {
-        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
-        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
-        "int2b_desk": "You tapped \"desk\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!"
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!",
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!"
       },
       "unit": 3,
       "level": "int2b",
@@ -373,8 +373,9 @@
         "int2b_holiday": "holiday / party flag",
         "int2b_won_coin": "Korean won coins",
         "int2b_desk": "desk",
-        "int2b_car": "car"
-      }
+        "int2b_carpenter": "carpenter"
+      },
+      "fix_note": "2026-09-25 key fix: carpenter was keyed to CAR; now real carpenter art"
     },
     {
       "id": "i2b_u03_q16",
@@ -705,19 +706,19 @@
         "int2b_keys",
         "int2b_bed",
         "int2b_japanese_book",
-        "int2b_car"
+        "int2b_carpenter"
       ],
       "choices": [
         "int2b_keys",
         "int2b_bed",
         "int2b_japanese_book",
-        "int2b_car"
+        "int2b_carpenter"
       ],
-      "correct": "int2b_car",
+      "correct": "int2b_carpenter",
       "why_wrong": {
-        "int2b_keys": "You tapped \"keys\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
-        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!",
-        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"car\". Listen again!"
+        "int2b_keys": "You tapped \"keys\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!",
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"I want to be a carpenter.\". The correct picture is \"carpenter\". Listen again!"
       },
       "unit": 3,
       "level": "int2b",
@@ -725,8 +726,9 @@
         "int2b_keys": "keys",
         "int2b_bed": "bed / bedtime",
         "int2b_japanese_book": "Japanese book",
-        "int2b_car": "car"
-      }
+        "int2b_carpenter": "carpenter"
+      },
+      "fix_note": "2026-09-25 key fix: carpenter was keyed to CAR; now real carpenter art"
     }
   ]
 }
