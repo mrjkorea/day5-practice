@@ -4,12 +4,12 @@
   {
    "id": "int2a",
    "label": "Intermediate 2A",
-   "legacy": "legacy/intermediate.html#/int2a"
+   "file": "data/v2/int2a.json"
   },
   {
    "id": "int2b",
    "label": "Intermediate 2B",
-   "legacy": "legacy/intermediate.html#/int2b"
+   "file": "data/v2/int2b.json"
   },
   {
    "id": "int2c",
