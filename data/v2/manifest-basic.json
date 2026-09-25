@@ -9,7 +9,7 @@
   {
    "id": "basic_b",
    "label": "Basic B",
-   "legacy": "legacy/index.html#/basic_b"
+   "file": "data/v2/basic_b.json"
   },
   {
    "id": "basic_c",
