@@ -249,12 +249,73 @@
     setTimeout(function () { st.i++; if (st.i >= st.qs.length) finish(); else renderQ(); }, ok ? 700 : 1300);
   }
 
+  function pctFromProgress(row) {
+    if (!row) return null;
+    if (typeof row.scorePct === 'number' && isFinite(row.scorePct)) return Math.round(row.scorePct);
+    var raw = row.score == null ? '' : String(row.score).trim();
+    var frac = raw.match(/^(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)/);
+    if (frac) {
+      var max = +frac[2];
+      if (max > 0) return Math.round((+frac[1] / max) * 100);
+    }
+    var plain = raw.match(/^(\d+(?:\.\d+)?)\s*%?$/);
+    if (plain) return Math.round(+plain[1]);
+    return null;
+  }
+
+  function restoreProgress(rows) {
+    if (!rows || !rows.length) return;
+    var bestPct = {};
+    rows.forEach(function (row) {
+      if (!row || row.program !== 'day5-practice') return;
+      var item = String(row.item || '');
+      var cut = item.indexOf(':');
+      if (cut < 1 || cut >= item.length - 1) return;
+      var pct = pctFromProgress(row);
+      if (pct == null) return;
+      var id = item.slice(0, cut) + ':' + item.slice(cut + 1);
+      if (bestPct[id] == null || pct > bestPct[id]) bestPct[id] = pct;
+    });
+    var wrote = false;
+    Object.keys(bestPct).forEach(function (id) {
+      var cut = id.indexOf(':');
+      var bookId = id.slice(0, cut), testId = id.slice(cut + 1);
+      var prev = best(bookId, testId);
+      if (prev == null || bestPct[id] > prev) {
+        localStorage.setItem(key(bookId, testId), bestPct[id]);
+        wrote = true;
+      }
+    });
+    if (wrote && manifest && !st) route();
+  }
+
+  function postFinished(bk, tid, pct, pass) {
+    if (!window.MRJ_SCORES || typeof window.MRJ_SCORES.post !== 'function') return;
+    var student = '';
+    try { student = window.MRJ_AUTH && typeof window.MRJ_AUTH.student === 'function' ? window.MRJ_AUTH.student() : ''; } catch (e) {}
+    window.MRJ_SCORES.post({
+      student: student,
+      program: 'day5-practice',
+      appName: 'MRJ Day 5',
+      source: 'day5-practice',
+      bookTitle: bk,
+      unitTitle: tid,
+      itemId: bk + ':' + tid,
+      itemType: 'unit_test',
+      scoreValue: pct,
+      scoreMax: 100,
+      scorePct: pct,
+      correctness: pass ? 'correct' : 'incorrect'
+    });
+  }
+
   function finish() {
     stop();
     var bp = st.test.bp, pass = st.right >= bp.pass && st.gateRight >= bp.gateNeed;
     var pct = Math.round(100 * st.right / st.qs.length);
     var bk = st.book.id, tid = st.test.id;
     if (pass) { setLock(bk, null); var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), pct); }
+    postFinished(bk, tid, pct, pass);
     app.innerHTML = '';
     var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
     card.appendChild($('div', 'emoji', pass ? '🎉' : '💪'));
@@ -293,6 +354,12 @@
     // Back button in the middle of a test keeps you in the test.
     if (st) { var want = '#/' + st.book.id + '/' + st.test.id; if (location.hash !== want) { history.pushState(null, '', want); return; } }
     route();
+  });
+  window.addEventListener('mrj-auth-ready', function (ev) {
+    var detail = ev && ev.detail;
+    var progress = detail && detail.progress;
+    if (!progress || !progress.length) return;
+    restoreProgress(progress);
   });
   load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
   // test hooks (used by the automated checks only)
