@@ -2,6 +2,6 @@
   "name": "day5-practice",
   "private": true,
   "scripts": {
-    "test": "node --test test/d5-auth-progress.test.js"
+    "test": "node --test test/d5-auth-progress.test.js test/d5-storage.test.js"
   }
 }

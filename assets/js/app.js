@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261007-progress-1 */
+/* build: 20261007-progress-2 */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -22,6 +22,7 @@
   var manifest = null, books = {}, st = null, player = null, playToken = 0;
   var PROGRAM = 'day5-practice';
   var progressApi = window.D5_AUTH_PROGRESS || {};
+  var storageApi = window.D5_STORAGE || {};
   var studentKey = '';
   var authRetryScheduled = false;
 
@@ -36,60 +37,45 @@
   }
 
   function key(b, t) {
+    if (studentKey && storageApi.studentScoreKey) return storageApi.studentScoreKey(studentKey, b, t);
     return studentKey ? ('d5v2-' + studentKey + '-' + b + '-' + t) : ('d5v2-' + b + '-' + t);
   }
-  function legacyKey(b, t) { return 'd5v2-' + b + '-' + t; }
+  function legacyKey(b, t) {
+    return storageApi.legacyScoreKey ? storageApi.legacyScoreKey(b, t) : ('d5v2-' + b + '-' + t);
+  }
   function lockKey(b) {
+    if (studentKey && storageApi.studentLockKey) return storageApi.studentLockKey(studentKey, b);
     return studentKey ? ('d5v2-lock-' + studentKey + '-' + b) : ('d5v2-lock-' + b);
   }
-  function legacyLockKey(b) { return 'd5v2-lock-' + b; }
 
   function best(b, t) {
     var v = localStorage.getItem(key(b, t));
-    if (v == null && studentKey) v = localStorage.getItem(legacyKey(b, t));
+    if (v == null && studentKey && !legacyMigrated()) v = localStorage.getItem(legacyKey(b, t));
     return v == null ? null : +v;
   }
-  function lockOf(b) {
-    var v = localStorage.getItem(lockKey(b));
-    if (v == null && studentKey) v = localStorage.getItem(legacyLockKey(b));
-    return v;
+
+  function legacyMigrated() {
+    if (!studentKey || !storageApi.migrateMarkerKey) return false;
+    return localStorage.getItem(storageApi.migrateMarkerKey(studentKey)) != null;
   }
+
+  function lockOf(b) {
+    if (storageApi.readLock) return storageApi.readLock(localStorage, studentKey, b);
+    return localStorage.getItem(lockKey(b));
+  }
+
   function setLock(b, t) {
+    if (storageApi.writeLock) {
+      storageApi.writeLock(localStorage, studentKey, b, t);
+      return;
+    }
     if (t) localStorage.setItem(lockKey(b), t);
     else localStorage.removeItem(lockKey(b));
   }
 
   function migrateLegacyReadOnly() {
     if (!studentKey) return;
-    var skScore = 'd5v2-' + studentKey + '-';
-    var skLock = 'd5v2-lock-' + studentKey + '-';
-    var i, k, rest, lastDash, bookId, testId, dest, v;
-    for (i = 0; i < localStorage.length; i++) {
-      k = localStorage.key(i);
-      if (!k) continue;
-      if (k.indexOf(skLock) === 0 || k.indexOf(skScore) === 0) continue;
-      if (k.indexOf('d5v2-lock-') === 0) {
-        bookId = k.slice('d5v2-lock-'.length);
-        if (!bookId) continue;
-        dest = lockKey(bookId);
-        if (localStorage.getItem(dest) == null) {
-          v = localStorage.getItem(k);
-          if (v != null) localStorage.setItem(dest, v);
-        }
-        continue;
-      }
-      if (k.indexOf('d5v2-') !== 0) continue;
-      rest = k.slice('d5v2-'.length);
-      lastDash = rest.lastIndexOf('-');
-      if (lastDash < 1) continue;
-      bookId = rest.slice(0, lastDash);
-      testId = rest.slice(lastDash + 1);
-      dest = key(bookId, testId);
-      if (localStorage.getItem(dest) == null) {
-        v = localStorage.getItem(k);
-        if (v != null) localStorage.setItem(dest, v);
-      }
-    }
+    if (storageApi.migrateLegacyReadOnly) storageApi.migrateLegacyReadOnly(localStorage, studentKey);
   }
 
   function setStudentFromAuth(id) {
