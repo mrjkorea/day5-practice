@@ -1,4 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
+/* build: 20261007-progress-1 */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -19,16 +20,82 @@
   };
   var MAX_REPLAYS = 2;
   var manifest = null, books = {}, st = null, player = null, playToken = 0;
+  var PROGRAM = 'day5-practice';
+  var progressApi = window.D5_AUTH_PROGRESS || {};
+  var studentKey = '';
+  var authRetryScheduled = false;
 
   function url(p) { return ROOT + p; }
   function $(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function rnd(n) { return Math.floor(Math.random() * n); }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
   function load(p) { return fetch(url(p), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); }); }
-  function key(b, t) { return 'd5v2-' + b + '-' + t; }
-  function best(b, t) { var v = localStorage.getItem(key(b, t)); return v == null ? null : +v; }
-  function lockOf(b) { return localStorage.getItem('d5v2-lock-' + b); }
-  function setLock(b, t) { if (t) localStorage.setItem('d5v2-lock-' + b, t); else localStorage.removeItem('d5v2-lock-' + b); }
+  function idKey(id) {
+    if (progressApi.idKey) return progressApi.idKey(id);
+    return String(id == null ? '' : id).trim().toLowerCase().replace(/\s+/g, ' ');
+  }
+
+  function key(b, t) {
+    return studentKey ? ('d5v2-' + studentKey + '-' + b + '-' + t) : ('d5v2-' + b + '-' + t);
+  }
+  function legacyKey(b, t) { return 'd5v2-' + b + '-' + t; }
+  function lockKey(b) {
+    return studentKey ? ('d5v2-lock-' + studentKey + '-' + b) : ('d5v2-lock-' + b);
+  }
+  function legacyLockKey(b) { return 'd5v2-lock-' + b; }
+
+  function best(b, t) {
+    var v = localStorage.getItem(key(b, t));
+    if (v == null && studentKey) v = localStorage.getItem(legacyKey(b, t));
+    return v == null ? null : +v;
+  }
+  function lockOf(b) {
+    var v = localStorage.getItem(lockKey(b));
+    if (v == null && studentKey) v = localStorage.getItem(legacyLockKey(b));
+    return v;
+  }
+  function setLock(b, t) {
+    if (t) localStorage.setItem(lockKey(b), t);
+    else localStorage.removeItem(lockKey(b));
+  }
+
+  function migrateLegacyReadOnly() {
+    if (!studentKey) return;
+    var skScore = 'd5v2-' + studentKey + '-';
+    var skLock = 'd5v2-lock-' + studentKey + '-';
+    var i, k, rest, lastDash, bookId, testId, dest, v;
+    for (i = 0; i < localStorage.length; i++) {
+      k = localStorage.key(i);
+      if (!k) continue;
+      if (k.indexOf(skLock) === 0 || k.indexOf(skScore) === 0) continue;
+      if (k.indexOf('d5v2-lock-') === 0) {
+        bookId = k.slice('d5v2-lock-'.length);
+        if (!bookId) continue;
+        dest = lockKey(bookId);
+        if (localStorage.getItem(dest) == null) {
+          v = localStorage.getItem(k);
+          if (v != null) localStorage.setItem(dest, v);
+        }
+        continue;
+      }
+      if (k.indexOf('d5v2-') !== 0) continue;
+      rest = k.slice('d5v2-'.length);
+      lastDash = rest.lastIndexOf('-');
+      if (lastDash < 1) continue;
+      bookId = rest.slice(0, lastDash);
+      testId = rest.slice(lastDash + 1);
+      dest = key(bookId, testId);
+      if (localStorage.getItem(dest) == null) {
+        v = localStorage.getItem(k);
+        if (v != null) localStorage.setItem(dest, v);
+      }
+    }
+  }
+
+  function setStudentFromAuth(id) {
+    studentKey = idKey(id);
+    if (studentKey) migrateLegacyReadOnly();
+  }
 
   // ---------- audio ----------
   function stop() { playToken++; if (player) { try { player.pause(); } catch (e) {} player = null; } }
@@ -250,32 +317,18 @@
   }
 
   function pctFromProgress(row) {
+    if (progressApi.pctFromProgress) return progressApi.pctFromProgress(row);
     if (!row) return null;
     if (typeof row.scorePct === 'number' && isFinite(row.scorePct)) return Math.round(row.scorePct);
-    var raw = row.score == null ? '' : String(row.score).trim();
-    var frac = raw.match(/^(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)/);
-    if (frac) {
-      var max = +frac[2];
-      if (max > 0) return Math.round((+frac[1] / max) * 100);
-    }
-    var plain = raw.match(/^(\d+(?:\.\d+)?)\s*%?$/);
-    if (plain) return Math.round(+plain[1]);
     return null;
   }
 
   function restoreProgress(rows) {
     if (!rows || !rows.length) return;
-    var bestPct = {};
-    rows.forEach(function (row) {
-      if (!row || row.program !== 'day5-practice') return;
-      var item = String(row.item || '');
-      var cut = item.indexOf(':');
-      if (cut < 1 || cut >= item.length - 1) return;
-      var pct = pctFromProgress(row);
-      if (pct == null) return;
-      var id = item.slice(0, cut) + ':' + item.slice(cut + 1);
-      if (bestPct[id] == null || pct > bestPct[id]) bestPct[id] = pct;
-    });
+    var bestPct = progressApi.bestPctFromRows
+      ? progressApi.bestPctFromRows(rows, PROGRAM)
+      : {};
+    if (!Object.keys(bestPct).length) return;
     var wrote = false;
     Object.keys(bestPct).forEach(function (id) {
       var cut = id.indexOf(':');
@@ -355,11 +408,67 @@
     if (st) { var want = '#/' + st.book.id + '/' + st.test.id; if (location.hash !== want) { history.pushState(null, '', want); return; } }
     route();
   });
+  function authProgressError() {
+    var err = '';
+    try {
+      if (window.MRJ_AUTH && typeof window.MRJ_AUTH.progressError === 'function') {
+        err = String(window.MRJ_AUTH.progressError() || '').trim();
+      }
+    } catch (e) {}
+    return err;
+  }
+
+  function applyAuthProgressRows(rows) {
+    var filtered = progressApi.filterProgramRows
+      ? progressApi.filterProgramRows(rows, PROGRAM)
+      : (rows || []);
+    restoreProgress(filtered);
+  }
+
+  var lastAuthProgressRows = [];
+
+  function scheduleAuthProgressRetry() {
+    if (authRetryScheduled) return;
+    authRetryScheduled = true;
+    setTimeout(function () {
+      fetchFullProgressThenApply(lastAuthProgressRows, true);
+    }, 17000);
+  }
+
+  function authProgressErrorFromDetail(detail) {
+    var err = detail && detail.progressError != null ? String(detail.progressError).trim() : '';
+    if (err) return err;
+    return authProgressError();
+  }
+
+  function fetchFullProgressThenApply(initialRows, isRetry) {
+    var auth = window.MRJ_AUTH;
+    var base = initialRows || [];
+    if (!auth || typeof auth.loadProgressForApp !== 'function') return;
+    auth.loadProgressForApp(PROGRAM).then(function (result) {
+      if (result && result.ok && result.progress && result.progress.length) {
+        var merged = progressApi.mergeProgressRowLists
+          ? progressApi.mergeProgressRowLists(base, result.progress, PROGRAM)
+          : result.progress;
+        applyAuthProgressRows(merged);
+      } else if (!result || !result.ok) {
+        if (!isRetry) scheduleAuthProgressRetry();
+      }
+    }).catch(function () {
+      if (!isRetry) scheduleAuthProgressRetry();
+    });
+  }
+
   window.addEventListener('mrj-auth-ready', function (ev) {
-    var detail = ev && ev.detail;
-    var progress = detail && detail.progress;
-    if (!progress || !progress.length) return;
-    restoreProgress(progress);
+    var detail = (ev && ev.detail) || {};
+    setStudentFromAuth(detail.id);
+    lastAuthProgressRows = detail.progress != null ? detail.progress : [];
+    applyAuthProgressRows(lastAuthProgressRows);
+    if (authProgressErrorFromDetail(detail)) {
+      scheduleAuthProgressRetry();
+      return;
+    }
+    fetchFullProgressThenApply(lastAuthProgressRows, false);
   });
   load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
   // test hooks (used by the automated checks only)
