@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261007-progress-2 */
+/* build: 20261011-savefix */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -328,12 +328,12 @@
     if (wrote && manifest && !st) route();
   }
 
-  function postFinished(bk, tid, pct, pass) {
+  function postFinished(bk, tid, st, pass) {
     if (!window.MRJ_SCORES || typeof window.MRJ_SCORES.post !== 'function') return;
-    var student = '';
-    try { student = window.MRJ_AUTH && typeof window.MRJ_AUTH.student === 'function' ? window.MRJ_AUTH.student() : ''; } catch (e) {}
+    var bp = st.test.bp;
+    var scoreMax = st.qs.length;
+    var scoreValue = st.right;
     window.MRJ_SCORES.post({
-      student: student,
       program: 'day5-practice',
       appName: 'MRJ Day 5',
       source: 'day5-practice',
@@ -341,10 +341,17 @@
       unitTitle: tid,
       itemId: bk + ':' + tid,
       itemType: 'unit_test',
-      scoreValue: pct,
-      scoreMax: 100,
-      scorePct: pct,
-      correctness: pass ? 'correct' : 'incorrect'
+      scoreValue: scoreValue,
+      scoreMax: scoreMax,
+      scorePct: Math.round(100 * scoreValue / scoreMax),
+      correctness: pass ? 'correct' : 'incorrect',
+      metadata: {
+        gate_right: st.gateRight,
+        gate_total: st.gateN,
+        pass_need: bp.pass,
+        gate_need: bp.gateNeed,
+        passed: pass
+      }
     });
   }
 
@@ -354,7 +361,7 @@
     var pct = Math.round(100 * st.right / st.qs.length);
     var bk = st.book.id, tid = st.test.id;
     if (pass) { setLock(bk, null); var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), pct); }
-    postFinished(bk, tid, pct, pass);
+    postFinished(bk, tid, st, pass);
     app.innerHTML = '';
     var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
     card.appendChild($('div', 'emoji', pass ? '🎉' : '💪'));
