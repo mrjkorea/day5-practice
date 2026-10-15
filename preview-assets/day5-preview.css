@@ -58,3 +58,11 @@ a.link::before { content: "💎 "; }
 /* no brand marks on preview: show "Day 5" instead of the "MRJ Day 5" text */
 .top .brand { font-size: 0 !important; }
 .top .brand::before { content: "🎧 Day 5" !important; font-size: 1.25rem; }
+/* level colours: easiest green -> blue -> red hardest */
+.bigbtn.book.pv-blue { background: linear-gradient(150deg, #3a86ff, #1d55c8) !important; box-shadow: 0 8px 0 #143f96, 0 18px 28px rgba(0,0,0,.12) !important; }
+.bigbtn.book.pv-blue::before { content: "💎"; }
+.bigbtn.book.pv-red { background: linear-gradient(150deg, #ff6a5c, #d1342a) !important; box-shadow: 0 8px 0 #9a2219, 0 18px 28px rgba(0,0,0,.12) !important; }
+.bigbtn.book.pv-red::before { content: "🍎"; }
+.bigbtn.book .pv-code { font-size: .8rem; font-weight: 800; opacity: .85; margin-left: .45rem; padding: .1rem .45rem; border-radius: 999px; background: rgba(255,255,255,.22); align-self: flex-end; margin-bottom: .35rem; }
+.bigbtn.book .pv-hard { position: absolute; top: .9rem; right: 1rem; font-size: .8rem; font-weight: 900; background: #fff; color: #d1342a; padding: .15rem .55rem; border-radius: 999px; z-index: 1; }
+a.link.pv-next-level { border-color: #d1342a !important; }
