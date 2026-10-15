@@ -55,3 +55,6 @@ a.link::before { content: "💎 "; }
 .result .score { font-family: var(--font-en); color: var(--accent-dark); font-size: 3.6rem; }
 .result.pass h1::before { content: "🎉 "; }
 .result.pass { animation: mrj-pop .5s ease; }
+/* no brand marks on preview: show "Day 5" instead of the "MRJ Day 5" text */
+.top .brand { font-size: 0 !important; }
+.top .brand::before { content: "🎧 Day 5" !important; font-size: 1.25rem; }
