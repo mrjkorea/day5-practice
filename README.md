@@ -38,3 +38,6 @@ Import when Origin auth is available:
 See `IMPORT_REPORT.md`, `staging/ORIGIN_STATUS.md`, and per-book `staging/INT*/ORIGIN.md`.
 
 Shell packs: `python3 scripts/setup_staging_shells.py` (from generated `int*` if present).
+
+## Update prompt
+When you push new code, bump the build in BOTH `version.json` and `window.D5_BUILD_ID` in index.html and intermediate/index.html (same value). Open tabs then get a "Day 5 has an update. Reload now?" prompt (never mid-test).
