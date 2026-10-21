@@ -366,7 +366,8 @@
     var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
     card.appendChild($('div', 'emoji', pass ? '🎉' : '💪'));
     card.appendChild($('h1', null, pass ? 'You passed!' : 'Not yet. Try again!'));
-    card.appendChild($('p', 'score', st.right + ' / ' + st.qs.length + ' (' + pct + '%)'));
+    card.appendChild($('p', 'score pct', pct + '%'));
+    card.appendChild($('p', 'meta rawscore', st.right + ' / ' + st.qs.length + ' right'));
     card.appendChild($('p', 'meta', '💬 Talk questions: ' + st.gateRight + ' / ' + st.gateN + (st.gateN ? ' (' + Math.round(100 * st.gateRight / st.gateN) + '%)' : '') + ' (need ' + bp.gateNeed + ')  ·  Need ' + bp.pass + ' / ' + bp.n));
     var btn;
     if (pass) { btn = $('a', 'bigbtn go', 'OK ⭐'); btn.href = '#/' + bk; }
