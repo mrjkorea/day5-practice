@@ -59,12 +59,23 @@
     return localStorage.getItem(storageApi.migrateMarkerKey(studentKey)) != null;
   }
 
+  function mrjTeacher() {
+    try {
+      var api = window.MRJSignin || window.MRJ_AUTH;
+      return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
+    } catch (e) {
+      return false;
+    }
+  }
+
   function lockOf(b) {
+    if (mrjTeacher()) return null;
     if (storageApi.readLock) return storageApi.readLock(localStorage, studentKey, b);
     return localStorage.getItem(lockKey(b));
   }
 
   function setLock(b, t) {
+    if (mrjTeacher()) return;
     if (storageApi.writeLock) {
       storageApi.writeLock(localStorage, studentKey, b, t);
       return;
@@ -464,6 +475,7 @@
     }
     fetchFullProgressThenApply(lastAuthProgressRows, false);
   });
+  document.addEventListener('mrj-teacher', function () { route(); });
   load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
   // test hooks (used by the automated checks only)
   window.__d5 = { draw: draw, getBook: getBook, lockOf: lockOf, state: function () { return st; } };
