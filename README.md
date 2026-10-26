@@ -6,6 +6,7 @@ Static GitHub Pages app for Conversation Basic and Intermediate Day 5 unit tests
 - **Intermediate:** https://mrjkorea.github.io/day5-practice/intermediate/
 - No login. Scores in `localStorage`.
 - Pass mark: 80%.
+- **Conversation Review** merged unit tests (Basic / Int 2 / Int 3): see [REVIEW_UNIT_TESTS.md](REVIEW_UNIT_TESTS.md).
 - Basic: 33 assessments (A/B/C), pictures under `pictures/`, audio under `audio/`.
 - Intermediate: 66 assessments (INT2A–INT3C), packs under `staging/INT*/`.
 

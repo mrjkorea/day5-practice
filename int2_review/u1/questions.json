@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "level": "int2_review",
+    "title": "Int 2 Review (2A + 2B + 2C) — Review ONE",
+    "kind": "review",
+    "review_id": "u1",
+    "units_covered": [
+      1,
+      2
+    ],
+    "books_mixed": [
+      "int2a",
+      "int2b",
+      "int2c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int2_review_u1_i2a_u01_q01",
+      "type": 1,
+      "prompt_text": "It is hot.",
+      "audio_id": "unit-01-q01",
+      "image_ids": [
+        "int2a_washroom",
+        "int2a_funny",
+        "int2a_bike",
+        "int2a_hot"
+      ],
+      "choices": [
+        "int2a_washroom",
+        "int2a_funny",
+        "int2a_bike",
+        "int2a_hot"
+      ],
+      "correct": "int2a_hot",
+      "why_wrong": {
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_funny": "You tapped \"funny face / laughing\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"It is hot.\". The correct picture is \"hot weather\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_washroom": "washroom",
+        "int2a_funny": "funny face / laughing",
+        "int2a_bike": "bicycle",
+        "int2a_hot": "hot weather"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2a_u01_q01"
+    },
+    {
+      "id": "int2_review_u1_i2a_u02_q01",
+      "type": 1,
+      "prompt_text": "There are snakes!",
+      "audio_id": "unit-02-q01",
+      "image_ids": [
+        "int2a_gym",
+        "int2a_snakes",
+        "int2a_australia",
+        "int2a_library"
+      ],
+      "choices": [
+        "int2a_gym",
+        "int2a_snakes",
+        "int2a_australia",
+        "int2a_library"
+      ],
+      "correct": "int2a_snakes",
+      "why_wrong": {
+        "int2a_gym": "You tapped \"gym\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"There are snakes!\". The correct picture is \"snakes\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_gym": "gym",
+        "int2a_snakes": "snakes",
+        "int2a_australia": "Australia",
+        "int2a_library": "library"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2a_u02_q01"
+    },
+    {
+      "id": "int2_review_u1_i2b_u01_q01",
+      "type": 1,
+      "prompt_text": "What day is it today? It is Monday.",
+      "audio_id": "u1_q01",
+      "image_ids": [
+        "int2b_monday",
+        "int2b_president",
+        "int2b_ring",
+        "int2b_english_book"
+      ],
+      "choices": [
+        "int2b_monday",
+        "int2b_president",
+        "int2b_ring",
+        "int2b_english_book"
+      ],
+      "correct": "int2b_monday",
+      "why_wrong": {
+        "int2b_president": "You tapped \"president\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_ring": "You tapped \"ring\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"What day is it today? It is Monday.\". The correct picture is \"Monday calendar\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_monday": "Monday calendar",
+        "int2b_president": "president",
+        "int2b_ring": "ring",
+        "int2b_english_book": "English book"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2b_u01_q01"
+    },
+    {
+      "id": "int2_review_u1_i2b_u02_q01",
+      "type": 1,
+      "prompt_text": "It is seven thirty.",
+      "audio_id": "u2_q01",
+      "image_ids": [
+        "int2b_pencil_case",
+        "int2b_holiday",
+        "int2b_clock_730",
+        "int2b_lunch"
+      ],
+      "choices": [
+        "int2b_pencil_case",
+        "int2b_holiday",
+        "int2b_clock_730",
+        "int2b_lunch"
+      ],
+      "correct": "int2b_clock_730",
+      "why_wrong": {
+        "int2b_pencil_case": "You tapped \"pencil case\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"It is seven thirty.\". The correct picture is \"clock 7:30\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_pencil_case": "pencil case",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_clock_730": "clock 7:30",
+        "int2b_lunch": "lunch"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2b_u02_q01"
+    },
+    {
+      "id": "int2_review_u1_i2c_u01_q01",
+      "type": 1,
+      "prompt_text": "I love summer.",
+      "audio_id": "unit-01-q01",
+      "image_ids": [
+        "int2c_spring",
+        "int2c_summer",
+        "int2c_fever",
+        "int2c_ignored"
+      ],
+      "choices": [
+        "int2c_spring",
+        "int2c_summer",
+        "int2c_fever",
+        "int2c_ignored"
+      ],
+      "correct": "int2c_summer",
+      "why_wrong": {
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!",
+        "int2c_ignored": "You tapped \"ignored / left out face\", but the audio said: \"I love summer.\". The correct picture is \"summer\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_spring": "spring",
+        "int2c_summer": "summer",
+        "int2c_fever": "fever thermometer",
+        "int2c_ignored": "ignored / left out face"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2c_u01_q01"
+    },
+    {
+      "id": "int2_review_u1_i2c_u02_q01",
+      "type": 1,
+      "prompt_text": "I am taking a picture.",
+      "audio_id": "unit-02-q01",
+      "image_ids": [
+        "int2c_suitcase",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_nervous"
+      ],
+      "choices": [
+        "int2c_suitcase",
+        "int2c_camera",
+        "int2c_studying",
+        "int2c_nervous"
+      ],
+      "correct": "int2c_camera",
+      "why_wrong": {
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!",
+        "int2c_nervous": "You tapped \"nervous face\", but the audio said: \"I am taking a picture.\". The correct picture is \"camera / taking a picture\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_camera": "camera / taking a picture",
+        "int2c_studying": "student studying",
+        "int2c_nervous": "nervous face"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2c_u02_q01"
+    },
+    {
+      "id": "int2_review_u1_i2a_u01_q02",
+      "type": 1,
+      "prompt_text": "It is cold.",
+      "audio_id": "unit-01-q02",
+      "image_ids": [
+        "int2a_canada",
+        "int2a_vietnam",
+        "int2a_martial_arts",
+        "int2a_cold"
+      ],
+      "choices": [
+        "int2a_canada",
+        "int2a_vietnam",
+        "int2a_martial_arts",
+        "int2a_cold"
+      ],
+      "correct": "int2a_cold",
+      "why_wrong": {
+        "int2a_canada": "You tapped \"Canada\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"It is cold.\". The correct picture is \"cold weather\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_canada": "Canada",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_martial_arts": "martial arts",
+        "int2a_cold": "cold weather"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2a_u01_q02"
+    },
+    {
+      "id": "int2_review_u1_i2a_u02_q02",
+      "type": 1,
+      "prompt_text": "There is water!",
+      "audio_id": "unit-02-q03",
+      "image_ids": [
+        "int2a_water",
+        "int2a_windy",
+        "int2a_australia",
+        "int2a_japan"
+      ],
+      "choices": [
+        "int2a_water",
+        "int2a_windy",
+        "int2a_australia",
+        "int2a_japan"
+      ],
+      "correct": "int2a_water",
+      "why_wrong": {
+        "int2a_windy": "You tapped \"windy weather\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!",
+        "int2a_japan": "You tapped \"Japan / Japanese\", but the audio said: \"There is water!\". The correct picture is \"water\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_water": "water",
+        "int2a_windy": "windy weather",
+        "int2a_australia": "Australia",
+        "int2a_japan": "Japan / Japanese"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2a_u02_q03"
+    },
+    {
+      "id": "int2_review_u1_i2b_u01_q02",
+      "type": 1,
+      "prompt_text": "It is Tuesday.",
+      "audio_id": "u1_q02",
+      "image_ids": [
+        "int2b_bed",
+        "int2b_tuesday",
+        "int2b_clock_330",
+        "int2b_wallet"
+      ],
+      "choices": [
+        "int2b_bed",
+        "int2b_tuesday",
+        "int2b_clock_330",
+        "int2b_wallet"
+      ],
+      "correct": "int2b_tuesday",
+      "why_wrong": {
+        "int2b_bed": "You tapped \"bed / bedtime\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!",
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"It is Tuesday.\". The correct picture is \"Tuesday calendar\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_bed": "bed / bedtime",
+        "int2b_tuesday": "Tuesday calendar",
+        "int2b_clock_330": "clock 3:30",
+        "int2b_wallet": "wallet"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2b_u01_q02"
+    },
+    {
+      "id": "int2_review_u1_i2b_u02_q02",
+      "type": 1,
+      "prompt_text": "It is eight o'clock.",
+      "audio_id": "u2_q02",
+      "image_ids": [
+        "int2b_clock_8",
+        "int2b_holiday",
+        "int2b_doctor",
+        "int2b_clock_330"
+      ],
+      "choices": [
+        "int2b_clock_8",
+        "int2b_holiday",
+        "int2b_doctor",
+        "int2b_clock_330"
+      ],
+      "correct": "int2b_clock_8",
+      "why_wrong": {
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!",
+        "int2b_clock_330": "You tapped \"clock 3:30\", but the audio said: \"It is eight o'clock.\". The correct picture is \"clock 8:00\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_8": "clock 8:00",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_doctor": "doctor",
+        "int2b_clock_330": "clock 3:30"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2b_u02_q02"
+    },
+    {
+      "id": "int2_review_u1_i2c_u01_q02",
+      "type": 1,
+      "prompt_text": "I love winter.",
+      "audio_id": "unit-01-q02",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_throat",
+        "int2c_winter",
+        "int2c_stomach"
+      ],
+      "choices": [
+        "int2c_swim",
+        "int2c_throat",
+        "int2c_winter",
+        "int2c_stomach"
+      ],
+      "correct": "int2c_winter",
+      "why_wrong": {
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"I love winter.\". The correct picture is \"winter\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_throat": "sore throat",
+        "int2c_winter": "winter",
+        "int2c_stomach": "stomachache"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2c_u01_q02"
+    },
+    {
+      "id": "int2_review_u1_i2c_u02_q02",
+      "type": 1,
+      "prompt_text": "He is selling fruit.",
+      "audio_id": "unit-02-q02",
+      "image_ids": [
+        "int2c_fruit_stall",
+        "int2c_headphones",
+        "int2c_sunglasses",
+        "int2c_studying"
+      ],
+      "choices": [
+        "int2c_fruit_stall",
+        "int2c_headphones",
+        "int2c_sunglasses",
+        "int2c_studying"
+      ],
+      "correct": "int2c_fruit_stall",
+      "why_wrong": {
+        "int2c_headphones": "You tapped \"headphones\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"He is selling fruit.\". The correct picture is \"fruit stall\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_headphones": "headphones",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_studying": "student studying"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2c_u02_q02"
+    },
+    {
+      "id": "int2_review_u1_i2a_u01_q03",
+      "type": 1,
+      "prompt_text": "It is windy.",
+      "audio_id": "unit-01-q03",
+      "image_ids": [
+        "int2a_scary",
+        "int2a_crazy",
+        "int2a_attic",
+        "int2a_windy"
+      ],
+      "choices": [
+        "int2a_scary",
+        "int2a_crazy",
+        "int2a_attic",
+        "int2a_windy"
+      ],
+      "correct": "int2a_windy",
+      "why_wrong": {
+        "int2a_scary": "You tapped \"scary face / ghost\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!",
+        "int2a_attic": "You tapped \"attic\", but the audio said: \"It is windy.\". The correct picture is \"windy weather\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_scary": "scary face / ghost",
+        "int2a_crazy": "crazy face",
+        "int2a_attic": "attic",
+        "int2a_windy": "windy weather"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2a_u01_q03"
+    },
+    {
+      "id": "int2_review_u1_i2a_u02_q03",
+      "type": 1,
+      "prompt_text": "There are bees!",
+      "audio_id": "unit-02-q05",
+      "image_ids": [
+        "int2a_bees",
+        "int2a_china",
+        "int2a_little_brother",
+        "int2a_france"
+      ],
+      "choices": [
+        "int2a_bees",
+        "int2a_china",
+        "int2a_little_brother",
+        "int2a_france"
+      ],
+      "correct": "int2a_bees",
+      "why_wrong": {
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_little_brother": "You tapped \"little brother\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!",
+        "int2a_france": "You tapped \"France / French\", but the audio said: \"There are bees!\". The correct picture is \"bees\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_bees": "bees",
+        "int2a_china": "China / Chinese",
+        "int2a_little_brother": "little brother",
+        "int2a_france": "France / French"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2a_u02_q05"
+    },
+    {
+      "id": "int2_review_u1_i2b_u01_q03",
+      "type": 1,
+      "prompt_text": "It is Wednesday.",
+      "audio_id": "u1_q03",
+      "image_ids": [
+        "int2b_holiday",
+        "int2b_history",
+        "int2b_wednesday",
+        "int2b_doctor"
+      ],
+      "choices": [
+        "int2b_holiday",
+        "int2b_history",
+        "int2b_wednesday",
+        "int2b_doctor"
+      ],
+      "correct": "int2b_wednesday",
+      "why_wrong": {
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!",
+        "int2b_doctor": "You tapped \"doctor\", but the audio said: \"It is Wednesday.\". The correct picture is \"Wednesday calendar\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_holiday": "holiday / party flag",
+        "int2b_history": "history / scroll",
+        "int2b_wednesday": "Wednesday calendar",
+        "int2b_doctor": "doctor"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2b_u01_q03"
+    },
+    {
+      "id": "int2_review_u1_i2b_u02_q03",
+      "type": 1,
+      "prompt_text": "It is eleven a.m.",
+      "audio_id": "u2_q03",
+      "image_ids": [
+        "int2b_clock_11am",
+        "int2b_lunch",
+        "int2b_convenience",
+        "int2b_smart"
+      ],
+      "choices": [
+        "int2b_clock_11am",
+        "int2b_lunch",
+        "int2b_convenience",
+        "int2b_smart"
+      ],
+      "correct": "int2b_clock_11am",
+      "why_wrong": {
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"It is eleven a.m.\". The correct picture is \"clock 11:00 a.m.\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_11am": "clock 11:00 a.m.",
+        "int2b_lunch": "lunch",
+        "int2b_convenience": "convenience store",
+        "int2b_smart": "smart student with book"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2b_u02_q03"
+    },
+    {
+      "id": "int2_review_u1_i2c_u01_q03",
+      "type": 1,
+      "prompt_text": "I love spring.",
+      "audio_id": "unit-01-q03",
+      "image_ids": [
+        "int2c_watch",
+        "int2c_tooth",
+        "int2c_science",
+        "int2c_spring"
+      ],
+      "choices": [
+        "int2c_watch",
+        "int2c_tooth",
+        "int2c_science",
+        "int2c_spring"
+      ],
+      "correct": "int2c_spring",
+      "why_wrong": {
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_tooth": "You tapped \"tooth\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!",
+        "int2c_science": "You tapped \"science\", but the audio said: \"I love spring.\". The correct picture is \"spring\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_watch": "watch",
+        "int2c_tooth": "tooth",
+        "int2c_science": "science",
+        "int2c_spring": "spring"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2c_u01_q03"
+    },
+    {
+      "id": "int2_review_u1_i2c_u02_q03",
+      "type": 1,
+      "prompt_text": "She is bowing.",
+      "audio_id": "unit-02-q03",
+      "image_ids": [
+        "int2c_bowing",
+        "int2c_ski",
+        "int2c_headache",
+        "int2c_candy"
+      ],
+      "choices": [
+        "int2c_bowing",
+        "int2c_ski",
+        "int2c_headache",
+        "int2c_candy"
+      ],
+      "correct": "int2c_bowing",
+      "why_wrong": {
+        "int2c_ski": "You tapped \"ski\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!",
+        "int2c_candy": "You tapped \"candy\", but the audio said: \"She is bowing.\". The correct picture is \"person bowing\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_bowing": "person bowing",
+        "int2c_ski": "ski",
+        "int2c_headache": "head with headache",
+        "int2c_candy": "candy"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2c_u02_q03"
+    },
+    {
+      "id": "int2_review_u1_i2a_u01_q04",
+      "type": 1,
+      "prompt_text": "It is sunny.",
+      "audio_id": "unit-01-q04",
+      "image_ids": [
+        "int2a_sunny",
+        "int2a_phone",
+        "int2a_stormy",
+        "int2a_dining_room"
+      ],
+      "choices": [
+        "int2a_sunny",
+        "int2a_phone",
+        "int2a_stormy",
+        "int2a_dining_room"
+      ],
+      "correct": "int2a_sunny",
+      "why_wrong": {
+        "int2a_phone": "You tapped \"phone\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!",
+        "int2a_dining_room": "You tapped \"dining room\", but the audio said: \"It is sunny.\". The correct picture is \"sunny weather\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_sunny": "sunny weather",
+        "int2a_phone": "phone",
+        "int2a_stormy": "stormy weather",
+        "int2a_dining_room": "dining room"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2a_u01_q04"
+    },
+    {
+      "id": "int2_review_u1_i2a_u02_q04",
+      "type": 1,
+      "prompt_text": "There is food!",
+      "audio_id": "unit-02-q06",
+      "image_ids": [
+        "int2a_food",
+        "int2a_washroom",
+        "int2a_janitor",
+        "int2a_subtitles"
+      ],
+      "choices": [
+        "int2a_food",
+        "int2a_washroom",
+        "int2a_janitor",
+        "int2a_subtitles"
+      ],
+      "correct": "int2a_food",
+      "why_wrong": {
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_janitor": "You tapped \"janitor\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!",
+        "int2a_subtitles": "You tapped \"subtitles on a screen\", but the audio said: \"There is food!\". The correct picture is \"food\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_food": "food",
+        "int2a_washroom": "washroom",
+        "int2a_janitor": "janitor",
+        "int2a_subtitles": "subtitles on a screen"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2a_u02_q06"
+    },
+    {
+      "id": "int2_review_u1_i2b_u01_q04",
+      "type": 1,
+      "prompt_text": "It is Thursday.",
+      "audio_id": "u1_q04",
+      "image_ids": [
+        "int2b_president",
+        "int2b_fat",
+        "int2b_thursday",
+        "int2b_tall"
+      ],
+      "choices": [
+        "int2b_president",
+        "int2b_fat",
+        "int2b_thursday",
+        "int2b_tall"
+      ],
+      "correct": "int2b_thursday",
+      "why_wrong": {
+        "int2b_president": "You tapped \"president\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_fat": "You tapped \"fat person (kind cartoon)\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!",
+        "int2b_tall": "You tapped \"tall person\", but the audio said: \"It is Thursday.\". The correct picture is \"Thursday calendar\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_president": "president",
+        "int2b_fat": "fat person (kind cartoon)",
+        "int2b_thursday": "Thursday calendar",
+        "int2b_tall": "tall person"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2b_u01_q04"
+    },
+    {
+      "id": "int2_review_u1_i2b_u02_q04",
+      "type": 1,
+      "prompt_text": "It is three thirty.",
+      "audio_id": "u2_q04",
+      "image_ids": [
+        "int2b_clock_330",
+        "int2b_poor",
+        "int2b_won_coin",
+        "int2b_science"
+      ],
+      "choices": [
+        "int2b_clock_330",
+        "int2b_poor",
+        "int2b_won_coin",
+        "int2b_science"
+      ],
+      "correct": "int2b_clock_330",
+      "why_wrong": {
+        "int2b_poor": "You tapped \"poor person with empty pockets\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_won_coin": "You tapped \"Korean won coins\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!",
+        "int2b_science": "You tapped \"science / flask\", but the audio said: \"It is three thirty.\". The correct picture is \"clock 3:30\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_330": "clock 3:30",
+        "int2b_poor": "poor person with empty pockets",
+        "int2b_won_coin": "Korean won coins",
+        "int2b_science": "science / flask"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2b_u02_q04"
+    },
+    {
+      "id": "int2_review_u1_i2c_u01_q04",
+      "type": 1,
+      "prompt_text": "I love fall.",
+      "audio_id": "unit-01-q04",
+      "image_ids": [
+        "int2c_autumn",
+        "int2c_headache",
+        "int2c_wave",
+        "int2c_go_board"
+      ],
+      "choices": [
+        "int2c_autumn",
+        "int2c_headache",
+        "int2c_wave",
+        "int2c_go_board"
+      ],
+      "correct": "int2c_autumn",
+      "why_wrong": {
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_wave": "You tapped \"waving goodbye hand\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!",
+        "int2c_go_board": "You tapped \"Go board\", but the audio said: \"I love fall.\". The correct picture is \"autumn / fall\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_autumn": "autumn / fall",
+        "int2c_headache": "head with headache",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_go_board": "Go board"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i2c_u01_q04"
+    },
+    {
+      "id": "int2_review_u1_i2c_u02_q04",
+      "type": 1,
+      "prompt_text": "He is fishing.",
+      "audio_id": "unit-02-q04",
+      "image_ids": [
+        "int2c_jacket",
+        "int2c_watch",
+        "int2c_fishing",
+        "int2c_knee"
+      ],
+      "choices": [
+        "int2c_jacket",
+        "int2c_watch",
+        "int2c_fishing",
+        "int2c_knee"
+      ],
+      "correct": "int2c_fishing",
+      "why_wrong": {
+        "int2c_jacket": "You tapped \"jacket\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_watch": "You tapped \"watch\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!",
+        "int2c_knee": "You tapped \"knee\", but the audio said: \"He is fishing.\". The correct picture is \"fishing\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_jacket": "jacket",
+        "int2c_watch": "watch",
+        "int2c_fishing": "fishing",
+        "int2c_knee": "knee"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i2c_u02_q04"
+    }
+  ]
+}

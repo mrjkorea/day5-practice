@@ -1,0 +1,819 @@
+{
+  "meta": {
+    "level": "int2_review",
+    "title": "Int 2 Review (2A + 2B + 2C) — Review FOUR",
+    "kind": "review",
+    "review_id": "u4",
+    "units_covered": [
+      7,
+      8
+    ],
+    "books_mixed": [
+      "int2a",
+      "int2b",
+      "int2c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int2_review_u4_i2a_u07_q01",
+      "type": 1,
+      "prompt_text": "Where is the teacher?",
+      "audio_id": "unit-07-q02",
+      "image_ids": [
+        "int2a_washroom",
+        "int2a_watch_tv",
+        "int2a_teacher",
+        "int2a_cafeteria"
+      ],
+      "choices": [
+        "int2a_washroom",
+        "int2a_watch_tv",
+        "int2a_teacher",
+        "int2a_cafeteria"
+      ],
+      "correct": "int2a_teacher",
+      "why_wrong": {
+        "int2a_washroom": "You tapped \"washroom\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Where is the teacher?\". The correct picture is \"teacher\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_washroom": "washroom",
+        "int2a_watch_tv": "TV",
+        "int2a_teacher": "teacher",
+        "int2a_cafeteria": "cafeteria"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2a_u07_q02"
+    },
+    {
+      "id": "int2_review_u4_i2a_u08_q01",
+      "type": 1,
+      "prompt_text": "I play computer games.",
+      "audio_id": "unit-08-q02",
+      "image_ids": [
+        "int2a_library",
+        "int2a_bike",
+        "int2a_cafeteria",
+        "int2a_computer_games"
+      ],
+      "choices": [
+        "int2a_library",
+        "int2a_bike",
+        "int2a_cafeteria",
+        "int2a_computer_games"
+      ],
+      "correct": "int2a_computer_games",
+      "why_wrong": {
+        "int2a_library": "You tapped \"library\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_bike": "You tapped \"bicycle\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!",
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"I play computer games.\". The correct picture is \"computer games\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_library": "library",
+        "int2a_bike": "bicycle",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_computer_games": "computer games"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2a_u08_q02"
+    },
+    {
+      "id": "int2_review_u4_i2b_u07_q01",
+      "type": 1,
+      "prompt_text": "Is it in your pencil case?",
+      "audio_id": "u7_q10",
+      "image_ids": [
+        "int2b_clock_555",
+        "int2b_english_book",
+        "int2b_pencil_case",
+        "int2b_books"
+      ],
+      "choices": [
+        "int2b_clock_555",
+        "int2b_english_book",
+        "int2b_pencil_case",
+        "int2b_books"
+      ],
+      "correct": "int2b_pencil_case",
+      "why_wrong": {
+        "int2b_clock_555": "You tapped \"clock 5:55\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_english_book": "You tapped \"English book\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!",
+        "int2b_books": "You tapped \"books\", but the audio said: \"Is it in your pencil case?\". The correct picture is \"pencil case\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_clock_555": "clock 5:55",
+        "int2b_english_book": "English book",
+        "int2b_pencil_case": "pencil case",
+        "int2b_books": "books"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2b_u07_q10"
+    },
+    {
+      "id": "int2_review_u4_i2b_u08_q01",
+      "type": 1,
+      "prompt_text": "This is yours.",
+      "audio_id": "u8_q04",
+      "image_ids": [
+        "int2b_it_is_ours",
+        "int2b_this_is_yours",
+        "int2b_it_is_his",
+        "int2b_this_is_mine"
+      ],
+      "choices": [
+        "int2b_it_is_ours",
+        "int2b_this_is_yours",
+        "int2b_it_is_his",
+        "int2b_this_is_mine"
+      ],
+      "correct": "int2b_this_is_yours",
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2b_it_is_ours": "it is ours",
+        "int2b_this_is_yours": "this is yours",
+        "int2b_it_is_his": "it is his",
+        "int2b_this_is_mine": "this is mine"
+      },
+      "why_wrong": {
+        "int2b_it_is_ours": "You tapped \"it is ours\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!",
+        "int2b_it_is_his": "You tapped \"it is his\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!",
+        "int2b_this_is_mine": "You tapped \"this is mine\", but the audio said: \"This is yours.\". The correct picture is \"this is yours\". Listen again!"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2b_u08_q23"
+    },
+    {
+      "id": "int2_review_u4_i2c_u07_q01",
+      "type": 1,
+      "prompt_text": "Hello. Is Beomjun there?",
+      "audio_id": "unit-07-q10",
+      "image_ids": [
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "choices": [
+        "int2c_sorry_he_is_out",
+        "int2c_is_beomjun_there",
+        "int2c_laptop",
+        "int2c_phone_number"
+      ],
+      "correct": "int2c_is_beomjun_there",
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "fix_note": "2026-09-25 new picture item (Picture Maker art)",
+      "choice_labels": {
+        "int2c_sorry_he_is_out": "Sorry, he is out",
+        "int2c_is_beomjun_there": "calling: Is Beomjun there?",
+        "int2c_laptop": "laptop",
+        "int2c_phone_number": "phone number 010 3457 7543"
+      },
+      "why_wrong": {
+        "int2c_sorry_he_is_out": "You tapped \"Sorry, he is out\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!",
+        "int2c_laptop": "You tapped \"laptop\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!",
+        "int2c_phone_number": "You tapped \"phone number 010 3457 7543\", but the audio said: \"Hello. Is Beomjun there?\". The correct picture is \"calling: Is Beomjun there?\". Listen again!"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2c_u07_q22"
+    },
+    {
+      "id": "int2_review_u4_i2c_u08_q01",
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q01",
+      "image_ids": [
+        "int2c_wave",
+        "int2c_cherry",
+        "int2c_dogs",
+        "int2c_pen"
+      ],
+      "choices": [
+        "int2c_wave",
+        "int2c_cherry",
+        "int2c_dogs",
+        "int2c_pen"
+      ],
+      "correct": "int2c_wave",
+      "why_wrong": {
+        "int2c_cherry": "You tapped \"cherry blossoms\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_dogs": "You tapped \"dogs\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_pen": "You tapped \"pen\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_wave": "waving goodbye hand",
+        "int2c_cherry": "cherry blossoms",
+        "int2c_dogs": "dogs",
+        "int2c_pen": "pen"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2c_u08_q01"
+    },
+    {
+      "id": "int2_review_u4_i2a_u07_q02",
+      "type": 1,
+      "prompt_text": "He is in the classroom.",
+      "audio_id": "unit-07-q03",
+      "image_ids": [
+        "int2a_classroom",
+        "int2a_vietnam",
+        "int2a_teacher",
+        "int2a_martial_arts"
+      ],
+      "choices": [
+        "int2a_classroom",
+        "int2a_vietnam",
+        "int2a_teacher",
+        "int2a_martial_arts"
+      ],
+      "correct": "int2a_classroom",
+      "why_wrong": {
+        "int2a_vietnam": "You tapped \"Vietnam / Vietnamese\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"He is in the classroom.\". The correct picture is \"classroom\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classroom": "classroom",
+        "int2a_vietnam": "Vietnam / Vietnamese",
+        "int2a_teacher": "teacher",
+        "int2a_martial_arts": "martial arts"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2a_u07_q03"
+    },
+    {
+      "id": "int2_review_u4_i2a_u08_q02",
+      "type": 1,
+      "prompt_text": "I play soccer.",
+      "audio_id": "unit-08-q03",
+      "image_ids": [
+        "int2a_classmates",
+        "int2a_teacher",
+        "int2a_soccer",
+        "int2a_hotel"
+      ],
+      "choices": [
+        "int2a_classmates",
+        "int2a_teacher",
+        "int2a_soccer",
+        "int2a_hotel"
+      ],
+      "correct": "int2a_soccer",
+      "why_wrong": {
+        "int2a_classmates": "You tapped \"classmates\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_teacher": "You tapped \"teacher\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!",
+        "int2a_hotel": "You tapped \"hotel\", but the audio said: \"I play soccer.\". The correct picture is \"soccer ball\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_classmates": "classmates",
+        "int2a_teacher": "teacher",
+        "int2a_soccer": "soccer ball",
+        "int2a_hotel": "hotel"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2a_u08_q03"
+    },
+    {
+      "id": "int2_review_u4_i2b_u07_q02",
+      "type": 1,
+      "prompt_text": "Is it on your books?",
+      "audio_id": "u7_q11",
+      "image_ids": [
+        "int2b_korean_book",
+        "int2b_books",
+        "int2b_lunch",
+        "int2b_dinner"
+      ],
+      "choices": [
+        "int2b_korean_book",
+        "int2b_books",
+        "int2b_lunch",
+        "int2b_dinner"
+      ],
+      "correct": "int2b_books",
+      "why_wrong": {
+        "int2b_korean_book": "You tapped \"Korean book\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_lunch": "You tapped \"lunch\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!",
+        "int2b_dinner": "You tapped \"dinner\", but the audio said: \"Is it on your books?\". The correct picture is \"books\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_korean_book": "Korean book",
+        "int2b_books": "books",
+        "int2b_lunch": "lunch",
+        "int2b_dinner": "dinner"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2b_u07_q11"
+    },
+    {
+      "id": "int2_review_u4_i2b_u08_q02",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Thank you.",
+      "audio_id": "u8_q01",
+      "image_ids": [],
+      "choices": [
+        "What about mine?",
+        "It is not mine.",
+        "You are welcome.",
+        "These are not yours."
+      ],
+      "correct": "You are welcome.",
+      "why_wrong": {
+        "What about mine?": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\"",
+        "It is not mine.": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\"",
+        "These are not yours.": "That does not answer \"Thank you.\". Best reply: \"You are welcome.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day6",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2b_u08_q01"
+    },
+    {
+      "id": "int2_review_u4_i2c_u07_q02",
+      "type": 4,
+      "prompt_text": "Listen. Pick the best reply.",
+      "speak_text": "Hello.",
+      "audio_id": "unit-07-q01",
+      "image_ids": [],
+      "choices": [
+        "Hello. Is Beomjun there?",
+        "Sorry, he is out.",
+        "His phone number is 010 3457 7543.",
+        "Okay, thank you."
+      ],
+      "correct": "Hello. Is Beomjun there?",
+      "why_wrong": {
+        "Sorry, he is out.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\"",
+        "His phone number is 010 3457 7543.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\"",
+        "Okay, thank you.": "That does not answer \"Hello.\". Best reply: \"Hello. Is Beomjun there?\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "merge_source_book": "int2c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2c_u07_q01"
+    },
+    {
+      "id": "int2_review_u4_i2c_u08_q02",
+      "type": 1,
+      "prompt_text": "So long.",
+      "audio_id": "unit-08-q02",
+      "image_ids": [
+        "int2c_money",
+        "int2c_wave",
+        "int2c_autumn",
+        "int2c_studying"
+      ],
+      "choices": [
+        "int2c_money",
+        "int2c_wave",
+        "int2c_autumn",
+        "int2c_studying"
+      ],
+      "correct": "int2c_wave",
+      "why_wrong": {
+        "int2c_money": "You tapped \"money\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_autumn": "You tapped \"autumn / fall\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_studying": "You tapped \"student studying\", but the audio said: \"So long.\". The correct picture is \"waving goodbye hand\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_money": "money",
+        "int2c_wave": "waving goodbye hand",
+        "int2c_autumn": "autumn / fall",
+        "int2c_studying": "student studying"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2c_u08_q02"
+    },
+    {
+      "id": "int2_review_u4_i2a_u07_q03",
+      "type": 1,
+      "prompt_text": "Where are our classmates?",
+      "audio_id": "unit-07-q04",
+      "image_ids": [
+        "int2a_hail",
+        "int2a_china",
+        "int2a_want_water",
+        "int2a_classmates"
+      ],
+      "choices": [
+        "int2a_hail",
+        "int2a_china",
+        "int2a_want_water",
+        "int2a_classmates"
+      ],
+      "correct": "int2a_classmates",
+      "why_wrong": {
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!",
+        "int2a_china": "You tapped \"China / Chinese\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!",
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"Where are our classmates?\". The correct picture is \"classmates\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_hail": "hail",
+        "int2a_china": "China / Chinese",
+        "int2a_want_water": "water bottle",
+        "int2a_classmates": "classmates"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2a_u07_q04"
+    },
+    {
+      "id": "int2_review_u4_i2a_u08_q03",
+      "type": 1,
+      "prompt_text": "I practice martial arts.",
+      "audio_id": "unit-08-q04",
+      "image_ids": [
+        "int2a_martial_arts",
+        "int2a_secretary",
+        "int2a_hail",
+        "int2a_ants"
+      ],
+      "choices": [
+        "int2a_martial_arts",
+        "int2a_secretary",
+        "int2a_hail",
+        "int2a_ants"
+      ],
+      "correct": "int2a_martial_arts",
+      "why_wrong": {
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_hail": "You tapped \"hail\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!",
+        "int2a_ants": "You tapped \"ants\", but the audio said: \"I practice martial arts.\". The correct picture is \"martial arts\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_martial_arts": "martial arts",
+        "int2a_secretary": "secretary",
+        "int2a_hail": "hail",
+        "int2a_ants": "ants"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2a_u08_q04"
+    },
+    {
+      "id": "int2_review_u4_i2b_u07_q03",
+      "type": 1,
+      "prompt_text": "Is it under your desk?",
+      "audio_id": "u7_q12",
+      "image_ids": [
+        "int2b_short",
+        "int2b_desk",
+        "int2b_smart",
+        "int2b_friday"
+      ],
+      "choices": [
+        "int2b_short",
+        "int2b_desk",
+        "int2b_smart",
+        "int2b_friday"
+      ],
+      "correct": "int2b_desk",
+      "why_wrong": {
+        "int2b_short": "You tapped \"short person\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!",
+        "int2b_friday": "You tapped \"Friday calendar\", but the audio said: \"Is it under your desk?\". The correct picture is \"desk\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_short": "short person",
+        "int2b_desk": "desk",
+        "int2b_smart": "smart student with book",
+        "int2b_friday": "Friday calendar"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2b_u07_q12"
+    },
+    {
+      "id": "int2_review_u4_i2b_u08_q03",
+      "type": 5,
+      "prompt_text": "Cue: 이것은 내 것입니다  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [
+        "int2b_this_is_mine"
+      ],
+      "choices": [
+        "This is mine.",
+        "This is yours.",
+        "This is his.",
+        "This is ours."
+      ],
+      "correct": "This is mine.",
+      "why_wrong": {
+        "This is yours.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\"",
+        "This is his.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\"",
+        "This is ours.": "Not this one. \"이것은 내 것입니다\" = \"This is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2b_u08_q15"
+    },
+    {
+      "id": "int2_review_u4_i2c_u07_q03",
+      "type": 5,
+      "prompt_text": "Cue: 여보세요  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [
+        "int2c_telephone"
+      ],
+      "choices": [
+        "Okay, thank you.",
+        "Hello.",
+        "Sorry, he is out.",
+        "Who is this?"
+      ],
+      "correct": "Hello.",
+      "why_wrong": {
+        "Okay, thank you.": "Not this one. \"여보세요\" = \"Hello.\"",
+        "Sorry, he is out.": "Not this one. \"여보세요\" = \"Hello.\"",
+        "Who is this?": "Not this one. \"여보세요\" = \"Hello.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "merge_source_book": "int2c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2c_u07_q16"
+    },
+    {
+      "id": "int2_review_u4_i2c_u08_q03",
+      "type": 1,
+      "prompt_text": "I am off.",
+      "audio_id": "unit-08-q03",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_suitcase",
+        "int2c_winter",
+        "int2c_spring"
+      ],
+      "choices": [
+        "int2c_swim",
+        "int2c_suitcase",
+        "int2c_winter",
+        "int2c_spring"
+      ],
+      "correct": "int2c_suitcase",
+      "why_wrong": {
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_winter": "You tapped \"winter\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!",
+        "int2c_spring": "You tapped \"spring\", but the audio said: \"I am off.\". The correct picture is \"suitcase (leaving)\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_suitcase": "suitcase (leaving)",
+        "int2c_winter": "winter",
+        "int2c_spring": "spring"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2c_u08_q03"
+    },
+    {
+      "id": "int2_review_u4_i2a_u07_q04",
+      "type": 1,
+      "prompt_text": "They are in the gym.",
+      "audio_id": "unit-07-q05",
+      "image_ids": [
+        "int2a_germany",
+        "int2a_gym",
+        "int2a_exciting",
+        "int2a_hot"
+      ],
+      "choices": [
+        "int2a_germany",
+        "int2a_gym",
+        "int2a_exciting",
+        "int2a_hot"
+      ],
+      "correct": "int2a_gym",
+      "why_wrong": {
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!",
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"They are in the gym.\". The correct picture is \"gym\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_germany": "Germany / German",
+        "int2a_gym": "gym",
+        "int2a_exciting": "exciting / thrilled face",
+        "int2a_hot": "hot weather"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2a_u07_q05"
+    },
+    {
+      "id": "int2_review_u4_i2a_u08_q04",
+      "type": 1,
+      "prompt_text": "I go to English class.",
+      "audio_id": "unit-08-q05",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_english_class",
+        "int2a_martial_arts",
+        "int2a_library"
+      ],
+      "choices": [
+        "int2a_basement",
+        "int2a_english_class",
+        "int2a_martial_arts",
+        "int2a_library"
+      ],
+      "correct": "int2a_english_class",
+      "why_wrong": {
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_martial_arts": "You tapped \"martial arts\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!",
+        "int2a_library": "You tapped \"library\", but the audio said: \"I go to English class.\". The correct picture is \"English class\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_english_class": "English class",
+        "int2a_martial_arts": "martial arts",
+        "int2a_library": "library"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2a_u08_q05"
+    },
+    {
+      "id": "int2_review_u4_i2b_u07_q04",
+      "type": 1,
+      "prompt_text": "Is it behind your phone?",
+      "audio_id": "u7_q13",
+      "image_ids": [
+        "int2b_history",
+        "int2b_hacker",
+        "int2b_phone",
+        "int2b_japanese_book"
+      ],
+      "choices": [
+        "int2b_history",
+        "int2b_hacker",
+        "int2b_phone",
+        "int2b_japanese_book"
+      ],
+      "correct": "int2b_phone",
+      "why_wrong": {
+        "int2b_history": "You tapped \"history / scroll\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_hacker": "You tapped \"computer hacker\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!",
+        "int2b_japanese_book": "You tapped \"Japanese book\", but the audio said: \"Is it behind your phone?\". The correct picture is \"phone\". Listen again!"
+      },
+      "unit": 7,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_history": "history / scroll",
+        "int2b_hacker": "computer hacker",
+        "int2b_phone": "phone",
+        "int2b_japanese_book": "Japanese book"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2b_u07_q13"
+    },
+    {
+      "id": "int2_review_u4_i2b_u08_q04",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "This is mine.",
+      "audio_id": "u8_q06",
+      "image_ids": [],
+      "choices": [
+        "This is hers.",
+        "This is mine.",
+        "This is his.",
+        "This is yours."
+      ],
+      "correct": "This is mine.",
+      "why_wrong": {
+        "This is hers.": "Listen again. You heard: \"This is mine.\"",
+        "This is his.": "Listen again. You heard: \"This is mine.\"",
+        "This is yours.": "Listen again. You heard: \"This is mine.\""
+      },
+      "unit": 8,
+      "level": "int2b",
+      "source": "day4",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2b_u08_q06"
+    },
+    {
+      "id": "int2_review_u4_i2c_u07_q04",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "His phone number is 010 3457 7543.",
+      "audio_id": "unit-07-q09",
+      "image_ids": [],
+      "choices": [
+        "His phone number is 010 3457 7544.",
+        "His phone number is 010 3457 7543.",
+        "His phone number is 010 4558 9231.",
+        "His phone number is 010 6616 2558."
+      ],
+      "correct": "His phone number is 010 3457 7543.",
+      "why_wrong": {
+        "His phone number is 010 3457 7544.": "Listen again. You heard: \"His phone number is 010 3457 7543.\"",
+        "His phone number is 010 4558 9231.": "Listen again. You heard: \"His phone number is 010 3457 7543.\"",
+        "His phone number is 010 6616 2558.": "Listen again. You heard: \"His phone number is 010 3457 7543.\""
+      },
+      "unit": 7,
+      "level": "int2c",
+      "source": "day4",
+      "merge_source_book": "int2c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i2c_u07_q09"
+    },
+    {
+      "id": "int2_review_u4_i2c_u08_q04",
+      "type": 1,
+      "prompt_text": "See you.",
+      "audio_id": "unit-08-q04",
+      "image_ids": [
+        "int2c_back",
+        "int2c_islands",
+        "int2c_garbage",
+        "int2c_wave"
+      ],
+      "choices": [
+        "int2c_back",
+        "int2c_islands",
+        "int2c_garbage",
+        "int2c_wave"
+      ],
+      "correct": "int2c_wave",
+      "why_wrong": {
+        "int2c_back": "You tapped \"back / spine\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_islands": "You tapped \"islands\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!",
+        "int2c_garbage": "You tapped \"garbage\", but the audio said: \"See you.\". The correct picture is \"waving goodbye hand\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_back": "back / spine",
+        "int2c_islands": "islands",
+        "int2c_garbage": "garbage",
+        "int2c_wave": "waving goodbye hand"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i2c_u08_q04"
+    }
+  ]
+}

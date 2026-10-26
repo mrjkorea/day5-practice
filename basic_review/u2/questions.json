@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "level": "basic_review",
+    "title": "Basic Review (A + B + C) — Review TWO",
+    "kind": "review",
+    "review_id": "u2",
+    "units_covered": [
+      3,
+      4
+    ],
+    "books_mixed": [
+      "basic_a",
+      "basic_b",
+      "basic_c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "basic_review_u2_ba_u03_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u03_aud_word_headset",
+      "image_ids": [
+        "pic_headset",
+        "pic_double_click",
+        "pic_right_click",
+        "pic_restart"
+      ],
+      "choices": [
+        "pic_headset",
+        "pic_double_click",
+        "pic_right_click",
+        "pic_restart"
+      ],
+      "correct": "pic_headset",
+      "why_wrong": {
+        "pic_double_click": "Not this one. Try again!",
+        "pic_right_click": "Not this one. Try again!",
+        "pic_restart": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 3,
+      "merge_source_id": "ba_u03_q01"
+    },
+    {
+      "id": "basic_review_u2_ba_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u04_aud_word_Good_afternoon",
+      "image_ids": [
+        "pic_sorry",
+        "pic_help_me",
+        "pic_wait",
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "pic_sorry",
+        "pic_help_me",
+        "pic_wait",
+        "pic_good_afternoon"
+      ],
+      "correct": "pic_good_afternoon",
+      "why_wrong": {
+        "pic_sorry": "Not this one. Try again!",
+        "pic_help_me": "Not this one. Try again!",
+        "pic_wait": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 4,
+      "merge_source_id": "ba_u04_q01"
+    },
+    {
+      "id": "basic_review_u2_bb_u03_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u03_aud_word_Again!",
+      "image_ids": [
+        "pic_excuse_me",
+        "pic_not_know",
+        "pic_again",
+        "pic_not_understand"
+      ],
+      "choices": [
+        "pic_excuse_me",
+        "pic_not_know",
+        "pic_again",
+        "pic_not_understand"
+      ],
+      "correct": "pic_again",
+      "why_wrong": {
+        "pic_excuse_me": "Not this one. Try again!",
+        "pic_not_know": "Not this one. Try again!",
+        "pic_not_understand": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 3,
+      "merge_source_id": "bb_u03_q01"
+    },
+    {
+      "id": "basic_review_u2_bb_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u04_aud_word_rock",
+      "image_ids": [
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors",
+        "pic_you_lose"
+      ],
+      "choices": [
+        "pic_rock",
+        "pic_paper",
+        "pic_scissors",
+        "pic_you_lose"
+      ],
+      "correct": "pic_rock",
+      "why_wrong": {
+        "pic_paper": "Not this one. Try again!",
+        "pic_scissors": "Not this one. Try again!",
+        "pic_you_lose": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 4,
+      "merge_source_id": "bb_u04_q01"
+    },
+    {
+      "id": "basic_review_u2_bc_u03_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u03_aud_word_See_you_Monday",
+      "image_ids": [
+        "pic_please_test_me",
+        "pic_report",
+        "pic_see_you_monday",
+        "pic_you_are_welcome"
+      ],
+      "choices": [
+        "pic_please_test_me",
+        "pic_report",
+        "pic_see_you_monday",
+        "pic_you_are_welcome"
+      ],
+      "correct": "pic_see_you_monday",
+      "why_wrong": {
+        "pic_please_test_me": "Not this one. Try again!",
+        "pic_report": "Not this one. Try again!",
+        "pic_you_are_welcome": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 3,
+      "merge_source_id": "bc_u03_q01"
+    },
+    {
+      "id": "basic_review_u2_bc_u04_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u04_aud_word_palace",
+      "image_ids": [
+        "pic_dinosaur",
+        "pic_wetland",
+        "pic_palace",
+        "pic_volcano"
+      ],
+      "choices": [
+        "pic_dinosaur",
+        "pic_wetland",
+        "pic_palace",
+        "pic_volcano"
+      ],
+      "correct": "pic_palace",
+      "why_wrong": {
+        "pic_dinosaur": "Not this one. Try again!",
+        "pic_wetland": "Not this one. Try again!",
+        "pic_volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 4,
+      "merge_source_id": "bc_u04_q01"
+    },
+    {
+      "id": "basic_review_u2_ba_u03_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u03_aud_listen_headset",
+      "image_ids": [
+        "pic_headset"
+      ],
+      "choices": [
+        "headset",
+        "right click",
+        "tab",
+        "double click"
+      ],
+      "correct": "headset",
+      "why_wrong": {
+        "right click": "Not this one. Try again!",
+        "tab": "Not this one. Try again!",
+        "double click": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 3,
+      "merge_source_id": "ba_u03_q04"
+    },
+    {
+      "id": "basic_review_u2_ba_u04_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u04_aud_listen_Good_afternoon",
+      "image_ids": [
+        "pic_good_afternoon"
+      ],
+      "choices": [
+        "Sorry",
+        "Wait!",
+        "Good afternoon",
+        "Help me please"
+      ],
+      "correct": "Good afternoon",
+      "why_wrong": {
+        "Sorry": "Not this one. Try again!",
+        "Wait!": "Not this one. Try again!",
+        "Help me please": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 4,
+      "merge_source_id": "ba_u04_q04"
+    },
+    {
+      "id": "basic_review_u2_bb_u03_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u03_aud_listen_Again!",
+      "image_ids": [
+        "pic_again"
+      ],
+      "choices": [
+        "Trash this!",
+        "Recycle this!",
+        "Again!",
+        "I do not understand."
+      ],
+      "correct": "Again!",
+      "why_wrong": {
+        "Trash this!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!",
+        "I do not understand.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 3,
+      "merge_source_id": "bb_u03_q04"
+    },
+    {
+      "id": "basic_review_u2_bb_u04_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u04_aud_listen_rock",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "rock",
+        "lose",
+        "scissors",
+        "win"
+      ],
+      "correct": "rock",
+      "why_wrong": {
+        "lose": "Not this one. Try again!",
+        "scissors": "Not this one. Try again!",
+        "win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 4,
+      "merge_source_id": "bb_u04_q04"
+    },
+    {
+      "id": "basic_review_u2_bc_u03_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u03_aud_listen_See_you_Monday",
+      "image_ids": [
+        "pic_see_you_monday"
+      ],
+      "choices": [
+        "See you Monday",
+        "Please test me",
+        "Spell cat!",
+        "Report!"
+      ],
+      "correct": "See you Monday",
+      "why_wrong": {
+        "Please test me": "Not this one. Try again!",
+        "Spell cat!": "Not this one. Try again!",
+        "Report!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 3,
+      "merge_source_id": "bc_u03_q04"
+    },
+    {
+      "id": "basic_review_u2_bc_u04_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u04_aud_listen_palace",
+      "image_ids": [
+        "pic_palace"
+      ],
+      "choices": [
+        "wetland park",
+        "fish market",
+        "palace",
+        "turtle ship"
+      ],
+      "correct": "palace",
+      "why_wrong": {
+        "wetland park": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!",
+        "turtle ship": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 4,
+      "merge_source_id": "bc_u04_q04"
+    },
+    {
+      "id": "basic_review_u2_ba_u03_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_double_click"
+      ],
+      "choices": [
+        "ID",
+        "scroll",
+        "double click",
+        "headset"
+      ],
+      "correct": "double click",
+      "why_wrong": {
+        "ID": "Not this one. Try again!",
+        "scroll": "Not this one. Try again!",
+        "headset": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 3,
+      "merge_source_id": "ba_u03_q07"
+    },
+    {
+      "id": "basic_review_u2_ba_u04_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_quiet"
+      ],
+      "choices": [
+        "See you tomorrow",
+        "Sorry",
+        "Good afternoon",
+        "Quiet!"
+      ],
+      "correct": "Quiet!",
+      "why_wrong": {
+        "See you tomorrow": "Not this one. Try again!",
+        "Sorry": "Not this one. Try again!",
+        "Good afternoon": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 4,
+      "merge_source_id": "ba_u04_q07"
+    },
+    {
+      "id": "basic_review_u2_bb_u03_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_excuse_me"
+      ],
+      "choices": [
+        "Trash this!",
+        "Excuse me",
+        "Recycle this!",
+        "Again!"
+      ],
+      "correct": "Excuse me",
+      "why_wrong": {
+        "Trash this!": "Not this one. Try again!",
+        "Recycle this!": "Not this one. Try again!",
+        "Again!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 3,
+      "merge_source_id": "bb_u03_q07"
+    },
+    {
+      "id": "basic_review_u2_bb_u04_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_scissors"
+      ],
+      "choices": [
+        "paper",
+        "rock",
+        "win",
+        "scissors"
+      ],
+      "correct": "scissors",
+      "why_wrong": {
+        "paper": "Not this one. Try again!",
+        "rock": "Not this one. Try again!",
+        "win": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 4,
+      "merge_source_id": "bb_u04_q07"
+    },
+    {
+      "id": "basic_review_u2_bc_u03_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_what_mean"
+      ],
+      "choices": [
+        "What does cat mean?",
+        "See you Monday",
+        "May I start?",
+        "Report!"
+      ],
+      "correct": "What does cat mean?",
+      "why_wrong": {
+        "See you Monday": "Not this one. Try again!",
+        "May I start?": "Not this one. Try again!",
+        "Report!": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 3,
+      "merge_source_id": "bc_u03_q07"
+    },
+    {
+      "id": "basic_review_u2_bc_u04_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_folk_village"
+      ],
+      "choices": [
+        "palace",
+        "fish market",
+        "folk village",
+        "volcano"
+      ],
+      "correct": "folk village",
+      "why_wrong": {
+        "palace": "Not this one. Try again!",
+        "fish market": "Not this one. Try again!",
+        "volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 4,
+      "merge_source_id": "bc_u04_q07"
+    },
+    {
+      "id": "basic_review_u2_ba_u03_q04",
+      "type": 4,
+      "prompt_text": "Student says: “Unplug your headset”  What does Mr Jay say?",
+      "audio_id": "ba_u03_aud_stu_10",
+      "image_ids": [
+        "pic_scroll_down"
+      ],
+      "choices": [
+        "Okay",
+        "I don't have a headset",
+        "No problem"
+      ],
+      "correct": "I don't have a headset",
+      "why_wrong": {
+        "Okay": "Not this one. Try again!",
+        "No problem": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 3,
+      "merge_source_id": "ba_u03_q10"
+    },
+    {
+      "id": "basic_review_u2_ba_u04_q04",
+      "type": 4,
+      "prompt_text": "Student says: “Good afternoon.”  What does Mr Jay say?",
+      "audio_id": "ba_u04_aud_stu_10",
+      "image_ids": [
+        "pic_sorry"
+      ],
+      "choices": [
+        "Pardon is spelled P A R D ON",
+        "That is okay",
+        "Thanks. You too",
+        "I hope so"
+      ],
+      "correct": "Thanks. You too",
+      "why_wrong": {
+        "Pardon is spelled P A R D ON": "Not this one. Try again!",
+        "That is okay": "Not this one. Try again!",
+        "I hope so": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 4,
+      "merge_source_id": "ba_u04_q10"
+    },
+    {
+      "id": "basic_review_u2_bb_u03_q04",
+      "type": 4,
+      "prompt_text": "Student says: “Again!”  What does Mr Jay say?",
+      "audio_id": "bb_u03_aud_stu_10",
+      "image_ids": [
+        "pic_trash"
+      ],
+      "choices": [
+        "Sorry. I will not do that again.",
+        "Pardon? Do what again?",
+        "Good Idea. Let's all recycle",
+        "Sorry. I cannot see the trash can."
+      ],
+      "correct": "Pardon? Do what again?",
+      "why_wrong": {
+        "Sorry. I will not do that again.": "Not this one. Try again!",
+        "Good Idea. Let's all recycle": "Not this one. Try again!",
+        "Sorry. I cannot see the trash can.": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 3,
+      "merge_source_id": "bb_u03_q10"
+    },
+    {
+      "id": "basic_review_u2_bb_u04_q04",
+      "type": 4,
+      "prompt_text": "Student says: “Show it or.. You lose”  What does Mr Jay say?",
+      "audio_id": "bb_u04_aud_stu_10",
+      "image_ids": [
+        "pic_rock"
+      ],
+      "choices": [
+        "paper!",
+        "Okay",
+        "good job!",
+        "Okay! I will show it!"
+      ],
+      "correct": "Okay! I will show it!",
+      "why_wrong": {
+        "paper!": "Not this one. Try again!",
+        "Okay": "Not this one. Try again!",
+        "good job!": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 4,
+      "merge_source_id": "bb_u04_q10"
+    },
+    {
+      "id": "basic_review_u2_bc_u03_q04",
+      "type": 4,
+      "prompt_text": "Student says: “See you Monday”  What does Mr Jay say?",
+      "audio_id": "bc_u03_aud_stu_10",
+      "image_ids": [
+        "pic_spell_cat"
+      ],
+      "choices": [
+        "C A T",
+        "100 percent on quizlet",
+        "Sure! you can start anytime",
+        "Have a nice weekend."
+      ],
+      "correct": "Have a nice weekend.",
+      "why_wrong": {
+        "C A T": "Not this one. Try again!",
+        "100 percent on quizlet": "Not this one. Try again!",
+        "Sure! you can start anytime": "Not this one. Try again!"
+      },
+      "unit": 3,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 3,
+      "merge_source_id": "bc_u03_q10"
+    },
+    {
+      "id": "basic_review_u2_bc_u04_q04",
+      "type": 4,
+      "prompt_text": "Student says: “What can we see near Seoul?”  What does Mr Jay say?",
+      "audio_id": "bc_u04_aud_stu_10",
+      "image_ids": [
+        "pic_volcano"
+      ],
+      "choices": [
+        "You can see a palace",
+        "You can see a fish market.",
+        "Canada does not have many palaces",
+        "You can see a volcano"
+      ],
+      "correct": "You can see a palace",
+      "why_wrong": {
+        "You can see a fish market.": "Not this one. Try again!",
+        "Canada does not have many palaces": "Not this one. Try again!",
+        "You can see a volcano": "Not this one. Try again!"
+      },
+      "unit": 4,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 4,
+      "merge_source_id": "bc_u04_q10"
+    }
+  ]
+}

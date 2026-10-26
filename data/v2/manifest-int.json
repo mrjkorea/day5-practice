@@ -1,39 +1,49 @@
 {
- "title": "Day 5 Unit Tests \u00b7 Intermediate",
- "books": [
-  {
-   "id": "int2a",
-   "label": "Intermediate 2A",
-   "file": "data/v2/int2a.json"
-  },
-  {
-   "id": "int2b",
-   "label": "Intermediate 2B",
-   "file": "data/v2/int2b.json"
-  },
-  {
-   "id": "int2c",
-   "label": "Intermediate 2C",
-   "file": "data/v2/int2c.json"
-  },
-  {
-   "id": "int3a",
-   "label": "Intermediate 3A",
-   "file": "data/v2/int3a.json"
-  },
-  {
-   "id": "int3b",
-   "label": "Intermediate 3B",
-   "file": "data/v2/int3b.json"
-  },
-  {
-   "id": "int3c",
-   "label": "Intermediate 3C",
-   "file": "data/v2/int3c.json"
+  "title": "Day 5 Unit Tests · Intermediate",
+  "books": [
+    {
+      "id": "int2a",
+      "label": "Intermediate 2A",
+      "file": "data/v2/int2a.json"
+    },
+    {
+      "id": "int2b",
+      "label": "Intermediate 2B",
+      "file": "data/v2/int2b.json"
+    },
+    {
+      "id": "int2c",
+      "label": "Intermediate 2C",
+      "file": "data/v2/int2c.json"
+    },
+    {
+      "id": "int3a",
+      "label": "Intermediate 3A",
+      "file": "data/v2/int3a.json"
+    },
+    {
+      "id": "int3b",
+      "label": "Intermediate 3B",
+      "file": "data/v2/int3b.json"
+    },
+    {
+      "id": "int3c",
+      "label": "Intermediate 3C",
+      "file": "data/v2/int3c.json"
+    },
+    {
+      "id": "int2_review",
+      "label": "Int 2 Review (2A + 2B + 2C)",
+      "file": "data/v2/int2_review.json"
+    },
+    {
+      "id": "int3_review",
+      "label": "Int 3 Review (3A + 3B + 3C)",
+      "file": "data/v2/int3_review.json"
+    }
+  ],
+  "other": {
+    "label": "← Basic A / B / C",
+    "href": ""
   }
- ],
- "other": {
-  "label": "\u2190 Basic A / B / C",
-  "href": ""
- }
 }

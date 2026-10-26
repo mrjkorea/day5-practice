@@ -216,7 +216,10 @@
   }
 
   function startQuiz(book, test) {
-    st = { book: book, test: test, qs: draw(book, test), i: 0, right: 0, gateRight: 0, gateN: 0, answered: false };
+    var qs = (test.items && test.items.length)
+      ? shuffle(test.items).map(prepare)
+      : draw(book, test);
+    st = { book: book, test: test, qs: qs, i: 0, right: 0, gateRight: 0, gateN: 0, answered: false };
     renderQ();
   }
 

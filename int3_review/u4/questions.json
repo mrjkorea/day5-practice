@@ -1,0 +1,852 @@
+{
+  "meta": {
+    "level": "int3_review",
+    "title": "Int 3 Review (3A + 3B + 3C) — Review FOUR",
+    "kind": "review",
+    "review_id": "u4",
+    "units_covered": [
+      7,
+      8
+    ],
+    "books_mixed": [
+      "int3a",
+      "int3b",
+      "int3c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int3_review_u4_i3a_u07_q01",
+      "type": 1,
+      "prompt_text": "Stand up!",
+      "audio_id": "u07_q01",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_turn_around"
+      ],
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_turn_around"
+      ],
+      "correct": "int3a_gym-class_stand_up",
+      "why_wrong": {
+        "int3a_gym-class_run_around": "That shows Run around, not Stand up.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Stand up.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Stand up."
+      },
+      "unit": 7,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_turn_around": "Turn around"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3a_u07_q01"
+    },
+    {
+      "id": "int3_review_u4_i3a_u08_q01",
+      "type": 1,
+      "prompt_text": "I am 11 years old.",
+      "audio_id": "u08_q01",
+      "image_ids": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "choices": [
+        "int3a_introduction_music",
+        "int3a_introduction_seoul",
+        "int3a_introduction_age_11",
+        "int3a_introduction_age_18"
+      ],
+      "correct": "int3a_introduction_age_11",
+      "why_wrong": {
+        "int3a_introduction_music": "That shows music, not 11 years old.",
+        "int3a_introduction_seoul": "That shows Seoul, not 11 years old.",
+        "int3a_introduction_age_18": "That shows 18 years old, not 11 years old."
+      },
+      "unit": 8,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_music": "music",
+        "int3a_introduction_seoul": "Seoul",
+        "int3a_introduction_age_11": "11 years old",
+        "int3a_introduction_age_18": "18 years old"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3a_u08_q01"
+    },
+    {
+      "id": "int3_review_u4_i3b_u07_q01",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your transit card.",
+      "audio_id": "unit7-q01",
+      "image_ids": [
+        "i3b_umbrella",
+        "i3b_money",
+        "i3b_transit_card",
+        "i3b_coat"
+      ],
+      "choices": [
+        "i3b_umbrella",
+        "i3b_money",
+        "i3b_transit_card",
+        "i3b_coat"
+      ],
+      "correct": "i3b_transit_card",
+      "why_wrong": {
+        "i3b_umbrella": "Not this one. The picture was \"transit card\". Listen again!",
+        "i3b_money": "Not this one. The picture was \"transit card\". Listen again!",
+        "i3b_coat": "Not this one. The picture was \"transit card\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_umbrella": "umbrella",
+        "i3b_money": "money",
+        "i3b_transit_card": "transit card",
+        "i3b_coat": "coat"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4",
+      "merge_source_book": "int3b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3b_u07_q01"
+    },
+    {
+      "id": "int3_review_u4_i3b_u08_q01",
+      "type": 1,
+      "prompt_text": "I am from Canada.",
+      "audio_id": "unit8-q01",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
+      ],
+      "choices": [
+        "i3b_22forever",
+        "i3b_canada",
+        "i3b_feet310",
+        "i3b_what"
+      ],
+      "correct": "i3b_canada",
+      "why_wrong": {
+        "i3b_22forever": "You tapped \"22 years old forever\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_feet310": "You tapped \"310 mm feet\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!",
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am from Canada.\". The correct picture is \"Canada\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_canada": "Canada",
+        "i3b_feet310": "310 mm feet",
+        "i3b_what": "What"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3b_u08_q01"
+    },
+    {
+      "id": "int3_review_u4_i3c_u07_q01",
+      "type": 1,
+      "prompt_text": "Can you dance?",
+      "audio_id": "u07_q01",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
+      ],
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_dance",
+        "int3c_u07_can_you_fly_rock",
+        "int3c_u07_can_you_fly_can_you_run"
+      ],
+      "correct": "int3c_u07_can_you_fly_dance",
+      "why_wrong": {
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_rock": "Rocks cannot fly.",
+        "int3c_u07_can_you_fly_can_you_run": "That is not the correct answer. Listen again!"
+      },
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_dance": "Dance",
+        "int3c_u07_can_you_fly_rock": "Rock",
+        "int3c_u07_can_you_fly_can_you_run": "Can You Run"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3c_u07_q01"
+    },
+    {
+      "id": "int3_review_u4_i3c_u08_q01",
+      "type": 1,
+      "prompt_text": "Detention!",
+      "audio_id": "u08_q01",
+      "image_ids": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_no_way"
+      ],
+      "choices": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_wrong_midnight",
+        "int3c_u08_what_time_seven_oclock",
+        "int3c_u08_what_time_no_way"
+      ],
+      "correct": "int3c_u08_what_time_detention",
+      "why_wrong": {
+        "int3c_u08_what_time_wrong_midnight": "That is not midnight.",
+        "int3c_u08_what_time_seven_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_no_way": "Look at the clock again."
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_wrong_midnight": "Wrong Midnight",
+        "int3c_u08_what_time_seven_oclock": "Seven Oclock",
+        "int3c_u08_what_time_no_way": "No Way"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3c_u08_q01"
+    },
+    {
+      "id": "int3_review_u4_i3a_u07_q02",
+      "type": 1,
+      "prompt_text": "Run around! Thank you Sir",
+      "audio_id": "u07_q02",
+      "image_ids": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope"
+      ],
+      "choices": [
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_turn_around",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_run_around",
+      "why_wrong": {
+        "int3a_gym-class_lie_down": "That shows Lie down, not Run around.",
+        "int3a_gym-class_turn_around": "That shows Turn around, not Run around.",
+        "int3a_gym-class_jump_rope": "That shows Jump rope, not Run around."
+      },
+      "unit": 7,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_turn_around": "Turn around",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3a_u07_q02"
+    },
+    {
+      "id": "int3_review_u4_i3a_u08_q02",
+      "type": 1,
+      "prompt_text": "How old are you? I am 18 years old.",
+      "audio_id": "u08_q02",
+      "image_ids": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
+      ],
+      "choices": [
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_age_18",
+        "int3a_introduction_music",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_age_18",
+      "why_wrong": {
+        "int3a_introduction_sing_dance": "That shows sing and dance, not 18 years old.",
+        "int3a_introduction_music": "That shows music, not 18 years old.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not 18 years old."
+      },
+      "unit": 8,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_age_18": "18 years old",
+        "int3a_introduction_music": "music",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3a_u08_q02"
+    },
+    {
+      "id": "int3_review_u4_i3b_u07_q02",
+      "type": 5,
+      "prompt_text": "Cue: 우산 잊지 마!  → Click the English.",
+      "speak_text": "",
+      "audio_id": null,
+      "image_ids": [],
+      "choices": [
+        "Your umbrella don't forget.",
+        "Don't forget your umbrella.",
+        "Don't forget your textbook.",
+        "Forget your umbrella."
+      ],
+      "correct": "Don't forget your umbrella.",
+      "why_wrong": {
+        "Your umbrella don't forget.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\"",
+        "Don't forget your textbook.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\"",
+        "Forget your umbrella.": "Not this one. \"우산 잊지 마!\" = \"Don't forget your umbrella.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4",
+      "merge_source_book": "int3b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3b_u07_q18"
+    },
+    {
+      "id": "int3_review_u4_i3b_u08_q02",
+      "type": 1,
+      "prompt_text": "How tall are you? 187 cm!",
+      "audio_id": "unit8-q02",
+      "image_ids": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
+      ],
+      "choices": [
+        "i3b_where",
+        "i3b_canada",
+        "i3b_why",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_187cm",
+      "why_wrong": {
+        "i3b_where": "You tapped \"Where\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_canada": "You tapped \"Canada\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!",
+        "i3b_why": "You tapped \"Why\", but the audio said: \"How tall are you? 187 cm!\". The correct picture is \"187 cm tall\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_where": "Where",
+        "i3b_canada": "Canada",
+        "i3b_why": "Why",
+        "i3b_187cm": "187 cm tall"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3b_u08_q02"
+    },
+    {
+      "id": "int3_review_u4_i3c_u07_q02",
+      "type": 1,
+      "prompt_text": "Yes, I can.",
+      "audio_id": "u07_q02",
+      "image_ids": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_yes_i_can",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
+      ],
+      "choices": [
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_yes_i_can",
+        "int3c_u07_can_you_fly_can_you_love",
+        "int3c_u07_can_you_fly_butterfly"
+      ],
+      "correct": "int3c_u07_can_you_fly_yes_i_can",
+      "why_wrong": {
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_can_you_love": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…"
+      },
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_yes_i_can": "Yes I Can",
+        "int3c_u07_can_you_fly_can_you_love": "Can You Love",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3c_u07_q02"
+    },
+    {
+      "id": "int3_review_u4_i3c_u08_q02",
+      "type": 1,
+      "prompt_text": "What time is it?",
+      "audio_id": "u08_q02",
+      "image_ids": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_what_time_is_it"
+      ],
+      "choices": [
+        "int3c_u08_what_time_detention",
+        "int3c_u08_what_time_four_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_what_time_is_it"
+      ],
+      "correct": "int3c_u08_what_time_what_time_is_it",
+      "why_wrong": {
+        "int3c_u08_what_time_detention": "Look at the clock again.",
+        "int3c_u08_what_time_four_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_ten_oclock": "Look at the clock again."
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_detention": "Detention",
+        "int3c_u08_what_time_four_oclock": "Four Oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_what_time_is_it": "What Time Is It"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3c_u08_q02"
+    },
+    {
+      "id": "int3_review_u4_i3a_u07_q03",
+      "type": 1,
+      "prompt_text": "Jump rope!",
+      "audio_id": "u07_q03",
+      "image_ids": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
+      ],
+      "choices": [
+        "int3a_gym-class_stand_up",
+        "int3a_gym-class_lie_down",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_jump_rope"
+      ],
+      "correct": "int3a_gym-class_jump_rope",
+      "why_wrong": {
+        "int3a_gym-class_stand_up": "That shows Stand up, not Jump rope.",
+        "int3a_gym-class_lie_down": "That shows Lie down, not Jump rope.",
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Jump rope."
+      },
+      "unit": 7,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_stand_up": "Stand up",
+        "int3a_gym-class_lie_down": "Lie down",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_jump_rope": "Jump rope"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3a_u07_q03"
+    },
+    {
+      "id": "int3_review_u4_i3a_u08_q03",
+      "type": 1,
+      "prompt_text": "I can sing and dance.",
+      "audio_id": "u08_q03",
+      "image_ids": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
+      ],
+      "choices": [
+        "int3a_introduction_dogs",
+        "int3a_introduction_sing_dance",
+        "int3a_introduction_juklim",
+        "int3a_introduction_music"
+      ],
+      "correct": "int3a_introduction_sing_dance",
+      "why_wrong": {
+        "int3a_introduction_dogs": "That shows dogs, not sing and dance.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not sing and dance.",
+        "int3a_introduction_music": "That shows music, not sing and dance."
+      },
+      "unit": 8,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_sing_dance": "sing and dance",
+        "int3a_introduction_juklim": "Juklim Elementary",
+        "int3a_introduction_music": "music"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3a_u08_q03"
+    },
+    {
+      "id": "int3_review_u4_i3b_u07_q03",
+      "type": 7,
+      "prompt_text": "Listen. Which sentence did you hear?",
+      "speak_text": "Don't forget your transit card.",
+      "audio_id": "unit7-q12",
+      "image_ids": [],
+      "choices": [
+        "Don't forget my transit card.",
+        "Don't forget your transit card.",
+        "Don't forget your textbook.",
+        "Forget your transit card."
+      ],
+      "correct": "Don't forget your transit card.",
+      "why_wrong": {
+        "Don't forget my transit card.": "Listen again. You heard: \"Don't forget your transit card.\"",
+        "Don't forget your textbook.": "Listen again. You heard: \"Don't forget your transit card.\"",
+        "Forget your transit card.": "Listen again. You heard: \"Don't forget your transit card.\""
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4",
+      "merge_source_book": "int3b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3b_u07_q12"
+    },
+    {
+      "id": "int3_review_u4_i3b_u08_q03",
+      "type": 1,
+      "prompt_text": "I am 22 years old forever.",
+      "audio_id": "unit8-q03",
+      "image_ids": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
+      ],
+      "choices": [
+        "i3b_22forever",
+        "i3b_what",
+        "i3b_gimbap",
+        "i3b_187cm"
+      ],
+      "correct": "i3b_22forever",
+      "why_wrong": {
+        "i3b_what": "You tapped \"What\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_gimbap": "You tapped \"Gimbap\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!",
+        "i3b_187cm": "You tapped \"187 cm tall\", but the audio said: \"I am 22 years old forever.\". The correct picture is \"22 years old forever\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_22forever": "22 years old forever",
+        "i3b_what": "What",
+        "i3b_gimbap": "Gimbap",
+        "i3b_187cm": "187 cm tall"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3b_u08_q03"
+    },
+    {
+      "id": "int3_review_u4_i3c_u07_q03",
+      "type": 1,
+      "prompt_text": "Can you jump?",
+      "audio_id": "u07_q03",
+      "image_ids": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_helicopter"
+      ],
+      "choices": [
+        "int3c_u07_can_you_fly_jump",
+        "int3c_u07_can_you_fly_train",
+        "int3c_u07_can_you_fly_can_you_cook",
+        "int3c_u07_can_you_fly_helicopter"
+      ],
+      "correct": "int3c_u07_can_you_fly_jump",
+      "why_wrong": {
+        "int3c_u07_can_you_fly_train": "Trains stay on tracks.",
+        "int3c_u07_can_you_fly_can_you_cook": "That is not the correct answer. Listen again!",
+        "int3c_u07_can_you_fly_helicopter": "A helicopter is a machine, not Can you fly?"
+      },
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_jump": "Jump",
+        "int3c_u07_can_you_fly_train": "Train",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook",
+        "int3c_u07_can_you_fly_helicopter": "Helicopter"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3c_u07_q03"
+    },
+    {
+      "id": "int3_review_u4_i3c_u08_q03",
+      "type": 1,
+      "prompt_text": "It is five o'clock.",
+      "audio_id": "u08_q03",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
+      ],
+      "choices": [
+        "int3c_u08_what_time_wrong_eleven_oclock",
+        "int3c_u08_what_time_five_oclock",
+        "int3c_u08_what_time_one_oclock",
+        "int3c_u08_what_time_wrong_ten_oclock"
+      ],
+      "correct": "int3c_u08_what_time_five_oclock",
+      "why_wrong": {
+        "int3c_u08_what_time_wrong_eleven_oclock": "That clock is not eleven o'clock.",
+        "int3c_u08_what_time_one_oclock": "Look at the clock again.",
+        "int3c_u08_what_time_wrong_ten_oclock": "That clock is not ten o'clock."
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_eleven_oclock": "Wrong Eleven Oclock",
+        "int3c_u08_what_time_five_oclock": "Five Oclock",
+        "int3c_u08_what_time_one_oclock": "One Oclock",
+        "int3c_u08_what_time_wrong_ten_oclock": "Wrong Ten Oclock"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3c_u08_q03"
+    },
+    {
+      "id": "int3_review_u4_i3a_u07_q04",
+      "type": 1,
+      "prompt_text": "Climb up!",
+      "audio_id": "u07_q04",
+      "image_ids": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
+      ],
+      "choices": [
+        "int3a_gym-class_climb_up",
+        "int3a_gym-class_jumping_jacks",
+        "int3a_gym-class_run_around",
+        "int3a_gym-class_sit_down"
+      ],
+      "correct": "int3a_gym-class_climb_up",
+      "why_wrong": {
+        "int3a_gym-class_jumping_jacks": "That shows Do jumping jacks, not Climb up.",
+        "int3a_gym-class_run_around": "That shows Run around, not Climb up.",
+        "int3a_gym-class_sit_down": "That shows Sit down, not Climb up."
+      },
+      "unit": 7,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_gym-class_climb_up": "Climb up",
+        "int3a_gym-class_jumping_jacks": "Do jumping jacks",
+        "int3a_gym-class_run_around": "Run around",
+        "int3a_gym-class_sit_down": "Sit down"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3a_u07_q04"
+    },
+    {
+      "id": "int3_review_u4_i3a_u08_q04",
+      "type": 1,
+      "prompt_text": "I can draw.",
+      "audio_id": "u08_q04",
+      "image_ids": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_draw",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
+      ],
+      "choices": [
+        "int3a_introduction_family_6",
+        "int3a_introduction_draw",
+        "int3a_introduction_dogs",
+        "int3a_introduction_juklim"
+      ],
+      "correct": "int3a_introduction_draw",
+      "why_wrong": {
+        "int3a_introduction_family_6": "That shows family of 6, not draw.",
+        "int3a_introduction_dogs": "That shows dogs, not draw.",
+        "int3a_introduction_juklim": "That shows Juklim Elementary, not draw."
+      },
+      "unit": 8,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_introduction_family_6": "family of 6",
+        "int3a_introduction_draw": "draw",
+        "int3a_introduction_dogs": "dogs",
+        "int3a_introduction_juklim": "Juklim Elementary"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3a_u08_q04"
+    },
+    {
+      "id": "int3_review_u4_i3b_u07_q04",
+      "type": 1,
+      "prompt_text": "Listen. Tap the picture.",
+      "speak_text": "Don't forget your hat.",
+      "audio_id": "unit7-q02",
+      "image_ids": [
+        "i3b_hat",
+        "i3b_coat",
+        "i3b_lunch",
+        "i3b_sister"
+      ],
+      "choices": [
+        "i3b_hat",
+        "i3b_coat",
+        "i3b_lunch",
+        "i3b_sister"
+      ],
+      "correct": "i3b_hat",
+      "why_wrong": {
+        "i3b_coat": "Not this one. The picture was \"hat\". Listen again!",
+        "i3b_lunch": "Not this one. The picture was \"hat\". Listen again!",
+        "i3b_sister": "Not this one. The picture was \"hat\". Listen again!"
+      },
+      "choice_labels": {
+        "i3b_hat": "hat",
+        "i3b_coat": "coat",
+        "i3b_lunch": "lunch",
+        "i3b_sister": "little sister"
+      },
+      "unit": 7,
+      "level": "int3b",
+      "source": "day4",
+      "merge_source_book": "int3b",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3b_u07_q02"
+    },
+    {
+      "id": "int3_review_u4_i3b_u08_q04",
+      "type": 1,
+      "prompt_text": "Why did you come to Korea? To teach English!",
+      "audio_id": "unit8-q04",
+      "image_ids": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
+      ],
+      "choices": [
+        "i3b_teacheng",
+        "i3b_why",
+        "i3b_who",
+        "i3b_gfsecret"
+      ],
+      "correct": "i3b_teacheng",
+      "why_wrong": {
+        "i3b_why": "You tapped \"Why\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_who": "You tapped \"Who\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!",
+        "i3b_gfsecret": "You tapped \"girlfriend secret\", but the audio said: \"Why did you come to Korea? To teach English!\". The correct picture is \"teach English\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacheng": "teach English",
+        "i3b_why": "Why",
+        "i3b_who": "Who",
+        "i3b_gfsecret": "girlfriend secret"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3b_u08_q04"
+    },
+    {
+      "id": "int3_review_u4_i3c_u07_q04",
+      "type": 1,
+      "prompt_text": "Can you sing?",
+      "audio_id": "u07_q04",
+      "image_ids": [
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_can_you_cook"
+      ],
+      "choices": [
+        "int3c_u07_can_you_fly_sing",
+        "int3c_u07_can_you_fly_car",
+        "int3c_u07_can_you_fly_butterfly",
+        "int3c_u07_can_you_fly_can_you_cook"
+      ],
+      "correct": "int3c_u07_can_you_fly_sing",
+      "why_wrong": {
+        "int3c_u07_can_you_fly_car": "Cars cannot fly.",
+        "int3c_u07_can_you_fly_butterfly": "A butterfly flies — this unit asks Can you dance, jump, fly…",
+        "int3c_u07_can_you_fly_can_you_cook": "That is not the correct answer. Listen again!"
+      },
+      "unit": 7,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u07_can_you_fly_sing": "Sing",
+        "int3c_u07_can_you_fly_car": "Car",
+        "int3c_u07_can_you_fly_butterfly": "Butterfly",
+        "int3c_u07_can_you_fly_can_you_cook": "Can You Cook"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 7,
+      "merge_source_id": "i3c_u07_q04"
+    },
+    {
+      "id": "int3_review_u4_i3c_u08_q04",
+      "type": 1,
+      "prompt_text": "It is six o'clock.",
+      "audio_id": "u08_q04",
+      "image_ids": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_six_oclock"
+      ],
+      "choices": [
+        "int3c_u08_what_time_wrong_nine_oclock",
+        "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_ten_oclock",
+        "int3c_u08_what_time_six_oclock"
+      ],
+      "correct": "int3c_u08_what_time_six_oclock",
+      "why_wrong": {
+        "int3c_u08_what_time_wrong_nine_oclock": "You tapped \"Wrong Nine Oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!",
+        "int3c_u08_what_time_wrong_three_oclock": "You tapped \"int3c_u08_what_time_wrong_three_oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!",
+        "int3c_u08_what_time_ten_oclock": "You tapped \"Ten Oclock\", but the audio said: \"It is six o'clock.\". The correct picture is \"Six Oclock\". Listen again!"
+      },
+      "unit": 8,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u08_what_time_wrong_nine_oclock": "Wrong Nine Oclock",
+        "int3c_u08_what_time_wrong_three_oclock": "int3c_u08_what_time_wrong_three_oclock",
+        "int3c_u08_what_time_ten_oclock": "Ten Oclock",
+        "int3c_u08_what_time_six_oclock": "Six Oclock"
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u08_what_time_wrong_ten_oclock looked like the key/another option in this question -> int3c_u08_what_time_wrong_three_oclock",
+      "merge_source_book": "int3c",
+      "merge_source_unit": 8,
+      "merge_source_id": "i3c_u08_q04"
+    }
+  ]
+}
