@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "level": "basic_review",
+    "title": "Basic Review (A + B + C) — Review THREE",
+    "kind": "review",
+    "review_id": "u3",
+    "units_covered": [
+      5,
+      6
+    ],
+    "books_mixed": [
+      "basic_a",
+      "basic_b",
+      "basic_c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "basic_review_u3_ba_u05_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u05_aud_word_mom",
+      "image_ids": [
+        "pic_dad",
+        "pic_sister",
+        "pic_mom",
+        "pic_cousin"
+      ],
+      "choices": [
+        "pic_dad",
+        "pic_sister",
+        "pic_mom",
+        "pic_cousin"
+      ],
+      "correct": "pic_mom",
+      "why_wrong": {
+        "pic_dad": "Not this one. Try again!",
+        "pic_sister": "Not this one. Try again!",
+        "pic_cousin": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 5,
+      "merge_source_id": "ba_u05_q01"
+    },
+    {
+      "id": "basic_review_u3_ba_u06_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "ba_u06_aud_word_desk",
+      "image_ids": [
+        "pic_desk",
+        "pic_cube",
+        "pic_keyboard",
+        "pic_headset"
+      ],
+      "choices": [
+        "pic_desk",
+        "pic_cube",
+        "pic_keyboard",
+        "pic_headset"
+      ],
+      "correct": "pic_desk",
+      "why_wrong": {
+        "pic_cube": "Not this one. Try again!",
+        "pic_keyboard": "Not this one. Try again!",
+        "pic_headset": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 6,
+      "merge_source_id": "ba_u06_q01"
+    },
+    {
+      "id": "basic_review_u3_bb_u05_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u05_aud_word_book",
+      "image_ids": [
+        "pic_toy",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_sock"
+      ],
+      "choices": [
+        "pic_toy",
+        "pic_phone_charger",
+        "pic_book",
+        "pic_sock"
+      ],
+      "correct": "pic_book",
+      "why_wrong": {
+        "pic_toy": "Not this one. Try again!",
+        "pic_phone_charger": "Not this one. Try again!",
+        "pic_sock": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 5,
+      "merge_source_id": "bb_u05_q01"
+    },
+    {
+      "id": "basic_review_u3_bb_u06_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bb_u06_aud_word_head",
+      "image_ids": [
+        "pic_nose",
+        "pic_head",
+        "pic_mouth",
+        "pic_body"
+      ],
+      "choices": [
+        "pic_nose",
+        "pic_head",
+        "pic_mouth",
+        "pic_body"
+      ],
+      "correct": "pic_head",
+      "why_wrong": {
+        "pic_nose": "Not this one. Try again!",
+        "pic_mouth": "Not this one. Try again!",
+        "pic_body": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 6,
+      "merge_source_id": "bb_u06_q01"
+    },
+    {
+      "id": "basic_review_u3_bc_u05_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u05_aud_word_pig",
+      "image_ids": [
+        "pic_pig",
+        "pic_seoul",
+        "pic_tongyeong",
+        "pic_cat"
+      ],
+      "choices": [
+        "pic_pig",
+        "pic_seoul",
+        "pic_tongyeong",
+        "pic_cat"
+      ],
+      "correct": "pic_pig",
+      "why_wrong": {
+        "pic_seoul": "Not this one. Try again!",
+        "pic_tongyeong": "Not this one. Try again!",
+        "pic_cat": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 5,
+      "merge_source_id": "bc_u05_q01"
+    },
+    {
+      "id": "basic_review_u3_bc_u06_q01",
+      "type": 1,
+      "prompt_text": "Listen. Click the matching picture.",
+      "audio_id": "bc_u06_aud_word_arm",
+      "image_ids": [
+        "pic_arm",
+        "pic_knee",
+        "pic_leg",
+        "pic_back"
+      ],
+      "choices": [
+        "pic_arm",
+        "pic_knee",
+        "pic_leg",
+        "pic_back"
+      ],
+      "correct": "pic_arm",
+      "why_wrong": {
+        "pic_knee": "Not this one. Try again!",
+        "pic_leg": "Not this one. Try again!",
+        "pic_back": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 6,
+      "merge_source_id": "bc_u06_q01"
+    },
+    {
+      "id": "basic_review_u3_ba_u05_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u05_aud_listen_mom",
+      "image_ids": [
+        "pic_mom"
+      ],
+      "choices": [
+        "grandmother",
+        "aunt",
+        "sister",
+        "mom"
+      ],
+      "correct": "mom",
+      "why_wrong": {
+        "grandmother": "Not this one. Try again!",
+        "aunt": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 5,
+      "merge_source_id": "ba_u05_q04"
+    },
+    {
+      "id": "basic_review_u3_ba_u06_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "ba_u06_aud_listen_desk",
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "desk",
+        "cube",
+        "pen",
+        "gym ball"
+      ],
+      "correct": "desk",
+      "why_wrong": {
+        "cube": "Not this one. Try again!",
+        "pen": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 6,
+      "merge_source_id": "ba_u06_q04"
+    },
+    {
+      "id": "basic_review_u3_bb_u05_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u05_aud_listen_book",
+      "image_ids": [
+        "pic_book"
+      ],
+      "choices": [
+        "toy",
+        "toothbrush",
+        "book",
+        "teddy bear"
+      ],
+      "correct": "book",
+      "why_wrong": {
+        "toy": "Not this one. Try again!",
+        "toothbrush": "Not this one. Try again!",
+        "teddy bear": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 5,
+      "merge_source_id": "bb_u05_q04"
+    },
+    {
+      "id": "basic_review_u3_bb_u06_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bb_u06_aud_listen_head",
+      "image_ids": [
+        "pic_head"
+      ],
+      "choices": [
+        "neck",
+        "head",
+        "nose",
+        "body"
+      ],
+      "correct": "head",
+      "why_wrong": {
+        "neck": "Not this one. Try again!",
+        "nose": "Not this one. Try again!",
+        "body": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 6,
+      "merge_source_id": "bb_u06_q04"
+    },
+    {
+      "id": "basic_review_u3_bc_u05_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u05_aud_listen_pig",
+      "image_ids": [
+        "pic_pig"
+      ],
+      "choices": [
+        "pig",
+        "dog",
+        "cat",
+        "Tongyeong"
+      ],
+      "correct": "pig",
+      "why_wrong": {
+        "dog": "Not this one. Try again!",
+        "cat": "Not this one. Try again!",
+        "Tongyeong": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 5,
+      "merge_source_id": "bc_u05_q04"
+    },
+    {
+      "id": "basic_review_u3_bc_u06_q02",
+      "type": 2,
+      "prompt_text": "Listen. Click the correct word.",
+      "audio_id": "bc_u06_aud_listen_arm",
+      "image_ids": [
+        "pic_arm"
+      ],
+      "choices": [
+        "stomach",
+        "leg",
+        "arm",
+        "face"
+      ],
+      "correct": "arm",
+      "why_wrong": {
+        "stomach": "Not this one. Try again!",
+        "leg": "Not this one. Try again!",
+        "face": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 6,
+      "merge_source_id": "bc_u06_q04"
+    },
+    {
+      "id": "basic_review_u3_ba_u05_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_aunt"
+      ],
+      "choices": [
+        "aunt",
+        "mom",
+        "dad",
+        "sister"
+      ],
+      "correct": "aunt",
+      "why_wrong": {
+        "mom": "Not this one. Try again!",
+        "dad": "Not this one. Try again!",
+        "sister": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 5,
+      "merge_source_id": "ba_u05_q07"
+    },
+    {
+      "id": "basic_review_u3_ba_u06_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_clipboard"
+      ],
+      "choices": [
+        "mouse",
+        "gym ball",
+        "desk",
+        "clipboard"
+      ],
+      "correct": "clipboard",
+      "why_wrong": {
+        "mouse": "Not this one. Try again!",
+        "gym ball": "Not this one. Try again!",
+        "desk": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 6,
+      "merge_source_id": "ba_u06_q07"
+    },
+    {
+      "id": "basic_review_u3_bb_u05_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_night_light"
+      ],
+      "choices": [
+        "sock",
+        "book",
+        "phone charger",
+        "night light"
+      ],
+      "correct": "night light",
+      "why_wrong": {
+        "sock": "Not this one. Try again!",
+        "book": "Not this one. Try again!",
+        "phone charger": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 5,
+      "merge_source_id": "bb_u05_q07"
+    },
+    {
+      "id": "basic_review_u3_bb_u06_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_eye"
+      ],
+      "choices": [
+        "head",
+        "nose",
+        "eye",
+        "mouth"
+      ],
+      "correct": "eye",
+      "why_wrong": {
+        "head": "Not this one. Try again!",
+        "nose": "Not this one. Try again!",
+        "mouth": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 6,
+      "merge_source_id": "bb_u06_q07"
+    },
+    {
+      "id": "basic_review_u3_bc_u05_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_cat"
+      ],
+      "choices": [
+        "cat",
+        "pig",
+        "Seoul",
+        "dog"
+      ],
+      "correct": "cat",
+      "why_wrong": {
+        "pig": "Not this one. Try again!",
+        "Seoul": "Not this one. Try again!",
+        "dog": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 5,
+      "merge_source_id": "bc_u05_q07"
+    },
+    {
+      "id": "basic_review_u3_bc_u06_q03",
+      "type": 3,
+      "prompt_text": "Look at the picture. Click the correct English word.",
+      "audio_id": null,
+      "image_ids": [
+        "pic_back"
+      ],
+      "choices": [
+        "knee",
+        "leg",
+        "back",
+        "arm"
+      ],
+      "correct": "back",
+      "why_wrong": {
+        "knee": "Not this one. Try again!",
+        "leg": "Not this one. Try again!",
+        "arm": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 6,
+      "merge_source_id": "bc_u06_q07"
+    },
+    {
+      "id": "basic_review_u3_ba_u05_q04",
+      "type": 4,
+      "prompt_text": "Student says: “This is my mom”  What does Mr Jay say?",
+      "audio_id": "ba_u05_aud_stu_10",
+      "image_ids": [
+        "pic_sister"
+      ],
+      "choices": [
+        "I have five brothers",
+        "She is beautiful",
+        "I have six sisters",
+        "He is handsome"
+      ],
+      "correct": "She is beautiful",
+      "why_wrong": {
+        "I have five brothers": "Not this one. Try again!",
+        "I have six sisters": "Not this one. Try again!",
+        "He is handsome": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 5,
+      "merge_source_id": "ba_u05_q10"
+    },
+    {
+      "id": "basic_review_u3_ba_u06_q04",
+      "type": 4,
+      "prompt_text": "Student says: “What is this?”  What does Mr Jay say?",
+      "audio_id": "ba_u06_aud_stu_10",
+      "image_ids": [
+        "pic_desk"
+      ],
+      "choices": [
+        "My desk is big",
+        "Sorry but I cannot see.",
+        "be careful",
+        "mouse is spelled M O U S E"
+      ],
+      "correct": "Sorry but I cannot see.",
+      "why_wrong": {
+        "My desk is big": "Not this one. Try again!",
+        "be careful": "Not this one. Try again!",
+        "mouse is spelled M O U S E": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_a",
+      "merge_source_book": "basic_a",
+      "merge_source_unit": 6,
+      "merge_source_id": "ba_u06_q10"
+    },
+    {
+      "id": "basic_review_u3_bb_u05_q04",
+      "type": 4,
+      "prompt_text": "Student says: “It is a book.”  What does Mr Jay say?",
+      "audio_id": "bb_u05_aud_stu_10",
+      "image_ids": [
+        "pic_phone_charger"
+      ],
+      "choices": [
+        "book is spelled B O O K",
+        "I do not like socks",
+        "toy is spelled T O Y",
+        "I have a note 10 phone"
+      ],
+      "correct": "book is spelled B O O K",
+      "why_wrong": {
+        "I do not like socks": "Not this one. Try again!",
+        "toy is spelled T O Y": "Not this one. Try again!",
+        "I have a note 10 phone": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 5,
+      "merge_source_id": "bb_u05_q10"
+    },
+    {
+      "id": "basic_review_u3_bb_u06_q04",
+      "type": 4,
+      "prompt_text": "Student says: “This is my head.”  What does Mr Jay say?",
+      "audio_id": "bb_u06_aud_stu_10",
+      "image_ids": [
+        "pic_ear"
+      ],
+      "choices": [
+        "I have two ears",
+        "My nose is very long.",
+        "mouth is spelled M O U T H",
+        "head is spelled H E A D"
+      ],
+      "correct": "head is spelled H E A D",
+      "why_wrong": {
+        "I have two ears": "Not this one. Try again!",
+        "My nose is very long.": "Not this one. Try again!",
+        "mouth is spelled M O U T H": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_b",
+      "merge_source_book": "basic_b",
+      "merge_source_unit": 6,
+      "merge_source_id": "bb_u06_q10"
+    },
+    {
+      "id": "basic_review_u3_bc_u05_q04",
+      "type": 4,
+      "prompt_text": "Student says: “Hello students”  What does Mr Jay say?",
+      "audio_id": "bc_u05_aud_stu_10",
+      "image_ids": [
+        "pic_pig"
+      ],
+      "choices": [
+        "I love spelling bees.",
+        "P I G",
+        "I am not a student. I am an English teacher!",
+        "D O G"
+      ],
+      "correct": "I am not a student. I am an English teacher!",
+      "why_wrong": {
+        "I love spelling bees.": "Not this one. Try again!",
+        "P I G": "Not this one. Try again!",
+        "D O G": "Not this one. Try again!"
+      },
+      "unit": 5,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 5,
+      "merge_source_id": "bc_u05_q10"
+    },
+    {
+      "id": "basic_review_u3_bc_u06_q04",
+      "type": 4,
+      "prompt_text": "Student says: “DON'T TOUCH your arm”  What does Mr Jay say?",
+      "audio_id": "bc_u06_aud_stu_10",
+      "image_ids": [
+        "pic_face"
+      ],
+      "choices": [
+        "Sorry but my back is itchy!",
+        "Sorry but my knee is itchy!",
+        "Sorry but my leg is itchy!",
+        "Sorry but my arm is itchy!"
+      ],
+      "correct": "Sorry but my arm is itchy!",
+      "why_wrong": {
+        "Sorry but my back is itchy!": "Not this one. Try again!",
+        "Sorry but my knee is itchy!": "Not this one. Try again!",
+        "Sorry but my leg is itchy!": "Not this one. Try again!"
+      },
+      "unit": 6,
+      "level": "basic_c",
+      "merge_source_book": "basic_c",
+      "merge_source_unit": 6,
+      "merge_source_id": "bc_u06_q10"
+    }
+  ]
+}

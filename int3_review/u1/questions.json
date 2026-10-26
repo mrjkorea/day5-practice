@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "level": "int3_review",
+    "title": "Int 3 Review (3A + 3B + 3C) — Review ONE",
+    "kind": "review",
+    "review_id": "u1",
+    "units_covered": [
+      1,
+      2
+    ],
+    "books_mixed": [
+      "int3a",
+      "int3b",
+      "int3c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int3_review_u1_i3a_u01_q01",
+      "type": 1,
+      "prompt_text": "I can draw a circle.",
+      "audio_id": "u01_q01",
+      "image_ids": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_tree"
+      ],
+      "choices": [
+        "int3a_draw-monster_dragon",
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_circle",
+      "why_wrong": {
+        "int3a_draw-monster_dragon": "That shows dragon, not circle.",
+        "int3a_draw-monster_apple": "That shows apple, not circle.",
+        "int3a_draw-monster_tree": "That shows tree, not circle."
+      },
+      "unit": 1,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_dragon": "dragon",
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_tree": "tree"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3a_u01_q01"
+    },
+    {
+      "id": "int3_review_u1_i3a_u02_q01",
+      "type": 1,
+      "prompt_text": "I like vanilla.",
+      "audio_id": "u02_q01",
+      "image_ids": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate"
+      ],
+      "choices": [
+        "int3a_flavor_red_bean",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_watermelon",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_vanilla",
+      "why_wrong": {
+        "int3a_flavor_red_bean": "That shows red bean, not vanilla.",
+        "int3a_flavor_watermelon": "That shows watermelon, not vanilla.",
+        "int3a_flavor_chocolate": "That shows chocolate, not vanilla."
+      },
+      "unit": 2,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_red_bean": "red bean",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_chocolate": "chocolate"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3a_u02_q01"
+    },
+    {
+      "id": "int3_review_u1_i3b_u01_q01",
+      "type": 1,
+      "prompt_text": "I am in kindergarten.",
+      "audio_id": "unit1-q01",
+      "image_ids": [
+        "i3b_g8",
+        "i3b_g4",
+        "i3b_kinder",
+        "i3b_g3"
+      ],
+      "choices": [
+        "i3b_g8",
+        "i3b_g4",
+        "i3b_kinder",
+        "i3b_g3"
+      ],
+      "correct": "i3b_kinder",
+      "why_wrong": {
+        "i3b_g8": "You tapped \"the eighth grade\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!",
+        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!",
+        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"I am in kindergarten.\". The correct picture is \"kindergarten\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g8": "the eighth grade",
+        "i3b_g4": "the fourth grade",
+        "i3b_kinder": "kindergarten",
+        "i3b_g3": "the third grade"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3b_u01_q01"
+    },
+    {
+      "id": "int3_review_u1_i3b_u02_q01",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a guitar.",
+      "audio_id": "unit2-q01",
+      "image_ids": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
+      ],
+      "choices": [
+        "i3b_trumpet",
+        "i3b_sax",
+        "i3b_guitar",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_guitar",
+      "why_wrong": {
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"No, it is not. It is a guitar.\". The correct picture is \"guitar\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_trumpet": "trumpet",
+        "i3b_sax": "saxophone",
+        "i3b_guitar": "guitar",
+        "i3b_ukulele": "ukulele"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3b_u02_q01"
+    },
+    {
+      "id": "int3_review_u1_i3c_u01_q01",
+      "type": 1,
+      "prompt_text": "Do you like sweet food?",
+      "audio_id": "u01_q01",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_do_you_like_bitter",
+        "int3c_u01_sweet_food_sweet_food",
+        "int3c_u01_sweet_food_wrong_food_shirt"
+      ],
+      "choices": [
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_do_you_like_bitter",
+        "int3c_u01_sweet_food_sweet_food",
+        "int3c_u01_sweet_food_wrong_food_shirt"
+      ],
+      "correct": "int3c_u01_sweet_food_sweet_food",
+      "why_wrong": {
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Sweet food is not the same as bitter food.",
+        "int3c_u01_sweet_food_do_you_like_bitter": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_food_shirt": "A shirt is clothes from Unit 3."
+      },
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Wrong Bitter Candy",
+        "int3c_u01_sweet_food_do_you_like_bitter": "Do You Like Bitter",
+        "int3c_u01_sweet_food_sweet_food": "Sweet Food",
+        "int3c_u01_sweet_food_wrong_food_shirt": "Wrong Food Shirt"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3c_u01_q01"
+    },
+    {
+      "id": "int3_review_u1_i3c_u02_q01",
+      "type": 1,
+      "prompt_text": "Do not run.",
+      "audio_id": "u02_q01",
+      "image_ids": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_fight_ok"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_yelling_ok",
+        "int3c_u02_do_not_yell_do_not_run",
+        "int3c_u02_do_not_yell_do_not_touch_sign",
+        "int3c_u02_do_not_yell_fight_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_run",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_yelling_ok": "Do not yell — use a quiet voice.",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_fight_ok": "Do not fight."
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_yelling_ok": "Yelling Ok",
+        "int3c_u02_do_not_yell_do_not_run": "Do Not Run",
+        "int3c_u02_do_not_yell_do_not_touch_sign": "Do Not Touch Sign",
+        "int3c_u02_do_not_yell_fight_ok": "Fight Ok"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3c_u02_q01"
+    },
+    {
+      "id": "int3_review_u1_i3a_u01_q02",
+      "type": 1,
+      "prompt_text": "What can you draw? I can draw a star.",
+      "audio_id": "u01_q02",
+      "image_ids": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_tree"
+      ],
+      "choices": [
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_circle",
+        "int3a_draw-monster_star",
+        "int3a_draw-monster_tree"
+      ],
+      "correct": "int3a_draw-monster_star",
+      "why_wrong": {
+        "int3a_draw-monster_flag": "That shows flag, not star.",
+        "int3a_draw-monster_circle": "That shows circle, not star.",
+        "int3a_draw-monster_tree": "That shows tree, not star."
+      },
+      "unit": 1,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_circle": "circle",
+        "int3a_draw-monster_star": "star",
+        "int3a_draw-monster_tree": "tree"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3a_u01_q02"
+    },
+    {
+      "id": "int3_review_u1_i3a_u02_q02",
+      "type": 1,
+      "prompt_text": "My favorite flavor is chocolate.",
+      "audio_id": "u02_q02",
+      "image_ids": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
+      ],
+      "choices": [
+        "int3a_flavor_watermelon",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_lemon",
+        "int3a_flavor_chocolate"
+      ],
+      "correct": "int3a_flavor_chocolate",
+      "why_wrong": {
+        "int3a_flavor_watermelon": "That shows watermelon, not chocolate.",
+        "int3a_flavor_vanilla": "That shows vanilla, not chocolate.",
+        "int3a_flavor_lemon": "That shows lemon, not chocolate."
+      },
+      "unit": 2,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_watermelon": "watermelon",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_chocolate": "chocolate"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3a_u02_q02"
+    },
+    {
+      "id": "int3_review_u1_i3b_u01_q02",
+      "type": 1,
+      "prompt_text": "I am in the first grade.",
+      "audio_id": "unit1-q02",
+      "image_ids": [
+        "i3b_g3",
+        "i3b_g8",
+        "i3b_g1",
+        "i3b_g6"
+      ],
+      "choices": [
+        "i3b_g3",
+        "i3b_g8",
+        "i3b_g1",
+        "i3b_g6"
+      ],
+      "correct": "i3b_g1",
+      "why_wrong": {
+        "i3b_g3": "You tapped \"the third grade\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!",
+        "i3b_g8": "You tapped \"the eighth grade\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!",
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"I am in the first grade.\". The correct picture is \"the first grade\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g3": "the third grade",
+        "i3b_g8": "the eighth grade",
+        "i3b_g1": "the first grade",
+        "i3b_g6": "the sixth grade"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3b_u01_q02"
+    },
+    {
+      "id": "int3_review_u1_i3b_u02_q02",
+      "type": 1,
+      "prompt_text": "It is a piano.",
+      "audio_id": "unit2-q02",
+      "image_ids": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "choices": [
+        "i3b_ukulele",
+        "i3b_drum",
+        "i3b_trumpet",
+        "i3b_piano"
+      ],
+      "correct": "i3b_piano",
+      "why_wrong": {
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_drum": "You tapped \"drum\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!",
+        "i3b_trumpet": "You tapped \"trumpet\", but the audio said: \"It is a piano.\". The correct picture is \"piano\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_ukulele": "ukulele",
+        "i3b_drum": "drum",
+        "i3b_trumpet": "trumpet",
+        "i3b_piano": "piano"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3b_u02_q02"
+    },
+    {
+      "id": "int3_review_u1_i3c_u01_q02",
+      "type": 1,
+      "prompt_text": "Yes, I do.",
+      "audio_id": "u01_q02",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_soy_paste_stew",
+        "int3c_u01_sweet_food_yes_i_do"
+      ],
+      "choices": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_wrong_bitter_candy",
+        "int3c_u01_sweet_food_soy_paste_stew",
+        "int3c_u01_sweet_food_yes_i_do"
+      ],
+      "correct": "int3c_u01_sweet_food_yes_i_do",
+      "why_wrong": {
+        "int3c_u01_sweet_food_wrong_sour_stew": "Soy paste stew is salty, not sour food.",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Sweet food is not the same as bitter food.",
+        "int3c_u01_sweet_food_soy_paste_stew": "That is not the correct answer. Listen again!"
+      },
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_sour_stew": "Wrong Sour Stew",
+        "int3c_u01_sweet_food_wrong_bitter_candy": "Wrong Bitter Candy",
+        "int3c_u01_sweet_food_soy_paste_stew": "Soy Paste Stew",
+        "int3c_u01_sweet_food_yes_i_do": "Yes I Do"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3c_u01_q02"
+    },
+    {
+      "id": "int3_review_u1_i3c_u02_q02",
+      "type": 1,
+      "prompt_text": "Do not yell.",
+      "audio_id": "u02_q02",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_draw_here",
+        "int3c_u02_do_not_yell_open_it_ok",
+        "int3c_u02_do_not_yell_throw_ok",
+        "int3c_u02_do_not_yell_do_not_yell"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_yell",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_do_not_draw_here": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_open_it_ok": "Do not open it.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_draw_here": "Do Not Draw Here",
+        "int3c_u02_do_not_yell_open_it_ok": "Open It Ok",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok",
+        "int3c_u02_do_not_yell_do_not_yell": "Do Not Yell"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3c_u02_q02"
+    },
+    {
+      "id": "int3_review_u1_i3a_u01_q03",
+      "type": 1,
+      "prompt_text": "Can you draw a tree?",
+      "audio_id": "u01_q03",
+      "image_ids": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
+      ],
+      "choices": [
+        "int3a_draw-monster_apple",
+        "int3a_draw-monster_flag",
+        "int3a_draw-monster_tree",
+        "int3a_draw-monster_toy"
+      ],
+      "correct": "int3a_draw-monster_tree",
+      "why_wrong": {
+        "int3a_draw-monster_apple": "That shows apple, not tree.",
+        "int3a_draw-monster_flag": "That shows flag, not tree.",
+        "int3a_draw-monster_toy": "That shows toy, not tree."
+      },
+      "unit": 1,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_apple": "apple",
+        "int3a_draw-monster_flag": "flag",
+        "int3a_draw-monster_tree": "tree",
+        "int3a_draw-monster_toy": "toy"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3a_u01_q03"
+    },
+    {
+      "id": "int3_review_u1_i3a_u02_q03",
+      "type": 1,
+      "prompt_text": "What flavor do you like? I like strawberry.",
+      "audio_id": "u02_q03",
+      "image_ids": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
+      ],
+      "choices": [
+        "int3a_flavor_lemon",
+        "int3a_flavor_cotton_candy",
+        "int3a_flavor_vanilla",
+        "int3a_flavor_strawberry"
+      ],
+      "correct": "int3a_flavor_strawberry",
+      "why_wrong": {
+        "int3a_flavor_lemon": "That shows lemon, not strawberry.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not strawberry.",
+        "int3a_flavor_vanilla": "That shows vanilla, not strawberry."
+      },
+      "unit": 2,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_lemon": "lemon",
+        "int3a_flavor_cotton_candy": "cotton candy",
+        "int3a_flavor_vanilla": "vanilla",
+        "int3a_flavor_strawberry": "strawberry"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3a_u02_q03"
+    },
+    {
+      "id": "int3_review_u1_i3b_u01_q03",
+      "type": 1,
+      "prompt_text": "I am in the second grade.",
+      "audio_id": "unit1-q03",
+      "image_ids": [
+        "i3b_g2",
+        "i3b_g11",
+        "i3b_middle",
+        "i3b_g4"
+      ],
+      "choices": [
+        "i3b_g2",
+        "i3b_g11",
+        "i3b_middle",
+        "i3b_g4"
+      ],
+      "correct": "i3b_g2",
+      "why_wrong": {
+        "i3b_g11": "You tapped \"the 11th grade\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!",
+        "i3b_middle": "You tapped \"middle school\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!",
+        "i3b_g4": "You tapped \"the fourth grade\", but the audio said: \"I am in the second grade.\". The correct picture is \"the second grade\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g2": "the second grade",
+        "i3b_g11": "the 11th grade",
+        "i3b_middle": "middle school",
+        "i3b_g4": "the fourth grade"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3b_u01_q03"
+    },
+    {
+      "id": "int3_review_u1_i3b_u02_q03",
+      "type": 1,
+      "prompt_text": "No, it is not. It is a flute.",
+      "audio_id": "unit2-q03",
+      "image_ids": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
+      ],
+      "choices": [
+        "i3b_violin",
+        "i3b_cello",
+        "i3b_sax",
+        "i3b_flute"
+      ],
+      "correct": "i3b_flute",
+      "why_wrong": {
+        "i3b_violin": "You tapped \"violin\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_cello": "You tapped \"cello\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!",
+        "i3b_sax": "You tapped \"saxophone\", but the audio said: \"No, it is not. It is a flute.\". The correct picture is \"flute\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_violin": "violin",
+        "i3b_cello": "cello",
+        "i3b_sax": "saxophone",
+        "i3b_flute": "flute"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3b_u02_q03"
+    },
+    {
+      "id": "int3_review_u1_i3c_u01_q03",
+      "type": 1,
+      "prompt_text": "Try ddeok.",
+      "audio_id": "u01_q03",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_ddeok",
+        "int3c_u01_sweet_food_wrong_salty_ddeok"
+      ],
+      "choices": [
+        "int3c_u01_sweet_food_wrong_food_dance",
+        "int3c_u01_sweet_food_what_is_it",
+        "int3c_u01_sweet_food_ddeok",
+        "int3c_u01_sweet_food_wrong_salty_ddeok"
+      ],
+      "correct": "int3c_u01_sweet_food_ddeok",
+      "why_wrong": {
+        "int3c_u01_sweet_food_wrong_food_dance": "Dance is from Unit 7.",
+        "int3c_u01_sweet_food_what_is_it": "That is not the correct answer. Listen again!",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "Ddeok is a sweet sticky rice dessert, not salty food."
+      },
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_food_dance": "Wrong Food Dance",
+        "int3c_u01_sweet_food_what_is_it": "What Is It",
+        "int3c_u01_sweet_food_ddeok": "Ddeok",
+        "int3c_u01_sweet_food_wrong_salty_ddeok": "Wrong Salty Ddeok"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3c_u01_q03"
+    },
+    {
+      "id": "int3_review_u1_i3c_u02_q03",
+      "type": 1,
+      "prompt_text": "Do not open it.",
+      "audio_id": "u02_q03",
+      "image_ids": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_open_it",
+        "int3c_u02_do_not_yell_throw_ok"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_do_not_throw_that",
+        "int3c_u02_do_not_yell_running_ok",
+        "int3c_u02_do_not_yell_do_not_open_it",
+        "int3c_u02_do_not_yell_throw_ok"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_open_it",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_do_not_throw_that": "That is not the correct answer. Listen again!",
+        "int3c_u02_do_not_yell_running_ok": "Do not run — running is not allowed here.",
+        "int3c_u02_do_not_yell_throw_ok": "Do not throw that."
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_do_not_throw_that": "Do Not Throw That",
+        "int3c_u02_do_not_yell_running_ok": "Running Ok",
+        "int3c_u02_do_not_yell_do_not_open_it": "Do Not Open It",
+        "int3c_u02_do_not_yell_throw_ok": "Throw Ok"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3c_u02_q03"
+    },
+    {
+      "id": "int3_review_u1_i3a_u01_q04",
+      "type": 1,
+      "prompt_text": "I can draw a poo.",
+      "audio_id": "u01_q04",
+      "image_ids": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
+      ],
+      "choices": [
+        "int3a_draw-monster_poo",
+        "int3a_draw-monster_monster",
+        "int3a_draw-monster_toy",
+        "int3a_draw-monster_hat"
+      ],
+      "correct": "int3a_draw-monster_poo",
+      "why_wrong": {
+        "int3a_draw-monster_monster": "That shows monster, not poo.",
+        "int3a_draw-monster_toy": "That shows toy, not poo.",
+        "int3a_draw-monster_hat": "That shows hat, not poo."
+      },
+      "unit": 1,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_draw-monster_poo": "poo",
+        "int3a_draw-monster_monster": "monster",
+        "int3a_draw-monster_toy": "toy",
+        "int3a_draw-monster_hat": "hat"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3a_u01_q04"
+    },
+    {
+      "id": "int3_review_u1_i3a_u02_q04",
+      "type": 1,
+      "prompt_text": "I like melon.",
+      "audio_id": "u02_q04",
+      "image_ids": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
+      ],
+      "choices": [
+        "int3a_flavor_melon",
+        "int3a_flavor_mint",
+        "int3a_flavor_chocolate",
+        "int3a_flavor_cotton_candy"
+      ],
+      "correct": "int3a_flavor_melon",
+      "why_wrong": {
+        "int3a_flavor_mint": "That shows mint, not melon.",
+        "int3a_flavor_chocolate": "That shows chocolate, not melon.",
+        "int3a_flavor_cotton_candy": "That shows cotton candy, not melon."
+      },
+      "unit": 2,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_flavor_melon": "melon",
+        "int3a_flavor_mint": "mint",
+        "int3a_flavor_chocolate": "chocolate",
+        "int3a_flavor_cotton_candy": "cotton candy"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3a_u02_q04"
+    },
+    {
+      "id": "int3_review_u1_i3b_u01_q04",
+      "type": 1,
+      "prompt_text": "I am in the third grade.",
+      "audio_id": "unit1-q04",
+      "image_ids": [
+        "i3b_g7",
+        "i3b_g3",
+        "i3b_middle",
+        "i3b_g6"
+      ],
+      "choices": [
+        "i3b_g7",
+        "i3b_g3",
+        "i3b_middle",
+        "i3b_g6"
+      ],
+      "correct": "i3b_g3",
+      "why_wrong": {
+        "i3b_g7": "You tapped \"the seventh grade\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!",
+        "i3b_middle": "You tapped \"middle school\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!",
+        "i3b_g6": "You tapped \"the sixth grade\", but the audio said: \"I am in the third grade.\". The correct picture is \"the third grade\". Listen again!"
+      },
+      "unit": 1,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_g7": "the seventh grade",
+        "i3b_g3": "the third grade",
+        "i3b_middle": "middle school",
+        "i3b_g6": "the sixth grade"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3b_u01_q04"
+    },
+    {
+      "id": "int3_review_u1_i3b_u02_q04",
+      "type": 1,
+      "prompt_text": "It is a drum.",
+      "audio_id": "unit2-q04",
+      "image_ids": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
+      ],
+      "choices": [
+        "i3b_flute",
+        "i3b_piano",
+        "i3b_drum",
+        "i3b_ukulele"
+      ],
+      "correct": "i3b_drum",
+      "why_wrong": {
+        "i3b_flute": "You tapped \"flute\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_piano": "You tapped \"piano\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!",
+        "i3b_ukulele": "You tapped \"ukulele\", but the audio said: \"It is a drum.\". The correct picture is \"drum\". Listen again!"
+      },
+      "unit": 2,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_flute": "flute",
+        "i3b_piano": "piano",
+        "i3b_drum": "drum",
+        "i3b_ukulele": "ukulele"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3b_u02_q04"
+    },
+    {
+      "id": "int3_review_u1_i3c_u01_q04",
+      "type": 1,
+      "prompt_text": "It is a sticky rice dessert.",
+      "audio_id": "u01_q04",
+      "image_ids": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_wrong_food_shirt",
+        "int3c_u01_sweet_food_sauteed_bellflower_root",
+        "int3c_u01_sweet_food_sticky_rice_dessert"
+      ],
+      "choices": [
+        "int3c_u01_sweet_food_wrong_sour_stew",
+        "int3c_u01_sweet_food_wrong_food_shirt",
+        "int3c_u01_sweet_food_sauteed_bellflower_root",
+        "int3c_u01_sweet_food_sticky_rice_dessert"
+      ],
+      "correct": "int3c_u01_sweet_food_sticky_rice_dessert",
+      "why_wrong": {
+        "int3c_u01_sweet_food_wrong_sour_stew": "Soy paste stew is salty, not sour food.",
+        "int3c_u01_sweet_food_wrong_food_shirt": "A shirt is clothes from Unit 3.",
+        "int3c_u01_sweet_food_sauteed_bellflower_root": "That is not the correct answer. Listen again!"
+      },
+      "unit": 1,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u01_sweet_food_wrong_sour_stew": "Wrong Sour Stew",
+        "int3c_u01_sweet_food_wrong_food_shirt": "Wrong Food Shirt",
+        "int3c_u01_sweet_food_sauteed_bellflower_root": "Sauteed Bellflower Root",
+        "int3c_u01_sweet_food_sticky_rice_dessert": "Sticky Rice Dessert"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 1,
+      "merge_source_id": "i3c_u01_q04"
+    },
+    {
+      "id": "int3_review_u1_i3c_u02_q04",
+      "type": 1,
+      "prompt_text": "Do not pull it.",
+      "audio_id": "u02_q04",
+      "image_ids": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
+      ],
+      "choices": [
+        "int3c_u02_do_not_yell_sleep_ok",
+        "int3c_u02_do_not_yell_draw_here_ok",
+        "int3c_u02_do_not_yell_do_not_pull_it",
+        "int3c_u02_do_not_yell_do_not_throw_sign"
+      ],
+      "correct": "int3c_u02_do_not_yell_do_not_pull_it",
+      "why_wrong": {
+        "int3c_u02_do_not_yell_sleep_ok": "Do not sleep here.",
+        "int3c_u02_do_not_yell_draw_here_ok": "Do not draw here.",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "That is not the correct answer. Listen again!"
+      },
+      "unit": 2,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u02_do_not_yell_sleep_ok": "Sleep Ok",
+        "int3c_u02_do_not_yell_draw_here_ok": "Draw Here Ok",
+        "int3c_u02_do_not_yell_do_not_pull_it": "Do Not Pull It",
+        "int3c_u02_do_not_yell_do_not_throw_sign": "Do Not Throw Sign"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 2,
+      "merge_source_id": "i3c_u02_q04"
+    }
+  ]
+}

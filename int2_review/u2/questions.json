@@ -1,0 +1,869 @@
+{
+  "meta": {
+    "level": "int2_review",
+    "title": "Int 2 Review (2A + 2B + 2C) — Review TWO",
+    "kind": "review",
+    "review_id": "u2",
+    "units_covered": [
+      3,
+      4
+    ],
+    "books_mixed": [
+      "int2a",
+      "int2b",
+      "int2c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int2_review_u2_i2a_u03_q01",
+      "type": 1,
+      "prompt_text": "Can you speak Chinese?",
+      "audio_id": "unit-03-q01",
+      "image_ids": [
+        "int2a_china",
+        "int2a_cafeteria",
+        "int2a_watch_tv",
+        "int2a_nurse"
+      ],
+      "choices": [
+        "int2a_china",
+        "int2a_cafeteria",
+        "int2a_watch_tv",
+        "int2a_nurse"
+      ],
+      "correct": "int2a_china",
+      "why_wrong": {
+        "int2a_cafeteria": "You tapped \"cafeteria\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_watch_tv": "You tapped \"TV\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!",
+        "int2a_nurse": "You tapped \"nurse\", but the audio said: \"Can you speak Chinese?\". The correct picture is \"China / Chinese\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_china": "China / Chinese",
+        "int2a_cafeteria": "cafeteria",
+        "int2a_watch_tv": "TV",
+        "int2a_nurse": "nurse"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2a_u03_q01"
+    },
+    {
+      "id": "int2_review_u2_i2a_u04_q01",
+      "type": 1,
+      "prompt_text": "I want medicine.",
+      "audio_id": "unit-04-q02",
+      "image_ids": [
+        "int2a_medicine",
+        "int2a_weird",
+        "int2a_hug",
+        "int2a_exciting"
+      ],
+      "choices": [
+        "int2a_medicine",
+        "int2a_weird",
+        "int2a_hug",
+        "int2a_exciting"
+      ],
+      "correct": "int2a_medicine",
+      "why_wrong": {
+        "int2a_weird": "You tapped \"weird face\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!",
+        "int2a_exciting": "You tapped \"exciting / thrilled face\", but the audio said: \"I want medicine.\". The correct picture is \"medicine\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_medicine": "medicine",
+        "int2a_weird": "weird face",
+        "int2a_hug": "hug (two people hugging)",
+        "int2a_exciting": "exciting / thrilled face"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2a_u04_q02"
+    },
+    {
+      "id": "int2_review_u2_i2b_u03_q01",
+      "type": 1,
+      "prompt_text": "I want to be a pro-gamer.",
+      "audio_id": "u3_q01",
+      "image_ids": [
+        "int2b_actor",
+        "int2b_old",
+        "int2b_monday",
+        "int2b_pro_gamer"
+      ],
+      "choices": [
+        "int2b_actor",
+        "int2b_old",
+        "int2b_monday",
+        "int2b_pro_gamer"
+      ],
+      "correct": "int2b_pro_gamer",
+      "why_wrong": {
+        "int2b_actor": "You tapped \"actor / actress\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_old": "You tapped \"old person\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!",
+        "int2b_monday": "You tapped \"Monday calendar\", but the audio said: \"I want to be a pro-gamer.\". The correct picture is \"pro-gamer\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_actor": "actor / actress",
+        "int2b_old": "old person",
+        "int2b_monday": "Monday calendar",
+        "int2b_pro_gamer": "pro-gamer"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2b_u03_q01"
+    },
+    {
+      "id": "int2_review_u2_i2b_u04_q01",
+      "type": 1,
+      "prompt_text": "What is about 100 won in Canada?",
+      "audio_id": "u4_q06",
+      "image_ids": [
+        "int2b_bus_stop",
+        "int2b_pro_gamer",
+        "int2b_car",
+        "int2b_100_won"
+      ],
+      "choices": [
+        "int2b_bus_stop",
+        "int2b_pro_gamer",
+        "int2b_car",
+        "int2b_100_won"
+      ],
+      "correct": "int2b_100_won",
+      "why_wrong": {
+        "int2b_bus_stop": "You tapped \"bus stop\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_pro_gamer": "You tapped \"pro-gamer\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!",
+        "int2b_car": "You tapped \"car\", but the audio said: \"What is about 100 won in Canada?\". The correct picture is \"100 won coin\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_bus_stop": "bus stop",
+        "int2b_pro_gamer": "pro-gamer",
+        "int2b_car": "car",
+        "int2b_100_won": "100 won coin"
+      },
+      "fix_note": "2026-09-25 key fix: 100 won was keyed to generic coins; now 100-won coin art",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2b_u04_q06"
+    },
+    {
+      "id": "int2_review_u2_i2c_u03_q01",
+      "type": 1,
+      "prompt_text": "Whose candy is this?",
+      "audio_id": "unit-03-q01",
+      "image_ids": [
+        "int2c_perfume",
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_nose"
+      ],
+      "choices": [
+        "int2c_perfume",
+        "int2c_candy",
+        "int2c_naejangsan",
+        "int2c_nose"
+      ],
+      "correct": "int2c_candy",
+      "why_wrong": {
+        "int2c_perfume": "You tapped \"perfume\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_naejangsan": "You tapped \"Naejangsan National Park\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!",
+        "int2c_nose": "You tapped \"bloody nose\", but the audio said: \"Whose candy is this?\". The correct picture is \"candy\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_perfume": "perfume",
+        "int2c_candy": "candy",
+        "int2c_naejangsan": "Naejangsan National Park",
+        "int2c_nose": "bloody nose"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2c_u03_q01"
+    },
+    {
+      "id": "int2_review_u2_i2c_u04_q01",
+      "type": 1,
+      "prompt_text": "My favorite subject is science.",
+      "audio_id": "unit-04-q01",
+      "image_ids": [
+        "int2c_swim",
+        "int2c_science",
+        "int2c_headache",
+        "int2c_worried"
+      ],
+      "choices": [
+        "int2c_swim",
+        "int2c_science",
+        "int2c_headache",
+        "int2c_worried"
+      ],
+      "correct": "int2c_science",
+      "why_wrong": {
+        "int2c_swim": "You tapped \"swimming\", but the audio said: \"My favorite subject is science.\". The correct picture is \"science\". Listen again!",
+        "int2c_headache": "You tapped \"head with headache\", but the audio said: \"My favorite subject is science.\". The correct picture is \"science\". Listen again!",
+        "int2c_worried": "You tapped \"worried face\", but the audio said: \"My favorite subject is science.\". The correct picture is \"science\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_swim": "swimming",
+        "int2c_science": "science",
+        "int2c_headache": "head with headache",
+        "int2c_worried": "worried face"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2c_u04_q01"
+    },
+    {
+      "id": "int2_review_u2_i2a_u03_q02",
+      "type": 1,
+      "prompt_text": "It has subtitles.",
+      "audio_id": "unit-03-q03",
+      "image_ids": [
+        "int2a_subtitles",
+        "int2a_australia",
+        "int2a_trees",
+        "int2a_crazy"
+      ],
+      "choices": [
+        "int2a_subtitles",
+        "int2a_australia",
+        "int2a_trees",
+        "int2a_crazy"
+      ],
+      "correct": "int2a_subtitles",
+      "why_wrong": {
+        "int2a_australia": "You tapped \"Australia\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_trees": "You tapped \"trees\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!",
+        "int2a_crazy": "You tapped \"crazy face\", but the audio said: \"It has subtitles.\". The correct picture is \"subtitles on a screen\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_subtitles": "subtitles on a screen",
+        "int2a_australia": "Australia",
+        "int2a_trees": "trees",
+        "int2a_crazy": "crazy face"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2a_u03_q03"
+    },
+    {
+      "id": "int2_review_u2_i2a_u04_q02",
+      "type": 1,
+      "prompt_text": "I want a blanket.",
+      "audio_id": "unit-04-q03",
+      "image_ids": [
+        "int2a_secretary",
+        "int2a_blanket",
+        "int2a_foggy",
+        "int2a_stormy"
+      ],
+      "choices": [
+        "int2a_secretary",
+        "int2a_blanket",
+        "int2a_foggy",
+        "int2a_stormy"
+      ],
+      "correct": "int2a_blanket",
+      "why_wrong": {
+        "int2a_secretary": "You tapped \"secretary\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_foggy": "You tapped \"foggy weather\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!",
+        "int2a_stormy": "You tapped \"stormy weather\", but the audio said: \"I want a blanket.\". The correct picture is \"blanket\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_secretary": "secretary",
+        "int2a_blanket": "blanket",
+        "int2a_foggy": "foggy weather",
+        "int2a_stormy": "stormy weather"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2a_u04_q03"
+    },
+    {
+      "id": "int2_review_u2_i2b_u03_q02",
+      "type": 1,
+      "prompt_text": "I want to be an actor.",
+      "audio_id": "u3_q02",
+      "image_ids": [
+        "int2b_hamburger",
+        "int2b_laptop_class",
+        "int2b_game_controller",
+        "int2b_actor"
+      ],
+      "choices": [
+        "int2b_hamburger",
+        "int2b_laptop_class",
+        "int2b_game_controller",
+        "int2b_actor"
+      ],
+      "correct": "int2b_actor",
+      "why_wrong": {
+        "int2b_hamburger": "You tapped \"hamburger\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_laptop_class": "You tapped \"laptop (online class)\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!",
+        "int2b_game_controller": "You tapped \"game controller\", but the audio said: \"I want to be an actor.\". The correct picture is \"actor / actress\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_hamburger": "hamburger",
+        "int2b_laptop_class": "laptop (online class)",
+        "int2b_game_controller": "game controller",
+        "int2b_actor": "actor / actress"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2b_u03_q02"
+    },
+    {
+      "id": "int2_review_u2_i2b_u04_q02",
+      "type": 1,
+      "prompt_text": "What is about 500 won?",
+      "audio_id": "u4_q07",
+      "image_ids": [
+        "int2b_convenience",
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
+      ],
+      "choices": [
+        "int2b_convenience",
+        "int2b_1000_won",
+        "int2b_500_won",
+        "int2b_5000_won"
+      ],
+      "correct": "int2b_500_won",
+      "why_wrong": {
+        "int2b_convenience": "You tapped \"convenience store\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 500 won?\". The correct picture is \"500 won coin\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_convenience": "convenience store",
+        "int2b_1000_won": "1000 won bill",
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_500_won art from Picture Maker new-pics",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2b_u04_q07"
+    },
+    {
+      "id": "int2_review_u2_i2c_u03_q02",
+      "type": 1,
+      "prompt_text": "Whose money is this?",
+      "audio_id": "unit-03-q02",
+      "image_ids": [
+        "int2c_fever",
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_money"
+      ],
+      "choices": [
+        "int2c_fever",
+        "int2c_throat",
+        "int2c_proud",
+        "int2c_money"
+      ],
+      "correct": "int2c_money",
+      "why_wrong": {
+        "int2c_fever": "You tapped \"fever thermometer\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!",
+        "int2c_proud": "You tapped \"proud face\", but the audio said: \"Whose money is this?\". The correct picture is \"money\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_fever": "fever thermometer",
+        "int2c_throat": "sore throat",
+        "int2c_proud": "proud face",
+        "int2c_money": "money"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2c_u03_q02"
+    },
+    {
+      "id": "int2_review_u2_i2c_u04_q02",
+      "type": 1,
+      "prompt_text": "My favorite animal is dogs.",
+      "audio_id": "unit-04-q02",
+      "image_ids": [
+        "int2c_confused",
+        "int2c_sunglasses",
+        "int2c_dogs",
+        "int2c_tongyeong"
+      ],
+      "choices": [
+        "int2c_confused",
+        "int2c_sunglasses",
+        "int2c_dogs",
+        "int2c_tongyeong"
+      ],
+      "correct": "int2c_dogs",
+      "why_wrong": {
+        "int2c_confused": "You tapped \"confused face\", but the audio said: \"My favorite animal is dogs.\". The correct picture is \"dogs\". Listen again!",
+        "int2c_sunglasses": "You tapped \"sunglasses\", but the audio said: \"My favorite animal is dogs.\". The correct picture is \"dogs\". Listen again!",
+        "int2c_tongyeong": "You tapped \"Tongyeong City\", but the audio said: \"My favorite animal is dogs.\". The correct picture is \"dogs\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_confused": "confused face",
+        "int2c_sunglasses": "sunglasses",
+        "int2c_dogs": "dogs",
+        "int2c_tongyeong": "Tongyeong City"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2c_u04_q02"
+    },
+    {
+      "id": "int2_review_u2_i2a_u03_q03",
+      "type": 1,
+      "prompt_text": "Can you speak Japanese?",
+      "audio_id": "unit-03-q04",
+      "image_ids": [
+        "int2a_relax",
+        "int2a_librarian",
+        "int2a_japan",
+        "int2a_hug"
+      ],
+      "choices": [
+        "int2a_relax",
+        "int2a_librarian",
+        "int2a_japan",
+        "int2a_hug"
+      ],
+      "correct": "int2a_japan",
+      "why_wrong": {
+        "int2a_relax": "You tapped \"relaxing on a couch\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_librarian": "You tapped \"librarian\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!",
+        "int2a_hug": "You tapped \"hug (two people hugging)\", but the audio said: \"Can you speak Japanese?\". The correct picture is \"Japan / Japanese\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_relax": "relaxing on a couch",
+        "int2a_librarian": "librarian",
+        "int2a_japan": "Japan / Japanese",
+        "int2a_hug": "hug (two people hugging)"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2a_u03_q04"
+    },
+    {
+      "id": "int2_review_u2_i2a_u04_q03",
+      "type": 1,
+      "prompt_text": "I want tissue paper.",
+      "audio_id": "unit-04-q04",
+      "image_ids": [
+        "int2a_want_water",
+        "int2a_basement",
+        "int2a_hot",
+        "int2a_tissue"
+      ],
+      "choices": [
+        "int2a_want_water",
+        "int2a_basement",
+        "int2a_hot",
+        "int2a_tissue"
+      ],
+      "correct": "int2a_tissue",
+      "why_wrong": {
+        "int2a_want_water": "You tapped \"water bottle\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!",
+        "int2a_hot": "You tapped \"hot weather\", but the audio said: \"I want tissue paper.\". The correct picture is \"tissue paper\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_want_water": "water bottle",
+        "int2a_basement": "basement",
+        "int2a_hot": "hot weather",
+        "int2a_tissue": "tissue paper"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2a_u04_q04"
+    },
+    {
+      "id": "int2_review_u2_i2b_u03_q03",
+      "type": 1,
+      "prompt_text": "I want to be a food critic.",
+      "audio_id": "u3_q03",
+      "image_ids": [
+        "int2b_thursday",
+        "int2b_food_critic",
+        "int2b_police",
+        "int2b_smart"
+      ],
+      "choices": [
+        "int2b_thursday",
+        "int2b_food_critic",
+        "int2b_police",
+        "int2b_smart"
+      ],
+      "correct": "int2b_food_critic",
+      "why_wrong": {
+        "int2b_thursday": "You tapped \"Thursday calendar\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_police": "You tapped \"police officer\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!",
+        "int2b_smart": "You tapped \"smart student with book\", but the audio said: \"I want to be a food critic.\". The correct picture is \"food critic\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_thursday": "Thursday calendar",
+        "int2b_food_critic": "food critic",
+        "int2b_police": "police officer",
+        "int2b_smart": "smart student with book"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2b_u03_q03"
+    },
+    {
+      "id": "int2_review_u2_i2b_u04_q03",
+      "type": 1,
+      "prompt_text": "What is about 1000 won?",
+      "audio_id": "u4_q08",
+      "image_ids": [
+        "int2b_500_won",
+        "int2b_5000_won",
+        "int2b_holiday",
+        "int2b_1000_won"
+      ],
+      "choices": [
+        "int2b_500_won",
+        "int2b_5000_won",
+        "int2b_holiday",
+        "int2b_1000_won"
+      ],
+      "correct": "int2b_1000_won",
+      "why_wrong": {
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_5000_won": "You tapped \"5000 won bill\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!",
+        "int2b_holiday": "You tapped \"holiday / party flag\", but the audio said: \"What is about 1000 won?\". The correct picture is \"1000 won bill\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill",
+        "int2b_holiday": "holiday / party flag",
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_1000_won art from Picture Maker new-pics",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2b_u04_q08"
+    },
+    {
+      "id": "int2_review_u2_i2c_u03_q03",
+      "type": 1,
+      "prompt_text": "Whose phone is this?",
+      "audio_id": "unit-03-q03",
+      "image_ids": [
+        "int2c_phone",
+        "int2c_skate",
+        "int2c_bike",
+        "int2c_suitcase"
+      ],
+      "choices": [
+        "int2c_phone",
+        "int2c_skate",
+        "int2c_bike",
+        "int2c_suitcase"
+      ],
+      "correct": "int2c_phone",
+      "why_wrong": {
+        "int2c_skate": "You tapped \"ice skate\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_bike": "You tapped \"bike\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!",
+        "int2c_suitcase": "You tapped \"suitcase (leaving)\", but the audio said: \"Whose phone is this?\". The correct picture is \"phone\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_phone": "phone",
+        "int2c_skate": "ice skate",
+        "int2c_bike": "bike",
+        "int2c_suitcase": "suitcase (leaving)"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2c_u03_q03"
+    },
+    {
+      "id": "int2_review_u2_i2c_u04_q03",
+      "type": 1,
+      "prompt_text": "My favorite food is Gimbap.",
+      "audio_id": "unit-04-q03",
+      "image_ids": [
+        "int2c_throat",
+        "int2c_stomach",
+        "int2c_gum",
+        "int2c_gimbap"
+      ],
+      "choices": [
+        "int2c_throat",
+        "int2c_stomach",
+        "int2c_gum",
+        "int2c_gimbap"
+      ],
+      "correct": "int2c_gimbap",
+      "why_wrong": {
+        "int2c_throat": "You tapped \"sore throat\", but the audio said: \"My favorite food is Gimbap.\". The correct picture is \"Gimbap\". Listen again!",
+        "int2c_stomach": "You tapped \"stomachache\", but the audio said: \"My favorite food is Gimbap.\". The correct picture is \"Gimbap\". Listen again!",
+        "int2c_gum": "You tapped \"gum\", but the audio said: \"My favorite food is Gimbap.\". The correct picture is \"Gimbap\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_throat": "sore throat",
+        "int2c_stomach": "stomachache",
+        "int2c_gum": "gum",
+        "int2c_gimbap": "Gimbap"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2c_u04_q03"
+    },
+    {
+      "id": "int2_review_u2_i2a_u03_q04",
+      "type": 1,
+      "prompt_text": "Can you speak French?",
+      "audio_id": "unit-03-q05",
+      "image_ids": [
+        "int2a_basement",
+        "int2a_france",
+        "int2a_russia",
+        "int2a_germany"
+      ],
+      "choices": [
+        "int2a_basement",
+        "int2a_france",
+        "int2a_russia",
+        "int2a_germany"
+      ],
+      "correct": "int2a_france",
+      "why_wrong": {
+        "int2a_basement": "You tapped \"basement\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_russia": "You tapped \"Russia / Russian\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!",
+        "int2a_germany": "You tapped \"Germany / German\", but the audio said: \"Can you speak French?\". The correct picture is \"France / French\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_basement": "basement",
+        "int2a_france": "France / French",
+        "int2a_russia": "Russia / Russian",
+        "int2a_germany": "Germany / German"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2a_u03_q05"
+    },
+    {
+      "id": "int2_review_u2_i2a_u04_q04",
+      "type": 1,
+      "prompt_text": "I want soup.",
+      "audio_id": "unit-04-q05",
+      "image_ids": [
+        "int2a_soup",
+        "int2a_snakes",
+        "int2a_soccer",
+        "int2a_quiet"
+      ],
+      "choices": [
+        "int2a_soup",
+        "int2a_snakes",
+        "int2a_soccer",
+        "int2a_quiet"
+      ],
+      "correct": "int2a_soup",
+      "why_wrong": {
+        "int2a_snakes": "You tapped \"snakes\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_soccer": "You tapped \"soccer ball\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!",
+        "int2a_quiet": "You tapped \"quiet / shh face\", but the audio said: \"I want soup.\". The correct picture is \"soup\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2a",
+      "choice_labels": {
+        "int2a_soup": "soup",
+        "int2a_snakes": "snakes",
+        "int2a_soccer": "soccer ball",
+        "int2a_quiet": "quiet / shh face"
+      },
+      "merge_source_book": "int2a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2a_u04_q05"
+    },
+    {
+      "id": "int2_review_u2_i2b_u03_q04",
+      "type": 1,
+      "prompt_text": "I want to be an English teacher.",
+      "audio_id": "u3_q04",
+      "image_ids": [
+        "int2b_english_teacher",
+        "int2b_wallet",
+        "int2b_bike",
+        "int2b_desk"
+      ],
+      "choices": [
+        "int2b_english_teacher",
+        "int2b_wallet",
+        "int2b_bike",
+        "int2b_desk"
+      ],
+      "correct": "int2b_english_teacher",
+      "why_wrong": {
+        "int2b_wallet": "You tapped \"wallet\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_bike": "You tapped \"bicycle\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!",
+        "int2b_desk": "You tapped \"desk\", but the audio said: \"I want to be an English teacher.\". The correct picture is \"English teacher\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_english_teacher": "English teacher",
+        "int2b_wallet": "wallet",
+        "int2b_bike": "bicycle",
+        "int2b_desk": "desk"
+      },
+      "merge_source_book": "int2b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2b_u03_q04"
+    },
+    {
+      "id": "int2_review_u2_i2b_u04_q04",
+      "type": 1,
+      "prompt_text": "What is about 5000 won?",
+      "audio_id": "u4_q09",
+      "image_ids": [
+        "int2b_500_won",
+        "int2b_5000_won",
+        "int2b_good_looking",
+        "int2b_1000_won"
+      ],
+      "choices": [
+        "int2b_500_won",
+        "int2b_5000_won",
+        "int2b_good_looking",
+        "int2b_1000_won"
+      ],
+      "correct": "int2b_5000_won",
+      "why_wrong": {
+        "int2b_500_won": "You tapped \"500 won coin\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_good_looking": "You tapped \"good-looking person\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!",
+        "int2b_1000_won": "You tapped \"1000 won bill\", but the audio said: \"What is about 5000 won?\". The correct picture is \"5000 won bill\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2b",
+      "choice_labels": {
+        "int2b_500_won": "500 won coin",
+        "int2b_5000_won": "5000 won bill",
+        "int2b_good_looking": "good-looking person",
+        "int2b_1000_won": "1000 won bill"
+      },
+      "fix_note": "2026-09-25 key fix: was int2b_won_coin (audit: keyed wrong); now real int2b_5000_won art from Picture Maker new-pics",
+      "merge_source_book": "int2b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2b_u04_q09"
+    },
+    {
+      "id": "int2_review_u2_i2c_u03_q04",
+      "type": 1,
+      "prompt_text": "Whose garbage is this?",
+      "audio_id": "unit-03-q04",
+      "image_ids": [
+        "int2c_hockey",
+        "int2c_fruit_stall",
+        "int2c_gimbap",
+        "int2c_garbage"
+      ],
+      "choices": [
+        "int2c_hockey",
+        "int2c_fruit_stall",
+        "int2c_gimbap",
+        "int2c_garbage"
+      ],
+      "correct": "int2c_garbage",
+      "why_wrong": {
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_fruit_stall": "You tapped \"fruit stall\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!",
+        "int2c_gimbap": "You tapped \"Gimbap\", but the audio said: \"Whose garbage is this?\". The correct picture is \"garbage\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_hockey": "ice hockey",
+        "int2c_fruit_stall": "fruit stall",
+        "int2c_gimbap": "Gimbap",
+        "int2c_garbage": "garbage"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i2c_u03_q04"
+    },
+    {
+      "id": "int2_review_u2_i2c_u04_q04",
+      "type": 1,
+      "prompt_text": "My favorite color is blue.",
+      "audio_id": "unit-04-q04",
+      "image_ids": [
+        "int2c_garbage",
+        "int2c_fishing",
+        "int2c_blue",
+        "int2c_hockey"
+      ],
+      "choices": [
+        "int2c_garbage",
+        "int2c_fishing",
+        "int2c_blue",
+        "int2c_hockey"
+      ],
+      "correct": "int2c_blue",
+      "why_wrong": {
+        "int2c_garbage": "You tapped \"garbage\", but the audio said: \"My favorite color is blue.\". The correct picture is \"blue color swatch\". Listen again!",
+        "int2c_fishing": "You tapped \"fishing\", but the audio said: \"My favorite color is blue.\". The correct picture is \"blue color swatch\". Listen again!",
+        "int2c_hockey": "You tapped \"ice hockey\", but the audio said: \"My favorite color is blue.\". The correct picture is \"blue color swatch\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int2c",
+      "choice_labels": {
+        "int2c_garbage": "garbage",
+        "int2c_fishing": "fishing",
+        "int2c_blue": "blue color swatch",
+        "int2c_hockey": "ice hockey"
+      },
+      "merge_source_book": "int2c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i2c_u04_q04"
+    }
+  ]
+}

@@ -1,0 +1,867 @@
+{
+  "meta": {
+    "level": "int3_review",
+    "title": "Int 3 Review (3A + 3B + 3C) — Review TWO",
+    "kind": "review",
+    "review_id": "u2",
+    "units_covered": [
+      3,
+      4
+    ],
+    "books_mixed": [
+      "int3a",
+      "int3b",
+      "int3c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int3_review_u2_i3a_u03_q01",
+      "type": 1,
+      "prompt_text": "This is good.",
+      "audio_id": "u03_q01",
+      "image_ids": [
+        "int3a_opposites_big",
+        "int3a_opposites_hot",
+        "int3a_opposites_new",
+        "int3a_opposites_good"
+      ],
+      "choices": [
+        "int3a_opposites_big",
+        "int3a_opposites_hot",
+        "int3a_opposites_new",
+        "int3a_opposites_good"
+      ],
+      "correct": "int3a_opposites_good",
+      "why_wrong": {
+        "int3a_opposites_big": "That shows big, not good.",
+        "int3a_opposites_hot": "That shows hot, not good.",
+        "int3a_opposites_new": "That shows new, not good."
+      },
+      "unit": 3,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_big": "big",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_new": "new",
+        "int3a_opposites_good": "good"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3a_u03_q01"
+    },
+    {
+      "id": "int3_review_u2_i3a_u04_q01",
+      "type": 1,
+      "prompt_text": "How old is he? He is 1 year old.",
+      "audio_id": "u04_q01",
+      "image_ids": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "choices": [
+        "int3a_how-old_age_1",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "correct": "int3a_how-old_age_1",
+      "why_wrong": {
+        "int3a_how-old_age_55": "That shows 55 years old, not 1 year old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 1 year old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 1 year old."
+      },
+      "unit": 4,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_1": "1 year old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_39": "39 years old"
+      },
+      "fix_note": "2026-09-25 key fix: audio was only \"How old is he?\" (age never said); now says the age",
+      "merge_source_book": "int3a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3a_u04_q01"
+    },
+    {
+      "id": "int3_review_u2_i3b_u03_q01",
+      "type": 1,
+      "prompt_text": "Slower, please.",
+      "audio_id": "unit3-q01",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_slower",
+        "i3b_quieter",
+        "i3b_smaller"
+      ],
+      "choices": [
+        "i3b_warmer",
+        "i3b_slower",
+        "i3b_quieter",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_slower",
+      "why_wrong": {
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Slower, please.\". The correct picture is \"slower\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_slower": "slower",
+        "i3b_quieter": "quieter",
+        "i3b_smaller": "smaller"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3b_u03_q01"
+    },
+    {
+      "id": "int3_review_u2_i3b_u04_q01",
+      "type": 1,
+      "prompt_text": "Is she your mom?",
+      "audio_id": "unit4-q01",
+      "image_ids": [
+        "i3b_teacher",
+        "i3b_mom",
+        "i3b_grandma",
+        "i3b_me"
+      ],
+      "choices": [
+        "i3b_teacher",
+        "i3b_mom",
+        "i3b_grandma",
+        "i3b_me"
+      ],
+      "correct": "i3b_mom",
+      "why_wrong": {
+        "i3b_teacher": "You tapped \"teacher\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!",
+        "i3b_grandma": "You tapped \"grandmother\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!",
+        "i3b_me": "You tapped \"me\", but the audio said: \"Is she your mom?\". The correct picture is \"mom\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_teacher": "teacher",
+        "i3b_mom": "mom",
+        "i3b_grandma": "grandmother",
+        "i3b_me": "me"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3b_u04_q01"
+    },
+    {
+      "id": "int3_review_u2_i3c_u03_q01",
+      "type": 1,
+      "prompt_text": "Can I play outside?",
+      "audio_id": "u03_q01",
+      "image_ids": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves"
+      ],
+      "choices": [
+        "int3c_u03_play_outside_can_i_play_outside",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves"
+      ],
+      "correct": "int3c_u03_play_outside_can_i_play_outside",
+      "why_wrong": {
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_pants": "Not yet — put on your pants.",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "That is not the correct answer. Listen again!"
+      },
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_can_i_play_outside": "Can I Play Outside",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_pants": "No Pants",
+        "int3c_u03_play_outside_not_yet_put_on_gloves": "Not Yet Put On Gloves"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3c_u03_q01"
+    },
+    {
+      "id": "int3_review_u2_i3c_u04_q01",
+      "type": 1,
+      "prompt_text": "I am bored.",
+      "audio_id": "u04_q01",
+      "image_ids": [
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_im_bored",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "choices": [
+        "int3c_u04_rpg_lets_play_rpg",
+        "int3c_u04_rpg_im_bored",
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "correct": "int3c_u04_rpg_im_bored",
+      "why_wrong": {
+        "int3c_u04_rpg_lets_play_rpg": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook."
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_lets_play_rpg": "Lets Play Rpg",
+        "int3c_u04_rpg_im_bored": "Im Bored",
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_not_hungry": "Not Hungry"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3c_u04_q01"
+    },
+    {
+      "id": "int3_review_u2_i3a_u03_q02",
+      "type": 1,
+      "prompt_text": "That is bad.",
+      "audio_id": "u03_q02",
+      "image_ids": [
+        "int3a_opposites_wet",
+        "int3a_opposites_bad",
+        "int3a_opposites_quiet",
+        "int3a_opposites_big"
+      ],
+      "choices": [
+        "int3a_opposites_wet",
+        "int3a_opposites_bad",
+        "int3a_opposites_quiet",
+        "int3a_opposites_big"
+      ],
+      "correct": "int3a_opposites_bad",
+      "why_wrong": {
+        "int3a_opposites_wet": "That shows wet, not bad.",
+        "int3a_opposites_quiet": "That shows quiet, not bad.",
+        "int3a_opposites_big": "That shows big, not bad."
+      },
+      "unit": 3,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_bad": "bad",
+        "int3a_opposites_quiet": "quiet",
+        "int3a_opposites_big": "big"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3a_u03_q02"
+    },
+    {
+      "id": "int3_review_u2_i3a_u04_q02",
+      "type": 1,
+      "prompt_text": "She is 5 years old.",
+      "audio_id": "u04_q02",
+      "image_ids": [
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "choices": [
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_15",
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_39"
+      ],
+      "correct": "int3a_how-old_age_5",
+      "why_wrong": {
+        "int3a_how-old_age_15": "That shows 15 years old, not 5 years old.",
+        "int3a_how-old_age_100": "That shows 100 years old, not 5 years old.",
+        "int3a_how-old_age_39": "That shows 39 years old, not 5 years old."
+      },
+      "unit": 4,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_15": "15 years old",
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_39": "39 years old"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3a_u04_q02"
+    },
+    {
+      "id": "int3_review_u2_i3b_u03_q02",
+      "type": 1,
+      "prompt_text": "Warmer, please.",
+      "audio_id": "unit3-q02",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
+      ],
+      "choices": [
+        "i3b_warmer",
+        "i3b_less",
+        "i3b_higher",
+        "i3b_quieter"
+      ],
+      "correct": "i3b_warmer",
+      "why_wrong": {
+        "i3b_less": "You tapped \"less\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_higher": "You tapped \"higher\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!",
+        "i3b_quieter": "You tapped \"quieter\", but the audio said: \"Warmer, please.\". The correct picture is \"warmer\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_less": "less",
+        "i3b_higher": "higher",
+        "i3b_quieter": "quieter"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3b_u03_q02"
+    },
+    {
+      "id": "int3_review_u2_i3b_u04_q02",
+      "type": 1,
+      "prompt_text": "She is my aunt.",
+      "audio_id": "unit4-q02",
+      "image_ids": [
+        "i3b_aunt",
+        "i3b_brother",
+        "i3b_mom",
+        "i3b_grandpa"
+      ],
+      "choices": [
+        "i3b_aunt",
+        "i3b_brother",
+        "i3b_mom",
+        "i3b_grandpa"
+      ],
+      "correct": "i3b_aunt",
+      "why_wrong": {
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!",
+        "i3b_grandpa": "You tapped \"grandfather\", but the audio said: \"She is my aunt.\". The correct picture is \"aunt\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_aunt": "aunt",
+        "i3b_brother": "brother",
+        "i3b_mom": "mom",
+        "i3b_grandpa": "grandfather"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3b_u04_q02"
+    },
+    {
+      "id": "int3_review_u2_i3c_u03_q02",
+      "type": 1,
+      "prompt_text": "Not yet, put on your shirt.",
+      "audio_id": "u03_q02",
+      "image_ids": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_shirt"
+      ],
+      "choices": [
+        "int3c_u03_play_outside_gloves",
+        "int3c_u03_play_outside_no_gloves",
+        "int3c_u03_play_outside_no_jacket",
+        "int3c_u03_play_outside_shirt"
+      ],
+      "correct": "int3c_u03_play_outside_shirt",
+      "why_wrong": {
+        "int3c_u03_play_outside_gloves": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_gloves": "Not yet — put on your gloves.",
+        "int3c_u03_play_outside_no_jacket": "Not yet — put on your jacket."
+      },
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_gloves": "Gloves",
+        "int3c_u03_play_outside_no_gloves": "No Gloves",
+        "int3c_u03_play_outside_no_jacket": "No Jacket",
+        "int3c_u03_play_outside_shirt": "Shirt"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3c_u03_q02"
+    },
+    {
+      "id": "int3_review_u2_i3c_u04_q02",
+      "type": 1,
+      "prompt_text": "Let's sing karaoke.",
+      "audio_id": "u04_q02",
+      "image_ids": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_talk"
+      ],
+      "choices": [
+        "int3c_u04_rpg_throat_hurts",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_lets_talk"
+      ],
+      "correct": "int3c_u04_rpg_sing_karaoke",
+      "why_wrong": {
+        "int3c_u04_rpg_throat_hurts": "My throat hurts — not Let's talk.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_lets_talk": "That is not the correct answer. Listen again!"
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_throat_hurts": "Throat Hurts",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_lets_talk": "Lets Talk"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3c_u04_q02"
+    },
+    {
+      "id": "int3_review_u2_i3a_u03_q03",
+      "type": 1,
+      "prompt_text": "How is it? This is cold.",
+      "audio_id": "u03_q03",
+      "image_ids": [
+        "int3a_opposites_small",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
+      ],
+      "choices": [
+        "int3a_opposites_small",
+        "int3a_opposites_wet",
+        "int3a_opposites_cold",
+        "int3a_opposites_new"
+      ],
+      "correct": "int3a_opposites_cold",
+      "why_wrong": {
+        "int3a_opposites_small": "That shows small, not cold.",
+        "int3a_opposites_wet": "That shows wet, not cold.",
+        "int3a_opposites_new": "That shows new, not cold."
+      },
+      "unit": 3,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_small": "small",
+        "int3a_opposites_wet": "wet",
+        "int3a_opposites_cold": "cold",
+        "int3a_opposites_new": "new"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3a_u03_q03"
+    },
+    {
+      "id": "int3_review_u2_i3a_u04_q03",
+      "type": 1,
+      "prompt_text": "How old is he? He is 10 years old.",
+      "audio_id": "u04_q03",
+      "image_ids": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
+      ],
+      "choices": [
+        "int3a_how-old_age_39",
+        "int3a_how-old_age_55",
+        "int3a_how-old_age_5",
+        "int3a_how-old_age_10"
+      ],
+      "correct": "int3a_how-old_age_10",
+      "why_wrong": {
+        "int3a_how-old_age_39": "That shows 39 years old, not 10 years old.",
+        "int3a_how-old_age_55": "That shows 55 years old, not 10 years old.",
+        "int3a_how-old_age_5": "That shows 5 years old, not 10 years old."
+      },
+      "unit": 4,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_39": "39 years old",
+        "int3a_how-old_age_55": "55 years old",
+        "int3a_how-old_age_5": "5 years old",
+        "int3a_how-old_age_10": "10 years old"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3a_u04_q03"
+    },
+    {
+      "id": "int3_review_u2_i3b_u03_q03",
+      "type": 1,
+      "prompt_text": "Bigger, please.",
+      "audio_id": "unit3-q03",
+      "image_ids": [
+        "i3b_louder",
+        "i3b_warmer",
+        "i3b_bigger",
+        "i3b_smaller"
+      ],
+      "choices": [
+        "i3b_louder",
+        "i3b_warmer",
+        "i3b_bigger",
+        "i3b_smaller"
+      ],
+      "correct": "i3b_bigger",
+      "why_wrong": {
+        "i3b_louder": "You tapped \"louder\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!",
+        "i3b_smaller": "You tapped \"smaller\", but the audio said: \"Bigger, please.\". The correct picture is \"bigger\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_louder": "louder",
+        "i3b_warmer": "warmer",
+        "i3b_bigger": "bigger",
+        "i3b_smaller": "smaller"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3b_u03_q03"
+    },
+    {
+      "id": "int3_review_u2_i3b_u04_q03",
+      "type": 1,
+      "prompt_text": "No, she is my grandmother.",
+      "audio_id": "unit4-q03",
+      "image_ids": [
+        "i3b_uncle",
+        "i3b_aunt",
+        "i3b_mom",
+        "i3b_grandma"
+      ],
+      "choices": [
+        "i3b_uncle",
+        "i3b_aunt",
+        "i3b_mom",
+        "i3b_grandma"
+      ],
+      "correct": "i3b_grandma",
+      "why_wrong": {
+        "i3b_uncle": "You tapped \"uncle\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!",
+        "i3b_mom": "You tapped \"mom\", but the audio said: \"No, she is my grandmother.\". The correct picture is \"grandmother\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_uncle": "uncle",
+        "i3b_aunt": "aunt",
+        "i3b_mom": "mom",
+        "i3b_grandma": "grandmother"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3b_u04_q03"
+    },
+    {
+      "id": "int3_review_u2_i3c_u03_q03",
+      "type": 1,
+      "prompt_text": "Not yet, put on your pants.",
+      "audio_id": "u03_q03",
+      "image_ids": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "choices": [
+        "int3c_u03_play_outside_barefoot",
+        "int3c_u03_play_outside_pants",
+        "int3c_u03_play_outside_put_on_hat",
+        "int3c_u03_play_outside_tv_only"
+      ],
+      "correct": "int3c_u03_play_outside_pants",
+      "why_wrong": {
+        "int3c_u03_play_outside_barefoot": "Put on your shoes first.",
+        "int3c_u03_play_outside_put_on_hat": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_tv_only": "It is too cold. Can I watch TV?"
+      },
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_barefoot": "Barefoot",
+        "int3c_u03_play_outside_pants": "Pants",
+        "int3c_u03_play_outside_put_on_hat": "Put On Hat",
+        "int3c_u03_play_outside_tv_only": "Tv Only"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3c_u03_q03"
+    },
+    {
+      "id": "int3_review_u2_i3c_u04_q03",
+      "type": 1,
+      "prompt_text": "Let's play soccer.",
+      "audio_id": "u04_q03",
+      "image_ids": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "choices": [
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_sing_karaoke",
+        "int3c_u04_rpg_play_soccer",
+        "int3c_u04_rpg_not_hungry"
+      ],
+      "correct": "int3c_u04_rpg_play_soccer",
+      "why_wrong": {
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_sing_karaoke": "That is not the correct answer. Listen again!",
+        "int3c_u04_rpg_not_hungry": "I am not hungry — not Let's cook."
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_sing_karaoke": "Sing Karaoke",
+        "int3c_u04_rpg_play_soccer": "Play Soccer",
+        "int3c_u04_rpg_not_hungry": "Not Hungry"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3c_u04_q03"
+    },
+    {
+      "id": "int3_review_u2_i3a_u03_q04",
+      "type": 1,
+      "prompt_text": "This is hot.",
+      "audio_id": "u03_q04",
+      "image_ids": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
+      ],
+      "choices": [
+        "int3a_opposites_loud",
+        "int3a_opposites_hot",
+        "int3a_opposites_small",
+        "int3a_opposites_quiet"
+      ],
+      "correct": "int3a_opposites_hot",
+      "why_wrong": {
+        "int3a_opposites_loud": "That shows loud, not hot.",
+        "int3a_opposites_small": "That shows small, not hot.",
+        "int3a_opposites_quiet": "That shows quiet, not hot."
+      },
+      "unit": 3,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_opposites_loud": "loud",
+        "int3a_opposites_hot": "hot",
+        "int3a_opposites_small": "small",
+        "int3a_opposites_quiet": "quiet"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3a_u03_q04"
+    },
+    {
+      "id": "int3_review_u2_i3a_u04_q04",
+      "type": 1,
+      "prompt_text": "How old is she? She is 15 years old.",
+      "audio_id": "u04_q04",
+      "image_ids": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15"
+      ],
+      "choices": [
+        "int3a_how-old_age_100",
+        "int3a_how-old_age_27",
+        "int3a_how-old_age_10",
+        "int3a_how-old_age_15"
+      ],
+      "correct": "int3a_how-old_age_15",
+      "why_wrong": {
+        "int3a_how-old_age_100": "That shows 100 years old, not 15 years old.",
+        "int3a_how-old_age_27": "That shows 27 years old, not 15 years old.",
+        "int3a_how-old_age_10": "That shows 10 years old, not 15 years old."
+      },
+      "unit": 4,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_how-old_age_100": "100 years old",
+        "int3a_how-old_age_27": "27 years old",
+        "int3a_how-old_age_10": "10 years old",
+        "int3a_how-old_age_15": "15 years old"
+      },
+      "fix_note": "2026-09-25 key fix: audio was only \"How old is she?\" (age never said); now says the age",
+      "merge_source_book": "int3a",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3a_u04_q04"
+    },
+    {
+      "id": "int3_review_u2_i3b_u03_q04",
+      "type": 1,
+      "prompt_text": "Higher, please.",
+      "audio_id": "unit3-q04",
+      "image_ids": [
+        "i3b_warmer",
+        "i3b_higher",
+        "i3b_more",
+        "i3b_cooler"
+      ],
+      "choices": [
+        "i3b_warmer",
+        "i3b_higher",
+        "i3b_more",
+        "i3b_cooler"
+      ],
+      "correct": "i3b_higher",
+      "why_wrong": {
+        "i3b_warmer": "You tapped \"warmer\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_more": "You tapped \"more\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!",
+        "i3b_cooler": "You tapped \"cooler\", but the audio said: \"Higher, please.\". The correct picture is \"higher\". Listen again!"
+      },
+      "unit": 3,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_warmer": "warmer",
+        "i3b_higher": "higher",
+        "i3b_more": "more",
+        "i3b_cooler": "cooler"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3b_u03_q04"
+    },
+    {
+      "id": "int3_review_u2_i3b_u04_q04",
+      "type": 1,
+      "prompt_text": "She is my sister.",
+      "audio_id": "unit4-q04",
+      "image_ids": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_brother"
+      ],
+      "choices": [
+        "i3b_sister",
+        "i3b_dad",
+        "i3b_aunt",
+        "i3b_brother"
+      ],
+      "correct": "i3b_sister",
+      "why_wrong": {
+        "i3b_dad": "You tapped \"dad\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_aunt": "You tapped \"aunt\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!",
+        "i3b_brother": "You tapped \"brother\", but the audio said: \"She is my sister.\". The correct picture is \"sister\". Listen again!"
+      },
+      "unit": 4,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_sister": "sister",
+        "i3b_dad": "dad",
+        "i3b_aunt": "aunt",
+        "i3b_brother": "brother"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3b_u04_q04"
+    },
+    {
+      "id": "int3_review_u2_i3c_u03_q04",
+      "type": 1,
+      "prompt_text": "Not yet, put on your socks.",
+      "audio_id": "u03_q04",
+      "image_ids": [
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt"
+      ],
+      "choices": [
+        "int3c_u03_play_outside_socks",
+        "int3c_u03_play_outside_shorts",
+        "int3c_u03_play_outside_no_shoes",
+        "int3c_u03_play_outside_no_shirt"
+      ],
+      "correct": "int3c_u03_play_outside_socks",
+      "why_wrong": {
+        "int3c_u03_play_outside_shorts": "That is not the correct answer. Listen again!",
+        "int3c_u03_play_outside_no_shoes": "Not yet — put on your shoes.",
+        "int3c_u03_play_outside_no_shirt": "Not yet — put on your shirt."
+      },
+      "unit": 3,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u03_play_outside_socks": "Socks",
+        "int3c_u03_play_outside_shorts": "Shorts",
+        "int3c_u03_play_outside_no_shoes": "No Shoes",
+        "int3c_u03_play_outside_no_shirt": "No Shirt"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 3,
+      "merge_source_id": "i3c_u03_q04"
+    },
+    {
+      "id": "int3_review_u2_i3c_u04_q04",
+      "type": 1,
+      "prompt_text": "Let's climb the jungle gym.",
+      "audio_id": "u04_q04",
+      "image_ids": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "choices": [
+        "int3c_u04_rpg_legs_short",
+        "int3c_u04_rpg_cannot_sing",
+        "int3c_u04_rpg_cook",
+        "int3c_u04_rpg_climb_jungle_gym"
+      ],
+      "correct": "int3c_u04_rpg_climb_jungle_gym",
+      "why_wrong": {
+        "int3c_u04_rpg_legs_short": "My legs are short — not ride bikes.",
+        "int3c_u04_rpg_cannot_sing": "I cannot sing — that is a refusal, not Let's sing karaoke.",
+        "int3c_u04_rpg_cook": "That is not the correct answer. Listen again!"
+      },
+      "unit": 4,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u04_rpg_legs_short": "Legs Short",
+        "int3c_u04_rpg_cannot_sing": "Cannot Sing",
+        "int3c_u04_rpg_cook": "Cook",
+        "int3c_u04_rpg_climb_jungle_gym": "Climb Jungle Gym"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 4,
+      "merge_source_id": "i3c_u04_q04"
+    }
+  ]
+}

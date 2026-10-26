@@ -1,0 +1,866 @@
+{
+  "meta": {
+    "level": "int3_review",
+    "title": "Int 3 Review (3A + 3B + 3C) — Review THREE",
+    "kind": "review",
+    "review_id": "u3",
+    "units_covered": [
+      5,
+      6
+    ],
+    "books_mixed": [
+      "int3a",
+      "int3b",
+      "int3c"
+    ],
+    "count": 24,
+    "pass_percent": 80,
+    "pass_need": 19,
+    "schema": "id,type,prompt_text,audio_id,image_ids,choices,correct,why_wrong,unit,level",
+    "merge_rule": "even_share_per_book_unit",
+    "questions_per_book_unit": 4
+  },
+  "questions": [
+    {
+      "id": "int3_review_u3_i3a_u05_q01",
+      "type": 1,
+      "prompt_text": "It is a moth.",
+      "audio_id": "u05_q01",
+      "image_ids": [
+        "int3a_bug_ant",
+        "int3a_bug_spider",
+        "int3a_bug_moth",
+        "int3a_bug_silkworm"
+      ],
+      "choices": [
+        "int3a_bug_ant",
+        "int3a_bug_spider",
+        "int3a_bug_moth",
+        "int3a_bug_silkworm"
+      ],
+      "correct": "int3a_bug_moth",
+      "why_wrong": {
+        "int3a_bug_ant": "That shows ant, not moth.",
+        "int3a_bug_spider": "That shows spider, not moth.",
+        "int3a_bug_silkworm": "That shows silkworm, not moth."
+      },
+      "unit": 5,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ant": "ant",
+        "int3a_bug_spider": "spider",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_silkworm": "silkworm"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3a_u05_q01"
+    },
+    {
+      "id": "int3_review_u3_i3a_u06_q01",
+      "type": 1,
+      "prompt_text": "My name is Rose.",
+      "audio_id": "u06_q01",
+      "image_ids": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ginger"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_mike",
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_ginger"
+      ],
+      "correct": "int3a_what-is-your-name_rose",
+      "why_wrong": {
+        "int3a_what-is-your-name_mike": "That shows Mike, not Rose.",
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Rose.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Rose."
+      },
+      "unit": 6,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_mike": "Mike",
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_ginger": "Ginger"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3a_u06_q01"
+    },
+    {
+      "id": "int3_review_u3_i3b_u05_q01",
+      "type": 1,
+      "prompt_text": "Eat up!",
+      "audio_id": "unit5-q01",
+      "image_ids": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "choices": [
+        "i3b_cooldown",
+        "i3b_yessir",
+        "i3b_laydown",
+        "i3b_eatup"
+      ],
+      "correct": "i3b_eatup",
+      "why_wrong": {
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!",
+        "i3b_laydown": "You tapped \"lay down\", but the audio said: \"Eat up!\". The correct picture is \"eat up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cooldown": "cool down",
+        "i3b_yessir": "yes sir",
+        "i3b_laydown": "lay down",
+        "i3b_eatup": "eat up"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3b_u05_q01"
+    },
+    {
+      "id": "int3_review_u3_i3b_u06_q01",
+      "type": 1,
+      "prompt_text": "They are apples.",
+      "audio_id": "unit6-q01",
+      "image_ids": [
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_lemon"
+      ],
+      "choices": [
+        "i3b_apples",
+        "i3b_soursop",
+        "i3b_pineapple",
+        "i3b_lemon"
+      ],
+      "correct": "i3b_apples",
+      "why_wrong": {
+        "i3b_soursop": "You tapped \"soursop\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_pineapple": "You tapped \"pineapple\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!",
+        "i3b_lemon": "You tapped \"lemon\", but the audio said: \"They are apples.\". The correct picture is \"apples\". Listen again!"
+      },
+      "unit": 6,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_apples": "apples",
+        "i3b_soursop": "soursop",
+        "i3b_pineapple": "pineapple",
+        "i3b_lemon": "lemon"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3b_u06_q01"
+    },
+    {
+      "id": "int3_review_u3_i3c_u05_q01",
+      "type": 1,
+      "prompt_text": "Study!",
+      "audio_id": "u05_q01",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_star",
+        "int3c_u05_what_do_you_have_earphones",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_study"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_star",
+        "int3c_u05_what_do_you_have_earphones",
+        "int3c_u05_what_do_you_have_moon",
+        "int3c_u05_what_do_you_have_study"
+      ],
+      "correct": "int3c_u05_what_do_you_have_study",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_star": "Stars are too far to hold.",
+        "int3c_u05_what_do_you_have_earphones": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_moon": "The moon is far away."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_star": "Star",
+        "int3c_u05_what_do_you_have_earphones": "Earphones",
+        "int3c_u05_what_do_you_have_moon": "Moon",
+        "int3c_u05_what_do_you_have_study": "Study"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3c_u05_q01"
+    },
+    {
+      "id": "int3_review_u3_i3c_u06_q01",
+      "type": 1,
+      "prompt_text": "This is my mom.",
+      "audio_id": "u06_q01",
+      "image_ids": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_52000000_people"
+      ],
+      "choices": [
+        "int3c_u06_how_many_cities_count_22_parks",
+        "int3c_u06_how_many_cities_my_mom",
+        "int3c_u06_how_many_cities_tigers",
+        "int3c_u06_how_many_cities_count_52000000_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_my_mom",
+      "why_wrong": {
+        "int3c_u06_how_many_cities_count_22_parks": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_tigers": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_52000000_people": "That is not the correct Korea count."
+      },
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_count_22_parks": "Count 22 Parks",
+        "int3c_u06_how_many_cities_my_mom": "My Mom",
+        "int3c_u06_how_many_cities_tigers": "Tigers",
+        "int3c_u06_how_many_cities_count_52000000_people": "Count 52000000 People"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3c_u06_q01"
+    },
+    {
+      "id": "int3_review_u3_i3a_u05_q02",
+      "type": 1,
+      "prompt_text": "What is this bug? It is a centipede.",
+      "audio_id": "u05_q02",
+      "image_ids": [
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_centipede"
+      ],
+      "choices": [
+        "int3a_bug_ladybug",
+        "int3a_bug_cockroach",
+        "int3a_bug_silkworm",
+        "int3a_bug_centipede"
+      ],
+      "correct": "int3a_bug_centipede",
+      "why_wrong": {
+        "int3a_bug_ladybug": "That shows ladybug, not centipede.",
+        "int3a_bug_cockroach": "That shows cockroach, not centipede.",
+        "int3a_bug_silkworm": "That shows silkworm, not centipede."
+      },
+      "unit": 5,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_ladybug": "ladybug",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_centipede": "centipede"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3a_u05_q02"
+    },
+    {
+      "id": "int3_review_u3_i3a_u06_q02",
+      "type": 1,
+      "prompt_text": "I am Iris.",
+      "audio_id": "u06_q02",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_ivy",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_iris",
+      "why_wrong": {
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Iris.",
+        "int3a_what-is-your-name_ivy": "That shows Ivy, not Iris.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Iris."
+      },
+      "unit": 6,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_ivy": "Ivy",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_iris": "Iris"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3a_u06_q02"
+    },
+    {
+      "id": "int3_review_u3_i3b_u05_q02",
+      "type": 1,
+      "prompt_text": "Wash up!",
+      "audio_id": "unit5-q02",
+      "image_ids": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
+      ],
+      "choices": [
+        "i3b_yessir",
+        "i3b_cooldown",
+        "i3b_washup",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_washup",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Wash up!\". The correct picture is \"wash up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_yessir": "yes sir",
+        "i3b_cooldown": "cool down",
+        "i3b_washup": "wash up",
+        "i3b_quietdown": "quiet down"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3b_u05_q02"
+    },
+    {
+      "id": "int3_review_u3_i3b_u06_q02",
+      "type": 1,
+      "prompt_text": "What fruit are those? Mangos!",
+      "audio_id": "unit6-q02",
+      "image_ids": [
+        "i3b_rocks",
+        "i3b_mangos",
+        "i3b_durian",
+        "i3b_mangosteen"
+      ],
+      "choices": [
+        "i3b_rocks",
+        "i3b_mangos",
+        "i3b_durian",
+        "i3b_mangosteen"
+      ],
+      "correct": "i3b_mangos",
+      "why_wrong": {
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!",
+        "i3b_mangosteen": "You tapped \"mangosteen\", but the audio said: \"What fruit are those? Mangos!\". The correct picture is \"mangos\". Listen again!"
+      },
+      "unit": 6,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_rocks": "rocks",
+        "i3b_mangos": "mangos",
+        "i3b_durian": "durian",
+        "i3b_mangosteen": "mangosteen"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3b_u06_q02"
+    },
+    {
+      "id": "int3_review_u3_i3c_u05_q02",
+      "type": 1,
+      "prompt_text": "What do you have?",
+      "audio_id": "u05_q02",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_book",
+        "int3c_u05_what_do_you_have_forest",
+        "int3c_u05_what_do_you_have_what_do_you_have"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_book",
+        "int3c_u05_what_do_you_have_forest",
+        "int3c_u05_what_do_you_have_what_do_you_have"
+      ],
+      "correct": "int3c_u05_what_do_you_have_what_do_you_have",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_book": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_forest": "A forest is not something you have."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_book": "Book",
+        "int3c_u05_what_do_you_have_forest": "Forest",
+        "int3c_u05_what_do_you_have_what_do_you_have": "What Do You Have"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3c_u05_q02"
+    },
+    {
+      "id": "int3_review_u3_i3c_u06_q02",
+      "type": 1,
+      "prompt_text": "She is a professor.",
+      "audio_id": "u06_q02",
+      "image_ids": [
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "choices": [
+        "int3c_u06_how_many_cities_professor",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_provinces",
+        "int3c_u06_how_many_cities_count_0_deserts"
+      ],
+      "correct": "int3c_u06_how_many_cities_professor",
+      "why_wrong": {
+        "int3c_u06_how_many_cities_wrong_2_islands": "There are 3,358 islands, not 2.",
+        "int3c_u06_how_many_cities_how_many_provinces": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_count_0_deserts": "That is not the correct Korea count."
+      },
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_professor": "Professor",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_how_many_provinces": "How Many Provinces",
+        "int3c_u06_how_many_cities_count_0_deserts": "Count 0 Deserts"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3c_u06_q02"
+    },
+    {
+      "id": "int3_review_u3_i3a_u05_q03",
+      "type": 1,
+      "prompt_text": "It is a mosquito.",
+      "audio_id": "u05_q03",
+      "image_ids": [
+        "int3a_bug_mosquito",
+        "int3a_bug_moth",
+        "int3a_bug_cockroach",
+        "int3a_bug_firefly"
+      ],
+      "choices": [
+        "int3a_bug_mosquito",
+        "int3a_bug_moth",
+        "int3a_bug_cockroach",
+        "int3a_bug_firefly"
+      ],
+      "correct": "int3a_bug_mosquito",
+      "why_wrong": {
+        "int3a_bug_moth": "That shows moth, not mosquito.",
+        "int3a_bug_cockroach": "That shows cockroach, not mosquito.",
+        "int3a_bug_firefly": "That shows firefly, not mosquito."
+      },
+      "unit": 5,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_moth": "moth",
+        "int3a_bug_cockroach": "cockroach",
+        "int3a_bug_firefly": "firefly"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3a_u05_q03"
+    },
+    {
+      "id": "int3_review_u3_i3a_u06_q03",
+      "type": 1,
+      "prompt_text": "Hello, what is your name? My name is Hunter.",
+      "audio_id": "u06_q03",
+      "image_ids": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_iris"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_rose",
+        "int3a_what-is-your-name_hunter",
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_iris"
+      ],
+      "correct": "int3a_what-is-your-name_hunter",
+      "why_wrong": {
+        "int3a_what-is-your-name_rose": "That shows Rose, not Hunter.",
+        "int3a_what-is-your-name_ginger": "That shows Ginger, not Hunter.",
+        "int3a_what-is-your-name_iris": "That shows Iris, not Hunter."
+      },
+      "unit": 6,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_rose": "Rose",
+        "int3a_what-is-your-name_hunter": "Hunter",
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_iris": "Iris"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3a_u06_q03"
+    },
+    {
+      "id": "int3_review_u3_i3b_u05_q03",
+      "type": 1,
+      "prompt_text": "Hurry up!",
+      "audio_id": "unit5-q03",
+      "image_ids": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
+      ],
+      "choices": [
+        "i3b_hurryup",
+        "i3b_eatup",
+        "i3b_cooldown",
+        "i3b_quietdown"
+      ],
+      "correct": "i3b_hurryup",
+      "why_wrong": {
+        "i3b_eatup": "You tapped \"eat up\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_cooldown": "You tapped \"cool down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!",
+        "i3b_quietdown": "You tapped \"quiet down\", but the audio said: \"Hurry up!\". The correct picture is \"hurry up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_hurryup": "hurry up",
+        "i3b_eatup": "eat up",
+        "i3b_cooldown": "cool down",
+        "i3b_quietdown": "quiet down"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3b_u05_q03"
+    },
+    {
+      "id": "int3_review_u3_i3b_u06_q03",
+      "type": 1,
+      "prompt_text": "They are lychee.",
+      "audio_id": "unit6-q03",
+      "image_ids": [
+        "i3b_durian",
+        "i3b_lychee",
+        "i3b_grapefruit",
+        "i3b_rocks"
+      ],
+      "choices": [
+        "i3b_durian",
+        "i3b_lychee",
+        "i3b_grapefruit",
+        "i3b_rocks"
+      ],
+      "correct": "i3b_lychee",
+      "why_wrong": {
+        "i3b_durian": "You tapped \"durian\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are lychee.\". The correct picture is \"lychee\". Listen again!"
+      },
+      "unit": 6,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_durian": "durian",
+        "i3b_lychee": "lychee",
+        "i3b_grapefruit": "grapefruit",
+        "i3b_rocks": "rocks"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3b_u06_q03"
+    },
+    {
+      "id": "int3_review_u3_i3c_u05_q03",
+      "type": 1,
+      "prompt_text": "Nothing.",
+      "audio_id": "u05_q03",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_nothing"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_i_have_book",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_nothing"
+      ],
+      "correct": "int3c_u05_what_do_you_have_nothing",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry.",
+        "int3c_u05_what_do_you_have_i_have_book": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_cloud": "You cannot hold a cloud."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_i_have_book": "I Have Book",
+        "int3c_u05_what_do_you_have_cloud": "Cloud",
+        "int3c_u05_what_do_you_have_nothing": "Nothing"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3c_u05_q03"
+    },
+    {
+      "id": "int3_review_u3_i3c_u06_q03",
+      "type": 1,
+      "prompt_text": "A professor? Great!",
+      "audio_id": "u06_q03",
+      "image_ids": [
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_islands"
+      ],
+      "choices": [
+        "int3c_u06_how_many_cities_a_professor_great",
+        "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands",
+        "int3c_u06_how_many_cities_how_many_islands"
+      ],
+      "correct": "int3c_u06_how_many_cities_a_professor_great",
+      "why_wrong": {
+        "int3c_u06_how_many_cities_count_0_deserts": "You tapped \"int3c_u06_how_many_cities_count_0_deserts\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!",
+        "int3c_u06_how_many_cities_wrong_2_islands": "You tapped \"Wrong 2 Islands\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!",
+        "int3c_u06_how_many_cities_how_many_islands": "You tapped \"How Many Islands\", but the audio said: \"A professor? Great!\". The correct picture is \"A Professor Great\". Listen again!"
+      },
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_a_professor_great": "A Professor Great",
+        "int3c_u06_how_many_cities_count_0_deserts": "int3c_u06_how_many_cities_count_0_deserts",
+        "int3c_u06_how_many_cities_wrong_2_islands": "Wrong 2 Islands",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands"
+      },
+      "fix_note": "2026-09-25 distractor swap: int3c_u06_how_many_cities_professor looked like the key/another option in this question -> int3c_u06_how_many_cities_count_0_deserts",
+      "merge_source_book": "int3c",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3c_u06_q03"
+    },
+    {
+      "id": "int3_review_u3_i3a_u05_q04",
+      "type": 1,
+      "prompt_text": "It is a cicada.",
+      "audio_id": "u05_q04",
+      "image_ids": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
+      ],
+      "choices": [
+        "int3a_bug_cicada",
+        "int3a_bug_mosquito",
+        "int3a_bug_silkworm",
+        "int3a_bug_cockroach"
+      ],
+      "correct": "int3a_bug_cicada",
+      "why_wrong": {
+        "int3a_bug_mosquito": "That shows mosquito, not cicada.",
+        "int3a_bug_silkworm": "That shows silkworm, not cicada.",
+        "int3a_bug_cockroach": "That shows cockroach, not cicada."
+      },
+      "unit": 5,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_bug_cicada": "cicada",
+        "int3a_bug_mosquito": "mosquito",
+        "int3a_bug_silkworm": "silkworm",
+        "int3a_bug_cockroach": "cockroach"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3a_u05_q04"
+    },
+    {
+      "id": "int3_review_u3_i3a_u06_q04",
+      "type": 1,
+      "prompt_text": "My name is Ginger.",
+      "audio_id": "u06_q04",
+      "image_ids": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mike"
+      ],
+      "choices": [
+        "int3a_what-is-your-name_ginger",
+        "int3a_what-is-your-name_mr_j",
+        "int3a_what-is-your-name_violet",
+        "int3a_what-is-your-name_mike"
+      ],
+      "correct": "int3a_what-is-your-name_ginger",
+      "why_wrong": {
+        "int3a_what-is-your-name_mr_j": "That shows Mr.J, not Ginger.",
+        "int3a_what-is-your-name_violet": "That shows Violet, not Ginger.",
+        "int3a_what-is-your-name_mike": "That shows Mike, not Ginger."
+      },
+      "unit": 6,
+      "level": "int3a",
+      "choice_labels": {
+        "int3a_what-is-your-name_ginger": "Ginger",
+        "int3a_what-is-your-name_mr_j": "Mr.J",
+        "int3a_what-is-your-name_violet": "Violet",
+        "int3a_what-is-your-name_mike": "Mike"
+      },
+      "merge_source_book": "int3a",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3a_u06_q04"
+    },
+    {
+      "id": "int3_review_u3_i3b_u05_q04",
+      "type": 1,
+      "prompt_text": "Clean up!",
+      "audio_id": "unit5-q04",
+      "image_ids": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
+      ],
+      "choices": [
+        "i3b_cleanup",
+        "i3b_yessir",
+        "i3b_getdown",
+        "i3b_slowdown"
+      ],
+      "correct": "i3b_cleanup",
+      "why_wrong": {
+        "i3b_yessir": "You tapped \"yes sir\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_getdown": "You tapped \"get down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!",
+        "i3b_slowdown": "You tapped \"slow down\", but the audio said: \"Clean up!\". The correct picture is \"clean up\". Listen again!"
+      },
+      "unit": 5,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_cleanup": "clean up",
+        "i3b_yessir": "yes sir",
+        "i3b_getdown": "get down",
+        "i3b_slowdown": "slow down"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3b_u05_q04"
+    },
+    {
+      "id": "int3_review_u3_i3b_u06_q04",
+      "type": 1,
+      "prompt_text": "They are soursop.",
+      "audio_id": "unit6-q04",
+      "image_ids": [
+        "i3b_grapefruit",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_soursop"
+      ],
+      "choices": [
+        "i3b_grapefruit",
+        "i3b_apples",
+        "i3b_rocks",
+        "i3b_soursop"
+      ],
+      "correct": "i3b_soursop",
+      "why_wrong": {
+        "i3b_grapefruit": "You tapped \"grapefruit\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_apples": "You tapped \"apples\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!",
+        "i3b_rocks": "You tapped \"rocks\", but the audio said: \"They are soursop.\". The correct picture is \"soursop\". Listen again!"
+      },
+      "unit": 6,
+      "level": "int3b",
+      "choice_labels": {
+        "i3b_grapefruit": "grapefruit",
+        "i3b_apples": "apples",
+        "i3b_rocks": "rocks",
+        "i3b_soursop": "soursop"
+      },
+      "merge_source_book": "int3b",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3b_u06_q04"
+    },
+    {
+      "id": "int3_review_u3_i3c_u05_q04",
+      "type": 1,
+      "prompt_text": "Do not lie.",
+      "audio_id": "u05_q04",
+      "image_ids": [
+        "int3c_u05_what_do_you_have_chess_board",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_do_not_lie"
+      ],
+      "choices": [
+        "int3c_u05_what_do_you_have_chess_board",
+        "int3c_u05_what_do_you_have_cloud",
+        "int3c_u05_what_do_you_have_mountain",
+        "int3c_u05_what_do_you_have_do_not_lie"
+      ],
+      "correct": "int3c_u05_what_do_you_have_do_not_lie",
+      "why_wrong": {
+        "int3c_u05_what_do_you_have_chess_board": "That is not the correct answer. Listen again!",
+        "int3c_u05_what_do_you_have_cloud": "You cannot hold a cloud.",
+        "int3c_u05_what_do_you_have_mountain": "A mountain is too big to carry."
+      },
+      "unit": 5,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u05_what_do_you_have_chess_board": "Chess Board",
+        "int3c_u05_what_do_you_have_cloud": "Cloud",
+        "int3c_u05_what_do_you_have_mountain": "Mountain",
+        "int3c_u05_what_do_you_have_do_not_lie": "Do Not Lie"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 5,
+      "merge_source_id": "i3c_u05_q04"
+    },
+    {
+      "id": "int3_review_u3_i3c_u06_q04",
+      "type": 1,
+      "prompt_text": "How many cities are there in Korea?",
+      "audio_id": "u06_q04",
+      "image_ids": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_people"
+      ],
+      "choices": [
+        "int3c_u06_how_many_cities_how_many_deserts",
+        "int3c_u06_how_many_cities_how_many_islands",
+        "int3c_u06_how_many_cities_count_125_cities",
+        "int3c_u06_how_many_cities_how_many_people"
+      ],
+      "correct": "int3c_u06_how_many_cities_count_125_cities",
+      "why_wrong": {
+        "int3c_u06_how_many_cities_how_many_deserts": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_islands": "That is not the correct Korea count.",
+        "int3c_u06_how_many_cities_how_many_people": "That is not the correct Korea count."
+      },
+      "unit": 6,
+      "level": "int3c",
+      "choice_labels": {
+        "int3c_u06_how_many_cities_how_many_deserts": "How Many Deserts",
+        "int3c_u06_how_many_cities_how_many_islands": "How Many Islands",
+        "int3c_u06_how_many_cities_count_125_cities": "Count 125 Cities",
+        "int3c_u06_how_many_cities_how_many_people": "How Many People"
+      },
+      "merge_source_book": "int3c",
+      "merge_source_unit": 6,
+      "merge_source_id": "i3c_u06_q04"
+    }
+  ]
+}
