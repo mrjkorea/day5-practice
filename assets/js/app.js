@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261013-receiver */
+/* build: 20261027-teacher-ui */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -61,11 +61,53 @@
 
   function mrjTeacher() {
     try {
+      if (window.MRJTeacherUnlock && window.MRJTeacherUnlock.isMrjTeacher()) return true;
+      if (document.body && document.body.classList.contains('mrj-teacher')) return true;
       var api = window.MRJSignin || window.MRJ_AUTH;
-      return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
+      return !!(api && typeof api.isTeacher === 'function' && api.isTeacher());
     } catch (e) {
       return false;
     }
+  }
+
+  function wireTeacherBtn(btn) {
+    if (!btn || btn.getAttribute('data-d5-teacher-wired') === '1') return;
+    btn.setAttribute('data-d5-teacher-wired', '1');
+    btn.addEventListener('click', function () {
+      if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.promptTeacherUnlock === 'function') {
+        window.MRJTeacherUnlock.promptTeacherUnlock();
+        return;
+      }
+      var api = window.MRJSignin || window.MRJ_AUTH;
+      if (api && typeof api.openTeacherUnlock === 'function') api.openTeacherUnlock();
+      else if (api && typeof api.promptTeacherUnlock === 'function') api.promptTeacherUnlock();
+    });
+  }
+
+  function studentDisplayId() {
+    try {
+      var api = window.MRJ_AUTH || window.MRJSignin;
+      if (api && typeof api.student === 'function') return String(api.student() || '').trim();
+    } catch (e) {}
+    return studentKey || '';
+  }
+
+  function syncStudentChrome(id) {
+    var pill = document.getElementById('d5-student-pill');
+    if (pill) {
+      if (id) {
+        pill.textContent = id;
+        pill.hidden = false;
+      } else {
+        pill.hidden = true;
+        pill.textContent = '';
+      }
+    }
+    var api = window.MRJ_AUTH || window.MRJSignin;
+    try {
+      if (api && typeof api.applyStudentChrome === 'function') api.applyStudentChrome();
+      else if (api && typeof api.updateStudentChip === 'function') api.updateStudentChip();
+    } catch (e) {}
   }
 
   function lockOf(b) {
@@ -161,10 +203,29 @@
 
   // ---------- views ----------
   function header(back, backText) {
-    var h = $('div', 'top');
-    if (back) { var a = $('a', 'back', backText || '← Back'); a.href = back; h.appendChild(a); }
-    var brand = $('div', 'brand', 'MRJ Day 5');
-    h.appendChild(brand);
+    var h = $('header', 'top topbar');
+    if (back) {
+      var a = $('a', 'back back-link', backText || '← Back');
+      a.href = back;
+      h.appendChild(a);
+    } else {
+      h.appendChild($('span', 'back-spacer'));
+    }
+    h.appendChild($('div', 'brand', 'MRJ Day 5'));
+    var controls = $('div', 'topbar-controls');
+    var pill = $('button', 'student-pill');
+    pill.type = 'button';
+    pill.id = 'd5-student-pill';
+    pill.setAttribute('data-mrj-name-pill', '1');
+    pill.hidden = true;
+    var teacherBtn = $('button', 'mrj-auth-teacher-btn', 'Teacher');
+    teacherBtn.type = 'button';
+    teacherBtn.id = 'd5-teacher-btn';
+    wireTeacherBtn(teacherBtn);
+    controls.appendChild(pill);
+    controls.appendChild(teacherBtn);
+    h.appendChild(controls);
+    syncStudentChrome(studentDisplayId());
     return h;
   }
 
@@ -467,9 +528,14 @@
     });
   }
 
+  if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.installRefresh === 'function') {
+    window.MRJTeacherUnlock.installRefresh(function () { route(); });
+  }
+
   window.addEventListener('mrj-auth-ready', function (ev) {
     var detail = (ev && ev.detail) || {};
     setStudentFromAuth(detail.id);
+    syncStudentChrome(detail.id);
     lastAuthProgressRows = detail.progress != null ? detail.progress : [];
     applyAuthProgressRows(lastAuthProgressRows);
     if (authProgressErrorFromDetail(detail)) {
@@ -478,7 +544,10 @@
     }
     fetchFullProgressThenApply(lastAuthProgressRows, false);
   });
-  document.addEventListener('mrj-teacher', function () { route(); });
+  document.addEventListener('mrj-teacher', function () {
+    syncStudentChrome(studentDisplayId());
+    route();
+  });
   load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
   // test hooks (used by the automated checks only)
   window.__d5 = { draw: draw, getBook: getBook, lockOf: lockOf, state: function () { return st; } };

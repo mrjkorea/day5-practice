@@ -1,8 +1,13 @@
 /* Day 5 preview skin (look only; CSS only, no JS). */
 html[data-book] body { font-family: var(--font-ui); color: var(--ink); }
 .wrap { max-width: 900px; margin: 0 auto; padding: 0 18px 48px; }
-.top { background: linear-gradient(135deg, var(--accent), var(--accent-dark)); margin: 0 -18px 1.2rem; padding: .9rem 1.2rem; border-radius: 0 0 26px 26px; box-shadow: var(--chunk); min-height: 64px; }
-.top .brand { color: #fff; font-size: 1.25rem; font-weight: 900; margin-left: auto; }
+.top { background: linear-gradient(135deg, var(--accent), var(--accent-dark)); margin: 0 -18px 1.2rem; padding: .9rem 1.2rem; border-radius: 0 0 26px 26px; box-shadow: var(--chunk); min-height: 64px; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
+.top .brand { color: #fff; font-size: 1.25rem; font-weight: 900; margin-right: auto; }
+.topbar-controls { display: flex; align-items: center; gap: .45rem; margin-left: auto; flex-shrink: 0; }
+.top .student-pill { font: 700 .9rem var(--font-ui); padding: .4rem .85rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.35); background: rgba(255,255,255,.95); color: var(--accent-dark); cursor: pointer; max-width: min(11rem, 38vw); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.top .mrj-auth-teacher-btn { font: 700 .85rem var(--font-ui); padding: .4rem .75rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.55); background: rgba(255,255,255,.18); color: #fff; cursor: pointer; }
+.top .mrj-auth-teacher-btn:hover { background: rgba(255,255,255,.28); }
+.top .back-spacer { width: 0; flex: 0 0 0; }
 .top .brand::before { content: "🎧 "; }
 .top .back { color: #fff; background: rgba(255,255,255,.2); padding: .45rem 1rem; border-radius: 999px; }
 #app h1 { font-size: 2.1rem; font-weight: 900; }
