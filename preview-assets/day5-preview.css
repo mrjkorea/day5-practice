@@ -8,7 +8,6 @@ html[data-book] body { font-family: var(--font-ui); color: var(--ink); }
 .top .mrj-auth-teacher-btn { font: 700 .85rem var(--font-ui); padding: .4rem .75rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.55); background: rgba(255,255,255,.18); color: #fff; cursor: pointer; }
 .top .mrj-auth-teacher-btn:hover { background: rgba(255,255,255,.28); }
 .top .back-spacer { width: 0; flex: 0 0 0; }
-.bigbtn.book.locked { pointer-events: none; opacity: .45; filter: grayscale(.15); }
 .top .brand::before { content: "🎧 "; }
 .top .back { color: #fff; background: rgba(255,255,255,.2); padding: .45rem 1rem; border-radius: 999px; }
 #app h1 { font-size: 2.1rem; font-weight: 900; }

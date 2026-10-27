@@ -147,3 +147,15 @@ test('index.html cache ?v= stamps match version.json build', function () {
   assert.match(html, new RegExp('app\\.js\\?v=' + BUILD));
   assert.match(html, new RegExp('content="' + BUILD + '"'));
 });
+
+test('teacher header: chip off, unlock helper, in-book lock bypass only', function () {
+  var html = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf8');
+  assert.match(html, /data-mrj-chip="off"/);
+  assert.match(html, new RegExp('mrj-teacher-unlock\\.js\\?v=' + BUILD));
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  assert.match(appSrc, /function mrjTeacher\(/);
+  assert.match(appSrc, /mrj-auth-teacher-btn/);
+  assert.match(appSrc, /data-mrj-name-pill/);
+  assert.match(appSrc, /if \(mrjTeacher\(\)\) return null/);
+  assert.doesNotMatch(appSrc, /pathBlock/);
+});

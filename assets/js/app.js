@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261027-teacher-header */
+/* build: 20261027-teacher-ui */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -68,18 +68,6 @@
     } catch (e) {
       return false;
     }
-  }
-
-  function pathBlock(bookId, testId) {
-    if (progressApi.pathBlocked) {
-      return progressApi.pathBlocked({
-        bookId: bookId,
-        testId: testId,
-        bestFn: best,
-        isTeacher: mrjTeacher()
-      });
-    }
-    return null;
   }
 
   function wireTeacherBtn(btn) {
@@ -249,11 +237,7 @@
     app.appendChild($('p', 'lead', 'Listen and tap. You need 80% to pass.'));
     var g = $('div', 'grid');
     manifest.books.forEach(function (b) {
-      var blocked = pathBlock(b.id, null);
-      var a = $('a', 'bigbtn book' + (blocked ? ' locked' : ''), b.label);
-      if (!blocked) a.href = b.legacy ? url(b.legacy) : '#/' + b.id;
-      else a.setAttribute('aria-disabled', 'true');
-      g.appendChild(a);
+      var a = $('a', 'bigbtn book', b.label); a.href = b.legacy ? url(b.legacy) : '#/' + b.id; g.appendChild(a);
     });
     app.appendChild(g);
     if (manifest.other) { var o = $('a', 'link', manifest.other.label); o.href = url(manifest.other.href); app.appendChild(o); }
@@ -264,19 +248,15 @@
     app.innerHTML = '';
     app.appendChild(header('#/', '← Books'));
     app.appendChild($('h1', null, book.label));
-    var bookGate = pathBlock(book.id, null);
-    if (bookGate) app.appendChild($('p', 'note', 'Pass the earlier books first to open this one.'));
     var lock = lockOf(book.id);
     if (lock) app.appendChild($('p', 'note', 'Finish your test first. Pass it to open the others.'));
     var list = $('div', 'list');
     book.tests.forEach(function (t) {
       var b = best(book.id, t.id);
-      var pathGate = pathBlock(book.id, t.id);
-      var rowLock = (lock && lock !== t.id) || pathGate;
-      var a = $('a', 'row' + (b != null && b >= 80 ? ' done' : '') + (rowLock ? ' locked' : ''));
+      var a = $('a', 'row' + (b != null && b >= 80 ? ' done' : '') + (lock && lock !== t.id ? ' locked' : ''));
       a.appendChild($('span', 'rt', t.title));
       a.appendChild($('span', 'rs', b != null && b >= 80 ? '⭐ Passed' : (lock === t.id ? '▶ Try again' : '')));
-      if (!rowLock) a.href = '#/' + book.id + '/' + t.id;
+      if (!lock || lock === t.id) a.href = '#/' + book.id + '/' + t.id;
       else a.setAttribute('aria-disabled', 'true');
       list.appendChild(a);
     });
@@ -479,18 +459,10 @@
     if (!parts.length) return renderHome();
     getBook(parts[0]).then(function (book) {
       if (!book) { location.hash = '#/'; return; }
-      var bookGate = pathBlock(book.id, null);
-      if (bookGate) { location.replace('#/'); return; }
       var lock = lockOf(book.id);
       var tid = parts[1];
       if (tid && !book.tests.some(function (t) { return t.id === tid; })) tid = null;
       if (lock && tid && tid !== lock) { location.replace('#/' + book.id + '/' + lock); return; }
-      if (tid && pathBlock(book.id, tid)) {
-        var open = book.tests.filter(function (t) { return !pathBlock(book.id, t.id); })[0];
-        if (open) location.replace('#/' + book.id + '/' + open.id);
-        else location.replace('#/' + book.id);
-        return;
-      }
       if (!tid) {
         if (st && st.book.id === book.id) { location.replace('#/' + book.id + '/' + st.test.id); return; }
         return renderBook(book);
