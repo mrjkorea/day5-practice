@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261027-teacher-ui */
+/* build: 20261027-tile-fix */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -333,34 +333,62 @@
     body.appendChild(wrap);
   }
 
+  function tileAnswerOk(chosen, tiles) {
+    return chosen.length === tiles.length && chosen.every(function (t, i) { return t.w === tiles[i]; });
+  }
+
   function renderTiles(q, body) {
     var it = q.src, n = it.tiles.length, letters = q.t === 7;
+    var emptyMark = letters ? '_' : '…';
     var line = $('div', 'line' + (letters ? ' letters' : ''));
     var tray = $('div', 'tray' + (letters ? ' letters' : ''));
     var chosen = [];
+    var actions = $('div', 'tile-actions');
     var check = $('button', 'bigbtn check', '✔ Check');
+    check.type = 'button';
     check.disabled = true;
+    var autoTimer = null;
+    function clearAuto() { if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; } }
+    function submit() {
+      if (st.answered || chosen.length !== n) return;
+      clearAuto();
+      var ok = tileAnswerOk(chosen, it.tiles);
+      answer(ok, line, null, -1);
+    }
+    function maybeAutoAdvance() {
+      clearAuto();
+      if (!tileAnswerOk(chosen, it.tiles)) return;
+      autoTimer = setTimeout(submit, 450);
+    }
     function draw() {
       line.innerHTML = ''; tray.innerHTML = '';
       for (var s = 0; s < n; s++) {
-        var slot = $('button', 'tile slot' + (chosen[s] ? ' full' : ''), chosen[s] ? chosen[s].w : (letters ? '_' : ' '));
+        var slot = $('button', 'tile slot' + (chosen[s] ? ' full' : ' empty'), chosen[s] ? chosen[s].w : emptyMark);
+        slot.type = 'button';
         (function (s) { slot.onclick = function () { if (chosen[s] && !st.answered) { chosen.splice(s, 1); draw(); } }; })(s);
         line.appendChild(slot);
       }
       q.pool.forEach(function (t) {
         if (chosen.indexOf(t) >= 0) return;
         var b = $('button', 'tile', t.w);
-        b.onclick = function () { if (chosen.length < n && !st.answered) { chosen.push(t); draw(); } };
+        b.type = 'button';
+        b.onclick = function () {
+          if (chosen.length < n && !st.answered) { chosen.push(t); draw(); }
+        };
         tray.appendChild(b);
       });
-      check.disabled = chosen.length !== n;
+      var full = chosen.length === n;
+      check.disabled = !full;
+      check.classList.toggle('ready', full);
+      if (full) maybeAutoAdvance();
+      else clearAuto();
     }
-    check.onclick = function () {
-      var ok = chosen.every(function (t, i) { return t.w === it.tiles[i]; });
-      answer(ok, line, null, -1);
-    };
+    check.onclick = submit;
     draw();
-    body.appendChild(line); body.appendChild(tray); body.appendChild(check);
+    body.appendChild(line);
+    body.appendChild(tray);
+    actions.appendChild(check);
+    body.appendChild(actions);
   }
 
   function answer(ok, el, wrap, k) {
@@ -549,6 +577,45 @@
     route();
   });
   load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
+  function findItem(book, itemId) {
+    var found = null;
+    Object.keys(book.units).some(function (uid) {
+      book.units[uid].items.some(function (it) {
+        if (it.id === itemId) { found = it; return true; }
+        return false;
+      });
+      return !!found;
+    });
+    return found;
+  }
+
+  function renderTileItem(bookId, itemId) {
+    return getBook(bookId).then(function (book) {
+      var it = findItem(book, itemId);
+      if (!it || !it.tiles) return false;
+      st = {
+        book: book,
+        test: { id: 'probe', title: 'Probe', bp: { n: 1, pass: 1, gateN: 0, gateNeed: 0 } },
+        qs: [prepare(it)],
+        i: 0,
+        right: 0,
+        gateRight: 0,
+        gateN: 0,
+        answered: false
+      };
+      renderQ();
+      return true;
+    });
+  }
+
   // test hooks (used by the automated checks only)
-  window.__d5 = { draw: draw, getBook: getBook, lockOf: lockOf, state: function () { return st; } };
+  window.__d5 = {
+    draw: draw,
+    prepare: prepare,
+    getBook: getBook,
+    lockOf: lockOf,
+    tileAnswerOk: tileAnswerOk,
+    renderTileItem: renderTileItem,
+    state: function () { return st; }
+  };
 })();
