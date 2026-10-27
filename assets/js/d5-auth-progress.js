@@ -86,14 +86,112 @@
     });
   }
 
+  var PASS_PCT = 80;
+
+  var BOOK_CHAINS = {
+    basic: ['basic_a', 'basic_b', 'basic_c'],
+    int2: ['int2a', 'int2b', 'int2c'],
+    int3: ['int3a', 'int3b', 'int3c']
+  };
+
+  var REVIEW_FINALS = {
+    basic_review: ['basic_a:final', 'basic_b:final', 'basic_c:final'],
+    int2_review: ['int2a:final', 'int2b:final', 'int2c:final'],
+    int3_review: ['int3a:final', 'int3b:final', 'int3c:final']
+  };
+
+  var INT3_BRIDGE_FINAL = 'int2c:final';
+
+  function splitItemId(itemId) {
+    var cut = String(itemId || '').indexOf(':');
+    if (cut < 1) return { book: '', test: '' };
+    return { book: itemId.slice(0, cut), test: itemId.slice(cut + 1) };
+  }
+
+  function passedItem(bestFn, itemId, passPct) {
+    passPct = passPct == null ? PASS_PCT : passPct;
+    if (!bestFn || !itemId) return false;
+    var parts = splitItemId(itemId);
+    if (!parts.book || !parts.test) return false;
+    var v = bestFn(parts.book, parts.test);
+    return v != null && v >= passPct;
+  }
+
+  function bookChainKey(bookId) {
+    if (/^basic_/.test(bookId) && bookId !== 'basic_review') return 'basic';
+    if (/^int2/.test(bookId) && bookId !== 'int2_review') return 'int2';
+    if (/^int3/.test(bookId) && bookId !== 'int3_review') return 'int3';
+    return '';
+  }
+
+  function bookPathBlock(bookId, bestFn, passPct) {
+    var finals = REVIEW_FINALS[bookId];
+    if (finals) {
+      for (var i = 0; i < finals.length; i++) {
+        if (!passedItem(bestFn, finals[i], passPct)) {
+          return { reason: 'review_prereq', need: finals[i] };
+        }
+      }
+      return null;
+    }
+    if (bookId === 'int3a' && !passedItem(bestFn, INT3_BRIDGE_FINAL, passPct)) {
+      return { reason: 'bridge', need: INT3_BRIDGE_FINAL };
+    }
+    var chainKey = bookChainKey(bookId);
+    if (!chainKey) return null;
+    var chain = BOOK_CHAINS[chainKey];
+    var idx = chain.indexOf(bookId);
+    if (idx <= 0) return null;
+    var needFinal = chain[idx - 1] + ':final';
+    if (!passedItem(bestFn, needFinal, passPct)) {
+      return { reason: 'book_chain', need: needFinal };
+    }
+    return null;
+  }
+
+  function testPathBlock(bookId, testId, bestFn, passPct) {
+    if (!/_review$/.test(bookId)) return null;
+    var m = String(testId || '').match(/^u(\d+)$/i);
+    if (!m) return null;
+    var n = parseInt(m[1], 10);
+    if (!isFinite(n) || n <= 1) return null;
+    var need = bookId + ':u' + (n - 1);
+    if (!passedItem(bestFn, need, passPct)) {
+      return { reason: 'review_step', need: need };
+    }
+    return null;
+  }
+
+  /** Returns null when open; otherwise { reason, need } with need as bookId:testId. */
+  function pathBlocked(opts) {
+    opts = opts || {};
+    if (opts.isTeacher) return null;
+    var bookId = opts.bookId;
+    var testId = opts.testId;
+    var bestFn = opts.bestFn;
+    var passPct = opts.passPct;
+    var bookBlock = bookPathBlock(bookId, bestFn, passPct);
+    if (bookBlock) return bookBlock;
+    if (testId) {
+      var testBlock = testPathBlock(bookId, testId, bestFn, passPct);
+      if (testBlock) return testBlock;
+    }
+    return null;
+  }
+
   return {
     PROGRAM: PROGRAM,
+    PASS_PCT: PASS_PCT,
     idKey: idKey,
     pctFromProgress: pctFromProgress,
     itemIdFromRow: itemIdFromRow,
     bestPctFromRows: bestPctFromRows,
     mergeBestPctMaps: mergeBestPctMaps,
     mergeProgressRowLists: mergeProgressRowLists,
-    filterProgramRows: filterProgramRows
+    filterProgramRows: filterProgramRows,
+    passedItem: passedItem,
+    bookPathBlock: bookPathBlock,
+    testPathBlock: testPathBlock,
+    pathBlocked: pathBlocked
   };
 });
