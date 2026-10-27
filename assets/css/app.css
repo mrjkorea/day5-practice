@@ -51,7 +51,12 @@ button{font:inherit;color:inherit;cursor:pointer}
 .letters .tile{min-width:56px;text-transform:uppercase}
 .slot{background:#fff;border-style:dashed;color:#8a96b0}
 .slot.full{border-style:solid;color:var(--ink);background:#fff7d6;border-color:#f0cf5a}
+.tile-actions{position:sticky;bottom:0;z-index:4;margin:12px -8px -8px;padding:10px 8px 6px;background:linear-gradient(180deg,transparent,rgba(255,248,236,.92) 28%,var(--bg) 55%);backdrop-filter:blur(4px)}
+.tile-actions .check{margin:0}
 .check{background:var(--green);box-shadow:0 6px 0 #178a57}
+.check.ready:not(:disabled){animation:tile-check-pulse 1.2s ease-in-out infinite}
+@keyframes tile-check-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+.slot.empty{color:#8a96b0;font-weight:800}
 .result{text-align:center}
 .emoji{font-size:5rem}
 .score{font-size:3rem;font-weight:900;margin:.2em 0}

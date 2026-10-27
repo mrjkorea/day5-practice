@@ -1,0 +1,26 @@
+name: Tile items validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - 'assets/js/**'
+      - 'assets/css/**'
+      - 'data/v2/**'
+      - 'scripts/validate-tile-items.mjs'
+      - 'test/tile-items.test.js'
+      - '.github/workflows/tile-items.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Tile content + engine rules
+        run: node scripts/validate-tile-items.mjs
+      - name: Unit tests
+        run: npm test

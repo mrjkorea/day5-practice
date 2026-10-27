@@ -55,6 +55,10 @@ a.link::before { content: "💎 "; }
 .tile { border-radius: 18px; border: 2px solid var(--border); background: #fff; box-shadow: 0 4px 0 var(--border); font-family: var(--font-en); }
 .tile.slot { background: var(--accent-soft); border-style: dashed; }
 .line { border-bottom: 3px dashed var(--border); }
+.tile-actions { position: sticky; bottom: 0; z-index: 4; margin: 12px -8px -8px; padding: 10px 8px 6px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.92) 28%, #fff 55%); backdrop-filter: blur(4px); }
+.tile-actions .check { margin: 0; background: linear-gradient(180deg, var(--ok), #138042) !important; box-shadow: 0 7px 0 #0c5a2d !important; }
+.tile-actions .check:disabled { opacity: .5; }
+.slot.empty { color: var(--muted); }
 .line.ok .slot { animation: mrj-pop .3s ease; }
 .line.bad .slot { animation: mrj-shake .35s ease; }
 .result .score { font-family: var(--font-en); color: var(--accent-dark); font-size: 3.6rem; }
