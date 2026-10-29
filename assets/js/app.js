@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261027-tile-fix */
+/* build: 20261029-single-teacher-chip */
 (function () {
   'use strict';
   var html = document.documentElement;
@@ -68,20 +68,6 @@
     } catch (e) {
       return false;
     }
-  }
-
-  function wireTeacherBtn(btn) {
-    if (!btn || btn.getAttribute('data-d5-teacher-wired') === '1') return;
-    btn.setAttribute('data-d5-teacher-wired', '1');
-    btn.addEventListener('click', function () {
-      if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.promptTeacherUnlock === 'function') {
-        window.MRJTeacherUnlock.promptTeacherUnlock();
-        return;
-      }
-      var api = window.MRJSignin || window.MRJ_AUTH;
-      if (api && typeof api.openTeacherUnlock === 'function') api.openTeacherUnlock();
-      else if (api && typeof api.promptTeacherUnlock === 'function') api.promptTeacherUnlock();
-    });
   }
 
   function studentDisplayId() {
@@ -218,12 +204,7 @@
     pill.id = 'd5-student-pill';
     pill.setAttribute('data-mrj-name-pill', '1');
     pill.hidden = true;
-    var teacherBtn = $('button', 'mrj-auth-teacher-btn', 'Teacher');
-    teacherBtn.type = 'button';
-    teacherBtn.id = 'd5-teacher-btn';
-    wireTeacherBtn(teacherBtn);
     controls.appendChild(pill);
-    controls.appendChild(teacherBtn);
     h.appendChild(controls);
     syncStudentChrome(studentDisplayId());
     return h;
