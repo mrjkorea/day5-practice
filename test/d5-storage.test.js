@@ -78,3 +78,22 @@ test('pass keeps book unlocked when legacy lock remains', function () {
   storage.clearLock(store, student, 'basic_a');
   assert.strictEqual(storage.readLock(store, student, 'basic_a'), null);
 });
+
+test('teacher grants persist start point and open-book overrides', function () {
+  var store = mockStorage();
+  var student = 'jay.student';
+
+  storage.setTeacherGrant(store, student, 'basic_a', { mode: 'start', testId: 'unit03' });
+  assert.deepStrictEqual(storage.readTeacherGrant(store, student, 'basic_a'), {
+    mode: 'start',
+    testId: 'unit03'
+  });
+  assert.strictEqual(storage.listTeacherGrants(store, student).length, 1);
+
+  storage.setTeacherGrant(store, student, 'basic_b', { mode: 'open' });
+  assert.deepStrictEqual(storage.readTeacherGrant(store, student, 'basic_b'), { mode: 'open' });
+
+  storage.clearTeacherGrant(store, student, 'basic_a');
+  assert.strictEqual(storage.readTeacherGrant(store, student, 'basic_a'), null);
+  assert.strictEqual(storage.listTeacherGrants(store, student).length, 1);
+});
