@@ -1,7 +1,9 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261029-single-teacher-chip */
+/* build: 20261102-unlock-all-temp */
 (function () {
   'use strict';
+  // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
+  var UNLOCK_ALL = true;
   var html = document.documentElement;
   var ROOT = html.dataset.siteRoot || '';
   var MANIFEST = html.dataset.manifest || 'data/v2/manifest-basic.json';
@@ -97,12 +99,14 @@
   }
 
   function lockOf(b) {
+    if (UNLOCK_ALL) return null;
     if (mrjTeacher()) return null;
     if (storageApi.readLock) return storageApi.readLock(localStorage, studentKey, b);
     return localStorage.getItem(lockKey(b));
   }
 
   function setLock(b, t) {
+    if (UNLOCK_ALL) return;
     if (mrjTeacher()) return;
     if (storageApi.writeLock) {
       storageApi.writeLock(localStorage, studentKey, b, t);

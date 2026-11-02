@@ -162,3 +162,10 @@ test('teacher header: shared mrj-auth chip, unlock helper, in-book lock bypass o
   assert.match(appSrc, /if \(mrjTeacher\(\)\) return null/);
   assert.doesNotMatch(appSrc, /pathBlock/);
 });
+
+test('TEMP UNLOCK_ALL disables in-book test locks (Jay classroom urgent)', function () {
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  assert.match(appSrc, /var UNLOCK_ALL = true;/);
+  assert.match(appSrc, /Jay temporary unlock until proper teacher unlock UI/);
+  assert.match(appSrc, /if \(UNLOCK_ALL\) return null/);
+});
