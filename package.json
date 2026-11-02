@@ -2,7 +2,7 @@
   "name": "day5-practice",
   "private": true,
   "scripts": {
-    "test": "node --test test/d5-auth-progress.test.js test/d5-storage.test.js test/score_log.test.js test/tile-items.test.js",
+    "test": "node --test test/d5-auth-progress.test.js test/d5-storage.test.js test/d5-teacher-unlock.test.js test/score_log.test.js test/tile-items.test.js",
     "validate:tiles": "node scripts/validate-tile-items.mjs"
   },
   "devDependencies": {

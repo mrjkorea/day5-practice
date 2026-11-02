@@ -5,6 +5,8 @@ html[data-book] body { font-family: var(--font-ui); color: var(--ink); }
 .top .brand { color: #fff; font-size: 1.25rem; font-weight: 900; margin-right: auto; }
 .topbar-controls { display: flex; align-items: center; gap: .45rem; margin-left: auto; flex-shrink: 0; }
 .top .student-pill { font: 700 .9rem var(--font-ui); padding: .4rem .85rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.35); background: rgba(255,255,255,.95); color: var(--accent-dark); cursor: pointer; max-width: min(11rem, 38vw); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.top .d5-teacher-panel-btn { font: 800 .85rem var(--font-ui); padding: .45rem .8rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.55); background: rgba(255,255,255,.22); color: #fff; cursor: pointer; min-height: 44px; }
+.top .d5-teacher-panel-btn[hidden] { display: none !important; }
 .top .mrj-auth-teacher-btn { font: 700 .85rem var(--font-ui); padding: .4rem .75rem; border-radius: 999px; border: 2px solid rgba(255,255,255,.55); background: rgba(255,255,255,.18); color: #fff; cursor: pointer; }
 .top .mrj-auth-teacher-btn:hover { background: rgba(255,255,255,.28); }
 .top .back-spacer { width: 0; flex: 0 0 0; }
@@ -26,6 +28,8 @@ a.link::before { content: "💎 "; }
 /* test list -> tiles */
 .list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: .8rem; counter-reset: pvt; }
 .list .row { counter-increment: pvt; position: relative; justify-content: flex-start; min-height: 84px; padding: .9rem 1rem .9rem 4.6rem; border: 2px solid var(--border); border-radius: 22px; box-shadow: 0 5px 0 var(--border); font: 800 1.1rem var(--font-ui); flex-wrap: wrap; transition: transform .1s; }
+.list .row-wrap { display: flex; flex-direction: column; gap: .45rem; }
+.list .row-wrap .teacher-start-btn { align-self: flex-end; min-height: 48px; padding: .55rem 1rem; border-radius: 14px; border: 2px solid var(--accent-dark); background: #fff; color: var(--accent-dark); font: 800 .95rem var(--font-ui); }
 .list .row::before { content: counter(pvt); position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 46px; height: 46px; display: grid; place-items: center; border-radius: 14px; color: #fff; background: linear-gradient(150deg, var(--accent), var(--accent-dark)); font: 900 1.2rem var(--font-en); box-shadow: 0 3px 0 rgba(0,0,0,.15); }
 .list .row[href]:hover { transform: translateY(-2px); border-color: var(--accent); }
 .list .row.done { border-color: #ffd45c; box-shadow: 0 5px 0 #f1b500; }

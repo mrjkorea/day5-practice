@@ -6,6 +6,7 @@ Static GitHub Pages app for Conversation Basic and Intermediate Day 5 unit tests
 - **Intermediate:** https://mrjkorea.github.io/day5-practice/intermediate/
 - No login. Scores in `localStorage`.
 - Pass mark: 80%.
+- **Teacher unlock:** After MRJ sign-in, use the **Teacher** chip (PIN) → **Unlock** panel or **Start from here** on a test row. Saves per student in `localStorage` (`d5v2-teacher-<student>` and `d5v2-lock-<student>-<book>`). **Temporary `UNLOCK_ALL = true`** in `assets/js/app.js` keeps every test open until Jay turns it off (`UNLOCK_ALL = false`); teacher grants still save and apply once that flag is off.
 - **Conversation Review** merged unit tests (Basic / Int 2 / Int 3): see [REVIEW_UNIT_TESTS.md](REVIEW_UNIT_TESTS.md).
 - Basic: 33 assessments (A/B/C), pictures under `pictures/`, audio under `audio/`.
 - Intermediate: 66 assessments (INT2A–INT3C), packs under `staging/INT*/`.

@@ -12,6 +12,7 @@
 
   var PREFIX = 'd5v2-';
   var LOCK_PREFIX = 'd5v2-lock-';
+  var TEACHER_PREFIX = 'd5v2-teacher-';
   var MIGRATE_MARKER_PREFIX = 'd5v2-migrated-legacy-';
   var UNLOCKED = '';
 
@@ -120,6 +121,73 @@
     writeLock(storage, studentKey, book, null);
   }
 
+  function teacherGrantStorageKey(studentKey) {
+    return studentKey ? TEACHER_PREFIX + studentKey : TEACHER_PREFIX + 'legacy';
+  }
+
+  function readTeacherGrantMap(storage, studentKey) {
+    if (!storage || !studentKey) return {};
+    var raw = storage.getItem(teacherGrantStorageKey(studentKey));
+    if (!raw) return {};
+    try {
+      var parsed = JSON.parse(raw);
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function writeTeacherGrantMap(storage, studentKey, map) {
+    if (!storage || !studentKey) return;
+    var k = teacherGrantStorageKey(studentKey);
+    if (!map || !Object.keys(map).length) {
+      storage.removeItem(k);
+      return;
+    }
+    storage.setItem(k, JSON.stringify(map));
+  }
+
+  /** @returns {{mode:string, testId?:string}|null} */
+  function readTeacherGrant(storage, studentKey, book) {
+    if (!book || !studentKey) return null;
+    var map = readTeacherGrantMap(storage, studentKey);
+    var g = map[book];
+    if (!g || typeof g !== 'object') return null;
+    if (g.mode === 'open') return { mode: 'open' };
+    if (g.mode === 'start' && g.testId) return { mode: 'start', testId: String(g.testId) };
+    return null;
+  }
+
+  function setTeacherGrant(storage, studentKey, book, grant) {
+    if (!storage || !studentKey || !book) return;
+    var map = readTeacherGrantMap(storage, studentKey);
+    if (!grant) {
+      delete map[book];
+    } else if (grant.mode === 'open') {
+      map[book] = { mode: 'open' };
+    } else if (grant.mode === 'start' && grant.testId) {
+      map[book] = { mode: 'start', testId: String(grant.testId) };
+    } else {
+      return;
+    }
+    writeTeacherGrantMap(storage, studentKey, map);
+  }
+
+  function clearTeacherGrant(storage, studentKey, book) {
+    if (!storage || !studentKey || !book) return;
+    var map = readTeacherGrantMap(storage, studentKey);
+    if (!map[book]) return;
+    delete map[book];
+    writeTeacherGrantMap(storage, studentKey, map);
+  }
+
+  function listTeacherGrants(storage, studentKey) {
+    var map = readTeacherGrantMap(storage, studentKey);
+    return Object.keys(map).map(function (book) {
+      return { book: book, grant: readTeacherGrant(storage, studentKey, book) };
+    }).filter(function (row) { return row.grant; });
+  }
+
   return {
     PREFIX: PREFIX,
     LOCK_PREFIX: LOCK_PREFIX,
@@ -136,6 +204,12 @@
     readLock: readLock,
     writeLock: writeLock,
     clearLock: clearLock,
-    listStorageKeys: listStorageKeys
+    listStorageKeys: listStorageKeys,
+    TEACHER_PREFIX: TEACHER_PREFIX,
+    teacherGrantStorageKey: teacherGrantStorageKey,
+    readTeacherGrant: readTeacherGrant,
+    setTeacherGrant: setTeacherGrant,
+    clearTeacherGrant: clearTeacherGrant,
+    listTeacherGrants: listTeacherGrants
   };
 });

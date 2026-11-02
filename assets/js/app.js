@@ -1,8 +1,9 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261102-unlock-all-temp */
+/* build: 20261102-teacher-start-here */
 (function () {
   'use strict';
   // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
+  // Turn off later: set UNLOCK_ALL = false in this file (teacher grants + normal locks still apply).
   var UNLOCK_ALL = true;
   var html = document.documentElement;
   var ROOT = html.dataset.siteRoot || '';
@@ -98,11 +99,84 @@
     } catch (e) {}
   }
 
+  function teacherGrantLock(b) {
+    if (!studentKey || !storageApi.readTeacherGrant) return undefined;
+    var g = storageApi.readTeacherGrant(localStorage, studentKey, b);
+    if (!g) return undefined;
+    if (g.mode === 'open') return null;
+    if (g.mode === 'start' && g.testId) return g.testId;
+    return undefined;
+  }
+
   function lockOf(b) {
     if (UNLOCK_ALL) return null;
     if (mrjTeacher()) return null;
+    var tg = teacherGrantLock(b);
+    if (tg !== undefined) return tg;
     if (storageApi.readLock) return storageApi.readLock(localStorage, studentKey, b);
     return localStorage.getItem(lockKey(b));
+  }
+
+  function teacherActionGuard() {
+    if (!mrjTeacher()) return false;
+    if (!studentKey) {
+      alert('Sign in as a student first, then enter Teacher PIN.');
+      return false;
+    }
+    return true;
+  }
+
+  function teacherStartFrom(bookId, testId) {
+    if (!teacherActionGuard()) return;
+    if (storageApi.setTeacherGrant) {
+      storageApi.setTeacherGrant(localStorage, studentKey, bookId, { mode: 'start', testId: testId });
+    }
+    if (storageApi.writeLock) storageApi.writeLock(localStorage, studentKey, bookId, testId);
+    route();
+  }
+
+  function teacherOpenBook(bookId) {
+    if (!teacherActionGuard()) return;
+    if (storageApi.setTeacherGrant) {
+      storageApi.setTeacherGrant(localStorage, studentKey, bookId, { mode: 'open' });
+    }
+    if (storageApi.clearLock) storageApi.clearLock(localStorage, studentKey, bookId);
+    route();
+  }
+
+  function teacherUndoGrant(bookId) {
+    if (!teacherActionGuard()) return;
+    if (storageApi.clearTeacherGrant) storageApi.clearTeacherGrant(localStorage, studentKey, bookId);
+    route();
+  }
+
+  function bookLabelFor(id) {
+    if (!manifest || !manifest.books) return id;
+    var hit = manifest.books.filter(function (b) { return b.id === id; })[0];
+    return hit ? hit.label : id;
+  }
+
+  function routeContext() {
+    var parts = (location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean);
+    return { bookId: parts[0] || '', testId: parts[1] || '', bookLabel: parts[0] ? bookLabelFor(parts[0]) : '' };
+  }
+
+  function listTeacherGrantsForPanel() {
+    if (!studentKey || !storageApi.listTeacherGrants) return [];
+    return storageApi.listTeacherGrants(localStorage, studentKey).map(function (row) {
+      return {
+        book: row.book,
+        grant: row.grant,
+        bookLabel: bookLabelFor(row.book),
+        testsById: null
+      };
+    });
+  }
+
+  function listTestsForBook(bookId) {
+    var b = books[bookId];
+    if (!b || !b.tests) return [];
+    return b.tests.map(function (t) { return { id: t.id, title: t.title }; });
   }
 
   function setLock(b, t) {
@@ -208,6 +282,12 @@
     pill.id = 'd5-student-pill';
     pill.setAttribute('data-mrj-name-pill', '1');
     pill.hidden = true;
+    pill.addEventListener('click', function () {
+      if (!mrjTeacher()) return;
+      if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.togglePanel === 'function') {
+        window.MRJTeacherUnlock.togglePanel();
+      }
+    });
     controls.appendChild(pill);
     h.appendChild(controls);
     syncStudentChrome(studentDisplayId());
@@ -238,12 +318,24 @@
     var list = $('div', 'list');
     book.tests.forEach(function (t) {
       var b = best(book.id, t.id);
+      var wrap = $('div', 'row-wrap');
       var a = $('a', 'row' + (b != null && b >= 80 ? ' done' : '') + (lock && lock !== t.id ? ' locked' : ''));
       a.appendChild($('span', 'rt', t.title));
       a.appendChild($('span', 'rs', b != null && b >= 80 ? '⭐ Passed' : (lock === t.id ? '▶ Try again' : '')));
       if (!lock || lock === t.id) a.href = '#/' + book.id + '/' + t.id;
       else a.setAttribute('aria-disabled', 'true');
-      list.appendChild(a);
+      wrap.appendChild(a);
+      if (mrjTeacher()) {
+        var tb = $('button', 'teacher-start-btn', 'Start from here');
+        tb.type = 'button';
+        tb.addEventListener('click', function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          teacherStartFrom(book.id, t.id);
+        });
+        wrap.appendChild(tb);
+      }
+      list.appendChild(wrap);
     });
     app.appendChild(list);
   }
@@ -544,6 +636,17 @@
   if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.installRefresh === 'function') {
     window.MRJTeacherUnlock.installRefresh(function () { route(); });
   }
+  if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.configure === 'function') {
+    window.MRJTeacherUnlock.configure({
+      studentLabel: studentDisplayId,
+      listGrants: listTeacherGrantsForPanel,
+      routeContext: routeContext,
+      listTests: listTestsForBook,
+      openBook: teacherOpenBook,
+      startFrom: teacherStartFrom,
+      undoGrant: teacherUndoGrant
+    });
+  }
 
   window.addEventListener('mrj-auth-ready', function (ev) {
     var detail = (ev && ev.detail) || {};
@@ -559,9 +662,15 @@
   });
   document.addEventListener('mrj-teacher', function () {
     syncStudentChrome(studentDisplayId());
+    if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.onTeacherChrome === 'function') {
+      window.MRJTeacherUnlock.onTeacherChrome();
+    }
     route();
   });
-  load(MANIFEST).then(function (m) { manifest = m; route(); }).catch(fail);
+  load(MANIFEST).then(function (m) {
+    manifest = m;
+    route();
+  }).catch(fail);
   function findItem(book, itemId) {
     var found = null;
     Object.keys(book.units).some(function (uid) {
@@ -599,6 +708,10 @@
     prepare: prepare,
     getBook: getBook,
     lockOf: lockOf,
+    teacherGrantLock: teacherGrantLock,
+    teacherStartFrom: teacherStartFrom,
+    teacherOpenBook: teacherOpenBook,
+    teacherUndoGrant: teacherUndoGrant,
     tileAnswerOk: tileAnswerOk,
     renderTileItem: renderTileItem,
     state: function () { return st; }

@@ -167,5 +167,17 @@ test('TEMP UNLOCK_ALL disables in-book test locks (Jay classroom urgent)', funct
   var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
   assert.match(appSrc, /var UNLOCK_ALL = true;/);
   assert.match(appSrc, /Jay temporary unlock until proper teacher unlock UI/);
+  assert.match(appSrc, /Turn off later: set UNLOCK_ALL = false/);
   assert.match(appSrc, /if \(UNLOCK_ALL\) return null/);
+});
+
+test('teacher unlock UI and grant merge in lockOf', function () {
+  var unlockSrc = fs.readFileSync(path.join(__dirname, '../assets/js/mrj-teacher-unlock.js'), 'utf8');
+  assert.match(unlockSrc, /d5-teacher-panel/);
+  assert.match(unlockSrc, /Start from here/);
+  assert.match(unlockSrc, /configure:/);
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  assert.match(appSrc, /teacherGrantLock/);
+  assert.match(appSrc, /teacher-start-btn/);
+  assert.match(appSrc, /readTeacherGrant/);
 });
