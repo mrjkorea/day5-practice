@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261106-teacher-chart-try2 */
+/* build: 20261106-teacher-chart-try3 */
 (function () {
   'use strict';
   // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
@@ -180,6 +180,27 @@
     var n = attemptCount(b, t) + 1;
     localStorage.setItem(attemptStoreKey(b, t), String(n));
     return n;
+  }
+  function attemptScoresKey(b, t) {
+    return (studentKey ? 'd5v2-scores-' + studentKey + '-' : 'd5v2-scores-') + b + '-' + t;
+  }
+  function readAttemptScores(b, t) {
+    try {
+      var a = JSON.parse(localStorage.getItem(attemptScoresKey(b, t)) || '[]');
+      return Array.isArray(a) ? a : [];
+    } catch (e) { return []; }
+  }
+  function pushAttemptScore(b, t, pct) {
+    var a = readAttemptScores(b, t);
+    a.push(Math.round(pct));
+    if (a.length > 30) a = a.slice(-30);
+    localStorage.setItem(attemptScoresKey(b, t), JSON.stringify(a));
+    return a;
+  }
+  function bestTryNumber(scores) {
+    var at = 0;
+    scores.forEach(function (v, i) { if (v > scores[at]) at = i; });
+    return at + 1;
   }
   function tryAgain(bookId, testId) {
     if (attemptCount(bookId, testId) > 0) {
@@ -616,7 +637,11 @@
     var pct = Math.round(100 * st.right / st.qs.length);
     var bk = st.book.id, tid = st.test.id;
     var attempt = bumpAttempt(bk, tid);
-    if (pass) { setLock(bk, null); var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), pct); }
+    var scoresSoFar = pushAttemptScore(bk, tid, pct);
+    // The best score is kept on EVERY finished try, pass or not (a student who has not
+    // passed yet still has a best, and a lower re-try never lowers it).
+    var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), Math.round(pct));
+    if (pass) setLock(bk, null);
     postFinished(bk, tid, st, pass, attempt);
     app.innerHTML = '';
     var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
@@ -625,9 +650,16 @@
     card.appendChild($('p', 'score pct', pct + '%'));
     card.appendChild($('p', 'meta rawscore', st.right + ' / ' + st.qs.length + ' right'));
     card.appendChild($('p', 'meta', '💬 Talk questions: ' + st.gateRight + ' / ' + st.gateN + (st.gateN ? ' (' + Math.round(100 * st.gateRight / st.gateN) + '%)' : '') + ' (need ' + bp.gateNeed + ')  ·  Need ' + bp.pass + ' / ' + bp.n));
-    card.appendChild($('p', 'meta tries', 'Try ' + attempt + ' · every try is kept'));
+    card.appendChild($('p', 'meta tries', 'Try ' + attempt + ' · ' + pct + '% · every try is kept'));
     var bestPct = best(bk, tid);
-    if (bestPct != null) card.appendChild($('p', 'meta best', 'Best ' + Math.round(bestPct) + '%'));
+    if (bestPct != null) {
+      var bn = bestTryNumber(scoresSoFar);
+      card.appendChild($('p', 'meta best', 'Best ' + Math.round(bestPct) + '%' + (bn !== attempt ? ' (try ' + bn + ')' : '')));
+    }
+    var earlier = scoresSoFar.slice(0, -1);
+    if (earlier.length) {
+      card.appendChild($('p', 'meta earlier', 'Earlier tries: ' + earlier.map(function (v, i) { return 'try ' + (i + 1) + ' ' + v + '%'; }).join(' · ')));
+    }
     var row = $('div', 'result-actions');
     if (pass) {
       var ok = $('a', 'bigbtn go', 'OK ⭐');

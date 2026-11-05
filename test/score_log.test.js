@@ -192,6 +192,17 @@ test('teacher start actually navigates to the activity (dead button fix)', funct
   assert.match(appSrc, /clearLock[\s\S]{0,220}goToActivity\(bookId\)/);
 });
 
+test('best score is kept on a fail too, and earlier tries stay visible', function () {
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  // the best is written on every finished try, not only on a pass
+  assert.match(appSrc, /if \(b == null \|\| pct > b\) localStorage\.setItem\(key\(bk, tid\), Math\.round\(pct\)\)/);
+  assert.match(appSrc, /if \(pass\) setLock\(bk, null\);/);
+  // per-try score log survives reload and shows the eariler tries
+  assert.match(appSrc, /function pushAttemptScore\(/);
+  assert.match(appSrc, /Earlier tries: /);
+  assert.match(appSrc, /Best ' \+ Math\.round\(bestPct\)/);
+});
+
 test('Try again exists on every activity and keeps the records', function () {
   var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
   assert.match(appSrc, /function tryAgain\(/);
