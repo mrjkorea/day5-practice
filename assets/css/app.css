@@ -104,3 +104,5 @@ button{font:inherit;color:inherit;cursor:pointer}
 .d5-tch-act-name{flex:1;font-weight:800;font-size:1rem}
 .d5-tch-act-meta{color:var(--muted);font-size:.9rem;white-space:nowrap}
 .d5-tch-act-go{font-weight:900;color:#1d5bc0;font-size:.95rem;white-space:nowrap}
+.trychip{font-size:.85rem;font-weight:900;color:#c25b12;background:#fff1e2;border:2px solid #e0752d;border-radius:999px;padding:2px 10px}
+.meta.best{font-weight:800;color:#1d5bc0}

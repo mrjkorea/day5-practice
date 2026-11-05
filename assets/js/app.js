@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261106-teacher-chart-try-again */
+/* build: 20261106-teacher-chart-try2 */
 (function () {
   'use strict';
   // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
@@ -429,7 +429,7 @@
     var qs = (test.items && test.items.length)
       ? shuffle(test.items).map(prepare)
       : draw(book, test);
-    st = { book: book, test: test, qs: qs, i: 0, right: 0, gateRight: 0, gateN: 0, answered: false };
+    st = { book: book, test: test, qs: qs, i: 0, right: 0, gateRight: 0, gateN: 0, answered: false, tryNo: attemptCount(book.id, test.id) + 1 };
     renderQ();
   }
 
@@ -439,6 +439,7 @@
     app.innerHTML = '';
     var top = $('div', 'qtop');
     top.appendChild($('span', 'count', (st.i + 1) + ' / ' + st.qs.length));
+    if (st.tryNo > 1) top.appendChild($('span', 'trychip', 'Try ' + st.tryNo));
     if (isGate(q.t)) top.appendChild($('span', 'talk', '💬'));
     var bar = $('div', 'bar'); var fill = $('span'); fill.style.width = (100 * st.i / st.qs.length) + '%'; bar.appendChild(fill);
     top.appendChild(bar);
@@ -625,6 +626,8 @@
     card.appendChild($('p', 'meta rawscore', st.right + ' / ' + st.qs.length + ' right'));
     card.appendChild($('p', 'meta', '💬 Talk questions: ' + st.gateRight + ' / ' + st.gateN + (st.gateN ? ' (' + Math.round(100 * st.gateRight / st.gateN) + '%)' : '') + ' (need ' + bp.gateNeed + ')  ·  Need ' + bp.pass + ' / ' + bp.n));
     card.appendChild($('p', 'meta tries', 'Try ' + attempt + ' · every try is kept'));
+    var bestPct = best(bk, tid);
+    if (bestPct != null) card.appendChild($('p', 'meta best', 'Best ' + Math.round(bestPct) + '%'));
     var row = $('div', 'result-actions');
     if (pass) {
       var ok = $('a', 'bigbtn go', 'OK ⭐');
