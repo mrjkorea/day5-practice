@@ -75,6 +75,60 @@
     return bookLabel;
   }
 
+  function bookGroup(book) {
+    var group = el('section', 'd5-tch-group');
+    var head = el('div', 'd5-tch-group-head');
+    head.appendChild(el('span', 'd5-tch-group-name', book.label || book.id));
+    var open = el('button', 'd5-teacher-btn d5-teacher-btn-undo', 'Open book');
+    open.type = 'button';
+    open.addEventListener('click', function () {
+      if (appHooks.openBook) appHooks.openBook(book.id);
+    });
+    head.appendChild(open);
+    group.appendChild(head);
+
+    var tests = book.tests || [];
+    if (!tests.length) {
+      group.appendChild(el('p', 'd5-teacher-panel-note', book.loaded === false ? 'Loading activities…' : 'No activities yet.'));
+      return group;
+    }
+    var list = el('div', 'd5-tch-acts');
+    tests.forEach(function (t) {
+      var row = el('button', 'd5-tch-act');
+      row.type = 'button';
+      row.setAttribute('aria-label', 'Start ' + (t.title || t.id));
+      row.appendChild(el('span', 'd5-tch-act-name', t.title || t.id));
+      var bits = [];
+      if (t.best != null) bits.push(t.best + '%');
+      if (t.tries > 1) bits.push(t.tries + ' tries');
+      row.appendChild(el('span', 'd5-tch-act-meta', bits.join(' · ')));
+      row.appendChild(el('span', 'd5-tch-act-go', '▶ Start'));
+      row.addEventListener('click', function () {
+        if (appHooks.startFrom) appHooks.startFrom(book.id, t.id);
+      });
+      list.appendChild(row);
+    });
+    group.appendChild(list);
+    return group;
+  }
+
+  function paintChart(body) {
+    var books = appHooks.listBooks ? appHooks.listBooks() : [];
+    body.appendChild(el('h2', 'd5-teacher-panel-h', 'Start a student from any activity'));
+    if (!books.length) {
+      body.appendChild(el('p', 'd5-teacher-panel-note', 'Loading the activity list…'));
+      return;
+    }
+    books.forEach(function (b) { body.appendChild(bookGroup(b)); });
+    var busy = books.some(function (b) { return !b.loaded || !(b.tests && b.tests.length); });
+    if (busy && appHooks.loadBooks) {
+      appHooks.loadBooks().then(function () {
+        body.innerHTML = '';
+        paintChart(body);
+      });
+    }
+  }
+
   function renderPanelBody() {
     if (!panelEl || !appHooks) return;
     var body = panelEl.querySelector('.d5-teacher-panel-body');
@@ -89,7 +143,6 @@
 
     var grants = appHooks.listGrants ? appHooks.listGrants() : [];
     if (grants.length) {
-      body.appendChild(el('h2', 'd5-teacher-panel-h', 'Teacher unlocks'));
       var ul = el('ul', 'd5-teacher-grant-list');
       grants.forEach(function (row) {
         var li = el('li', 'd5-teacher-grant-item');
@@ -105,38 +158,9 @@
         ul.appendChild(li);
       });
       body.appendChild(ul);
-    } else {
-      body.appendChild(el('p', 'd5-teacher-panel-note', 'No teacher unlocks saved for this student yet.'));
     }
 
-    var ctx = appHooks.routeContext ? appHooks.routeContext() : {};
-    if (ctx.bookId && appHooks.listTests) {
-      body.appendChild(el('h2', 'd5-teacher-panel-h', ctx.bookLabel || ctx.bookId));
-      var openAll = el('button', 'd5-teacher-btn d5-teacher-btn-wide', 'Open all tests in this book');
-      openAll.type = 'button';
-      openAll.addEventListener('click', function () {
-        if (appHooks.openBook) appHooks.openBook(ctx.bookId);
-        renderPanelBody();
-      });
-      body.appendChild(openAll);
-      var tests = appHooks.listTests(ctx.bookId) || [];
-      var list = el('div', 'd5-teacher-test-list');
-      tests.forEach(function (t) {
-        var row = el('div', 'd5-teacher-test-row');
-        row.appendChild(el('span', 'd5-teacher-test-title', t.title));
-        var start = el('button', 'd5-teacher-btn', 'Start from here');
-        start.type = 'button';
-        start.addEventListener('click', function () {
-          if (appHooks.startFrom) appHooks.startFrom(ctx.bookId, t.id);
-          renderPanelBody();
-        });
-        row.appendChild(start);
-        list.appendChild(row);
-      });
-      body.appendChild(list);
-    } else {
-      body.appendChild(el('p', 'd5-teacher-panel-note', 'Open a book to pick a unit test, or use Start from here on the test list.'));
-    }
+    paintChart(body);
   }
 
   function openPanel() {

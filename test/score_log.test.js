@@ -138,7 +138,7 @@ test('postFinished in app.js uses raw right/total not percent-of-100', function 
   assert.match(src, /scoreValue:\s*scoreValue/);
   assert.match(src, /scoreMax:\s*scoreMax/);
   assert.doesNotMatch(src, /scoreMax:\s*100/);
-  assert.match(src, /postFinished\(bk,\s*tid,\s*st,\s*pass\)/);
+  assert.match(src, /postFinished\(bk,\s*tid,\s*st,\s*pass,\s*attempt\)/);
 });
 
 test('index.html cache ?v= stamps match version.json build', function () {
@@ -174,10 +174,30 @@ test('TEMP UNLOCK_ALL disables in-book test locks (Jay classroom urgent)', funct
 test('teacher unlock UI and grant merge in lockOf', function () {
   var unlockSrc = fs.readFileSync(path.join(__dirname, '../assets/js/mrj-teacher-unlock.js'), 'utf8');
   assert.match(unlockSrc, /d5-teacher-panel/);
-  assert.match(unlockSrc, /Start from here/);
+  assert.match(unlockSrc, /d5-tch-act/); // flat chart: every activity in one list
   assert.match(unlockSrc, /configure:/);
   var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
   assert.match(appSrc, /teacherGrantLock/);
-  assert.match(appSrc, /teacher-start-btn/);
   assert.match(appSrc, /readTeacherGrant/);
+  // Jay 2026-11-06: no start-from-here buttons in the student interface
+  assert.doesNotMatch(appSrc, /teacher-start-btn/);
+});
+
+test('teacher start actually navigates to the activity (dead button fix)', function () {
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  assert.match(appSrc, /function goToActivity\(/);
+  assert.match(appSrc, /location\.hash = want/);
+  // both teacher actions route through goToActivity
+  assert.match(appSrc, /setTeacherGrant[\s\S]{0,220}goToActivity\(bookId, testId\)/);
+  assert.match(appSrc, /clearLock[\s\S]{0,220}goToActivity\(bookId\)/);
+});
+
+test('Try again exists on every activity and keeps the records', function () {
+  var appSrc = fs.readFileSync(path.join(__dirname, '../assets/js/app.js'), 'utf8');
+  assert.match(appSrc, /function tryAgain\(/);
+  assert.match(appSrc, /Your old results are kept/);
+  assert.match(appSrc, /function bumpAttempt\(/);
+  assert.match(appSrc, /re_attempt: !!attempt && attempt > 1/);
+  // the best score can only go up
+  assert.match(appSrc, /if \(b == null \|\| pct > b\) localStorage\.setItem/);
 });

@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261102-teacher-start-here */
+/* build: 20261106-teacher-chart-try-again */
 (function () {
   'use strict';
   // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
@@ -126,13 +126,25 @@
     return true;
   }
 
+  // Teacher: save the grant, then GO to the activity. Re-rendering the current
+  // view was the bug: the tap saved a grant and redrew the same list.
+  function goToActivity(bookId, testId) {
+    st = null; // a teacher start abandons the running attempt; saved scores stay
+    var want = '#/' + bookId + (testId ? '/' + testId : '');
+    if (window.MRJTeacherUnlock && typeof window.MRJTeacherUnlock.closePanel === 'function') {
+      window.MRJTeacherUnlock.closePanel();
+    }
+    if (location.hash === want) route();
+    else location.hash = want; // hashchange clears st and routes
+  }
+
   function teacherStartFrom(bookId, testId) {
     if (!teacherActionGuard()) return;
     if (storageApi.setTeacherGrant) {
       storageApi.setTeacherGrant(localStorage, studentKey, bookId, { mode: 'start', testId: testId });
     }
     if (storageApi.writeLock) storageApi.writeLock(localStorage, studentKey, bookId, testId);
-    route();
+    goToActivity(bookId, testId);
   }
 
   function teacherOpenBook(bookId) {
@@ -141,7 +153,7 @@
       storageApi.setTeacherGrant(localStorage, studentKey, bookId, { mode: 'open' });
     }
     if (storageApi.clearLock) storageApi.clearLock(localStorage, studentKey, bookId);
-    route();
+    goToActivity(bookId);
   }
 
   function teacherUndoGrant(bookId) {
@@ -154,6 +166,32 @@
     if (!manifest || !manifest.books) return id;
     var hit = manifest.books.filter(function (b) { return b.id === id; })[0];
     return hit ? hit.label : id;
+  }
+
+  // ---------- tries (Try again keeps every record) ----------
+  function attemptStoreKey(b, t) {
+    return (studentKey ? 'd5v2-tries-' + studentKey + '-' : 'd5v2-tries-') + b + '-' + t;
+  }
+  function attemptCount(b, t) {
+    var v = parseInt(localStorage.getItem(attemptStoreKey(b, t)) || '0', 10);
+    return isFinite(v) && v > 0 ? v : 0;
+  }
+  function bumpAttempt(b, t) {
+    var n = attemptCount(b, t) + 1;
+    localStorage.setItem(attemptStoreKey(b, t), String(n));
+    return n;
+  }
+  function tryAgain(bookId, testId) {
+    if (attemptCount(bookId, testId) > 0) {
+      var msg = 'Your old results are kept. Your best score stays, and this new try is saved as another try.\n\nTry it again now?';
+      if (!window.confirm(msg)) return;
+    }
+    getBook(bookId).then(function (book) {
+      var t = book.tests.filter(function (x) { return x.id === testId; })[0];
+      if (!t) return;
+      location.hash = '#/' + bookId + '/' + testId;
+      startQuiz(book, t);
+    }).catch(fail);
   }
 
   function routeContext() {
@@ -176,7 +214,30 @@
   function listTestsForBook(bookId) {
     var b = books[bookId];
     if (!b || !b.tests) return [];
-    return b.tests.map(function (t) { return { id: t.id, title: t.title }; });
+    return b.tests.map(function (t) { return { id: t.id, title: t.title, best: best(bookId, t.id), tries: attemptCount(bookId, t.id) }; });
+  }
+
+  // Every activity of this page, for the teacher chart (one flat list, grouped by book).
+  function listAllBooks() {
+    if (!manifest || !manifest.books) return [];
+    return manifest.books.filter(function (b) { return !b.legacy; }).map(function (b) {
+      return {
+        id: b.id,
+        label: b.label,
+        loaded: !!books[b.id],
+        tests: listTestsForBook(b.id),
+        lock: lockOf(b.id)
+      };
+    });
+  }
+
+  function ensureAllBooks() {
+    if (!manifest || !manifest.books) return Promise.resolve([]);
+    var jobs = manifest.books.filter(function (b) { return !b.legacy; }).map(function (b) {
+      if (books[b.id]) return Promise.resolve();
+      return load(b.file).then(function (d) { d.id = b.id; books[b.id] = d; }).catch(function () {});
+    });
+    return Promise.all(jobs).then(listAllBooks);
   }
 
   function setLock(b, t) {
@@ -318,23 +379,27 @@
     var list = $('div', 'list');
     book.tests.forEach(function (t) {
       var b = best(book.id, t.id);
+      var tries = attemptCount(book.id, t.id);
       var wrap = $('div', 'row-wrap');
       var a = $('a', 'row' + (b != null && b >= 80 ? ' done' : '') + (lock && lock !== t.id ? ' locked' : ''));
       a.appendChild($('span', 'rt', t.title));
-      a.appendChild($('span', 'rs', b != null && b >= 80 ? '⭐ Passed' : (lock === t.id ? '▶ Try again' : '')));
+      var note = b != null && b >= 80 ? '⭐ Passed' : (b != null ? b + '%' : (lock === t.id ? '▶ Next' : ''));
+      if (tries > 1) note += ' · ' + tries + ' tries';
+      a.appendChild($('span', 'rs', note));
       if (!lock || lock === t.id) a.href = '#/' + book.id + '/' + t.id;
       else a.setAttribute('aria-disabled', 'true');
       wrap.appendChild(a);
-      if (mrjTeacher()) {
-        var tb = $('button', 'teacher-start-btn', 'Start from here');
+      // Try again: every activity, every day. Teacher start lives in the teacher chart only.
+      (function (t) {
+        var tb = $('button', 'try-again-btn', '🔁 Try again');
         tb.type = 'button';
         tb.addEventListener('click', function (ev) {
           ev.preventDefault();
           ev.stopPropagation();
-          teacherStartFrom(book.id, t.id);
+          tryAgain(book.id, t.id);
         });
         wrap.appendChild(tb);
-      }
+      })(t);
       list.appendChild(wrap);
     });
     app.appendChild(list);
@@ -351,6 +416,13 @@
     var go = $('button', 'bigbtn go', '▶ Start');
     go.onclick = function () { startQuiz(book, test); };
     app.appendChild(go);
+    var tries = attemptCount(book.id, test.id);
+    if (tries > 0) {
+      var again = $('button', 'bigbtn again', '🔁 Try again');
+      again.onclick = function () { tryAgain(book.id, test.id); };
+      app.appendChild(again);
+      app.appendChild($('p', 'note', 'Done ' + tries + (tries === 1 ? ' time' : ' times') + '. Your best score and every record are kept.'));
+    }
   }
 
   function startQuiz(book, test) {
@@ -508,7 +580,7 @@
     if (wrote && manifest && !st) route();
   }
 
-  function postFinished(bk, tid, st, pass) {
+  function postFinished(bk, tid, st, pass, attempt) {
     if (!window.MRJ_SCORES || typeof window.MRJ_SCORES.post !== 'function') return;
     var bp = st.test.bp;
     var scoreMax = st.qs.length;
@@ -530,7 +602,9 @@
         gate_total: st.gateN,
         pass_need: bp.pass,
         gate_need: bp.gateNeed,
-        passed: pass
+        passed: pass,
+        attempt: attempt || 1,
+        re_attempt: !!attempt && attempt > 1
       }
     });
   }
@@ -540,8 +614,9 @@
     var bp = st.test.bp, pass = st.right >= bp.pass && st.gateRight >= bp.gateNeed;
     var pct = Math.round(100 * st.right / st.qs.length);
     var bk = st.book.id, tid = st.test.id;
+    var attempt = bumpAttempt(bk, tid);
     if (pass) { setLock(bk, null); var b = best(bk, tid); if (b == null || pct > b) localStorage.setItem(key(bk, tid), pct); }
-    postFinished(bk, tid, st, pass);
+    postFinished(bk, tid, st, pass, attempt);
     app.innerHTML = '';
     var card = $('section', 'card result ' + (pass ? 'pass' : 'fail'));
     card.appendChild($('div', 'emoji', pass ? '🎉' : '💪'));
@@ -549,10 +624,18 @@
     card.appendChild($('p', 'score pct', pct + '%'));
     card.appendChild($('p', 'meta rawscore', st.right + ' / ' + st.qs.length + ' right'));
     card.appendChild($('p', 'meta', '💬 Talk questions: ' + st.gateRight + ' / ' + st.gateN + (st.gateN ? ' (' + Math.round(100 * st.gateRight / st.gateN) + '%)' : '') + ' (need ' + bp.gateNeed + ')  ·  Need ' + bp.pass + ' / ' + bp.n));
-    var btn;
-    if (pass) { btn = $('a', 'bigbtn go', 'OK ⭐'); btn.href = '#/' + bk; }
-    else { btn = $('button', 'bigbtn go', '🔁 Try again'); btn.onclick = function () { startQuiz(st.book, st.test); }; }
-    card.appendChild(btn);
+    card.appendChild($('p', 'meta tries', 'Try ' + attempt + ' · every try is kept'));
+    var row = $('div', 'result-actions');
+    if (pass) {
+      var ok = $('a', 'bigbtn go', 'OK ⭐');
+      ok.href = '#/' + bk;
+      row.appendChild(ok);
+    }
+    // Try again on every finished activity, pass or fail. Warning first, records kept.
+    var again = $('button', 'bigbtn again', '🔁 Try again');
+    again.onclick = function () { tryAgain(bk, tid); };
+    row.appendChild(again);
+    card.appendChild(row);
     app.appendChild(card);
     st = null;
     window.__d5done = pass ? 'pass' : 'fail';
@@ -642,6 +725,8 @@
       listGrants: listTeacherGrantsForPanel,
       routeContext: routeContext,
       listTests: listTestsForBook,
+      listBooks: listAllBooks,
+      loadBooks: ensureAllBooks,
       openBook: teacherOpenBook,
       startFrom: teacherStartFrom,
       undoGrant: teacherUndoGrant
@@ -670,6 +755,8 @@
   load(MANIFEST).then(function (m) {
     manifest = m;
     route();
+    // Warm every book so the teacher chart lists all activities, not just the open book.
+    ensureAllBooks();
   }).catch(fail);
   function findItem(book, itemId) {
     var found = null;
@@ -710,6 +797,9 @@
     lockOf: lockOf,
     teacherGrantLock: teacherGrantLock,
     teacherStartFrom: teacherStartFrom,
+    tryAgain: tryAgain,
+    attemptCount: attemptCount,
+    listAllBooks: listAllBooks,
     teacherOpenBook: teacherOpenBook,
     teacherUndoGrant: teacherUndoGrant,
     tileAnswerOk: tileAnswerOk,

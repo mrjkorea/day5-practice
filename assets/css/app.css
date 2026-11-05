@@ -86,3 +86,21 @@ button{font:inherit;color:inherit;cursor:pointer}
 .meta{color:var(--muted);font-size:1.1rem}
 .result.pass h1{color:var(--green)}
 .result.fail h1{color:#e0752d}
+
+/* Try again — every activity, records kept (Jay 2026-11-06) */
+.try-again-btn{align-self:flex-end;min-height:48px;padding:10px 16px;border-radius:14px;border:3px solid #e0752d;background:#fff;color:#c25b12;font-size:1rem;font-weight:800}
+.try-again-btn:active{transform:translateY(2px)}
+.bigbtn.again{background:#fff;color:#c25b12;border:3px solid #e0752d;box-shadow:0 6px 0 #f0b27f}
+.bigbtn.again:active{box-shadow:0 3px 0 #f0b27f}
+.result-actions{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+
+/* Teacher chart: one flat list, grouped by book (Jay 2026-11-06) */
+.d5-tch-group{margin:10px 0 16px;border:2px solid var(--line);border-radius:16px;padding:10px 12px;background:#fffdf7}
+.d5-tch-group-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.d5-tch-group-name{font-weight:900;font-size:1.05rem}
+.d5-tch-acts{display:flex;flex-direction:column;gap:6px}
+.d5-tch-act{display:flex;align-items:center;gap:10px;width:100%;text-align:left;min-height:52px;padding:10px 12px;border-radius:14px;border:2px solid #d7e3f8;background:#f4f8ff}
+.d5-tch-act:active{transform:translateY(2px);background:#e8f1ff}
+.d5-tch-act-name{flex:1;font-weight:800;font-size:1rem}
+.d5-tch-act-meta{color:var(--muted);font-size:.9rem;white-space:nowrap}
+.d5-tch-act-go{font-weight:900;color:#1d5bc0;font-size:.95rem;white-space:nowrap}
