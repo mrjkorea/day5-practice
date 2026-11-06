@@ -1,5 +1,5 @@
 /* MRJ Day 5 unit tests — one engine for Basic and Intermediate (v2, listening-first). */
-/* build: 20261106-teacher-chart-try3 */
+/* build: 20261106-update-bar-4 */
 (function () {
   'use strict';
   // Jay temporary unlock until proper teacher unlock UI — disables all in-book test path locks.
