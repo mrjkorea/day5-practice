@@ -4,6 +4,11 @@
    Nothing else. No tunnels. No per-app side sheet.
    Safe on file:// (posts use text/plain so Apps Script needs no CORS preflight).
 
+   Client 2026-11-11-identity (Reg/Metrics): identity_method and
+   identity_confidence are derived from how the student was found, not hardcoded.
+   A signed-in student is mrj_signin/high; a name from opts.student is
+   typed_name/medium; the literal "unknown" is none/low. Field names are unchanged.
+
    Client 2026-11-10-course-unit (Reg/Metrics):
    post() now passes courseName -> course_name, assignmentId -> assignment_id,
    unitId -> unit_id, lessonId -> lesson_id. The receiver writes any key that
@@ -29,12 +34,27 @@
     return (n < 10 ? "0" : "") + n;
   }
 
-  /* One identity for one student. The same normalisation the book uses. */
+  /* One identity for one student. The same normalisation the book uses.
+     2026-11-10 mirror of the receiver's identity rule (Code.gs validatePayload_):
+     a space, a Korean character and any character outside ASCII word shape is
+     rejected by receiver 5.1.0 with "invalid student_email". So the id_key that
+     goes in student_email is reduced to [a-z0-9._-]. The name the student sees
+     still comes from student_name (the raw signed-in string). */
   function idKey(s) {
-    return String(s == null ? "" : s)
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, " ");
+    var v = String(s == null ? "" : s).trim().toLowerCase();
+    if (v.indexOf("@") > 0) {
+      /* An email address is not a name: keep it as an email, cleaned. */
+      var parts = v.split("@");
+      var local = parts[0].replace(/[^a-z0-9._-]+/g, "").slice(0, 40) || "student";
+      var domain = (parts[1] || "").replace(/[^a-z0-9.-]+/g, "").slice(0, 60);
+      return (local + "@" + domain).slice(0, 320);
+    }
+    var key = v.replace(/\s+/g, "_").replace(/[^a-z0-9._-]+/g, "").slice(0, 64);
+    /* A pure-Korean name reduces to nothing. "unknown" keeps the row in the
+       book; the name survives in student_name, which has no shape rule. */
+    if (!/^[a-z0-9]/.test(key)) key = "unknown" + key;
+    key = key.replace(/[^a-z0-9._-]+$/g, "");
+    return key || "unknown";
   }
 
   function signedIn() {
@@ -62,10 +82,25 @@
     );
   }
 
+  /* Attempt number for the attempt_index column, from the option or the app's
+     own metadata. Returns undefined (blank cell) when the app gave neither, so
+     a first try is never mistaken for try 0. */
+  function attemptIndex(opts, meta) {
+    var n = opts.attemptIndex != null ? opts.attemptIndex : meta && meta.attempt;
+    var v = Number(n);
+    return n === "" || n == null || !isFinite(v) || v <= 0 ? undefined : Math.floor(v);
+  }
+
   /* One finished item -> one row in ClassroomMetrics. */
   function post(opts) {
     opts = opts || {};
-    var student = signedIn() || String(opts.student || "").trim();
+    var authStudent = signedIn();
+    var student = authStudent || String(opts.student || "").trim();
+    /* "unknown" is the book's word for a post with no student at all. An app that
+       passes that literal (the news quiz did, to keep a signed-out play) is not a
+       sign-in and not a typed name, so it is labelled none/low below while the play
+       is still recorded (Reg/Metrics 2026-11-11). */
+    var anonymous = !authStudent && student.toLowerCase() === "unknown";
     /* No student, no row: a score must never land as an orphan. */
     if (!student) return Promise.resolve({ status: "skipped", error: "no student" });
     var key = idKey(student);
@@ -112,16 +147,25 @@
           score_max: typeof opts.scoreMax === "number" ? opts.scoreMax : "",
           score_pct: pct,
           correctness: opts.correctness || "",
-          /* Never invent a value the app did not set. A missing duration is
-             omitted; the receiver writes 0 for an absent duration too, so the
-             receiver must also learn to leave the cell empty. */
-          completed: typeof opts.completed === "boolean" ? opts.completed : undefined,
+          /* The attempt number has its own column. Apps pass it as
+             opts.attemptIndex, or inside metadata as `attempt`; without this
+             every re-try lands as try 0 in the book (found on Day 5,
+             2026-11-11). */
+          attempt_index: attemptIndex(opts, meta),
+          /* Every post from this client is a finished item, so completed is true unless
+             the app says otherwise. The receiver writes FALSE when the key is absent,
+             which made finished Day 3 tries read as unfinished (WordMaster,
+             2026-11-11). */
+          completed: typeof opts.completed === "boolean" ? opts.completed : true,
           duration_seconds:
             typeof opts.durationSeconds === "number" ? opts.durationSeconds : undefined,
           local_date: localDate(when),
-          /* Provenance for the book: how the student was identified. */
-          identity_method: "mrj_signin",
-          identity_confidence: "high",
+          /* Provenance for the book: how the student was identified. Derived, never
+             hardcoded (Reg/Metrics 2026-11-11). A real sign-in is mrj_signin/high;
+             a name typed by the app or passed in opts.student is typed_name/medium;
+             the literal "unknown" is none/low. Field names are unchanged. */
+          identity_method: authStudent ? "mrj_signin" : anonymous ? "none" : "typed_name",
+          identity_confidence: authStudent ? "high" : anonymous ? "low" : "medium",
           metadata_json: JSON.stringify(meta),
         },
       ],
@@ -201,6 +245,7 @@
   }
 
   root.MRJ_SCORES = {
+    attemptIndex: attemptIndex,
     ENDPOINT: ENDPOINT,
     SHEET_ID: SHEET_ID,
     SHEET_URL:
